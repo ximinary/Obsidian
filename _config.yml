@@ -1,6 +1,10 @@
 theme: jekyll-theme-minimal
-markdown: kramdown
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 kramdown:
-  input: GFM
   math_engine: mathjax
-
+  syntax_highlighter: rouge
