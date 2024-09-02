@@ -1,4 +1,4 @@
-#fax #math 
+#fax #math [ [[Home|Početna]] ]
 
 [[Logika]]
 [[Teorija skupova]]
