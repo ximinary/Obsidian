@@ -1,9 +1,9 @@
 #fax 
 $\:\:$
 
-##### [[Matematika]] #math
-#ds1 #ds2 #a1 
+#### [[Matematika]] #math
+#laag #ds1 #ds2 #a1 
 $\:\:$
-##### [[Računarstvo]] #cs
+#### [[Računarstvo]] #cs
 #cs/prog #cs/ar
 
