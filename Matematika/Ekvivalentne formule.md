@@ -2,7 +2,7 @@
 $\:$
 
 **Def**. Iskazne formule $A$ i $B$ su **logički ekvivalentne** ($A \equiv B$) ako za svaku valuaciju važi $v(A)=v(B)$ 
-(tj. $A \Leftrightarrow B$ je [[Tautologija]]).
+(tj. $A \Leftrightarrow B$ je [[tautologija]]).
 
 Važni primeri:
 1. $p \lor 0 \equiv p \qquad p \land 0 \equiv 0$

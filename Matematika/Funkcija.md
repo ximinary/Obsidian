@@ -18,7 +18,7 @@ Funkcije $f:\ \ X \to Y\:$ i $\:g:\ \ A \to B\:$ su **jednaki** ako 1)$\ X = A$;
 
 **Def**. Funkcija je **bijekcija** ako je "na" i "1-1".
 
-[Primer](funkcija%20primer%201.png)
+[[funkcija primer 1.png|Primer]]
 
 **Def**. **Identičko preslikavanje** (identitet) na $X$ je funkcija $id_X : \ \ X \to X \ \:$ definisana sa $\forall x \in X \ \ \ id_X(x)=x$
 

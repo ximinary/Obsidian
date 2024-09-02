@@ -23,7 +23,7 @@ $x \land \mathbb{1} = x \qquad$
 $x \land x' = \mathbb{0} \qquad$
 5. $\mathbb{0} \ne \mathbb{1} \qquad$ — nedegenerisanost
 
-Is aksioma 1.-5. izvode se sledeći zakoni ([dokazi](dokaze%20zakona%20bulovih%20algebri.png)):
+Is aksioma 1.-5. izvode se sledeći zakoni ([[dokazi zakona bulovih algebri.png|dokazi]]):
 
 6. $\mathbb{0}' = \mathbb{1}$
 $\mathbb{1}' = \mathbb{0}$
@@ -51,16 +51,16 @@ $\quad(1)\: x \land y = x \quad\quad (2) \:  y \land z = y\quad$
 
 $\quad\quad x  \stackrel{(1)}{=} x \land y \stackrel{(2)}{=} x \land y \land z \stackrel{(1)}{=} x \land z \quad \Rightarrow \quad x \leqslant z$ 
 
-[Stav](stav.%20relacija%20poretka%20u%20bulobim%20algebrama.png)
+[[stav. relacija poretka u bulovim algebrama.png|Stav]]
 
 ### Princip dualnosti
 $\Phi(B, \: \lor, \: \land, \: ', \: \mathbb{0}, \: \mathbb{1})$ - iskaz u bulovoj algebri $B$.
 Tada je $\Phi(B, \: \lor, \: \land, \: ', \: \mathbb{0}, \: \mathbb{1})$ tačno akko je $\Phi(B, \: \land, \: \lor, \: ', \: \mathbb{1}, \: \mathbb{0})$ tačno.
 $\Phi(B, \: \land, \: \lor, \: ', \: \mathbb{1}, \: \mathbb{0})$ je **dualan** prvom iskazu.
 ### Primeri bulovih algebri
-1. Algebra [iskazne logike](Iskazna%20logika): $B = \{0,1 \}$,  $\lor$, $\land$, $\neg$
+1. Algebra [[Iskazna logika|iskazne logike]]: $B = \{0,1 \}$,  $\lor$, $\land$, $\neg$
 Bulova algebra — $(\{0, 1\},\lor,\land,\neg,0,1)$
-2. Algebra [karakterističnih funkcija](Karakteristi%C4%8Dna%20funkcija) na skupu $X$:
+2. Algebra [[Karakteristična funkcija|karakterističnih funkcija]] na skupu $X$:
 $X \ne \varnothing$
 $B = \{ \chi_{A} \:|\: A \subseteq X\}$
 $\chi_{A} \lor \chi_{B} := \chi_{A \cup B}$
@@ -70,5 +70,5 @@ $1 := \chi_{\varnothing}$
 $0 := \chi_{X}$
 Bulova algebra — $(B,\lor,\land,',\chi_{\varnothing},\chi_{X})$
 
-[Drugi primeri bulovih algebri](primeri%20bulovih%20algebri.png)
+[[primeri bulovih algebri.png|Drugi primeri bulovih algebri]]
 
