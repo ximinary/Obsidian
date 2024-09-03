@@ -42,7 +42,7 @@ $Z=\{X,\:Y\}$
 
 **Def.** Uređeni par $\:(a,\ b)\:$ je $\:\{\{a\},\ \{a,\ b\}\}$
 **Def.** Uređena trojka $\:(a,\ b,\ c)\:$ je $\:(a,\ (b,\ c))$
-**Def.** Uređena $n$-torka se zada slično rekurentno.
+**Def.** Uređena $n$-torka se zada slično rekurentno. ^e21aa8
 
 [Stav](stav.%20jednakost%20ure%C4%91enih%20parova.png). $(a, \ b) = (c, \ d)\quad$ akko $\quad \begin{cases} a = c\\ b = d \end{cases}$
 

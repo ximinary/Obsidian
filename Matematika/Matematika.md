@@ -5,6 +5,7 @@
 [Relacije](Relacija) i [funkcije](Funkcija)
 [[Brojevi]]
 [[Analiza]]
+[[Linearna algebra]]
 [[Kombinatorika]]
 Teorija grafova
 Geometrija
