@@ -11,7 +11,7 @@ Primeri relacija ekvivalencije:
 
 **Def**. Neka je $\sim$ relacija ekvivalencije na skupu $A$.
 **Klasa** elementa $a \in A$ je skup $C_a = \{ x \in A\ | \ a\sim x\}$
-Oznaka: $[\,a\,]$
+Oznaka: $[\,a\,]$ ^a0eeb7
 
 [Stav](klasa%20ekvivalencije%20stav.png). Neka je $\sim$ relacija ekvivalencije na skupu $A$, tada
 1. Svaka klasa je neprazan skup
@@ -19,7 +19,7 @@ Oznaka: $[\,a\,]$
 3. $A$ je unija svih klasa ekvivalencije relacije $\sim$
 
 **Def**. Neka je $\sim$ relacija ekvivalencije na skupu $A$.
-**Količnički skup** (faktor skup) je $A/\!\sim\:\: = \{ C_x\ | \ x \in A \}$
+**Količnički skup** (faktor skup) je $A/\!\sim\:\: = \{ C_x\ | \ x \in A \}$ ^8f9582
 
 Svaka relacija ekvivalencije na skupu $A$ određuje jednu [particiju](Particija%20skupa.md) tog skupa.
 
