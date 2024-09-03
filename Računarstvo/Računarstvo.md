@@ -1,2 +1,2 @@
-#cs  [ [[Home|Početna]] ]
+#cs  [ [[Home]] ]
 

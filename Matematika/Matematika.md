@@ -1,13 +1,10 @@
-#fax #math [ [[Home|Početna]] ]
+#fax #math [ [[Home]] ]
 
 [[Logika]]
 [[Teorija skupova]]
 [Relacije](Relacija) i [funkcije](Funkcija)
 [[Brojevi]]
-[[Analiza]]
 [[Linearna algebra]]
-[[Kombinatorika]]
-Teorija grafova
 Geometrija
-Algebra
-
+[[Kombinatorika]]
+[[Analiza]]
