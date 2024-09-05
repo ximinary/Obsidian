@@ -10,7 +10,7 @@
 Ako $||e||=1\:$ onda $\:\mathbf{A'B'}=\left(\mathrm{pr}_{s}^{l}\ \mathbf{AB}\right)\cdot e$ 
 Ako je $l\perp s$, piše se $\mathrm{pr}_{s}\ \mathbf{AB}$
 
-**Teorema**. $s$ je osa, tada $\mathrm{pr}_{s}\ \mathbf{AB}=||\mathbf{AB}||\cdot\cos \widehat{(\mathbf{AB},\,s)}$
+**Teorema**. $s$ je osa, tada $\mathrm{pr}_{s}\ \mathbf{AB}=||\mathbf{AB}||\cdot\cos \widehat{(\mathbf{AB},\,s)}$ ^59abbe
 
 **Teorema**. Za $\forall \mathbf{AB},\,\mathbf{BC},\,\text{osu } s, \text{pravu }l\ \  (l\nparallel s)$ važi $\mathrm{pr}_{s}^{l}\ (\mathbf{AB}+\mathbf{BC})=\mathrm{pr}_{s}^{l}\ \mathbf{AB}+\mathrm{pr}_{s}^{l}\ \mathbf{BC}$
 
@@ -18,4 +18,19 @@ Ako je $l\perp s$, piše se $\mathrm{pr}_{s}\ \mathbf{AB}$
 
 ### Skalarni proizvod
 
-**Def**. **Skalarni** (unutrašnji) **proizvod** je funkcija$\ \ \cdot\,:\ V\times V\to\mathbb{R}$, takva da $\forall x,\,$
+**Def**. **Skalarni** (unutrašnji) **proizvod** je funkcija$\ \ \cdot\,:\ V\times V\to\mathbb{R}$, takva da $\forall x,\,y\in V\quad x\cdot y=||x||\cdot||y||\cdot\cos \widehat{(x,\,y)}$
+
+Iz [[Projektovanje vektora i skalarni proizvod vektora#^59abbe|teoreme]] sledi $x\cdot y=||x||\cdot \mathrm{pr}_{x}\ y=||y||\cdot\mathrm{pr}_{y}\ x$
+
+**Teorema** Ako su $x,\,y,\,z\in V,\ \alpha\in\mathbb{R}$ važe:
+1. $(x+y)\cdot z=x\cdot z+y\cdot z$
+2. $(\alpha\,x)\cdot y=\alpha\,(x\cdot y)$
+3. $x\cdot y=y\cdot x$
+4. $x\cdot x\geqslant0$
+5. $x\cdot x=0\quad\Leftrightarrow\quad x=0$
+
+> Dokaz: 3., 4. i 5. važe iz definicije.
+> 1\. $(x+y)\cdot z=||z||\,\mathrm{pr}_{z}\ (x+y)=$ $=||z||\,\mathrm{pr}_{z}\ x+||z||\,\mathrm{pr}_{z}\ y=x\cdot z+y\cdot z$
+> 2\. $(\alpha\,x)\cdot y=||y||\,\mathrm{pr}_{y}\ (\alpha\,x)=\alpha\,||y||\,\mathrm{pr}_{y}\ x=\alpha\,(x\cdot y)$
+
+Lema. $x=y\quad$
