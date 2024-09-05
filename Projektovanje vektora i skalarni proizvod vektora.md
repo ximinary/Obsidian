@@ -34,3 +34,14 @@ Iz [[Projektovanje vektora i skalarni proizvod vektora#^59abbe|teoreme]] sledi $
 > 2\. $(\alpha\,x)\cdot y=||y||\,\mathrm{pr}_{y}\ (\alpha\,x)=\alpha\,||y||\,\mathrm{pr}_{y}\ x=\alpha\,(x\cdot y)$
 
 Lema. $x=y\quad\Leftrightarrow\quad\forall u \in V\quad x\cdot u=y\cdot u$
+
+### Skalarni proizvod u koordinatama
+Neka je $(e_{1},\,e_{2},\,\dots,\,e_{n})$ ortonormirana baza
+$\Big($tj. važe $(\forall i \ne j=\overline{1,n}\quad e_{i}\cdot e_{j}=0)$ i $(\forall i =\overline{1,n}\quad||e_{i}||=1)$ $\Big)$
+
+$x = x_{1}\,e_{1}+x_{2}\,e_{2}+\dots+x_{n}\,e_{n}$
+$y = y_{1}\,e_{1}+y_{2}\,e_{2}+\dots+y_{n}\,e_{n}$
+
+tada $x\cdot y =(x_{1}\,e_{1}+x_{2}\,e_{2}+\dots+x_{n}\,e_{n})(y_{1}\,e_{1}+y_{2}\,e_{2}+\dots+y_{n}\,e_{n})=$
+$=x_{1}\,y_{1}(e_{1}\cdot e_{1})+x_{2}\,y_{2}(e_{2}\cdot e_{2})+\dots+x_{n}\,y_{n}(e_{n}\cdot e_{n})=$
+$=x_{1}\,y_{1}+x_{2}\,y_{2}+\dots+x_{n}\,y_{n}$
