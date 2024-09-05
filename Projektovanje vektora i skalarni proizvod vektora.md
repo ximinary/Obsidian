@@ -33,4 +33,4 @@ Iz [[Projektovanje vektora i skalarni proizvod vektora#^59abbe|teoreme]] sledi $
 > 1\. $(x+y)\cdot z=||z||\,\mathrm{pr}_{z}\ (x+y)=$ $=||z||\,\mathrm{pr}_{z}\ x+||z||\,\mathrm{pr}_{z}\ y=x\cdot z+y\cdot z$
 > 2\. $(\alpha\,x)\cdot y=||y||\,\mathrm{pr}_{y}\ (\alpha\,x)=\alpha\,||y||\,\mathrm{pr}_{y}\ x=\alpha\,(x\cdot y)$
 
-Lema. $x=y\quad$
+Lema. $x=y\quad\Leftrightarrow\quad\forall u \in V\quad x\cdot u=y\cdot u$
