@@ -41,5 +41,13 @@ $\:$
 (m3 i m4 važe za drugo i treće mesto koristeći m2)
 (iz m1 i m2 sledi: promena mesta dva vektora menja znak)
 
-> Dokazi:
-> 1.
+> Dokazi: 
+> v1 i v2 iz definicije vektorskog proizvoda.
+> m1 i m3 iz  v1 i v2.
+> 
+> m2) Iz prethodne teoreme $\Big|[x,\,y,\,z]\Big|=\Big|[y,\,z,\,x]\Big|$ je zapremina paralelepipeda određenog sa $z,\,y,\,z.$
+> — Ako $[x,\,y,\,z]>0$ $\: \ \Rightarrow\ \:$ $x\times y$ i $z$ su sa jedne strane od ravne $xy$ $\: \ \Rightarrow\ \:$ $(x,\,y,\,z)$ je pozitivna trojka $\: \ \Rightarrow\ \:$ $y\times z$ i $x$ su sa jedne strane od ravne $yz$ $\: \ \Rightarrow\ \:$ $[y,\,z,\,x]>0$
+> — Ako $[x,\,y,\,z]<0$ $\: \ \Rightarrow\ \:$ $x\times y$ i $z$ su sa različitih strana od ravne $xy$ $\: \ \Rightarrow\ \:$ $(x,\,y,\,z)$ je negativna trojka $\: \ \Rightarrow\ \:$ $y\times z$ i $x$ su sa različitih strana od ravne $yz$ $\: \ \Rightarrow\ \:$ $[y,\,z,\,x]<0$
+> Dakle, $[x,\,y,\,z]=[y,\,z,\,x]$
+>
+> m4) $[x+y,\,z,\,v]\uverset$
