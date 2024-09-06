@@ -27,27 +27,36 @@ $\:$
 **Teorema**. $\Big|[x,\,y,\,z]\Big|$ je zapremina paralelepipeda određenog sa $z,\,y,\,z.$
 
 **Teorema** (Svojstva). $\forall x,\,y,\,z,\,v\in V \:$ i $\ \forall\alpha\in\mathbb{R}$ važe:
-- v1) $\ \ [x,\,y]=-[y,\,x]$
-- v2) $\ \ [\alpha\,x,\,y]=\alpha[x,\,y]$
-- v3) $\ \ [x+y,\,z]=[x,\,z]+[y,\,z]$
+- **v1**) $\ \ [x,\,y]=-[y,\,x]$
+- **v2**) $\ \ [\alpha\,x,\,y]=\alpha[x,\,y]$
+- **v3**) $\ \ [x+y,\,z]=[x,\,z]+[y,\,z]$
+- **v4**) $\ \ [x,\,[y,\,z]]+[y,\,[z,\,x]]+[z,\,[x,\,y]]=0$
 
-(v2 i v3 važe za drugo mesto koristeći v1)
+(**v2** i **v3** važe za drugo mesto koristeći **v1**)
 $\:$
-- m1) $\ \ [x,\,y,\,z]=-[y,\,x,\,z]$
-- m2) $\ \ [x,\,y,\,z]=[y,\,z,\,x]$
-- m3) $\ \ [\alpha\,x,\,y,\,z]=\alpha[x,\,y,\,z]$
-- m4) $\ \ [x+y,\,z,\,v]=[x,\,z,\,v]+[y,\,z,\,v]$
+- **m1**) $\ \ [x,\,y,\,z]=-[y,\,x,\,z]$
+- **m2**) $\ \ [x,\,y,\,z]=[y,\,z,\,x]$
+- **m3**) $\ \ [\alpha\,x,\,y,\,z]=\alpha[x,\,y,\,z]$
+- **m4**) $\ \ [x+y,\,z,\,v]=[x,\,z,\,v]+[y,\,z,\,v]$
 
-(m3 i m4 važe za drugo i treće mesto koristeći m2)
-(iz m1 i m2 sledi: promena mesta dva vektora menja znak)
+(**m3** i **m4** važe za drugo i treće mesto koristeći **m2**)
+(iz **m1** i **m2** sledi: promena mesta dva vektora menja znak)
 
 > Dokazi: 
-> v1 i v2 iz definicije vektorskog proizvoda.
-> m1 i m3 iz  v1 i v2.
+> **v1** i **v2** iz definicije vektorskog proizvoda.
+> **m1** i **m3** iz  **v1** i **v2**.
 > 
-> m2) Iz prethodne teoreme $\Big|[x,\,y,\,z]\Big|=\Big|[y,\,z,\,x]\Big|$ je zapremina paralelepipeda određenog sa $z,\,y,\,z.$
+> **m2**) Iz prethodne teoreme $\Big|[x,\,y,\,z]\Big|=\Big|[y,\,z,\,x]\Big|$ je zapremina paralelepipeda određenog sa $z,\,y,\,z.$
 > — Ako $[x,\,y,\,z]>0$ $\: \ \Rightarrow\ \:$ $x\times y$ i $z$ su sa jedne strane od ravne $xy$ $\: \ \Rightarrow\ \:$ $(x,\,y,\,z)$ je pozitivna trojka $\: \ \Rightarrow\ \:$ $y\times z$ i $x$ su sa jedne strane od ravne $yz$ $\: \ \Rightarrow\ \:$ $[y,\,z,\,x]>0$
 > — Ako $[x,\,y,\,z]<0$ $\: \ \Rightarrow\ \:$ $x\times y$ i $z$ su sa različitih strana od ravne $xy$ $\: \ \Rightarrow\ \:$ $(x,\,y,\,z)$ je negativna trojka $\: \ \Rightarrow\ \:$ $y\times z$ i $x$ su sa različitih strana od ravne $yz$ $\: \ \Rightarrow\ \:$ $[y,\,z,\,x]<0$
 > Dakle, $[x,\,y,\,z]=[y,\,z,\,x]$
 >
-> m4) $[x+y,\,z,\,v]\uverset$
+> **m4**) $[x+y,\,z,\,v]\xlongequal{\text{m2}}[z,\,v,\,x+y]=[z,\,v]\cdot(x+y)\xlongequal{\text{svojstva skalarnog proizvoda}}$
+> $=[z,\,v]\cdot x + [z,\,v]\cdot y=[z,\,v,\,x]+[z,\,v,\,y]\xlongequal{\text{m2}}[x,\,z,\,v]+[y,\,z,\,v]$
+> 
+> **v3**) $[x+y,\,z]\cdot v\xlongequal{\text{m4}}\Big([x,\,z]+[y,\,z]\Big)\cdot v\quad\Rightarrow$
+> $\Rightarrow \quad [x+y,\,z]=[x,\,z]+[y,\,z]$
+> 
+> **v4** ćemo dokazati kasnije.
+
+### Vektorski i mešoviti proizvod u koordinatama
