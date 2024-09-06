@@ -20,7 +20,7 @@ Ako je $l\perp s$, piše se $\mathrm{pr}_{s}\ \mathbf{AB}$
 
 **Def**. **Skalarni** (unutrašnji) **proizvod** je funkcija$\ \ \cdot\,:\ V\times V\to\mathbb{R}$, takva da $\forall x,\,y\in V\quad x\cdot y=||x||\cdot||y||\cdot\cos \widehat{(x,\,y)}$
 
-Oznake: $(x\,|\,y);\quad\langle x,\,y\rangle;\quad x\circ y$
+Oznake: $\ \ x\cdot y;\quad(x\,|\,y);\quad\langle x,\,y\rangle;\quad x\circ y$
 
 Iz [[Projektovanje vektora i skalarni proizvod vektora#^59abbe|teoreme]] sledi $x\cdot y=||x||\cdot \mathrm{pr}_{x}\ y=||y||\cdot\mathrm{pr}_{y}\ x$
 
