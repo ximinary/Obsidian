@@ -81,7 +81,7 @@ $[x,\,y,\,z]=\bigg(\sum\limits_{i,\,j,\,k=1}^{3}\varepsilon_{ijk}\,x_{i\,}y_{j}\
 $\quad\quad\quad\ \,=\sum\limits_{i,\,j,\,k=1}^{3}\varepsilon_{ijk}\,x_{i\,}y_{j}\,z_{k}=\varepsilon\ \begin{array}{|c c c|}x_{1}&x_{2}&x_{3}\\ y_{1}&y_{2}&y_{3}\\ z_{1}&z_{2}&z_{3}\end{array}$
 
 ### Neasocijativnost $\times$
-[[Teorema]]. $\forall x,\,y,\,z\in V\quad(x\times y)\times z= (x\cdot z)\,y-(y\cdot z)\,x$
+[[neasocijativnostVektProizv.png|Teorema]]. $\forall x,\,y,\,z\in V\quad(x\times y)\times z= (x\cdot z)\,y-(y\cdot z)\,x$
 
 Posledica. $\times$ je neasocijativna.
 > Dokaz: 
@@ -90,3 +90,12 @@ Posledica. $\times$ je neasocijativna.
 > 
 > pps $\times$ je asocijativna, tada:
 > $\begin{align}x\times(y\times z)&=(x\times y)\times z\\ (z\cdot x)\,y-(y\cdot x)\,z&=(x\cdot z)\,y-(y\cdot z)\,x\\(y\cdot x)\,z&=(y\cdot z)\,x \end{align}$
+> Što ne važi za $\forall x,\,y,\,z$, na primer:
+> $x= (1,\,0,\,0),\quad y=(1,\,1,\,1),\quad z=(0,\,1,\,0)$
+> odakle $\ y\cdot z=1,\quad y\cdot z=1;\quad$Tada $x=z.$ Kontradikcija. 
+
+>Dokaz **v4**:
+> Iz teoreme
+> $\begin{array}{c|}x\times(y\times z)=(z\cdot x)\,y-(y\cdot x)\,z\\ y\times(z\times x)=(x\cdot y)\,z-(z\cdot y)\,x\\ z\times(x\times y)=(y\cdot z)\,x-(x\cdot z)\,y\end{array}\quad\Rightarrow$
+> 
+> $\Rightarrow\quad x\times(y\times z)+y\times(z\times x)+z\times(x\times y)=0$
