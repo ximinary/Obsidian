@@ -54,7 +54,9 @@ $x = x_{1}\,e_{1}+x_{2}\,e_{2}+\dots+x_{n}\,e_{n}$
 $y = y_{1}\,e_{1}+y_{2}\,e_{2}+\dots+y_{n}\,e_{n}$
 
 1. $||x||=\sqrt[]{x\cdot x}=\sqrt[]{\sum\limits_{i=1}^{n}x_{i}^{2}}$
-2. $\begin{align}\cos\widehat{(x,\,y)}=\frac{x\cdot y}{||x||\,||y||}\end{align}=\frac{\sum\limits_{i=1}^{n}x_{i}\,y_{i}}{\sqrt[]{\sum\limits_{i=1}^{n}x_{i}^{2}}\,\sqrt[]{\sum\limits_{i=1}^{n}y_{i}^{2}}}$
+2. $\begin{align}\cos\widehat{(x,\,y)}=\frac{x\cdot y}{||x||\,||y||}=\frac{\sum\limits_{i=1}^{n}x_{i}\,y_{i}}{\sqrt[]{\sum\limits_{i=1}^{n}x_{i}^{2}}\,\sqrt[]{\sum\limits_{i=1}^{n}y_{i}^{2}}}\end{align}$
 3. $\begin{align}\frac{x}{||x||}=\frac{x_{1}}{||x||}\,e_{1}+\frac{x_{2}}{||x||}\,e_{2}+\dots+\frac{x_{n}}{||x||}\,e_{n}=\end{align}$
-   $\cos\widehat{(x,\,e_{1})}\,e_{1}+\cos\widehat{(x,\,e_{2})}\,e_{2}+\dots+\cos\widehat{(x,\,e_{n})}\,e_{n}$
-   Tada $\ \ \cos^{2}\widehat{(x,\,e_{1})}+\cos^{2}\widehat{(x,\,e_{2})}+\dots+\cos^{2}\widehat{(x,\,e_{n})}=1$
+   $=\cos\widehat{(x,\,e_{1})}\,e_{1}+\cos\widehat{(x,\,e_{2})}\,e_{2}+\dots+\cos\widehat{(x,\,e_{n})}\,e_{n}$
+   
+   Odakle $\ \ \cos^{2}\widehat{(x,\,e_{1})}+\cos^{2}\widehat{(x,\,e_{2})}+\dots+\cos^{2}\widehat{(x,\,e_{n})}=1$
+4. $\begin{align}\mathrm{pr}_{x}\ y=\frac{x\cdot y}{||x||}=\frac{\sum\limits_{i=1}^{n}x_{i}\,y_{i}}{\sqrt[]{\sum\limits_{i=1}^{n}x_{i}^{2}}}\end{align}$
