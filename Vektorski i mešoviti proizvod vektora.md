@@ -66,3 +66,11 @@ $\varepsilon=\begin{cases}1,\quad\ \ \ \text{ako je }(e_{1},\,e_{2},\,e_{3})\tex
 
 > Asimetričan Kronekerov simbol:
 > $\begin{cases}\varepsilon_{123}=\varepsilon_{231}=\varepsilon_{312}=\varepsilon\\\varepsilon_{132}=\varepsilon_{213}=\varepsilon_{321}=-\varepsilon\\\varepsilon_{ijk}=0,\quad\text{ako }\ i=j\ \text{ ili }\ i=k\ \text{ ili }\ j=k\end{cases}$
+> 
+> $e_{i}\times e_{j}=\sum\limits_{k=1}^{3}\varepsilon_{ijk}\,e_{k}$
+> $[e_{i},\,e_{j},\,e_{k}]=\varepsilon_{ijk}$
+
+$x = x_{1}\,e_{1}+x_{2}\,e_{2}+x_{3}\,e_{3}$
+$y = y_{1}\,e_{1}+y_{2}\,e_{2}+y_{3}\,e_{3}$
+
+$x\times y=\sum\limits_{i,\,j=1}^{3}x_{i}\,y_{j}\,(e_{i}\times e_{j})=\sum\limits_{i,\,j,\,k=1}^{3}\varepsilon_{ijk}\,x_{i\,}y_{j}\,e_{k}=\varepsilon\ \begin{array}{|c c c|}e_{1}&e_{2}&e_{3}\\ x_{1}&x_{2}&x_{3}\\ y_{1}&y_{2}&y_{3}\end{array}$
