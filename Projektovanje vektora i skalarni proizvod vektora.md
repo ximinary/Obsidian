@@ -41,15 +41,20 @@ Lema. $x=y\quad\Leftrightarrow\quad\forall u \in V\quad x\cdot u=y\cdot u$
 Neka je $(e_{1},\,e_{2},\,\dots,\,e_{n})$ ortonormirana baza
 $\Big($tj. važe $(\forall i \ne j=\overline{1,n}\quad e_{i}\cdot e_{j}=0)$ i $(\forall i =\overline{1,n}\quad||e_{i}||=1)$ $\Big)$
 
+>Kronekerov simbol:
+>$\delta_{ij}=\begin{cases}1,\quad i = j\\0,\quad i \ne j\end{cases}$
+>$e_{i}\cdot e_{j}=\delta_{ij}$
+
+
 $x = x_{1}\,e_{1}+x_{2}\,e_{2}+\dots+x_{n}\,e_{n}$
 $y = y_{1}\,e_{1}+y_{2}\,e_{2}+\dots+y_{n}\,e_{n}$
 
-tada $x\cdot y =(x_{1}\,e_{1}+x_{2}\,e_{2}+\dots+x_{n}\,e_{n})(y_{1}\,e_{1}+y_{2}\,e_{2}+\dots+y_{n}\,e_{n})=$
-$=x_{1}\,y_{1}(e_{1}\cdot e_{1})+x_{2}\,y_{2}(e_{2}\cdot e_{2})+\dots+x_{n}\,y_{n}(e_{n}\cdot e_{n})=$
-$=x_{1}\,y_{1}+x_{2}\,y_{2}+\dots+x_{n}\,y_{n}$
+tada $x\cdot y =\bigg(\sum\limits_{i=1}^{n}x_{i}\,e_{i}\bigg)\cdot\bigg(\sum\limits_{j=1}^{n}y_{j}\,e_{j}\bigg)=\sum\limits_{i,\,j=1}^{n}x_{i}\,y_{j}\,(e_{i}\cdot e_{j})=$
+$=\sum\limits_{i,\,j=1}^{n}x_{i}\,y_{j}\,\delta_{ij}=\sum\limits_{i=1}^{n}x_{i}\,y_{i}$
 
 
 ### Primene skalarnog proizvoda
+
 $x = x_{1}\,e_{1}+x_{2}\,e_{2}+\dots+x_{n}\,e_{n}$
 $y = y_{1}\,e_{1}+y_{2}\,e_{2}+\dots+y_{n}\,e_{n}$
 
