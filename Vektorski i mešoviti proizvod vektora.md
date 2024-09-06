@@ -81,3 +81,12 @@ $[x,\,y,\,z]=\bigg(\sum\limits_{i,\,j,\,k=1}^{3}\varepsilon_{ijk}\,x_{i\,}y_{j}\
 $\quad\quad\quad\ \,=\sum\limits_{i,\,j,\,k=1}^{3}\varepsilon_{ijk}\,x_{i\,}y_{j}\,z_{k}=\varepsilon\ \begin{array}{|c c c|}x_{1}&x_{2}&x_{3}\\ y_{1}&y_{2}&y_{3}\\ z_{1}&z_{2}&z_{3}\end{array}$
 
 ### Neasocijativnost $\times$
+[[Teorema]]. $\forall x,\,y,\,z\in V\quad(x\times y)\times z= (x\cdot z)\,y-(y\cdot z)\,x$
+
+Posledica. $\times$ je neasocijativna.
+> Dokaz: 
+> $x\times(y\times z)=-x\times(z\times y)=(z\times y)\times x\xlongequal{\text{Teorema}}(z\cdot x)\,y-(y\cdot x)\,z$
+> $(x\times y)\times z\xlongequal{\text{Teorema}}(x\cdot z)\,y-(y\cdot z)\,x$
+> 
+> pps $\times$ je asocijativna, tada:
+> $\begin{align}x\times(y\times z)&=(x\times y)\times z\\ (z\cdot x)\,y-(y\cdot x)\,z&=(x\cdot z)\,y-(y\cdot z)\,x\\(y\cdot x)\,z&=(y\cdot z)\,x \end{align}$
