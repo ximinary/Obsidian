@@ -59,4 +59,10 @@ $\:$
 > 
 > **v4** ćemo dokazati kasnije.
 
+$\:$
 ### Vektorski i mešoviti proizvod u koordinatama
+Neka je $(e_{1},\,e_{2},\,e_{3})$ ortonormirana baza vektorskog prostora $V$.
+$\varepsilon=\begin{cases}1,\quad\ \ \ \text{ako je }(e_{1},\,e_{2},\,e_{3})\text{ pozitivna}\\-1,\quad\text{ako je }(e_{1},\,e_{2},\,e_{3})\text{ negativna}\end{cases}$
+
+> Asimetričan Kronekerov simbol:
+> $\begin{cases}\varepsilon_{123}=\varepsilon_{231}=\varepsilon_{312}=\varepsilon\\\varepsilon_{132}=\varepsilon_{213}=\varepsilon_{321}=-\varepsilon\\\varepsilon_{ijk}=0,\quad\text{ako }\ i=j\ \text{ ili }\ i=k\ \text{ ili }\ j=k\end{cases}$
