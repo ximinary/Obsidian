@@ -1,7 +1,7 @@
 #fax #cs/prog [deo [[Programski jezik C|jezika C]]]
 $\:$
 
-### Promenljive
+## Promenljive
 - moraju biti deklarisane pre korišćenja.
 - pridružen prostor u memoriji
 - ime: prvi simbol \_ ili slovo, ostale \_, slova ili cifre
@@ -23,7 +23,7 @@ double const G = 9.81;
 
 ![[promenljive.png]]
 
-### Tipovi podataka
+## Tipovi podataka
 
 **Celobrojne** tipovi u rastućem poretku prema dužine:
 ```c
@@ -61,7 +61,7 @@ void            # ništa
 ### Konstante i konstantne izrazi
 Na primer: ```2, 207, 3.14, 1.4e6, '9', 034```
 
-Celobrojne:
+##### Celobrojne:
 ```c
 12345   - int (-> long -> unsigned long) 
 		  ## u zavisnosti od veličine broja
@@ -76,5 +76,48 @@ U oktalnom i heksadekadnom sistemu (moguće kombinovati sa ```l```, ```L```, ```
 0x1f    - heksadekadni (int)
 ```
 
-Negativne konstante ne postoje:koristi se unitarni operator ```-```.
+Negativne konstante ne postoje: koristi se unitarni operator ```-```.
 Na primer ```-678```
+
+##### U pokretnom zarezu:
+```c
+13.45   - double
+1e-2    - double        # = 0.01
+1.45e6  - double        # = 1450000.0
+.3      - double        # = 0.3
+2.      - double        # = 2.0
+
+13.45f  - float         # (f ili F)
+13.45l  - long double   # (l ili L)
+```
+Mogu biti i pozitivne i negativne .
+
+##### Simboli (karakteri)
+```c
+'a'     - int           # = 97
+'A'     - int           # = 65
+'0'     - int           # = 48
+```
+Specijalni simboli:
+```'\n'``` — new line
+```'\t'``` — horizontal tab
+```'\v'``` — vertical tab
+```'\\'``` — ```\```
+```'\?'``` — ```?```
+```'\''``` — ```'```
+```'\"'``` — ```"```
+```'\012'``` — oktalni broj
+```'\x12'``` — heksadekadni broj
+```'\0'``` — vrednost $0$, kraj niske
+
+##### Konstantne izrazi
+Na primer: ```4 + 3 * 5```
+Konstantne izrazi izračunavaju se tokom prevođenja programa.
+
+## Operatori i izrazi
+
+## Konverzije tipova
+
+## Nizovi i niske
+
+## Korisnički definisane tipovi
