@@ -117,8 +117,22 @@ Konstantne izrazi izračunavaju se tokom prevođenja programa.
 ## Operatori i izrazi
 Arnost operatora — broj operanada na koje se pimenjuje.
 - unarni
-	- prefiksni ()
-	- postfiksni ()
+	- prefiksni (```-x```)
+	- postfiksni (```x++```)
+- binarni (```x + y```)
+- ternarni (```x ? y : z```)
+$\:$
+
+Operatori nad brojevima:
+- aritmetičke
+- logičke
+- relacijske
+
+Prioritet operatora
+1. Aritmetički pa relacijski pa logički
+1. Kao u matematici: ```( )```, ```*``` i ```/```, ```+``` i ```-```
+2. Postfiksne pa prefiksne
+4. Dodela ima najmanji prioritet
 ## Konverzije tipova
 
 ## Nizovi i niske
