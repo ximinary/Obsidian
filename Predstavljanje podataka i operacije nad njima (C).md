@@ -115,7 +115,10 @@ Na primer: ```4 + 3 * 5```
 Konstantne izrazi izračunavaju se tokom prevođenja programa.
 
 ## Operatori i izrazi
-
+Arnost operatora — broj operanada na koje se pimenjuje.
+- unarni
+	- prefiksni ()
+	- postfiksni ()
 ## Konverzije tipova
 
 ## Nizovi i niske
