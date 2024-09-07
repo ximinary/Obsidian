@@ -129,10 +129,11 @@ Operatori nad brojevima:
 - relacijske
 
 Prioritet operatora
-1. Aritmetički pa relacijski pa logički
+1. Aritmetički pa relacijski pa logički pa bitobski
 2. Unarni postfiksni pa unarni prefiksni pa binarni
 3. Kao u matematici: ```( )```, ```*``` i ```/``` i ```%```, ```+``` i ```-```
-4. Dodela ima najmanji prioritet
+4. ```<``` i ```<=``` i ```>``` i ```>=``` pa ```==``` i ```!=```
+5. Dodela ima najmanji prioritet
 $\:$
 
 Asocijativnost operatora:
@@ -179,11 +180,43 @@ Rezultat: ```a = 3; b = 3.0```
 
 ```++``` — prefiksno ili postfiksno inkrementiranje;
 ```--``` — prefiksno ili postfiksno dekrementiranje;
-```
+```c
            i = 5;
 I slučaj            II slučaj
-x = i++;            
+x = i++;            x = ++i;
+          Rezultat
+i == 6              i == 6
+x == 5              x == 6
 ```
+
+```i++``` ima vrednost ```i``` do inkr.; $\ \ \ \ \ \ \ \quad$ ```i--``` ima vrednost ```i``` do dekr.;
+```++i``` ima vrednost ```i``` posle inkr.; $\ \ \quad$ ```--i``` ima vrednost ```i``` posle dekr.
+
+##### Relacijski operatori
+```==``` — ;
+```!=``` — ;
+```<``` — ;
+```<=``` — ;
+```>``` — ;
+```>=``` — ;
+
+##### Logički operatori
+```!``` — ;
+```&&``` — ;
+```||``` — ;
+
+##### Bitovski operatori
+```!``` — ;
+```&&``` — ;
+```||``` — ;
+##### Složeni operatori dodele ```+=```,
+
+##### Operator uslova ```izraz1 ? izraz2 : izraz3```
+
+##### Operator zarez ```,```
+
+##### Operator ```sizeof```
+
 ## Konverzije tipova
 
 ## Nizovi i niske
