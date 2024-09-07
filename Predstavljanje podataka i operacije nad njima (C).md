@@ -130,9 +130,28 @@ Operatori nad brojevima:
 
 Prioritet operatora
 1. Aritmetički pa relacijski pa logički
-1. Kao u matematici: ```( )```, ```*``` i ```/```, ```+``` i ```-```
-2. Postfiksne pa prefiksne
+2. Unarni postfiksni pa unarni prefiksni pa binarni
+3. Kao u matematici: ```( )```, ```*``` i ```/```, ```+``` i ```-```
 4. Dodela ima najmanji prioritet
+$\:$
+
+Asocijativnost operatora:
+- leva: $x\ \overset{\mathrm{I}}/\ 10\ \overset{\mathrm{II}}/\ 20$
+- desna: $x\ \overset{\mathrm{II}}=\ y\ \overset{\mathrm{I}}=\ 33$
+- neasocijativan: zabranjeno uzastopnost ponavljanje.
+
+##### Operator dodele ```=```
+```c
+x = ...       # x je izmenjiva l-vrednost (promenljiva)
+```
+promena vrednosti objekata na levoj strani je sporedni efekat (side effect)
+
+Dodela ima vrednost: 
+```
+x = y = 3     # y = 3 ima vrednost 3 koja se dod
+```
+
+
 ## Konverzije tipova
 
 ## Nizovi i niske
