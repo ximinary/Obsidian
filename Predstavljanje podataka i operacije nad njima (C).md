@@ -131,7 +131,7 @@ Operatori nad brojevima:
 Prioritet operatora
 1. Aritmetički pa relacijski pa logički
 2. Unarni postfiksni pa unarni prefiksni pa binarni
-3. Kao u matematici: ```( )```, ```*``` i ```/```, ```+``` i ```-```
+3. Kao u matematici: ```( )```, ```*``` i ```/``` i ```%```, ```+``` i ```-```
 4. Dodela ima najmanji prioritet
 $\:$
 
@@ -142,16 +142,48 @@ Asocijativnost operatora:
 
 ##### Operator dodele ```=```
 ```c
-x = ...       # x je izmenjiva l-vrednost (promenljiva)
+x = ...;     # x je izmenjiva l-vrednost (promenljiva)
 ```
-promena vrednosti objekata na levoj strani je sporedni efekat (side effect)
+promena vrednosti objekata na levoj strani je sporedni efekat (side effect).
+
+Ima desnu asocijativnost.
 
 Dodela ima vrednost: 
-```
-x = y = 3     # y = 3 ima vrednost 3 koja se dod
+```c
+x = y = 3;  # y = 3 ima vrednost 3 koja se dodeljuje x-u
 ```
 
+```c
+int a;
+double b = a = 3.5;
+```
+Prvo ```a```-u se dodeljuje vrednost ```3```;
+```a = 3.5``` ima vrednost ```3```;
+Posle ```b```-u se dodeljuje vrednost ```a = 3.5``` tj. ```3```;
+Rezultat: ```a = 3; b = 3.0```
 
+##### Aritmetičke operatori
+```+``` — binarni operator sabiranja;
+```-``` — binarni operator oduzimanja;
+```*``` — binarni operator množenja;
+```%``` — binarni operator ostatka pri deljenju (oba operanda celi);
+```/``` — binarni operator:
+- celobrojnog deljenja, ako su oba operanda celi;
+- deljena, ako je bar jedan operand broj u pokretnom zarezu;
+
+
+```+``` — unarni operator;
+```-``` — unarni operator promene znaka;
+
+*Svi  aritmetički operatori gore imaju levu asocijativnost, dole — desnu.*
+
+```++``` — prefiksno ili postfiksno inkrementiranje;
+```--``` — prefiksno ili postfiksno dekrementiranje;
+```
+           i = 5;
+I slučaj            II slučaj
+x = i++;            
+```
 ## Konverzije tipova
 
 ## Nizovi i niske
