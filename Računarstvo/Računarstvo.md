@@ -5,7 +5,7 @@ $\:$
 [[Programske paradigme]]
 [[Kompilacija i interpretacija]]
 
-[[Programiranje u C-u]]
+[[Programski jezik C]]
 [[Izvorni i izvršivi program]]
 
 [[Čitljivost]]
