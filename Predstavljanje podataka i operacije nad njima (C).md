@@ -362,5 +362,33 @@ Sledeće inicijalizacije niski su ekvivalentne:
 char s1[] = "Zdravo";
 char s2[] = {'Z', 'd', 'r', 'a', 'v', 'o', '\0'};
 ```
+
+```'x'``` = ```120``` je karakter;
+```"x"``` = ```{'x', '\0'}``` je niska;
+
+```'\0'``` = ```0```
+
+```printf("547", " + as");``` je isto što i ```printf("547 + as");```
+
+biblioteka za rad sa niskama [```<string.h>```](Standardne%20biblioteke.%20Ulaz%20i%20izlaz%20(C)):
+
+dužina niske: ```strlen(a)```
+kopiranje niske ```a``` u nisku ```b```: ```strcpy(b, a)```
+(duža ```b``` mora da bude dovoljna, inače će doći do greške ili do neočekivanog ponašanja)
+
 ##### Višedimenzioni nizovi
+```c
+tip ime_niza[dim_1][dim2]...;
+```
+Na primer:
+```c
+char a[2][3] = {
+	{1, 2, 3},
+	{4, 5, 6},
+}
+```
+Poštuje se uzastopnost u memoriji.
+
+
+
 ## Korisnički definisane tipovi
