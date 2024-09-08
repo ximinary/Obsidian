@@ -445,7 +445,10 @@ Tada moguće pristupiti direktno:
 ```c
 pa->brojilac = 34;
 ```
-isto štto i
+isto što i:
+```c
+(*pa).brojilac = 34;
+```
 ##### Polja bitova
 
 ##### Unije ```union```
