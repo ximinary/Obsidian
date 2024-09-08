@@ -458,9 +458,57 @@ struct nugaonik {
 	unsigned char popunjen  : 1;
 }
 ```
-Promenljiva će zauzeti ```4+```
+Promenljiva će zauzeti ```4+2+1 = 7``` bitova;
+broj bajtova mora biti celi zato ```sizeof(struct nugaonik)``` će biti ```1``` (bajt).
+
 ##### Unije ```union```
+— istovremeno korišćenje istog prostora nekolikim promenljivima.
+
+Primer definicije unije:
+```c
+union student {
+	double plata;
+	char index[7];
+};
+```
+
+deklaracija promenjivih:
+```c
+union student a, matf[300];
+```
+
+Moguće koristiti samo jednu promenljivu u nekom trenutku;
+```c
+a.plata = 3500.0
+printf("%L\n", a.plata);  // >> 3500.0
+printf("%s\n", a.indeks); // odštampaće 3500.0 - broj u pokretnom zarezu kao niz od 7 char-ova
+```
+
+Često se koristi kao član strukture radi uštede prostora:
+```c
+struct info {
+	long licni_broj;
+	char ime[31], prezime[31];
+	union {
+		double dug;
+		int broj_telefona;
+	} dodatno;
+};
+```
+```c
+struct info niz[100];
+niz[32].dodatno.dug = 89.32;
+```
+
 
 ##### Nabrojivi tipovi ```enum```
+— tip sa malim brojem dopuštenih vrednosti;
 
+Primer definicije:
+```c
+enum znak_karte {
+	KARO, PIK, HERC, TREF
+};
+```
+```KARO```, ```PIK```, ```HERC```, TREF
 ##### Novo ime tipa ```typedef```
