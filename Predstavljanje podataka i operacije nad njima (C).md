@@ -133,7 +133,7 @@ Prioritet operatora
 2. Unarni postfiksni pa unarni prefiksni pa binarni
 3. Kao u matematici: ```( )```, ```*``` i ```/``` i ```%```, ```+``` i ```-```
 4. ```<``` i ```<=``` i ```>``` i ```>=``` pa ```==``` i ```!=```
-5. Dodela ima najmanji prioritet
+5. Najmanji prioritet: ```? :``` pa dodele pa ```,```
 $\:$
 
 Asocijativnost operatora:
@@ -256,10 +256,21 @@ Inače se izračunava ```izraz3``` i to je vrednost operatora.
 ```c
 for (i = 10, j = 0; i < j; i++, j--) { ...; }
 ```
-ima najniži prioritet,
+ima najniži prioritet;
+računaju se i leva i desna strana;
+vrednost operatora je vrednost desne strane.
+
+```x = 1, 2;``` je isto što i ```x = 2;```
+```x = 3, y = 5;``` je isto što i ```x = 3; y = 5;```
 
 ##### Operator ```sizeof```
-
+veličina tipa ili promenljive u bajtovima;
+vrača vrednost tipa ```size_t``` (sličan sa ```unsigned```).
+```c
+double a;
+size_t x = sizeof(a);
+size_t y = sizeof(int);
+```
 ## Konverzije tipova
 
 ## Nizovi i niske
