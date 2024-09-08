@@ -2,7 +2,7 @@
 $\:$
 
 Programske paradigme
-Kompilacija i interpretacija
+[[Interpretacija i kompilacija]]
 
 [[Programski jezik C]]
 
