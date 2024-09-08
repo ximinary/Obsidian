@@ -398,7 +398,54 @@ ali pristup elementima je različit.
 
 ## Korisnički definisani tipovi
 ##### Strukture ```struct```
+— objedinjavaju jednu ili više promenljivih, ne nužno istog tipa.
 
+Definicija strukture:
+```c
+struct ime_structure {
+	//deklaracija promenljivih, nizova i drugih već definisanih struktura;
+};
+```
+Primer:
+```c
+struct razlomak {
+	int brojilac;
+	int imenilac;
+};
+```
+posle toga postoji tip ```struct razlomak```;
+deklaracija promenjivih:
+```c
+struct razlomak a = {1, 2}, b, c;
+struct razlomak niz[100];
+```
+> Istovremeno definisanje strukture i deklaracija promenljivih:
+> ```c
+> struct razlomak {
+> 	int brojilac, imenilac;
+> } a = {1, 2}, b, c;
+> ```
+
+Veličina strukture u bitovima:
+```c
+sizeof(struct razlomak);
+sizeof(b);
+```
+$\:$
+
+Operatori ```.``` i ```->``` — pristupanje elementima strukture.
+— najviši prioritet, leva asocijativnost.
+
+```c
+a.imenilac = 6;
+niz[45].brojilac = 90;
+```
+Ako je ```pa``` pokazivač na promenljivu ```a``` (```pa = &a;```). 
+Tada moguće pristupiti direktno:
+```c
+pa->brojilac = 34;
+```
+isto štto i
 ##### Polja bitova
 
 ##### Unije ```union```
