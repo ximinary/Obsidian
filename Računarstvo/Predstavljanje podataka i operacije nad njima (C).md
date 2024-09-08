@@ -419,7 +419,7 @@ deklaracija promenjivih:
 struct razlomak a = {1, 2}, b, c;
 struct razlomak niz[100];
 ```
-> Istovremeno definisanje strukture i deklaracija promenljivih:
+> Istovremeno definisanje strukture i deklaracija promenljivih (važi za sve korisnički definisane tipove):
 > ```c
 > struct razlomak {
 > 	int brojilac, imenilac;
@@ -510,5 +510,32 @@ enum znak_karte {
 	KARO, PIK, HERC, TREF
 };
 ```
-```KARO```, ```PIK```, ```HERC```, TREF
+```KARO``` ima vrednost 0, ```PIK``` — 1, ```HERC``` —2, ```TREF``` — 3.
+
+Korišćenje:
+```c
+enum znak_karte a, b = HERC;
+a = TREF;
+```
+
+Vrednosti ```KARO```, ```PIK```, ...  nemoguće promeniti, samo zadati u definiciji:
+```c
+enum rimske_cifre {
+	I = 1, II, III, IV, V, X = 10, XI, XII
+} c, niz[8];
+```
+U primeru ```I``` = 1, ```II``` = 2, ```III``` = 3, ```IV``` = 4, ```V``` = 5, ```X``` = 10, ```XI``` = 11, ```XII``` = 12.
+
 ##### Novo ime tipa ```typedef```
+Primeri definicije:
+```c
+typedef int Length;
+Length len, maxlen;       // deklaracija promenljivih
+```
+```c
+typedef struct {
+	int x, y, z;
+} Point;
+Point a = {1, 0, 4}, b;   // deklaracija promenljivih
+b.z = 9;
+```
