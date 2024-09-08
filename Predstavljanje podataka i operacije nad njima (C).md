@@ -193,17 +193,30 @@ x == 5              x == 6
 ```++i``` ima vrednost ```i``` posle inkr.; $\ \ \quad$ ```--i``` ima vrednost ```i``` posle dekr.
 
 ##### Relacijski operatori
-```==``` — ;
-```!=``` — ;
-```<``` — ;
-```<=``` — ;
-```>``` — ;
-```>=``` — ;
+```==``` — jednako;
+```!=``` — različito;
+```<``` — manje;
+```<=``` — manje ili jednako;
+```>``` — veće;
+```>=``` — veće ili jednako;
+
+Imaju levu asocijativnost.
+
+Ako je tačno ima vrednost ```1``` (```int```).
+Ako nije tačno ima vrednost ```0``` (```int```).
+
+Na primer: $\underbrace{\underbrace{5 \ > \ 3}_{1}\ >\ 2}_{0}$
 
 ##### Logički operatori
-```!``` — ;
-```&&``` — ;
-```||``` — ;
+```!``` — ne;
+```&&``` — i;
+```||``` — ili;
+
+Svaka ne-nula vrednost se računa kao```1```
+
+Na primer:
+- ```!0``` je ```1```; $\:$ ```!1``` je ```0```; $\:$ ```!9.2``` je ```0```;
+- ```5 && 4.3``` je ```1```;
 
 ##### Bitovski operatori
 ```~``` — ;
