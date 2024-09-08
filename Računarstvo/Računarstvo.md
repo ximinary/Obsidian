@@ -1,8 +1,8 @@
 #cs  [ [[Home]] ]
 $\:$
 
-[[Izračunljivost]]
-[[Programske paradigme]]
+Izračunljivost
+Programske paradigme]]
 [[Kompilacija i interpretacija]]
 
 [[Programski jezik C]]
