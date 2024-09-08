@@ -208,16 +208,24 @@ Ako nije tačno ima vrednost ```0``` (```int```).
 Na primer: $\underbrace{\underbrace{5 \ > \ 3}_{1}\ >\ 2}_{0}$
 
 ##### Logički operatori
-```!``` — ne;
-```&&``` — i;
-```||``` — ili;
+```!``` — [[Logičke operacije#^b24d81|logičko ne]];
+```&&``` — [[Logičke operacije#^96b28f|logičko i]];
+```||``` — [[Logičke operacije#^66b381|logičko ili]];
 
 Svaka ne-nula vrednost se računa kao```1```
 
 Na primer:
-- ```!0``` je ```1```; $\:$ ```!1``` je ```0```; $\:$ ```!9.2``` je ```0```;
-- ```5 && 4.3``` je ```1```;
+- ```!0``` je ```1```; $\ \:$ ```!1``` je ```0```; $\ \:$ ```!9.2``` je ```0```;
+- ```5 && 4.3``` je ```1```; $\ \:$ ```3.1 && 0``` je ```0```;
+- ```10 || 0``` je ```1```; $\ \:$ ```0 || 0``` je ```0```.
 
+> ##### Lenjo izračunavanja
+> Sleva nadesno:
+> U operatorima ```&&``` i ```||``` prvo se računa leva strana i ako rezultat ne zavisi od desne strane, desna strana i ne računa se.
+> 
+> Na primer:
+> - $\underbrace{\underbrace{2\ <\ 1}_{0}\ \  \&\& \ \ a\!+\!+ }_{0}\quad\quad$ ($a\!+\!+$ neće biti uvršeno)
+> - $a\!+\!+\ \ \&\&\ \ 2<1\ \ \quad\quad$ ($a\!+\!+$ neće biti uvršeno()
 ##### Bitovski operatori
 ```~``` — ;
 ```&``` — ;
