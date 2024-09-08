@@ -129,8 +129,8 @@ Operatori nad brojevima:
 - relacijske
 
 Prioritet operatora
-1. Aritmetički pa relacijski pa logički pa bitobski
-2. Unarni postfiksni pa unarni prefiksni pa binarni
+1. Unarni postfiksni pa unarni prefiksni pa binarni
+2. Aritmetički pa relacijski pa logički pa bitobski
 3. Kao u matematici: ```( )```, ```*``` i ```/``` i ```%```, ```+``` i ```-```
 4. ```<``` i ```<=``` i ```>``` i ```>=``` pa ```==``` i ```!=```
 5. Najmanji prioritet: ```? :``` pa dodele pa ```,```
@@ -272,7 +272,12 @@ size_t x = sizeof(a);
 size_t y = sizeof(int);
 ```
 ## Konverzije tipova
+— menja se tip izraza, ne menja se tip promenljivih.
 
+- <u>Eksplicitna konverzija</u> (na zahtev programera)
+  Operator kastovanja: ```(tip) izraz```
+  — prefiksni unarni operator 
+  
 ## Nizovi i niske
 
 ## Korisnički definisane tipovi
