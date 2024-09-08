@@ -1,2 +1,2 @@
-#fax #math #cs/prog
+#fax #cs/prog
 $\:$
