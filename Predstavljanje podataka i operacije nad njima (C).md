@@ -28,14 +28,14 @@ double const G = 9.81;
 **Celobrojne** tipovi u rastućem poretku prema dužine:
 ```c
 short
-int             # standardni tip
+int            //standardni tip
 long         
 long long
 ```
 Dodatno pre tima moguće napisati:
 ```c
-signed          # označeni - isto kao i ne pisati ništa
-unsigned        # neoznačeni
+signed         //označeni - isto kao i ne pisati ništa
+unsigned       //neoznačeni
 ```
 $\:$
 
@@ -48,14 +48,14 @@ $\:$
 **Pokretan zarez** (IEEE754 standard - uklj. $+\infty,\ -\infty,\ \mathrm{sNaN},\ \mathrm{qNaN}$)
 ```c
 float
-double          # standardni tip
+double         //standardni tip
 long double 
 ```
 $\:$
 Druge tipovi
 ```c
-bool            # logički tip - true/false
-void            # ništa
+bool           //logički tip - true/false
+void           //ništa
 ```
 
 ### Konstante i konstantne izrazi
@@ -64,7 +64,7 @@ Na primer: ```2, 207, 3.14, 1.4e6, '9', 034```
 ##### Celobrojne:
 ```c
 12345   - int (-> long -> unsigned long) 
-		  ## u zavisnosti od veličine broja
+		  // u zavisnosti od veličine broja
 12345l  - long
 12345L  - long long
 12345u  - unsigned int
@@ -82,21 +82,21 @@ Na primer ```-678```
 ##### U pokretnom zarezu:
 ```c
 13.45   - double
-1e-2    - double        # = 0.01
-1.45e6  - double        # = 1450000.0
-.3      - double        # = 0.3
-2.      - double        # = 2.0
+1e-2    - double        // = 0.01
+1.45e6  - double        // = 1450000.0
+.3      - double        // = 0.3
+2.      - double        // = 2.0
 
-13.45f  - float         # (f ili F)
-13.45l  - long double   # (l ili L)
+13.45f  - float         // (f ili F)
+13.45l  - long double   // (l ili L)
 ```
 Mogu biti i pozitivne i negativne .
 
 ##### Simboli (karakteri)
 ```c
-'a'     - int           # = 97
-'A'     - int           # = 65
-'0'     - int           # = 48
+'a'     - int           // = 97
+'A'     - int           // = 65
+'0'     - int           // = 48
 ```
 Specijalni simboli:
 ```'\n'``` — new line
@@ -143,7 +143,7 @@ Asocijativnost operatora:
 
 ##### Operator dodele ```=```
 ```c
-x = ...;     # x je izmenjiva l-vrednost (promenljiva)
+x = ...;     //x je izmenjiva l-vrednost (promenljiva)
 ```
 promena vrednosti objekata na levoj strani je sporedni efekat (side effect).
 
@@ -151,7 +151,7 @@ Ima desnu asocijativnost.
 
 Dodela ima vrednost: 
 ```c
-x = y = 3;  # y = 3 ima vrednost 3 koja se dodeljuje x-u
+x = y = 3;  //y = 3 ima vrednost 3 koja se dodeljuje x-u
 ```
 
 ```c
@@ -285,20 +285,20 @@ size_t y = sizeof(int);
 int a = 46;
 double b;
 b = a;          
-## pre upisivanja vrednost a se konvertuje u double.
+// pre upisivanja vrednost a se konvertuje u double.
 ```
 
 2. aritmetičke operatori se ne primenjuju na ```char``` i ```short```
 ```c
 char a = 2, b = 3, c;
 c = a + b; 
-## vrednost a se konvertuje u int, vrednost b se konvertuje u int, računa se zbir, vrednost zbira se konvertuje u char i upisuje se u c.
+// vrednost a se konvertuje u int, vrednost b se konvertuje u int, računa se zbir, vrednost zbira se konvertuje u char i upisuje se u c.
 ```
 3. aritmetički i logički operatori zahtevaju operandi u istom tipu, tako jedan od operanada se konvertuje u tip drugog, koji ima "bogatiji" tip.
 ```c
 char a = 2; double b = 7.9; 
 b = (a + 5.6f) / b;
-## vrednost a se konvertuje u float, računa se zbir, vrednost zbira se konvertuje u double, računa se količnik i rezultat se upisuje u b.
+// vrednost a se konvertuje u float, računa se zbir, vrednost zbira se konvertuje u double, računa se količnik i rezultat se upisuje u b.
 ```
 $\:$
 
@@ -388,7 +388,21 @@ char a[2][3] = {
 }
 ```
 Poštuje se uzastopnost u memoriji.
+Niz ```a``` u memoriji će biti predstavljen isto kao i sledeći niz
+```c
+int b = {1, 2, 3, 4, 5, 6}
+```
+ali pristup elementima je različit.
 
+```a``` pokazuje na nulti element niza — niz od tri ```int```-a.
 
+## Korisnički definisani tipovi
+##### Strukture ```struct```
 
-## Korisnički definisane tipovi
+##### Polja bitova
+
+##### Unije ```union```
+
+##### Nabrojivi tipovi ```enum```
+
+##### Novo ime tipa ```typedef```
