@@ -309,6 +309,7 @@ Democija — konverzija u "siromašniji" tip — često dolazi do gubitka.
 *Na primer pri konverziji broja tipa* ```double``` *ili* ```float``` *u tip* ```int``` *odsecaju se decimale*: ```int a = 8.31f``` — ```a``` *će dobiti vrednost* ```8```.
 
 ## Nizovi i niske
+##### Nizovi
 Deklaracija niza:
 ```c
 tip ime_niza[dimenzija];
@@ -336,11 +337,13 @@ Nemoguće dodeljivati/menjati nizove, ali moguće menjati svaki element niza.
 ```ime_niza``` bez ```[ ]``` konvertuje se u pokazivač na nulti element niza. 
 
 Elementi niza su u memoriji uređeni uzastopno.
-$\begin{array}{c c c c c c c c c cc} \hline
+$$
+\begin{array}{c c c c c c c c c c c} \hline
 \dots & ??? & ??? & 1 & 3 & 11 & 4 & 8 & ??? & ??? & \dots \\
 \hline
 \dots & \mathrm{b[-2]} & \mathrm{b[-1]} & \mathrm{b[0]} & \mathrm{b[1]} & \mathrm{b[2]} & \mathrm{b[3]} & \mathrm{b[4]} & \mathrm{b[5]} & \mathrm{b[6]} & \dots
-\end{array}$
+\end{array}
+$$
 
 nulti element je na adresi ```ime_niza```
 prvi element je na adresi ```ime_niza + 1 * sizeof(tip)```
@@ -348,5 +351,16 @@ drugi element je na adresi ```ime_niza + 2 * sizeof(tip)```
 ...
 n-ti element je na adresi ```ime_niza + n * sizeof(tip)```
 
+Treba paziti da ne pristupamo elementima van niza,
+na primer ```b[-1]``` ili ```b[6]```
 
+##### Niske
+Niska je niz karaktera koji se završava terminirajućem nulom ```'\0'```.
+
+Sledeće inicijalizacije niski su ekvivalentne:
+```c
+char s1[] = "Zdravo";
+char s2[] = {'Z', 'd', 'r', 'a', 'v', 'o', '\0'};
+```
+##### Višedimenzioni nizovi
 ## Korisnički definisane tipovi
