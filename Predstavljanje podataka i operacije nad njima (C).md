@@ -297,8 +297,18 @@ c = a + b;
 3. aritmetički i logički operatori zahtevaju operandi u istom tipu, tako jedan od operanada se konvertuje u tip drugog, koji ima "bogatiji" tip.
 ```c
 char a = 2; double b = 7.9; 
-b = (a + 5.6f) / 
+b = (a + 5.6f) / b;
+## vrednost a se konvertuje u float, računa se zbir, vrednost zbira se konvertuje u double, računa se količnik i rezultat se upisuje u b.
 ```
+$\:$
+
+Promocija — konverzija u "bogatiji" tip — obično ne dolazi do gubitka.
+*Na primer može doći do gubitka pri konverziji velikog broja tipa* ```long``` *u tip* ```double```*;*
+
+Democija — konverzija u "siromašniji" tip — često dolazi do gubitka.
+*Na primer pri konverziji broja tipa* ```double``` *ili* ```float``` *u tip* ```int``` *odsecaju se decimale*: ```int a = 8.31f``` — ```a``` *će dobiti vrednost* ```8```.
+
 ## Nizovi i niske
+
 
 ## Korisnički definisane tipovi
