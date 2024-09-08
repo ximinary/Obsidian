@@ -309,6 +309,12 @@ Democija — konverzija u "siromašniji" tip — često dolazi do gubitka.
 *Na primer pri konverziji broja tipa* ```double``` *ili* ```float``` *u tip* ```int``` *odsecaju se decimale*: ```int a = 8.31f``` — ```a``` *će dobiti vrednost* ```8```.
 
 ## Nizovi i niske
-
+Deklaracija niza:
+```c
+tip ime_niza[dimenzija];
+```
+dimenzija mora da bude konstantan ceo broj;
+na primer: ``````
+ili 
 
 ## Korisnički definisane tipovi
