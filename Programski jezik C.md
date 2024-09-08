@@ -1,4 +1,4 @@
-#fax #cs/prog [deo [[Računarstvo|računarstva]]]
+#fax #cs/prog/c [deo [[Računarstvo|računarstva]]]
 $\:$
 
 ### [[Predstavljanje podataka i operacije nad njima (C)]]

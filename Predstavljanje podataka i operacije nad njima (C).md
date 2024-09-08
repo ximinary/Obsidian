@@ -1,4 +1,4 @@
-#fax #cs/prog [deo [[Programski jezik C|jezika C]]]
+#fax #cs/prog/c [deo [[Programski jezik C|jezika C]]]
 $\:$
 
 ## Promenljive
