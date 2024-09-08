@@ -314,7 +314,11 @@ Deklaracija niza:
 tip ime_niza[dimenzija];
 ```
 dimenzija mora da bude konstantan ceo broj;
-na primer: ``````
-ili 
+na primer: ```a[10]```, tada su elementi niza ```a[0]```, ```a[1]```, ..., ```a[9]```,
 
+ili 
+```c
+tip ime_niza[] = {el0, el1, ..., elN};
+```
+moguće navesti svih ```N+1``` elemenata u ```{ }```.
 ## Korisnički definisane tipovi
