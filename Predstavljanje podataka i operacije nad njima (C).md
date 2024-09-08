@@ -225,20 +225,38 @@ Na primer:
 > 
 > Na primer:
 > - $\underbrace{\underbrace{2\ <\ 1}_{0}\ \  \&\& \ \ a\!+\!+ }_{0}\quad\quad$ ($a\!+\!+$ neće biti uvršeno)
-> - $a\!+\!+\ \ \&\&\ \ 2<1\ \ \quad\quad$ ($a\!+\!+$ neće biti uvršeno()
+> - $a\!+\!+\ \ \&\&\ \ 2<1\ \ \quad\quad$ ($a\!+\!+$ sigurno će biti uvršeno)
+> - $\underbrace{\underbrace{2\ >\ 1}_{1}\ \  || \ \ a\!+\!+ }_{1}\quad\quad\quad$ (slično $a\!+\!+$ neće biti uvršeno)
 ##### Bitovski operatori
-```~``` — ;
-```&``` — ;
-```|``` — ;
-```^``` — ;
-```<<``` — ;
-```>>``` — ;
+```~``` — bitovska negacija;
+```&``` — bitovsko i;
+```|``` — bitovsko ili;
+```^``` — bitovski **XOR**;
+```<<``` — pomeranje bitova ulevo;
+```>>``` — pomeranje bitova udesno;
 
-##### Složeni operatori dodele ```+=```, ```-=```, ```*=```, ```%=```, ```/=```, ```&=```, ```|=```, ```<<=```, ```>>=```,
+
+```x << k``` — pomeranje bitova broja ```x``` sa ```k``` mesta ulevo.
+```x >> k``` — pomeranje bitova broja ```x``` sa ```k``` mesta udesno:
+- ako je ```x``` tipa ```int``` aritmetičko — na viši (oslobođeni) bitovi stavlja se bit znaka.
+- ako je ```x``` tipa ```unsigned``` logičko — na viši (oslobođeni) bitovi stavlja se ```0```.
+
+```x``` može biti konstanta ili promenljiva. ```<<``` i ```>>``` ne menjaju ```x```.
+##### Složeni operatori dodele ```+=```, ```-=```, ```*=```, ```%=```, ```/=```, ```&=```, ```|=```, ```<<=```, ```>>=```
+
+```izraz1 op= izraz2``` isto što i ```izraz1 = izraz1 op ipraz2```
 
 ##### Operator uslova ```izraz1 ? izraz2 : izraz3```
 
-##### Operator zarez ```,```
+Prvo se izračunava ```izraz1```.
+Ako je ne-nula, onda se izračunava ```izraz2``` i to je vrednost operatora.
+Inače se izračunava ```izraz3``` i to je vrednost operatora.
+
+##### Operator zarez ```,``` (u deklaraciji <u>nije</u> operator)
+```c
+for (i = 10, j = 0; i < j; i++, j--) { ...; }
+```
+ima najniži prioritet,
 
 ##### Operator ```sizeof```
 
