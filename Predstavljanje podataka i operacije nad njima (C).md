@@ -321,4 +321,8 @@ ili
 tip ime_niza[] = {el0, el1, ..., elN};
 ```
 moguće navesti svih ```N+1``` elemenata u ```{ }```.
+$\:$
+```c
+sizeof(ime_niza); # veličina celog niza u bajtovima
+```
 ## Korisnički definisane tipovi
