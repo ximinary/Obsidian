@@ -320,9 +320,33 @@ ili
 ```c
 tip ime_niza[] = {el0, el1, ..., elN};
 ```
-moguće navesti svih ```N+1``` elemenata u ```{ }```.
+moguće navesti svih ```N+1``` elemenata u ```{ }```;
+na primer:
+```c
+int b[] = {1, 3, 11, 4, 8}; 
+```
+___
 $\:$
 ```c
-sizeof(ime_niza); # veličina celog niza u bajtovima
+sizeof(ime_niza);   # veličina celog niza u bajtovima
 ```
+
+Nemoguće dodeljivati/menjati nizove, ali moguće menjati svaki element niza.
+
+```ime_niza``` bez ```[ ]``` konvertuje se u pokazivač na nulti element niza. 
+
+Elementi niza su u memoriji uređeni uzastopno.
+$\begin{array}{c c c c c c c c c cc} \hline
+\dots & ??? & ??? & 1 & 3 & 11 & 4 & 8 & ??? & ??? & \dots \\
+\hline
+\dots & \mathrm{b[-2]} & \mathrm{b[-1]} & \mathrm{b[0]} & \mathrm{b[1]} & \mathrm{b[2]} & \mathrm{b[3]} & \mathrm{b[4]} & \mathrm{b[5]} & \mathrm{b[6]} & \dots
+\end{array}$
+
+nulti element je na adresi ```ime_niza```
+prvi element je na adresi ```ime_niza + 1 * sizeof(tip)```
+drugi element je na adresi ```ime_niza + 2 * sizeof(tip)```
+...
+n-ti element je na adresi ```ime_niza + n * sizeof(tip)```
+
+
 ## Korisnički definisane tipovi
