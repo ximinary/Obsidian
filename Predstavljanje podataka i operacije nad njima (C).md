@@ -450,7 +450,15 @@ isto što i:
 (*pa).brojilac = 34;
 ```
 ##### Polja bitova
-
+— struktura u kojoj za svaku promenljivu određen broj bitova.
+```c
+struct nugaonik {
+	unsigned char br_strana : 4;
+	unsigned char boja      : 2;
+	unsigned char popunjen  : 1;
+}
+```
+Promenljiva će zauzeti ```4+```
 ##### Unije ```union```
 
 ##### Nabrojivi tipovi ```enum```
