@@ -55,7 +55,9 @@ Funkcija koja ne uzima parametre:  ```tip funkcija(void);```
 Funkciju ```tip funkcija();``` možemo pozvati: ```funkcija(šta_god);```
 
 ##### Parametre funkcije ```main```
-#todo
+```c
+int main (int argc, char** argv) {...;}
+```
 ## Prenos argumenata
 Argument u pozivu može biti promenljiva ili izraz, čija vrednost može da se konvertuje u tip parametra.
 
@@ -66,7 +68,7 @@ Imena parametra i argumenta mogu da se poklapaju ali oni ostaju različite.
 Prilikom pozivanja radi se implicitna konverzija tipova.
 
 ---
-Kao argument moguće je proslediti pokazivač na neku promenljivu, time omogućujući promenu te promenljive u funkciji.
+Kao argument moguće je proslediti [[Pokazivači (C)|pokazivač]] na neku promenljivu, time omogućujući promenu te promenljive u funkciji.
 
 Niz ne može biti argumentom, samo ime niza, koje se konvertuje u pokazivač na njegov početak.
 Niz se ne kopira, samo je moguće menjati originalan niz.
@@ -75,12 +77,36 @@ tip ime_fje(tip ime_niza[]);
 ```
 isto što i :
 ```c
-tip ime_fje(tip* ime_niza);
+tip ime_fje(tip *ime_niza);
 ```
 Višedimenzioni niz (potrebno navesti sve dimenzije osim prve):
 ```c
 tip ime_fje(tip ime_niza[][dim2][dim3]...);
 ```
+isto što i :
+```c
+tip ime_fje(tip (*ime_niza)[dim2][dim3]...);
+```
+---
+Promenljiva korisnički definisanog tipa se prenosi kao i obična promenljiva, tj kopiranjem vrednost.
 ## Povratna vrednost
+```c
+tip funkcija(...) {
+	...
+	return __;
+	// return konvertuje __ u tip vraća vrednost i prekida izvršavanje fje, program se vraća ka izvršavanju fje, iz koje je bila pozvana ova fja.
+}
+```
+Funkcija ne vraća ništa:
+```c
+void funkcija(...) {
+	...
+	return; // opcion; samo prekida fju.
+}
+```
 
+Povratna vrednost može biti korisnički definisanog tipa, ali ne može biti niz.
+
+```main``` mora da ima povratni tip ```int```
+Konvencija: ```main``` vraća ```0``` ako nema grešaka, i ne-nula kod greške, ako je došlo do greške.
 ## Funkcije sa promenljivim brojem argumenata
