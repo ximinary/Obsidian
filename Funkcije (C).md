@@ -50,6 +50,12 @@ Argumenti — izrazi koji su navedeni u pozivu funkcije.
 Parametri su lokalne promenljivi funkcije.
 
 Funkcija koja ne uzima parametre:  ```tip funkcija(void);```
+— parametra sigurno nema, poziv samo ```funkcija();```
+
+Funkciju ```tip funkcija();``` možemo pozvati: ```funkcija(šta_god);```
+
+##### Parametre funkcije ```main```
+#todo
 ## Prenos argumenata
 
 ## Povratna vrednost
