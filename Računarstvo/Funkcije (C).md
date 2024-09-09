@@ -13,10 +13,10 @@ int kvadrat(int n);    // deklaracija
 // kvadrat ima jedan parametar tipa int i vrača rezultat tipa int
 
 int main() {
-	printf("%d^2 = %d", 5, kvadrat(5)); 
+	printf("%d^2 = %d\n", 5, kvadrat(5)); 
 	// poziv za vrednost 5 (fja vrača 25)
 	
-	printf("%d^2 = %d", 9, kvadrat(9)); 
+	printf("%d^2 = %d\n", 9, kvadrat(9)); 
 	// poziv za vrednost 5 (fja vrača 81)
 	
 	return 0;
@@ -127,3 +127,31 @@ Povratna vrednost može biti korisnički definisanog tipa, ali ne može biti niz
 ```main``` mora da ima povratni tip ```int```
 Konvencija: ```main``` vraća ```0``` ako nema grešaka, i ne-nula kod greške, ako je došlo do greške.
 ## Funkcije sa promenljivim brojem argumenata: [```<stdarg.h>```](Standardne%20biblioteke.%20Ulaz%20i%20izlaz%20(C))
+
+Tip podataka: ```va_list``` — lista argumenata.
+```va_start(lista, br_argumenata)``` — početak
+```va_arg(lista, tip)``` — vrača naredni argument
+```va_end(lista)``` — kraj
+
+Primer:
+```c
+#include <stdio.h>
+#include <stdarg.h>
+
+int sumof(int n_args, ...) {
+		// n_args - broj argumenata.
+	int i, sum;
+	va_list args;
+	va_start(args, n_args);
+	sum = 0;
+	for (i = 0; i < n_args; i++) 
+		sum += va_arg(args, int);
+	va_end(args);
+	return sum;
+}
+
+int main() {
+	printf("%d\n", sumof(4, 4, 34, 9, 6));
+	return 0;
+}
+```
