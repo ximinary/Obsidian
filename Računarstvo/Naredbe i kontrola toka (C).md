@@ -1,5 +1,6 @@
 #fax #cs/prog/c [deo [[Programski jezik C|jezika C]]]
 $\:$
+
 Program je niz naredbi.
 ## Naredbi izraza i blokovi
 Svaki izraz završeni sa ```;``` je naredba.

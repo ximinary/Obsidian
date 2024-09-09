@@ -2,8 +2,8 @@
 $\:$
 
 Programske paradigme
-[[Interpretacija i kompilacija]]
-[[Stek]]
+Interpretacija i kompilacija
+Stek
 
 [[Programski jezik C]]
 
