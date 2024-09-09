@@ -57,7 +57,30 @@ Funkciju ```tip funkcija();``` možemo pozvati: ```funkcija(šta_god);```
 ##### Parametre funkcije ```main```
 #todo
 ## Prenos argumenata
+Argument u pozivu može biti promenljiva ili izraz, čija vrednost može da se konvertuje u tip parametra.
 
+Vrednost argumenta se kopira u lokalnu promenljive funkcije; funkcija radi samo sa kopijom nemenjajući original.
+
+Imena parametra i argumenta mogu da se poklapaju ali oni ostaju različite.
+
+Prilikom pozivanja radi se implicitna konverzija tipova.
+
+---
+Kao argument moguće je proslediti pokazivač na neku promenljivu, time omogućujući promenu te promenljive u funkciji.
+
+Niz ne može biti argumentom, samo ime niza, koje se konvertuje u pokazivač na njegov početak.
+Niz se ne kopira, samo je moguće menjati originalan niz.
+```c
+tip ime_fje(tip ime_niza[]);
+```
+isto što i :
+```c
+tip ime_fje(tip* ime_niza);
+```
+Višedimenzioni niz (potrebno navesti sve dimenzije osim prve):
+```c
+tip ime_fje(tip ime_niza[][dim2][dim3]...);
+```
 ## Povratna vrednost
 
 ## Funkcije sa promenljivim brojem argumenata
