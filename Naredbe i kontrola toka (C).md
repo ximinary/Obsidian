@@ -66,8 +66,13 @@ switch (izraz) {
 	case konst_izraz2 : naredbe2;
 	...
 	default : naredbeN;             // opcioni deo
+}
 ```
 
+Ako ```izraz``` je jednak nekom ```konst_inrazK```, onda će biti izvršene sve naredbe ```naredbeK```, ```naredbe(K+1)```, ..., ```naredbeN``` do kraja ```switch```, ili do prvog ```break```.
+Ako ```izraz``` nije jednak nijednom ```konst_inrazK```, biće izvršene samo ```naredbeN```;
+
+Posle ```:``` moguće napisati koliko god naredbi bez ```{ }```.
 
 Često se koristi ovako:
 ```c
@@ -76,7 +81,9 @@ switch (izraz) {
 	case konst_izraz2 : naredbe2; break;
 	...
 	default : naredbeN;             // opcioni deo
+}
 ```
+U ovom slučaju 
 ## Petlje
 ##### ```while```
 
