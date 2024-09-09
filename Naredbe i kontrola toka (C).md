@@ -2,7 +2,7 @@
 $\:$
 
 ## Naredbi izraza i blokovi
-
+Svaki izraz završeni sa ```;``` je naredba.
 ## Uslovi
 ##### ```if - else```
 
