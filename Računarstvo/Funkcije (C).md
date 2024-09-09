@@ -1,5 +1,6 @@
 #fax #cs/prog/c [deo [[Programski jezik C|jezika C]]]
 $\:$
+
 Funkcija ```main``` je glavna funkcija sa koje počinje izvršavanje programa.
 Iz ```main``` (i drugih funkcija) pozivaju se druge funkcije: [[Standardne biblioteke. Ulaz i izlaz (C)|bibliotečke]] ili korisnički.
 
