@@ -54,10 +54,6 @@ Funkcija koja ne uzima parametre:  ```tip funkcija(void);```
 
 Funkciju ```tip funkcija();``` možemo pozvati: ```funkcija(šta_god);```
 
-##### Parametre funkcije ```main```
-```c
-int main (int argc, char** argv) {...;}
-```
 ## Prenos argumenata
 Argument u pozivu može biti promenljiva ili izraz, čija vrednost može da se konvertuje u tip parametra.
 
@@ -87,8 +83,28 @@ isto što i :
 ```c
 tip ime_fje(tip (*ime_niza)[dim2][dim3]...);
 ```
----
+___
 Promenljiva korisnički definisanog tipa se prenosi kao i obična promenljiva, tj kopiranjem vrednost.
+___
+##### Argumenti funkcije ```main```
+```c
+int main (int argc, char* argv[]) {...;}
+```
+```argc``` — broj argumenata;
+```argv``` — pokazivač na niz pokazivača koji pokazuju na argumente (niske).
+
+Primer:
+poziv programa:
+```
+./a.out 12345 -u zdravo "16 KB"
+```
+onda ```argc``` će biti ```5```
+```argv[0]``` je pokazivač na nisku ```"./a.out"```
+```argv[1]``` je pokazivač na nisku ```"12345"```
+```argv[2]``` je pokazivač na nisku ```"-u"```
+```argv[3]``` je pokazivač na nisku ```"zdravo"```
+```argv[4]``` je pokazivač na nisku ```"16 KB"```
+
 ## Povratna vrednost
 ```c
 tip funkcija(...) {
