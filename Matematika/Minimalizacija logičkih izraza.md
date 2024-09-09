@@ -1,4 +1,4 @@
-#fax #math #cs/ar [deo [[Iskazna logika|iskazne logike]]]
+#fax #math #cs/ar [deo [[Iskazna logika|iskazne logike]] i [[Računarstvo|računarstva]]]
 $\:$
 
 Transformirati [[Normalne forme|savršeni DNF]] u [[Normalne forme|DNF]] sa najmanje veznika.

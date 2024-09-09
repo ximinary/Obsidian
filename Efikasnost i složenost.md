@@ -1,2 +1,2 @@
-#fax #cs/prog
+#fax #cs/prog [deo [[Računarstvo|računarstva]]]
 $\:$

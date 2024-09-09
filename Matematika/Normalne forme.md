@@ -1,4 +1,4 @@
-#fax #math #ds1 #cs/ar [deo [[Iskazna logika|iskazne logike]]]
+#fax #math #ds1 #cs/ar [deo [[Iskazna logika|iskazne logike]] i [[Računarstvo|računarstva]]]
 $\:$
 
 [[Bulova algebra]]: $S(\,\cdot\,,\,+,\,\overline{\ },\,1,\,0)$
