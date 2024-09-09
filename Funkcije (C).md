@@ -105,6 +105,7 @@ onda ```argc``` će biti ```5```
 ```argv[3]``` je pokazivač na nisku ```"zdravo"```
 ```argv[4]``` je pokazivač na nisku ```"16 KB"```
 
+![[argumenti_main.png]]
 ## Povratna vrednost
 ```c
 tip funkcija(...) {
@@ -125,4 +126,4 @@ Povratna vrednost može biti korisnički definisanog tipa, ali ne može biti niz
 
 ```main``` mora da ima povratni tip ```int```
 Konvencija: ```main``` vraća ```0``` ako nema grešaka, i ne-nula kod greške, ako je došlo do greške.
-## Funkcije sa promenljivim brojem argumenata
+## Funkcije sa promenljivim brojem argumenata: [```<stdarg.h>```](Standardne%20biblioteke.%20Ulaz%20i%20izlaz%20(C))
