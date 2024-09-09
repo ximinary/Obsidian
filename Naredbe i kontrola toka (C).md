@@ -22,7 +22,7 @@ Unutra bloka mogu da se deklarišu promenljivi koji ne mogu se koristiti van blo
 ```c
 if (izraz)
 	naredba1;
-else                   // opcioni deo
+else                                // opcioni deo
 	naredba2;
 ```
 Ako je ```izraz``` ne-nula izvršiće ```naredba1```;
@@ -43,9 +43,40 @@ else
 ```
 
 U sledećem primeru ```else``` se odnosi na drugi ```if```:
+```c
+if (izraz1)
+	if (izraz2)
+		naredba1;
+	else
+		naredba2;
+```
 
+Da bi odnosio na prvi ```if```:
+```c
+if (izraz1) {
+	if (izraz2)
+		naredba1;
+} else
+	naredba2;
+```
 ##### ```switch```
+```c
+switch (izraz) {
+	case konst_izraz1 : naredbe1;
+	case konst_izraz2 : naredbe2;
+	...
+	default : naredbeN;             // opcioni deo
+```
 
+
+Često se koristi ovako:
+```c
+switch (izraz) {
+	case konst_izraz1 : naredbe1; break;
+	case konst_izraz2 : naredbe2; break;
+	...
+	default : naredbeN;             // opcioni deo
+```
 ## Petlje
 ##### ```while```
 
