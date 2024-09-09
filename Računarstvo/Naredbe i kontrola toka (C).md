@@ -164,6 +164,17 @@ while (izraz)
 	naredbe;
 ```
 ##### Naredbe ```break``` i ```continue```
+```c
+petlja {
+	naredbe1;
+	if (izraz)
+		break/continue;
+	naredbe2;
+}
+```
+```break``` — pri nailasku na ```break```, program izlazi iz petlje;
 
+```continue``` —  pri nailasku na ```continue```, program prelazi u sledeću iteraciju petlje (tj propušta ```naredbe2```);
 
-dejstvuju samo na unutrašnju petlju.
+Dejstvuju samo na unutrašnju petlju.
+Uvek je moguće napisati kod bez ```break``` i ```continue```;
