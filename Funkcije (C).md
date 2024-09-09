@@ -40,10 +40,18 @@ tip ime_fje(niz_deklaracija_parametara) {
 }
 ```
 
+Ako nećemo deklarisati pre definicije, funkcija će biti deklarisana i definisana odjednom.
+
+**!** Funkcija mora da bude deklarisana <u>pre</u> (iznad) poziva. 
+## Parametri
+Parametri — promenljivi koji čine deklaraciju funkcija.
+Argumenti — izrazi koji su navedeni u pozivu funkcije.
+
+Parametri su lokalne promenljivi funkcije.
+
+Funkcija koja ne uzima parametre:  ```tip funkcija(void);```
 ## Prenos argumenata
 
 ## Povratna vrednost
 
 ## Funkcije sa promenljivim brojem argumenata
-
-## Argumente komandne linije
