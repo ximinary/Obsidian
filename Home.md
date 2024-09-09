@@ -1,4 +1,4 @@
-#fax 
+#fax #home
 $\:\:$
 
 #### [[Matematika]] #math
