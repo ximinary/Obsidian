@@ -69,8 +69,8 @@ switch (izraz) {
 }
 ```
 
-Ako ```izraz``` je jednak nekom ```konst_inrazK```, onda će biti izvršene sve naredbe ```naredbeK```, ```naredbe(K+1)```, ..., ```naredbeN``` do kraja ```switch```, ili do prvog ```break```.
-Ako ```izraz``` nije jednak nijednom ```konst_inrazK```, biće izvršene samo ```naredbeN```;
+Ako ```izraz``` je jednak nekom ```konst_inrazK```, onda će biti izvršene sve naredbe ```naredbeK```, ```naredbe(K+1)```, ..., ```naredbeN``` do kraja ```switch```, ili do prvog ```break```;
+ako ```izraz``` nije jednak nijednom ```konst_inrazK```, biće izvršene samo ```naredbeN```;
 
 Posle ```:``` moguće napisati koliko god naredbi bez ```{ }```.
 
@@ -83,12 +83,87 @@ switch (izraz) {
 	default : naredbeN;             // opcioni deo
 }
 ```
-U ovom slučaju 
+U ovom slučaju ako ```izraz``` je jednak nekom ```konst_inrazK```, onda će biti izvršene samo ```naredbeK```;
+ako ```izraz``` nije jednak nijednom ```konst_inrazK```, biće izvršene ```naredbeN```;
+
+Primeri:
+```c
+switch (n % 4) {
+	case 1 :
+	case 2 :
+	case 3 : printf("Nije deljiv sa 4\n"); break;
+	default : printf("Deljiv je sa 4\n");
+}
+```
+```c
+switch (dan) {
+	case 1 : printf("Ponedeljak\n"); break;
+	case 2 : printf("Utorak\n"); break;
+	case 3 : printf("Sreda\n"); break;
+	case 4 : printf("Četvrtak\n"); break;
+	case 5 : printf("Petak\n"); break;
+	case 6 : printf("Subota\n"); break;
+	case 7 : printf("Nedelja\n"); break;
+	default : printf("greška\n");
+}
+```
+
 ## Petlje
 ##### ```while```
+```c
+while (izraz)
+	naredba;
+```
+Dok ```izraz``` nije nula, izvršava se ```naredba```. Kad ```izraz``` postaje nula, izlazi iz petlji i nastavlja sa izvršavanjem programa.
 
+Beskonačna petlja:
+```c
+while (1) 
+	naredba;
+```
 ##### ```for```
+```c
+for (izraz1; izraz2; izraz3) 
+	naredba;
+```
+```izraz1``` — inicijalizacija: početni vrednosti promenljivih;
+```izraz2``` — uslov;
+```izraz3``` — korak;
 
+Ekvivalentna je sa:
+```c
+izraz1;
+while (izraz2) {
+	naredba;
+	izraz3;
+}
+```
+$\:$
+```for ( ; izraz2; )``` $\quad\Leftrightarrow\quad$ ```while (izraz2)```
+```for ( ; ; )``` $\quad\quad\quad\quad\ \!\!\Leftrightarrow\quad$ ```while (1)```
+
+Operator ```,``` može da se koristi u ```izra1``` i ```izraz3```
+
+Primeri:
+```c
+for (i = 0; i < n; i++);
+```
+```c
+for (i = 0, j = 10; i < j; i++, j--);
+```
 ##### ```do - while```
-
+```c
+do { 
+	naredbe;
+} while (izraz);
+```
+Ekvivalentna je sa:
+```c
+naredbe;
+while (izraz)
+	naredbe;
+```
 ##### Naredbe ```break``` i ```continue```
+
+
+dejstvuju samo na unutrašnju petlju.
