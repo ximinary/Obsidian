@@ -2,8 +2,8 @@
 $\:$
 
 [[Vektor]]
-Matrica
-Vektorski prostor
+[[Matrica]]
+[[Vektorski prostor]]
 Linearni oprator
 Sistem linearnih jednačina
 Karakteristični i minimalni polinom
