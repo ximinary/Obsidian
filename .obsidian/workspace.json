@@ -8,49 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1d3222f75e6215d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            },
-            "group": "d8d5263ad1b23672"
-          },
-          {
-            "id": "d15b531f909f65c1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "dde993626406b18d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "678.md",
+                "mode": "source",
                 "source": true
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "dc3345ed63f6ba41",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7ea6d040321ff7e4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            },
-            "group": "d8d5263ad1b23672"
           }
         ]
       }
@@ -137,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "678.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "678.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "678.md"
               }
             }
           },
@@ -202,6 +169,7 @@
   },
   "active": "dde993626406b18d",
   "lastOpenFiles": [
+    "Home.md",
     "Git/678.md",
     "Git/Home.md",
     "Git/Vektorski prostor.md",
@@ -237,7 +205,6 @@
     "Git/Matematika/Relacija poretka.md",
     "Git/Matematika/Relacija ekvivalencije.md",
     "Git/Matematika/Rekurentna jednačina.md",
-    "Git/Matematika/Realni brojevi.md",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
