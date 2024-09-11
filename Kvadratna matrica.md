@@ -44,13 +44,39 @@ Opšta linearna grupa $\mathrm{GL}(n,\,\mathbb{F})$ ili $\mathrm{GL_{n}}$ sostoj
 ##### Simetrična matrica
 $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je simetrična ako $\mathcal{A}=\mathcal{A}^{\mathrm{T}}$
 
-Skup simetričnih matrica: $S_{n}$
-$(S_{n},\ \mathbb{F},\ +,\ \cdot)$ je [[Vektorski prostor|VP]]. $\:$ $(S_{n},\ \cdot)$ nije grupa
+Skup simetričnih matrica: $\mathcal{S}_{n}$
+$(\mathcal{S}_{n},\ \mathbb{F},\ +,\ \cdot)$ je [[Vektorski prostor|VP]]. 
+$(\mathcal{S}_{n},\ \cdot)$ nije grupa, jer nije zatvorena za množenje.
 
 ##### Antisimetrična matrica
+$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je (koso-)antisimetrična ako $\mathcal{A}=-\mathcal{A}^{\mathrm{T}}$
+
+Skup antisimetričnih matrica: $\mathcal{A}_{n}$
+$(\mathcal{A}_{n},\ \mathbb{F},\ +,\ \cdot)$ je [[Vektorski prostor|VP]]. 
+$(\mathcal{A}_{n},\ \cdot)$ nije grupa, jer $\mathbb{E}_{n}$ nije antisimetrična.
 
 ##### Ortogonalna matrica
+$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je ortogonalna ako $\mathcal{A}^{-1}=\mathcal{A}^{\mathrm{T}}$
 
+Skup ortogonalnih matrica: $\mathcal{O}(n,\ \mathbb{F})$
+$\mathcal{O}(n,\ \mathbb{F})$ nije [[Vektorski prostor|VP]]. 
+$\mathcal{O}(n,\ \mathbb{F})$ je podgrupa $\mathrm{GL}(n,\,\mathbb{F})$, i zove se **ortogonalna grupa**.
 ##### Dijagonalna matrica
+$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je dijagonalna ako $a_{ij}=0$ za sve $i\ne j$
+
+Oznaka: $\mathcal{A}=\mathrm{diag}\,[a_{11},\,a_{22},\,\dots,\,a_{nn}]$
+
+Skup dijagonalnih matrica $\mathcal{D}_{n}$ je [[Vektorski prostor|VP]]. 
+$\mathcal{D}_{n}$ i $\mathbb{F}^{n}$ su izomorfni.
+
+Skup invertibilnih dijagonalnih matrica $\mathcal{D}^{*}_{n}$ je podgrupa $\mathrm{GL}(n,\,\mathbb{F})$.
 
 ##### Skalarna matrica
+$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je skalarna ako $\mathcal{A}=\lambda\,\mathbb{E}_{n},\quad\lambda\in \mathbb{F}$.
+
+Skup skalarnih matrica: $\mathrm{Sc}_{n}$
+$(\mathrm{Sc}_{n},\ \mathbb{F},\ +,\ \cdot)$ je [[Vektorski prostor|VP]].
+$\mathrm{Sc}_{n}$ i $\mathbb{F}$ su izomorfni.
+
+Skup skalarnih ne-nula matrica $\mathrm{Sc}^{*}_{n}\:$ je  podgrupa $\mathrm{GL}(n,\,\mathbb{F})$.
+
