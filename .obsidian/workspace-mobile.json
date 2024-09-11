@@ -138,7 +138,7 @@
               "type": "markdown",
               "state": {
                 "file": "678.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -279,6 +279,7 @@
   },
   "active": "432537fd38471cf8",
   "lastOpenFiles": [
+    "/678.md",
     "Home.md",
     "678.md",
     "Vektorski prostor.md",
@@ -306,7 +307,6 @@
     "Matematika/Matematika.md",
     "Matematika/Kombinatorika.md",
     "Matematika/Logika.md",
-    "Matematika/Iskazna logika.md",
     "Matematika/Media/analiza1_1_neprMonot.png",
     "Matematika/Media/broj e stav.png",
     "Matematika/Media/kompozicija funkcija primer.png",
