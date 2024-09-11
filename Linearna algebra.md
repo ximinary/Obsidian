@@ -4,7 +4,7 @@ $\:$
 [[Vektor]]
 [[Matrica]] ([[Kvadratna matrica|kvadratna]])
 [[Vektorski prostor]]
-[[Algebra nad poljem]]
+[[Algebra nad poljem|Algebra]]
 [[Linearni operator]]
 Sistem linearnih jednačina
 Karakteristični i minimalni polinom

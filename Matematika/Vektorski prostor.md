@@ -24,8 +24,8 @@ Teorema. Neka je $V$ VP nad poljem $\mathbb{F}$, $x\in V$, $\alpha\in\mathbb{F}$
 - Skup [[Niz brojeva|nizova]] $\mathbb{F}^{\mathbb{N}}=\{ (x_{1},\,x_{2},\,\dots,\,x_{n},\,\dots)\ \ \big| \ \ x_{i}\in\mathbb{F},\ \forall i=\overline{1,\mathbb{N}}\}$
 - [[Red|Redovi]] $\mathbb{F}[[x]]=\left\{  \sum\limits_{i=0}^{\infty} a_{i}\,x^{i}\ \  \bigg|\ \ a_{i}\in\mathbb{F},\ i=\overline{0,\mathbb{N}}\}\right\}$
 - Funkcije $\mathbb{F}^{S}=\{f\ \ \big|\ \ f:\ S\to\mathbb{F}\}$. $S\ne \varnothing\:$ i $\:$$\forall f,\, g\in \mathbb{F}^{S},\ \forall\lambda\in \mathbb{F}:$
-  (s) $(f+g)(x)=f(x)+g(x)$
-  (ms) $$
+  (s) $\quad\ (f+g)(x)=f(x)+g(x)$
+  (ms) $\ \,f(\lambda\,x)=\lambda\,f(x)$
 
 ### [[Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a]]
 
