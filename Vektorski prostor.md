@@ -37,3 +37,8 @@ $\kappa_{e}$ je izomorfizam VP-a $V$ i $\mathbb{F}^{n}$ jer važe:
 - $\kappa_{e}$ je bijekcija
 
 ###### Prelazak sa jedne baze na drugu:
+Neka su $e= \{e_{1},\,e_{2},\,\dots,\,e_{n}\}$ i $e'= \{e'_{1},\,e'_{2},\,\dots,\,e'_{n}\}$ baze VP-a $V$.
+
+$e'_{k}=\sum\limits_{i=1}^{n}\alpha_{ik}\,e_{i}\quad\forall k=\overline{1,n}$
+
+$T$
