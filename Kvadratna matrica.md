@@ -20,5 +20,18 @@ $\:$
 
 Tada su $\mathcal{A}$ i $\mathcal{A}^{-1}$ **invertibilni**/**regularni**.
 
+Teorema (svojstva invertibilnih matrica).
+- $\big(\mathcal{A}^{-1}\big)^{-1}=\mathcal{A}$
+- $\big(\mathcal{A}^{\mathrm{T}}\big)^{-1}=\big(\mathcal{A}^{-1}\big)^{\mathrm{T}}$
+- $\big(\mathcal{A}\cdot\mathcal{B}\big)^{-1}=\mathcal{B}^{-1}\cdot\mathcal{A}^{-1}$
+- $\big(\lambda\,\mathcal{A}\big)^{-1}=\lambda^{-1}\,\mathcal{A}^{-1}$
+
+### Nilpotentna matrica
+**Def**. $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je **nilpotentna** ako $\exists n>1\ \ :\ \ \mathcal{A}^{n}=\mathcal{O}$.
+
+Ako $\mathcal{A}^{n-1}\ne\mathcal{O}\:$ i $\:\mathcal{A}^{n}=\mathcal{O}$, $n$ je **indeks nilpotentnosti** matrice $\mathcal{A}$.
+
+**!** Na glavn
+
 ### Opšta linearna grupa
 $(\mathbb{M}_{n},\ \cdot)$
