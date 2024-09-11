@@ -8,27 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8f7b0a822616bcd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "9f48bce579c1e2dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Vektorski prostor.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "94851a725418c064"
+          }
+        ]
+      },
+      {
+        "id": "6b850206b8f3a6e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "653f985686e19530",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vektorski prostor.md",
                 "mode": "preview",
                 "source": true
               }
-            }
+            },
+            "group": "94851a725418c064"
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Vektorski prostor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Vektorski prostor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Vektorski prostor.md"
               }
             }
           },
@@ -176,9 +187,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9f48bce579c1e2dc",
+  "active": "653f985686e19530",
   "lastOpenFiles": [
+    "Linearna algebra.md",
+    "Matematika/Matematika.md",
     "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Programski jezik C.md",
     "678.md",
     "Git/678.md",
     "Git/Home.md",
@@ -210,10 +225,6 @@
     "Git/Matematika/Teoreme o srednjoj vrednosti.md",
     "Git/Matematika/Tejlorov polinom.md",
     "Git/Matematika/Tautologija.md",
-    "Git/Matematika/Svojstva skupova.md",
-    "Git/Matematika/Relacija.md",
-    "Git/Matematika/Relacija poretka.md",
-    "Git/Matematika/Relacija ekvivalencije.md",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
