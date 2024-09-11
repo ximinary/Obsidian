@@ -40,5 +40,6 @@ $\:$
 >    
 >    4\. $\begin{align}&E\overset{_{2)}}{=}T_{ee}\overset{_{3)}}{=}T_{ee'}\cdot T_{e'e}\\&E\overset{_{2)}}{=}T_{e'e'}\overset{_{3)}}{=}T_{e'e}\cdot T_{ee'}\end{align}\Bigg|\ \ \Rightarrow\ \ [T_{ee'}]^{-1}=T_{e'e}$
 
+$\:$
 
 ### Zavisnost matrice operatora o bazi

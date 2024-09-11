@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+                "file": "Linearna algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+                "file": "Linearna algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+                "file": "Linearna algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+                "file": "Linearna algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zavisnost koordinata vektora i matrice operatora o bazi.md"
+                "file": "Linearna algebra.md"
               }
             }
           },
@@ -190,10 +190,11 @@
   "active": "653f985686e19530",
   "lastOpenFiles": [
     "Vektorski prostor.md",
-    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
     "Linearna algebra.md",
-    "Potprostor. Operacije nad potprostorima.md",
-    "Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
+    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+    "Matrica.md",
+    "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
+    "Matematika/Potprostor. Operacije nad potprostorima.md",
     "Matematika/Matematika.md",
     "Home.md",
     "Računarstvo/Računarstvo.md",
@@ -224,7 +225,6 @@
     "Git/Matematika/Vrste tačaka u odnosu na neki skup.md",
     "Git/Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Git/Matematika/Vektor.md",
-    "Git/Matematika/Valuacija (iskazna logika).md",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",

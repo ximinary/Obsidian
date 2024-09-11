@@ -4,6 +4,7 @@ $\:$
 [[Vektor]]
 [[Matrica]]
 [[Vektorski prostor]]
+[[Algebra nad poljem]]
 [[Linearni operator]]
 Sistem linearnih jednačina
 Karakteristični i minimalni polinom

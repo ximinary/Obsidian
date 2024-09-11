@@ -26,8 +26,7 @@ Svojstva:
 5. Nadskup linearno zavisnog slupa je linearno zavisan.
 
 Stav. $B=\{ a_{1},\,a_{2},\,\dots,\,a_{n} \}\not\ni0$ je podskup $V$. Tada
-$B$ je linearno zavisan $\,\ \Leftrightarrow\ \ \exists i>1\ \ :\ \ a_{i}$ je lin. kombinacija 
-$\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\ \  a_{1},\,a_{2},\,\dots,\,a_{i-1}$
+$B$ je linearno zavisan $\,\ \Leftrightarrow\ \ \exists i>1\ \ :\ \ a_{i}$ je lin. kombinacija $a_{1},\,a_{2},\,\dots,\,a_{i-1}$
 
 ### Baza i dimenzija 
 **Def**. **Baza** VP-a $V$ je $\ \ B\subseteq V\ \:$ linearno nezavisan skup generatora $V$.
