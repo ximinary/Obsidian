@@ -14,6 +14,7 @@ $\:$ ^f56ca1
 
 $\:$
 
+### [[Determinanta]]
 ### [[Inverzna matrica]]
 
 ### Nilpotentna matrica
@@ -29,4 +30,27 @@ $\mathcal{N}_{k}=\left(\begin{array}{c}0&1&0&\dots&0\\0&0&1&\dots&0\\\dots&\dots
 $\big(\mathcal{N}_{k}\big)^{k}=\mathcal{O}_{k}$
 
 ### Opšta linearna grupa
-$(\mathbb{M}_{n},\ \cdot)$
+$(\mathbb{M}_{n},\ \cdot)$ je monoid jer operacija množenja je:
+- zatvorena: $\forall A,\,B\in\mathbb{M}_{n}(\mathbb{F})\quad A\cdot B\in\mathbb{M}_{n}(\mathbb{F})$
+- asocijativna
+- postoji neutral za množenje
+
+$(\mathbb{M}_{n},\ \cdot)$ nije grupa jer postoje matrice koje nemaju inverz.
+
+Opšta linearna grupa $\mathrm{GL}(n,\,\mathbb{F})$ ili $\mathrm{GL_{n}}$ sostoji od svih matrica iz $\mathbb{M}_{n}(\mathbb{F})$, koji imaju inverz.
+
+
+### Podskupovi od $\mathbb{M}_{n}(\mathbb{F})$
+##### Simetrična matrica
+$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je simetrična ako $\mathcal{A}=\mathcal{A}^{\mathrm{T}}$
+
+Skup simetričnih matrica: $S_{n}$
+$(S_{n},\ \mathbb{F},\ +,\ \cdot)$ je [[Vektorski prostor|VP]]. $\:$ $(S_{n},\ \cdot)$ nije grupa
+
+##### Antisimetrična matrica
+
+##### Ortogonalna matrica
+
+##### Dijagonalna matrica
+
+##### Skalarna matrica

@@ -14,5 +14,6 @@ Teorema (svojstva invertibilnih matrica).
 
 ### Traženje pomoću elementarnih transformacija
 
-### Traženje preko adjungovane matrice
+### Traženje pomoću adjungovane matrice
 
+### Traženje pomoću minimalnog polinoma
