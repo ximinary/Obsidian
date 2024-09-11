@@ -14,8 +14,12 @@ $\mathcal{A}_{m\times n}=(a_{ij})=\underbrace{\big[a^{1},\ a^{2},\ \dots,\ a^{m}
 
 $a^{i}\in \mathbb{F}^{n},\ \ a_{j}\in\mathbb{F}^{m}\quad$ su vektori.
 
-Oznake:
-$a_{ij}=$
+Sledeće oznake vrsta matrice su ekvivalentni: $\quad$$a^{i}\ \ \mathrm{i}\ \ (\mathcal{A})^{i}$
+Sledeće oznake kolona matrice su ekvivalentni: $\quad$$a_{j}\ \ \mathrm{i}\ \ (\mathcal{A})_{j}$
+___
+
+Sledeće oznake elementa matrice su ekvivalentni:
+$a_{ij}\quad\quad a^{i}_{j}\quad \quad(\mathcal{A})_{ij}\quad\quad(\mathcal{A})^{i}_{j}$
 
 ### Množenje matrica
 **Def**. **Množenje matrica** je funkcija $\ \cdot:\ \mathbb{M}_{mn}(\mathbb{F})\times\mathbb{M}_{nk}(\mathbb{F})\to\mathbb{M}_{mk}(\mathbb{F})$.
@@ -23,6 +27,7 @@ takva da $\forall\mathcal{A}=(a_{ij})\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\
 
 $\mathcal{A}\cdot\mathcal{B}=\big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]\!\cdot\!\big[b_{1},\ b_{2},\ \dots,\ b_{k}\big]=\left(\begin{array}{c}a^{1}\cdot b_{1}&a^{1}\cdot b_{2}&\dots&a^{1}\cdot b_{k}\\a^{2}\cdot b_{1}&a^{2}\cdot b_{2}&\dots&a^{2}\cdot b_{k}\\\dots&\dots&\dots&\dots \\a^{m}\cdot b_{1}&a^{m}\cdot b_{2}&\dots&a^{m}\cdot b_{k}\end{array}\right)$
 
-**Teorema** (asocijativnost množenja). 
+**Teorema** (asocijativnost množenja). $\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F}),\ \ \mathcal{B}\in\mathbb{M}_{nk}(\mathbb{F}),\ \ \mathcal{C}\in\mathbb{M}_{kl}(\mathbb{F}).$
+Tada $\mathcal{A}\cdot(\mathcal{B}\cdot\mathcal{C})=(\mathcal{A}\cdot\mathcal{B})\cdot\mathcal{C}$
 ### Transponovanje
 
