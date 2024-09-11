@@ -53,9 +53,16 @@ Stav (svojstva množenja matrica).
    $\lambda(\mathcal{A}\cdot\mathcal{B})=(\lambda\,\mathcal{A})\cdot\mathcal{B}=\mathcal{A}\cdot(\lambda\mathcal{B})$
 
 > Dokaz 1.
-> $\mathcal{A}\cdot(\mathcal{B}+\mathcal{C}) = \big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]\!\cdot\!\big[b_{1}+c_{1},\ b_{2}+c_{2},\ \dots,\ b_{k}+c_{}\big]=$
+> $\mathcal{A}\cdot(\mathcal{B}+\mathcal{C}) = \big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]\!\cdot\!\big[b_{1}+c_{1},\ b_{2}+c_{2},\ \dots,\ b_{k}+c_{k}\big]=$
 > 
-> $=\left(\begin{array}{c}a^{1}\cdot b_{1}&a^{1}\cdot b_{2}&\dots&a^{1}\cdot b_{k}\\a^{2}\cdot b_{1}&a^{2}\cdot b_{2}&\dots&a^{2}\cdot b_{k}\\\dots&\dots&\dots&\dots \\a^{m}\cdot b_{1}&a^{m}\cdot b_{2}&\dots&a^{m}\cdot b_{k}\end{array}\right)$
+> $=\left(\begin{array}{c}a^{1}\cdot (b_{1}+c_{1})&a^{1}\cdot (b_{2}+c_{2})&\dots&a^{1}\cdot (b_{k}+c_{k})\\a^{2}\cdot (b_{1}+c_{1})&a^{2}\cdot (b_{2}+c_{2})&\dots&a^{2}\cdot (b_{k}+c_{k})\\\dots&\dots&\dots&\dots \\a^{m}\cdot (b_{1}+c_{1})&a^{m}\cdot (b_{2}+c_{2})&\dots&a^{m}\cdot (b_{k}+c_{k})\end{array}\right)=$
+> 
+>  $=\left(\begin{array}{c}a^{1}\cdot b_{1}&a^{1}\cdot b_{2}&\dots&a^{1}\cdot b_{k}\\a^{2}\cdot b_{1}&a^{2}\cdot b_{2}&\dots&a^{2}\cdot b_{k}\\\dots&\dots&\dots&\dots \\a^{m}\cdot b_{1}&a^{m}\cdot b_{2}&\dots&a^{m}\cdot b_{k}\end{array}\right)+\left(\begin{array}{c}a^{1}\cdot c_{1}&a^{1}\cdot c_{2}&\dots&a^{1}\cdot c_{k}\\a^{2}\cdot c_{1}&a^{2}\cdot c_{2}&\dots&a^{2}\cdot c_{k}\\\dots&\dots&\dots&\dots \\a^{m}\cdot c_{1}&a^{m}\cdot c_{2}&\dots&a^{m}\cdot c_{k}\end{array}\right)=$
+>  
+>$=\mathcal{A}\cdot\mathcal{B}+\mathcal{A}\cdot\mathcal{C}$
+
+$\:$
+
 ### Transponovanje
 **Def**. **Transponovanje matrice** je funkcija $\ ^{\mathrm{T}}:\ \mathbb{M}_{mn}(\mathbb{F})\to\mathbb{M}_{nm}(\mathbb{F})$, takva da $\forall \mathcal{A}=(a_{ij})\in\mathbb{M}_{mn}(\mathbb{F})\quad\exists \mathcal{A}^{\mathrm{T}}=(a_{ji})\in\mathbb{M}_{nm}(\mathbb{F})$
 

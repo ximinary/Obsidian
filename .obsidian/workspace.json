@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrica.md",
+                "file": "Algebra nad poljem.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrica.md",
+                "file": "Algebra nad poljem.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrica.md",
+                "file": "Algebra nad poljem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrica.md",
+                "file": "Algebra nad poljem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrica.md"
+                "file": "Algebra nad poljem.md"
               }
             }
           },
@@ -187,10 +187,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "653f985686e19530",
+  "active": "9f48bce579c1e2dc",
   "lastOpenFiles": [
     "Linearna algebra.md",
     "Vektorski prostor.md",
+    "Algebra nad poljem.md",
     "Matrica.md",
     "VP.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
@@ -224,7 +225,6 @@
     "Git/Media/stav. jednakost uređenih parova.png",
     "Git/Matematika/Matematika.md",
     "Git/Matematika/Karakteristična funkcija.md",
-    "Git/Matematika/Vrste tačaka u odnosu na neki skup.md",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
