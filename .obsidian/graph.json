@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#home  ",
+      "color": {
+        "a": 1,
+        "rgb": 12452044
+      }
+    },
+    {
+      "query": "tag:#zettelkasten  ",
+      "color": {
+        "a": 1,
+        "rgb": 39234
+      }
+    },
+    {
+      "query": "tag:#math  ",
+      "color": {
+        "a": 1,
+        "rgb": 4980991
+      }
+    },
+    {
+      "query": "tag:#cs  ",
+      "color": {
+        "a": 1,
+        "rgb": 12386304
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 1.01327659574468,
+  "lineSizeMultiplier": 1.325,
+  "collapse-forces": false,
+  "centerStrength": 0.475248226950355,
+  "repelStrength": 10.0496453900709,
+  "linkStrength": 0.738510638297872,
+  "linkDistance": 187,
+  "scale": 0.456876859441735,
+  "close": true
+}

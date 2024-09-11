@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"1f8e61095f6883b3","type":"text","text":"Globalne:\ndeklarisane su van svih funkcija, sve funkcije mogu da ih koriste. ","x":20,"y":120,"width":250,"height":120},
+		{"id":"98469bba3c80c8ad","type":"text","text":"Lokalne:\ndeklarisane su u funkciji, druge funkcije ne mogu da ih koriste.","x":-280,"y":120,"width":250,"height":120},
+		{"id":"af7f801ce4c0db34","type":"text","text":"$\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\:$ Promenljive","x":-131,"y":-38,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"b7a1f465a1727202","fromNode":"af7f801ce4c0db34","fromSide":"bottom","toNode":"98469bba3c80c8ad","toSide":"top"},
+		{"id":"90cae2d7424bcf0c","fromNode":"af7f801ce4c0db34","fromSide":"bottom","toNode":"1f8e61095f6883b3","toSide":"top"}
+	]
+}

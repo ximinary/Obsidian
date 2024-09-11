@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "597f53bf47413cd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7378585f4f8a14d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1d3222f75e6215d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            },
+            "group": "d8d5263ad1b23672"
+          },
+          {
+            "id": "d15b531f909f65c1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "dde993626406b18d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "dc3345ed63f6ba41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ea6d040321ff7e4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            },
+            "group": "d8d5263ad1b23672"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "015fa32d8827345b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5584cdb549305643",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdbbe8b6f74eb67e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "658aa96c1901caee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a57c4eb9c1a72c7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 241.50909423828125
+  },
+  "right": {
+    "id": "3e9f2609d8056b37",
+    "type": "split",
+    "children": [
+      {
+        "id": "136c7470efdddb8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcc9e4ad2eb74ac6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8c294b5ad220f993",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c73aa1bc4ff1edf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a90e75fee247d8b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15789bddcd26fb18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md"
+              }
+            }
+          },
+          {
+            "id": "b3129deac85983c7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "obsidian-git:Open Git source control": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "dde993626406b18d",
+  "lastOpenFiles": [
+    "Git/678.md",
+    "Git/Home.md",
+    "Git/Vektorski prostor.md",
+    "Git/Njb.md",
+    "Git/Standardne biblioteke. Ulaz i izlaz (C).md",
+    "Git/Pokazivači (C).md",
+    "Git/Media/karakt fja primer 1.png",
+    "Git/Media/analiza1_3_4.png",
+    "Git/Media/kongr primer 2.png",
+    "Git/Računarstvo/Računarstvo.md",
+    "Git/Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Git/Računarstvo/Naredbe i kontrola toka (C).md",
+    "Git/Računarstvo/Funkcije (C).md",
+    "Git/Media/zlatna podela.png",
+    "Git/Media/teorema. R je neprebrojiv.png",
+    "Git/Media/teorema. N je beskonačan.png",
+    "Git/Media/tautologija primer 3.png",
+    "Git/Media/tautologija primer 2.png",
+    "Git/Media/stav. relacija poretka u bulovim algebrama.png",
+    "Git/Media/stav. jednakost uređenih parova.png",
+    "Git/Matematika/Matematika.md",
+    "Git/Matematika/Karakteristična funkcija.md",
+    "Git/Matematika/Vrste tačaka u odnosu na neki skup.md",
+    "Git/Matematika/Vektorski i mešoviti proizvod vektora.md",
+    "Git/Matematika/Vektor.md",
+    "Git/Matematika/Valuacija (iskazna logika).md",
+    "Git/Matematika/Teorija skupova.md",
+    "Git/Matematika/Teoreme o srednjoj vrednosti.md",
+    "Git/Matematika/Tejlorov polinom.md",
+    "Git/Matematika/Tautologija.md",
+    "Git/Matematika/Svojstva skupova.md",
+    "Git/Matematika/Relacija.md",
+    "Git/Matematika/Relacija poretka.md",
+    "Git/Matematika/Relacija ekvivalencije.md",
+    "Git/Matematika/Rekurentna jednačina.md",
+    "Git/Matematika/Realni brojevi.md",
+    "Git/Računarstvo",
+    "Git/Media",
+    "Git/Matematika",
+    "Git",
+    "Zettelkasten",
+    "Drugo/Promenljive.canvas",
+    "Untitled",
+    "Git/Publish",
+    "Git/Publish/publish/Text Document.txt",
+    "Git/Publish/publish",
+    "Git/Publish/Новая папка"
+  ]
+}
