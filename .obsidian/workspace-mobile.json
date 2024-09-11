@@ -11,12 +11,8 @@
             "id": "daa962a068dd264d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Home.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -39,24 +35,16 @@
             "id": "96eb031c9ace41f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Home.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "ca0746f60253827a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Matematika/Logička funkcija.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -71,96 +59,64 @@
             "id": "eee4c553b7a8f31f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Programski jezik C.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "0e71d7b64fca523c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Home.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "b2fa9b468fd54f20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Računarstvo/Računarstvo.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "801e747cf5340a73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Računarstvo/Računarstvo.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "9ea113e415479c43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Vektorski prostor.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "105fd7a7e2fcf0fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Home.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "a380e3c2af8a10a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Home.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "6cc92cdcb4e57f5d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Home.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -169,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Home.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -258,7 +214,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Git/Home.md",
+            "file": "Home.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -275,7 +231,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Git/Home.md",
+            "file": "Home.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -287,7 +243,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Git/Home.md"
+            "file": "Home.md"
           }
         }
       }
