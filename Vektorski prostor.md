@@ -41,4 +41,6 @@ Neka su $e= \{e_{1},\,e_{2},\,\dots,\,e_{n}\}$ i $e'= \{e'_{1},\,e'_{2},\,\dots,
 
 $e'_{k}=\sum\limits_{i=1}^{n}\alpha_{ik}\,e_{i}\quad\forall k=\overline{1,n}$
 
-$T$
+$\left(\begin{array}{c}e'_{1}&e'_{2}&\dots&e'_{n}  \end{array}\right)=\left(\begin{array}{c}e_{1}&e_{2}&\dots&e_{n}  \end{array}\right)\left(\begin{array}{c}\alpha_{11}&\alpha_{12}&\dots&\alpha_{1n}\\ \alpha_{21}&\alpha_{22}&\dots&\alpha_{2n}\\ \dots&\dots&\dots&\dots\\\alpha_{n1}&\alpha_{n2}&\dots&\alpha_{nn}  \end{array}\right)$
+
+$T_{ee'}:=(\alpha_{ij})$ — matrica prelaska sa $e$ u $e'$
