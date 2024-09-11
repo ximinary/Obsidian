@@ -15,3 +15,10 @@ $\:$ ^f56ca1
 $\:$
 
 ### Inverzna matrica
+
+**Def**. **Inverzna matrica** (inverz) matrici $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je matrica $\mathcal{A}^{-1}\in\mathbb{M}_{n}(\mathbb{F})$ ako važi $\mathcal{A}\cdot \mathcal{A}^{-1}=\mathbb{E}_{n}=\mathcal{A}^{-1}\cdot\mathcal{A}$
+
+Tada su $\mathcal{A}$ i $\mathcal{A}^{-1}$ **invertibilni**/**regularni**.
+
+### Opšta linearna grupa
+$(\mathbb{M}_{n},\ \cdot)$
