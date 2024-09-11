@@ -132,6 +132,18 @@
             }
           },
           {
+            "id": "432537fd38471cf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "678.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "e2989eb003fc2b16",
             "type": "leaf",
             "state": {
@@ -148,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -265,11 +277,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad338999a31de4e3",
+  "active": "432537fd38471cf8",
   "lastOpenFiles": [
-    "Vektorski prostor.md",
-    "678.md",
+    "/678.md",
     "Home.md",
+    "678.md",
+    "Vektorski prostor.md",
     "Git/Njb.md",
     "Git/Home.md",
     "Git/Test.md",
@@ -294,7 +307,6 @@
     "Matematika/Matematika.md",
     "Matematika/Kombinatorika.md",
     "Matematika/Logika.md",
-    "Matematika/Iskazna logika.md",
     "Matematika/Media/analiza1_1_neprMonot.png",
     "Matematika/Media/broj e stav.png",
     "Matematika/Media/kompozicija funkcija primer.png",
