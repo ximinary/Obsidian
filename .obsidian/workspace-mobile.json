@@ -125,8 +125,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "678.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -214,7 +214,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Home.md",
+            "file": "678.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Home.md",
+            "file": "678.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -243,7 +243,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Home.md"
+            "file": "678.md"
           }
         }
       }
@@ -267,6 +267,9 @@
   },
   "active": "ad338999a31de4e3",
   "lastOpenFiles": [
+    "Vektorski prostor.md",
+    "678.md",
+    "Home.md",
     "Git/Njb.md",
     "Git/Home.md",
     "Git/Test.md",
@@ -290,11 +293,8 @@
     "Matematika/Limes funkcije.md",
     "Matematika/Matematika.md",
     "Matematika/Kombinatorika.md",
-    "Home.md",
     "Matematika/Logika.md",
     "Matematika/Iskazna logika.md",
-    "! Dodati slike/Minimalizacija logičkih izraza.md",
-    "Matematika/Normalne forme.md",
     "Matematika/Media/analiza1_1_neprMonot.png",
     "Matematika/Media/broj e stav.png",
     "Matematika/Media/kompozicija funkcija primer.png",
