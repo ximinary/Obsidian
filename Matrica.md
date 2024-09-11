@@ -32,5 +32,17 @@ Tada $\mathcal{A}\cdot(\mathcal{B}\cdot\mathcal{C})=(\mathcal{A}\cdot\mathcal{B}
 > Dokaz:
 > $\Big(\big(\mathcal{A\cdot\mathcal{B}}\big)\cdot\mathcal{C}\Big)^{i}_{j}=\big(\mathcal{A\cdot\mathcal{B}}\big)^{i}\cdot\mathcal{C}_{j}=\sum\limits_{p=1}^{k}\big(\mathcal{A}\cdot\mathcal{B}\big)^{i}_{p}\cdot\big(\mathcal{C}\big)^{p}_{j}=$
 > $=\sum\limits_{p=1}^{k}\Big(\big(\mathcal{A}\big)^{i}\cdot\big(\mathcal{B}\big)_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=\sum\limits_{p=1}^{k}\Big( \sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=$
-> $=\sum\limits_{p=1}^{k}\sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\cdot\big(\mathcal{C}\big)^{p}_{j}=\sum\limits_{s=1}^{k}\Big( \sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=$
+> $=\sum\limits_{p=1}^{k}\sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\cdot\big(\mathcal{C}\big)^{p}_{j}=\sum\limits_{s=1}^{n} \big(\mathcal{A}\big)^{i}_{s}\cdot\Big(\sum\limits_{p=1}^{k}\big(\mathcal{B}\big)^{s}_{p}\cdot\big(\mathcal{C}\big)^{p}_{j}\Big)=$
+> $=\sum\limits_{s=1}^{n} \big(\mathcal{A}\big)^{i}_{s}\cdot\Big(\big(\mathcal{B}\big)^{s}\cdot\big(\mathcal{C}\big)_{j}\Big)=\sum\limits_{s=1}^{n} \big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\cdot\mathcal{C}\big)^{s}_{j}=$
+> $=\big(\mathcal{A}\big)^{i}\cdot\big(\mathcal{B}\cdot\mathcal{C}\big)_{j}=\Big(\mathcal{A\cdot\big(\mathcal{B}}\cdot\mathcal{C}\big)\Big)^{i}_{j}$
+
+$\:$
+
 ### Transponovanje
+**Def**. **Transponovanje matrice** je funkcija $\ ^{\mathrm{T}}:\ \mathbb{M}_{mn}(\mathbb{F})\to\mathbb{M}_{nm}(\mathbb{F})$, takva da $\forall \mathcal{A}=(a_{ij})\in\mathbb{M}_{mn}(\mathbb{F})\quad\exists \mathcal{A}^{\mathrm{T}}=(a_{ji})\in\mathbb{M}_{nm}(\mathbb{F})$
+
+Svojstva: 
+- $\forall\mathcal{A},\,\mathcal{B}\in\mathbb{M}_{mn}(\mathbb{F})\quad(\mathcal{A}+\mathcal{B})^{\mathrm{T}}=\mathcal{A}^{\mathrm{T}}+\mathcal{B}^{\mathrm{T}}$
+- $\forall\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\lambda\in\mathbb{F}\quad(\lambda\,\mathcal{A})^{\mathrm{T}}=\lambda\,\mathcal{A}^{\mathrm{T}}$
+- $\forall\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\mathcal{B}\in\mathbb{M}_{nk}(\mathbb{F})\quad(\mathcal{A}+\mathcal{B})^{\mathrm{T}}=\mathcal{A}^{\mathrm{T}}+\mathcal{B}^{\mathrm{T}}$
+- $\forall\mathcal{A}\in\mathbb{M}_{mn}
