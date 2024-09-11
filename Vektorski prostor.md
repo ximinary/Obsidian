@@ -2,7 +2,7 @@
 $\:$
 
 **Def**. $V\ne \varnothing$ tada uređenja četvorka $(V,\,\mathbb{F},\,+,\,\cdot)$ zove se **vektorski prostor** nad poljem $\mathbb{F}$ ako $\forall x,\,y \in V,\ \ \forall \alpha,\,\beta\in\mathbb{F}\ \:$ važi:
-- VP1) $\ \ (V,\,+)$ je Abelova grupa.
+- VP1) $\ \ (V,\,+)$ je [[Vektor#^7e6521|Abelova grupa]].
 - VP2) $\ \ \alpha\,(\beta\,x)=(\alpha\,\beta)\,x$
 - VP3) $\ \ (\alpha+\beta)\,x=\alpha\,x+\beta\,x$
 - VP4) $\ \ \alpha\,(x+y)=\alpha\,x+\alpha\,y$

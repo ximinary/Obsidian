@@ -46,7 +46,7 @@ Oznaka: $c = a + b$
 **Def**. Razlika vektora $a-b:=a+(-1)\cdot b$
 
 Svojstva:
-- Abelova grupa $(\mathbb{E}\times\mathbb{E},\,+)$
+- Abelova grupa $(\mathbb{E}\times\mathbb{E},\,+)$ ^7e6521
 	1. $a+(b+c)=(a+b)+c$
 	2. $a+\mathbf{0}=\mathbf{0}+a=a$
 	3. $a+(-a)=(-a)+a=\mathbf{0}$

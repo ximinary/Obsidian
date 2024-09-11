@@ -4,11 +4,16 @@ $\:$
 $\mathbb{M}_{mn}(\mathbb{F})=\left\{\left(\begin{array}{c}a_{11}&a_{12}&\dots&a_{1n}\\a_{21}&a_{22}&\dots&a_{2n}\\\dots&\dots&\dots&\dots\\a_{m1}&a_{m2}&\dots&a_{mn}\end{array}\right)=(a_{ij})=\mathcal{A}\ \ \Bigg|\ \ a_{ij}\in \mathbb{F}\right\}$
 — skup svih matrica $m\times n$ ($m$ vrsta, $n$ kolona).
 
-**Stav**. $\mathbb{M}_{mn}(\mathbb{F})$ je VP uz operacije:
+**Stav**. $\mathbb{M}_{mn}(\mathbb{F})$ je [[Vektorski prostor|VP]] uz operacije:
 - (s) $\forall \mathcal{A}=(a_{ij}),\,\mathcal{B}=(b_{ij})\in \mathbb{M}_{mn}(\mathbb{F})$
   $\quad\quad \mathcal{A}+\mathcal{B}=(a_{ij})+(b_{ij})=(a_{ij}+b_{ij})$
 - (ms) $\forall \mathcal{A}=(a_{ij})\in \mathbb{M}_{mn}(\mathbb{F}),\ \ \forall \lambda\in\mathbb{F}$
   $\quad\quad \lambda\,\mathcal{A}=\lambda\,(a_{ij})=(\lambda\,a_{ij})$
+$\:$
+
+Nula matrica je neurtal za sabiranje:
+$\mathcal{O}_{m\times n}=\left(\begin{array}{c}0&0&\dots&0\\0&0&\dots&0\\\dots&\dots&\dots&\dots\\0&0&\dots&0\end{array}\right)$
+$\forall \mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\quad\mathcal{A}+\mathcal{O}=\mathcal{O}+\mathcal{A}=\mathcal{A}$
 ___
 $\mathcal{A}_{m\times n}=(a_{ij})=\underbrace{\big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]}_{\text{vrste}}=\underbrace{\big[a_{1},\ a_{2},\ \dots,\ a_{n}\big]}_{\text{kolone}}$
 
@@ -38,8 +43,19 @@ Tada $\mathcal{A}\cdot(\mathcal{B}\cdot\mathcal{C})=(\mathcal{A}\cdot\mathcal{B}
 
 $\:$
 Stav (svojstva množenja matrica).
-1. $\forall \mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})$
+1. $\forall \mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\mathcal{B},\,\mathcal{C}\in\mathbb{M}_{nk}(\mathbb{F})\quad$
+   $\mathcal{A}\cdot(\mathcal{B}+\mathcal{C}) = \mathcal{A}\cdot\mathcal{B}+\mathcal{A}\cdot\mathcal{C}$
+   $\:$
+2. $\forall \mathcal{A},\,\mathcal{B}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\mathcal{C}\in\mathbb{M}_{nk}(\mathbb{F})\quad$
+   $(\mathcal{A}+\mathcal{B})\cdot\mathcal{C} = \mathcal{A}\cdot\mathcal{C}+\mathcal{B}\cdot\mathcal{C}$
+   $\:$
+3.  $\forall \mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\mathcal{B}\in\mathbb{M}_{nk}(\mathbb{F})\quad\forall\lambda \in \mathbb{F}\quad$
+   $\lambda(\mathcal{A}\cdot\mathcal{B})=(\lambda\,\mathcal{A})\cdot\mathcal{B}=\mathcal{A}\cdot(\lambda\mathcal{B})$
 
+> Dokaz 1.
+> $\mathcal{A}\cdot(\mathcal{B}+\mathcal{C}) = \big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]\!\cdot\!\big[b_{1}+c_{1},\ b_{2}+c_{2},\ \dots,\ b_{k}+c_{}\big]=$
+> 
+> $=\left(\begin{array}{c}a^{1}\cdot b_{1}&a^{1}\cdot b_{2}&\dots&a^{1}\cdot b_{k}\\a^{2}\cdot b_{1}&a^{2}\cdot b_{2}&\dots&a^{2}\cdot b_{k}\\\dots&\dots&\dots&\dots \\a^{m}\cdot b_{1}&a^{m}\cdot b_{2}&\dots&a^{m}\cdot b_{k}\end{array}\right)$
 ### Transponovanje
 **Def**. **Transponovanje matrice** je funkcija $\ ^{\mathrm{T}}:\ \mathbb{M}_{mn}(\mathbb{F})\to\mathbb{M}_{nm}(\mathbb{F})$, takva da $\forall \mathcal{A}=(a_{ij})\in\mathbb{M}_{mn}(\mathbb{F})\quad\exists \mathcal{A}^{\mathrm{T}}=(a_{ji})\in\mathbb{M}_{nm}(\mathbb{F})$
 
@@ -51,4 +67,6 @@ Stav (svojstva transponovanja).
 > Dokaz poslednjeg tvrđenja:
 > $\Big(\big(\mathcal{A}\cdot\mathcal{B}\big)^{\mathrm{T}}  \Big)^{i}_{j}=\big(\mathcal{A}\cdot\mathcal{B} \big) ^{j}_{i}=\sum\limits_{l=1}^{n}\big( \mathcal{A}\big)^{j}_{l}\big(\mathcal{B}\big)^{l}_{i} = \sum\limits_{l=1}^{n}\big(\mathcal{B}^{\mathrm{T}}\big)^{i}_{l}\big( \mathcal{A}^{\mathrm{T}}\big)^{l}_{j}=$
 > $=\Big(\mathcal{B}^{\mathrm{T}}\cdot\mathcal{A}^{\mathrm{T}}\Big)^{i}_{j}$
+
+$\:$
 ### Kvadratne matrice
