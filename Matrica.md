@@ -29,5 +29,8 @@ $\mathcal{A}\cdot\mathcal{B}=\big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]\!\cdot\!\bi
 
 **Teorema** (asocijativnost množenja). $\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F}),\ \ \mathcal{B}\in\mathbb{M}_{nk}(\mathbb{F}),\ \ \mathcal{C}\in\mathbb{M}_{kl}(\mathbb{F}).$
 Tada $\mathcal{A}\cdot(\mathcal{B}\cdot\mathcal{C})=(\mathcal{A}\cdot\mathcal{B})\cdot\mathcal{C}$
+> Dokaz:
+> $\Big(\big(\mathcal{A\cdot\mathcal{B}}\big)\cdot\mathcal{C}\Big)^{i}_{j}=\big(\mathcal{A\cdot\mathcal{B}}\big)^{i}\cdot\mathcal{C}_{j}=\sum\limits_{p=1}^{k}\big(\mathcal{A}\cdot\mathcal{B}\big)^{i}_{p}\cdot\big(\mathcal{C}\big)^{p}_{j}=$
+> $=\sum\limits_{p=1}^{k}\Big(\big(\mathcal{A}\big)^{i}\cdot\big(\mathcal{B}\big)_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=\sum\limits_{p=1}^{k}\Big( \sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=$
+> $=\sum\limits_{p=1}^{k}\sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\cdot\big(\mathcal{C}\big)^{p}_{j}=\sum\limits_{s=1}^{k}\Big( \sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=$
 ### Transponovanje
-
