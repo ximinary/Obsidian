@@ -4,7 +4,7 @@ $\:$
 [[Vektor]]
 [[Matrica]]
 [[Vektorski prostor]]
-Linearni oprator
+[[Linearni operator]]
 Sistem linearnih jednačina
 Karakteristični i minimalni polinom
 Unitarni prostor
