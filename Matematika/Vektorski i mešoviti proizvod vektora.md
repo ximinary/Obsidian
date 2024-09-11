@@ -1,4 +1,6 @@
 #fax #math #laag [deo poglavlja [[Vektor|"vektor"]]]
+$\:$
+
 > $(x,\,y,\,z)$ je **pozitivna** trojka vektora ako su predstavnici $\overrightarrow{\rm OA},\,\overrightarrow{\rm OB},\,\overrightarrow{\rm OC}$ vektora $x,\,y,\,z\:$ takve da gledajući sa $\mathrm{C}$ kraći put od $\mathrm{A}$ do $\mathrm{B}$ je u smeru suprotnom od smera satne kazaljke; u suprotnom je **negativna**.
 > 
 > Pozitivnost/negativnost trojke se menja ako:

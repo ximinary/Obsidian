@@ -33,7 +33,7 @@ takva da $\forall\mathcal{A}=(a_{ij})\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\
 $\mathcal{A}\cdot\mathcal{B}=\big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]\!\cdot\!\big[b_{1},\ b_{2},\ \dots,\ b_{k}\big]=\left(\begin{array}{c}a^{1}\cdot b_{1}&a^{1}\cdot b_{2}&\dots&a^{1}\cdot b_{k}\\a^{2}\cdot b_{1}&a^{2}\cdot b_{2}&\dots&a^{2}\cdot b_{k}\\\dots&\dots&\dots&\dots \\a^{m}\cdot b_{1}&a^{m}\cdot b_{2}&\dots&a^{m}\cdot b_{k}\end{array}\right)$
 
 **Teorema** (asocijativnost množenja). $\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F}),\ \ \mathcal{B}\in\mathbb{M}_{nk}(\mathbb{F}),\ \ \mathcal{C}\in\mathbb{M}_{kl}(\mathbb{F}).$
-Tada $\mathcal{A}\cdot(\mathcal{B}\cdot\mathcal{C})=(\mathcal{A}\cdot\mathcal{B})\cdot\mathcal{C}$
+Tada $\mathcal{A}\cdot(\mathcal{B}\cdot\mathcal{C})=(\mathcal{A}\cdot\mathcal{B})\cdot\mathcal{C}$ ^9c7738
 > Dokaz:
 > $\Big(\big(\mathcal{A\cdot\mathcal{B}}\big)\cdot\mathcal{C}\Big)^{i}_{j}=\big(\mathcal{A\cdot\mathcal{B}}\big)^{i}\cdot\mathcal{C}_{j}=\sum\limits_{p=1}^{k}\big(\mathcal{A}\cdot\mathcal{B}\big)^{i}_{p}\cdot\big(\mathcal{C}\big)^{p}_{j}=$
 > $=\sum\limits_{p=1}^{k}\Big(\big(\mathcal{A}\big)^{i}\cdot\big(\mathcal{B}\big)_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=\sum\limits_{p=1}^{k}\Big( \sum\limits_{s=1}^{n}\big(\mathcal{A}\big)^{i}_{s}\cdot\big(\mathcal{B}\big)^{s}_{p}\Big)\cdot\big(\mathcal{C}\big)^{p}_{j}=$
@@ -42,15 +42,16 @@ Tada $\mathcal{A}\cdot(\mathcal{B}\cdot\mathcal{C})=(\mathcal{A}\cdot\mathcal{B}
 > $=\big(\mathcal{A}\big)^{i}\cdot\big(\mathcal{B}\cdot\mathcal{C}\big)_{j}=\Big(\mathcal{A\cdot\big(\mathcal{B}}\cdot\mathcal{C}\big)\Big)^{i}_{j}$
 
 $\:$
-Stav (svojstva množenja matrica).
+
+Stav (svojstva množenja matrica). ^f65329
 1. $\forall \mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\mathcal{B},\,\mathcal{C}\in\mathbb{M}_{nk}(\mathbb{F})\quad$
    $\mathcal{A}\cdot(\mathcal{B}+\mathcal{C}) = \mathcal{A}\cdot\mathcal{B}+\mathcal{A}\cdot\mathcal{C}$
-   $\:$
+   $\:$ ^66baee
 2. $\forall \mathcal{A},\,\mathcal{B}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\mathcal{C}\in\mathbb{M}_{nk}(\mathbb{F})\quad$
    $(\mathcal{A}+\mathcal{B})\cdot\mathcal{C} = \mathcal{A}\cdot\mathcal{C}+\mathcal{B}\cdot\mathcal{C}$
-   $\:$
+   $\:$ ^43f815
 3.  $\forall \mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\quad\forall\mathcal{B}\in\mathbb{M}_{nk}(\mathbb{F})\quad\forall\lambda \in \mathbb{F}\quad$
-   $\lambda(\mathcal{A}\cdot\mathcal{B})=(\lambda\,\mathcal{A})\cdot\mathcal{B}=\mathcal{A}\cdot(\lambda\mathcal{B})$
+   $\lambda(\mathcal{A}\cdot\mathcal{B})=(\lambda\,\mathcal{A})\cdot\mathcal{B}=\mathcal{A}\cdot(\lambda\mathcal{B})$ ^fda602
 
 > Dokaz 1.
 > $\mathcal{A}\cdot(\mathcal{B}+\mathcal{C}) = \big[a^{1},\ a^{2},\ \dots,\ a^{m}\big]\!\cdot\!\big[b_{1}+c_{1},\ b_{2}+c_{2},\ \dots,\ b_{k}+c_{k}\big]=$
@@ -76,11 +77,6 @@ Stav (svojstva transponovanja).
 > $=\Big(\mathcal{B}^{\mathrm{T}}\cdot\mathcal{A}^{\mathrm{T}}\Big)^{i}_{j}$
 
 $\:$
-### Kvadratna matrica
-$\mathbb{M}_{n}=\mathbb{M}_{n}(\mathbb{F})=\mathbb{M}_{nn}(\mathbb{F})$
+### [[Kvadratna matrica]]
 
-Jedinična matrica:
-$\mathbb{E}_{n}=\left(\begin{array}{c}1&0&\dots&0\\0&1&\dots&0\\\dots&\dots&\dots&\dots\\0&0&\dots&1\end{array}\right)=\begin{cases}e_{ij}=1,&i=j\\e_{ij}=0,&i\ne j\end{cases}$
-
-Stav. $\mathbb{E}_{n}$ je neutral za množenje, tj. $\forall \mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})\quad\mathcal{A\cdot\mathbb{E}_{n}}=\mathbb{E}_{n}\cdot\mathcal{A}=\mathcal{A}$
-> Dokaz:
+### [[Determinanta]]
