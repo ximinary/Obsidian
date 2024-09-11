@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra nad poljem.md",
+                "file": "Matrica.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra nad poljem.md",
+                "file": "Matrica.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra nad poljem.md",
+                "file": "Matrica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra nad poljem.md",
+                "file": "Matrica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra nad poljem.md"
+                "file": "Matrica.md"
               }
             }
           },
@@ -187,21 +187,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9f48bce579c1e2dc",
+  "active": "653f985686e19530",
   "lastOpenFiles": [
     "Linearna algebra.md",
-    "Vektorski prostor.md",
     "Algebra nad poljem.md",
+    "Vektorski prostor.md",
+    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+    "Standardne biblioteke. Ulaz i izlaz (C).md",
+    "Programski jezik C.md",
+    "Pokazivači (C).md",
     "Matrica.md",
+    "Makroi i uslovno prevođenje (C).md",
+    "Efikasnost i složenost.md",
+    "Doseg, životni vek i povezanost (C).md",
+    "Dinamička alokacija memorije (C).md",
     "VP.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Matematika/Potprostor. Operacije nad potprostorima.md",
-    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
     "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
     "Matematika/Matematika.md",
     "Home.md",
     "Računarstvo/Računarstvo.md",
-    "Programski jezik C.md",
     "678.md",
     "Git/678.md",
     "Git/Home.md",
@@ -212,10 +218,6 @@
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
     "Git/Media/kongr primer 2.png",
-    "Git/Računarstvo/Računarstvo.md",
-    "Git/Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
-    "Git/Računarstvo/Naredbe i kontrola toka (C).md",
-    "Git/Računarstvo/Funkcije (C).md",
     "Git/Media/zlatna podela.png",
     "Git/Media/teorema. R je neprebrojiv.png",
     "Git/Media/teorema. N je beskonačan.png",
@@ -223,8 +225,6 @@
     "Git/Media/tautologija primer 2.png",
     "Git/Media/stav. relacija poretka u bulovim algebrama.png",
     "Git/Media/stav. jednakost uređenih parova.png",
-    "Git/Matematika/Matematika.md",
-    "Git/Matematika/Karakteristična funkcija.md",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",

@@ -76,4 +76,11 @@ Stav (svojstva transponovanja).
 > $=\Big(\mathcal{B}^{\mathrm{T}}\cdot\mathcal{A}^{\mathrm{T}}\Big)^{i}_{j}$
 
 $\:$
-### Kvadratne matrice
+### Kvadratna matrica
+$\mathbb{M}_{n}=\mathbb{M}_{n}(\mathbb{F})=\mathbb{M}_{nn}(\mathbb{F})$
+
+Jedinična matrica:
+$\mathbb{E}_{n}=\left(\begin{array}{c}1&0&\dots&0\\0&1&\dots&0\\\dots&\dots&\dots&\dots\\0&0&\dots&1\end{array}\right)=\begin{cases}e_{ij}=1,&i=j\\e_{ij}=0,&i\ne j\end{cases}$
+
+Stav. $\mathbb{E}_{n}$ je neutral za množenje, tj. $\forall \mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})\quad\mathcal{A\cdot\mathbb{E}_{n}}=\mathbb{E}_{n}\cdot\mathcal{A}=\mathcal{A}$
+> Dokaz:
