@@ -78,5 +78,6 @@ Stav (svojstva transponovanja).
 
 $\:$
 ### [[Kvadratna matrica]]
+- ### [[Inverzna matrica]]
 
-### [[Determinanta]]
+- ### [[Determinanta]]

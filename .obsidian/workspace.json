@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kvadratna matrica.md",
+                "file": "Inverzna matrica.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kvadratna matrica.md",
+                "file": "Inverzna matrica.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kvadratna matrica.md",
+                "file": "Inverzna matrica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kvadratna matrica.md",
+                "file": "Inverzna matrica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kvadratna matrica.md"
+                "file": "Inverzna matrica.md"
               }
             }
           },
@@ -189,8 +189,9 @@
   },
   "active": "653f985686e19530",
   "lastOpenFiles": [
-    "Matrica.md",
     "Kvadratna matrica.md",
+    "Matrica.md",
+    "Inverzna matrica.md",
     "Linearna algebra.md",
     "Matematika/Vektor.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
@@ -214,7 +215,6 @@
     "678.md",
     "Git/678.md",
     "Git/Home.md",
-    "Git/Vektorski prostor.md",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
     "Git/Media/kongr primer 2.png",

@@ -14,24 +14,19 @@ $\:$ ^f56ca1
 
 $\:$
 
-### Inverzna matrica
-
-**Def**. **Inverzna matrica** (inverz) matrici $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je matrica $\mathcal{A}^{-1}\in\mathbb{M}_{n}(\mathbb{F})$ ako važi $\mathcal{A}\cdot \mathcal{A}^{-1}=\mathbb{E}_{n}=\mathcal{A}^{-1}\cdot\mathcal{A}$
-
-Tada su $\mathcal{A}$ i $\mathcal{A}^{-1}$ **invertibilni**/**regularni**.
-
-Teorema (svojstva invertibilnih matrica).
-- $\big(\mathcal{A}^{-1}\big)^{-1}=\mathcal{A}$
-- $\big(\mathcal{A}^{\mathrm{T}}\big)^{-1}=\big(\mathcal{A}^{-1}\big)^{\mathrm{T}}$
-- $\big(\mathcal{A}\cdot\mathcal{B}\big)^{-1}=\mathcal{B}^{-1}\cdot\mathcal{A}^{-1}$
-- $\big(\lambda\,\mathcal{A}\big)^{-1}=\lambda^{-1}\,\mathcal{A}^{-1}$
+### [[Inverzna matrica]]
 
 ### Nilpotentna matrica
-**Def**. $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je **nilpotentna** ako $\exists n>1\ \ :\ \ \mathcal{A}^{n}=\mathcal{O}$.
+**Def**. $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je **nilpotentna** ako $\exists k>1\ \ :\ \ \mathcal{A}^{k}=\mathcal{O}_{n}$.
 
-Ako $\mathcal{A}^{n-1}\ne\mathcal{O}\:$ i $\:\mathcal{A}^{n}=\mathcal{O}$, $n$ je **indeks nilpotentnosti** matrice $\mathcal{A}$.
+Ako $\mathcal{A}^{k-1}\ne\mathcal{O}_{n}\:$ i $\:\mathcal{A}^{k}=\mathcal{O}_{n}$, $\ k$ je **indeks nilpotentnosti** matrice $\mathcal{A}$.
 
-**!** Na glavn
+**!** Na glavnoj dijagonali su $0$. $\ \:$ $\mathrm{Tr}\,\mathcal{A}=\det\mathcal{A}=0$
+$\:$
+
+Kanonska nilpotentna matrica indeksa $k$:
+$\mathcal{N}_{k}=\left(\begin{array}{c}0&1&0&\dots&0\\0&0&1&\dots&0\\\dots&\dots&\dots&\dots&\dots\\0&0&0&\dots&1\\0&0&0&\dots&0\end{array}\right)_{k\times k}$
+$\big(\mathcal{N}_{k}\big)^{k}=\mathcal{O}_{k}$
 
 ### Opšta linearna grupa
 $(\mathbb{M}_{n},\ \cdot)$
