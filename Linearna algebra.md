@@ -2,7 +2,7 @@
 $\:$
 
 [[Vektor]]
-[[Matrica]]
+[[Matrica]] ([[Kvadratna matrica|kvadratna]])
 [[Vektorski prostor]]
 [[Algebra nad poljem]]
 [[Linearni operator]]
