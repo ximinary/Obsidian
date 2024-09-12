@@ -29,4 +29,4 @@ int main() {
 
 ### Životni vek objekata. ```static``` i ```auto```
 
-### Povezanost identifikatora. 
+### Povezanost identifikatora. ```ststic``` i ```extern```

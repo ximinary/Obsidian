@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doseg, životni vek i povezanost (C).md",
+                "file": "Matematika/Matematika.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doseg, životni vek i povezanost (C).md",
+                "file": "Matematika/Matematika.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Doseg, životni vek i povezanost (C).md",
+                "file": "Matematika/Matematika.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Doseg, životni vek i povezanost (C).md",
+                "file": "Matematika/Matematika.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doseg, životni vek i povezanost (C).md"
+                "file": "Matematika/Matematika.md"
               }
             }
           },
@@ -188,18 +188,21 @@
   },
   "active": "91f5577032ce9754",
   "lastOpenFiles": [
-    "Programski jezik C.md",
+    "Matematika/Analiza.md",
+    "Matematika/Matematika.md",
+    "Matematika/Brojevi.md",
+    "Matematika/Teorija skupova.md",
+    "Linearna algebra.md",
+    "Home.md",
     "Računarstvo/Računarstvo.md",
-    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Programski jezik C.md",
     "Doseg, životni vek i povezanost (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Excalidraw/Drawing 2024-09-12 14.34.30.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 14.33.44.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 14.30.03.excalidraw.md",
     "Excalidraw",
     "Složenost algoritma.md",
-    "Home.md",
-    "Matematika/Matematika.md",
-    "Linearna algebra.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Vektor.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
@@ -212,9 +215,6 @@
     "Standardne biblioteke. Ulaz i izlaz (C).md",
     "Pokazivači (C).md",
     "Dinamička alokacija memorije (C).md",
-    "VP.md",
-    "Matematika/Potprostor. Operacije nad potprostorima.md",
-    "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
     "Git/Media/kongr primer 2.png",
