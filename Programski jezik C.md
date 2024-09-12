@@ -10,6 +10,6 @@ $\:$
 ### [[Standardne biblioteke. Ulaz i izlaz (C)|Standardne biblioteke. Ulaz i izlaz]]
 
 ---
-
+### [[Organizacija izvornog koda (C)|Organizacija izvornog koda]]
 ### [[Doseg, životni vek i povezanost (C)|Doseg, životni vek i povezanost]]
-### [[Organizacija izvornog koda]]
+### [[Organizacija memorije (C)|Organizacija memorije]]

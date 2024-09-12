@@ -6,10 +6,7 @@ $\:$
 Programske paradigme
 Interpretacija i kompilacija
 
-
-
 Izračunljivost funkcije
-Čitljivost programa
 Ispravnost programa
 [[Složenost algoritma]]
 
