@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Makroi i uslovno prevođenje (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Makroi i uslovno prevođenje (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Makroi i uslovno prevođenje (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Makroi i uslovno prevođenje (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Makroi i uslovno prevođenje (C).md"
+                "file": "Računarstvo/Računarstvo.md"
               }
             }
           },
@@ -183,14 +183,14 @@
       "templates:Insert template": false,
       "obsidian-git:Open Git source control": true,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "homepage:Open homepage": true
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
   "active": "91f5577032ce9754",
   "lastOpenFiles": [
     "Programski jezik C.md",
-    "Makroi i uslovno prevođenje (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Doseg, životni vek i povezanost (C).md",
     "Excalidraw/Drawing 2024-09-12 14.34.30.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 14.33.44.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 14.30.03.excalidraw.md",
@@ -211,7 +211,6 @@
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Standardne biblioteke. Ulaz i izlaz (C).md",
     "Pokazivači (C).md",
-    "Doseg, životni vek i povezanost (C).md",
     "Dinamička alokacija memorije (C).md",
     "VP.md",
     "Matematika/Potprostor. Operacije nad potprostorima.md",

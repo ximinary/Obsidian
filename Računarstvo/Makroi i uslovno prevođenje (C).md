@@ -91,3 +91,30 @@ dodaj_u_niz(a, 2) ->  niz_a[brojac_a++] = 2
 
 
 ### Uslovno prevođenje
+
+```c
+#ifdef      // ako je definisano
+#ifndef     // ako nije definisano
+#else       // inače
+#endif      // kraj uslova
+```
+
+Primer:
+```c
+#include <stdio.h>
+#define SRB
+
+int main() {
+	#ifdef SRB
+		printf("Zdravo\n");
+	#else 
+		printf("Hello\n");
+	#endif
+	return 0;
+}
+```
+
+Definisanje preko komandne linije:
+```
+gcc -D SRB 1.c
+```
