@@ -73,6 +73,8 @@ int main() {
 ```
 
 
+Globalne i statičke lokalne promenljive se inicijalizuju nulom.
+
 ### Povezanost identifikatora. ```ststic``` i ```extern```
 — promenljive sa istim imenom u različitim objektnim modulima.
 
@@ -80,3 +82,43 @@ int main() {
 	- lokalne promenljivi
 	- korisnički definisani tipovi
 - SA SPOLJAŠNJOM POVEZANOŠĆU
+  (promenljive/fje sa istim imenom u različitim fajlovima se računaju kao jedna promenljiva/fja)
+	- globalne promenljive i funkcije
+		- bez kvalifikatora
+		- ```extern``` — promenljiva/fja je definisana u drugom fajlu (mora bar u jednom fajlu bez ```extern```!)
+		  — moguće navesti u bloku da bi bila vidljiva samo tamo
+
+1.c:
+```c 
+#include <stdio.h>
+
+int a;          // = 0
+int b = 3;
+
+void func1() {
+	printf("a = %d\n", a);
+}
+```
+$\quad\quad\,$ 2.c:
+```c 
+#include <stdio.h>
+
+extern int a;
+
+void func2() {
+	extern int b;
+	printf("b = %d\n", b);
+	func1();
+}
+
+int main() {
+	a++;             // b nije vidljiva ovde
+	func2();
+	return 0;
+}
+```
+
+
+- SA UNUTRAŠNJOM POVEZANOŠĆU
+	- globalna promenljiva/fja sa kvalifikatorom ```ststic``` 
+	  (neće biti povezana sa promenjivoj/fjoj sa istim imenom u drugom fajlu)
