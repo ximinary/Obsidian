@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Doseg, životni vek i povezanost (C).md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Doseg, životni vek i povezanost (C).md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Doseg, životni vek i povezanost (C).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Doseg, životni vek i povezanost (C).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Računarstvo.md"
+                "file": "Doseg, životni vek i povezanost (C).md"
               }
             }
           },
@@ -189,13 +189,13 @@
   "active": "91f5577032ce9754",
   "lastOpenFiles": [
     "Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Doseg, životni vek i povezanost (C).md",
     "Excalidraw/Drawing 2024-09-12 14.34.30.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 14.33.44.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 14.30.03.excalidraw.md",
     "Excalidraw",
-    "Računarstvo/Računarstvo.md",
     "Složenost algoritma.md",
     "Home.md",
     "Matematika/Matematika.md",
