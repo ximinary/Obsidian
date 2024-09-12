@@ -12,29 +12,35 @@ uključivanje u program prototipa funkcija:
 ```
 
 ### Makro zamene — ```#define```
+Zamena:
 ```c
 #define ORIGINALNI_TEXT novi_tekst
 // zamena niza karaktera drugim nizom
 ```
 
+Kraj primene zamene: 
+```c
+#undef ORIGINALNI_TEXT
+```
+
+
 Primer
 ```c
 #define MAX 100
 ...
+//tekst programa  ->  posle prevođenja
 
-a = MAX;          // biće zamenjeno sa: a = 100;
-int niz[MAX];     // biće zamenjeno sa: int niz[100];
+a = MAX           ->  a = 100 
+int niz[MAX]      ->  int niz[100]
 
-printf("MAX");    // neće biti zamenjeno
-b = MAX_LEN;      // neće biti zamenjeno
+printf("MAX");    //  neće biti zamenjeno
+b = MAX_LEN;      //  neće biti zamenjeno
 ```
 
 Zamene sa argumentima:
 ```c
 #define max(A, B) ((A) > (B) ? (A) : (B))
 ...
-//tekst programa  ->  posle prevođenja
-
 max(2, 3)         ->  ((2) > (3) ? (2) : (3))
 
 max(x+2, 4*y)     ->  ((x+2) > (4*y) ? (x+2) : (4*y))
@@ -75,4 +81,13 @@ zamena sa ```" "``` — identifikator ```#```:
 dprint(x/y)       ->  printf("x/y" " = %d", x/y)
 ```
 
-složeni identifikator ```##```:
+zamena unutra imena promenljive — identifikator ```##```: 
+```c
+#define dodaj_u_niz(ime, element) \
+	niz_##ime[brojac_##ime++] = element
+...
+dodaj_u_niz(a, 2) ->  niz_a[brojac_a++] = 2
+```
+
+
+### Uslovno prevođenje
