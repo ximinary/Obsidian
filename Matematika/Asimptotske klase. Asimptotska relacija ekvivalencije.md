@@ -61,4 +61,4 @@ $\begin{array}{|c|c|}
 	\hline
 \end{array}$ ^000000
 
-### [[Efikasnost i složenost]]
+### [[Složenost algoritma]]

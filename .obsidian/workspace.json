@@ -38,21 +38,8 @@
               }
             },
             "group": "94851a725418c064"
-          },
-          {
-            "id": "d96c172595dee45f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Računarstvo/Računarstvo.md"
               }
             }
           },
@@ -200,12 +187,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d96c172595dee45f",
+  "active": "9f48bce579c1e2dc",
   "lastOpenFiles": [
+    "Složenost algoritma.md",
     "Računarstvo/Računarstvo.md",
-    "Programski jezik C.md",
     "Home.md",
     "Matematika/Matematika.md",
+    "Programski jezik C.md",
+    "Makroi i uslovno prevođenje (C).md",
     "Linearna algebra.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Vektor.md",
@@ -218,8 +207,6 @@
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Standardne biblioteke. Ulaz i izlaz (C).md",
     "Pokazivači (C).md",
-    "Makroi i uslovno prevođenje (C).md",
-    "Efikasnost i složenost.md",
     "Doseg, životni vek i povezanost (C).md",
     "Dinamička alokacija memorije (C).md",
     "VP.md",
