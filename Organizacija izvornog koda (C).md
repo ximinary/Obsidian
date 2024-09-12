@@ -28,8 +28,9 @@ $\:$
   gcc program -o 1.o 2.c -m    //-m za <math.h>
   ```
 
-[[Od izvornog do izvršivog.png|Primer]]
-### Organizacija koda u više datoteka i ```make```
+[[Od izvornog do izvršivog.png|Primer]] #todo
+
+### Organizacija koda u više datoteka. ```make```
 
 Izdvajanje neke celine — grupe funkcija u odvojenu datoteku se vrši za:
 - kompiliranje jednom i zatim korišćenje objektnog modula
@@ -151,16 +152,23 @@ void oslobodi_listu(cvor** pPocetak) {
 }
 ```
 makefile:
-```makefi
-a.out : 2.o liste.o
-
-    gcc 2.o liste.o
-
+```makefile
+program : main.o liste.o
+    gcc -o program main.o liste.o
 liste.o : liste.c liste.h
-
     gcc -c liste.c
-
-2.o : 2.c liste.h
-
-    gcc -c 2.c
+main.o : main.c liste.h
+    gcc -c main.c
 ```
+$\:$
+
+```make``` određuje zavisnost datoteka, tako što
+```makefile
+fajl1 : fajle_od_kojih_zavisi_fajl1
+	gcc kako se kreira fajl
+```
+Prvim treba navesti ciljni fajl.
+```make``` će kreirati stablo zavisnosti i gledajući na vreme poslednje promene datoteka će izvršavati samo potrebne komande u potrebnom redosledu.
+
+U primeru ako se promenio ```main.c```, prvo će biti izvršeno ```gcc -c main.c``` da bi se dobio ```main.o``` pa će izvršiti ```gcc -o program main.o liste.o```.
+
