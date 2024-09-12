@@ -31,3 +31,136 @@ $\:$
 [[Od izvornog do izvršivog.png|Primer]]
 ### Organizacija koda u više datoteka i ```make```
 
+Izdvajanje neke celine — grupe funkcija u odvojenu datoteku se vrši za:
+- kompiliranje jednom i zatim korišćenje objektnog modula
+- korišćenje u nekoliko različitih programa
+$\:$
+
+```.h``` datoteka sadrži deklaracije funkcija odgovarajuće ```.c``` datoteke, deklaracije globalnih promenljivih i definicije struktura.
+
+```.c``` datoteka sadrži definicije funkcija, deklaracije globalnih promenljivih i konstanti, definicije struktura
+
+Primer:
+
+main.c:
+```c
+#include "liste.h"
+
+int veci_od(cvor* lista, int broj) {
+    int count = 0;
+    while (lista != NULL) {
+        if (lista->x > broj)
+            count++;
+        lista = lista->sl;
+    }
+    return count;
+}
+
+int main() {
+    int n, k;
+    scanf("%d %d", &n, &k);
+    cvor* lista = NULL;
+    ucitaj_listu(&lista, n, stdin);
+    printf("%d\n", veci_od(lista, k));
+    oslobodi_listu(&lista);
+    return 0;
+}
+```
+liste.h:
+```c
+#ifndef _LISTE_
+#define _LISTE_
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct cvor {
+    int x;
+    struct cvor* sl;
+} cvor;
+
+void greska(); 
+
+cvor* novi_cvor(int x);
+
+void dodaj_na_pocetak(cvor** pPocetak, int x);
+void dodaj_na_kraj(cvor** pPocetak, int x);
+void ispisi_listu(cvor* tekuci, FILE* f);
+void ucitaj_listu(cvor** pPocetak, int n, FILE* f);
+void oslobodi_listu(cvor** pPocetak);
+
+#endif
+```
+liste.c:
+```c
+#include "liste.h"
+
+void greska() {
+    fprintf(stderr, "-1\n");
+    exit(EXIT_FAILURE);
+}
+
+cvor* novi_cvor(int x) {
+    cvor* novi = malloc(sizeof(cvor));
+    if (novi == NULL) greska();
+    novi->x = x;
+    return novi;
+}
+
+void dodaj_na_pocetak(cvor** pPocetak, int x) {
+    cvor* novi = novi_cvor(x);
+    novi->sl = *pPocetak;
+    *pPocetak = novi;
+}
+
+void dodaj_na_kraj(cvor** pPocetak, int x) {
+    cvor* novi = novi_cvor(x);
+    novi->sl = NULL;
+    if (*pPocetak == NULL)
+        *pPocetak = novi;
+    else{
+        cvor* kraj;
+        for (kraj = *pPocetak; kraj->sl != NULL; kraj = kraj->sl);
+        kraj->sl = novi;
+    }
+}
+
+void ispisi_listu(cvor* tekuci, FILE* f) {
+    while (tekuci != NULL) {
+        fprintf(f, "%d ", tekuci->x);
+        tekuci = tekuci->sl;
+    }
+    printf("\n");
+}
+
+void ucitaj_listu(cvor** pPocetak, int n, FILE* f) {
+    int tekuci, i;
+    for (i = 0; i < n; i++) {
+        fscanf(f, "%d", &tekuci);
+        dodaj_na_kraj(pPocetak, tekuci);
+    }
+}
+
+void oslobodi_listu(cvor** pPocetak) {
+    cvor* tekuci;
+    while(*pPocetak != NULL) {
+        tekuci = *pPocetak;
+        *pPocetak = (*pPocetak)->sl;
+        free(tekuci);
+    }
+}
+```
+makefile:
+```makefi
+a.out : 2.o liste.o
+
+    gcc 2.o liste.o
+
+liste.o : liste.c liste.h
+
+    gcc -c liste.c
+
+2.o : 2.c liste.h
+
+    gcc -c 2.c
+```
