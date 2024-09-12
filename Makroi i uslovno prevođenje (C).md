@@ -33,5 +33,46 @@ Zamene sa argumentima:
 ```c
 #define max(A, B) ((A) > (B) ? (A) : (B))
 ...
+//tekst programa  ->  posle prevođenja
 
+max(2, 3)         ->  ((2) > (3) ? (2) : (3))
+
+max(x+2, 4*y)     ->  ((x+2) > (4*y) ? (x+2) : (4*y))
+
+max(x++, ++y)     ->  ((x++) > (--y) ? (x++) : ++y))
+// nije funkcija inkrementiraće dva puta!
 ```
+
+treba paziti na zagrade:
+```c
+#define kvadrat(x) x*x
+...
+kvadrat(a + 2)    ->  a + 2*a + 2         // !
+```
+```c
+#define kvadrat(x) (x)*(x)
+...
+kvadrat(a + 2)    ->  (a + 2)*(a + 2)
+10/kvadrat(a)     ->  10/(a)*(a)          // !
+```
+```c
+#define kvadrat(x) ((x)*(x))
+...
+10/kvadrat(a)     ->  10/((a)*(a))
+```
+
+zamena vrednosti promenljivih:
+```c
+#define swap(t, x, y) { t z; z = x; x = y; y = z; }
+...
+swap(int, a, b)   ->  { int z; z = a; a = b; b = z; }
+```
+
+zamena sa ```" "``` — identifikator ```#```:
+```c
+#define dprint(EXP) printf(#EXP " = %d", EXP)
+...
+dprint(x/y)       ->  printf("x/y" " = %d", x/y)
+```
+
+složeni identifikator ```##```:
