@@ -186,9 +186,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "91f5577032ce9754",
+  "active": "fcc9e4ad2eb74ac6",
   "lastOpenFiles": [
     "Programski jezik C.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Doseg, životni vek i povezanost (C).md",
     "Računarstvo/Računarstvo.md",
     "Home.md",
     "Matematika/Matematika.md",
@@ -196,7 +199,6 @@
     "Matematika/Brojevi.md",
     "Matematika/Teorija skupova.md",
     "Linearna algebra.md",
-    "Doseg, životni vek i povezanost (C).md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Excalidraw/Drawing 2024-09-12 14.34.30.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 14.33.44.excalidraw.md",
@@ -213,8 +215,6 @@
     "Inverzna matrica.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Standardne biblioteke. Ulaz i izlaz (C).md",
-    "Pokazivači (C).md",
-    "Dinamička alokacija memorije (C).md",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
     "Git/Media/kongr primer 2.png",
