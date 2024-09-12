@@ -4,7 +4,7 @@ $\:$
 [[Programski jezik C]]
 
 Programske paradigme
-Interpretacija i kompilacija
+[[Interpretacija i kompilacija]]
 
 Izračunljivost funkcije
 Ispravnost programa

@@ -1,7 +1,7 @@
 #fax #cs/prog/c [deo [[Programski jezik C|jezika C]]]
 $\:$
 
-Jednostavne operacije nad tekstualnim sadržajem programa, koje se vrše u fazi pretprocesiranja.
+Jednostavne operacije nad tekstualnim sadržajem programa, koje se vrše u fazi [[Organizacija izvornog koda (C)#^14a8a4|pretprocesiranja]].
 
 ### Uključivanje datoteka zaglavlja — ```#include```
 
