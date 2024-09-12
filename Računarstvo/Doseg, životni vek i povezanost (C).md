@@ -1,5 +1,5 @@
 #fax #cs/prog/c [deo [[Programski jezik C|jezika C]]]
-$\:$
+
 
 ### Doseg identifikatora 
 — određuje deo programa u kojem je identifikator vidljiv.
@@ -88,6 +88,7 @@ Globalne i statičke lokalne promenljive se inicijalizuju nulom.
 		- ```extern``` — promenljiva/fja je definisana u drugom fajlu (mora bar u jednom fajlu bez ```extern```!)
 		  — moguće navesti u bloku da bi bila vidljiva samo tamo
 
+Primer:
 1.c:
 ```c 
 #include <stdio.h>
@@ -95,30 +96,76 @@ Globalne i statičke lokalne promenljive se inicijalizuju nulom.
 int a;          // = 0
 int b = 3;
 
-void func1() {
+void f() {
 	printf("a = %d\n", a);
 }
 ```
-$\quad\quad\,$ 2.c:
+2.c:
 ```c 
 #include <stdio.h>
 
 extern int a;
+void f();
 
-void func2() {
+void g() {
 	extern int b;
 	printf("b = %d\n", b);
-	func1();
+	f();
 }
 
 int main() {
 	a++;             // b nije vidljiva ovde
-	func2();
+	g();
 	return 0;
 }
 ```
-
+ispis: 
+```
+b = 3
+a = 1
+```
 
 - SA UNUTRAŠNJOM POVEZANOŠĆU
 	- globalna promenljiva/fja sa kvalifikatorom ```ststic``` 
 	  (neće biti povezana sa promenjivoj/fjoj sa istim imenom u drugom fajlu)
+
+Primer:
+1.c:
+```c 
+#include <stdio.h>
+
+static int a = 3;  // sa unutrašnjom
+int b = 5;         // sa spoljašnjom
+
+static void f() {
+	printf("f: a = %d, b = %d\n", a, b);
+}
+
+int g() {
+	f();
+	return 1;
+}
+```
+2.c:
+```c 
+#include <stdio.h>
+
+int g();
+int a, b;
+
+double f() { ...; }
+//nikako nije povezana sa f u drugom fajlu.
+
+int main() {
+	printf("main: a = %d, b = %d\n", a, b);
+	
+	if (g())
+		return 0;
+	return 1;
+}
+```
+ispis: 
+```
+main: a = 0, b = 5
+f: a = 3, b = 5
+```
