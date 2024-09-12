@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "preview",
                 "source": true
               }
@@ -40,7 +40,7 @@
             "group": "94851a725418c064"
           },
           {
-            "id": "325e780b5da2b8b1",
+            "id": "d96c172595dee45f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,8 +200,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "325e780b5da2b8b1",
+  "active": "d96c172595dee45f",
   "lastOpenFiles": [
+    "Računarstvo/Računarstvo.md",
+    "Programski jezik C.md",
+    "Home.md",
     "Matematika/Matematika.md",
     "Linearna algebra.md",
     "Matematika/Vektorski prostor.md",
@@ -214,7 +217,6 @@
     "Inverzna matrica.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Standardne biblioteke. Ulaz i izlaz (C).md",
-    "Programski jezik C.md",
     "Pokazivači (C).md",
     "Makroi i uslovno prevođenje (C).md",
     "Efikasnost i složenost.md",
@@ -223,8 +225,6 @@
     "VP.md",
     "Matematika/Potprostor. Operacije nad potprostorima.md",
     "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
-    "Home.md",
-    "Računarstvo/Računarstvo.md",
     "678.md",
     "Git/678.md",
     "Git/Home.md",

@@ -3,7 +3,7 @@ $\:$
 
 Programske paradigme
 Interpretacija i kompilacija
-Stek
+[[Programski stek]]
 
 [[Programski jezik C]]
 
