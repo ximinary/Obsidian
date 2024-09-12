@@ -38,8 +38,21 @@
               }
             },
             "group": "94851a725418c064"
+          },
+          {
+            "id": "325e780b5da2b8b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Matematika.md"
+                "file": "Home.md"
               }
             }
           },
@@ -187,8 +200,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "653f985686e19530",
+  "active": "325e780b5da2b8b1",
   "lastOpenFiles": [
+    "Matematika/Matematika.md",
     "Linearna algebra.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Vektor.md",
@@ -209,7 +223,6 @@
     "VP.md",
     "Matematika/Potprostor. Operacije nad potprostorima.md",
     "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
-    "Matematika/Matematika.md",
     "Home.md",
     "Računarstvo/Računarstvo.md",
     "678.md",
