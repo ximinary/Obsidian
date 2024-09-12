@@ -28,5 +28,11 @@ int main() {
 ```
 
 ### Životni vek objekata. ```static``` i ```auto```
+— deo vremena izvršavanja programa u kojem se promenljiva može koristiti i za nju je rezervisano mesto u memoriji.
+- **statički** — objekt je dostupan tokom celog izvršavanja programa.
+- **automatski** — promenljive koje se automatski stvaraju i uklanjaju prilikom pozivanja funkcija.
+- **dinamički** — promenljive koje se alociraju i dealociraju na eksplicitan zahtev programera (kada količina memorije bude poznata samo tokom izvršavanja programa — [[Dinamička alokacija memorije (C)|dinamička alokacija memorije]]).
+
+
 
 ### Povezanost identifikatora. ```ststic``` i ```extern```
