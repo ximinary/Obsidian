@@ -2,7 +2,7 @@
 $\:$
 
 Funkcija ```main``` je glavna funkcija sa koje počinje izvršavanje programa.
-Iz ```main``` (i drugih funkcija) pozivaju se druge funkcije: [[Standardne biblioteke. Ulaz i izlaz (C)|bibliotečke]] ili korisnički.
+Iz ```main``` (i drugih funkcija) pozivaju se druge funkcije: [[Standardne biblioteke (C)|bibliotečke]] ili korisnički.
 
 U funkciju se obično izdvajaju neka izračunavanja, koja predstavljaju celinu i koristi se više puta u programu.
 
@@ -127,7 +127,7 @@ Povratna vrednost može biti korisnički definisanog tipa, ali ne može biti niz
 
 ```main``` mora da ima povratni tip ```int```
 Konvencija: ```main``` vraća ```0``` ako nema grešaka, i ne-nula kod greške, ako je došlo do greške.
-## Funkcije sa promenljivim brojem argumenata: [```<stdarg.h>```](Standardne%20biblioteke.%20Ulaz%20i%20izlaz%20(C))
+## Funkcije sa promenljivim brojem argumenata: [```<stdarg.h>```](Standardne%20biblioteke%20(C).md)
 
 Tip podataka: ```va_list``` — lista argumenata.
 ```va_start(lista, br_argumenata)``` — početak

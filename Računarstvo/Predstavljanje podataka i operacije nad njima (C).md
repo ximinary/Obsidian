@@ -370,7 +370,7 @@ char s2[] = {'Z', 'd', 'r', 'a', 'v', 'o', '\0'};
 
 ```printf("547", " + as");``` je isto što i ```printf("547 + as");```
 
-biblioteka za rad sa niskama [```<string.h>```](Standardne%20biblioteke.%20Ulaz%20i%20izlaz%20(C)):
+biblioteka za rad sa niskama [```<string.h>```](Standardne%20biblioteke%20(C).md):
 
 dužina niske: ```strlen(a)```
 kopiranje niske ```a``` u nisku ```b```: ```strcpy(b, a)```

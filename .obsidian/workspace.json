@@ -23,7 +23,7 @@
         ]
       },
       {
-        "id": "c4a8ebb81d359e40",
+        "id": "61369972e1b7dfdb",
         "type": "tabs",
         "children": [
           {
@@ -186,11 +186,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "9f48bce579c1e2dc",
+  "active": "91f5577032ce9754",
   "lastOpenFiles": [
-    "Računarstvo/Makroi i uslovno prevođenje (C).md",
-    "Organizacija izvornog koda (C).md",
     "Programski jezik C.md",
+    "Ulaz i izlaz (C).md",
+    "Standardne biblioteke (C).md",
+    "Organizacija izvornog koda (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Organizacija memorije (C).md",
     "Računarstvo/Računarstvo.md",
     "Interpretacija i kompilacija.md",
@@ -213,8 +215,6 @@
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Matematika/Matrica.md",
     "Zavisnost koordinata vektora i matrice operatora o bazi.md",
-    "Matematika/Algebra nad poljem.md",
-    "Matematika/Kvadratna matrica.md",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
     "Git/Media/kongr primer 2.png",

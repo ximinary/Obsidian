@@ -23,5 +23,11 @@ $\:$
   gcc -c 1.c     //rezultat u 1.o
   ```
  
-- POVEZIVANJE
-### Organizacija koda u više datoteka
+- POVEZIVANJE — kreiranje jedinstvene izvršive datoteke od jednog ili više objektnih modula (koje su dobiti kompilacijom ili već postoje) — poveziva adrese funkcija i nekih promenljivih.
+  ```
+  gcc program -o 1.o 2.c -m    //-m za <math.h>
+  ```
+
+[[Od izvornog do izvršivog.png|Primer]]
+### Organizacija koda u više datoteka i ```make```
+
