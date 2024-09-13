@@ -44,3 +44,45 @@ const int* pc;
 ```
 $\:$
 Primer korišćenja pokazivača — swap:
+```c
+void swap(int *pa, int *pb) {
+	int tmp = *pa;
+	*pa = *pb;
+	*pb = tmp;
+}
+
+int main() {
+	int a = 5, b = 9;
+	swap(&a, &b);
+	printf("%d %d\n", a, b);
+	return 0;
+}
+```
+
+### Pokazivačka aritmetika
+```c
+tip *p, *q;
+int i;
+              //neformanlo,
+              //u apsolutnim veličinama:
+q = p + i     //p + i*sizeof(tip)
+
+i = p - q;
+```
+Razlika dva pokazivača istog tipa je tipa ```int``` i jednaka je broju promenljivih 
+
+```c
+int main() {
+	int a[] = {2, 4, 5};
+	int *p = &(a[0]);
+	int *q = &(a[2]);
+	swap(&a, &b);
+	printf("%d %d\n", a, b);
+	return 0;
+}
+```
+### Pokazivači i nizovi
+
+### Pokazivači i niske
+
+### Pokazivači na funkcije
