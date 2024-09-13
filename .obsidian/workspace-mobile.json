@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Organizacija izvornog koda (C).md",
                 "mode": "preview",
                 "source": true
               }
@@ -122,7 +122,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Home.md",
+            "file": "Organizacija izvornog koda (C).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Home.md",
+            "file": "Organizacija izvornog koda (C).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -151,7 +151,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Home.md"
+            "file": "Organizacija izvornog koda (C).md"
           }
         }
       }
@@ -163,7 +163,6 @@
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -175,7 +174,11 @@
   },
   "active": "79969408f1309253",
   "lastOpenFiles": [
+    "Programski jezik C.md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Pokazivači (C).md",
+    "Računarstvo/Računarstvo.md",
+    "Home.md",
     "Računarstvo/Doseg, životni vek i povezanost (C).md",
     "Organizacija memorije (C).md",
     "Organizacija izvornog koda (C).md",
@@ -194,13 +197,9 @@
     "/Ulaz i izlaz (C).md",
     "/Standardne biblioteke (C).md",
     "/Složenost algoritma.md",
-    "Računarstvo/Računarstvo.md",
-    "Programski jezik C.md",
     "Doseg, životni vek i povezanost (C).md",
     "Makroi i uslovno prevođenje (C).md",
-    "Home.md",
     "Matematika/Vektorski prostor.md",
-    "Matematika/Matrica.md",
     "Git/Media/KvinMekPrimer1.png",
     "Git/Media/MinimNebitneVrednosti.png",
     "Matematika/Media/analiza1_1_neprMonot.png",
