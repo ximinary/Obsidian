@@ -26,7 +26,7 @@ Opšti (generički) pokazivač ```void*```:
 — pokazivač bez tipa, koji ne možemo koristiti bez [[Predstavljanje podataka i operacije nad njima (C)#^fb3fd7|konvertiranja]] u potreban tip. 
 ```c
 void* pa = &a;
-*pa = 15;      // greška!!!
+// greška: *pa = 15;
 ```
 
 Pokazivač ni na šta:
@@ -36,7 +36,11 @@ p = NULL;
 
 ```const```:
 ```c
-int* const pb;  //konstantni pokazivač
-const int* pc;  //
+int* const pb = &b;
+//konstantni pokazivač; greška: pb = &c;
 
+const int* pc;       
+//pokazivač preko kojeg nije moguće menjati promenljivu na koju on pokazuje (greška: *pc = 5;), samo čitati
 ```
+$\:$
+Primer korišćenja pokazivača — swap:
