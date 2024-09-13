@@ -277,7 +277,7 @@ size_t y = sizeof(int);
 - <u>Eksplicitna konverzija</u> (na zahtev programera)
   Operator kastovanja: ```(tip) izraz```
   — prefiksni unarni operator 
-  $\:$
+  $\:$ ^fb3fd7
 - <u>Implicitna konverzija</u> (izvršava se automatski po potrebi)
 	
 1. konverzija u tip leve strane:
