@@ -34,7 +34,7 @@ long long
 ```
 Dodatno pre tima moguće napisati:
 ```c
-signed         //označeni - isto kao i ne pisati ništa
+signed         //označeni - isto kao što ne pisati ništa
 unsigned       //neoznačeni
 ```
 $\:$
