@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Pokazivači (C).md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Pokazivači (C).md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Pokazivači (C).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Pokazivači (C).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Pokazivači (C).md"
               }
             }
           },
@@ -188,9 +188,11 @@
   },
   "active": "9f48bce579c1e2dc",
   "lastOpenFiles": [
-    "Organizacija memorije (C).md",
     "Programski jezik C.md",
     "Računarstvo/Računarstvo.md",
+    "Home.md",
+    "Matematika/Matematika.md",
+    "Organizacija memorije (C).md",
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "Zavisnost koordinata vektora i matrice operatora o bazi.md",
     "Ulaz i izlaz (C).md",
@@ -200,7 +202,6 @@
     "Organizacija izvornog koda (C).md",
     "Linearna algebra.md",
     "Inverzna matrica.md",
-    "Home.md",
     "Dinamička alokacija memorije (C).md",
     "Računarstvo/Naredbe i kontrola toka (C).md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
@@ -213,7 +214,6 @@
     "Matematika/Valuacija (iskazna logika).md",
     "Matematika/Teorija skupova.md",
     "Matematika/Teoreme o srednjoj vrednosti.md",
-    "Matematika/Tejlorov polinom.md",
     "Excalidraw",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
