@@ -66,20 +66,23 @@ int i;
               //neformanlo,
               //u apsolutnim veličinama:
 q = p + i     //p + i*sizeof(tip)
-
-i = p - q;
+i = p - q;    //(p - q)/sizeof(tip)
 ```
-Razlika dva pokazivača istog tipa je tipa ```int``` i jednaka je broju promenljivih 
+- pokazivač ```p``` nekog <u>tipa</u> +/- ceo broj ```i``` je vrednost ```p``` (adresa) pomerena udesno/ulevo na ```i``` prostora veličine tog <u>tipa</u>.
+
+- razlika dva pokazivača istog <u>tipa</u> je tipa ```int``` i jednaka je broju prostora veličine tog <u>tipa</u> između njihovih vrednosti.
 
 ```c
 int main() {
-	int a[] = {2, 4, 5};
+	int a[] = {26, 54, 89};
 	int *p = &(a[0]);
 	int *q = &(a[2]);
-	swap(&a, &b);
-	printf("%d %d\n", a, b);
+	printf("%d ", q-p);
+	p++;
+	printf("%d\n", *p);
 	return 0;
 }
+// ispis: 2 54
 ```
 ### Pokazivači i nizovi
 
