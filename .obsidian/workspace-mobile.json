@@ -8,55 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff6ed793dcccf92e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linearna algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8160b62113598f77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Računarstvo/Računarstvo.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "94e9ad1841bcc6bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Računarstvo/Računarstvo.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "79969408f1309253",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Organizacija izvornog koda (C).md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Organizacija izvornog koda (C).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Organizacija izvornog koda (C).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -150,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Organizacija izvornog koda (C).md"
-          }
+          "state": {}
         }
       }
     ],
@@ -174,6 +129,9 @@
   },
   "active": "79969408f1309253",
   "lastOpenFiles": [
+    "Matematika/Matematika.md",
+    "Matematika/Kombinatorika.md",
+    "Organizacija izvornog koda (C).md",
     "Programski jezik C.md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Pokazivači (C).md",
@@ -181,7 +139,6 @@
     "Home.md",
     "Računarstvo/Doseg, životni vek i povezanost (C).md",
     "Organizacija memorije (C).md",
-    "Organizacija izvornog koda (C).md",
     "Ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
     "Složenost algoritma.md",
@@ -198,8 +155,6 @@
     "/Standardne biblioteke (C).md",
     "/Složenost algoritma.md",
     "Doseg, životni vek i povezanost (C).md",
-    "Makroi i uslovno prevođenje (C).md",
-    "Matematika/Vektorski prostor.md",
     "Git/Media/KvinMekPrimer1.png",
     "Git/Media/MinimNebitneVrednosti.png",
     "Matematika/Media/analiza1_1_neprMonot.png",
