@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pokazivači (C).md",
+                "file": "Programski jezik C.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pokazivači (C).md",
+                "file": "Programski jezik C.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pokazivači (C).md",
+                "file": "Programski jezik C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pokazivači (C).md",
+                "file": "Programski jezik C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pokazivači (C).md"
+                "file": "Programski jezik C.md"
               }
             }
           },
@@ -188,14 +188,16 @@
   },
   "active": "91f5577032ce9754",
   "lastOpenFiles": [
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "Programski jezik C.md",
     "Pokazivači (C).md",
-    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "index.html",
+    "Matematika/Brojevi.md",
+    "Organizacija memorije (C).md",
     "Računarstvo/Funkcije (C).md",
     "Računarstvo/Računarstvo.md",
     "Home.md",
     "Matematika/Matematika.md",
-    "Organizacija memorije (C).md",
     "Zavisnost koordinata vektora i matrice operatora o bazi.md",
     "Ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
@@ -212,8 +214,6 @@
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Matematika/Vektor.md",
     "Matematika/Valuacija (iskazna logika).md",
-    "Matematika/Teorija skupova.md",
-    "Matematika/Teoreme o srednjoj vrednosti.md",
     "Excalidraw",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
@@ -233,7 +233,6 @@
     "Drugo/Promenljive.canvas",
     "Untitled",
     "Git/Publish",
-    "Git/Publish/publish/Text Document.txt",
-    "Git/Publish/publish"
+    "Git/Publish/publish/Text Document.txt"
   ]
 }

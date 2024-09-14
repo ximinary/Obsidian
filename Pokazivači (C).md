@@ -167,7 +167,22 @@ A + 6         int (*)[20]       0 + 6*20*4 = 480
 &A + 6        int (*)[10][20]   0 + 6*10*20*4 = 4800
 ```
 ### Pokazivači i niske
+Konstantne niske se čuvaju u [[Organizacija memorije (C)#Segment podataka (.data i .BSS)|segmentu podataka]], niska navedena u tekstu programa u ```" "``` se konvertuje u pokazivač (tipa ```char*```) na njen početak u segmentu podataka.
+Konstantne niske je nemoguće menjati.
 
+```c
+printf("%d", x);  // prvi argument je tipa char*
+
+cahr* p = "informatika";
+//greška: p[5] - 'k';
+p++;
+printf("%s", p);  //ispis: nformatika
+```
+
+```c
+char a[] = "informatika"; // u stek okviru kreira se niz dužine 12 i popunjava se karakterima konstantne niske: a[0] = 'i', ..., a[11] = '\0'.
+// nisku a već možemo da menjamo (karakrer po karakter)
+```
 
 
 ![[niz_niski.png]] #todo
