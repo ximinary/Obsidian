@@ -223,19 +223,40 @@ Primer korišćenja:
 #include <stdio.h>
 #define N 5
 
-void ucitaj_niz(int* a, int n) {
+void ucitaj_niz(int* niz, int n) {
+	int i;
 	for (i = 0; i < n; i++)
-		scanf("%d", a + i);
+		scanf("%d", niz + i);
 }
 
-void ispisi_niz(int* a, int n) {
+void ispisi_niz(int* niz, int n) {
+	int i;
 	for (i = 0; i < n; i++)
-		printf("%d ", a[i]);
+		printf("%d ", niz[i]);
 	printf("\n");
 }
 
-void map(int* a, int n, int(*op)()) {
+int Sum(int a, int b) { return a + b; }
+int Mul(int a, int b) { return a * b; }
+int Div(int a, int b) { return a / b; }
+int Mod(int a, int b) { return a % b; }
 
+void map(int* niz_ulaz, int* niz_izlaz, int n, int (*op)(int, int), int k) {
+	int i;
+	for (i = 0; i < n; i++)
+		niz_izlaz[i] = (*op)(niz_ulaz[i], k);
 }
 
+int main() {
+	int a[N], b[N], k;
+	ucitaj_niz(a, N);
+	scanf("%d", &k);
+	
+	map(a, b, N, Sum, k); ispisi_niz(b, N);
+	map(a, b, N, Mul, k); ispisi_niz(b, N);
+	map(a, b, N, Div, k); ispisi_niz(b, N);
+	map(a, b, N, Mod, k); ispisi_niz(b, N);
+	
+	return 0;
+}
 ```
