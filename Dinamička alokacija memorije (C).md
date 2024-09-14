@@ -27,6 +27,7 @@ ___
 void *realloc(void* memblock, size_t n);
 ```
 ```realloc``` realocira$^{[1]}$ blok ```memblock``` u blok veličine ```n``` i vraća adresu bloka (```void```-pokazivač) ili ```NULL``` ako alokacija nije uspela.
+(Ne inicijalizuje nulama)
 
 Ako ```memblock``` nije pokazivač na <u>početak bloka</u> — greška.
 

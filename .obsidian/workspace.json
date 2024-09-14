@@ -11,14 +11,11 @@
             "id": "9f48bce579c1e2dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Drugo/Realokacija.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": -156.5,
-                  "zoom": 0
-                }
+                "file": "Dinamička alokacija memorije (C).md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -107,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drugo/Realokacija.canvas",
+                "file": "Dinamička alokacija memorije (C).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drugo/Realokacija.canvas",
+                "file": "Dinamička alokacija memorije (C).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drugo/Realokacija.canvas"
+                "file": "Dinamička alokacija memorije (C).md"
               }
             }
           },
@@ -171,12 +168,12 @@
   },
   "active": "9f48bce579c1e2dc",
   "lastOpenFiles": [
-    "Dinamička alokacija memorije (C).md",
+    "Pokazivači (C).md",
     "Drugo/Realokacija.canvas",
+    "Dinamička alokacija memorije (C).md",
     "Programski jezik C.md",
     "Računarstvo/Računarstvo.md",
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
-    "Pokazivači (C).md",
     "Organizacija memorije (C).md",
     "Home.md",
     "index.html",
