@@ -140,18 +140,31 @@ int A[10][20];
 ```
 Neka niz ```A``` počinje sa adrese ```0```, tada
 ```c
-izraz           tip               vrednost
-&A              int (*)[10][20]   0
-A               int[10][20]      
-//A se konvertuje u
-				int (*)[20]       0
+izraz         tip               vrednost
 
-&A[0][2]        int*              8
-&A[2][0]        int*              160
+&A[0][2]      int*              8
+&A[2][0]      int*              2*20*4 = 160
+&A[2][6]      int*              (2*20 + 6)*4 = 184
 
-A[3]            int[20]
-//A[3] se konvertuje u
-                int*            
+
+A[2]          int[20]
+              //konvertuje se:
+              int*              160
+A[2] + 6      int*              160 + 6*4 = 184
+
+
+&A[2]         int (*)[20]       160
+&A[2] + 6     int (*)[20]       160 + 6*20*4 = 640 
+
+
+A             int[10][20]      
+              //konvertuje se:
+	          int (*)[20]       0
+A + 6         int (*)[20]       0 + 6*20*4 = 480
+
+
+&A            int (*)[10][20]   0
+&A + 6        int (*)[10][20]   0 + 6*10*20*4 = 4800
 ```
 ### Pokazivači i niske
 
