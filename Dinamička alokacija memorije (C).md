@@ -81,27 +81,21 @@ Primer alokacije "unos do ```-1```":
 #define KORAK 100
 
 int main() {
-	int* a = NULL;     //niz je u pocetku prazan/
-	int duzina = 0;    //broj popunjenih elemenata niza */
+	int* a = NULL;     //niz je u pocetku prazan
+	int duzina = 0;    //broj popunjenih elemenata niza
 	int alocirano = 0;
-	int i;
 	
 	do {
-		scanf("%d", &i);
 		if (duzina == alocirano) {
 			alocirano += KORAK;
 			a = realloc(a, alocirano*sizeof(int));
 			if (a == NULL) return 1;
 		}
-		a[duzina++] = i;
-	} while (i != -1);
-	/* Ispis elemenata */
-	printf("Uneto je %d brojeva. Alocirano je %d bajtova\n",
-	duzina, alocirano*sizeof(int));
-	printf("Brojevi su : ");
-	for (i = 0; i<duzina; i++)
-	printf("%d ", a[i]);
-	/* Oslobadjanje memorije */
+		scanf("%d", &a[duzina]);
+	} while (a[duzina++] != -1);
+	
+	// ...
+	
 	free(a);
 	return 0;
 }
