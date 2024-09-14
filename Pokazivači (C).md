@@ -184,6 +184,19 @@ char a[] = "informatika"; // u stek okviru kreira se niz dužine 12 i popunjava 
 // nisku a već možemo da menjamo (karakrer po karakter)
 ```
 
+implementacija ```strcpy```:
+```c
+void strcpy(char *a, const char* b) {
+	while (*(a++) = *(b++));
+}
+...
+//pozivi:
+char s[20], t[20].
+strcpy(s, "informatika");
+strcpy(t, s)
+```
 
+Niz niski:
 ![[niz_niski.png]] #todo
+
 ### Pokazivači na funkcije
