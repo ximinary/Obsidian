@@ -99,20 +99,34 @@ sizeof(pa)   // 8 - koliko prostora zauzima pokazivač
              // ima istu adresnu vrednost što i pa;
              // ali tip je int (*)[10]
              
-             //zbog implicitne kovertacije tipa
+             //zbog implicitne kovertacije tipova
              //(pa = a;) je isto što i (pa = &a;)
              
 &pa          // pokazivač na pokazivač;
              // tip je int**
 ```
 
-pokazivačka aritmetika i nizovi, sledeći izrazi su ekvivalentni
-(uz nastavak primera):
+U ostalim slučajevima ime niza moguće koristi kao pokazivač i obratno pokazivač moguće koristiti kao ime niza pri pristupanju elemenata, na primer ```pa[3]```.
+
+Sledeći izrazi su ekvivalentni (uz nastavak primera):
 ```c
   a + i  = &a[i] =   pa + i  = &pa[i]  //adresa
 *(a + i) =  a[i] = *(pa + i) =  pa[i]  //element niza
 ```
+---
+```c
+int niz[10];
+int *a[10];     // niz od 10 pokazivača na int
+int (*b)[10];   // pokazivač na niz od 10 int-ova
+                // tip je int (*)[10]
+b = &niz;
 
+// b + 2 ima vrednost b + veličina 2 niza od 10 int-ova, tj u absolutnim vrednostima b + 80
+
+// b[2] je niz od 10 elementa na absolutnoj adresi b + 80 (izvne deklarisanig, samo za primer), konvertuje se u nulti ele
+(*b)[3]
+```
+---
 
 ### Pokazivači i niske
 
