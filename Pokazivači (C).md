@@ -216,7 +216,7 @@ double (*a[3])(int, float);
 
 Isti operatori referenciranja ```&``` i dereferenciranja ```*```.
 
-U praktici ```&``` se ne koristi jer ime funkcije, koje je napisano bez ```( )```, automatski se konvertuje u pokazivač na tu funkciju.
+U praktici oni se ne koriste jer ime funkcije, koje je napisano bez ```( )```, automatski se konvertuje u pokazivač na tu funkciju, i obratno pokazivač, koji je napisan ca ```( )```, ponaša kao funkcija, na koju pokazuje.
 
 Primer korišćenja:
 ```c
@@ -244,13 +244,13 @@ int Mod(int a, int b) { return a % b; }
 void map(int* niz_ulaz, int* niz_izlaz, int n, int (*op)(int, int), int k) {
 	int i;
 	for (i = 0; i < n; i++)
-		niz_izlaz[i] = (*op)(niz_ulaz[i], k);
+		niz_izlaz[i] = op(niz_ulaz[i], k);
 }
 
 int main() {
-	int a[N], b[N], k;
-	ucitaj_niz(a, N);
-	scanf("%d", &k);
+	int b[N], k;
+	int a[N]={13, 54, 19, 77, 92}; //ucitaj_niz(a, N);
+	k = 10;                        //scanf("%d", &k);
 	
 	map(a, b, N, Sum, k); ispisi_niz(b, N);
 	map(a, b, N, Mul, k); ispisi_niz(b, N);
