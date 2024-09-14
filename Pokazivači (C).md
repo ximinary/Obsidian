@@ -85,6 +85,34 @@ int main() {
 // ispis: 2 54
 ```
 ### Pokazivači i nizovi
+```c
+int a[10], *pa, i;
+pa = a;      // isto što i pa = &a[0]
+```
+ime niza se konvertuje u pokazivač na 0-ti element niza osim u dva slučaja:
+```c
+sizeof(a)    // 40 - koliko prostora zauzima ceo niz
+sizeof(pa)   // 8 - koliko prostora zauzima pokazivač
+```
+```c
+&a           // pokazivač na ceo niz;
+             // ima istu adresnu vrednost što i pa;
+             // ali tip je int (*)[10]
+             
+             //zbog implicitne kovertacije tipa
+             //(pa = a;) je isto što i (pa = &a;)
+             
+&pa          // pokazivač na pokazivač;
+             // tip je int**
+```
+
+pokazivačka aritmetika i nizovi, sledeći izrazi su ekvivalentni
+(uz nastavak primera):
+```c
+  a + i  = &a[i] =   pa + i  = &pa[i]  //adresa
+*(a + i) =  a[i] = *(pa + i) =  pa[i]  //element niza
+```
+
 
 ### Pokazivači i niske
 
