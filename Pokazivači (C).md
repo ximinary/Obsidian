@@ -115,19 +115,44 @@ Sledeći izrazi su ekvivalentni (uz nastavak primera):
 ```
 ---
 ```c
-int niz[10];
 int *a[10];     // niz od 10 pokazivača na int
 int (*b)[10];   // pokazivač na niz od 10 int-ova
                 // tip je int (*)[10]
+
+int niz[10];
 b = &niz;
 
 // b + 2 ima vrednost b + veličina 2 niza od 10 int-ova, tj u absolutnim vrednostima b + 80
 
-// b[2] je niz od 10 elementa na absolutnoj adresi b + 80 (izvne deklarisanig, samo za primer), konvertuje se u nulti ele
-(*b)[3]
+// b[2] je niz od 10 elementa na absolutnoj adresi b + 80 (izvne deklarisanog, samo za primer), konvertuje se u pokazivač na nulti element tog niza.
+
+// (*b)[3] je isto što i niz[3]
 ```
 ---
+```c
+int d[dim1][dim2][dim3]..;
+```
+```d``` se konvertuje u pokazivač na 0-ti element niza ```d``` - niz tipa ```int (*)[dim2][dim3]..```
 
+Primer:
+```c
+int A[10][20];
+```
+Neka niz ```A``` počinje sa adrese ```0```, tada
+```c
+izraz           tip               vrednost
+&A              int (*)[10][20]   0
+A               int[10][20]      
+//A se konvertuje u
+				int (*)[20]       0
+
+&A[0][2]        int*              8
+&A[2][0]        int*              160
+
+A[3]            int[20]
+//A[3] se konvertuje u
+                int*            
+```
 ### Pokazivači i niske
 
 ### Pokazivači na funkcije
