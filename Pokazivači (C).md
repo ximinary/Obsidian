@@ -168,4 +168,7 @@ A + 6         int (*)[20]       0 + 6*20*4 = 480
 ```
 ### Pokazivači i niske
 
+
+
+![[niz_niski.png]] #todo
 ### Pokazivači na funkcije
