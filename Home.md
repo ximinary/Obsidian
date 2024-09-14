@@ -8,5 +8,5 @@ $\:\:$
 #cs/prog #cs/ar #cs/os
 $\:\:$
 ---
-#### [Moj sajt](https://ximinary.github.io/Web/matf/)
+#### [Moj sajt](https://ximinary.github.io/web/)
 
