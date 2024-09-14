@@ -6,6 +6,7 @@
       {
         "id": "7378585f4f8a14d4",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "9f48bce579c1e2dc",
@@ -23,8 +24,9 @@
         ]
       },
       {
-        "id": "61369972e1b7dfdb",
+        "id": "02f8172c00b0aa6b",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "91f5577032ce9754",
@@ -186,7 +188,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "91f5577032ce9754",
+  "active": "9f48bce579c1e2dc",
   "lastOpenFiles": [
     "Programski jezik C.md",
     "Računarstvo/Računarstvo.md",

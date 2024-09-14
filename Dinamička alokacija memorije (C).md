@@ -3,7 +3,7 @@ $\:$
 
 Sve funkcije su u zaglavlju ```<stdlib.h>```
 Alokacija memorije se dešava u [[Organizacija memorije (C)#Hip segment|hipu]], funkcije vraćaju adresu ([[Pokazivači (C)|pokazivač]]), objekti nisu imenovani i nemaju doseg, imaju dinamički životni vek.
-
+___
 ```c
 void *malloc(size_t n);
 ```
@@ -12,4 +12,13 @@ void *malloc(size_t n);
 Primer alokacije niza od 100 ```int```-ova (sa implicitnom konverzijom tipa):
 ```c
 int* niz = malloc(100 * sizeof(int));
+```
+Možemo koristiti ```niz``` isto kao obični pokazivač na 0-ti element niza (ili kao obični niz osim u [[Pokazivači (C)#Pokazivači i nizovi|dva slučaja]])
+___
+```c
+void *calloc(size_t n, size_t size);
+```
+```calloc``` alocira blok memorije za ```n``` objekata veličine ```size``` i <u>inicijalizuje ih nulama</u>, vraća adresu bloka (```void```-pokazivač) ili ```NULL``` ako alokacija nije uspela.
+```c
+int* niz = malloc(100, sizeof(int));
 ```
