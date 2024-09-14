@@ -6,40 +6,21 @@
       {
         "id": "7378585f4f8a14d4",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "9f48bce579c1e2dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md",
-                "mode": "source",
-                "source": true
+                "file": "Drugo/Realokacija.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -156.5,
+                  "zoom": 0
+                }
               }
-            },
-            "group": "87aa037f89ce65b6"
-          }
-        ]
-      },
-      {
-        "id": "02f8172c00b0aa6b",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "91f5577032ce9754",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dinamička alokacija memorije (C).md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "87aa037f89ce65b6"
+            }
           }
         ]
       }
@@ -126,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md",
+                "file": "Drugo/Realokacija.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md",
+                "file": "Drugo/Realokacija.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md"
+                "file": "Drugo/Realokacija.canvas"
               }
             }
           },
@@ -190,10 +171,11 @@
   },
   "active": "9f48bce579c1e2dc",
   "lastOpenFiles": [
+    "Dinamička alokacija memorije (C).md",
+    "Drugo/Realokacija.canvas",
     "Programski jezik C.md",
     "Računarstvo/Računarstvo.md",
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
-    "Dinamička alokacija memorije (C).md",
     "Pokazivači (C).md",
     "Organizacija memorije (C).md",
     "Home.md",

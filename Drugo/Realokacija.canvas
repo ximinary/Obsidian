@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"8c144d99dd52a366","type":"text","text":"$\\quad$ Promena dužine","x":-80,"y":-360,"width":206,"height":60},
+		{"id":"43058fe61da2bd5f","type":"text","text":"na nulu:\ngreška","x":-380,"y":-220,"width":122,"height":71},
+		{"id":"11086bc5521e5f31","x":-240,"y":-220,"width":220,"height":115,"type":"text","text":"smanjenje:\nisti blok u kojem se odseče kroj, isti pokazivač, uvek uspe"},
+		{"id":"3cdb5b472c955b48","x":126,"y":-222,"width":174,"height":50,"type":"text","text":"$\\ \\quad$ povećanje"},
+		{"id":"3ce172a5506e5da5","x":20,"y":-100,"width":160,"height":140,"type":"text","text":"ima dovoljno prostora iza"}
+	],
+	"edges":[
+		{"id":"67c268e3327e28ab","fromNode":"8c144d99dd52a366","fromSide":"bottom","toNode":"43058fe61da2bd5f","toSide":"top"},
+		{"id":"8a964f59acd7f507","fromNode":"8c144d99dd52a366","fromSide":"bottom","toNode":"11086bc5521e5f31","toSide":"top"},
+		{"id":"477ee64465f01548","fromNode":"8c144d99dd52a366","fromSide":"bottom","toNode":"3cdb5b472c955b48","toSide":"top"}
+	]
+}

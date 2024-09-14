@@ -22,3 +22,15 @@ void *calloc(size_t n, size_t size);
 ```c
 int* niz = malloc(100, sizeof(int));
 ```
+___
+```c
+void *realloc(void* memblock, size_t n);
+```
+```realloc``` realocira$^{[1]}$ blok ```memblock``` u blok veličine ```n``` i vraća adresu bloka (```void```-pokazivač) ili ```NULL``` ako alokacija nije uspela.
+
+Ako ```memblock``` nije pokazivač na <u>početak bloka</u> — greška.
+
+$[1]$:
+
+___
+Posle (re)alokacije uvek bitno proveravati da li je pokazivač ```NULL```.
