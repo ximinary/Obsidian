@@ -200,3 +200,42 @@ Niz niski:
 ![[niz_niski.png]] #todo
 
 ### Pokazivači na funkcije
+— omogućavaju slanje funkcije kao argument druge funkcije.
+
+```c
+//prototip funkcije koja vraća pokazivač na double:
+double *a(int, float);
+
+//deklaracija pokazivača na funkciju koja uzima int i float i vraća double:
+double (*a)(int, float);
+//a je tipa double (*)(int, float)
+
+//deklaracija niza pokazivača na funkciju koja uzima int i float i vraća double:
+double (*a[3])(int, float);
+```
+
+Isti operatori referenciranja ```&``` i dereferenciranja ```*```.
+
+U praktici ```&``` se ne koristi jer ime funkcije, koje je napisano bez ```( )```, automatski se konvertuje u pokazivač na tu funkciju.
+
+Primer korišćenja:
+```c
+#include <stdio.h>
+#define N 5
+
+void ucitaj_niz(int* a, int n) {
+	for (i = 0; i < n; i++)
+		scanf("%d", a + i);
+}
+
+void ispisi_niz(int* a, int n) {
+	for (i = 0; i < n; i++)
+		printf("%d ", a[i]);
+	printf("\n");
+}
+
+void map(int* a, int n, int(*op)()) {
+
+}
+
+```
