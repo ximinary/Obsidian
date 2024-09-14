@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"11086bc5521e5f31","type":"text","text":"smanjenje:\nisti blok u kojem se odseče kraj; isti pokazivač, uvek uspe","x":-300,"y":-220,"width":220,"height":120},
+		{"id":"3ce172a5506e5da5","type":"text","text":"ima dovoljno prostora iza bloka:\nnadovezuje se na kraj; isti pokazivač","x":-60,"y":-100,"width":200,"height":140},
+		{"id":"065ebd5c0e26b116","type":"text","text":"nema dovoljno prostora iza bloka:\nalocira novi blok, prekopira podatke iz starog bloka u novi i dealocira stari blok; novi pokazivač","x":160,"y":-100,"width":260,"height":180},
+		{"id":"240649347ecf743d","type":"text","text":"nema dovoljno prostora za novu alokaciju:\nvraća ``NULL``","x":440,"y":-100,"width":200,"height":140},
+		{"id":"3cdb5b472c955b48","type":"text","text":"$\\ \\quad$ povećanje","x":203,"y":-220,"width":174,"height":50},
+		{"id":"8c144d99dd52a366","type":"text","text":"$\\quad$ Promena dužine","x":-60,"y":-360,"width":206,"height":60},
+		{"id":"43058fe61da2bd5f","type":"text","text":"na nulu, negativan broj:\ngreška","x":-460,"y":-220,"width":142,"height":120}
+	],
+	"edges":[
+		{"id":"67c268e3327e28ab","fromNode":"8c144d99dd52a366","fromSide":"bottom","toNode":"43058fe61da2bd5f","toSide":"top"},
+		{"id":"8a964f59acd7f507","fromNode":"8c144d99dd52a366","fromSide":"bottom","toNode":"11086bc5521e5f31","toSide":"top"},
+		{"id":"477ee64465f01548","fromNode":"8c144d99dd52a366","fromSide":"bottom","toNode":"3cdb5b472c955b48","toSide":"top"},
+		{"id":"eef0bb588daf38a0","fromNode":"3cdb5b472c955b48","fromSide":"bottom","toNode":"3ce172a5506e5da5","toSide":"top"},
+		{"id":"5ae7f4e6fb571076","fromNode":"3cdb5b472c955b48","fromSide":"bottom","toNode":"065ebd5c0e26b116","toSide":"top"},
+		{"id":"14e00c90cb9b1f91","fromNode":"3cdb5b472c955b48","fromSide":"bottom","toNode":"240649347ecf743d","toSide":"top"}
+	]
+}
