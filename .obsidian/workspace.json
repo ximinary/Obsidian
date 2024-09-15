@@ -11,11 +11,14 @@
             "id": "8678793ed571bd37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md",
-                "mode": "source",
-                "source": true
+                "file": "Drugo/Promenljive.canvas",
+                "viewState": {
+                  "x": -5,
+                  "y": 101,
+                  "zoom": 0
+                }
               }
             },
             "group": "1a6a5a8828ed7a30"
@@ -30,11 +33,14 @@
             "id": "bca319049e6b1d77",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md",
-                "mode": "preview",
-                "source": true
+                "file": "Drugo/Promenljive.canvas",
+                "viewState": {
+                  "x": -5,
+                  "y": 101,
+                  "zoom": 0
+                }
               }
             },
             "group": "1a6a5a8828ed7a30"
@@ -124,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md",
+                "file": "Drugo/Promenljive.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md",
+                "file": "Drugo/Promenljive.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dinamička alokacija memorije (C).md"
+                "file": "Drugo/Promenljive.canvas"
               }
             }
           },
@@ -186,29 +192,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "bca319049e6b1d77",
+  "active": "bdbbe8b6f74eb67e",
   "lastOpenFiles": [
-    "Organizacija izvornog koda (C).md",
-    "Media/Realokacija.png",
-    "Pokazivači (C).md",
-    "Organizacija memorije (C).md",
+    "Inverzna matrica.md",
+    "Računarstvo/Programski jezik C.md",
+    "Standardni ulaz i izlaz (C).md",
+    "Standardne biblioteke (C).md",
+    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+    "Složenost algoritma.md",
+    "Matematika/Linearna algebra.md",
+    "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
     "Home.md",
-    "Dinamička alokacija memorije (C).md",
-    "Programski jezik C.md",
+    "Media/Realokacija.png",
     "Računarstvo/Računarstvo.md",
-    "Media/Realokacija.canvas",
+    "Drugo/Realokacija.canvas",
     "Realokacija.png.~tmp",
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "index.html",
     "Matematika/Brojevi.md",
     "Računarstvo/Funkcije (C).md",
     "Matematika/Matematika.md",
-    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
-    "Ulaz i izlaz (C).md",
-    "Standardne biblioteke (C).md",
-    "Složenost algoritma.md",
-    "Linearna algebra.md",
-    "Inverzna matrica.md",
     "Računarstvo/Naredbe i kontrola toka (C).md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Računarstvo/Doseg, životni vek i povezanost (C).md",
