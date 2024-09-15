@@ -1,7 +1,7 @@
 #fax #cs/prog/c [deo [[Programski jezik C|jezika C]]]
 $\:$
 
-$\begin{array}{}\\\\\downarrow\\\\\\\uparrow\end{array}\ \begin{array}{|l|}\hline\text{Segment koda}\\\hline\text{Segment podataka}\\\hline\text{Hip}\\\\\\\text{Stek}\\\hline\end{array}\quad\quad\Bigg\downarrow\text{adrese}$
+$\begin{array}{}\\\\\downarrow\\\\\\\uparrow\end{array}\ \begin{array}{|l|}\hline\text{Segment koda}\\\hline\text{Segment koda}\\\hline\text{Hip}\\\\\\\text{Stek}\\\hline\end{array}\quad\quad\Bigg\downarrow\text{adrese}$
 
 ### Segment koda (.text)
 — mašinski kod programa zaštićen od pisanja
