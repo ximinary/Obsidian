@@ -4,40 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "7378585f4f8a14d4",
+        "id": "1b1521c6a6e8fd75",
         "type": "tabs",
         "children": [
           {
-            "id": "9f48bce579c1e2dc",
+            "id": "8678793ed571bd37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Računarstvo/Računarstvo.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             },
-            "group": "87aa037f89ce65b6"
+            "group": "1a6a5a8828ed7a30"
           }
         ]
       },
       {
-        "id": "61369972e1b7dfdb",
+        "id": "af97765ad1daf68e",
         "type": "tabs",
         "children": [
           {
-            "id": "91f5577032ce9754",
+            "id": "bca319049e6b1d77",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Računarstvo/Računarstvo.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             },
-            "group": "87aa037f89ce65b6"
+            "group": "1a6a5a8828ed7a30"
           }
         ]
       }
@@ -89,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.50909423828125
+    "width": 200
   },
   "right": {
     "id": "3e9f2609d8056b37",
@@ -124,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +132,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Računarstvo/Računarstvo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,35 +174,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "bdbbe8b6f74eb67e",
+  "active": "8678793ed571bd37",
   "lastOpenFiles": [
-    "Složenost algoritma.md",
-    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Pokazivači (C).md",
+    "Ulaz i izlaz (C).md",
     "Programski jezik C.md",
-    "Home.md",
+    "Pokazivači (C).md",
+    "Organizacija memorije (C).md",
     "Organizacija izvornog koda (C).md",
     "Linearna algebra.md",
-    "Interpretacija i kompilacija.md",
-    "Računarstvo/Doseg, životni vek i povezanost (C).md",
-    "Organizacija memorije (C).md",
-    "Ulaz i izlaz (C).md",
-    "Standardne biblioteke (C).md",
-    "Računarstvo/Makroi i uslovno prevođenje (C).md",
-    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
-    "Računarstvo/Naredbe i kontrola toka (C).md",
-    "Matematika/Matematika.md",
-    "Matematika/Analiza.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Teorija skupova.md",
-    "Excalidraw/Drawing 2024-09-12 14.34.30.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-12 14.33.44.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-12 14.30.03.excalidraw.md",
-    "Excalidraw",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Vektor.md",
-    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
-    "Matematika/Matrica.md",
+    "Dinamička alokacija memorije (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
+    "Home.md",
     "Zavisnost koordinata vektora i matrice operatora o bazi.md",
+    "Standardni ulaz i izlaz (C).md",
+    "Standardne biblioteke (C).md",
+    "Složenost algoritma.md",
+    "Inverzna matrica.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Računarstvo/Funkcije (C).md",
+    "Matematika/Limes niza.md",
+    "Matematika/Limes funkcije.md",
+    "Matematika/Kvadratna matrica.md",
+    "Matematika/Košijev niz.md",
+    "Drugo/Promenljive.canvas",
+    "Media/Realokacija.png",
+    "Drugo/Realokacija.canvas",
+    "Realokacija.png.~tmp",
+    "index.html",
+    "Excalidraw",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
     "Git/Media/kongr primer 2.png",
@@ -224,16 +217,12 @@
     "Git/Media/tautologija primer 3.png",
     "Git/Media/tautologija primer 2.png",
     "Git/Media/stav. relacija poretka u bulovim algebrama.png",
-    "Git/Media/stav. jednakost uređenih parova.png",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
     "Git",
     "Zettelkasten",
-    "Drugo/Promenljive.canvas",
     "Untitled",
-    "Git/Publish",
-    "Git/Publish/publish/Text Document.txt",
-    "Git/Publish/publish"
+    "Git/Publish"
   ]
 }
