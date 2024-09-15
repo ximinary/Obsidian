@@ -11,14 +11,11 @@
             "id": "8678793ed571bd37",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Drugo/Promenljive.canvas",
-                "viewState": {
-                  "x": -5,
-                  "y": 101,
-                  "zoom": 0
-                }
+                "file": "Računarstvo/Pokazivači (C).md",
+                "mode": "source",
+                "source": true
               }
             },
             "group": "1a6a5a8828ed7a30"
@@ -33,14 +30,11 @@
             "id": "bca319049e6b1d77",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Drugo/Promenljive.canvas",
-                "viewState": {
-                  "x": -5,
-                  "y": 101,
-                  "zoom": 0
-                }
+                "file": "Računarstvo/Pokazivači (C).md",
+                "mode": "preview",
+                "source": true
               }
             },
             "group": "1a6a5a8828ed7a30"
@@ -130,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drugo/Promenljive.canvas",
+                "file": "Računarstvo/Pokazivači (C).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drugo/Promenljive.canvas",
+                "file": "Računarstvo/Pokazivači (C).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drugo/Promenljive.canvas"
+                "file": "Računarstvo/Pokazivači (C).md"
               }
             }
           },
@@ -192,37 +186,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "bdbbe8b6f74eb67e",
+  "active": "8678793ed571bd37",
   "lastOpenFiles": [
-    "Inverzna matrica.md",
     "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
+    "Home.md",
+    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
     "Standardni ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
-    "Zavisnost koordinata vektora i matrice operatora o bazi.md",
     "Složenost algoritma.md",
-    "Matematika/Linearna algebra.md",
+    "Inverzna matrica.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "Računarstvo/Pokazivači (C).md",
     "Računarstvo/Organizacija memorije (C).md",
     "Računarstvo/Organizacija izvornog koda (C).md",
-    "Računarstvo/Dinamička alokacija memorije (C).md",
-    "Home.md",
-    "Media/Realokacija.png",
-    "Računarstvo/Računarstvo.md",
-    "Drugo/Realokacija.canvas",
-    "Realokacija.png.~tmp",
-    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
-    "index.html",
-    "Matematika/Brojevi.md",
-    "Računarstvo/Funkcije (C).md",
-    "Matematika/Matematika.md",
     "Računarstvo/Naredbe i kontrola toka (C).md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
-    "Računarstvo/Doseg, životni vek i povezanost (C).md",
-    "Matematika/Vrste tačaka u odnosu na neki skup.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
-    "Matematika/Vektor.md",
-    "Matematika/Valuacija (iskazna logika).md",
+    "Računarstvo/Funkcije (C).md",
+    "Matematika/Limes niza.md",
+    "Matematika/Limes funkcije.md",
+    "Matematika/Kvadratna matrica.md",
+    "Matematika/Košijev niz.md",
+    "Matematika/Konveksnost i konkavnost.md",
+    "Matematika/Kongruentnost.md",
+    "Matematika/Kompozicija i particija broja.md",
+    "Matematika/Kompozicija funkcija.md",
+    "Matematika/Kombinatorika.md",
+    "Matematika/Kardinalnost. Prebrojivost.md",
+    "Matematika/Karakteristična funkcija.md",
+    "Drugo/Promenljive.canvas",
+    "Media/Realokacija.png",
+    "Drugo/Realokacija.canvas",
+    "Realokacija.png.~tmp",
+    "index.html",
     "Excalidraw",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
@@ -238,7 +234,6 @@
     "Git/Matematika",
     "Git",
     "Zettelkasten",
-    "Drugo/Promenljive.canvas",
     "Untitled",
     "Git/Publish"
   ]
