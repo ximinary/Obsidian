@@ -11,8 +11,12 @@
             "id": "8678793ed571bd37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Linearna algebra.md",
+                "mode": "source",
+                "source": true
+              }
             },
             "group": "1a6a5a8828ed7a30"
           }
@@ -26,8 +30,12 @@
             "id": "bca319049e6b1d77",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Linearna algebra.md",
+                "mode": "preview",
+                "source": true
+              }
             },
             "group": "1a6a5a8828ed7a30"
           }
@@ -116,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Matematika/Linearna algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Matematika/Linearna algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Matematika/Linearna algebra.md"
+              }
             }
           },
           {
@@ -176,6 +188,10 @@
   },
   "active": "8678793ed571bd37",
   "lastOpenFiles": [
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
     "Pokazivači (C).md",
     "Računarstvo/Pokazivači (C).md",
     "Ulaz i izlaz (C).md",
@@ -184,9 +200,6 @@
     "Organizacija izvornog koda (C).md",
     "Linearna algebra.md",
     "Dinamička alokacija memorije (C).md",
-    "Računarstvo/Programski jezik C.md",
-    "Računarstvo/Računarstvo.md",
-    "Home.md",
     "Zavisnost koordinata vektora i matrice operatora o bazi.md",
     "Standardni ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
@@ -201,7 +214,6 @@
     "Matematika/Limes niza.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Kvadratna matrica.md",
-    "Matematika/Košijev niz.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",
