@@ -19,8 +19,8 @@ Teorema. Neka je $V$ VP nad poljem $\mathbb{F}$, $x\in V$, $\alpha\in\mathbb{F}$
 - Skup [[Vektor|vektora]] u prostoru $\mathbb{E}^{2}\ \text{ ili }\ \mathbb{E}^{3}$
 - Skup radijus-vektora u prostoru $\mathbb{E}^{2}\ \text{ ili }\ \mathbb{E}^{3}$
 - $(\mathbb{F}^{n},\ \mathbb{F},\ +,\ \cdot)$ — skup uređenih $n$-torki
-- $(\mathbb{M}_{mn}(\mathbb{F}),\ \mathbb{F},\ +,\ \cdot)$ — [[Matrica|matrice]]
-- $(\mathbb{F}_{n}[x],\ \mathbb{F},\ +,\ \cdot)$ — polinomi
+- $(\mathbb{M}_{mn}(\mathbb{F}),\ \mathbb{F},\ +,\ \cdot)$ — [[Matrica|matrice]] $m\times n$
+- $(\mathbb{F}_{n}[x],\ \mathbb{F},\ +,\ \cdot)$ — polinomi stepena (najviše) $n$
 - Skup [[Niz brojeva|nizova]] $\mathbb{F}^{\mathbb{N}}=\{ (x_{1},\,x_{2},\,\dots,\,x_{n},\,\dots)\ \ \big| \ \ x_{i}\in\mathbb{F},\ \forall i=\overline{1,\mathbb{N}}\}$
 - [[Red|Redovi]] $\mathbb{F}[[x]]=\left\{  \sum\limits_{i=0}^{\infty} a_{i}\,x^{i}\ \  \bigg|\ \ a_{i}\in\mathbb{F},\ i=\overline{0,\mathbb{N}}\}\right\}$
 - Funkcije $\mathbb{F}^{S}=\{f\ \ \big|\ \ f:\ S\to\mathbb{F}\}$. $S\ne \varnothing\:$ i $\:$$\forall f,\, g\in \mathbb{F}^{S},\ \forall\lambda\in \mathbb{F}:$
@@ -31,10 +31,4 @@ Teorema. Neka je $V$ VP nad poljem $\mathbb{F}$, $x\in V$, $\alpha\in\mathbb{F}$
 
 ### [[Potprostor. Operacije nad potprostorima]]
 
-
-### Izomorfizam
-**Def**. $V$ i $W$ su VP nad $\mathbb{F}$. Preslikavanje $A:\ V\to W$ zove se **izomorfizam** VP-a $V$ i $W$ ako 
-- $\forall x,\,y\in V\quad A(x+y)=A(x)+A(y)$
-- $\forall x\in V,\ \forall \lambda\in \mathbb{F}\quad A(\lambda\,x)=\lambda\,A(x)$
-- $A$ je bijekcija
-### [[Zavisnost koordinata vektora i matrice operatora o bazi#Zavisnost koordinata vektora o bazi|Zavisnost koordinata vektora o bazi]]
+### [[Zavisnost koordinata vektora i matrice linearnog operatora o bazi#Zavisnost koordinata vektora o bazi|Zavisnost koordinata vektora o bazi]]

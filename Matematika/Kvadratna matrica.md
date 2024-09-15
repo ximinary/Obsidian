@@ -67,7 +67,7 @@ $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je dijagonalna ako $a_{ij}=0$ za sve 
 Oznaka: $\mathcal{A}=\mathrm{diag}\,[a_{11},\,a_{22},\,\dots,\,a_{nn}]$
 
 Skup dijagonalnih matrica $\mathcal{D}_{n}$ je [[Vektorski prostor|VP]]. 
-$\mathcal{D}_{n}$ i $\mathbb{F}^{n}$ su izomorfni.
+$\mathcal{D}_{n}$ i $\mathbb{F}^{n}$ su [[Linearni operator#^86cf6f|izomorfni]].
 
 Skup invertibilnih dijagonalnih matrica $\mathcal{D}^{*}_{n}$ je podgrupa $\mathrm{GL}(n,\,\mathbb{F})$.
 
@@ -76,7 +76,7 @@ $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je skalarna ako $\mathcal{A}=\lambda\
 
 Skup skalarnih matrica: $\mathrm{Sc}_{n}$
 $(\mathrm{Sc}_{n},\ \mathbb{F},\ +,\ \cdot)$ je [[Vektorski prostor|VP]].
-$\mathrm{Sc}_{n}$ i $\mathbb{F}$ su izomorfni.
+$\mathrm{Sc}_{n}$ i $\mathbb{F}$ su [[Linearni operator#^86cf6f|izomorfni]].
 
 Skup skalarnih ne-nula matrica $\mathrm{Sc}^{*}_{n}\:$ je  podgrupa $\mathrm{GL}(n,\,\mathbb{F})$.
 
