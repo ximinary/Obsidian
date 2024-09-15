@@ -38,7 +38,7 @@ $B$ je linearno zavisan $\,\ \Leftrightarrow\ \ \exists i>1\ \ :\ \ a_{i}$ je li
 **Def**. **Dimenzija** VP-a $V$ je kardinalni broj neke baze VP-a $V$.
 Oznaka: $\dim V$
 
-VP $V$ je konačno dimenzioni ako je $\dim V\in\mathbb{N}_{0}$
+VP $V$ je konačnodimenzioni ako je $\dim V\in\mathbb{N}_{0}$
 
 **Lema**. Neka je $B=\{ a_{1},\,a_{2},\,\dots,\,a_{n} \}$ skup generatora $V$, $S=\{ b_{1},\,b_{2},\,\dots,\,b_{m} \}\subseteq V$ je linearno nezavisan skup. Tada
 $m\leqslant n\ \:$ i $\:\ \exists i_{1},\,i_{2},\,\dots\,i_{n-m}=\overline{1,n} \ \ :$
@@ -51,9 +51,9 @@ $\{ b_{1},\,b_{2}\,\dots,\,b_{m},\,a_{i_{1}},\,a_{i_{2}},\,\dots,\,a_{i_{n-m}} \
 
 $\:$
 
-**Stav**. $S$ je skup generatora konačno dim. VP-a $V$. Tada
+**Stav**. $S$ je skup generatora konačnodimenzionog VP-a $V$. Tada
 maksimalan linearno nezavisan podskup $S$ je baza $V$
 
-**Stav**. $A\subseteq V$ je linearno nezavisan, $V$ je konačno dim. VP. Tada
+**Stav**. $A\subseteq V$ je linearno nezavisan, $V$ je konačnodimenzioni VP. Tada
 $A$ je podskup neke baze $V$, koji moguće dopuniti do baze.
 

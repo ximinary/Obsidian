@@ -12,7 +12,7 @@ Oznaka: $L \leqslant V$
 - $\forall x,\,y\in L\quad\forall\alpha,\,\beta\in\mathbb{F}\quad (\alpha\,x+\beta\,y)\in L$
 - $\forall x,\,y\in L\quad\forall\alpha\in\mathbb{F}\quad (\alpha\,x+y)\in L$
 
-**Stav**. $V$ je konačno dim. VP, $L\leqslant V$. Tada $\dim L\leqslant\dim V.$
+**Stav**. $V$ je konačnodimenzioni VP, $L\leqslant V$. Tada $\dim L\leqslant\dim V.$
 Specijalno ako $\dim L=\dim V$, onda $L=V.$
 
 ### Presek potprostora
@@ -51,7 +51,7 @@ Oznaka: $\:\mathcal{L}(S)$.
 
 **!** VP/potprostor je lineal nad svojom bazom $\mathcal{L}(B).$
 ### Suma i direktna suma potprostora
-**Def**. $L,\,M\leqslant V$, $V$ je konačno dim. VP. Tada je **suma potprostora** $L+M=\mathcal{L}(L\cup M)$.
+**Def**. $L,\,M\leqslant V$, $V$ je konačnodimenzioni VP. Tada je **suma potprostora** $L+M=\mathcal{L}(L\cup M)$.
 Suma je **direktna** ako $L\cap M=\{0\}.\ \:$ Oznaka: $L\oplus M$
 
 **Teorema**. $L,\,M\leqslant V$, $V$ je VP. Tada

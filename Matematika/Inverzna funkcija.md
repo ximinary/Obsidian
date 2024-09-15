@@ -11,8 +11,8 @@ Ako je relacija $f \subseteq X\times Y\:$ [funkcija](Funkcija) tada joj [inverzn
 
 **Def**. Funkcija $g:\ \ Y \to X\:$ je **inverz** funkcije $f:\ \ X \to Y\:$ ako je ona levi i desni inverz. Važi $g \equiv f^{-1}$
 Teorema. $f$ ima  inverz $\:\ \Leftrightarrow \ \:$ $f$ je bijekcija
-(Dokaz: kombinacija prethodna dva stava)
+(Dokaz: kombinacija prethodna dva stava) ^d44f5e
 
 - $f$ je bijekcija $\:\ \Leftrightarrow \ \:$ $f$ ima inverz $f^{-1}$ $\:\ \Leftrightarrow \ \:$
- $\Leftrightarrow \ \:$$f^{-1}$ ima inverz $f$ $\:\ \Leftrightarrow \ \:$ $f^{-1}$ je bijekcija
+ $\Leftrightarrow \ \:$$f^{-1}$ ima inverz $f$ $\:\ \Leftrightarrow \ \:$ $f^{-1}$ je bijekcija ^0facb3
 - $(f^{-1})^{-1} \equiv f$
