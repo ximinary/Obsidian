@@ -11,8 +11,12 @@
             "id": "79969408f1309253",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Matematika.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Matematika/Matematika.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Matematika/Matematika.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Matematika/Matematika.md"
+          }
         }
       }
     ],
@@ -129,32 +137,34 @@
   },
   "active": "79969408f1309253",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
-    "Matematika/Kombinatorika.md",
-    "Organizacija izvornog koda (C).md",
+    "Home.md",
+    "Dinamička alokacija memorije (C).md",
+    "/Računarstvo/Organizacija izvornog koda (C).md",
+    "/Matematika/Linearna algebra.md",
+    "/Računarstvo/Programski jezik C.md",
+    "/Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "/Računarstvo/Pokazivači (C).md",
+    "/Računarstvo/Organizacija memorije (C).md",
+    "/Računarstvo/Dinamička alokacija memorije (C).md",
+    "/Media/Realokacija.png",
+    "/Home.md",
+    "/Drugo/Realokacija.canvas",
+    "/Standardni ulaz i izlaz (C).md",
     "Programski jezik C.md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Pokazivači (C).md",
+    "Ulaz i izlaz (C).md",
     "Računarstvo/Računarstvo.md",
-    "Home.md",
+    "Složenost algoritma.md",
+    "Matematika/Matematika.md",
+    "Matematika/Kombinatorika.md",
+    "Organizacija izvornog koda (C).md",
     "Računarstvo/Doseg, životni vek i povezanost (C).md",
     "Organizacija memorije (C).md",
-    "Ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
-    "Složenost algoritma.md",
     "/Računarstvo/Računarstvo.md",
-    "/Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "/Računarstvo/Makroi i uslovno prevođenje (C).md",
     "/Računarstvo/Funkcije (C).md",
-    "/Računarstvo/Doseg, životni vek i povezanost (C).md",
-    "/Programski jezik C.md",
-    "/Organizacija memorije (C).md",
-    "/Organizacija izvornog koda (C).md",
-    "/Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
-    "/Ulaz i izlaz (C).md",
-    "/Standardne biblioteke (C).md",
-    "/Složenost algoritma.md",
-    "Doseg, životni vek i povezanost (C).md",
     "Git/Media/KvinMekPrimer1.png",
     "Git/Media/MinimNebitneVrednosti.png",
     "Matematika/Media/analiza1_1_neprMonot.png",
@@ -163,7 +173,6 @@
     "Matematika/Media/funkcija primer 2.png",
     "Matematika/Media/kompozicija funkcija stav.jpg",
     "Matematika/Media/funkcija primer 1.png",
-    "Matematika/Media/kompozicija relacija svojstva.png",
-    "Matematika/Media/stav. jednakost skupova.png"
+    "Matematika/Media/kompozicija relacija svojstva.png"
   ]
 }
