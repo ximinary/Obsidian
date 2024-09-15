@@ -7,7 +7,7 @@ $\:$
 ### [[Makroi i uslovno prevođenje (C)|Makroi i uslovno prevođenje]]
 ### [[Pokazivači (C)|Pokazivači]]
 ### [[Dinamička alokacija memorije (C)|Dinamička alokacija memorije]]
-### [[Ulaz i izlaz (C)|Ulaz i izlaz]]
+### [[Standardni ulaz i izlaz (C)|Ulaz i izlaz]]
 ### [[Standardne biblioteke (C)|Standardne biblioteke]]
 
 ---

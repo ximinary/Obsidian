@@ -34,7 +34,7 @@ long long
 ```
 Dodatno pre tima moguće napisati:
 ```c
-signed         //označeni - isto kao i ne pisati ništa
+signed         //označeni - isto kao što ne pisati ništa
 unsigned       //neoznačeni
 ```
 $\:$
@@ -277,7 +277,7 @@ size_t y = sizeof(int);
 - <u>Eksplicitna konverzija</u> (na zahtev programera)
   Operator kastovanja: ```(tip) izraz```
   — prefiksni unarni operator 
-  $\:$
+  $\:$ ^fb3fd7
 - <u>Implicitna konverzija</u> (izvršava se automatski po potrebi)
 	
 1. konverzija u tip leve strane:
