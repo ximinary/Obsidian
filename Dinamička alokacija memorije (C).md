@@ -116,5 +116,26 @@ int main() {
 ### Fragmentacija memorije
 Često alociranje i dealociranje može dovesti do fragmentacije.
 
-Primer-objašnjavanje:
-Neka je 1 - alocirana me
+Uprošćeni primer:
+Neka je 1 - alocirana memorija, 0 - nealocirana.
+```
+0000 0000 0000 0000
+____                    malloc
+1111 0000 0000 0000
+     ____ __            malloc
+1111 1111 1100 0000
+xxxx                    free
+0000 1111 1100 0000
+            __ ___      malloc
+0000 1111 1111 1110
+__                      calloc
+1100 1111 1111 1110
+     ___x xx            realloc
+1100 1110 0011 1110
+```
+iako je ostalo 6 nula, nemoguće je alocirati blok od 4 jedinice.
+
+Kako izbegavati:
+- izbegavati dinamičku alokaciju
+- alocirati odmah u većim blokovima
+- memory pooling
