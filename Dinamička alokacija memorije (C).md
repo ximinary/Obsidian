@@ -33,6 +33,7 @@ Ako ```memblock``` nije pokazivač na <u>početak bloka</u> — greška.
 
 $[*]$: ![[Realokacija.png]]
 
+```realoc(NULL, k);``` je isto što i ```malloc(k);```
 ___
 Posle (re)alokacije uvek bitno proveravati da li je pokazivač ```NULL```.
 ___
@@ -103,5 +104,17 @@ int main() {
 ```
 
 ### Greške
-
+- Curenje memorije — kada se izgubi pokazivač na alocirani blok:
+  ```c
+  p = malloc(1000);
+  ...
+  p = malloc(2000);
+  ```
+- Pristup oslobođenoj memoriji
+- Pristup memorije van bloka
+- Oslobađanje/realokacija pogrešnog pokazivača (koji ne pokazuje na početak već alociranog bloka)
 ### Fragmentacija memorije
+Često alociranje i dealociranje može dovesti do fragmentacije.
+
+Primer-objašnjavanje:
+Neka je 1 - alocirana me

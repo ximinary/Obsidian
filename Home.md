@@ -10,3 +10,11 @@ $\:\:$
 ---
 #### [Moj sajt](https://ximinary.github.io/web/)
 
+---
+Poslednje ažuriranje:
+<script> 
+	var now = new Date();
+	var datetime = now.toLocaleString();
+	document.getElementById("datetime").innerHTML = datetime;
+</script>
+<p id="datetime"></p>
