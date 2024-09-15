@@ -28,7 +28,7 @@
   "addRSSFeed": true,
   "siteURL": "",
   "authorName": "",
-  "vaultTitle": "Obsidian Vault",
+  "vaultTitle": "Obsidian",
   "exportPreset": "website",
   "openAfterExport": false,
   "graphAttractionForce": 1,
@@ -43,7 +43,7 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "C:\\Users\\Ximinary\\Мой диск\\Obučjenije\\sajt\\Obsidian",
+  "exportPath": "C:\\Users\\Ximinary\\Мой диск\\Obučjenije\\sajt\\web\\obsidian",
   "filesToExport": [
     []
   ]
