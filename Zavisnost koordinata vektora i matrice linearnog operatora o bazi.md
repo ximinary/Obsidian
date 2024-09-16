@@ -3,7 +3,7 @@ $\:$
 
 ### Zavisnost koordinata vektora o bazi
 
-**Def**. $V$ je VP dimenzije $n$ nad poljem $\mathbb{F}$, $\:$ $e=\{ e_{1},\,e_{2},\,\dots,\,e_{n} \}$ je neka baza VP-a $V$. Tada za bazu $e$, koordinatizacija je preslikavanje $\kappa_{e}:\ V\to \mathbb{F}^{n}$, koje je definisano formulom $\kappa_{e}(x)=\kappa_{e}\left( \sum\limits_{i=1}^{n}x_{i}\,e_{i} \right)=(x_{1},\,x_{2},\,\dots,\,x_{n})=x(e)$.
+**Def**. $V$ je VP dimenzije $n$ nad poljem $\mathbb{F}$, $\:$ $e=\{ e_{1},\,e_{2},\,\dots,\,e_{n} \}$ je neka baza VP-a $V$. Tada za bazu $e$, **koordinatizacija** je preslikavanje $\kappa_{e}:\ V\to \mathbb{F}^{n}$, koje je definisano formulom $\kappa_{e}(x)=\kappa_{e}\left( \sum\limits_{i=1}^{n}x_{i}\,e_{i} \right)=(x_{1},\,x_{2},\,\dots,\,x_{n})=x(e)$. ^0319ea
 
 $\kappa_{e}$ je [[Linearni operator#^86cf6f|izomorfizam]] VP-a $V$ i $\mathbb{F}^{n}$ jer važe:
 - $\forall x,\,y\in V\quad \kappa_{e}(x+y)=\kappa_{e}(x)+\kappa_{e}(y)$

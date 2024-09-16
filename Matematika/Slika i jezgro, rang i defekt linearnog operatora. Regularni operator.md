@@ -42,8 +42,17 @@ Stav (svojstva projektora). $V$ je konačnodimenzioni VP, $P\in \mathrm{Hom}\,V$
 - $P\ne \mathrm{id}_{V}\quad\Rightarrow\quad P$ nije izomorfizam
 - $V = \mathrm{Im}\,P\oplus\mathrm{Ker}\,P$
 
-___
-Stav. $A,\,B\in \mathrm{Hom}(U,\,V)$
-- $\mathrm{rang}\,A= \mathrm{rang}\,B\quad\Leftrightarrow$
-  $\Leftrightarrow\quad\exists S\in \mathrm{Hom}\,V,\ T\in \mathrm{Hom}\,U\text{ — regularni}\ \ :\ \ A=S\circ B\circ T$
-- $\mathrm{rang}\,A= \mathrm{rang}\,B$ je relacija ekvivalencije na $\mathrm{Hom}(U,\,V)$
+### Regularni operator
+**Def**. $A\in \mathrm{Hom}(U,\,V)$ je regularan ako je maksimalnog ranga:
+- ako $\dim U\leqslant\dim V$
+  $A$ je regularan $\quad\Leftrightarrow\quad \mathrm{rang}\,A=\dim U\quad\Leftrightarrow\quad \mathrm{defekt}\,A=0$
+  $\:$
+- ako $\dim U>\dim V$
+  $A$ je regularan $\quad\Leftrightarrow\quad \mathrm{Im}\,A=V$
+
+Stav. $A\in \mathrm{Hom}\,V$
+$A$ je regularan $\ \:\Leftrightarrow\ \ \ A$ je invertibilan $\ \:\Leftrightarrow\ \ \ A$ je izomorfizam
+
+Teorema ([[Rang matrice. Elementarne transformacije#^4f9e63|analogna za matrice]]). $A,\,B\in \mathrm{Hom}(U,\,V)$
+1. $A\sim B\ \ \begin{align}&\Leftrightarrow\ \ \mathrm{rang}\,A= \mathrm{rang}\,B\\&\Leftrightarrow\ \ \exists S\in \mathrm{Hom}\,V,\ T\in \mathrm{Hom}\,U\text{ — regularni}\ \ :\ \ A=S\circ B\circ T\end{align}$ ^6367f1
+2. $\sim$ je relacija ekvivalencije na $\mathrm{Hom}(U,\,V)$

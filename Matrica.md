@@ -83,4 +83,4 @@ $\:$
 - ### [[Determinanta]]
 - ### [[Inverzna matrica]]
 
-### [[Elementarne transformacije]]
+### [[Rang matrice. Elementarne transformacije]]

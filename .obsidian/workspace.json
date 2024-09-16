@@ -6,6 +6,7 @@
       {
         "id": "1b1521c6a6e8fd75",
         "type": "tabs",
+        "dimension": 49.51298701298701,
         "children": [
           {
             "id": "8678793ed571bd37",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linearni operator.md",
+                "file": "Matematika/Linearna algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,6 +26,7 @@
       {
         "id": "af97765ad1daf68e",
         "type": "tabs",
+        "dimension": 50.48701298701299,
         "children": [
           {
             "id": "bca319049e6b1d77",
@@ -32,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linearni operator.md",
+                "file": "Matematika/Linearna algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linearni operator.md",
+                "file": "Matematika/Linearna algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linearni operator.md",
+                "file": "Matematika/Linearna algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linearni operator.md"
+                "file": "Matematika/Linearna algebra.md"
               }
             }
           },
@@ -186,34 +188,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "8678793ed571bd37",
+  "active": "bca319049e6b1d77",
   "lastOpenFiles": [
+    "Matrica.md",
+    "Matematika/Rang matrice. Elementarne transformacije.md",
+    "Inverzna matrica.md",
+    "Matematika/Linearna algebra.md",
+    "Linearni operator.md",
+    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
+    "Matematika/Euklidov algoritam.md",
+    "Matematika/Euklidsko deljenje.md",
+    "Matematika/Kvadratna matrica.md",
+    "Matematika/Algebra nad poljem.md",
+    "Zavisnost koordinata vektora i matrice linearnog operatora o bazi.md",
+    "Matematika/Vektorski prostor.md",
     "Standardni ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
     "Složenost algoritma.md",
-    "Matematika/Slika i jezgro, rang i defekt linearnog operatora.md",
-    "Linearni operator.md",
-    "Matematika/Linearna algebra.md",
     "Matematika/Matematika.md",
-    "Matrica.md",
-    "Matematika/Kvadratna matrica.md",
     "Matematika/Analiza.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
-    "Matematika/Vektorski prostor.md",
     "Matematika/Potprostor. Operacije nad potprostorima.md",
     "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
-    "Zavisnost koordinata vektora i matrice linearnog operatora o bazi.md",
     "Matematika/Funkcija.md",
     "Matematika/Direktna i inverzna slika skupa.md",
     "Matematika/Relacija.md",
     "Home.md",
-    "Matematika/Algebra nad poljem.md",
     "Računarstvo/Računarstvo.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Realni brojevi.md",
-    "Računarstvo/Programski jezik C.md",
-    "Pokazivači (C).md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",
