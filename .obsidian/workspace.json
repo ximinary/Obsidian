@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1b1521c6a6e8fd75",
+        "id": "6565941482c11611",
         "type": "tabs",
-        "dimension": 49.51298701298701,
         "children": [
           {
-            "id": "8678793ed571bd37",
+            "id": "9cc469c9cc7e2be1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Linearna algebra.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "1a6a5a8828ed7a30"
-          }
-        ]
-      },
-      {
-        "id": "af97765ad1daf68e",
-        "type": "tabs",
-        "dimension": 50.48701298701299,
-        "children": [
-          {
-            "id": "bca319049e6b1d77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Linearna algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "1a6a5a8828ed7a30"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -126,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Linearna algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Linearna algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Matematika/Linearna algebra.md"
-              }
+              "state": {}
             }
           },
           {
@@ -188,19 +158,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "bca319049e6b1d77",
+  "active": "9cc469c9cc7e2be1",
   "lastOpenFiles": [
+    "Linearni operator.md",
+    "Zavisnost koordinata vektora i matrice linearnog operatora o bazi.md",
+    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
+    "Matematika/Linearna algebra.md",
     "Matrica.md",
     "Matematika/Rang matrice. Elementarne transformacije.md",
     "Inverzna matrica.md",
-    "Matematika/Linearna algebra.md",
-    "Linearni operator.md",
-    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
     "Matematika/Euklidov algoritam.md",
     "Matematika/Euklidsko deljenje.md",
     "Matematika/Kvadratna matrica.md",
     "Matematika/Algebra nad poljem.md",
-    "Zavisnost koordinata vektora i matrice linearnog operatora o bazi.md",
     "Matematika/Vektorski prostor.md",
     "Standardni ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
