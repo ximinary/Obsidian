@@ -31,4 +31,4 @@ Teorema. Neka je $V$ VP nad poljem $\mathbb{F}$, $x\in V$, $\alpha\in\mathbb{F}$
 
 ### [[Potprostor. Operacije nad potprostorima]]
 
-### [[Zavisnost koordinata vektora i matrice linearnog operatora o bazi#Zavisnost koordinata vektora o bazi|Zavisnost koordinata vektora o bazi]]
+### [[Koordinatizacija. Zavisnost koordinata vektora o bazi]]

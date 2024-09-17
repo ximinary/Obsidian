@@ -25,6 +25,15 @@ Stav (svojstva traga):
 3. $\forall \mathcal{A},\,\mathcal{B}\in\mathbb{M}_{n}(\mathbb{F})\quad\mathrm{Tr}(\mathcal{A}\cdot\mathcal{B})=\mathrm{Tr(\mathcal{B}\cdot\mathcal{A})}$
 
 
+### Sličnost matrica
+**Def**. $\mathcal{A},\,\mathcal{B}\in \mathbb{M}_{n}(\mathbb{F})$ su **slične**:
+$\mathcal{A}\sim\mathcal{B}\quad\Leftrightarrow\quad\exists \mathcal{T}\!\in \mathbb{M}_{n}(\mathbb{F})\ \ :\ \ \mathcal{B}=\mathcal{T}^{-1}\cdot\mathcal{A}\cdot\mathcal{T}$
+
+Stav. $\sim$ je relacija ekvivalencije.
+
+Slične matrice su [[Matrica linearnog operatora|matrice istog LO]] iz $\mathrm{Hom}\, V$ u različitim bazama \[[[Matrica linearnog operatora#^4e5174|*]]\].
+
+**Invarijanta sličnosti** — svojstvo koje važi za svaku matricu u nekoj klasi ekvivalencije, tj. svojstvo LO koje ne zavisi od matričnog zapisa.
 ### Nilpotentna matrica
 **Def**. $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je **nilpotentna** ako $\exists k>1\ \ :\ \ \mathcal{A}^{k}=\mathcal{O}_{n}$.
 

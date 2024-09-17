@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Linearni operator.md",
+                "file": "Determinanta.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Linearni operator.md",
+                "file": "Determinanta.md",
                 "mode": "preview",
                 "source": true
               }
@@ -111,11 +111,21 @@
             }
           },
           {
-            "id": "8c294b5ad220f993",
+            "id": "b3129deac85983c7",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "git-view",
               "state": {}
+            }
+          },
+          {
+            "id": "15789bddcd26fb18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Determinanta.md"
+              }
             }
           },
           {
@@ -124,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Linearni operator.md",
+                "file": "Determinanta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,36 +151,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Linearni operator.md",
+                "file": "Determinanta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "15789bddcd26fb18",
+            "id": "8c294b5ad220f993",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Matematika/Linearni operator.md"
-              }
-            }
-          },
-          {
-            "id": "b3129deac85983c7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,20 +189,22 @@
   },
   "active": "b3129deac85983c7",
   "lastOpenFiles": [
-    "Matematika/Linearna algebra.md",
-    "Matematika/Matematika.md",
-    "Home.md",
-    "Matrica.md",
-    "Matematika/Kvadratna matrica.md",
-    "Matematika/Linearni funkcional.md",
-    "Matematika/Linearni operator.md",
-    "Zavisnost koordinata vektora i matrice linearnog operatora o bazi.md",
-    "Inverzna matrica.md",
-    "Složenost algoritma.md",
     "Standardni ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
+    "Složenost algoritma.md",
+    "Inverzna matrica.md",
+    "Home.md",
+    "Determinanta.md",
+    "Matematika/Linearna algebra.md",
+    "Matematika/Matrica.md",
+    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
+    "Matematika/Matrica linearnog operatora.md",
+    "Matematika/Linearni operator.md",
+    "Matematika/Kvadratna matrica.md",
     "Matematika/Rang matrice. Elementarne transformacije.md",
     "Matematika/Vektorski prostor.md",
+    "Matematika/Linearni funkcional.md",
+    "Matematika/Matematika.md",
     "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
     "Matematika/Vektor.md",
     "Matematika/Euklidov algoritam.md",
@@ -213,8 +215,6 @@
     "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
     "Matematika/Potprostor. Operacije nad potprostorima.md",
     "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
-    "Matematika/Funkcija.md",
-    "Matematika/Direktna i inverzna slika skupa.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",

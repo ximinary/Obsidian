@@ -1,7 +1,7 @@
 #fax #math #laag [deo poglavlja [[Matrica|"matrica"]]]
 $\:$
 
-Napomena: [[Linearni operator#Matrica LO|matrica linearnog operatora]]
+Napomena: [[Matrica linearnog operatora|matrica linearnog operatora]]
 
 Pojam ranga matrice se prenosi sa [[Slika i jezgro, rang i defekt linearnog operatora. Regularni operator|linearnih operatora]], pomoću izomorfizma $\varphi_{e,\,f}\:$:
 $e=(e_{1},\,e_{2},\,\dots,\,e_{n})$ je baza $U$, $f=(f_{̌1},\,f_{2},\,\dots,\,f_{m})$ je baza $V$,

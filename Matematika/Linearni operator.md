@@ -74,8 +74,6 @@ $( \mathrm{Hom}\,V,\ \circ)$ je monoid jer kompozicija LO je:
 
 $A$ ima [[Inverzna funkcija#^d44f5e|inverz]] $A^{-1}\in \mathrm{Hom}\,V$ $\quad\Leftrightarrow\quad A$ je izomorfizam (bijekcija)
 
-### [[Slika i jezgro, rang i defekt linearnog operatora. Regularni operator|Slika i jezgro, rang i defekt LO. Regularni operator]]
-
 ### VP $\mathrm{Hom}(U,\,V)$ i algebra $\mathrm{Hom}\,V$
 
 Stav. $\Big( \mathrm{Hom}_{_{\mathbb{F}}}(U,\,V),\,\mathbb{F},\,+,\,\cdot\Big)$ je [[Vektorski prostor|VP]] uz operacije:
@@ -95,22 +93,7 @@ Stav. $( \mathrm{Hom}\,V,\,\mathbb{F},\,+,\,\circ,\,\cdot)$ je asocijativna $\ma
 
 Identičko preslikavanje $id_{V}$ kao neutral za kompoziciju.
 
-### Matrica LO
-Veza između $\mathrm{Hom}(U,\,V)$ $\ \ \Big(e = (e_{1},\,e_{2},\,\dots,\,e_{n})$  je baza $U$ i $f= (f_{1},\,f_{2},\,\dots,\,f_{m})$  je baza $V\ \Big)$ i $\mathbb{M}_{mn}(\mathbb{F})$.
-
-Napomena: [[Zavisnost koordinata vektora i matrice linearnog operatora o bazi#^0319ea|koordinatizacija]]
-
-$\varphi_{e,\,f}:\ \mathrm{Hom}(U,\,V)\to\mathbb{M}_{mn}(\mathbb{F})$, def. sa:
-$\varphi_{e,\,f}(A)=\mathcal{A}$, tako da $\forall u\in U\quad \mathcal{A}\cdot\kappa_{e}(u)=\kappa_{f}\big(A(u)\big)$
-
-$g_{k}:=A(e_{k}),\ \ \forall k =\overline{1,n}\ \ \:$ — slike baznih vektora,
-tada $\ \mathcal{A}\cdot\kappa_{e}(e_{k})=\kappa_{f}(g_{k})$, tj. kolone matrice $\mathcal{A}$ su redom $\kappa_{f}(g_{k}),\ \ k=\overline{1,n}$
-Dakle, ako $\mathcal{A}=(\alpha_{ij})$, onda $A(e_{k})=g_{k}=\sum\limits_{i=1}^{m}\alpha_{ik}\,f_{i},\ \  k=\overline{1,n}$
-
-Teorema. $\varphi_{e,\,f}\in\mathrm{Hom}\Big(\mathrm{Hom}(U,\,V),\ \mathbb{M}_{mn}(\mathbb{F})\Big)$ i jeste izomorfizam.
-___
-Teorema. $\mathrm{Hom}\,V$ $(\dim V=n)$ i $\mathbb{M}_{n}(\mathbb{F})$ su izomorfni algebre sa jedinicom.
-$\varphi_{e}$ slika regularni LO u invertibilne matrice.
-### [[Zavisnost koordinata vektora i matrice linearnog operatora o bazi#Zavisnost matrice LO o bazi|Zavisnost matrice LO o bazi]]
-### Invarianta sličnosti
+### [[Slika i jezgro, rang i defekt linearnog operatora. Regularni operator|Slika i jezgro, rang i defekt LO. Regularni operator]]
+### [[Matrica linearnog operatora]]
 ### [[Linearni funkcional]]
+### [[Kvadratna matrica#Sličnost matrica|Invarianta sličnosti]]
