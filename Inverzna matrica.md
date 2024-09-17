@@ -1,7 +1,7 @@
 #fax #math #laag [deo poglavlja [[Matrica|"matrica"]]]
 $\:$
 
-**Def**. **Inverzna matrica** (inverz) matrici $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je matrica $\mathcal{A}^{-1}\in\mathbb{M}_{n}(\mathbb{F})$ ako važi $\mathcal{A}\cdot \mathcal{A}^{-1}=\mathbb{E}_{n}=\mathcal{A}^{-1}\cdot\mathcal{A}$
+**Def**. **Inverzna matrica** (inverz) matrici $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je matrica $\mathcal{A}^{-1}\in\mathbb{M}_{n}(\mathbb{F})$ ako važi $\mathcal{A}\cdot \mathcal{A}^{-1}=\mathbb{I}_{n}=\mathcal{A}^{-1}\cdot\mathcal{A}$
 
 Tada su $\mathcal{A}$ i $\mathcal{A}^{-1}$ **invertibilni**/**regularni**.
 
@@ -15,7 +15,7 @@ Teorema (svojstva invertibilnih matrica).
 ### Traženje pomoću elementarnih transformacija
 Elementarne transformacije: [[Rang matrice. Elementarne transformacije#^4c59da|(el1)]], [[Rang matrice. Elementarne transformacije#^ce1e01|(el2)]], [[Rang matrice. Elementarne transformacije#^e52b75|(el3)]].
 
-$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$
+$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ — invertibilna
 Primenimo elementarne transformacije $\mathrm{E}_{1},\,\mathrm{E}_{2},\,\dots,\,\mathrm{E}_{k}$ samo nad vrstama tako da $\underbrace{\mathrm{E}_{k}\cdot\!\cdot\!\cdot\mathrm{E}_{2}\,\mathrm{E}_{1}}_{\mathbf{E}}\,\mathcal{A}=\mathbb{I}_{n}$ $\ \ \:\Rightarrow\ \ \:$  $\mathcal{A}^{-1}=\mathbf{E}=\underbrace{\mathrm{E}_{k}\cdot\!\cdot\!\cdot\mathrm{E}_{2}\,\mathrm{E}_{1}}_{\mathbf{E}}\,\mathbb{I}_{n}$
 tj $\mathcal{A}^{-1}$ dobijamo primenom istih transformacija na $\mathbb{I}_{n}$.
 

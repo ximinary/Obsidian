@@ -3,7 +3,7 @@ $\:$
 
 Napomena: [[Linearni operator#Matrica LO|matrica linearnog operatora]]
 
-Pojam ranga matrice se prenosi sa linearnih operatora, pomoću izomorfizma $\varphi_{e,\,f}\:$:
+Pojam ranga matrice se prenosi sa [[Slika i jezgro, rang i defekt linearnog operatora. Regularni operator|linearnih operatora]], pomoću izomorfizma $\varphi_{e,\,f}\:$:
 $e=(e_{1},\,e_{2},\,\dots,\,e_{n})$ je baza $U$, $f=(f_{̌1},\,f_{2},\,\dots,\,f_{m})$ je baza $V$,
 $A\in\mathrm{Hom}(U,\,V),\quad\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})\ \ :\ \ \varphi_{e,\,f}(A)=\mathcal{A}$
 
@@ -62,7 +62,7 @@ Stav. Elementarne transformacije ne menjaju rang matrice. (Posledica iz prethodn
  
 Stav. $\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})$. Postoji konačan broj elementarnih transformacija $\mathrm{E}_{1},\,\mathrm{E}_{2},\,\dots,\,\mathrm{E}_{k}$ i $\overline{\rm E}_{1},\,\overline{\rm E}_{2},\,\dots,\,\overline{\rm E}_{k'}$ tako da $\mathrm{E}_{k}\cdot\!\cdot\!\cdot\mathrm{E}_{2}\,\mathrm{E}_{1}\,\mathcal{A}\,\overline{\rm E}_{1}\,\overline{\rm E}_{2}\cdot\!\cdot\!\cdot\overline{\rm E}_{k'}=\mathbb{D}^{r}_{m\times n}\:$. Odakle $\mathrm{rang}\, \mathcal{A}=r$
 
-Specijalno: ako je $\mathcal{A}$ invertibilna, primenom konačnog broja elementarnih transformacija camo nad vrstama (kolonama) može da se dobija $\mathbb{I}_{n}$.
+Specijalno: ako je $\mathcal{A}$ invertibilna, primenom konačnog broja elementarnih transformacija samo nad vrstama (kolonama) može da se dobija $\mathbb{I}_{n}$.
 $\:$
 
 [[Inverzna matrica#Traženje pomoću elementarnih transformacija|Traženje inverzne matrice pomoću elementarnih transformacija]].

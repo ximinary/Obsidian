@@ -1,4 +1,4 @@
-#fax #math #laag [deo poglavlja[[Linearni operator|"linearni operator"]]]
+#fax #math #laag [deo poglavlja [[Linearni operator|"linearni operator"]]]
 $\:$
 
 Napomene: [[direktna i inverzna slika skupa]], [[Potprostor. Operacije nad potprostorima|potprostor]]

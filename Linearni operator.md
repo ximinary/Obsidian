@@ -112,5 +112,5 @@ ___
 Teorema. $\mathrm{Hom}\,V$ $(\dim V=n)$ i $\mathbb{M}_{n}(\mathbb{F})$ su izomorfni algebre sa jedinicom.
 $\varphi_{e}$ slika regularni LO u invertibilne matrice.
 ### [[Zavisnost koordinata vektora i matrice linearnog operatora o bazi#Zavisnost matrice LO o bazi|Zavisnost matrice LO o bazi]]
-### Linearni funkcional
-### Anihilator
+### Invarianta sličnosti
+### [[Linearni funkcional]]

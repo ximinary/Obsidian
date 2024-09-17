@@ -77,7 +77,6 @@ Stav (svojstva transponovanja).
 > $=\Big(\mathcal{B}^{\mathrm{T}}\cdot\mathcal{A}^{\mathrm{T}}\Big)^{i}_{j}$
 
 $\:$
-#todo rang + drugo od lo
 
 ### [[Kvadratna matrica]]
 - ### [[Determinanta]]
