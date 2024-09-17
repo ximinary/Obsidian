@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Determinanta.md"
+                "file": "Home.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,8 +165,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,14 +186,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "b3129deac85983c7",
+  "active": "9cc469c9cc7e2be1",
   "lastOpenFiles": [
+    "Determinanta.md",
     "Standardni ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
     "Složenost algoritma.md",
     "Inverzna matrica.md",
     "Home.md",
-    "Determinanta.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Matrica.md",
     "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
