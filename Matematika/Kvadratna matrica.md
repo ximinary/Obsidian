@@ -17,7 +17,7 @@ $\:$
 ### [[Determinanta]]
 ### [[Inverzna matrica]]
 ### Trag matrice
-Def. Trag matrice je [[linearni funkcional]] $\mathrm{Tr}:\ \mathbb{M}_{n}(\mathbb{F})\to\mathbb{F}\ \:$ def. sa $\mathrm{Tr}(\mathcal{A})=\sum\limits_{i=1}^{n}(\mathcal{A})_{ii}$
+Def. Trag matrice je [[Linearni funkcional|linearni funkcional]] $\mathrm{Tr}:\ \mathbb{M}_{n}(\mathbb{F})\to\mathbb{F}\ \:$ def. sa $\mathrm{Tr}(\mathcal{A})=\sum\limits_{i=1}^{n}(\mathcal{A})_{ii}$
 
 Stav (svojstva traga):
 1. $\forall \mathcal{A},\,\mathcal{B}\in\mathbb{M}_{n}(\mathbb{F})\quad\mathrm{Tr}(\mathcal{A}+\mathcal{B})=\mathrm{Tr}\,\mathcal{A}+\mathrm{Tr}\,\mathcal{B}$

@@ -63,5 +63,3 @@ Tada je $(\pi_{l+1},\,\pi_{l+2},\,\dots,\,\pi_{n})$ je baza od $L^{\circ}$
 
 Posledica. $L,\,M\leqslant V$. Tada $L=M\ \ \Leftrightarrow\ \ L^{\circ}=M^{\circ}$
 
-Stav. $V$ je konačnodimenzioni VP nad $\mathbb{F}$, $\:$ $S\subseteq V$.
-Tada $\big(S^{\circ}\big)^{\circ}=\mathcal{L}(S)$

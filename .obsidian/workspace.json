@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrica.md",
+                "file": "Matematika/Linearni operator.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrica.md",
+                "file": "Matematika/Linearni operator.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrica.md",
+                "file": "Matematika/Linearni operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrica.md",
+                "file": "Matematika/Linearni operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrica.md"
+                "file": "Matematika/Linearni operator.md"
               }
             }
           },
@@ -165,11 +165,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,26 +187,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "acbb54f68e8fbe18",
+  "active": "b3129deac85983c7",
   "lastOpenFiles": [
-    "Matematika/Rang matrice. Elementarne transformacije.md",
-    "Matrica.md",
-    "Linearni operator.md",
-    "Linearni funkcional.md",
     "Matematika/Linearna algebra.md",
-    "Zavisnost koordinata vektora i matrice linearnog operatora o bazi.md",
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Matrica.md",
     "Matematika/Kvadratna matrica.md",
+    "Matematika/Linearni funkcional.md",
+    "Matematika/Linearni operator.md",
+    "Zavisnost koordinata vektora i matrice linearnog operatora o bazi.md",
     "Inverzna matrica.md",
+    "Složenost algoritma.md",
+    "Standardni ulaz i izlaz (C).md",
+    "Standardne biblioteke (C).md",
+    "Matematika/Rang matrice. Elementarne transformacije.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
     "Matematika/Vektor.md",
-    "Standardni ulaz i izlaz (C).md",
-    "Standardne biblioteke (C).md",
     "Matematika/Euklidov algoritam.md",
     "Matematika/Euklidsko deljenje.md",
     "Matematika/Algebra nad poljem.md",
-    "Složenost algoritma.md",
-    "Matematika/Matematika.md",
     "Matematika/Analiza.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
@@ -213,7 +215,6 @@
     "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
     "Matematika/Funkcija.md",
     "Matematika/Direktna i inverzna slika skupa.md",
-    "Matematika/Relacija.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",
