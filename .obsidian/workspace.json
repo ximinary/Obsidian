@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Računarstvo.md"
+                "file": "Računarstvo/Programski jezik C.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,17 +189,18 @@
   },
   "active": "acbb54f68e8fbe18",
   "lastOpenFiles": [
+    "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
     "Računarstvo/Računarstvo.md",
-    "Ulaz i izlaz (C).md",
+    "Foursenser",
     "Inverzna matrica.md",
-    "Standardne biblioteke (C).md",
     "Složenost algoritma.md",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
     "Media/karakteri konverzije printf.png",
     "Računarstvo/Organizacija izvornog koda (C).md",
-    "Računarstvo/Dinamička alokacija memorije (C).md",
     "Home.md",
     "Matematika/Matematika.md",
     "Matematika/Brojevi.md",
@@ -234,7 +235,6 @@
     "Git/Matematika",
     "Git",
     "Zettelkasten",
-    "Untitled",
     "Git/Publish"
   ]
 }
