@@ -31,7 +31,7 @@ int printf(const char *format, ...);
 ```
 — vraća broj odštampanih karaktera.
 
-```format``` niska sadrži obične karaktere za štampanje kao i specifikacije konverzija za argumente ```...```; jednom argumentu odgovara zapis:
+```format``` niska sadrži obične karaktere za štampanje kao i specifikacije konverzija za argumente ```...```; jednom argumentu odgovara zapis redom:
 - ```%``` $\ \ \ \:$ — $\:$  (obavezan)
 - ```-``` $\ \ \ \:$ — $\:$ levo poravnanje
 - broj $\:$ — $\:$ najmanja dužina polja za argument
@@ -45,7 +45,7 @@ int printf(const char *format, ...);
 - karakter konverzije (obavezan)
 
 Karakteri konverzije:
-![[karakteri konverzije (C).png]]
+![[karakteri konverzije printf.png]]
 
 Modifikatori:
 - ```h``` — ```short``` — ```%hd```
@@ -60,3 +60,32 @@ pritntf("%.*s", max, s); // odštampa najviše max karaktera niske s
 ```
 
 ##### Formatirani ulaz — ```scanf```
+```c
+int scanf(const char *format, ...);
+```
+— vraća broj uspešnih dodeljivanja, ```EOF``` u slučaju kraja ulaza.
+
+```format``` niska sadrži obične karaktere, koje se ignorišu, razmake za ignorisanje razmaka na ulazu pri korišćenju ```%c```,  kao i specifikacije konverzija za argumente ```...```, argumente su uvek pokazivači; jednom argumentu odgovara zapis redom:
+- ```%``` $\ \ \ \:$ — $\:$  (obavezan)
+- ```*``` $\ \ \ \:$  — $\:$ čitanje bez dodeljivanja; bez argumenta
+- broj $\:$ — $\:$ dužina za čitanje
+- modifikator
+- karakter konverzije (obavezan)
+
+Karakteri konverzije:
+![[karakteri konverzije scanf.png]]
+Modifikatori se podudaraju sa ```printf```.
+
+## Ulaz iz niske i izlaz u nisku
+```c
+int sprintf(char* out_string, const char *format, ...);
+```
+— u nisku ```out_string``` upisuje isto što bi bilo ispisano ```printf```-om na standardni izlaz.
+
+```c
+int sscanf(char* in_string, const char *format, ...);
+```
+— iz niske ```in_string``` čita tako kako bi ```scanf``` pročitao sa standardnog ulaza.
+## Ulaz iz datoteka i izlaz u datoteke
+
+## [[Funkcije (C)#Argumenti funkcije ```main```|Argumente komandne linije]]

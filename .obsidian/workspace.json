@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ulaz i izlaz (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ulaz i izlaz (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ulaz i izlaz (C).md"
+                "file": "Računarstvo/Računarstvo.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ulaz i izlaz (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ulaz i izlaz (C).md",
+                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,26 +187,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "9cc469c9cc7e2be1",
+  "active": "acbb54f68e8fbe18",
   "lastOpenFiles": [
-    "Media/karakteri konverzije (C).png",
     "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
     "Ulaz i izlaz (C).md",
+    "Inverzna matrica.md",
+    "Standardne biblioteke (C).md",
+    "Složenost algoritma.md",
+    "Pasted image 20240918192658.png",
+    "Media/karakteri konverzije scanf.png",
+    "Media/karakteri konverzije printf.png",
     "Računarstvo/Organizacija izvornog koda (C).md",
     "Računarstvo/Dinamička alokacija memorije (C).md",
-    "Računarstvo/Računarstvo.md",
     "Home.md",
     "Matematika/Matematika.md",
     "Matematika/Brojevi.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Geometrija.md",
-    "Složenost algoritma.md",
     "Matematika/Normalne forme.md",
     "Matematika/Predikatska logika.md",
     "Matematika/Analiza.md",
     "Determinanta.md",
-    "Standardne biblioteke (C).md",
-    "Inverzna matrica.md",
     "Matematika/Matrica.md",
     "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
     "Matematika/Matrica linearnog operatora.md",
@@ -227,9 +229,6 @@
     "Git/Media/zlatna podela.png",
     "Git/Media/teorema. R je neprebrojiv.png",
     "Git/Media/teorema. N je beskonačan.png",
-    "Git/Media/tautologija primer 3.png",
-    "Git/Media/tautologija primer 2.png",
-    "Git/Media/stav. relacija poretka u bulovim algebrama.png",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
