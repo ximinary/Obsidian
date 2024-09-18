@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6565941482c11611",
+        "id": "d78cc632de524dd2",
         "type": "tabs",
         "children": [
           {
-            "id": "9cc469c9cc7e2be1",
+            "id": "715371e4acf45fcc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Računarstvo/Programski jezik C.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "7deb41a5830e761a"
-          }
-        ]
-      },
-      {
-        "id": "c20e8bbcc20c43cf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "acbb54f68e8fbe18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Računarstvo/Programski jezik C.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "7deb41a5830e761a"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -123,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Računarstvo/Programski jezik C.md"
-              }
+              "state": {}
             }
           },
           {
@@ -134,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Programski jezik C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Programski jezik C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,25 +159,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "acbb54f68e8fbe18",
+  "active": "715371e4acf45fcc",
   "lastOpenFiles": [
-    "Računarstvo/Ulaz i izlaz (C).md",
-    "Računarstvo/Programski jezik C.md",
     "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Matematika/Kombinatorika.md",
     "Računarstvo/Računarstvo.md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Matematika/Linearna algebra.md",
+    "Matematika/Geometrija.md",
+    "Složenost algoritma.md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
     "Foursenser",
     "Inverzna matrica.md",
-    "Složenost algoritma.md",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
     "Media/karakteri konverzije printf.png",
     "Računarstvo/Organizacija izvornog koda (C).md",
-    "Home.md",
-    "Matematika/Matematika.md",
     "Matematika/Brojevi.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Geometrija.md",
     "Matematika/Normalne forme.md",
     "Matematika/Predikatska logika.md",
     "Matematika/Analiza.md",
@@ -216,8 +191,6 @@
     "Matematika/Linearni operator.md",
     "Matematika/Kvadratna matrica.md",
     "Matematika/Rang matrice. Elementarne transformacije.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Linearni funkcional.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",

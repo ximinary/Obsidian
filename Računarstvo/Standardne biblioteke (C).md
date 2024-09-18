@@ -42,6 +42,7 @@ size_t strcspn (const char* str1, const char* str2);
 char* strtok (char* str, const char* delimiters);
 ```
 
+```strtok```:
 ```c
 char str[] ="- Ovo, je jedna niska.", delims[] = " ,.-";
 char *s = strtok (str, delims);
