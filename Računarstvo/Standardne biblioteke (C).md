@@ -60,6 +60,7 @@ niska
 
 ## Zaglavlje ```<stdlib.h>```
 ```c
+// dinamička alokacija:
 void *malloc(size_t n);
 void *calloc(size_t n, size_t size);
 void *realloc(void *memblock, size_t size);
@@ -69,10 +70,32 @@ int system(char* command);
 
 // pseudo-slučajni brojevi:
 int rand(void);
-void srand(unsigned int);
+void srand(unsigned);
 
-// zaustavljane programa
+// zaustavljane programa:
 void exit(int);
+
+// konverzije:
+double atof(const char *str); //str to double
+int atoi(const char *str);    //str to int
+long atol(const char *str);   //str to long
+
+// konverzije:
+// ako endptr nije NULL, stavlja *endptr na karakter posle pročitanog broja
+double strtod(const char *str, char **endptr);
+long strtol(const char *str, char **endptr, int base);
+unsigned long strtoul(const char *str, char **endptr, int base);
+
+
+// binarna pretraga:
+void *bsearch(const void *key, const void *base, size_t nitems, size_t size, int (*compar)(const void *, const void *));
+
+// sortiranje niza:
+void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*));
+
+// absolutna vrednost:
+int abs(int x);
+long labs(long x)
 ```
 
 Funkcija ```int rand(void);``` generiše pseudo-slučajne cele brojeve u intervalu od ```0``` do ```RAND_MAX``` (definisana u zaglavlju)
