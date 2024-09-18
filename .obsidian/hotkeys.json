@@ -14,5 +14,13 @@
       ],
       "key": "."
     }
+  ],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": " "
+    }
   ]
 }

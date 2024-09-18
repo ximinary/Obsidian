@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Organizacija izvornog koda (C).md",
+                "file": "Ulaz i izlaz (C).md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Organizacija izvornog koda (C).md",
+                "file": "Ulaz i izlaz (C).md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Organizacija izvornog koda (C).md"
+                "file": "Ulaz i izlaz (C).md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Organizacija izvornog koda (C).md",
+                "file": "Ulaz i izlaz (C).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Organizacija izvornog koda (C).md",
+                "file": "Ulaz i izlaz (C).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,9 +187,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "acbb54f68e8fbe18",
+  "active": "9cc469c9cc7e2be1",
   "lastOpenFiles": [
+    "Media/karakteri konverzije (C).png",
     "Računarstvo/Programski jezik C.md",
+    "Ulaz i izlaz (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
     "Računarstvo/Dinamička alokacija memorije (C).md",
     "Računarstvo/Računarstvo.md",
     "Home.md",
@@ -197,13 +200,11 @@
     "Matematika/Brojevi.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Geometrija.md",
-    "Računarstvo/Organizacija izvornog koda (C).md",
     "Složenost algoritma.md",
     "Matematika/Normalne forme.md",
     "Matematika/Predikatska logika.md",
     "Matematika/Analiza.md",
     "Determinanta.md",
-    "Standardni ulaz i izlaz (C).md",
     "Standardne biblioteke (C).md",
     "Inverzna matrica.md",
     "Matematika/Matrica.md",
@@ -214,7 +215,6 @@
     "Matematika/Rang matrice. Elementarne transformacije.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Linearni funkcional.md",
-    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",
