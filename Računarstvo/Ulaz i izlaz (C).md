@@ -21,11 +21,11 @@ int putchar(int c);  // ispisuje jedan karakter na standardni izlaz i vraća taj
 
 ##### Linijski ulaz i izlaz
 ```c
-char* gets(char* s);  // !!! ne gledajući na dužinu niske !!! upisuje u s liniju sa ulaza do EOF ili '\n', umesto kojih stavi '\0', vraća s ili NULL ako nije uspelo
+char* gets(char* s);  // !!! ne gledajući na dužinu niske !!! upisuje u s liniju sa ulaza do EOF ili '\n', umesto kojih stavi '\0', vraća s ili NULL ako nije uspelo (U slučaju greške ne menja s)
 ```
 
 ```c
-int puts(const char* s)  // ispisuje nisku s na standardni izlaz, na kraju umesto '\0' ispisuje '\n'. Ako nije uspelo vraća EOF, inače drugu vrednost
+int puts(const char* s);  // ispisuje nisku s na standardni izlaz, na kraju umesto '\0' ispisuje '\n'. Ako nije uspelo vraća EOF, inače drugu vrednost
 ```
 ##### Formatirani izlaz — ```printf```
 ```c
@@ -103,6 +103,8 @@ FILE* fopen(const char* filename, const char* mode);
 - dodavanjem ```'+'``` u nisku omogućava se i čitanje i pisanje
 - dodavanjem ```'b'``` u nisku datoteka se otvara kao binarna.
 
+Treba uvek proveravati da li je dobro otvorio fajl, tj. da li pokazivač nije ```NULL```.
+
 ```c
 int fclose(FILE* fp);
 ```
@@ -138,11 +140,31 @@ int ferror(FILE* fp); // vraća ne-nulu ako je došlo do greške sa datotekom
 ```
 ##### Linijski ulaz i izlaz
 ```c
-char* fgets(char* s, int n, FILE* fp);  // upisuje u s liniju iz datoteke do EOF ili '\n' dužine najviše (n-1), na krraju stavi '\0', vraća s ili NULL ako nije uspelo
+char* fgets(char* s, int n, FILE* fp);  // upisuje u s liniju iz datoteke do EOF ili '\n' dužine najviše (n-1), na krraju stavi '\0', vraća s ili NULL ako nije uspelo (U slučaju greške ne menja s)
 ```
 
 ```c
-int fputs(const char* s, FILE* fp)  // upisuje nisku s u datoteku, na kraju umesto '\0' ispisuje '\n'. Ako nije uspelo vraća EOF, inače drugu vrednost
+int fputs(const char* s, FILE* fp);  // upisuje nisku s u datoteku, na kraju umesto '\0' ispisuje '\n'. Ako nije uspelo vraća EOF, inače drugu vrednost
+```
+
+##### [[Dinamička alokacija memorije (C)|Alokacija]] prostora za ulaznu liniju
+```c
+size_t getline(char** paloc_linija, int* n, FILE* fp);
+```
+```paloc_linija``` — pokazivač na pokazivač koji pokazuje na početak niske (alociranog bloka), u prvi poziv pokazuje na ```NULL```,
+```n``` — pokazivač na broj — za koliko karaktera je alocirano memorije.
+
+```getline``` čita liniju iz datoteke i upisuje u nisku ```*paloc_linija``` ako je moguće ili (re)alocira memoriju i upisuje.
+
+Korišćenje:
+```c
+char *linija = NULL;
+int n = 0;
+getline(&linija, &n, file);    // čitanje prve linije
+...
+getline(&linija, &n, file);    // čitanje druge linije
+...
+free(linija);                  // !!!
 ```
 ##### Formatirani ulaz i izlaz
 ```c

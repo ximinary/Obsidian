@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Standardne biblioteke (C).md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Standardne biblioteke (C).md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Standardne biblioteke (C).md"
+                "file": "Računarstvo/Programski jezik C.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Standardne biblioteke (C).md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Standardne biblioteke (C).md",
+                "file": "Računarstvo/Programski jezik C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,9 +189,9 @@
   },
   "active": "acbb54f68e8fbe18",
   "lastOpenFiles": [
+    "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Dinamička alokacija memorije (C).md",
     "Računarstvo/Računarstvo.md",
     "Foursenser",
