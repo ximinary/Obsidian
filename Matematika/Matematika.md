@@ -6,6 +6,7 @@ $\:$
 [Relacije](Relacija) i [funkcije](Funkcija)
 [[Brojevi]]
 [[Linearna algebra]]
-Geometrija
+[[Geometrija]]
 [[Kombinatorika]]
+Teorija grafova
 [[Analiza]]

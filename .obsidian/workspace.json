@@ -4,40 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "6565941482c11611",
+        "id": "d78cc632de524dd2",
         "type": "tabs",
+        "dimension": 49.7875955819881,
         "children": [
           {
-            "id": "9cc469c9cc7e2be1",
+            "id": "715371e4acf45fcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Matematika/Kvadratna matrica.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "7deb41a5830e761a"
+            "group": "cccb34bbb3574edf"
           }
         ]
       },
       {
-        "id": "c20e8bbcc20c43cf",
+        "id": "35476dfac524f9d6",
         "type": "tabs",
+        "dimension": 50.21240441801189,
         "children": [
           {
-            "id": "acbb54f68e8fbe18",
+            "id": "29c3d31d7d6d5bed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Matematika/Kvadratna matrica.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "7deb41a5830e761a"
+            "group": "cccb34bbb3574edf"
           }
         ]
       }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Determinanta.md"
+                "file": "Matematika/Kvadratna matrica.md"
               }
             }
           },
@@ -134,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Matematika/Kvadratna matrica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Determinanta.md",
+                "file": "Matematika/Kvadratna matrica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,34 +189,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "b3129deac85983c7",
+  "active": "29c3d31d7d6d5bed",
   "lastOpenFiles": [
-    "Standardni ulaz i izlaz (C).md",
-    "Standardne biblioteke (C).md",
-    "Složenost algoritma.md",
+    "Matematika/Grupa permutacija.md",
+    "Matematika/Determinanta.md",
     "Inverzna matrica.md",
-    "Home.md",
-    "Determinanta.md",
+    "Matematika/Kvadratna matrica.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Matrica.md",
+    "Matematika/Rang matrice. Elementarne transformacije.md",
+    "Složenost algoritma.md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Matematika/Kombinatorika.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Matematika/Geometrija.md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Foursenser",
+    "Pasted image 20240918192658.png",
+    "Media/karakteri konverzije scanf.png",
+    "Media/karakteri konverzije printf.png",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Matematika/Brojevi.md",
+    "Matematika/Normalne forme.md",
+    "Matematika/Predikatska logika.md",
+    "Matematika/Analiza.md",
     "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
     "Matematika/Matrica linearnog operatora.md",
-    "Matematika/Linearni operator.md",
-    "Matematika/Kvadratna matrica.md",
-    "Matematika/Rang matrice. Elementarne transformacije.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Linearni funkcional.md",
-    "Matematika/Matematika.md",
-    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
-    "Matematika/Vektor.md",
-    "Matematika/Euklidov algoritam.md",
-    "Matematika/Euklidsko deljenje.md",
-    "Matematika/Algebra nad poljem.md",
-    "Matematika/Analiza.md",
-    "Matematika/Limes funkcije.md",
-    "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
-    "Matematika/Potprostor. Operacije nad potprostorima.md",
-    "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",
@@ -227,15 +233,11 @@
     "Git/Media/zlatna podela.png",
     "Git/Media/teorema. R je neprebrojiv.png",
     "Git/Media/teorema. N je beskonačan.png",
-    "Git/Media/tautologija primer 3.png",
-    "Git/Media/tautologija primer 2.png",
-    "Git/Media/stav. relacija poretka u bulovim algebrama.png",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
     "Git",
     "Zettelkasten",
-    "Untitled",
     "Git/Publish"
   ]
 }

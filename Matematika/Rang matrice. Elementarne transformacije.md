@@ -1,6 +1,6 @@
 #fax #math #laag [deo poglavlja [[Matrica|"matrica"]]]
-$\:$
 
+### Rang matrice
 Napomena: [[Matrica linearnog operatora|matrica linearnog operatora]]
 
 Pojam ranga matrice se prenosi sa [[Slika i jezgro, rang i defekt linearnog operatora. Regularni operator|linearnih operatora]], pomoću izomorfizma $\varphi_{e,\,f}\:$:
@@ -25,7 +25,7 @@ $\mathrm{rang}\,\mathbb{D}^{r}_{m\times n}=r$
 Teorema ([[Slika i jezgro, rang i defekt linearnog operatora. Regularni operator#^6367f1|analogna za LO]]). $\mathcal{A},\,\mathcal{B}\in\mathbb{M}_{mn}(\mathbb{F})$.
 1. $\mathcal{A}\sim\mathcal{B}\ \ \begin{align}&\Leftrightarrow\ \ \mathrm{rang}\,\mathcal{A}=\mathrm{rang}\,\mathcal{B}\\&\Leftrightarrow\ \ \exists\mathcal{S}\in\mathbb{M}_{m},(\mathbb{F}),\ \mathcal{T}\in\mathbb{M}_{n}(\mathbb{F})\text{ — invertibilni}\ \ :\ \ \mathcal{A}=\mathcal{S}\cdot\mathcal{B}\cdot\mathcal{T}\end{align}$ ^4f9e63
 2. $\sim$ je relacija ekvivalencije na $\mathbb{M}_{mn}(\mathbb{F})$
-___
+### Elementarne transformacije
 **Def**. Elementarne transformacije su:
 - (el1) Množenje vrste (kolone) sa skalarom ^4c59da
 - (el2) Zamena mesta dve vrste (kolone) ^ce1e01

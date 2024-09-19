@@ -168,7 +168,13 @@ fajl1 : fajle_od_kojih_zavisi_fajl1
 	gcc kako se kreira fajl
 ```
 Prvim treba navesti ciljni fajl.
-```make``` će kreirati stablo zavisnosti i gledajući na vreme poslednje promene datoteka će izvršavati samo potrebne komande u potrebnom redosledu.
+
+Komandna linija:
+```
+make
+```
+
+```make``` će kreirati stablo zavisnosti i gledajući na vreme poslednjih promena datoteka će izvršavati samo potrebne komande u potrebnom redosledu.
 
 U primeru ako se promenio ```main.c```, prvo će biti izvršeno ```gcc -c main.c``` da bi se dobio ```main.o``` pa će izvršiti ```gcc -o program main.o liste.o```.
 

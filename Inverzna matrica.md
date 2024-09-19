@@ -10,8 +10,10 @@ Teorema (svojstva invertibilnih matrica).
 - $\big(\mathcal{A}^{\mathrm{T}}\big)^{-1}=\big(\mathcal{A}^{-1}\big)^{\mathrm{T}}$
 - $\big(\mathcal{A}\cdot\mathcal{B}\big)^{-1}=\mathcal{B}^{-1}\cdot\mathcal{A}^{-1}$
 - $\big(\lambda\,\mathcal{A}\big)^{-1}=\lambda^{-1}\,\mathcal{A}^{-1}$
-- $\begin{align}\det\mathcal{A}^{-1}=\frac{1}{\det\mathcal{A}}\end{align}$ $\:$ (Posledica Bine-Košijeve teoreme)
+- $\begin{align}\det\mathcal{A}^{-1}=\frac{1}{\det\mathcal{A}}\end{align}$ $\:$ (Posledica [[Determinanta#^47b633|Bine-Košijeve teoreme]])
 
+Teorema. $\mathcal{A}\in \mathbb{M}_{n}(\mathbb{F})$.
+$\mathcal{A}$ je invertibilna $\quad\Leftrightarrow\quad \det \mathcal{A}\ne 0$
 ### Traženje pomoću elementarnih transformacija
 Elementarne transformacije: [[Rang matrice. Elementarne transformacije#^4c59da|(el1)]], [[Rang matrice. Elementarne transformacije#^ce1e01|(el2)]], [[Rang matrice. Elementarne transformacije#^e52b75|(el3)]].
 
@@ -24,6 +26,7 @@ $\:$
 
 Primedba: ako $\mathcal{A}$ nije invertibilna dobićemo $\mathbb{D}^{r}_{n\times n}$ umesto $\mathbb{I}_{n}$
 
-### Traženje pomoću adjungovane matrice
+### [[Determinanta#Laplasov razvoj|Traženje pomoću adjungovane matrice]]
 
+$\begin{align}\mathcal{A}^{-1}=\frac{1}{\det \mathcal{A}}\,\mathrm{adj}\,\mathcal{A} \end{align}$
 ### Traženje pomoću minimalnog polinoma
