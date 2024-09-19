@@ -1,5 +1,6 @@
 #fax #math #laag [deo [[Linearna algebra|linearne algebre]]]
 $\:$
+
 **Def**. Neka su $U$ i $V$ [[Vektorski prostor|vektorski prostori]] nad istim poljem $\mathbb{F}$. [[Funkcija|Preslikavanje]] $A:\ U\to V$ se zove **linearni operator** (linearna transformacija), ako važi jedan od ekvivalentnih uslova:
 - $\forall x,\,y\in U,\ \ \forall \alpha\in\mathbb{F}\quad\quad\ \ \begin{cases}A(x+y)=A(x)+A(y)\\ A(\alpha\,x)=\alpha\,A(x)\end{cases}$
 - $\forall x,\,y\in U,\ \ \forall \alpha,\,\beta\in\mathbb{F}\quad\ \  A(\alpha\,x+\beta\,y)=\alpha\,A(x)+\beta\,A(y)$

@@ -4,42 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "d78cc632de524dd2",
+        "id": "54699b7a2f160796",
         "type": "tabs",
-        "dimension": 49.7875955819881,
         "children": [
           {
-            "id": "715371e4acf45fcc",
+            "id": "2df5988f8c8f4e6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md",
+                "file": "Matematika/Linearna algebra.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "cccb34bbb3574edf"
+            "group": "5290b259c9edf97b"
           }
         ]
       },
       {
-        "id": "35476dfac524f9d6",
+        "id": "d3d7e23f4af1f1f4",
         "type": "tabs",
-        "dimension": 50.21240441801189,
         "children": [
           {
-            "id": "29c3d31d7d6d5bed",
+            "id": "b5b620e20c27a48e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md",
+                "file": "Matematika/Linearna algebra.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "cccb34bbb3574edf"
+            "group": "5290b259c9edf97b"
           }
         ]
       }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md"
+                "file": "Matematika/Linearna algebra.md"
               }
             }
           },
@@ -136,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md",
+                "file": "Matematika/Linearna algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md",
+                "file": "Matematika/Linearna algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,20 +187,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "29c3d31d7d6d5bed",
+  "active": "b5b620e20c27a48e",
   "lastOpenFiles": [
-    "Matematika/Grupa permutacija.md",
-    "Matematika/Determinanta.md",
-    "Inverzna matrica.md",
-    "Matematika/Kvadratna matrica.md",
+    "Matematika/Sistem linearnih jednačina.md",
     "Matematika/Linearna algebra.md",
-    "Matematika/Matrica.md",
     "Matematika/Rang matrice. Elementarne transformacije.md",
-    "Složenost algoritma.md",
-    "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Programski jezik C.md",
+    "Inverzna matrica.md",
+    "Matematika/Matrica.md",
+    "Matematika/Linearni operator.md",
     "Matematika/Matematika.md",
     "Home.md",
+    "Složenost algoritma.md",
+    "Matematika/Kvadratna matrica.md",
+    "Matematika/Grupa permutacija.md",
+    "Matematika/Determinanta.md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Računarstvo/Programski jezik C.md",
     "Matematika/Kombinatorika.md",
     "Računarstvo/Računarstvo.md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
@@ -219,8 +219,6 @@
     "Matematika/Normalne forme.md",
     "Matematika/Predikatska logika.md",
     "Matematika/Analiza.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
-    "Matematika/Matrica linearnog operatora.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",
