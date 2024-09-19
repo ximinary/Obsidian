@@ -8,7 +8,7 @@ Kraće: $\begin{align}\sum\limits_{j=1}^{n}a_{ij}\,x_{j}=b_{i},\quad \forall i=\
 
 Matrični oblik: $\boxed{\mathcal{A}\,x=b}$, gde 
 
-$\mathcal{A}=\left(\begin{array}{c}a_{11}&a_{12}&\dots&a_{1n}\\a_{21}&a_{22}&\dots&a_{2n}\\\dots&\dots&\dots&\dots\\a_{m1}&a_{m2}&\dots&a_{mn}\end{array}\right)$ — **matrica sistema**
+$\mathcal{A}=\left(\begin{array}{c}a_{11}&a_{12}&\dots&a_{1n}\\a_{21}&a_{22}&\dots&a_{2n}\\\dots&\dots&\dots&\dots\\a_{m1}&a_{m2}&\dots&a_{mn}\end{array}\right)$ — **[[Matrica|matrica]] sistema**
 
 $x=\left(\begin{array}{}x_{1}\\x_{2}\\\dots\\x_{n}\end{array}\right)\quad\quad b=\left(\begin{array}{}b_{1}\\b_{2}\\\dots\\b_{m}\end{array}\right)$
 
@@ -16,7 +16,7 @@ $x=\left(\begin{array}{}x_{1}\\x_{2}\\\dots\\x_{n}\end{array}\right)\quad\quad b
 
 Rešenje sistema je **svaka** uređena $n$-torka $(c_{1},\,c_{1},\,\dots,\,c_{n})$, takva da zamenom $x_{i}:=c_{i},\ \ \forall i=\overline{1,n}$ važi svaka jednačina u sistemu.
 
-Kada je $m=n$ i $\mathcal{A}$ je invertibilna rešenje je $x=\mathcal{A}^{-1}\,b$
+Kada je $m=n$ i $\mathcal{A}$ je [[Inverzna matrica|invertibilna]] rešenje je $x=\mathcal{A}^{-1}\,b$
 ___
 Prelazak na [[Linearni operator|LO]]:
 
