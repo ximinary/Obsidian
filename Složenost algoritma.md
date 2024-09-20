@@ -18,7 +18,7 @@ $\:$
 - koliko puta je bila pozvana i koliko vremena je utrošila funkcija.
 
 Sa ovim znanjem možemo da razumemo koje (najčešće korišćene i koje  najviše troše) funkcije treba da optimizujemo
-### Asimptotsko ponašanje
+### [[Asimptotske klase. Asimptotska relacija ekvivalencije|Asimptotsko]] ponašanje
 - vreme izvršavanja — funkcija od broja argumenata
 - analiza najgoreg slučaja
 
