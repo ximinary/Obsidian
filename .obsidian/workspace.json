@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Složenost algoritma.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Složenost algoritma.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Složenost algoritma.md"
+                "file": "Računarstvo/Računarstvo.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Složenost algoritma.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Složenost algoritma.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,10 +189,10 @@
   },
   "active": "854038876ed929f7",
   "lastOpenFiles": [
-    "Matematika/Iskazna logika.md",
-    "Matematika/Logika.md",
-    "Matematika/Matematika.md",
     "Home.md",
+    "Matematika/Matematika.md",
+    "Matematika/Logika.md",
+    "Matematika/Iskazna logika.md",
     "Složenost algoritma.md",
     "Matematika/Analiza.md",
     "Matematika/Limes funkcije.md",
