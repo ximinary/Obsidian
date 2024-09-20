@@ -24,7 +24,7 @@ Sa ovim znanjem možemo da razumemo koje (najčešće korišćene i koje  najvi�
 
 $f(n)$ — broj instrukcija za $n$ argumenata.
 
-$\log n \ \ll\ n\ \ll\ n\,\log n\ \ll\ n^{k}\ \ll\ a^{n}\ \ll\ n!$
+$\log n \ \ll\ n\ \ll\ n\,\log n\ \ll\ n^{k}\ \ll\ a^{n}\ \ll\ n!$, $\quad$ $a>1,\ k>0$
 ___
 **Def**.  $f(n)=O\big(g(n)\big)\quad\Leftrightarrow\quad\exists c>0\ \ \exists N\ \ \forall n\geqslant N\ \ f(n) \leqslant c\,g(n)$
 
@@ -70,3 +70,39 @@ Složenost algoritama obično se izražava u terminima $O\big(g(n)\big)$, pri to
 Procenjivane u terminima $\Theta\big(g(n)\big)$ je preciznije ali nije uvek moguće.
 > Na primer:
 > Za neke ulaze $T(n)=n$, a za neke $T(n)=n^{2}$, tada algoritam nije ni složenosti $\Theta(n)$ ni $\Theta(n^{2})$, ali jeste složenosti $O(n^{2}).$
+
+___
+Složenost:
+$O(1)$ — konstantna 
+$O(\log n)$ — logaritamska
+$O(n)$ — linearna
+$O(n\,\log n)$ — kvazilinearna 
+$O(n^{2})$ — kvadratna
+$O(n^{3})$ — kubna
+$O(n^{k})$ — polinomna $(k>0)$
+$O(a^{n})$ — eksponencijalna $(a>1)$
+___
+Izračunavanje složenosti:
+- Vremenska:
+	- Naredbe bez petlji i poziva funkcija — $O(1)$
+	- Blok složenosti $O(f)$ a posle blok $O(g)$ — $O(f+g)$
+	- if (...) $O(f)$ else $O(g)$ — $O(f+g)$
+	- petlja sa $n$ iteracija i $O(1)$ u telu — $O(n)$
+	- petlja sa $n$ iteracija unutra petlji sa $m$ iteracija — $O(n\cdot m)$
+- Prostorna:
+	- bez poziva fja i dinamička alokacija — $O(1)$
+	- alokacija $n$ elemenata složenosti $O(1)$ — $O(n)$
+	- alokacija niza od $n$ elemenata $O(1)$ — $O(n)$
+	- $n$ poziva fje složenosti $O(1)$ — $O(n)$
+
+___
+Klasa $P$.
+**Def**. Algoritam sa $n$ ulaza je polinomske složenosti ako $T(n)=O(n^{k})$ za neko $k\in\mathbb{R}$. 
+Klasa problema za koje postoji algoritam sa $O(n^{k})$ označava se sa $P$.
+
+Problem zadovoljivosti:
+Da li je [[Iskazna logika#^f1f8bc|zadovoljiva]] data logička formula od $n$ primenljivih?
+$2^{n}$ kombinacija  $\ \ \to\ \ O(2^{n})$.
+Pripada li problem klasi $P$? Nema dokaza ni da pripada ni da ne pripada. ^ebfaa0
+
+### Popravljanje složenosti
