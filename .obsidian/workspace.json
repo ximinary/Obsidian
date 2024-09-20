@@ -11,8 +11,12 @@
             "id": "3e39d6c9ce72f27b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Računarstvo/Računarstvo.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Računarstvo/Računarstvo.md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,10 +169,10 @@
   },
   "active": "3e39d6c9ce72f27b",
   "lastOpenFiles": [
+    "Računarstvo/Složenost algoritma.md",
     "Matematika/Analiza.md",
     "Računarstvo/Računarstvo.md",
     "Računarstvo/Programski jezik C.md",
-    "Složenost algoritma.md",
     "Home.md",
     "Matematika/Matematika.md",
     "Matematika/Brojevi.md",
