@@ -1,4 +1,4 @@
-#cs  [ [[Home]] ]
+#fax #cs  [ [[Home]] ]
 $\:$
 
 [[Programski jezik C]]
