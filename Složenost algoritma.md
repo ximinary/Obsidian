@@ -106,3 +106,14 @@ $2^{n}$ kombinacija  $\ \ \to\ \ O(2^{n})$.
 Pripada li problem klasi $P$? Nema dokaza ni da pripada ni da ne pripada. ^ebfaa0
 
 ### Popravljanje složenosti
+Vremenske:
+- Naći delovi (funkcije) koje dominantno utiču na složenost
+- Prvo naći algoritam sa najboljim asimptotskim ponašanjem
+- Kada je asimptotsko ponašanje najbolje, smanjiti broj naredbi
+- Koristiti optimizaciju kompilatora
+- Izdvojiti ponavljajući izvršavanja (izdvojiti što više moguće izvan petlji)
+- \[Prioritet vreme]: Čuvati neka ponavljajuća izračunavanja
+
+Prostor:
+- Najmanji mogući tipovi
+- \[Prioritet memorija]: Ne čuvati stvari koje se lako računaju.
