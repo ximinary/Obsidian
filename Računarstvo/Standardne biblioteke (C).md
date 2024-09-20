@@ -1,64 +1,6 @@
 #fax #cs/prog/c [deo [[Programski jezik C|jezika C]]]
 $\:$
 
-## Zaglavlje ```<string.h>>``` — rad sa niskama
-```c
-// dužina:
-size_t strlen (const char* str);
-
-// kopiranje:
-char* strcpy (char* destination, const char* source);
-char* strncpy (char* destination, const char* source,
-size_t num);
-
-// nadovezivanje:
-char* strcat (char* destination, const char* source);
-char* strncat (char* destination, const char* source,
-size_t num);
-
-// poredak: 
-// -1 ako str1 leksikografski manje od str2 
-// 0 ako su iste
-// 1 ako str1 leksikografski veće od str2
-int strcmp (const char* str1, const char* str2);
-int strncmp (const char* str1, const char* str2,
-size_t num);
-
-// vraća pokazivač na prvo pojavljivane karaktera c u niski, NULL ako c nije u niski:
-char* strchr (const char* str, int c);
-// vraća pokazivač na poslednje pojavljivane karaktera c u niski, NULL ako c nije u niski:
-char* strrchr (const char* str, int c);
-// vraća pokazivač na na prvo pojavljivane nekog od karaktera niske str2 i niski str1, NULL ako nijedan karakter nije u niski:
-char* strpbrk (char* str1, char* str2);
-// vraća pokazivač na podnisku jednaku sa str2 u niski str1, NULL ako nije podniska:
-char* strstr (const char* str1, const char* str2);
-
-// dužina početnog dela str1 koji sadrži samo karaktere iz str2:
-size_t strspn (const char* str1, const char* str2);
-// dužina početnog dela str1 koji ne sadrži nijedan od karaktera iz str2:
-size_t strcspn (const char* str1, const char* str2);
-
-// deljenje niske str karakterima iz delimiters, korišćenje dole:
-char* strtok (char* str, const char* delimiters);
-```
-
-```strtok```:
-```c
-char str[] ="- Ovo, je jedna niska.", delims[] = " ,.-";
-char *s = strtok (str, delims);
-while (s != NULL) {
-	printf ("%s\n", s);
-	s = strtok (NULL, delims);
-}
-```
-ispis:
-```
-Ovo
-je
-jedna
-niska
-```
-
 ## Zaglavlje ```<stdlib.h>```
 ```c
 // dinamička alokacija:
@@ -124,7 +66,65 @@ Ako je ```x``` nula zaustavi program sa greškom:
 ```
 Assertion failed: expression, file filename, line nnn
 ```
-## Zaglavlje ```<ctype.h>```
+## Zaglavlje ```<string.h>``` — rad sa niskama
+```c
+// dužina:
+size_t strlen (const char* str);
+
+// kopiranje:
+char* strcpy (char* destination, const char* source);
+char* strncpy (char* destination, const char* source,
+size_t num);
+
+// nadovezivanje:
+char* strcat (char* destination, const char* source);
+char* strncat (char* destination, const char* source,
+size_t num);
+
+// poredak: 
+// -1 ako str1 leksikografski manje od str2 
+// 0 ako su iste
+// 1 ako str1 leksikografski veće od str2
+int strcmp (const char* str1, const char* str2);
+int strncmp (const char* str1, const char* str2,
+size_t num);
+
+// vraća pokazivač na prvo pojavljivane karaktera c u niski, NULL ako c nije u niski:
+char* strchr (const char* str, int c);
+// vraća pokazivač na poslednje pojavljivane karaktera c u niski, NULL ako c nije u niski:
+char* strrchr (const char* str, int c);
+// vraća pokazivač na na prvo pojavljivane nekog od karaktera niske str2 i niski str1, NULL ako nijedan karakter nije u niski:
+char* strpbrk (char* str1, char* str2);
+// vraća pokazivač na podnisku jednaku sa str2 u niski str1, NULL ako nije podniska:
+char* strstr (const char* str1, const char* str2);
+
+// dužina početnog dela str1 koji sadrži samo karaktere iz str2:
+size_t strspn (const char* str1, const char* str2);
+// dužina početnog dela str1 koji ne sadrži nijedan od karaktera iz str2:
+size_t strcspn (const char* str1, const char* str2);
+
+// deljenje niske str karakterima iz delimiters, korišćenje dole:
+char* strtok (char* str, const char* delimiters);
+```
+
+```strtok```:
+```c
+char str[] ="- Ovo, je jedna niska.", delims[] = " ,.-";
+char *s = strtok (str, delims);
+while (s != NULL) {
+	printf ("%s\n", s);
+	s = strtok (NULL, delims);
+}
+```
+ispis:
+```
+Ovo
+je
+jedna
+niska
+```
+
+## Zaglavlje ```<ctype.h>``` — rad sa karakterima
 ```c
 int isalpha(int c); // vraća ne-nulu ako je c slovo
 int isdigit(int c); // cifra
@@ -136,7 +136,7 @@ int toupper(int c); // vraća c, ako je c bio malo slovo, vraća veliko
 int tolower(int c); // vraća c, ako je c bio veliko slovo, vraća malo
 ```
 
-## Zaglavlje ```<math.h>```
+## Zaglavlje ```<math.h>``` — matematika
 ```c
 double sin(double); double asin(double);
 double cos(double); double acos(double);
@@ -154,4 +154,58 @@ double floor(double);
 double ceil(double);
 double trunc(double);
 double round(double).
+```
+
+## Zaglavlje ```<time.h>``` — merenje vremena
+```time_t``` — tip podataka za predstavljanje vremena u sekundama.
+```clock_t``` — tip podataka za predstavljanje vremena u tikovima.
+
+```CLOCKS_PER_SEC``` — broj tikova u sekundi (def. u zaglavlju).
+
+```c
+time_t time(time_t *time);
+// ako je argument NULL vraća vreme od 1970
+// inače vraća vreme, koje je upisano na adresi time
+
+double difftime(time_t end, time_t start);
+// razlika između dva vremena u sekundama
+
+clock_t clock(void);
+// trenutno vreme u tikovima
+```
+
+U tikovima ima smisla samo oduzeti vreme početka od vremena kraja i podeliti sa ```CLOCKS_PER_SEC```. Time ćemo dobiti vreme potrošeno samo na izvršavanje ovog programa (ne i drugih koji izvršavaju u isto vreme).
+
+Primer
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define BROJ_POZIVA 1000
+#define NS_U_S 1000000000 // nanosekundi u sekundi
+
+// funkcija za testiranje:
+int f(void) {
+	int i;
+	for (i = 0; i < 10000; i++);
+}
+
+int main() {
+	int i;
+	double ukupno_ns, f_ns;
+	clock_t t_pocetak = clock();
+	
+	for(i = 0; i < BROJ_POZIVA; i++)
+		f();
+	
+	clock_t t_kraj = clock();
+	
+	ukupno_ns = (double)(t_kraj-t_pocetak) / 
+		CLOCKS_PER_SEC * NS_U_S;
+	f_ns = ukupno_ns / BROJ_POZIVA;
+	
+	printf("%.2lf ns\n", f_ns);
+	return 0;
+}
 ```

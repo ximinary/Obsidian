@@ -127,7 +127,9 @@ Povratna vrednost može biti korisnički definisanog tipa, ali ne može biti niz
 
 ```main``` mora da ima povratni tip ```int```
 Konvencija: ```main``` vraća ```0``` ako nema grešaka, i ne-nula kod greške, ako je došlo do greške.
-## Funkcije sa promenljivim brojem argumenata: [```<stdarg.h>```](Standardne%20biblioteke%20(C).md)
+## Funkcije sa promenljivim brojem argumenata
+
+Koriste se uz pomoć uključivanja zaglavlja ```<stdarg.h>```.
 
 Tip podataka: ```va_list``` — lista argumenata.
 ```va_start(lista, br_argumenata)``` — početak
