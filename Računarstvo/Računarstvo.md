@@ -6,11 +6,10 @@ $\:$
 Programske paradigme
 Interpretacija i kompilacija
 
-Izračunljivost funkcije
 Ispravnost programa
 [[Složenost algoritma]]
-
 Rekurzija
+
 Osnovni algoritmi
 Strukture podataka
 
