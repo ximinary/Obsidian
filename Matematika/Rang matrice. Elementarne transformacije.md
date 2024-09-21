@@ -65,4 +65,6 @@ Stav. $\mathcal{A}\in\mathbb{M}_{mn}(\mathbb{F})$. Postoji konačan broj element
 Specijalno: ako je $\mathcal{A}$ invertibilna, primenom konačnog broja elementarnih transformacija samo nad vrstama (kolonama) može da se dobija $\mathbb{I}_{n}$.
 $\:$
 
-[[Inverzna matrica#Traženje pomoću elementarnih transformacija|Traženje inverzne matrice pomoću elementarnih transformacija]].
+[[Inverzna matrica#Traženje pomoću elementarnih transformacija|Traženje inverzne matrice pomoću elementarnih transformacija]]
+
+[[Sistem linearnih jednačina#Gausova metoda rešavanja sistema|Gausova metoda rešavanja sistema]]

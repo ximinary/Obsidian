@@ -4,42 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d78cc632de524dd2",
+        "id": "f1f2c00541acc72b",
         "type": "tabs",
-        "dimension": 49.7875955819881,
         "children": [
           {
-            "id": "715371e4acf45fcc",
+            "id": "3e39d6c9ce72f27b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "cccb34bbb3574edf"
-          }
-        ]
-      },
-      {
-        "id": "35476dfac524f9d6",
-        "type": "tabs",
-        "dimension": 50.21240441801189,
-        "children": [
-          {
-            "id": "29c3d31d7d6d5bed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Kvadratna matrica.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "preview",
                 "source": true
               }
-            },
-            "group": "cccb34bbb3574edf"
+            }
           }
         ]
       }
@@ -126,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md"
+                "file": "Računarstvo/Računarstvo.md"
               }
             }
           },
@@ -136,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Kvadratna matrica.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,38 +167,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "29c3d31d7d6d5bed",
+  "active": "3e39d6c9ce72f27b",
   "lastOpenFiles": [
-    "Matematika/Grupa permutacija.md",
-    "Matematika/Determinanta.md",
-    "Inverzna matrica.md",
-    "Matematika/Kvadratna matrica.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Matrica.md",
-    "Matematika/Rang matrice. Elementarne transformacije.md",
-    "Složenost algoritma.md",
-    "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Programski jezik C.md",
-    "Matematika/Matematika.md",
-    "Home.md",
-    "Matematika/Kombinatorika.md",
+    "Računarstvo/Složenost algoritma.md",
+    "Matematika/Analiza.md",
     "Računarstvo/Računarstvo.md",
-    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Home.md",
+    "Matematika/Matematika.md",
+    "Matematika/Brojevi.md",
+    "Matematika/Linearna algebra.md",
     "Matematika/Geometrija.md",
-    "Računarstvo/Organizacija memorije (C).md",
+    "Matematika/Normalne forme.md",
+    "Matematika/Logika.md",
+    "Matematika/Iskazna logika.md",
+    "Matematika/Limes funkcije.md",
+    "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Računarstvo/Funkcije (C).md",
     "Računarstvo/Ulaz i izlaz (C).md",
-    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Matematika/Matrica.md",
+    "Inverzna matrica.md",
+    "Matematika/Matrica relacije.md",
+    "Matematika/Relacija.md",
+    "Matematika/Sistem linearnih jednačina.md",
+    "Matematika/Vektorski prostor.md",
+    "Matematika/Algebra nad poljem.md",
+    "Matematika/Rang matrice. Elementarne transformacije.md",
+    "Matematika/Linearni operator.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
     "Media/karakteri konverzije printf.png",
-    "Računarstvo/Organizacija izvornog koda (C).md",
-    "Matematika/Brojevi.md",
-    "Matematika/Normalne forme.md",
-    "Matematika/Predikatska logika.md",
-    "Matematika/Analiza.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
-    "Matematika/Matrica linearnog operatora.md",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
     "Drugo/Realokacija.canvas",

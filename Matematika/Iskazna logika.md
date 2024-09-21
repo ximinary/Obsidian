@@ -24,7 +24,7 @@ $For$ - skup svih formula
 **Def.** Formula $A$ je 
 1. **[tautologija](Tautologija)** ako važi $v(A) = 1$ za svaku valuaciju $v$.
 2. **kontradikcija** ako važi $v(A) = 0$ za svaku valuaciju $v$.
-1. **zadovoljiva** ako važi $v(A) = 1$ za neku valuaciju $v$. ([[Zadovoljivost]])
+1. **zadovoljiva** ako važi $v(A) = 1$ za neku valuaciju $v$. ([[Složenost algoritma#^ebfaa0|Problem zadovoljivosti]]) ^f1f8bc
 2. **poreciva** ako važi $v(A) = 0$ za neku valuaciju $v$.
 
 **Def.** [[Ekvivalentne formule]]
