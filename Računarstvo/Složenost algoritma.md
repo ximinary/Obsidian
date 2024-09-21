@@ -57,7 +57,7 @@ Primeri:
 - $5n^{2}+10=O(n^{2})$
 - $n^{2}=O(n^{3}),\quad n^{2}=O(2^{n})$
 - $7\cdot2^{n}+n=O(2^{n})$
-- $3^{n}+2^{n}+n=O(3^{n}$
+- $3^{n}+2^{n}+n=O(3^{n})$
 - $n\cdot 2^{n}+2^{n}+n^{123}=O(n\cdot2^{n})$
 ---
 **Def**. $T(n)$ — vreme izvršavanja algoritma $A$ za ulaz veličine $n$, $T(n)=O\big(g(n)\big)$. Tada je algoritam $A$ složenosti (reda) $O\big(g(n)\big)$.
@@ -93,7 +93,7 @@ Izračunavanje složenosti:
 	- bez poziva fja i dinamička alokacija — $O(1)$
 	- alokacija $n$ elemenata složenosti $O(1)$ — $O(n)$
 	- alokacija niza od $n$ elemenata $O(1)$ — $O(n)$
-	- $n$ poziva fje složenosti $O(1)$ — $O(n)$
+	- $n$ poziva fje složenosti $O(g)$ iz fje složenosti $O(f)$ — $O(f+g)$
 
 ___
 Klasa $P$.
@@ -114,6 +114,6 @@ Vremenske:
 - Izdvojiti ponavljajući izvršavanja (izdvojiti što više moguće izvan petlji)
 - \[Prioritet vreme]: Čuvati neka ponavljajuća izračunavanja
 
-Prostor:
+Prostorne:
 - Najmanji mogući tipovi
 - \[Prioritet memorija]: Ne čuvati stvari koje se lako računaju.
