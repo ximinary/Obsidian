@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Složenost algoritma.md",
+                "file": "Karakteristični i minimalni polinom.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Složenost algoritma.md",
+                "file": "Karakteristični i minimalni polinom.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Složenost algoritma.md"
+                "file": "Karakteristični i minimalni polinom.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Složenost algoritma.md",
+                "file": "Karakteristični i minimalni polinom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Složenost algoritma.md",
+                "file": "Karakteristični i minimalni polinom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,14 +189,24 @@
   },
   "active": "60e2fdf4f45947c1",
   "lastOpenFiles": [
+    "Matematika/Linearna algebra.md",
+    "Matematika/Linearni operator.md",
+    "Matematika/Matrica.md",
+    "Matematika/Kvadratna matrica.md",
+    "Karakteristični i minimalni polinom.md",
+    "Matematika/Matrica linearnog operatora.md",
+    "Untitled.md",
+    "Matematika/Sistem linearnih jednačina.md",
+    "Redukcija linearnog operatora.md",
+    "Matematika/Linearni funkcional.md",
+    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
+    "Matematika/Matematika.md",
+    "Home.md",
     "Računarstvo/Računarstvo.md",
+    "Računarstvo/Složenost algoritma.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Dinamička alokacija memorije (C).md",
     "Računarstvo/Pokazivači (C).md",
-    "Home.md",
-    "Matematika/Matematika.md",
-    "Matematika/Linearna algebra.md",
-    "Računarstvo/Složenost algoritma.md",
     "Matematika/Analiza.md",
     "Matematika/Brojevi.md",
     "Matematika/Geometrija.md",
@@ -205,16 +215,6 @@
     "Matematika/Iskazna logika.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
-    "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Funkcije (C).md",
-    "Računarstvo/Ulaz i izlaz (C).md",
-    "Matematika/Matrica.md",
-    "Inverzna matrica.md",
-    "Matematika/Matrica relacije.md",
-    "Matematika/Relacija.md",
-    "Matematika/Sistem linearnih jednačina.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Algebra nad poljem.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",

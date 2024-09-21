@@ -67,6 +67,10 @@ Stav (svojstva kompozicije LO).
    $(A+B)\circ C=A\circ C+B\circ C$
 3. $\forall A\in \mathrm{Hom}(V,\,W)\quad\forall B\in \mathrm{Hom}(U,\,V)\quad\forall\lambda\in\mathbb{F}$
    $\lambda\,(A\circ B)=(\lambda\,A)\circ B=A\circ (\lambda\,B)$
+
+$\:$
+
+Oznaka: $A\in\mathrm{Hom}\,V$. $\ \:$ $A^{k}=\underbrace{A\circ A\circ\dots\circ A}_{k}$
 ___
 $( \mathrm{Hom}\,V,\ \circ)$ je monoid jer kompozicija LO je:
 - zatvorena: $\forall A,\,B\in \mathrm{Hom}\,V\quad A\circ B\in \mathrm{Hom}\,V$
@@ -94,7 +98,14 @@ Stav. $( \mathrm{Hom}\,V,\,\mathbb{F},\,+,\,\circ,\,\cdot)$ je asocijativna $\ma
 
 Identičko preslikavanje $id_{V}$ kao neutral za kompoziciju.
 
+
 ### [[Slika i jezgro, rang i defekt linearnog operatora. Regularni operator|Slika i jezgro, rang i defekt LO. Regularni operator]]
 ### [[Matrica linearnog operatora]]
 ### [[Linearni funkcional]]
 ### [[Kvadratna matrica#Sličnost matrica|Invarianta sličnosti]]
+Def. Determinanta operatora $A\in\mathrm{Hom}\,V$. 
+$\det:\ \mathrm{Hom}\,V\to\mathbb{F}$ $\ \:$ def. sa $\det A=\det\big(\varphi_{e,\,e}(A)\big)$ za proizvoljnu bazu $e$ VP-a $V$.
+
+Def. Trag operatora $A\in\mathrm{Hom}\,V$. 
+$\mathrm{Tr}:\ \mathrm{Hom}\,V\to\mathbb{F}$ $\ \:$ def. sa $\mathrm{Tr}\,A=\mathrm{Tr}\big(\varphi_{e,\,e}(A)\big)$ za proizvoljnu bazu $e$ VP-a $V$.
+### [[Redukcija linearnog operatora]]
