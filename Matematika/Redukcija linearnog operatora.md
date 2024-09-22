@@ -32,5 +32,5 @@ $\:$
 - $A$ je dekompozabilan, $A=A_{L}\oplus A_{M}$ $\ \ \Leftrightarrow$
   $\Leftrightarrow\ \ \,$ $\exists e$ — baza od $V$ takva da matrica operatora $A$ u bazi $e$ je oblika $\left(\begin{array}{}\mathcal{A}_{1}&\mathcal{O}\\\mathcal{O}&\mathcal{A}_{2}\end{array}\right)$, gde su $\mathcal{A}_{1}$ i $\mathcal{A_{2}}$ matrice operatora $A_{L}$ i $A_{M}$.
   $\:$
-- $A$ je potpuno reducibilan, $L_{1},\,L_{2},\,\dots,\,L_{m}$ su invarijantni potprostori $\big(A=A_{L_{1}}\oplus A_{L_{2}}\oplus\dots\oplus A_{L_{m}}\big)$ $\\ \ \Leftrightarrow$
+- $A$ je potpuno reducibilan, $L_{1},\,L_{2},\,\dots,\,L_{m}$ su invarijantni potprostori takvi da $V=L_{1}\oplus L_{2}\oplus\dots\oplus L_{m}$ $\big(A=A_{L_{1}}\oplus A_{L_{2}}\oplus\dots\oplus A_{L_{m}}\big)$ $\\ \ \Leftrightarrow$
   $\Leftrightarrow\ \ \,$ $\exists e$ — baza od $V$ takva da matrica operatora $A$ u bazi $e$ je oblika $\left(\begin{array}{}\mathcal{A}_{1}&\mathcal{O}&\dots&\mathcal{O}\\\mathcal{O}&\mathcal{A}_{2}&\dots&\mathcal{O}\\\dots&\dots&\dots&\dots\\\mathcal{O}&\mathcal{O}&\dots&\mathcal{A}_{m}\end{array}\right)$, gde je $\mathcal{A}_{i}$ matrica operatora $A_{L_{i}}$.

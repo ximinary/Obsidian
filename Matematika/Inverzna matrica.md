@@ -29,4 +29,10 @@ Primedba: ako $\mathcal{A}$ nije invertibilna dobićemo $\mathbb{D}^{r}_{n\times
 ### [[Determinanta#Laplasov razvoj|Traženje pomoću adjungovane matrice]]
 
 $\begin{align}\mathcal{A}^{-1}=\frac{1}{\det \mathcal{A}}\,\mathrm{adj}\,\mathcal{A} \end{align}$
-### Traženje pomoću minimalnog polinoma
+### Traženje pomoću [[Karakteristični i minimalni polinom#Minimalni polinom|minimalnog polinoma]]
+$\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$,
+$\mu_{\mathcal{A}}(\lambda)=\alpha_{k}\,\lambda^{k}+\alpha_{k-1}\,\lambda^{k-1}+\dots+\alpha_{2}\,\lambda^{2}+\alpha_{1}\,\lambda+\alpha_{0}$
+
+Iz [[Karakteristični i minimalni polinom#^251032|stava]] ako $\alpha_{0}\ne0$ onda $\exists \mathcal{A}^{-1}$:
+
+$\begin{align}\mathcal{A}^{-1}=-\frac{1}{\alpha_{0}}\Big(\mathcal{A}^{k-1}+\alpha_{k-1}\,\mathcal{A}^{k-2}+\dots+\alpha_{2}\,\mathcal{A}+\alpha_{1}\Big)\end{align}$

@@ -33,7 +33,13 @@ Stav (svojstva traga):
 $\mathcal{A}\sim\mathcal{B}\quad\Leftrightarrow\quad\exists \mathcal{T}\!\in \mathbb{M}_{n}(\mathbb{F})\ \ :\ \ \mathcal{B}=\mathcal{T}^{-1}\cdot\mathcal{A}\cdot\mathcal{T}$
 
 Stav. $\sim$ je relacija ekvivalencije.
+$\:$
 
+> $\mathcal{A}\sim\mathcal{B}$, $\quad$ tada $\exists\mathcal{T}\ \ :\ \ \mathcal{B}=\mathcal{T}^{-1}\mathcal{A}\,\mathcal{T}$
+> 
+> $\begin{align}\mathcal{B}^{k}&=(\mathcal{T}^{-1}\mathcal{A}\,\mathcal{T})^{k}=\mathcal{T}^{-1}\mathcal{A}\,\underbrace{\mathcal{T}\mathcal{T}^{-1}}_{=\,\mathbb{I}_{n}}\mathcal{A}\,\underbrace{\mathcal{T}\mathcal{T}^{-1}}_{=\,\mathbb{I}_{n}}\cdot\!\cdot\!\cdot\underbrace{\mathcal{T}\mathcal{T}^{-1}}_{=\,\mathbb{I}_{n}}\mathcal{A}\,\mathcal{T}=\\&=\mathcal{T}^{-1}\mathcal{A}^{k}\,\mathcal{T}\end{align}$
+
+$\:$
 Slične matrice su [[Matrica linearnog operatora|matrice istog LO]] iz $\mathrm{Hom}\, V$ u različitim bazama \[[[Matrica linearnog operatora#^4e5174|*]]\].
 
 **Invarijanta sličnosti** — svojstvo koje važi za svaku matricu u nekoj klasi ekvivalencije, tj. svojstvo LO koje ne zavisi od matričnog zapisa.
