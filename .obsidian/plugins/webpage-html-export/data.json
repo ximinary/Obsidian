@@ -26,7 +26,7 @@
   "addGraphView": true,
   "addTitle": true,
   "addRSSFeed": true,
-  "siteURL": "",
+  "siteURL": "https://ximinary.github.io/web/obsidian/",
   "authorName": "",
   "vaultTitle": "Obsidian Vault",
   "exportPreset": "website",
@@ -43,7 +43,7 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "C:\\Users\\Ximinary\\Мой диск\\Obučjenije\\sajt\\public_html\\Obsidian",
+  "exportPath": "C:\\Users\\Ximinary\\Мой диск\\Obučjenije\\sajt\\web\\obsidian",
   "filesToExport": [
     []
   ]
