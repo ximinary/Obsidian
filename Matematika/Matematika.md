@@ -8,5 +8,4 @@ $\:$
 [[Linearna algebra]]
 [[Geometrija]]
 [[Kombinatorika]]
-Teorija grafova
 [[Analiza]]
