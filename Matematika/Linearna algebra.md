@@ -7,6 +7,6 @@ $\:$
 [[Algebra nad poljem|Algebra]]
 [[Linearni operator]]
 [[Sistem linearnih jednačina]]
-Karakteristični i minimalni polinom
+[[Karakteristični i minimalni polinom]]
 Unitarni prostor
 Bilinearna i kvadratna forma

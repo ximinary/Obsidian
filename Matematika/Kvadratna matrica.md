@@ -12,7 +12,10 @@ $\:$ ^f56ca1
 **Teorema**. $\mathbb{M}_{n}(\mathbb{F})$ je asocijativna $\mathbb{F}$-[[Algebra nad poljem|algebra]] sa jedinicom.
 > Dokaz: [[Matrica#^9c7738|asocijativna]] $\mathbb{F}$-algebra ([[Matrica#^66baee|A2.1]], [[Matrica#^43f815|A2.2]], [[Matrica#^fda602|A3]]) [[Kvadratna matrica#^f56ca1|sa jedinicom]].
 
+
 $\:$
+Oznaka: $\mathcal{A}^{k}=\underbrace{\mathcal{A}\cdot\mathcal{A}\cdot\!\cdot\!\cdot\mathcal{A}}_{k}$
+
 
 ### [[Determinanta]]
 ### [[Inverzna matrica]]
@@ -34,6 +37,12 @@ Stav. $\sim$ je relacija ekvivalencije.
 Slične matrice su [[Matrica linearnog operatora|matrice istog LO]] iz $\mathrm{Hom}\, V$ u različitim bazama \[[[Matrica linearnog operatora#^4e5174|*]]\].
 
 **Invarijanta sličnosti** — svojstvo koje važi za svaku matricu u nekoj klasi ekvivalencije, tj. svojstvo LO koje ne zavisi od matričnog zapisa.
+___
+Stav. Determinanta je invarijanta sličnosti.
+Stav. Trag je invarijanta sličnosti.
+
+[[Karakteristični i minimalni polinom|Karakteristični i minimalni polinomi]] su invarijante sličnosti.
+
 ### Nilpotentna matrica
 **Def**. $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je **nilpotentna** ako $\exists k>1\ \ :\ \ \mathcal{A}^{k}=\mathcal{O}_{n}$.
 

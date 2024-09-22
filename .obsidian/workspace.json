@@ -13,11 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Karakteristični i minimalni polinom.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "12a0cf791b0bf93c"
+          }
+        ]
+      },
+      {
+        "id": "5998a0201629a96f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60e2fdf4f45947c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Karakteristični i minimalni polinom.md",
                 "mode": "preview",
                 "source": true
               }
-            }
+            },
+            "group": "12a0cf791b0bf93c"
           }
         ]
       }
@@ -104,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Računarstvo.md"
+                "file": "Karakteristični i minimalni polinom.md"
               }
             }
           },
@@ -114,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Karakteristični i minimalni polinom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Karakteristični i minimalni polinom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,34 +187,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "3e39d6c9ce72f27b",
+  "active": "60e2fdf4f45947c1",
   "lastOpenFiles": [
-    "Računarstvo/Složenost algoritma.md",
-    "Matematika/Analiza.md",
-    "Računarstvo/Računarstvo.md",
-    "Računarstvo/Programski jezik C.md",
-    "Home.md",
-    "Matematika/Matematika.md",
-    "Matematika/Brojevi.md",
     "Matematika/Linearna algebra.md",
+    "Matematika/Linearni operator.md",
+    "Matematika/Matrica.md",
+    "Matematika/Kvadratna matrica.md",
+    "Karakteristični i minimalni polinom.md",
+    "Matematika/Matrica linearnog operatora.md",
+    "Untitled.md",
+    "Matematika/Sistem linearnih jednačina.md",
+    "Redukcija linearnog operatora.md",
+    "Matematika/Linearni funkcional.md",
+    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Složenost algoritma.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Računarstvo/Pokazivači (C).md",
+    "Matematika/Analiza.md",
+    "Matematika/Brojevi.md",
     "Matematika/Geometrija.md",
     "Matematika/Normalne forme.md",
     "Matematika/Logika.md",
     "Matematika/Iskazna logika.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
-    "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Funkcije (C).md",
-    "Računarstvo/Ulaz i izlaz (C).md",
-    "Matematika/Matrica.md",
-    "Inverzna matrica.md",
-    "Matematika/Matrica relacije.md",
-    "Matematika/Relacija.md",
-    "Matematika/Sistem linearnih jednačina.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Algebra nad poljem.md",
-    "Matematika/Rang matrice. Elementarne transformacije.md",
-    "Matematika/Linearni operator.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
