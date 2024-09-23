@@ -4,42 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f1f2c00541acc72b",
+        "id": "9731b5708424ce54",
         "type": "tabs",
-        "dimension": 55.687606112054326,
         "children": [
           {
-            "id": "3e39d6c9ce72f27b",
+            "id": "02b6e02e56153f2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Determinanta.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "12a0cf791b0bf93c"
-          }
-        ]
-      },
-      {
-        "id": "5998a0201629a96f",
-        "type": "tabs",
-        "dimension": 44.31239388794567,
-        "children": [
-          {
-            "id": "60e2fdf4f45947c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Determinanta.md",
+                "file": "Matematika/Matematika.md",
                 "mode": "preview",
                 "source": true
               }
-            },
-            "group": "12a0cf791b0bf93c"
+            }
           }
         ]
       }
@@ -126,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Determinanta.md"
+                "file": "Matematika/Matematika.md"
               }
             }
           },
@@ -136,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Determinanta.md",
+                "file": "Matematika/Matematika.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Determinanta.md",
+                "file": "Matematika/Matematika.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,15 +167,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "60e2fdf4f45947c1",
+  "active": "02b6e02e56153f2b",
   "lastOpenFiles": [
     "Matematika/Linearna algebra.md",
     "Matematika/Matematika.md",
     "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Složenost algoritma.md",
+    "Matematika/Determinanta.md",
     "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Složenost algoritma.md",
-    "Računarstvo/Računarstvo.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "Računarstvo/Pokazivači (C).md",
@@ -216,7 +195,6 @@
     "Matematika/Teorija skupova.md",
     "Matematika/Teoreme o srednjoj vrednosti.md",
     "Matematika/Tejlorov polinom.md",
-    "Matematika/Tautologija.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",

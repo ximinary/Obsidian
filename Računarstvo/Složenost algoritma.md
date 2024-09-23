@@ -107,7 +107,7 @@ Pripada li problem klasi $P$? Nema dokaza ni da pripada ni da ne pripada. ^ebfaa
 
 ### Popravljanje složenosti
 Vremenske:
-- Naći delovi (funkcije) koje dominantno utiču na složenost
+- Naći delove (funkcije) koje dominantno utiču na složenost
 - Prvo naći algoritam sa najboljim asimptotskim ponašanjem
 - Kada je asimptotsko ponašanje najbolje, smanjiti broj naredbi
 - Koristiti optimizaciju kompilatora
