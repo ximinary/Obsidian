@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9731b5708424ce54",
+        "id": "87b6ec8cf39dba6c",
         "type": "tabs",
         "children": [
           {
-            "id": "02b6e02e56153f2b",
+            "id": "af4573c3cd0addcd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Matematika.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -103,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Matematika/Matematika.md"
-              }
+              "state": {}
             }
           },
           {
@@ -114,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Matematika.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Matematika.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,14 +159,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "02b6e02e56153f2b",
+  "active": "af4573c3cd0addcd",
   "lastOpenFiles": [
-    "Matematika/Linearna algebra.md",
+    "Matematika/Grupa permutacija.md",
+    "Matematika/Izbor elemenata.md",
+    "Matematika/Kombinatorika.md",
     "Matematika/Matematika.md",
     "Home.md",
+    "Matematika/Determinanta.md",
+    "Matematika/Linearna algebra.md",
     "Računarstvo/Računarstvo.md",
     "Računarstvo/Složenost algoritma.md",
-    "Matematika/Determinanta.md",
     "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Programski jezik C.md",
@@ -192,9 +187,6 @@
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Matematika/Vektor.md",
     "Matematika/Valuacija (iskazna logika).md",
-    "Matematika/Teorija skupova.md",
-    "Matematika/Teoreme o srednjoj vrednosti.md",
-    "Matematika/Tejlorov polinom.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
