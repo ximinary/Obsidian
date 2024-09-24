@@ -1,16 +1,27 @@
 #fax #cs  [ [[Home]] ]
 $\:$
 
-[[Programski jezik C]]
-
-Programske paradigme
-Interpretacija i kompilacija
-
-Ispravnost programa
+[[Ispravnost programa]]
 [[Složenost algoritma]]
-Rekurzija
+[[Rekurzija]]
 
 Osnovni algoritmi
 Strukture podataka
 
-[[Normalne forme|Digitalna logika]]
+### Programski jezici
+- [[Programski jezik C]]
+___
+- Programske paradigme
+- Interpretacija i kompilacija
+
+
+### Kompjuter
+- [[Normalne forme|Digitalna logika]]
+- [[Logičko kolo|Logičko]], [[Kombinatorno kolo|kombinatorno]] i [[Sekvencijalno kolo|sekvencijalno]] kolo
+- Princip rada računara
+- Arhitektura u organizacija kompjutera
+	- Memorijska magistrala
+	- Keš-memorija
+	- Ulazno-izlazni uređaj
+	- Sistem prekida
+	- Virtuelna memorija

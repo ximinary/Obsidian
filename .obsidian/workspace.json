@@ -4,42 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "f1f2c00541acc72b",
+        "id": "87b6ec8cf39dba6c",
         "type": "tabs",
-        "dimension": 55.68760611205433,
         "children": [
           {
-            "id": "3e39d6c9ce72f27b",
+            "id": "af4573c3cd0addcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "12a0cf791b0bf93c"
+            "group": "da8168fff1be0916"
           }
         ]
       },
       {
-        "id": "5998a0201629a96f",
+        "id": "ca27b4ccfd122030",
         "type": "tabs",
-        "dimension": 44.312393887945674,
         "children": [
           {
-            "id": "60e2fdf4f45947c1",
+            "id": "7b39a066d3e250c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "12a0cf791b0bf93c"
+            "group": "da8168fff1be0916"
           }
         ]
       }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Računarstvo/Računarstvo.md"
               }
             }
           },
@@ -136,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Računarstvo/Računarstvo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,34 +187,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "60e2fdf4f45947c1",
+  "active": "7b39a066d3e250c7",
   "lastOpenFiles": [
-    "Računarstvo/Računarstvo.md",
-    "Računarstvo/Složenost algoritma.md",
-    "Računarstvo/Programski jezik C.md",
     "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Matematika/Normalne forme.md",
+    "Ispravnost programa.md",
+    "Rekurzija.md",
+    "Računarstvo/Složenost algoritma.md",
     "Matematika/Matematika.md",
+    "Matematika/Grupa permutacija.md",
+    "Matematika/Izbor elemenata.md",
+    "Matematika/Kombinatorika.md",
+    "Matematika/Determinanta.md",
     "Matematika/Linearna algebra.md",
-    "Matematika/Karakteristični i minimalni polinom.md",
-    "Matematika/Matrica.md",
-    "Matematika/Matrica linearnog operatora.md",
-    "Matematika/Analiza.md",
-    "Matematika/Niz brojeva.md",
-    "Matematika/Osnovni limesi.md",
-    "Matematika/Limes niza.md",
-    "Matematika/Limes funkcije.md",
-    "Matematika/Izvod.md",
-    "Matematika/Geometrija.md",
-    "Matematika/Redukcija linearnog operatora.md",
-    "Matematika/Inverzna matrica.md",
-    "Matematika/Kvadratna matrica.md",
-    "Matematika/Linearni operator.md",
-    "Untitled.md",
-    "Matematika/Sistem linearnih jednačina.md",
-    "Matematika/Linearni funkcional.md",
-    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
-    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Računarstvo/Funkcije (C).md",
+    "Računarstvo/Doseg, životni vek i povezanost (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Matematika/Vrste tačaka u odnosu na neki skup.md",
+    "Matematika/Vektorski prostor.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",

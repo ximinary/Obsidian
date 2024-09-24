@@ -1,7 +1,7 @@
 #fax #math #laag [deo poglavlja [[Determinanta|"determinanta"]]]
 $\:$
 
-**Def**. $\mathbb{S}_{n}$ je skup svih permutacija skupa $X=\{ 1,\,2,\,\dots,\,n \}$, tj. skup svih bijekcija $\sigma:\ X\to X$.
+**Def**. $\mathbb{S}_{n}$ je skup svih [[Izbor elemenata#(5) Permutacije|permutacija]] skupa $X=\{ 1,\,2,\,\dots,\,n \}$, tj. skup svih bijekcija $\sigma:\ X\to X$.
 
 Ako je $\circ$ kompozicija funkcija, onda je $(\mathbb{S}_{n},\,\circ)$ grupa:
 - važi asocijativnost

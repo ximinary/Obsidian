@@ -41,7 +41,7 @@ Stav. Broj ovakvih izbora je jednak $\begin{align}\binom{n+k-1}{k}=\frac{(n+k-1)
 > Problem se svodi na [[Izbor elemenata#(3) Neuređen izbor elta|neuređeni izbor]] $k$ *markera* iz skupa *granica* i *markera*, tj. neuređeni izbor $k$ elemenata na $(n+k-1)$ mesta.
 ### (5) Permutacije
 Broj permutacija je jednak broju uređenih izbora kad $k=n$,
-tada $\frac{n!}{(n-k)!}=\frac{n!}{0!}=n!$
+tada $\begin{align}\frac{n!}{(n-k)!}=\frac{n!}{0!}=n!\end{align}$
 ### (6) Permutacije sa ponavljanima
 Teorema. Broj permutacija sa ponavljanjima multiskupa od $n$ elemenata u kojem 1. element pojavljuje $n_{1}$ puta, 2. — $n_2$ puta, $\dots$, $k$-ti — $n_{k}$ puta, a $n=n_{1}+n_{2}+\dots+n_{k}$ je $\begin{align}\binom{n}{n_{1},\,n_{2},\,\dots,\,n_{k}}\end{align}$ 
 (* [[Multinomna formula|multinomni koef.]])

@@ -1,7 +1,7 @@
 #fax #math #laag [deo poglavlja [[Matrica|"matrica"]]]
 $\:$
 
-[[Grupa permutacija]]
+Napomena: [[Grupa permutacija|grupa permutacija]]
 
 **Def**. Determinanta je funkcija $\det:\ \mathbb{M}_{n}(\mathbb{F})\to\mathbb{F}$ def. sa $\forall \mathcal{A}=(a_{ij})\in\mathbb{M}_{n}(\mathbb{F})\quad \det\mathcal{A}=\sum\limits_{\sigma\,\in\,\mathbb{S}_{n}}(-1)^{I(\sigma)}\,a_{1\sigma(1)}\,a_{2\sigma(2)}\,\cdot\!\cdot\!\cdot\,a_{n\sigma(n)}$
 

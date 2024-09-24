@@ -35,7 +35,5 @@ $e_{1}+e_{1}\cdot e_{2}=e_{1}\quad \Big(e_{1}\,(e_{1}+e_{2})=e_{1}\Big)$
 ### [[Logička funkcija|Logičke funkcije]] i DNF/KNF
 ![[LogičkeFjeIdnf_knf.png]]
 
-
----
-[[Minimalizacija logičkih izraza]]
+### [[Minimalizacija logičkih izraza]]
 
