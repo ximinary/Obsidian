@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Matematika/Linearna algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Matematika/Linearna algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Računarstvo.md"
+                "file": "Matematika/Linearna algebra.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Matematika/Linearna algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Računarstvo.md",
+                "file": "Matematika/Linearna algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,20 +187,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "7b39a066d3e250c7",
+  "active": "af4573c3cd0addcd",
   "lastOpenFiles": [
+    "Unitarni prostor.md",
+    "Matematika/Linearna algebra.md",
+    "Matematika/Karakteristični i minimalni polinom.md",
+    "Matematika/Matematika.md",
     "Home.md",
     "Računarstvo/Računarstvo.md",
-    "Matematika/Normalne forme.md",
     "Ispravnost programa.md",
     "Rekurzija.md",
+    "Matematika/Normalne forme.md",
     "Računarstvo/Složenost algoritma.md",
-    "Matematika/Matematika.md",
     "Matematika/Grupa permutacija.md",
     "Matematika/Izbor elemenata.md",
     "Matematika/Kombinatorika.md",
     "Matematika/Determinanta.md",
-    "Matematika/Linearna algebra.md",
     "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Programski jezik C.md",
@@ -213,8 +215,6 @@
     "Računarstvo/Funkcije (C).md",
     "Računarstvo/Doseg, životni vek i povezanost (C).md",
     "Računarstvo/Dinamička alokacija memorije (C).md",
-    "Matematika/Vrste tačaka u odnosu na neki skup.md",
-    "Matematika/Vektorski prostor.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
