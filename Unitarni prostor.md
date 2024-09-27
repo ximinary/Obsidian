@@ -102,4 +102,24 @@ $\quad\quad\quad$ $\dots$
 > $\Rightarrow\quad e_{k}\perp e_{j},\quad\forall j=\overline{1,k\!-\!1}\quad \Rightarrow\quad\{ e_{1},\,e_{2},\,\dots,\,e_{k} \}$ je ortogonalan.
 
 $\:$
+___
+Neka je $e=(e_{1},\,e_{2},\,\dots,\,e_{n})$ ortonormirana baza unitarnog prostora $V$ $\:$i$\:$ $v=\sum\limits_{i=1}^{n}v_{i}\,e_{i}\in V$. Tada
+
+$\forall j=\overline{1,n}\quad\langle v,\ e_{j}\rangle=\bigg\langle \sum\limits_{i=1}^{n}v_{i}\,e_{i}\,,\ e_{j}\bigg\rangle=\sum\limits_{i=1}^{n}v_{i}\,\delta_{ij}=v_{j}$
+
+Odakle: $v=\sum\limits_{i=1}^{n}\langle v,\ e_{i}\rangle\,e_{i}$
+
+**Def**. $\forall i = \overline{1,n}\quad v_{i}= \langle v,\ e_{i}\rangle$ zovu se **Furijeovi koeficijenti** vektora $v$ u bazi $e$.
+___
+Teorema. $\mathcal{E}_{k}=\{ e_{1},\,\dots,\, e_{k} \}$ je ortonormirani skup unitarnog prostora $V$. Tada
+- Beselova nejednakost:
+$\langle v,\ v\rangle\geqslant \Big|\langle v,\ e_{1}\rangle\Big|^{2}+ \Big|\langle v,\ e_{2}\rangle\Big|^{2} + \dots + \Big|\langle v,\ e_{n}\rangle\Big|^{2}$
+$\:$
+Specijalno, ako je $\mathcal{E}_{k}$ baza od $V$ važi jednakost.
+$\:$
+
+- Parservalova jednakost
+ $\mathcal{E}_{k}$ je baza od $V$ $\quad\Leftrightarrow$
+$\Leftrightarrow\quad\forall v,\,w\in V\quad\langle v,\ w\rangle=\sum\limits_{i=1}^{n}\langle v,\ e_{i}\rangle\langle e_{i},\ w\rangle$
+
 ### Ortogonalni komplement 
