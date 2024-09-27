@@ -88,7 +88,7 @@ $\quad$ k\.  $\ \:$ $v_{k}:=f_{k}- \sum\limits_{i=1}^{k-1}\langle f_{k},\ e_{i}\
 $\quad\quad\quad$ $\begin{align}e_{k}:=\varepsilon_{k}\frac{v_{k}}{||v_{k}||}\end{align}$
 
 $\quad\quad\quad$ $\dots$
-> Oduzimamo od narednog vektora sve njegove projekcije na vektore već ortonormiranog dela baze, pa normiramo.
+> Oduzimamo od narednog vektora sve njegove projekcije na vektore već ortonormiranog dela baze, pa ga normiramo.
 > 
 > Dokaz: ($e$ je ortonormirana)
 > Očigledno, $||e_{i}||=1,\quad\forall i=\overline{1,n}$

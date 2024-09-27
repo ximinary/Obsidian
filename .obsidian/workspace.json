@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Unitarni prostor.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Unitarni prostor.md",
                 "mode": "preview",
                 "source": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Unitarni prostor.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Unitarni prostor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Unitarni prostor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,10 +191,10 @@
   },
   "active": "4157f527b65757e2",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
-    "Home.md",
     "Matematika/Linearna algebra.md",
     "Unitarni prostor.md",
+    "Home.md",
+    "Matematika/Matematika.md",
     "Matematika/Karakteristični i minimalni polinom.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Matematika/Vektor.md",
