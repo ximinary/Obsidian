@@ -36,6 +36,7 @@ Teorema. $\mathcal{A}\in \mathbb{M}_{m}(\mathbb{F})$.
 1. $q\in\mathbb{F}[\lambda]\ \ :\ \ q(\mathcal{A})\quad \Rightarrow\quad \mu_{\mathcal{A}}(\lambda)\ \Big|\ q(\lambda)$
 2. $\mu_{\mathcal{A}}$ je jedinstven 
 3. $\mu_{\mathcal{A}}$ je invarijanta sličnosti
+
 > Dokaz:
 > 1. pps $\mu_{\mathcal{A}}(\lambda)\not\Big|\ \ q(\lambda)$
 >    Tada $q(\lambda)=\mu_{\mathcal{A}}(\lambda)\,s(\lambda)+r(\lambda),\ \ r\not\equiv0$, stepen $r$ je manji od stepena $\mu_{\mathcal{A}}$

@@ -100,4 +100,6 @@ $\quad\quad\quad$ $\dots$
 > $\begin{align}\forall j=\overline{1,k\!-\!1}\quad &\langle e_{k},\ e_{j}\rangle= \bigg\langle \frac{v_{k}}{||v_{k}||},\ e_{j}\bigg\rangle=\frac{1}{||v_{k}||}\bigg\langle f_{k}- \sum\limits_{i=1}^{k-1}\langle f_{k},\ e_{i}\rangle\,e_{i}\,,\ e_{j}\bigg\rangle =\\\\&=\frac{1}{||v_{k}||}\bigg(\langle f_{k},\ e_{j}\rangle-\sum\limits_{i=1}^{k-1}\langle f_{k},\ e_{i}\rangle\,\delta_{ij}\bigg)=\\\\&=\frac{1}{||v_{k}||}\Big(\langle f_{k},\ e_{j}\rangle-\langle f_{k},\ e_{j}\rangle\Big)=0\end{align}$
 > 
 > $\Rightarrow\quad e_{k}\perp e_{j},\quad\forall j=\overline{1,k\!-\!1}\quad \Rightarrow\quad\{ e_{1},\,e_{2},\,\dots,\,e_{k} \}$ je ortogonalan.
+
+$\:$
 ### Ortogonalni komplement 
