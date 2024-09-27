@@ -62,4 +62,42 @@ tj važe:
 $\:$
 
 **Gram-Šmitov postupak ortogonalizacije**:
+
+$V$ je unitaran prostor.
+
+$\begin{align}&\text{proizvolna baza }V\\&f=(f_{1},\,f_{2},\,\dots,\,f_{n})\end{align}$$\quad\ \ \xrightarrow{\text{postupak}}\ \ \quad$$\begin{align}&\text{ortonormirana baza }V\\&e=(e_{1},\,e_{2},\,\dots,\,e_{n})\end{align}$
+
+U $k$-tom ( $\forall k=\overline{1,n}$ ) koraku važi $\mathcal{L}(f_{1},\,\dots,\,f_{k})=\mathcal{L}(e_{1},\,\dots,\,e_{k})$
+
+Koraci: ( $\varepsilon_{k}\in\{ -1,\,1 \},\quad\forall k=\overline{1,n}$ )
+
+$\quad$ 1\.  $\ \:$ $\begin{align}e_{1}:=\varepsilon_{1}\frac{f_{1}}{||f_{1}||}\end{align}$
+
+$\quad$ 2\.  $\ \:$ $v_{2}:=f_{2}- \langle f_{2},\ e_{1}\rangle\,e_{1}$
+
+$\quad\quad\quad$ $\begin{align}e_{2}:=\varepsilon_{2}\frac{v_{2}}{||v_{2}||}\end{align}$
+
+$\quad$ 3\.  $\ \:$ $v_{3}:=f_{3}- \langle f_{3},\ e_{1}\rangle\,e_{1}- \langle f_{3},\ e_{2}\rangle\,e_{2}$
+
+$\quad\quad\quad$ $\begin{align}e_{3}:=\varepsilon_{2}\frac{v_{3}}{||v_{3}||}\end{align}$
+
+$\quad\quad\quad$ $\dots$
+
+$\quad$ k\.  $\ \:$ $v_{k}:=f_{k}- \sum\limits_{i=1}^{k-1}\langle f_{k},\ e_{i}\rangle\,e_{i}$
+
+$\quad\quad\quad$ $\begin{align}e_{k}:=\varepsilon_{k}\frac{v_{k}}{||v_{k}||}\end{align}$
+
+$\quad\quad\quad$ $\dots$
+> Oduzimamo od narednog vektora sve njegove projekcije na vektore već ortonormiranog dela baze, pa normiramo.
+> 
+> Dokaz: ($e$ je ortonormirana)
+> Očigledno, $||e_{i}||=1,\quad\forall i=\overline{1,n}$
+> Pokazati da je $\{ e_{1},\,e_{2},\,\dots,\,e_{n} \}$ ortogonalan:
+> 
+> indukcija po broju vektora:
+> baza: $\{e_{1}\}$ je ortogonalan
+> korak:  ako je $\{ e_{1},\,e_{2},\,\dots,\,e_{k-1} \}$ ortogonalan, onda
+> $\begin{align}\forall j=\overline{1,k\!-\!1}\quad &\langle e_{k},\ e_{j}\rangle= \bigg\langle \frac{v_{k}}{||v_{k}||},\ e_{j}\bigg\rangle=\frac{1}{||v_{k}||}\bigg\langle f_{k}- \sum\limits_{i=1}^{k-1}\langle f_{k},\ e_{i}\rangle\,e_{i}\,,\ e_{j}\bigg\rangle =\\\\&=\frac{1}{||v_{k}||}\bigg(\langle f_{k},\ e_{j}\rangle-\sum\limits_{i=1}^{k-1}\langle f_{k},\ e_{i}\rangle\,\delta_{ij}\bigg)=\\\\&=\frac{1}{||v_{k}||}\Big(\langle f_{k},\ e_{j}\rangle-\langle f_{k},\ e_{j}\rangle\Big)=0\end{align}$
+> 
+> $\Rightarrow\quad e_{k}\perp e_{j},\quad\forall j=\overline{1,k\!-\!1}\quad \Rightarrow\quad\{ e_{1},\,e_{2},\,\dots,\,e_{k} \}$ je ortogonalan.
 ### Ortogonalni komplement 
