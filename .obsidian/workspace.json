@@ -11,8 +11,12 @@
             "id": "3ac8f2ecaaf090c6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +169,18 @@
   },
   "active": "3ac8f2ecaaf090c6",
   "lastOpenFiles": [
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Matematika/Aritmetička i geometrijska progresija.md",
+    "Matematika/Teorija skupova.md",
+    "Media/raselov paradoks.png",
+    "Računarstvo/Računarstvo.md",
+    "Ispravnost programa.md",
+    "Rekurzija.md",
+    "Zettelkasten/- TODEL.md",
+    "Drugo/DS1 — beleške.md",
+    "Drugo/todo.md",
+    "Drugo/Realokacija.canvas",
     "Matematika/Linearni operator u unitarnom prostoru.md",
     "Matematika/Unitarni prostor.md",
     "Matematika/Linearna algebra.md",
@@ -171,29 +191,18 @@
     "Matematika/Matrica.md",
     "Matematika/Redukcija linearnog operatora.md",
     "Matematika/Sistem linearnih jednačina.md",
-    "Home.md",
-    "Matematika/Matematika.md",
     "Matematika/Karakteristični i minimalni polinom.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Matematika/Vektor.md",
-    "Rekurzija.md",
-    "Ispravnost programa.md",
-    "Računarstvo/Računarstvo.md",
     "Matematika/Normalne forme.md",
     "Računarstvo/Složenost algoritma.md",
     "Matematika/Grupa permutacija.md",
-    "Matematika/Izbor elemenata.md",
-    "Matematika/Kombinatorika.md",
-    "Matematika/Determinanta.md",
-    "Računarstvo/Ulaz i izlaz (C).md",
-    "Računarstvo/Standardne biblioteke (C).md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
     "Media/karakteri konverzije printf.png",
     "Drugo/Promenljive.canvas",
     "Media/Realokacija.png",
-    "Drugo/Realokacija.canvas",
     "Realokacija.png.~tmp",
     "index.html",
     "Excalidraw",
@@ -202,7 +211,6 @@
     "Git/Media/kongr primer 2.png",
     "Git/Media/zlatna podela.png",
     "Git/Media/teorema. R je neprebrojiv.png",
-    "Git/Media/teorema. N je beskonačan.png",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
