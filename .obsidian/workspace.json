@@ -14,10 +14,30 @@
               "type": "markdown",
               "state": {
                 "file": "Linearni operator u unitarnom prostoru.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "176eb420b8b0eb31"
+          }
+        ]
+      },
+      {
+        "id": "f38b329c73d390d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c9ed9067a063c69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linearni operator u unitarnom prostoru.md",
                 "mode": "preview",
                 "source": true
               }
-            }
+            },
+            "group": "176eb420b8b0eb31"
           }
         ]
       }
@@ -169,14 +189,14 @@
   },
   "active": "9e45c153e021d0e7",
   "lastOpenFiles": [
-    "Matematika/Unitarni prostor.md",
     "Linearni operator u unitarnom prostoru.md",
+    "Matematika/Unitarni prostor.md",
     "Matematika/Linearna algebra.md",
+    "Matematika/Linearni operator.md",
+    "Matematika/Linearni funkcional.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Gramova matrica.md",
     "Matematika/Matrica.md",
-    "Matematika/Linearni funkcional.md",
-    "Matematika/Linearni operator.md",
     "Matematika/Redukcija linearnog operatora.md",
     "Matematika/Sistem linearnih jednačina.md",
     "Home.md",

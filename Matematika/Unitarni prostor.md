@@ -137,9 +137,6 @@ Stav. $V$ je unitaran prostor, $L,\,M\leqslant V$. Tada
 5. $\big(L+M\big)^{\perp}=L\ \!\cap M$
 6. $\big(L\ \!\cap M\big)^{\perp}=L+M$
 
-
-### [[Linearni operator u unitarnom prostoru]]
-
 ### Izomorfnost unitarnih prostora
 $U$ je unitarni prostor sa skalarnim proizvodom $\langle ,\ \rangle_{U}:\ U\times U\to \mathbb{C}$
 $V$ je unitarni prostor sa skalarnim proizvodom $\langle ,\ \rangle_{V}:\ V\times V\to \mathbb{C}$
@@ -152,3 +149,5 @@ $\:$
 **Def**. Dva unitarnih prostora $U$ i $V$ su **izomorfna** ako postoji $A:\ U\to V$ tako da:
 - $A$ čuva skalarni proizvod
 - $A$ je bijekcija
+
+### [[Linearni operator u unitarnom prostoru]]
