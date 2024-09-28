@@ -33,7 +33,7 @@ Stav. $V$ je konačnodimenzioni unitarni prostor, $e$ je [[Unitarni prostor#Orto
 	- (koso-)**antihermitski** ako $A^{*}=-A$
 	- **unitaran** ako $A\,A^{*}=A^{*}A=\mathrm{id}_{V}$ $\ \:$ (tj. $A^{*}=A^{-1}$)
 
-**Teorema**. Sopstvene vrednosti:
+**Teorema**. [[Karakteristični i minimalni polinom#Sopstvene vrednosti|Sopstvene vrednosti]]:
 - hermitskog operatora su realni;
 - antihermitskog operatora su čisto imaginarni;
 - unarnog operatora imaju apsolutnu vrednost $1$.
@@ -53,3 +53,11 @@ $\forall v\in V\quad||A^{*}(v)||\leqslant||A(v)||\quad\Rightarrow\quad A$ je nor
 **Teorema**. $V$ je unitaran prostor, $A\in \mathrm{Hom}\,V$ je normalan. Tada postoji ortonormirana baza $V$ u kojoj je matrica operatora $A$ dijagonalna.
 
 ### Pozitivnost hermitskog operatora
+**Def**. Hermitski operator $A\in\mathrm{Hom}\,V$ je **pozitivan** $(A\geqslant0)$ ako $\forall v\in V\quad \big\langle A(v),\ v\big\rangle\geqslant0$.
+$A$ je strogo pozitivan ako još važi $\big\langle A(V),\ v\big\rangle =0\quad\Leftrightarrow\quad v=\mathbf{0}$
+
+**Teorema**. $A\in\mathrm{Hom}\, V$ je hermitski operator. Tada $A$ je pozitivan $\quad\Leftrightarrow\quad$ $\forall \lambda\in \mathrm{Sp}(A)\quad \lambda\geqslant0$.
+
+**Def**. Operator $B\in \mathrm{Hom}\,V$ je **kvadratni** (drugi) **koren** iz operatora $A\in\mathrm{Hom}\,V$ ako $B^{2}=A$.
+
+**Teorema**. $A\in\mathrm{Hom}\,V$ je pozitivan hermitski operator, tada postoji jedinstven pozitivan kvadratni koren iz $A$ — operator $B\in\mathrm{Hom}\,V$, koji komutira sa svim operatorima sa kojima komutira $A$.
