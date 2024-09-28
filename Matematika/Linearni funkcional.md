@@ -63,3 +63,4 @@ Tada je $(\pi_{l+1},\,\pi_{l+2},\,\dots,\,\pi_{n})$ je baza od $L^{\circ}$
 
 Posledica. $L,\,M\leqslant V$. Tada $L=M\ \ \Leftrightarrow\ \ L^{\circ}=M^{\circ}$
 
+### [[Linearni operator u unitarnom prostoru#Linearni funkcional u unitarnom prostoru|Linearni funkcional u unitarnom prostoru]]

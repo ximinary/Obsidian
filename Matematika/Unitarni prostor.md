@@ -1,6 +1,6 @@
 #fax #math #laag [deo [[Linearna algebra|linearne algebre]]]
 
-**Def**. Vektorski prostor $V$ nad poljem $\mathbb{C}$ je **unitaran** ako je definisana funkcija $\langle \,\cdot\,,\,\cdot\,\rangle:\ V\times V\to\mathbb{C}$ za koju važi: $\forall u,\,v,\,w\in V,\ \ \forall\alpha\in\mathbb{C}$
+**Def**. [[Vektorski prostor]] $V$ nad poljem $\mathbb{C}$ je **unitaran** ako je definisana funkcija $\langle \,\cdot\,,\,\cdot\,\rangle:\ V\times V\to\mathbb{C}$ za koju važi: $\forall u,\,v,\,w\in V,\ \ \forall\alpha\in\mathbb{C}$
 - SP1) $\ \ \langle u+v,\ w\rangle=\langle u,\ w\rangle+\langle v,\ w\rangle$
 - SP2) $\ \ \langle \alpha\,u,\ v\rangle=\alpha\,\langle u,\ v\rangle$
 - SP3) $\ \ \langle u,\ v\rangle=\overline{\langle v,\ u\rangle}$
@@ -122,4 +122,33 @@ $\:$
  $\mathcal{E}_{k}$ je baza od $V$ $\quad\Leftrightarrow$
 $\Leftrightarrow\quad\forall v,\,w\in V\quad\langle v,\ w\rangle=\sum\limits_{i=1}^{n}\langle v,\ e_{i}\rangle\langle e_{i},\ w\rangle$
 
-### Ortogonalni komplement 
+### [[Gramova matrica]]
+### Ortogonalni komplement
+
+Napomena: [[Potprostor. Operacije nad potprostorima|potprostor]]
+
+**Def**. $V$ je unitaran prostor, $L\leqslant V$. Tada skup $L^{\perp}=\{ x\in V\ \big|\ \langle x,\ v\rangle=0,\ \ \ \forall v\in L \}$ je **ortogonalni komplement** od $L$ u $V$.
+
+Stav. $V$ je unitaran prostor, $L,\,M\leqslant V$. Tada
+1. $L^{\perp}\leqslant V$
+2. $L\oplus L^{\perp}=V$
+3. $L$ je jedinstven
+4. $\big(L^{\perp}\big)^{\perp}=L$
+5. $\big(L+M\big)^{\perp}=L\ \!\cap M$
+6. $\big(L\ \!\cap M\big)^{\perp}=L+M$
+
+
+### [[Linearni operator u unitarnom prostoru]]
+
+### Izomorfnost unitarnih prostora
+$U$ je unitarni prostor sa skalarnim proizvodom $\langle ,\ \rangle_{U}:\ U\times U\to \mathbb{C}$
+$V$ je unitarni prostor sa skalarnim proizvodom $\langle ,\ \rangle_{V}:\ V\times V\to \mathbb{C}$
+
+**Def**. Operator $A:\ U\to V$ **čuva skalarni proizvod**, ako $\forall v,\,w\in U\quad \big\langle v,\ w\big\rangle_{U}=\big\langle A(v),\ A(w)\big\rangle_{V}$
+
+**Teorema**. $U,\,V$ su unitarni prostori. Operator $A:\ U\to V$ koji čuva skalarni proizvod je [[Linearni operator|linearni operator]].
+$\:$
+
+**Def**. Dva unitarnih prostora $U$ i $V$ su **izomorfna** ako postoji $A:\ U\to V$ tako da:
+- $A$ čuva skalarni proizvod
+- $A$ je bijekcija
