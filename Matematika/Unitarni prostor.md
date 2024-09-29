@@ -1,4 +1,5 @@
 #fax #math #laag [deo [[Linearna algebra|linearne algebre]]]
+$\:$
 
 **Def**. [[Vektorski prostor]] $V$ nad poljem $\mathbb{C}$ je **unitaran** ako je definisana funkcija $\langle \,\cdot\,,\,\cdot\,\rangle:\ V\times V\to\mathbb{C}$ za koju važi: $\forall u,\,v,\,w\in V,\ \ \forall\alpha\in\mathbb{C}$
 - SP1) $\ \ \langle u+v,\ w\rangle=\langle u,\ w\rangle+\langle v,\ w\rangle$
@@ -22,7 +23,7 @@ $\:$
   $u=(u_{1},\,u_{2},\,\dots,\,u_{n}),\ v=(v_{1},\,v_{2},\,\dots,\,v_{n})\in\mathbb{C}\,(\mathbb{R})$
   $\langle u,\ v\rangle:=\sum\limits_{i=1}^{n}v_{i}\,\overline{w_{i}}$ — standardni skalarni proizvod.
 - $V=\mathbb{M}_{n}(\mathbb{C})$, $\quad$ $\mathcal{A},\,\mathcal{B}\in V$
-  $\langle \mathcal{A},\ \mathcal{B}\rangle:= \mathrm{tr}\,(\mathcal{B}^{\bf *}\mathcal{A})$ — skalarni proizvod.
+  $\langle \mathcal{A},\ \mathcal{B}\rangle:= \mathrm{Tr}\,(\mathcal{B}^{\bf *}\mathcal{A})$ — skalarni proizvod.
 - $V=\mathbb{R}^{3}[x]$, $\quad$ $p,\,q\in V$
   $\langle p,\ q\rangle:=p(0)q(0) + p'(0)q'(0) + p(1)q(1) + p'(1)q'(1)$ — skalarni proizvod.
 - $V=\Big\{ (\alpha_{1},\,\alpha_{2},\,\dots,\,\alpha_{n},\,\dots)\ \Big|\ \alpha_{i}\in\mathbb{R},\ \  \forall i \in \mathbb{N}; \ \ \sum\limits_{i=1}^{\infty}|\alpha_{i}|^{2} <\infty \Big\}\subseteq\mathbb{R}^{\mathbb{N}}$
