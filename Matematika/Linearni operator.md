@@ -109,3 +109,4 @@ $\det:\ \mathrm{Hom}\,V\to\mathbb{F}$ $\ \:$ def. sa $\det A=\det\big(\varphi_{e
 Def. Trag operatora $A\in\mathrm{Hom}\,V$. 
 $\mathrm{Tr}:\ \mathrm{Hom}\,V\to\mathbb{F}$ $\ \:$ def. sa $\mathrm{Tr}\,A=\mathrm{Tr}\big(\varphi_{e,\,e}(A)\big)$ za proizvoljnu bazu $e$ VP-a $V$.
 ### [[Redukcija linearnog operatora]]
+### [[Linearni operator u unitarnom prostoru]]

@@ -31,7 +31,7 @@ Zbir celog niza ako $-1<q<1$:
 $\begin{align}S_{\infty}=\sum\limits_{k=1}^{\infty}b_{k}=b_{1}\cdot\sum\limits_{k=1}^{\infty}q^{k} \xlongequal{\text{dokaz dole}} \frac{b_{1}}{1-q} \end{align}$
 
 > $\begin{align}1+q+q^{2}+\dots+q^{k}+\dots=\end{align}$
-> $\begin{align}(1+q+q^{2}+\dots+q^{k}+\dots)\frac{1-q}{1-q}=\end{align}$
+> $\begin{align}=(1+q+q^{2}+\dots+q^{k}+\dots)\frac{1-q}{1-q}=\end{align}$
 >$\begin{align}=\frac{(1-\cancel{q})+(\cancel{q}-\cancel{q^{2}})+(\cancel{q^{2}}-\cancel{q^{3}})+\dots+(\cancel{q^{k}}-\cancel{q^{k+1}})+\dots}{1-q}=\end{align}$
 >$\begin{align}=\frac{1}{1-q}\end{align}$
 
