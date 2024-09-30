@@ -11,7 +11,7 @@ $p_{\mathcal{A}}(\lambda)=0$ — **karakteristična jednačina** matrice $A$.
 **Teorema**. Karakteristični polinom je [[Kvadratna matrica#Sličnost matrica|invarijanta sličnosti]].
 > Dokaz: $\mathcal{A}\sim\mathcal{B}$
 > Tada $\exists\mathcal{T}\ \ :\ \ \mathcal{B}=\mathcal{T}^{-1}\mathcal{A}\,\mathcal{T}$
-> $\begin{align}p_{\mathcal{B}}(\lambda)&=\det\Big(\lambda\,\mathbb{I}_{n}-\mathcal{B}\Big)=\det\Big(\mathcal{T}^{-1}\big(\lambda\,\mathbb{I}_{n}\big)\,\mathcal{T}-\mathcal{T}^{-1}\mathcal{A}\,\mathcal{T}\Big)=\\&=\det\Big(\mathcal{T}^{-1}\big(\lambda\,\mathbb{I}_{n}-\mathcal{A}\big)\,\mathcal{T}\Big)=\det\mathcal{T}^{-1}\det\Big(\lambda\,\mathbb{I}_{n}-\mathcal{A}\Big)\det\mathcal{T}=\\&=\det\Big(\lambda\,\mathbb{I}_{n}-\mathcal{A}\Big)=p_{\mathcal{A}}(\lambda)\end{align}$
+> $\begin{align}p_{\mathcal{B}}(\lambda)&=\det\Big(\lambda\,\mathbb{I}_{m}-\mathcal{B}\Big)=\det\Big(\mathcal{T}^{-1}\big(\lambda\,\mathbb{I}_{m}\big)\,\mathcal{T}-\mathcal{T}^{-1}\mathcal{A}\,\mathcal{T}\Big)=\\&=\det\Big(\mathcal{T}^{-1}\big(\lambda\,\mathbb{I}_{m}-\mathcal{A}\big)\,\mathcal{T}\Big)=\det\mathcal{T}^{-1}\det\Big(\lambda\,\mathbb{I}_{m}-\mathcal{A}\Big)\det\mathcal{T}=\\&=\det\Big(\lambda\,\mathbb{I}_{m}-\mathcal{A}\Big)=p_{\mathcal{A}}(\lambda)\end{align}$
 
 Def. **Karakteristični polinom [[Linearni operator|LO]]** $A\in\mathrm{Hom}\, V$ je $p_{A}(\lambda):=p_{\varphi_{e,\,e}(A)}(\lambda)$ za proizvoljnu bazu $e$ VP-a $V$.
 $\:$
@@ -30,10 +30,11 @@ Teorema (Hamilton-Kejlijeva). $\forall\mathcal{A}\in\mathbb{M}_{m}(\mathbb{F})\q
 
 ### Minimalni polinom 
 
-**Def**. **Minimalni polinom** [[Matrica|matrice]] $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je $\mu_{\mathcal{A}}(\lambda)\in\mathbb{F[\lambda]}$ — moničan (viši koef. je jednak $1$) polinom najmanjeg stepena za koji važi $\mu_{\mathcal{A}}(\mathcal{A})=0$.
+**Def**. **Minimalni polinom** [[Matrica|matrice]] $\mathcal{A}\in\mathbb{M}_{m}(\mathbb{F})$ je $\mu_{\mathcal{A}}(\lambda)\in\mathbb{F[\lambda]}$ — moničan (viši koef. je jednak $1$) polinom najmanjeg stepena za koji važi $\mu_{\mathcal{A}}(\mathcal{A})=0$.
 
 Teorema. $\mathcal{A}\in \mathbb{M}_{m}(\mathbb{F})$.
-1. $q\in\mathbb{F}[\lambda]\ \ :\ \ q(\mathcal{A})\quad \Rightarrow\quad \mu_{\mathcal{A}}(\lambda)\ \Big|\ q(\lambda)$
+1. $q\in\mathbb{F}[\lambda]\ \ :\ \ q(\mathcal{A})=\mathcal{O}\quad \Rightarrow\quad \mu_{\mathcal{A}}(\lambda)\ \Big|\ q(\lambda)$
+   - Specijalno: $\ \:$ $\mu_{\mathcal{A}}(\lambda)\ \Big|\ p_{\mathcal{A}}(\lambda)$
 2. $\mu_{\mathcal{A}}$ je jedinstven 
 3. $\mu_{\mathcal{A}}$ je invarijanta sličnosti
 
@@ -76,7 +77,7 @@ Stav. $\mathcal{A}\in\mathbb{M}_{m}(\mathbb{F})$
 >    $\begin{align}\mathcal{O}=q(\mathcal{A})&=\alpha_{n}\,\mathcal{A}^{n}+\alpha_{n-1}\,\mathcal{A}^{n-1}+\dots+\alpha_{2}\,\mathcal{A}^{2}+\alpha_{1}\,\mathcal{A}+\alpha_{0}\,\mathbb{I}_{m}\\-\alpha_{0}\,\mathbb{I}_{m}&=\Big(\alpha_{n}\,\mathcal{A}^{n-1}+\alpha_{n-1}\,\mathcal{A}^{n-2}+\dots+\alpha_{2}\,\mathcal{A}+\alpha_{1}\Big)\,\mathcal{A}\\\mathbb{I}_{m}&=\underbrace{\bigg(-\frac{1}{\alpha_{0}}\Big(\alpha_{n}\,\mathcal{A}^{n-1}+\alpha_{n-1}\,\mathcal{A}^{n-2}+\dots+\alpha_{2}\,\mathcal{A}+\alpha_{1}\Big)\bigg)}_{\mathcal{A}^{-1}}\mathcal{A}\end{align}$
 > $\:$
 > 2. $\boxed{\Rightarrow}$ Dokazano u 1.
->    $\boxed{\Leftarrow}$ pps $\mu_{\mathcal{A}}=0$,
+>    $\boxed{\Leftarrow}$ pps $\mu_{\mathcal{A}}(0)=0$,
 >    tada $\mu_{\mathcal{A}}(\mathcal{A})=\mathcal{A}^{n}+\alpha_{n-1}\,\mathcal{A}^{n-1}+\dots+\alpha_{2}\,\mathcal{A}^{2}+\alpha_{1}\,\mathcal{A}=\mathcal{O}$
 >    pomnožimo sa $\mathcal{A}^{-1}$:
 >    $\mathcal{A}^{n-1}+\alpha_{n-1}\,\mathcal{A}^{n-2}+\dots+\alpha_{2}\,\mathcal{A}+\alpha_{1}=\mathcal{O}$,
