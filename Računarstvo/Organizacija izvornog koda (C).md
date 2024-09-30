@@ -28,7 +28,7 @@ $\:$
   gcc program -o 1.o 2.c -m    //-m za <math.h>
   ```
 
-[[Od izvornog do izvršivog.png|Primer]] #todo
+[[Od izvornog do izvršivog.png|Primer]]
 
 ### Organizacija koda u više datoteka. ```make```
 

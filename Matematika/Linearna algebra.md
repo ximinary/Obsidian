@@ -9,4 +9,4 @@ $\:$
 [[Sistem linearnih jednačina]]
 [[Karakteristični i minimalni polinom]]
 [[Unitarni prostor]]
-Bilinearna i kvadratna forma
+[[Bilinearna i kvadratna forma]]

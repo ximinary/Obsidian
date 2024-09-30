@@ -14,10 +14,30 @@
               "type": "markdown",
               "state": {
                 "file": "Home.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "555291db7696cb67"
+          }
+        ]
+      },
+      {
+        "id": "a6f1c088410458ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14ebc5d5e4d8a7df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               }
-            }
+            },
+            "group": "555291db7696cb67"
           }
         ]
       }
@@ -65,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,19 +188,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c68c7dd549be0493",
+  "active": "14ebc5d5e4d8a7df",
   "lastOpenFiles": [
-    "Matematika/Unitarni prostor.md",
+    "Matematika/Matematika.md",
     "Matematika/Linearna algebra.md",
+    "Matematika/Karakteristični i minimalni polinom.md",
+    "Matematika/Brojevi.md",
+    "Matematika/Prirodni brojevi.md",
+    "Home.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
+    "Bilinearna i kvadratna forma.md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Media/stek.png",
+    "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Media/Od izvornog do izvršivog.png",
+    "Media/niz niski.png",
+    "Matematika/Unitarni prostor.md",
     "Matematika/Linearni operator.md",
     "Matematika/Kvadratna matrica.md",
     "Matematika/Matrica.md",
-    "Matematika/Matematika.md",
-    "Home.md",
     "Matematika/Aritmetička i geometrijska progresija.md",
     "Matematika/Teorija skupova.md",
     "Media/raselov paradoks.png",
-    "Računarstvo/Računarstvo.md",
     "Ispravnost programa.md",
     "Rekurzija.md",
     "Zettelkasten/- TODEL.md",
@@ -189,14 +221,6 @@
     "Matematika/Linearni operator u unitarnom prostoru.md",
     "Matematika/Linearni funkcional.md",
     "Matematika/Vektorski prostor.md",
-    "Matematika/Gramova matrica.md",
-    "Matematika/Redukcija linearnog operatora.md",
-    "Matematika/Sistem linearnih jednačina.md",
-    "Matematika/Karakteristični i minimalni polinom.md",
-    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
-    "Matematika/Vektor.md",
-    "Matematika/Normalne forme.md",
-    "Računarstvo/Složenost algoritma.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",
@@ -208,9 +232,6 @@
     "Excalidraw",
     "Git/Media/karakt fja primer 1.png",
     "Git/Media/analiza1_3_4.png",
-    "Git/Media/kongr primer 2.png",
-    "Git/Media/zlatna podela.png",
-    "Git/Media/teorema. R je neprebrojiv.png",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",

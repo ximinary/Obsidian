@@ -18,7 +18,7 @@ ___
 ### Kompjuter
 - [[Normalne forme|Digitalna logika]]
 - [[Logičko kolo|Logičko]], [[Kombinatorno kolo|kombinatorno]] i [[Sekvencijalno kolo|sekvencijalno]] kolo
-- Princip rada računara
+- [[Princip rada računara]]
 - Arhitektura u organizacija kompjutera
 	- Memorijska magistrala
 	- Keš-memorija

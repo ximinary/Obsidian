@@ -197,7 +197,7 @@ strcpy(t, s)
 ```
 
 Niz niski:
-![[niz_niski.png]] #todo
+![[niz niski.png]] 
 
 ### Pokazivači na funkcije
 — omogućavaju slanje funkcije kao argument druge funkcije.

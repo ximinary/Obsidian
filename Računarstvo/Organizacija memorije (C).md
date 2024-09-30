@@ -19,4 +19,4 @@ Prilikom jednog poziva funkcije kreira se stek okvir, koji sadrži:
 - adresa stek okvira funkcije-pozivaoca.
 - pri pozivanju neke funkcije koja ne može da se vrati rezultat preko registra, mesto za upisivanje rezultata u trenutnoj funkciji. 
 
-![[stek.png]] #todo
+![[stek.png]]
