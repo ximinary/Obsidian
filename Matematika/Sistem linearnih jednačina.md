@@ -58,7 +58,7 @@ ___
 ### Gausova metoda rešavanja sistema
 Napomena: [[Rang matrice. Elementarne transformacije#Elementarne transformacije|elementarne transformacije]]
 
-$\Big(\ \mathcal{A}\ \,\Big|\ \ b\,\ \Big)\overset{\text{elementarne transformacije}}{\overset{\text{nad vrstama}}{\sim}}\left(\begin{array}{c c | c}\mathbb{I}_{r}&\mathcal{C}&b'\\\mathcal{O}&\mathcal{O}&b''\end{array}\right)$
+$\Big(\ \mathcal{A}\ \,\Big|\ \ b\,\ \Big)\overset{\text{elementarne transformacije}}{\overset{\text{nad vrstama}}{\approx}}\left(\begin{array}{c c | c}\mathbb{I}_{r}&\mathcal{C}&b'\\\mathcal{O}&\mathcal{O}&b''\end{array}\right)$
 
 Ako $b''\ne\mathbf{0}$, sistem nema rešenja.
 
