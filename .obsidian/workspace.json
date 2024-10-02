@@ -6,6 +6,7 @@
       {
         "id": "aa4d2cf11cc92fef",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "c68c7dd549be0493",
@@ -25,6 +26,7 @@
       {
         "id": "a6f1c088410458ae",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "14ebc5d5e4d8a7df",
@@ -85,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,37 +191,37 @@
   },
   "active": "14ebc5d5e4d8a7df",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Karakteristični i minimalni polinom.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Prirodni brojevi.md",
-    "Home.md",
-    "Računarstvo/Programski jezik C.md",
     "Računarstvo/Računarstvo.md",
-    "Bilinearna i kvadratna forma.md",
-    "Računarstvo/Organizacija memorije (C).md",
-    "Media/stek.png",
+    "Home.md",
+    "Računarstvo/Složenost algoritma.md",
     "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
     "Računarstvo/Organizacija izvornog koda (C).md",
+    "Matematika/Unitarni prostor.md",
+    "Matematika/Sistem linearnih jednačina.md",
+    "Matematika/Rang matrice. Elementarne transformacije.md",
+    "Matematika/Normalne forme.md",
+    "Matematika/Matrica.md",
+    "Matematika/Linearni operator u unitarnom prostoru.md",
+    "Matematika/Linearni operator.md",
+    "Matematika/Linearni funkcional.md",
+    "Matematika/Linearna algebra.md",
+    "Matematika/Kvadratna matrica.md",
+    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
+    "Matematika/Karakteristični i minimalni polinom.md",
+    "Matematika/Izbor elemenata.md",
+    "Matematika/Inverzna matrica.md",
+    "Matematika/Grupa permutacija.md",
+    "Matematika/Gramova matrica.md",
+    "Matematika/Bilinearna i kvadratna forma.md",
+    "Matematika/Aritmetička i geometrijska progresija.md",
+    "Rekurzija.md",
+    "Ispravnost programa.md",
+    "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
     "Media/niz niski.png",
-    "Matematika/Unitarni prostor.md",
-    "Matematika/Linearni operator.md",
-    "Matematika/Kvadratna matrica.md",
-    "Matematika/Matrica.md",
-    "Matematika/Aritmetička i geometrijska progresija.md",
-    "Matematika/Teorija skupova.md",
     "Media/raselov paradoks.png",
-    "Ispravnost programa.md",
-    "Rekurzija.md",
-    "Zettelkasten/- TODEL.md",
-    "Drugo/DS1 — beleške.md",
-    "Drugo/todo.md",
     "Drugo/Realokacija.canvas",
-    "Matematika/Linearni operator u unitarnom prostoru.md",
-    "Matematika/Linearni funkcional.md",
-    "Matematika/Vektorski prostor.md",
     "Foursenser",
     "Pasted image 20240918192658.png",
     "Media/karakteri konverzije scanf.png",

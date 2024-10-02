@@ -44,10 +44,22 @@ Slične matrice su [[Matrica linearnog operatora|matrice istog LO]] iz $\mathrm{
 
 **Invarijanta sličnosti** — svojstvo koje važi za svaku matricu u nekoj klasi ekvivalencije, tj. svojstvo LO koje ne zavisi od matričnog zapisa.
 ___
-Stav. Determinanta je invarijanta sličnosti.
-Stav. Trag je invarijanta sličnosti.
+Stav. [[Determinanta]] je invarijanta sličnosti.
+Stav. [[Kvadratna matrica#Trag matrice|Trag]] je invarijanta sličnosti.
 
-[[Karakteristični i minimalni polinom|Karakteristični i minimalni polinomi]] su invarijante sličnosti.
+[[Rang matrice. Elementarne transformacije#Rang matrice|Rang]] je invarijanta sličnosti.
+[[Karakteristični i minimalni polinom#Karakteristični polinom|Karakteristični]] i [[Karakteristični i minimalni polinom#Minimalni polinom|minimalni]] polinomi, [[Karakteristični i minimalni polinom#Sopstvene vrednosti|sopstveni vektori i sopstvene vrednosti]] su invarijante sličnosti.
+
+### Kongruentnost kompleksnih matrica
+
+**Def**. $\mathcal{A},\,\mathcal{B}\in \mathbb{M}_{n}(\mathbb{C})$ su **kongruentne**:
+$\mathcal{A}\equiv\mathcal{B}\quad\Leftrightarrow\quad\exists \mathcal{T}\!\in \mathbb{M}_{n}(\mathbb{C}) \text{ — invertibilna}\ \ :\ \ \mathcal{B}=\mathcal{T}^{*}\cdot\mathcal{A}\cdot\mathcal{T}$
+
+Stav. $\equiv$ je relacija ekvivalencije.
+
+Kongruentne matrice su [[Bilinearna i kvadratna forma#Matrica bilinearne forme|matrice iste hermitske bilinearne forme]] u različitim bazama.
+
+Stav. Kongruentne matrice imaju isti [[Rang matrice. Elementarne transformacije|rang]]. (Sledi iz [[Rang matrice. Elementarne transformacije#^4f9e63|teoreme]])
 
 ### Nilpotentna matrica
 **Def**. $\mathcal{A}\in\mathbb{M}_{n}(\mathbb{F})$ je **nilpotentna** ako $\exists k>1\ \ :\ \ \mathcal{A}^{k}=\mathcal{O}_{n}$.
