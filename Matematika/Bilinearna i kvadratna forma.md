@@ -76,7 +76,7 @@ $\:$
 - pozitivna ako važi $\forall v\in V\quad q(v)\geqslant0$
 - strogo pozitivna ako važi $\forall v\ne\mathbf{0}\quad q(v)>0$, $\ \:$ $\mathbf{q}(\mathbf{0})=0$
 
-Primedba: Skalarni proizvod je hermitska bilinearna forma, kojoj odgovara strogo pozitivna kvadratna forma. 
+Primedba: Skalarni proizvod je hermitska bilinearna forma, kojoj odgovara strogo pozitivna hermitska kvadratna forma. 
 $\langle v,\ w\rangle_{\rm A}:=\mathrm{A}(v,\ w)=\Big(\kappa_{e}(w)\Big)^{*}\cdot\mathcal{A}\cdot\kappa_{e}(v)$
 
 ### Hermitska bilinearna forma u [[Unitarni prostor|unitarnom prostoru]]

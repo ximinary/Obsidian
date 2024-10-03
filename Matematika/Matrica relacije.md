@@ -20,5 +20,5 @@ Matrica binarne relacije $\rho$ je kvadratna i važi:
 - (R) $\:\Leftrightarrow\:$ matrica ima samo jedinici na glavnoj dijagonali
 - (AR) $\:\Leftrightarrow\:$ matrica ima samo nule na glavoj dijagonali
 - (S)  $\:\Leftrightarrow\:$  matrica je simetrična u odnosu na glavnu dijagonalu
-- (AS)  $\:\Leftrightarrow\:$ za $i\ne j$, $m_{ij}$ i $m_{ij}$ ne mogu oba biti 1 ($m_{ij} \land m_{ij} = 0$)
+- (AS)  $\:\Leftrightarrow\:$ za $i\ne j$, $m_{ij}$ i $m_{ji}$ ne mogu oba biti 1 ($m_{ij} \land m_{ji} = 0$)
 - (T)   $\:\Leftrightarrow\:$ za svako $i$ i $j$ ako je jedinica na mestu $ij$ u matrici $M_{\rho} \otimes M_{\rho}$, tada je jedinica na mesu $ij$ u matrici $M_{\rho}\,$.

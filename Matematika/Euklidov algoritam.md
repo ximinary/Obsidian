@@ -32,7 +32,7 @@ $M_0=\left[\begin{array}{c|c c}
 	b & 0 & 1 
 \end{array}\right]$
 
-Operacije
+Operacije:
 - T1: zamena mesta vrsta
 - T2: množenje vrsta sa -1
 - T3: dodavanje jedne vrste pomnožene celim brojem drugoj vrsti.

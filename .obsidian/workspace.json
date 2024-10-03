@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa4d2cf11cc92fef",
+        "id": "b166e3cf93215c5d",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "c68c7dd549be0493",
+            "id": "faddf8a2be4c4bf1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "555291db7696cb67"
-          }
-        ]
-      },
-      {
-        "id": "a6f1c088410458ae",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "14ebc5d5e4d8a7df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "555291db7696cb67"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -125,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,47 +146,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "webpage-html-export:Export Vault to HTML": false,
       "graph:Open graph view": false,
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian-git:Open Git source control": true
     }
   },
-  "active": "14ebc5d5e4d8a7df",
+  "active": "faddf8a2be4c4bf1",
   "lastOpenFiles": [
-    "Računarstvo/Računarstvo.md",
     "Home.md",
+    "Matematika/Matematika.md",
+    "Matematika/Relacija.md",
+    "Matematika/Matrica relacije.md",
+    "Drugo/DS1 — beleške.md",
+    "Matematika/Bulova algebra.md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Matematika/Teorija skupova.md",
+    "Matematika/Dekartov proizvod.md",
+    "Matematika/Euklidov algoritam.md",
+    "Matematika/Brojevi.md",
+    "Matematika/Realni brojevi.md",
+    "Matematika/Vrste tačaka u odnosu na neki skup.md",
+    "Matematika/Linearni operator.md",
+    "Untitled.canvas",
+    "Matematika/Bilinearna i kvadratna forma.md",
+    "Računarstvo/Računarstvo.md",
+    "Matematika/Asimptota.md",
+    "Matematika/Aritmetička i geometrijska progresija.md",
+    "Matematika/Analiza.md",
+    "Matematika/Algebra nad poljem.md",
     "Računarstvo/Složenost algoritma.md",
     "Računarstvo/Pokazivači (C).md",
     "Računarstvo/Organizacija memorije (C).md",
     "Računarstvo/Organizacija izvornog koda (C).md",
     "Matematika/Unitarni prostor.md",
     "Matematika/Sistem linearnih jednačina.md",
-    "Matematika/Rang matrice. Elementarne transformacije.md",
-    "Matematika/Normalne forme.md",
-    "Matematika/Matrica.md",
-    "Matematika/Linearni operator u unitarnom prostoru.md",
-    "Matematika/Linearni operator.md",
-    "Matematika/Linearni funkcional.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Kvadratna matrica.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
-    "Matematika/Karakteristični i minimalni polinom.md",
-    "Matematika/Izbor elemenata.md",
-    "Matematika/Inverzna matrica.md",
-    "Matematika/Grupa permutacija.md",
-    "Matematika/Gramova matrica.md",
-    "Matematika/Bilinearna i kvadratna forma.md",
-    "Matematika/Aritmetička i geometrijska progresija.md",
-    "Rekurzija.md",
-    "Ispravnost programa.md",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
     "Media/niz niski.png",
