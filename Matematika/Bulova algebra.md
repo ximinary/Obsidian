@@ -37,7 +37,7 @@ $x \land (x \lor y) = x \qquad$
 $x \land (y \land z) = (x \land y) \land z \qquad$
 11. $(x \lor y)' = x' \land y' \qquad$ — De Morganovi zakoni
 $(x \land y)' = x' \lor y' \qquad$
-12. Ako $x \lor y = 1$ i $x \land y = \mathbb{0}$, tada je $y = x'\qquad$ — jedinstvenost komplementa
+12. Ako $x \lor y = \mathbb{1}$ i $x \land y = \mathbb{0}$, tada je $y = x'\qquad$ — jedinstvenost komplementa
 
 ### [[Relacija poretka]] na bulovoj algebri
 $x \leqslant y \quad$ akko $\quad x \land y = x$
