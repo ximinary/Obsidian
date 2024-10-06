@@ -11,8 +11,12 @@
             "id": "faddf8a2be4c4bf1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Računarstvo/Organizacija memorije (C).md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Računarstvo/Organizacija memorije (C).md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Računarstvo/Organizacija memorije (C).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Računarstvo/Organizacija memorije (C).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +169,9 @@
   },
   "active": "faddf8a2be4c4bf1",
   "lastOpenFiles": [
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Računarstvo/Računarstvo.md",
     "Home.md",
     "Matematika/Matematika.md",
     "Matematika/Relacija.md",
@@ -177,7 +188,6 @@
     "Matematika/Linearni operator.md",
     "Untitled.canvas",
     "Matematika/Bilinearna i kvadratna forma.md",
-    "Računarstvo/Računarstvo.md",
     "Matematika/Asimptota.md",
     "Matematika/Aritmetička i geometrijska progresija.md",
     "Matematika/Analiza.md",
@@ -185,9 +195,7 @@
     "Računarstvo/Složenost algoritma.md",
     "Računarstvo/Pokazivači (C).md",
     "Računarstvo/Organizacija memorije (C).md",
-    "Računarstvo/Organizacija izvornog koda (C).md",
     "Matematika/Unitarni prostor.md",
-    "Matematika/Sistem linearnih jednačina.md",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
     "Media/niz niski.png",
