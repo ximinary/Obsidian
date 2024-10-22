@@ -30,12 +30,12 @@ $\ \ \ \ \ (c\,f)\,\mathcal{D}\,x_{0},\quad(c\,f)'(x_{0})=c\,f'(x_{0})$
 - [[analiza1_2_2_3_2.png|3.2)]] ako $g(x_0)\ne0$, $\begin{align}\ \ \frac{f}{g}\,\mathcal{D}\,x_{0}\quad\bigg(\frac{f}{g}\bigg)'(x_{0})=\frac{f'(x_{0})\cdot g(x_{0})-f(x_{0})\cdot g'(x_{0})}{g^{2}(x_{0})}\end{align}$
 
 [[analiza1_2_3.png|Tvrđenje 3]] (Izvod [[Kompozicija funkcija|složene funkcije]]). $y_{0}:=f(x_{0})$
-$\begin{align}f\,\mathcal{D}\,x_{0}\\ g\,\mathcal{D\,y_{0}}\end{align} \ \ \Rightarrow (g\circ\!f)\,\mathcal{D}\,x_{0},\quad (g\circ\!f)'(x_{0})=g'(y_{0})\cdot f'(x_{0})$
+$\begin{align}f\,\mathcal{D}\,x_{0}\\ g\,\mathcal{D}\,y_{0}\end{align} \ \ \Rightarrow (g\circ\!f)\,\mathcal{D}\,x_{0},\quad (g\circ\!f)'(x_{0})=g'(y_{0})\cdot f'(x_{0})$ ^fd0bb3
 
 [[analiza1_2_3prim.png|Primer]]
 
 [[analiza1_2_4.png|Tvrđenje 4]] (Izvod [[Inverzna funkcija|inverzne funkcije]]). $f\,\mathcal{D}\,x_{0},\ f'(x_{0})\ne0,\ f$ ima inverz $g$ u $\mathrm{O}(x_{0}),\ y_{0}:=f(x_{0})$.
-Tada $\begin{align}g\,\mathcal{D}\,y_{0},\quad g'(y_{0})=\frac{1}{f'(x_{0})}\end{align}$
+Tada $\begin{align}g\,\mathcal{D}\,y_{0},\quad g'(y_{0})=\frac{1}{f'(x_{0})}\end{align}$ ^49dd91
 
 [[analiza1_2_4prim.png|Izvodi nekih inverznih funkcija]]
 

@@ -32,29 +32,15 @@
             "id": "7fc127898d423658",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Neodređeni integral.md",
-                "mode": "preview",
-                "source": true
+                "file": "Matematika/Izvod.md",
+                "staged": false
               }
             },
             "group": "769d40f81fc7d664"
-          },
-          {
-            "id": "d3a6bf2f0ddf57eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neodređeni integral.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,9 +124,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Neodređeni integral.md"
-              }
+              "state": {}
             }
           },
           {
@@ -149,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neodređeni integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +149,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neodređeni integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,11 +184,12 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "d3a6bf2f0ddf57eb",
+  "active": "7fc127898d423658",
   "lastOpenFiles": [
     "Neodređeni integral.md",
-    "Matematika/Teorija skupova.md",
+    "Matematika/Izvod.md",
     "Matematika/Analiza.md",
+    "Matematika/Teorija skupova.md",
     "Matematika/Grafik funkcije.md",
     "Matematika/Matematika.md",
     "Home.md",
@@ -230,7 +213,6 @@
     "Matematika/Asimptota.md",
     "Matematika/Aritmetička i geometrijska progresija.md",
     "Matematika/Algebra nad poljem.md",
-    "Računarstvo/Složenost algoritma.md",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
     "Media/niz niski.png",
