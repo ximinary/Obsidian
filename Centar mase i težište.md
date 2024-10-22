@@ -17,3 +17,8 @@ ako je $\mathrm{A_{1}}$ centar masa tačaka $\mathrm{B}$ i $\mathrm{C}$, tada $\
 
 **Def**. Neka su $\mathrm{A}_{1},\,\mathrm{A}_{2},\,\mathrm{A_{3}}$ neke nekolinearne tačke. Baricentričke koordinate tačke $\mathrm{M}$ u sistemu $(\mathrm{A}_{1},\,\mathrm{A}_{2},\,\mathrm{A}_{3})$ su brojevi $(m_{1}:m_{2}:m_{3})$ takvi da je $\mathrm{M}$ centar masa tačaka $\mathrm{A}_{1}(m_{1}),\,\mathrm{A}_{2}(m_{2}),\,\mathrm{A}_{3}(m_{3})$.
 Tj. $\ \:$ $\begin{align}\overrightarrow{\rm OM}=\frac{m_{1}\ \overrightarrow{\mathrm{OA}_{1}}+ m_{2}\ \overrightarrow{\mathrm{OA}_{2}}+ m_{3}\ \overrightarrow{\mathrm{OA}_{3}}}{m_{1}+m_{2}+m_{3}}\end{align}$
+
+Baricentričke koordinate su homogene: $(m_{1}:m_{2}:m_{3})=(\lambda\,m_{1}:\lambda\,m_{2}:\lambda\,m_{3})$
+
+Normalizovane (ili nehomogene) baricentričke koordinate:
+$m_{1}+m_{2}+m_{3}=1$
