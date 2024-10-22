@@ -6,6 +6,7 @@
       {
         "id": "b166e3cf93215c5d",
         "type": "tabs",
+        "dimension": 49.10790144435004,
         "children": [
           {
             "id": "faddf8a2be4c4bf1",
@@ -13,13 +14,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Računarstvo/Organizacija memorije (C).md",
+                "file": "Neodređeni integral.md",
                 "mode": "source",
+                "source": true
+              }
+            },
+            "group": "769d40f81fc7d664"
+          }
+        ]
+      },
+      {
+        "id": "cd93a8663218f33c",
+        "type": "tabs",
+        "dimension": 50.89209855564996,
+        "children": [
+          {
+            "id": "7fc127898d423658",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neodređeni integral.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "769d40f81fc7d664"
+          },
+          {
+            "id": "d3a6bf2f0ddf57eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neodređeni integral.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Računarstvo/Organizacija memorije (C).md"
+                "file": "Neodređeni integral.md"
               }
             }
           },
@@ -114,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Računarstvo/Organizacija memorije (C).md",
+                "file": "Neodređeni integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Računarstvo/Organizacija memorije (C).md",
+                "file": "Neodređeni integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,19 +202,23 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "faddf8a2be4c4bf1",
+  "active": "d3a6bf2f0ddf57eb",
   "lastOpenFiles": [
-    "Računarstvo/Programski jezik C.md",
-    "Računarstvo/Organizacija izvornog koda (C).md",
-    "Računarstvo/Računarstvo.md",
-    "Home.md",
+    "Neodređeni integral.md",
+    "Matematika/Teorija skupova.md",
+    "Matematika/Analiza.md",
+    "Matematika/Grafik funkcije.md",
     "Matematika/Matematika.md",
+    "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
     "Matematika/Relacija.md",
     "Matematika/Matrica relacije.md",
     "Drugo/DS1 — beleške.md",
     "Matematika/Bulova algebra.md",
     "Računarstvo/Standardne biblioteke (C).md",
-    "Matematika/Teorija skupova.md",
     "Matematika/Dekartov proizvod.md",
     "Matematika/Euklidov algoritam.md",
     "Matematika/Brojevi.md",
@@ -190,12 +229,8 @@
     "Matematika/Bilinearna i kvadratna forma.md",
     "Matematika/Asimptota.md",
     "Matematika/Aritmetička i geometrijska progresija.md",
-    "Matematika/Analiza.md",
     "Matematika/Algebra nad poljem.md",
     "Računarstvo/Složenost algoritma.md",
-    "Računarstvo/Pokazivači (C).md",
-    "Računarstvo/Organizacija memorije (C).md",
-    "Matematika/Unitarni prostor.md",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
     "Media/niz niski.png",

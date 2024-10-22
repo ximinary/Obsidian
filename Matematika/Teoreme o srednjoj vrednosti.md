@@ -5,10 +5,10 @@ $\:$
 Tada $\exists \xi\in(a,\,b)\ : \ f'(\xi)=0$
 
 [[analiza1_2_lagranž.png|Teorema]] (Lagranževa). $f:[a,\,b]\to \mathbb{R},\ f\,\mathcal{C}\,[a,\,b],\ f\,\mathcal{D}\,(a,\,b).$
-Tada $\begin{align}\exists \xi\in(a,\,b)\ : \ f'(\xi)=\frac{f(b)-f(a)}{b-a}\end{align}$
+Tada $\begin{align}\exists \xi\in(a,\,b)\ : \ f'(\xi)=\frac{f(b)-f(a)}{b-a}\end{align}$ ^e52da5
 
 [[analiza1_2_lagranž_p1.png|Posledica 1]]. $f\,\mathcal{C}\,[a,\,b],\ f\,\mathcal{D}\,(a,\,b),\ f'(x)\equiv0.$
-Tada $f\equiv \mathrm{const}$
+Tada $f\equiv \mathrm{const}$ ^510c8c
 
 [[analiza1_2_lagranž_p2.png|Posledica 2]]. $I$ je interval ($\mathring I$ je otvoreni deo intervala). $f:I\to\mathbb{R},\ f\,\mathcal{C}\,I,\ f\,\mathcal{D}\,\mathring I$. Tada
 $\quad$ 1\. $\big(\forall x\in\mathring I\quad f'(x)\geqslant0\big)\ \ \Leftrightarrow \ \ f\!\uparrow$
