@@ -7,4 +7,4 @@ $\:$
 - [[Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a|linearna zavisnost i nezavisnost. Baza i dimenzija prostora]]
 
 [[Reper. Koordinate vektora i tačke]]
-[[Težište i centar mase]]
+[[Centar mase i težište]]
