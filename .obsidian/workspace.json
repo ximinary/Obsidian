@@ -6,7 +6,7 @@
       {
         "id": "b166e3cf93215c5d",
         "type": "tabs",
-        "dimension": 49.10790144435004,
+        "dimension": 49.10790144435005,
         "children": [
           {
             "id": "faddf8a2be4c4bf1",
@@ -14,10 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Neodređeni integral.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Neodređeni integral"
             },
             "group": "769d40f81fc7d664"
           }
@@ -26,7 +28,7 @@
       {
         "id": "cd93a8663218f33c",
         "type": "tabs",
-        "dimension": 50.89209855564996,
+        "dimension": 50.89209855564995,
         "children": [
           {
             "id": "7fc127898d423658",
@@ -34,10 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Neodređeni integral.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Neodređeni integral"
             },
             "group": "769d40f81fc7d664"
           }
@@ -61,7 +65,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -76,7 +82,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -84,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -109,7 +119,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -117,7 +129,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -126,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Geometrija.md"
-              }
+                "file": "Neodređeni integral.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Neodređeni integral"
             }
           },
           {
@@ -136,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Neodređeni integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +160,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Neodređeni integral"
             }
           },
           {
@@ -153,10 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Neodređeni integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Neodređeni integral"
             }
           },
           {
@@ -164,7 +184,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -191,15 +213,15 @@
   },
   "active": "7fc127898d423658",
   "lastOpenFiles": [
-    "Reper. Koordinate vektora i tačke.md",
-    "Matematika/Geometrija.md",
-    "Centar mase i težište.md",
+    "Matematika/Analiza.md",
     "Matematika/Matematika.md",
+    "Matematika/Geometrija.md",
+    "Reper. Koordinate vektora i tačke.md",
+    "Centar mase i težište.md",
     "Matematika/Vektor.md",
     "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
-    "Matematika/Analiza.md",
     "Neodređeni integral.md",
     "Matematika/Izvod.md",
     "Matematika/Teorija skupova.md",

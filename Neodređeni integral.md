@@ -133,7 +133,7 @@ Tada postoji primitivna za $f$ i važi $\begin{align}\int f(x) \, dx = H\big(g^{
 > $\begin{align}=f\Big(g\big(g^{-1}(x)\big)\Big)\cdot g'\big(g^{-1}(x)\big)\cdot\frac{1}{g'\big(g^{-1}(x)\big)}=f(x)\end{align}$
 
 Smena 2:
- $\begin{align}\int f(x) \, dx &= \binom{x = g(t)}{dx = g'(t)\,dt} =\int f\big(g(t)\big)\cdot g'(t)\,dt\\\\&=H(t) + C=H\big(g^{-1}(x)\big)\end{align}$
+ $\begin{align}\int f(x) \, dx &= \binom{x = g(t)}{dx = g'(t)\,dt} =\int f\big(g(t)\big)\cdot g'(t)\,dt\\\\&=H(t) + C=H\big(g^{-1}(x)\big)+C\end{align}$
 $\:$
 Prethodne teoreme ukratko:
 $\begin{array}{|c|c|c|}\hline \text{funkcija}&\text{njena primitivna}&\text{domen} \to \text{kodomen}\\ \hline f&F\xlongequal{\text{Teorema 2}}H\circ g^{-1}&(a,\,b)\to\mathbb{R}\\\hline g \text{ — difenencijabilna}&&(\alpha,\,\beta)\to(a,\,b)\\\hline (f\circ g)\cdot g'&H \xlongequal{\text{Teorema 1}} F\circ g&(\alpha,\,\beta)\to\mathbb{R}\\\hline\end{array}$
