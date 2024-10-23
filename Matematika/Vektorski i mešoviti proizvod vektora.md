@@ -1,7 +1,7 @@
 #fax #math #laag [deo poglavlja [[Vektor|"vektor"]]]
 $\:$
 
-> $(x,\,y,\,z)$ je **pozitivna** trojka vektora ako su predstavnici $\overrightarrow{\rm OA},\,\overrightarrow{\rm OB},\,\overrightarrow{\rm OC}$ vektora $x,\,y,\,z\:$ takve da gledajući sa $\mathrm{C}$ kraći put od $\mathrm{A}$ do $\mathrm{B}$ je u smeru suprotnom od smera satne kazaljke; u suprotnom je **negativna**.
+> $(x,\,y,\,z)$ je **pozitivna** trojka vektora ako su predstavnici $\overrightarrow{\rm OA},\,\overrightarrow{\rm OB},\,\overrightarrow{\rm OC}$ vektora $x,\,y,\,z\:$ takve da gledajući sa $\mathrm{C}$ kraći put od $\mathrm{A}$ do $\mathrm{B}$ je u smeru suprotnom od smera satne kazaljke; inače je **negativna**.
 > 
 > Pozitivnost/negativnost trojke se menja ako:
 > - Dva vektora se menjaju mestima.
@@ -26,7 +26,13 @@ $\:$
 
 **Def**. Mešoviti proizvod je funkcija $[\cdot,\,\cdot,\,\cdot]\ :\ \ V\times V\times V \to \mathbb{R}$, takva da $\forall x,\,y,\,z\in V\quad[x,\,y,\,z]=(x\times y)\cdot z$
 
-**Teorema**. $\Big|[x,\,y,\,z]\Big|$ je zapremina paralelepipeda određenog sa $z,\,y,\,z.$
+**Teorema**. $\Big|[x,\,y,\,z]\Big|$ je zapremina paralelepipeda određenog sa $x,\,y,\,z.$
+$\Big(\frac{1}{6}\Big|[x,\,y,\,z]\Big|$ je zapremina tetraedra određenog sa $x,\,y,\,z.\Big)$
+
+**Stav**.
+$[x,\,y,\,z]> 0\quad\Leftrightarrow\quad$ trojka $(x,\,y,\,z)$ je pozitivna.
+$[x,\,y,\,z]< 0\quad\Leftrightarrow\quad$ trojka $(x,\,y,\,z)$ je negativna.
+$[x,\,y,\,z]= 0\quad\Leftrightarrow\quad$ vektori $x,\,y,\,z$ su linearno zavisni (komplanarni).
 
 **Teorema** (Svojstva). $\forall x,\,y,\,z,\,v\in V \:$ i $\ \forall\alpha\in\mathbb{R}$ važe:
 - **v1**) $\ \ [x,\,y]=-[y,\,x]$

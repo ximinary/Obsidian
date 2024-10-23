@@ -17,6 +17,6 @@ Prilikom jednog poziva funkcije kreira se stek okvir, koji sadrži:
 - međurezultate izračunavanja
 - adresa povratka (skok na kraju fje) — moguće i preko registra
 - adresa stek okvira funkcije-pozivaoca.
-- pri pozivanju neke funkcije koja ne može da se vrati rezultat preko registra, mesto za upisivanje rezultata u trenutnoj funkciji. 
+- mesto za upisivanje rezultata funkcije koju poziva trenutna funkcija i koja ne može da vrati rezultat preko registra. 
 
 ![[stek.png]]
