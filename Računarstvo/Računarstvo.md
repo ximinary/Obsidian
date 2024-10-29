@@ -3,13 +3,14 @@ $\:$
 
 [[Ispravnost programa]]
 [[Složenost algoritma]]
-[[Rekurzija]]
 
 Osnovni algoritmi
+Tehnike konstrukcije algoritama
 Strukture podataka
 
 ### Programski jezici
 - [[Programski jezik C]]
+- Programski jezik Java
 ___
 - Programske paradigme
 - Interpretacija i kompilacija
@@ -18,10 +19,13 @@ ___
 ### Kompjuter
 - [[Normalne forme|Digitalna logika]]
 - [[Logičko kolo|Logičko]], [[Kombinatorno kolo|kombinatorno]] i [[Sekvencijalno kolo|sekvencijalno]] kolo
-- [[Princip rada računara]]
+- Princip rada računara
 - Arhitektura u organizacija kompjutera
 	- Memorijska magistrala
 	- Keš-memorija
 	- Ulazno-izlazni uređaj
 	- Sistem prekida
 	- Virtuelna memorija
+- Operativni sistem
+	- Proseci
+	- 

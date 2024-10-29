@@ -4,29 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "b166e3cf93215c5d",
-        "type": "tabs",
-        "dimension": 49.10790144435004,
-        "children": [
-          {
-            "id": "faddf8a2be4c4bf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Geometrija.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "769d40f81fc7d664"
-          }
-        ]
-      },
-      {
         "id": "cd93a8663218f33c",
         "type": "tabs",
-        "dimension": 50.89209855564996,
+        "dimension": 55.3156146179402,
         "children": [
           {
             "id": "7fc127898d423658",
@@ -34,12 +14,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Home.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            },
+            "group": "5ae7164f297cdfaa"
+          }
+        ]
+      },
+      {
+        "id": "d37adbd4dab03574",
+        "type": "tabs",
+        "dimension": 44.6843853820598,
+        "children": [
+          {
+            "id": "25b456c8b2c279ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             },
-            "group": "769d40f81fc7d664"
+            "group": "5ae7164f297cdfaa"
           }
         ]
       }
@@ -61,7 +65,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -76,15 +82,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "5a57c4eb9c1a72c7",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
@@ -109,7 +109,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -117,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -126,8 +130,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Geometrija.md"
-              }
+                "file": "Neodređeni integral.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Neodređeni integral"
             }
           },
           {
@@ -136,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Neodređeni integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +150,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Neodređeni integral"
             }
           },
           {
@@ -153,10 +161,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Neodređeni integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Neodređeni integral"
             }
           },
           {
@@ -164,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -172,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 229.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,34 +201,38 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "7fc127898d423658",
+  "active": "25b456c8b2c279ad",
   "lastOpenFiles": [
-    "Reper. Koordinate vektora i tačke.md",
+    "Računarstvo/Računarstvo.md",
+    "Home.md",
+    "Rekurzija.md",
+    "Matematika/Reper. Koordinate vektora i tačke.md",
+    "Ispravnost programa.md",
     "Matematika/Geometrija.md",
-    "Centar mase i težište.md",
+    "Matematika/Afina preslikavanja.md",
+    "Media/afina preslikavanja 1 geo.png",
     "Matematika/Matematika.md",
-    "Matematika/Vektor.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
     "Matematika/Linearna algebra.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
+    "Matematika/Vektorski prostor.md",
+    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Matematika/Analiza.md",
-    "Neodređeni integral.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Centar mase i težište.md",
+    "Media/transformacija baze 2 geo.png.~tmp",
+    "Media/transformacija baze 2 geo.png",
+    "Media/transformacija baze 1 geo.png",
+    "Matematika/Integracija racionalnih funkcija.md",
+    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
+    "Matematika/Vektor.md",
+    "Matematika/Niz brojeva.md",
+    "Matematika/Limes niza.md",
+    "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Matematika/Izvod.md",
     "Matematika/Teorija skupova.md",
     "Matematika/Grafik funkcije.md",
-    "Home.md",
-    "Računarstvo/Računarstvo.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Organizacija memorije (C).md",
     "Računarstvo/Organizacija izvornog koda (C).md",
-    "Matematika/Relacija.md",
-    "Matematika/Matrica relacije.md",
-    "Drugo/DS1 — beleške.md",
-    "Matematika/Bulova algebra.md",
-    "Računarstvo/Standardne biblioteke (C).md",
-    "Matematika/Dekartov proizvod.md",
-    "Matematika/Euklidov algoritam.md",
-    "Matematika/Brojevi.md",
     "Untitled.canvas",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
@@ -228,17 +244,13 @@
     "Media/karakteri konverzije scanf.png",
     "Media/karakteri konverzije printf.png",
     "Drugo/Promenljive.canvas",
-    "Media/Realokacija.png",
     "Realokacija.png.~tmp",
     "index.html",
     "Excalidraw",
-    "Git/Media/karakt fja primer 1.png",
-    "Git/Media/analiza1_3_4.png",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
     "Git",
-    "Zettelkasten",
-    "Git/Publish"
+    "Zettelkasten"
   ]
 }
