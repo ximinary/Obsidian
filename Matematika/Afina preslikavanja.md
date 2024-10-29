@@ -38,7 +38,7 @@ $\:$
 6. $\det(a_{ij}) > 0 \quad\Leftrightarrow\quad$ čuva se orijentacija trouglova
    $\det(a_{ij}) < 0 \quad\Leftrightarrow\quad$ menja se orijentacija trouglova
 
-### Predstavljanje matricom
+#### Predstavljanje matricom
 
 Afino preslikavanje u $\mathbb{E}^{2}$ dato formulom (2) možemo predstaviti matricom $A_{b}=\left(\begin{array}{}\alpha_{11}&\alpha_{12}&b_{1}\\\alpha_{21}&\alpha_{22}&b_{2}\\0&0&1\end{array}\right)$
 
@@ -47,7 +47,7 @@ Afino preslikavanje u $\mathbb{E}^{2}$ dato formulom (2) možemo predstaviti mat
 
 **Teorema**. Proizvod matrica oblika $A_{b}$ odgovara kompoziciji afinih preslikavanja.
 
-### Translacija
+#### Translacija
 Translacija $\mathcal{T}_{b}$ za vektor $b\,(b_{1},\,b_{2})$
 $\begin{cases}x'_{1}=x_{1}+b_{1}\\x'_{2}=x_{2}+b_{2}\end{cases}$
 
@@ -59,7 +59,7 @@ Translacija ne utiče na vektore.
 Translacije komutiranju i kompozicija translacija je translacija:
 $\mathcal{T}_{v}\circ\mathcal{T}_{u}=\mathcal{T}_{u}\circ \mathcal{T_{v}}=\mathcal{T}_{v\,+\,u}$
 
-### Rotacija
+#### Rotacija
 - rotacija oko koordinatnog početka za ugao $\varphi=[0,\,2\pi)$ :
 
 $\mathcal{R}_{\varphi}:\ \begin{align}\binom{x'_{1}}{x'_{2}}=\left(\begin{array}{}\cos\varphi&-\sin\varphi\\\sin\varphi&\cos\varphi\end{array}\right)\binom{x_{1}}{x_{2}}\end{align}$
@@ -78,7 +78,7 @@ Svojstva:
 4. $\mathcal{R}_{0}=E$
 
 $\big\{ \mathcal{R}_{\varphi}\ \big|\ \varphi\in[0,\,2\pi)\big\}$ je grupa.
-### Refleksija
+#### Refleksija
 - refleksija u odnosu na pravu $p_{0}$ koja prolazi kroz koordinatni početak i gradi ugao $\begin{align}\frac{\varphi}{2}\end{align}$ sa $e_{1}$ (osom $\mathrm{O}x$):
 
 $\mathcal{S}_{\varphi}:\ \begin{align}\binom{x'_{1}}{x'_{2}}=\left(\begin{array}{}\cos\varphi&\sin\varphi\\\sin\varphi&-\cos\varphi\end{array}\right)\binom{x_{1}}{x_{2}}\end{align}$
@@ -101,7 +101,7 @@ Rotacije i refleksije čine ortogonalnu grupu.
 
 Refleksija kao kompozicija rotacija i skaliranja:
 $\mathcal{S}_{\varphi}=\mathcal{R}_{\varphi/2}\circ\mathcal{H}_{1,\,-1}\circ\mathcal{R}_{-\varphi/2}$
-### Skaliranje
+#### Skaliranje
 - skaliranje u odnosu na koordinatni početak:
 
 $\mathcal{H}_{\lambda_{1},\,\lambda_{2}}:\ \begin{align}\binom{x'_{1}}{x'_{2}}=\left(\begin{array}{}\lambda_{1}&0\\0&\lambda_{2}\end{array}\right)\binom{x_{1}}{x_{2}}\end{align}$
@@ -121,7 +121,7 @@ Specijalni slučajevi:
 
 Ako $\lambda_{1}=\lambda_{2}=\lambda$, pišemo $\mathcal{H}_{\lambda} \ \ \Big(\mathcal{H}_{Q,\,\lambda}\Big)$ i kažemo da takvo preslikavanje **homotetija**.
 
-### Smicanje
+#### Smicanje
 
 - Smicanje sa koeficijentom $\lambda$ u odnosu na vektor $e_{1}$:
 

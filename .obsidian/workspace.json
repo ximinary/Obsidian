@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Geometrija"
+              "title": "Home"
             },
             "group": "5ae7164f297cdfaa"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Geometrija"
+              "title": "Home"
             },
             "group": "5ae7164f297cdfaa"
           }
@@ -203,22 +203,25 @@
   },
   "active": "25b456c8b2c279ad",
   "lastOpenFiles": [
-    "Afina preslikavanja.md",
+    "Računarstvo/Računarstvo.md",
+    "Home.md",
+    "Rekurzija.md",
+    "Matematika/Reper. Koordinate vektora i tačke.md",
+    "Ispravnost programa.md",
     "Matematika/Geometrija.md",
+    "Matematika/Afina preslikavanja.md",
     "Media/afina preslikavanja 1 geo.png",
     "Matematika/Matematika.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Vektorski prostor.md",
-    "Reper. Koordinate vektora i tačke.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Matematika/Analiza.md",
-    "Neodređeni integral.md",
-    "Centar mase i težište.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Centar mase i težište.md",
     "Media/transformacija baze 2 geo.png.~tmp",
     "Media/transformacija baze 2 geo.png",
     "Media/transformacija baze 1 geo.png",
-    "Integracija racionalnih funkcija.md",
-    "Home.md",
+    "Matematika/Integracija racionalnih funkcija.md",
     "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
     "Matematika/Vektor.md",
     "Matematika/Niz brojeva.md",
@@ -227,11 +230,9 @@
     "Matematika/Izvod.md",
     "Matematika/Teorija skupova.md",
     "Matematika/Grafik funkcije.md",
-    "Računarstvo/Računarstvo.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Organizacija memorije (C).md",
     "Računarstvo/Organizacija izvornog koda (C).md",
-    "Matematika/Relacija.md",
     "Untitled.canvas",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
