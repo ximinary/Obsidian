@@ -1,5 +1,5 @@
 #fax #math #a2 [deo [[Analiza|analize]]]
-$\:$
+
 
 ### Primitivna funkcija
 
@@ -94,16 +94,17 @@ $\begin{align}\int \frac{1}{\sqrt[]{1-x^{2}}} \, dx =\arcsin x+C,\quad C\in\math
 $\begin{align}\int \frac{1}{1+x^{2}} \, dx = \mathrm{arctg}\, x+C,\quad C\in\mathbb{R}\end{align}$
 
 Integrali koje se izvode iz prethodnih koristeći smene:
-1. $a>0,\quad x\in(-a,\,a)$
+
+12. $a>0,\quad x\in(-a,\,a)$
 $\begin{align}\int \frac{1}{\sqrt[]{a^{2}-x^{2}}} \, dx =\arcsin \frac{x}{a}+C,\quad C\in\mathbb{R}\end{align}$
  $\:$
-2. $a\in\mathbb{R}\setminus\{ 0 \},\quad x\in\, \begin{cases}\mathbb{R},& \text{ako } a>0\\(-\infty,\,-\sqrt[]{-a})\cup(\sqrt[]{-a},\,+\infty)&\text{ako } a<0\end{cases}$
+13. $a\in\mathbb{R}\setminus\{ 0 \},\quad x\in\, \begin{cases}\mathbb{R},& \text{ako } a>0\\(-\infty,\,-\sqrt[]{-a})\cup(\sqrt[]{-a},\,+\infty)&\text{ako } a<0\end{cases}$
 $\begin{align}\int \frac{1}{\sqrt[]{x^{2}+ a}} \, dx =\ln\left|x+\sqrt[]{x^{2}+ a}\right|+C,\quad C\in\mathbb{R}\end{align}$
  $\:$
-3. $a>0,\quad x\in\mathbb{R}$
+14. $a>0,\quad x\in\mathbb{R}$
 $\begin{align}\int \frac{1}{x^{2}+a^{2}} \, dx = \frac{1}{a}\,\mathrm{arctg}\, \frac{x}{a}+C,\quad C\in\mathbb{R}\end{align}$
  $\:$
-4. $a>0,\quad x\in\mathbb{R}\setminus\{ -a,\,a \}$
+15. $a>0,\quad x\in\mathbb{R}\setminus\{ -a,\,a \}$
 $\begin{align}\int \frac{1}{x^{2}-a^{2}} \, dx = \frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right|+C,\quad C\in\mathbb{R}\end{align}$
 (različito $C$ na svakom od tri intervala)
 
@@ -127,6 +128,8 @@ $\:$
 **Teorema** (o smene promenljive 2).
 Neka je $f:\ (a,\,b)\to\mathbb{R}$, neka je $g: (\alpha,\,\beta)\to(a,\,b)$ — diferencijabilna, takva da postoji $g^{-1}:\ (a,\,b)\to(\alpha,\,\beta)$ — diferencijabilna i neka je $H: \ (\alpha,\,\beta)\to\mathbb{R}$ primitivna za $(f\circ g)\cdot g':\ (\alpha,\,\beta)\to\mathbb{R}$.
 Tada postoji primitivna za $f$ i važi $\begin{align}\int f(x) \, dx = H\big(g^{-1}(x)\big) + C\end{align}$
+
+Napomena:  $g$ mora da bude bijekcija da ima inverz
 > Dokaz: $\forall x\in (\alpha,\,\beta)$
 > $\Big(H\big(g^{-1}(x)\big) + C\Big)'=H'\big(g^{-1}(x)\big)\cdot \big(g^{-1}(x)\big)'=$
 > $=\Big((f\circ g)\cdot g'\Big)\big(g^{-1}(x)\big)\cdot\big(g^{-1}(x)\big)'=$
@@ -148,3 +151,8 @@ Kraće: $\begin{align}\int u \, dv=uv -\int v \, du \end{align}$
 > $u(x)\,v'(x)=\underbrace{\big(u(x)\,v(x)\big)'}_{\text{ima primitivnu}} - \underbrace{u'(x)\,v(x)}_{\text{ima primitivnu}}\:$ — ima primitivnu $\ \ \quad$ (2)
 > 
 > $\begin{align}\int u(x)\,v'(x) \, dx \xlongequal{\text{(2)}}\int \Big(\big(u(x)\,v(x)\big)' - u'(x)\,v(x)\Big)\, dx=u(x)\,v(x)-\int u'(x)\,v(x) \, dx\end{align}$
+
+$\:$
+### [[Integracija racionalnih funkcija]]
+
+  

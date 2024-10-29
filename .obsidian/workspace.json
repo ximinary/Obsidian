@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neodređeni integral.md",
+                "file": "Afina preslikavanja.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Neodređeni integral"
+              "title": "Afina preslikavanja"
             },
             "group": "769d40f81fc7d664"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neodređeni integral.md",
+                "file": "Afina preslikavanja.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Neodređeni integral"
+              "title": "Afina preslikavanja"
             },
             "group": "769d40f81fc7d664"
           }
@@ -211,22 +211,29 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "7fc127898d423658",
+  "active": "faddf8a2be4c4bf1",
   "lastOpenFiles": [
-    "Matematika/Analiza.md",
-    "Matematika/Matematika.md",
     "Matematika/Geometrija.md",
-    "Reper. Koordinate vektora i tačke.md",
+    "Afina preslikavanja.md",
     "Centar mase i težište.md",
-    "Matematika/Vektor.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
+    "Reper. Koordinate vektora i tačke.md",
+    "Media/transformacija baze 2 geo.png.~tmp",
+    "Media/transformacija baze 2 geo.png",
+    "Media/transformacija baze 1 geo.png",
+    "Integracija racionalnih funkcija.md",
     "Neodređeni integral.md",
+    "Home.md",
+    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
+    "Matematika/Matematika.md",
+    "Matematika/Linearna algebra.md",
+    "Matematika/Vektor.md",
+    "Matematika/Analiza.md",
+    "Matematika/Niz brojeva.md",
+    "Matematika/Limes niza.md",
+    "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Matematika/Izvod.md",
     "Matematika/Teorija skupova.md",
     "Matematika/Grafik funkcije.md",
-    "Home.md",
     "Računarstvo/Računarstvo.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Organizacija memorije (C).md",
@@ -235,10 +242,6 @@
     "Matematika/Matrica relacije.md",
     "Drugo/DS1 — beleške.md",
     "Matematika/Bulova algebra.md",
-    "Računarstvo/Standardne biblioteke (C).md",
-    "Matematika/Dekartov proizvod.md",
-    "Matematika/Euklidov algoritam.md",
-    "Matematika/Brojevi.md",
     "Untitled.canvas",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
@@ -254,13 +257,10 @@
     "Realokacija.png.~tmp",
     "index.html",
     "Excalidraw",
-    "Git/Media/karakt fja primer 1.png",
-    "Git/Media/analiza1_3_4.png",
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
     "Git",
-    "Zettelkasten",
-    "Git/Publish"
+    "Zettelkasten"
   ]
 }

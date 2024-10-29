@@ -1,4 +1,4 @@
-#fax #math #laag [deo [[Geometrija|geometrije]]]
+#fax #math #geom [deo [[Geometrija|geometrije]]]
 $\:$
 
 **Def**. Tačka $\mathrm{T}$ je **centar masa** tačaka $\mathrm{A}_{1}(m_{1}),\,\mathrm{A}_{2}(m_{2}),\,\dots,\,\mathrm{A}_{n}(m_{n})$ $\ \:$ (tačka $\mathrm{A}_{i}$ ima masu $m_{i}$) ako važi $\begin{align}\sum\limits_{i=1}^{n}m_{i}\ \overrightarrow{ \mathrm{TA}_{i}}=\overrightarrow{\rm 0}.\end{align}$
