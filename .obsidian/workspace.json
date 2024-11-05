@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
-                "mode": "preview",
+                "file": "Home.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Home"
             }
           }
         ]
@@ -116,10 +116,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Matematika.md"
+                "file": "Home.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Matematika"
+              "title": "Outline of Home"
             }
           },
           {
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Matematika"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -189,13 +189,15 @@
   },
   "active": "a4600aa8f003739f",
   "lastOpenFiles": [
+    "Ispravnost programa.md",
+    "Home.md",
+    "Matematika/Matematika.md",
     "Matematika/Geometrija.md",
-    "Matematika/Afino preslikavanje.md",
-    "Matematika/Afino preslikavanje u prostoru.md",
     "Matematika/Afino preslikavanje u ravni.md",
+    "Matematika/Afino preslikavanje u prostoru.md",
+    "Matematika/Afino preslikavanje.md",
     "Matematika/Karakteristični i minimalni polinom.md",
     "Media/afina preslikavanja 4 geo.gif",
-    "Matematika/Matematika.md",
     "Media/afina preslikavanja 3.3 geo.png",
     "Media/afina preslikavanja 3.2 geo.png",
     "Media/afina preslikavanja 3.1 geo.png",
@@ -205,11 +207,9 @@
     "Matematika/Analiza.md",
     "Matematika/Neodređeni integral.md",
     "Matematika/Integracija racionalnih funkcija.md",
-    "Home.md",
     "Računarstvo/Računarstvo.md",
     "Matematika/Euklidov algoritam.md",
     "Matematika/Deljivost.md",
-    "Ispravnost programa.md",
     "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Složenost algoritma.md",
