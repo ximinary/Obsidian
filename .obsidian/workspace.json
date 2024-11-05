@@ -4,46 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cd93a8663218f33c",
+        "id": "4837798ec9b679f0",
         "type": "tabs",
-        "dimension": 55.3156146179402,
         "children": [
           {
-            "id": "7fc127898d423658",
+            "id": "a4600aa8f003739f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            },
-            "group": "5ae7164f297cdfaa"
-          }
-        ]
-      },
-      {
-        "id": "d37adbd4dab03574",
-        "type": "tabs",
-        "dimension": 44.6843853820598,
-        "children": [
-          {
-            "id": "25b456c8b2c279ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
+                "file": "Matematika/Matematika.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
-            },
-            "group": "5ae7164f297cdfaa"
+              "title": "Matematika"
+            }
           }
         ]
       }
@@ -85,6 +61,16 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+            }
+          },
+          {
+            "id": "7d7d663d7d795fdb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -130,10 +116,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neodređeni integral.md"
+                "file": "Matematika/Matematika.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Neodređeni integral"
+              "title": "Outline of Matematika"
             }
           },
           {
@@ -142,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neodređeni integral.md",
+                "file": "Matematika/Matematika.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Neodređeni integral"
+              "title": "Backlinks for Matematika"
             }
           },
           {
@@ -201,48 +187,48 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "25b456c8b2c279ad",
+  "active": "a4600aa8f003739f",
   "lastOpenFiles": [
-    "Računarstvo/Računarstvo.md",
-    "Home.md",
-    "Rekurzija.md",
-    "Matematika/Reper. Koordinate vektora i tačke.md",
-    "Ispravnost programa.md",
     "Matematika/Geometrija.md",
-    "Matematika/Afina preslikavanja.md",
-    "Media/afina preslikavanja 1 geo.png",
+    "Matematika/Afino preslikavanje.md",
+    "Matematika/Afino preslikavanje u prostoru.md",
+    "Matematika/Afino preslikavanje u ravni.md",
+    "Matematika/Karakteristični i minimalni polinom.md",
+    "Media/afina preslikavanja 4 geo.gif",
     "Matematika/Matematika.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
+    "Media/afina preslikavanja 3.3 geo.png",
+    "Media/afina preslikavanja 3.2 geo.png",
+    "Media/afina preslikavanja 3.1 geo.png",
+    "Media/afina preslikavanja 2 geo.png",
+    "Matematika/Reper. Koordinate vektora i tačke.md",
+    "Matematika/Unitarni prostor.md",
     "Matematika/Analiza.md",
     "Matematika/Neodređeni integral.md",
-    "Matematika/Centar mase i težište.md",
+    "Matematika/Integracija racionalnih funkcija.md",
+    "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Matematika/Euklidov algoritam.md",
+    "Matematika/Deljivost.md",
+    "Ispravnost programa.md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Računarstvo/Složenost algoritma.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Media/afina preslikavanja 1 geo.png",
     "Media/transformacija baze 2 geo.png.~tmp",
     "Media/transformacija baze 2 geo.png",
     "Media/transformacija baze 1 geo.png",
-    "Matematika/Integracija racionalnih funkcija.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
-    "Matematika/Vektor.md",
-    "Matematika/Niz brojeva.md",
-    "Matematika/Limes niza.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
-    "Matematika/Izvod.md",
-    "Matematika/Teorija skupova.md",
-    "Matematika/Grafik funkcije.md",
-    "Računarstvo/Programski jezik C.md",
-    "Računarstvo/Organizacija memorije (C).md",
-    "Računarstvo/Organizacija izvornog koda (C).md",
     "Untitled.canvas",
     "Media/stek.png",
     "Media/Od izvornog do izvršivog.png",
-    "Media/niz niski.png",
-    "Media/raselov paradoks.png",
     "Drugo/Realokacija.canvas",
     "Foursenser",
-    "Pasted image 20240918192658.png",
-    "Media/karakteri konverzije scanf.png",
-    "Media/karakteri konverzije printf.png",
     "Drugo/Promenljive.canvas",
     "Realokacija.png.~tmp",
     "index.html",
