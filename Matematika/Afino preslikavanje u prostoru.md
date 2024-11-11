@@ -105,6 +105,6 @@ $[f]_{e}=[\mathcal{R}_{\mathrm{O}x''_{1}}(\varphi)\circ\mathcal{R}_{\mathrm{O}x'
 
 
 
-
+### [[Kvaternion]]
 
 
