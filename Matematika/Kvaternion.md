@@ -43,5 +43,4 @@ $C_{h}\circ C_{q}=C_{h\cdot q}$
 
 $C_{q}$ je izometrija prostora $\mathfrak{I}(\mathbb{H})$ i $\mathbb{R}^{3}$
 
-**Stav**. Ako važi $q = [\,\overrightarrow{v}\, \sin \varphi,\, \cos \varphi]$ i $|\,\overrightarrow{v}\,| = 1$, preslikavanje $C_{q}$
-je rotacija za ugao $2\varphi$ oko vektora $\overrightarrow{v}$ u pozitivnom smeru.
+**Stav**. Ako važi $q = [\,\overrightarrow{v}\, \sin \varphi,\, \cos \varphi]$ i $|\,\overrightarrow{v}\,| = 1$, preslikavanje $C_{q}$ je rotacija za ugao $2\varphi$ oko vektora $\overrightarrow{v}$ u pozitivnom smeru.

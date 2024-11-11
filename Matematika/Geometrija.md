@@ -9,7 +9,6 @@ $\:$
 [[Centar mase i težište]]
 [[Reper. Koordinate vektora i tačke]]
 [[Afino preslikavanje]]
-[[Kvaternion]]
 
 [[Analitička geometrija u ravni]]
 [[Analitička geometrija u prostoru]]

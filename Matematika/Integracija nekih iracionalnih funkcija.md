@@ -2,9 +2,9 @@
 
 ##### Integral oblika $\begin{align}\int R\left( x,\,\sqrt[n]{\frac{ax+b}{cx+k}} \right) \, dx \end{align}$,
 gde je $R$ racionalna funkcija od dva argumenta, rešavamo smenom
-$\begin{align}\left(\begin{array}{}{t=\sqrt[n]{\frac{ax+b}{cx+k}}\quad\Rightarrow\quad t^{n}=\frac{ax+b}{cx+k}\quad\Rightarrow\quad x=\frac{b-kt^{n}}{ct^{n}-a}}\\{dx=\frac{(ak-bc)\,n\,t^{n-1}}{(ct^{n}-a)^{2}}dt} \end{array}\right)\end{align}$ i time svodimo na rešavanje racionalne.
+$\begin{align}\left(\begin{array}{}{t=\sqrt[n]{\frac{ax+b}{cx+k}}\quad\Rightarrow\quad t^{n}=\frac{ax+b}{cx+k}\quad\Rightarrow\quad x=\frac{b-kt^{n}}{ct^{n}-a}}\\{dx=\frac{(ak-bc)\,n\,t^{n-1}}{(ct^{n}-a)^{2}}dt} \end{array}\right)\end{align}$ i dobijamo [[Integracija racionalnih funkcija|integral od racionalne funkcije]].
 
-##### Korisne smene za oslobođenje od korena
+##### Smene za oslobođenje od korena
 1. $\begin{align}\int \sqrt[]{1-x^{2}} \, dx &=\binom{x=\sin t}{dx=\cos t\, dt}=\int \sqrt[]{1-\sin^{2}t}\, \cos t\, dt=\int |\cos t|\cos t \, dt=\dots\end{align}$
 2. $\begin{align}\int \sqrt[]{x^{2}-1} \, dx &=\binom{x=\frac{1}{\sin t}}{dx=-\frac{\cos t}{\sin^{2}t}\, dt}=\int \sqrt[]{\frac{1}{\sin^{2} t}-1}\bigg(\!\!-\frac{\cos t}{\sin^{2}t}\bigg)\, dt=-\int \left|\frac{\cos t}{\sin t}\right|\,\frac{\cos t}{\sin^{2}t} \, dt=\dots\end{align}$
 3. $\begin{align}\int \sqrt[]{1+x^{2}} \, dx &=\binom{x=\mathrm{tg\,}t}{dx=\frac{dt}{\cos^{2}t}}=\int \sqrt[]{\frac{\sin^{2} t}{\cos^{2} t}+1}\,\frac{1}{\cos^{2}t}\, dt=\int \left|\frac{1}{\cos t}\right|\,\frac{1}{\cos^{2}t} \, dt=\dots\end{align}$
