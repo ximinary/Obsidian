@@ -8,4 +8,8 @@ $\:$
 
 [[Centar mase i težište]]
 [[Reper. Koordinate vektora i tačke]]
-[[Afina preslikavanja]]
+[[Afino preslikavanje]]
+[[Kvaternion]]
+
+[[Analitička geometrija u ravni]]
+[[Analitička geometrija u prostoru]]
