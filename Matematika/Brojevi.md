@@ -8,3 +8,4 @@ $\:$
 [[Racionalni brojevi]] $\mathbb{Q}$
 [[Realni brojevi]] $\mathbb{R}$
 [[Kompleksni brojevi]] $\mathbb{C}$
+[[Kvaternion]] $\mathbb{H}$

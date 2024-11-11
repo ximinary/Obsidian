@@ -13,13 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Brojevi.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
-            }
+              "title": "Brojevi"
+            },
+            "group": "baf4268e15851c5d"
+          }
+        ]
+      },
+      {
+        "id": "d485a4fa449077e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "781f9dd8c79471ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Brojevi.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Brojevi"
+            },
+            "group": "baf4268e15851c5d"
           }
         ]
       }
@@ -187,15 +209,30 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "a4600aa8f003739f",
+  "active": "781f9dd8c79471ed",
   "lastOpenFiles": [
-    "Ispravnost programa.md",
-    "Home.md",
-    "Matematika/Matematika.md",
+    "Matematika/Kvaternion.md",
+    "Matematika/Brojevi.md",
+    "Matematika/Realni brojevi.md",
     "Matematika/Geometrija.md",
+    "Matematika/Matematika.md",
+    "Matematika/Analiza.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Analitička geometrija u prostoru.md",
+    "Matematika/Analitička geometrija u ravni.md",
+    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
+    "Matematika/Centar mase i težište.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Afino preslikavanje.md",
+    "Matematika/Integracija nekih iracionalnih funkcija.md",
+    "Matematika/Integracija racionalnih funkcija od sinusa i kosinusa.md",
+    "Matematika/Integracija racionalnih funkcija.md",
+    "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Programski jezik C.md",
+    "Ispravnost programa.md",
     "Matematika/Afino preslikavanje u ravni.md",
     "Matematika/Afino preslikavanje u prostoru.md",
-    "Matematika/Afino preslikavanje.md",
     "Matematika/Karakteristični i minimalni polinom.md",
     "Media/afina preslikavanja 4 geo.gif",
     "Media/afina preslikavanja 3.3 geo.png",
@@ -204,22 +241,7 @@
     "Media/afina preslikavanja 2 geo.png",
     "Matematika/Reper. Koordinate vektora i tačke.md",
     "Matematika/Unitarni prostor.md",
-    "Matematika/Analiza.md",
-    "Matematika/Neodređeni integral.md",
-    "Matematika/Integracija racionalnih funkcija.md",
-    "Računarstvo/Računarstvo.md",
     "Matematika/Euklidov algoritam.md",
-    "Matematika/Deljivost.md",
-    "Računarstvo/Ulaz i izlaz (C).md",
-    "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Složenost algoritma.md",
-    "Računarstvo/Programski jezik C.md",
-    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
-    "Računarstvo/Pokazivači (C).md",
-    "Računarstvo/Organizacija memorije (C).md",
-    "Računarstvo/Organizacija izvornog koda (C).md",
-    "Računarstvo/Naredbe i kontrola toka (C).md",
-    "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Media/afina preslikavanja 1 geo.png",
     "Media/transformacija baze 2 geo.png.~tmp",
     "Media/transformacija baze 2 geo.png",

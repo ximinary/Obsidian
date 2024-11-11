@@ -22,3 +22,8 @@ Baricentričke koordinate su homogene: $(m_{1}:m_{2}:m_{3})=(\lambda\,m_{1}:\lam
 
 Normalizovane (ili nehomogene) baricentričke koordinate:
 $m_{1}+m_{2}+m_{3}=1$
+
+Ako je $P$ orijentisana površina trougla, imamo:
+$(m_{1}:m_{2}:m_{3})=(P_{\mathrm{M}\mathrm{A}_{2}\mathrm{A}_{3}}:P_{\mathrm{M}\mathrm{A}_{3}\mathrm{A}_{1}}:P_{\mathrm{M}\mathrm{A}_{1}\mathrm{A}_{2}})=(D_{\mathrm{M}\mathrm{A}_{2}\mathrm{A}_{3}}:D_{\mathrm{M}\mathrm{A}_{3}\mathrm{A}_{1}}:D_{\mathrm{M}\mathrm{A}_{1}\mathrm{A}_{2}})$
+
+$D_{\rm ABC}=\left|\begin{array}{}b_{1}-a_{1}&b_{2}-a_{2}\\c_{1}-a_{1}&c_{2}-a_{2}\end{array}\right|$, gde su $\mathrm{A}(a_{1},\,a_{2}),\ \mathrm{B}(b_{1},\,b_{2}),\ \mathrm{C}(c_{1},\,c_{2})$

@@ -154,5 +154,6 @@ Kraće: $\begin{align}\int u \, dv=uv -\int v \, du \end{align}$
 
 $\:$
 ### [[Integracija racionalnih funkcija]]
-
+### [[Integracija racionalnih funkcija od sinusa i kosinusa]]
+### [[Integracija nekih iracionalnih funkcija]]
   
