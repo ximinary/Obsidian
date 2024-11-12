@@ -1,7 +1,7 @@
 #fax #math #a2 [deo [[Analiza|analize]]]
 
 
-### Veza površine figure između $f(x)$ i $\mathrm{O}x$ i  [[Neodređeni integral#Primitivna funkcija|primitivne funkcije]] $F(x)$.
+### Veza površine figure između $f(x)$ i $\mathrm{O}x$ i  [[Neodređeni integral#Primitivna funkcija|primitivne funkcije]] $F(x)$
 
 Neka je $f:(c,\,d)\to[0,\,+\infty)$ neprekidna funkcija. $[a,\,b]\subset(c,\,d)$.
 $\Phi = \big\{ (x,\,y)\in\mathbb{R}^{2}\ \big|\ a\leqslant x\leqslant b,\ \ 0\leqslant y \leqslant f(x) \big\}$ — figura ograničena sa $f(x)$ i $\mathrm{O}x$ na intervalu $[a,\,b]$.
