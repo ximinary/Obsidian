@@ -115,3 +115,14 @@ $f\,R\,[a,\,b]\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\mathcal{
 > - $\begin{align}I - \frac{\varepsilon}{2}< s(f,\,\mathcal{P}'') \leqslant s(f,\,\mathcal{P})\quad\Rightarrow\quad -s(f,\,\mathcal{P})<-I + \frac{\varepsilon}{2}\end{align}$
 >  
 >  Odakle, $S(f,\,\mathcal{P})-s(f,\,\mathcal{P})<\varepsilon$
+>  $\:$
+>  $\boxed{\Leftarrow}$ Pretpostavimo $\begin{align}\nexists\int_{a}^{b} f(x) \, dx\quad\Rightarrow\quad I_{*}<I^{*}\end{align}$.
+>  
+>  Treba naći $\varepsilon$, takav da $\forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad S(f,\,\mathcal{P})-s(f,\,\mathcal{P})\geqslant\varepsilon$.
+>  
+>  $\exists c,\,d\in\mathbb{R}\ \ :\ \ \forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad s(f,\,\mathcal{P})\leqslant I_{*}<c<d<I^{*}\leqslant S(f,\,\mathcal{P})$
+>   - $S(f,\,\mathcal{P}) > d$
+>  - $-s(f,\,\mathcal{P}) > -c$
+>
+>Odakle, $S(f,\,\mathcal{P})-s(f,\,\mathcal{P}) > d-c$.
+>$\varepsilon:=d-c>$
