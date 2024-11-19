@@ -30,7 +30,7 @@ $\:$
   
   $p:\ \mathrm{M}(t)=\mathrm{P}+t\,\overrightarrow{p},\quad t\in\mathbb{R}$
   $\:$
-  $p:\ \begin{cases}x=x_{0}+t\,p_{x}\\y = y_{0}+t\,p_{y}\end{cases}$
+  $p:\ \begin{cases}x=x_{0}+t\,p_{x}\\y = y_{0}+t\,p_{y}\end{cases}\quad t\in\mathbb{R}$
   $\:$
 - Kanonska jednačina
 $\begin{align}\frac{x-x_{0}}{p_{x}}=\frac{y-y_{0}}{p_{y}} = t\end{align}$
@@ -55,3 +55,44 @@ $\mathrm{X}(t_{1},\,t_{2})=\mathrm{A}+t_{1}\overrightarrow{\rm AB}+t_{2}\overrig
 > 
  $\begin{align}\mathrm{d}(\mathrm{M},\,p)=||\overrightarrow{\rm PM}||=\frac{\Big|\overrightarrow{\rm PM}\circ \overrightarrow{n_{p}}\Big|}{|| \overrightarrow{n_{p}}||}=\frac{\Big|\big(\overrightarrow{\rm OM}-\overrightarrow{\rm OP}\big)\circ \overrightarrow{n_{p}}\Big|}{|| \overrightarrow{n_{p}}||}=\end{align}$
  $\begin{align}=\frac{\Big|\overbrace{\overrightarrow{\rm OM}\circ \overrightarrow{n_{p}}}^{=\,ax_{0}\,+\,by_{0}}\ \overbrace{-\ \overrightarrow{\rm OP}\circ \overrightarrow{n_{p}}}^{=\,c}\Big|}{|| \overrightarrow{n_{p}}||}=\frac{|ax_{0}+by_{0}+c|}{\sqrt[]{a^{2}+b^{2}}}\end{align}$
+
+$\:$
+### Uzajamni položaj pravih
+$p:\ a_{1}x+b_{1}y+c_{1}=0$
+$q:\ a_{2}x+b_{2}y+c_{2}=0$
+
+[[Sistem linearnih jednačina#^ec3686|Kramerovo pravilo]]:
+$\begin{cases}a_{1}x+b_{1}y=-c_{1}\\a_{2}x+b_{2}y=-c_{2}\end{cases}$
+$\Delta=\left|\begin{array}{}a_{1}&b_{1}\\a_{2}&b_{2}\end{array}\right|\quad\quad\Delta_{x}=-\left|\begin{array}{}c_{1}&b_{1}\\c_{2}&b_{2}\end{array}\right|\quad\quad\Delta_{y}=-\left|\begin{array}{}a_{1}&c_{1}\\a_{2}&c_{2}\end{array}\right|$
+
+- Poklapaju se:
+  $\begin{align}p \equiv q\quad&\Leftrightarrow\quad\begin{cases} \overrightarrow{n_{p}}=\lambda \overrightarrow{n_{q}},\ \lambda\in\mathbb{R}\\\mathrm{P}\in p\quad\Rightarrow\quad\mathrm{P}\in q\end{cases}\\\\& \Leftrightarrow\quad\Delta=0,\ \ \Delta_{x}=0,\ \ \Delta_{y}=0\end{align}$
+  $\:$
+- Paralelne:
+  $\begin{align}p \parallel q\quad&\Leftrightarrow\quad\begin{cases} \overrightarrow{n_{p}}=\lambda \overrightarrow{n_{q}},\ \lambda\in\mathbb{R}\\\mathrm{P}\in p\quad\Rightarrow\quad\mathrm{P}\notin q\end{cases}\\\\& \Leftrightarrow\quad\Delta=0,\ \ \Delta_{x}\ne0,\ \ \Delta_{y}\ne0\end{align}$ 
+  $\:$
+- Seku se:
+  $\begin{align}p\text{ i }q \text{ se seku}\quad&\Leftrightarrow\quad\exists \mathrm{M}(x_{0},\,y_{0})\ \ : \ \ \mathrm{M}\in p\ \text{ i }\  \mathrm{M}\in q\\& \quad\quad\ \ \, x_{0}=\frac{\Delta_{x}}{\Delta},\quad y_{0}=\frac{\Delta_{y}}{\Delta}\\\\& \Leftrightarrow\quad\Delta\ne0\end{align}$
+
+> Tražimo presek pravih datih parametarski:
+> $p:\ \mathrm{M}(t)=\mathrm{P}+t\,\overrightarrow{p},\quad t\in \mathbb{R}$
+> $q:\ \mathrm{M}(s)=\mathrm{Q}+s\,\overrightarrow{q},\quad s\in \mathbb{R}$
+> 
+> $\mathrm{P}+t\,\overrightarrow{p}=\mathrm{M}=\mathrm{Q}+s\,\overrightarrow{q}$
+> $t\,\overrightarrow{p}-s\,\overrightarrow{q}=\mathrm{Q}-\mathrm{P}$
+> $t\,\overrightarrow{p}-s\,\overrightarrow{q}=\overrightarrow{\rm PQ}$
+> > vektorski množimo sa $\overrightarrow{p}$ :
+> > $(-s\,\overrightarrow{q}\,)\times \overrightarrow{p}=\overrightarrow{\rm PQ}\times \overrightarrow{p}$
+> > $s(\,\overrightarrow{p}\,\times \overrightarrow{q}\,)=\overrightarrow{\rm PQ}\times \overrightarrow{p}$
+> > $\begin{align}s=\frac{\overrightarrow{\rm PQ}\times \overrightarrow{p}}{\overrightarrow{p}\,\times \overrightarrow{q}}\end{align}$
+> > $\begin{align}\boxed{s=\frac{D\Big(\overrightarrow{\rm PQ},\ \overrightarrow{p}\,\Big)}{D\Big(\overrightarrow{p},\  \overrightarrow{q}\,\Big)}}\end{align}$
+>
+>$\:$
+> > vektorski množimo sa $\overrightarrow{q}$ :
+> > $(t\,\overrightarrow{p}\,)\times \overrightarrow{q}=\overrightarrow{\rm PQ}\times \overrightarrow{q}$
+> > $t(\,\overrightarrow{p}\,\times \overrightarrow{q}\,)=\overrightarrow{\rm PQ}\times \overrightarrow{q}$
+> > $\begin{align}t=\frac{\overrightarrow{\rm PQ}\times \overrightarrow{q}}{\overrightarrow{p}\,\times \overrightarrow{q}}\end{align}$
+> > $\begin{align}\boxed{t=\frac{D\Big(\overrightarrow{\rm PQ},\ \overrightarrow{q}\,\Big)}{D\Big(\overrightarrow{p},\  \overrightarrow{q}\,\Big)}}\end{align}$
+> 
+> Tražimo $s$ ili $t$ i zatim nalazimo $\mathrm{M}$.
+ 

@@ -37,9 +37,8 @@ Posledica. Ako $\mathrm{rang}\,\mathcal{A}=n$ (tj. $V=\mathrm{Im}\,A$), sistem i
 ___
 **Def**. Sistem je **Kramerov** ako $m=n=\mathrm{rang}\,\mathcal{A}.$
 
-**Teorema**. Kramerov sistem uvek ima jedinstveno rešenje: $\begin{align}x_{i}=\frac{\Delta_{i}}{\Delta}\end{align},\ \ \forall i=\overline{1,n}$
-
-gde je $\Delta =\det\mathcal{A},\quad\Delta_{i}=\det[a_{1},\,a_{2},\,\dots,\,a_{i-1},\,b,\,a_{i+1},\,\dots,\,a_{n}], \ \ \forall i = \overline{1,n}$
+**Teorema**. Kramerov sistem uvek ima jedinstveno rešenje: $\boxed{\begin{align}x_{i}=\frac{\Delta_{i}}{\Delta}\end{align},\ \ \forall i=\overline{1,n}}$
+gde je $\Delta =\det\mathcal{A},\quad\Delta_{i}=\det[a_{1},\,a_{2},\,\dots,\,a_{i-1},\,b,\,a_{i+1},\,\dots,\,a_{n}], \ \ \forall i = \overline{1,n}$ ^ec3686
 ___
 Homogeni sistem $\mathcal{A}\,x=\mathbf{0}$, $\ \:$ $\mathrm{rang}\,\mathcal{A}=r$:
 - Skup rešenja je jezgro LO $A$:
