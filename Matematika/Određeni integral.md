@@ -125,4 +125,4 @@ $f\,R\,[a,\,b]\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\mathcal{
 >  - $-s(f,\,\mathcal{P}) > -c$
 >
 >Odakle, $S(f,\,\mathcal{P})-s(f,\,\mathcal{P}) > d-c$.
->$\varepsilon:=d-c>$
+>$\varepsilon:=d-c$
