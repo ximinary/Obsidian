@@ -124,5 +124,5 @@ $f\,R\,[a,\,b]\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\mathcal{
 >   - $S(f,\,\mathcal{P}) > d$
 >  - $-s(f,\,\mathcal{P}) > -c$
 >
->Odakle, $S(f,\,\mathcal{P})-s(f,\,\mathcal{P}) > d-c$.
+>Odakle, $S(f,\,\mathcal{P})-s(f,\,\mathcal{P}) > d-c > 0$.
 >$\varepsilon:=d-c$
