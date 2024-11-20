@@ -16,11 +16,12 @@ ___
 - Interpretacija i kompilacija
 
 
-### Kompjuter
+### Računarski sistem
+- Zapis podatatka
 - [[Normalne forme|Digitalna logika]]
 - [[Logičko kolo|Logičko]], [[Kombinatorno kolo|kombinatorno]] i [[Sekvencijalno kolo|sekvencijalno]] kolo
 - Princip rada računara
-- Arhitektura u organizacija kompjutera
+- Arhitektura u organizacija pačunara
 	- Memorijska magistrala
 	- Keš-memorija
 	- Ulazno-izlazni uređaj

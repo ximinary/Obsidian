@@ -118,7 +118,7 @@ $f\,R\,[a,\,b]\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\mathcal{
 >  $\:$
 >  $\boxed{\Leftarrow}$ Pretpostavimo $\begin{align}\nexists\int_{a}^{b} f(x) \, dx\quad\Rightarrow\quad I_{*}<I^{*}\end{align}$.
 >  
->  Treba naći $\varepsilon$, takav da $\forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad S(f,\,\mathcal{P})-s(f,\,\mathcal{P})\geqslant\varepsilon$.
+>  Treba naći $\varepsilon>0$, takav da $\forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad S(f,\,\mathcal{P})-s(f,\,\mathcal{P})\geqslant\varepsilon$.
 >  
 >  $\exists c,\,d\in\mathbb{R}\ \ :\ \ \forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad s(f,\,\mathcal{P})\leqslant I_{*}<c<d<I^{*}\leqslant S(f,\,\mathcal{P})$
 >   - $S(f,\,\mathcal{P}) > d$
