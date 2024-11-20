@@ -98,7 +98,7 @@ Integrali koje se izvode iz prethodnih koristeći smene:
 12. $a>0,\quad x\in(-a,\,a)$
 $\begin{align}\int \frac{1}{\sqrt[]{a^{2}-x^{2}}} \, dx =\arcsin \frac{x}{a}+C,\quad C\in\mathbb{R}\end{align}$
  $\:$
-13. $a\in\mathbb{R}\setminus\{ 0 \},\quad x\in\, \begin{cases}\mathbb{R},& \text{ako } a>0\\(-\infty,\,-\sqrt[]{-a})\cup(\sqrt[]{-a},\,+\infty)&\text{ako } a<0\end{cases}$
+13. $a\in\mathbb{R}\setminus\{ 0 \},\quad x\in\, \begin{cases}\mathbb{R},& \text{ako } a>0\\(-\infty,\,-\sqrt[]{-a})\cup(\sqrt[]{-a},\,+\infty),&\text{ako } a<0\end{cases}$
 $\begin{align}\int \frac{1}{\sqrt[]{x^{2}+ a}} \, dx =\ln\left|x+\sqrt[]{x^{2}+ a}\right|+C,\quad C\in\mathbb{R}\end{align}$
  $\:$
 14. $a>0,\quad x\in\mathbb{R}$
