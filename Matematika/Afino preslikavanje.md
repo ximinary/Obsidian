@@ -36,7 +36,7 @@ Translacija i rotacija su kretanja.
 - $f$ je izometrija (čuva dužine)
 - $f$ [[Unitarni prostor#Izomorfnost unitarnih prostora|čuva skalarni proizvod]]
 - $f$ preslikava ortonormiranu bazu u ortonormiranu bazu.
-- 
+
 ### [[Afino preslikavanje u ravni]]
 ### [[Afino preslikavanje u prostoru]]
 ### [[Kvaternion]]

@@ -56,7 +56,12 @@ $\mathrm{X}(t_{1},\,t_{2})=\mathrm{A}+t_{1}\overrightarrow{\rm AB}+t_{2}\overrig
  $\begin{align}\mathrm{d}(\mathrm{M},\,p)=||\overrightarrow{\rm PM}||=\frac{\Big|\overrightarrow{\rm PM}\circ \overrightarrow{n_{p}}\Big|}{|| \overrightarrow{n_{p}}||}=\frac{\Big|\big(\overrightarrow{\rm OM}-\overrightarrow{\rm OP}\big)\circ \overrightarrow{n_{p}}\Big|}{|| \overrightarrow{n_{p}}||}=\end{align}$
  $\begin{align}=\frac{\Big|\overbrace{\overrightarrow{\rm OM}\circ \overrightarrow{n_{p}}}^{=\,ax_{0}\,+\,by_{0}}\ \overbrace{-\ \overrightarrow{\rm OP}\circ \overrightarrow{n_{p}}}^{=\,c}\Big|}{|| \overrightarrow{n_{p}}||}=\frac{|ax_{0}+by_{0}+c|}{\sqrt[]{a^{2}+b^{2}}}\end{align}$
 
+^02dde3
+
 $\:$
+**[[Analitička geometrija u prostoru#^f9c9c9|Stav]]**. Rastojanje tačke $\mathrm{M}$ od prave $p:\ P,\,\overrightarrow{\rm p}$ $\ \:$ je
+$\begin{align}\mathrm{d}(\mathrm{M},\,p)=\frac{|| \overrightarrow{\rm MP}\times\overrightarrow{p}\,||}{||\, \overrightarrow{p}\,||}\end{align}$ 
+
 ### Uzajamni položaj pravih
 $p:\ a_{1}x+b_{1}y+c_{1}=0$
 $q:\ a_{2}x+b_{2}y+c_{2}=0$

@@ -50,7 +50,6 @@ $\:$
 **Teorema**. Skup svih ravni koje sadrže pravu $p=\alpha\cap\beta$, $\begin{array}{}\alpha:\ a_{1}x+b_{1}y+c_{1}z+d_{1}=0\\\beta:\ a_{2}x+b_{2}y+c_{2}z+d_{2}=0\end{array}$ $\quad$ je dat jednačinom: 
 
 $\chi_{\alpha,\,\beta}:\ \lambda_{1}(a_{1}x+b_{1}y+c_{1}z+d_{1})+\lambda_{2}(a_{2}x+b_{2}y+c_{2}z+d_{2})=0,\quad\lambda_{1},\,\lambda_{2}\in\mathbb{R}$
-
 ### Uzajamni položaj pravih
 $p:\ \mathrm{P},\ \overrightarrow{p}$
 $q:\ \mathrm{Q},\ \overrightarrow{q}$
@@ -73,6 +72,7 @@ $\:$
 > 3. Inače, ako $\mathrm{P}\in q$ onda **se poklapaju** u suprotnom su **paralelne**
 
 $\:$
+
 ### Uzajamni položaj prave i ravni
 $p:\ \mathrm{P},\ \overrightarrow{p}$
 $\alpha:\ ax+by+cz+d=0$
@@ -84,3 +84,48 @@ $\alpha:\ ax+by+cz+d=0$
   $\:$
 - Prava seče ravan:
   $p\text{ i }\alpha \text{ se seku}\quad\Leftrightarrow\quad\exists \mathrm{M}(x_{0},\,y_{0})\ \ : \ \ \mathrm{M}\in p\ \text{ i }\  \mathrm{M}\in \alpha$
+
+### Rastojanja i uglove
+
+**Stav**. <u>Rastojanje tačke</u> $\mathrm{M}$ <u>od prave</u> $p:\ P,\,\overrightarrow{\rm p}$ $\ \:$ je
+$\begin{align}\mathrm{d}(\mathrm{M},\,p)=\frac{|| \overrightarrow{\rm MP}\times\overrightarrow{p}\,||}{||\, \overrightarrow{p}\,||}\end{align}$ 
+> Dokaz: Neka je $d=\mathrm{d}(M,\,p)$
+> Površinu paralelograma određenog sa $\overrightarrow{p}$ i $\overrightarrow{\rm PM}$ možemo naći na dva načina: $\mathrm{P}=|| \overrightarrow{\rm MP}\times\overrightarrow{p}\,||=d\cdot||\, \overrightarrow{p}\,||$. Odakle sledi tvrđenje.  ^f9c9c9
+
+$\:$
+**Stav**. <u>Rastojanje tačke</u> $\mathrm{M}(x_{0},\,y_{0},\,z_{0})$ <u>od ravni</u> $\alpha:\ ax+by+cz+d=0$ je $\begin{align}\mathrm{d}(\mathrm{M},\,\alpha)=\frac{|ax_{0}+by_{0}+cz_{0}+d|}{\sqrt[]{a^{2}+b^{2}+c^{2}}}\end{align}$
+> Dokaz je sličan dokazu za [[Analitička geometrija u ravni#^02dde3|rastojanje tačke od prave u ravni]]
+
+$\:$
+**Stav**. <u>Rastojanje među mimoilaznih pravih</u> $p:\ \mathrm{P},\ \overrightarrow{p}$ $\ \:$ i $\ \:$ $q:\ \mathrm{Q},\ \overrightarrow{q}$ $\ \:$ je
+$\begin{align}\mathrm{d}(p,\,q)=\frac{\Big|[\,\overrightarrow{p},\,\overrightarrow{q},\,\overrightarrow{\rm PQ}\,]\Big|}{||\, \overrightarrow{p} \times \overrightarrow{q}\, ||}\end{align}$
+___
+**Stav**. <u>Ugao među pravih</u> $p:\ \mathrm{P},\ \overrightarrow{p}$ $\ \:$ i $\ \:$ $q:\ \mathrm{Q},\ \overrightarrow{q}$ $\ \:$ je
+$\begin{align}\widehat{(p,\,q)}=\text{oštar }\widehat{(\,\overrightarrow{p},\ \overrightarrow{q}\,)}=\arccos\frac{| \,\overrightarrow{p}\circ \overrightarrow{q}\,|}{||\,\overrightarrow{p}\,||\cdot||\,\overrightarrow{ q}\,||}\end{align}$
+$\:$
+
+**Stav**. <u>Ugao među prave</u> $p:\ \mathrm{P},\ \overrightarrow{p}$ $\ \:$ i $\ \:$ <u>ravni</u>  $\alpha:\ \mathrm{A},\ \overrightarrow{n}_{\alpha}$ $\ \:$ je
+$\begin{align}\widehat{(p,\,\alpha)}=\widehat{(p,\,p')}=\frac{\pi}{2}-\text{oštar }\widehat{(\,\overrightarrow{p},\ \overrightarrow{n}_{\alpha}\,)}=\end{align}$
+
+$\begin{align}=\frac{\pi}{2}-\arccos\frac{| \,\overrightarrow{p}\circ \overrightarrow{n}_{\alpha}\,|}{||\,\overrightarrow{p}\,||\cdot||\,\overrightarrow{n}_{\alpha}\,||}=\arcsin\frac{| \,\overrightarrow{p}\circ \overrightarrow{n}_{\alpha}\,|}{||\,\overrightarrow{p}\,||\cdot||\,\overrightarrow{n}_{\alpha}\,||}\end{align}$
+$\:$
+
+**Stav**. <u>Ugao među ravni</u> $\alpha:\ \mathrm{A},\ \overrightarrow{n}_{\alpha}$ $\ \:$ i $\ \:$ $\beta:\ \mathrm{B},\ \overrightarrow{n}_{\beta}$ $\ \:$ je
+$\begin{align}\widehat{(\alpha,\,\beta)}=\text{oštar }\widehat{(\,\overrightarrow{n}_{\alpha},\ \overrightarrow{n}_{\beta}\,)}=\arccos\frac{| \,\overrightarrow{n}_{\alpha}\circ \overrightarrow{n}_{\beta}\,|}{||\,\overrightarrow{n}_{\alpha}\,||\cdot||\,\overrightarrow{ n}_{\beta}\,||}\end{align}$
+
+### Projektovanje 
+**Stav**. Projekcija tačke $\mathrm{X}$ <u>na ravan</u> $\alpha$ koja prolazi kroz koordinatni početak je tačka $\mathrm{X}'$, takva da $\boxed{[\mathrm{X}']=(E-n\,n^{\mathrm{T}})[\mathrm{X}]}$, gde je $n$ jedinični vektor normali na ravan $\alpha$. 
+Odakle, projektovanje na ravan $\alpha$ je [[Afino preslikavanje|afino preslikavanje]] prostora.
+>  Dokaz:
+>  $\overrightarrow{\rm OX}=\overrightarrow{\rm OX'}+ \overrightarrow{\rm X'X}=\overrightarrow{\rm OX'}+\lambda\,\overrightarrow{n},\quad \lambda\in\mathbb{R}$
+>  Skalarno množimo sa $\overrightarrow{n}$:
+>  $\overrightarrow{\rm OX}\circ\overrightarrow{n}=\underbrace{\overrightarrow{\rm OX'}\circ\overrightarrow{n}}_{=\,0}+\lambda\cdot\underbrace{\overrightarrow{n}\circ\overrightarrow{n}}_{=\,{||\,\overrightarrow{n}\,||}^{2}=\,1}=\lambda$
+>
+>$\begin{align}[\mathrm{X'}]&=\overrightarrow{\rm OX'}=\overrightarrow{\rm OX}-\lambda\,\overrightarrow{n}=\overrightarrow{\rm OX}-\Big(\overrightarrow{\rm OX}\circ\overrightarrow{n}\Big)\,\overrightarrow{n}=\\&\overset{\text{?}}{=}\overrightarrow{\rm OX}-(n\,n^{\rm T})\,\overrightarrow{\rm OX}=(E-n\,n^{\rm T})[\mathrm{X}]\end{align}$
+>
+>>$\text{?}$ — Neka je $\overrightarrow{\rm OX}=\left(\begin{array}{}x\\y\\z\end{array}\right)$ $\ \:$ i $\ \:$ $\overrightarrow{n} = \left(\begin{array}{}a\\b\\c\end{array}\right)$. Tada 
+>>$\Big(\overrightarrow{\rm OX}\circ\overrightarrow{n}\Big)\,\overrightarrow{n}=(ax+by+cz)\left(\begin{array}{}a\\b\\c\end{array}\right)=\left(\begin{array}{}a^{2}x+aby+acz\\abx+b^{2}y+bcz\\acx+bcy+c^{2}z\end{array}\right)=$
+>>$=\left(\begin{array}{}a^{2}&ab&ac\\ab&b^{2}&bc\\ac&bc&c^{2}\end{array}\right)\left(\begin{array}{}x\\y\\z\end{array}\right)=(n\,n^{\rm T})\,\overrightarrow{\rm OX}$
+
+$\:$
+### Prodor prave kroz trougao 
