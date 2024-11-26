@@ -6,6 +6,7 @@
       {
         "id": "0f91d8ee5a61c3f4",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "d09ea4fa6fb356b0",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Geometrija.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Geometrija"
             },
             "group": "e44c097d60c5bdd5"
           }
@@ -27,6 +28,7 @@
       {
         "id": "239cb0b168e4e27b",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "bb69143faaefc27d",
@@ -34,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Geometrija.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Geometrija"
             },
             "group": "e44c097d60c5bdd5"
           }
@@ -212,20 +214,21 @@
   "lastOpenFiles": [
     "Matematika/Matematika.md",
     "Matematika/Geometrija.md",
+    "Matematika/Analiza.md",
+    "Matematika/Određeni integral.md",
     "Matematika/Analitička geometrija u prostoru.md",
+    "Matematika/Neprekidnost.md",
+    "Home.md",
     "Matematika/Afino preslikavanje.md",
     "Matematika/Afino preslikavanje u prostoru.md",
     "Matematika/Afino preslikavanje u ravni.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Matematika/Analitička geometrija u ravni.md",
-    "Home.md",
     "Računarstvo/Računarstvo.md",
     "Matematika/Normalne forme.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Složenost algoritma.md",
     "Ispravnost programa.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Analiza.md",
     "Matematika/Sistem linearnih jednačina.md",
     "Matematika/Neodređeni integral.md",
     "Matematika/Realni brojevi.md",
@@ -235,7 +238,6 @@
     "Računarstvo/Pokazivači (C).md",
     "Računarstvo/Organizacija memorije (C).md",
     "Računarstvo/Organizacija izvornog koda (C).md",
-    "Računarstvo/Naredbe i kontrola toka (C).md",
     "Media/afina preslikavanja 4 geo.gif",
     "Media/afina preslikavanja 3.3 geo.png",
     "Media/afina preslikavanja 3.2 geo.png",
