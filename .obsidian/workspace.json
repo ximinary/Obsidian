@@ -4,31 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "0f91d8ee5a61c3f4",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "d09ea4fa6fb356b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Geometrija.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Geometrija"
-            },
-            "group": "e44c097d60c5bdd5"
-          }
-        ]
-      },
-      {
         "id": "239cb0b168e4e27b",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "bb69143faaefc27d",
@@ -36,14 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Geometrija.md",
+                "file": "Matematika/Tejlorov polinom.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tejlorov polinom"
+            },
+            "group": "13819ca20de18d81"
+          }
+        ]
+      },
+      {
+        "id": "49f819edcc08882a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e51555dc0751654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Tejlorov polinom.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Geometrija"
+              "title": "Tejlorov polinom"
             },
-            "group": "e44c097d60c5bdd5"
+            "group": "13819ca20de18d81"
           }
         ]
       }
@@ -210,21 +208,22 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "bb69143faaefc27d",
+  "active": "4e51555dc0751654",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
-    "Matematika/Geometrija.md",
+    "Matematika/Limes funkcije.md",
     "Matematika/Analiza.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Analitička geometrija u prostoru.md",
-    "Matematika/Neprekidnost.md",
+    "Matematika/Matematika.md",
     "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Analitička geometrija u ravni.md",
+    "Matematika/Analitička geometrija u prostoru.md",
     "Matematika/Afino preslikavanje.md",
+    "Matematika/Geometrija.md",
+    "Matematika/Neprekidnost.md",
     "Matematika/Afino preslikavanje u prostoru.md",
     "Matematika/Afino preslikavanje u ravni.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
-    "Matematika/Analitička geometrija u ravni.md",
-    "Računarstvo/Računarstvo.md",
     "Matematika/Normalne forme.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Složenost algoritma.md",
@@ -237,7 +236,6 @@
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "Računarstvo/Pokazivači (C).md",
     "Računarstvo/Organizacija memorije (C).md",
-    "Računarstvo/Organizacija izvornog koda (C).md",
     "Media/afina preslikavanja 4 geo.gif",
     "Media/afina preslikavanja 3.3 geo.png",
     "Media/afina preslikavanja 3.2 geo.png",

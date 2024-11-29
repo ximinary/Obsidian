@@ -21,7 +21,7 @@ $\quad\quad\quad\quad\quad\ \begin{align}=\sum\limits_{k=0}^{n}\frac{f^{(k)}(0)}
 > Posledica:
 > - $\begin{align}e^{x}=\sum\limits_{k=0}^{n}\frac{x^{k}}{k!}+o(x^{n}),\ \ x\to 0\end{align}$
 > - $\begin{align}\ln(1+x)=\sum\limits_{k=1}^{n}(-1)^{k}\frac{x^{k}}{k}+o(x^{n}),\ \ x\to 0\end{align}$
-> - $\begin{align}(1+x)^{\alpha}=\sum\limits_{k=1}^{n}\binom{\alpha}{k}x^{k}+o(x^{n}),\ \ x\to 0\end{align}$
+> - $\begin{align}(1+x)^{\alpha}=\sum\limits_{k=0}^{n}\binom{\alpha}{k}x^{k}+o(x^{n}),\ \ x\to 0\end{align}$
 > - $\begin{align}\sin x= x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\dots+(-1)^{k}\,\frac{x^{2k+1}}{(2k+1)!}+o(x^{2k+2}),\ \ x\to 0\end{align}$
 > - $\begin{align}\cos x= 1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}+\dots+(-1)^{k}\,\frac{x^{2k}}{(2k)!}+o(x^{2k+1}),\ \ x\to 0\end{align}$
 
