@@ -129,3 +129,17 @@ Odakle, projektovanje na ravan $\alpha$ je [[Afino preslikavanje|afino preslikav
 
 $\:$
 ### Prodor prave kroz trougao 
+**Stav**. $p:\ P,\,\overrightarrow{p}$ $\ \:$ seče trougao $\rm ABC$  $\quad\Leftrightarrow\quad$ $\mathrm{sgn}[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{p}\ ]=\mathrm{sgn}[\ \overrightarrow{\rm PB},\,\overrightarrow{\rm PC},\,\overrightarrow{p}\ ]=\mathrm{sgn}[\ \overrightarrow{\rm PC},\,\overrightarrow{\rm PA},\,\overrightarrow{p}\ ]$
+$\:$
+
+> $\{ \mathrm{M} \}=p\cap(\mathrm{ABC})$
+> 
+> Tada $\mathrm{M}=\mathrm{P}+t\,\overrightarrow{p}\quad\Rightarrow\quad \overrightarrow{\rm PM}=t\,\overrightarrow{p}$
+> 
+> $V_{\mathrm{PABC}}=V_{\mathrm{PABM}}+V_{\mathrm{PBCM}}+V_{\mathrm{PCAM}}$
+> $\begin{align}\frac{[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{\rm PC}\ ]}{6}=\frac{[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{\rm PM}\ ]}{6}+\frac{[\ \overrightarrow{\rm PB},\,\overrightarrow{\rm PC},\,\overrightarrow{\rm PM}\ ]}{6}+\frac{[\ \overrightarrow{\rm PC},\,\overrightarrow{\rm PA},\,\overrightarrow{\rm PM}\ ]}{6}\end{align}$
+> $\begin{align}[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{\rm PC}\ ]=[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,t\,\overrightarrow{p}\ ]+[\ \overrightarrow{\rm PB},\,\overrightarrow{\rm PC},\,t\,\overrightarrow{p}\ ]+[\ \overrightarrow{\rm PC},\,\overrightarrow{\rm PA},\,t\,\overrightarrow{p}\ ]\end{align}$
+> 
+> $\begin{align}t = \frac{[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{\rm PC}\ ]}{[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{p}\ ]+[\ \overrightarrow{\rm PB},\,\overrightarrow{\rm PC},\,\overrightarrow{p}\ ]+[\ \overrightarrow{\rm PC},\,\overrightarrow{\rm PA},\,\overrightarrow{p}\ ]}\end{align}$
+> 
+> Konačno, $\begin{align}\mathrm{M}=\mathrm{P}+\frac{[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{\rm PC}\ ]}{[\ \overrightarrow{\rm PA},\,\overrightarrow{\rm PB},\,\overrightarrow{p}\ ]+[\ \overrightarrow{\rm PB},\,\overrightarrow{\rm PC},\,\overrightarrow{p}\ ]+[\ \overrightarrow{\rm PC},\,\overrightarrow{\rm PA},\,\overrightarrow{p}\ ]}\cdot\overrightarrow{p}\end{align}$
