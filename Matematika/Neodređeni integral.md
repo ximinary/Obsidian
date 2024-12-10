@@ -108,8 +108,8 @@ $\begin{align}\int \frac{1}{x^{2}+a^{2}} \, dx = \frac{1}{a}\,\mathrm{arctg}\, \
 $\begin{align}\int \frac{1}{x^{2}-a^{2}} \, dx = \frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right|+C,\quad C\in\mathbb{R}\end{align}$
 (različito $C$ na svakom od tri intervala)
 
-### [[Metode integracije (neodređeni integral)]]
-
+### [[Metode integracije (neodređeni integral)|Metode integracije]]
+___
 ### [[Integracija racionalnih funkcija]]
 ### [[Integracija racionalnih funkcija od sinusa i kosinusa]]
 ### [[Integracija nekih iracionalnih funkcija]]

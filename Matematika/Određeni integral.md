@@ -74,6 +74,6 @@ Važi $I_{*}\leqslant I^{*}$.
 
 ### [[Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula]]
 
-### [[Metode integracije (određeni integral)]]
+### [[Metode integracije (određeni integral)|Metode integracije]]
 
 ### [[Primene određenog integrala]]

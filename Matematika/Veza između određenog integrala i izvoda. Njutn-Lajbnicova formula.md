@@ -54,7 +54,7 @@ $\:$
 > Tj. $F$ je primitivna za $f$ na $[a,\,b]$
 
 $\:$
-**Teorema** (Njutn-Lajbnicova formula). Neka je $f\,\mathcal{C}\,[a,\,b]$ i neka je $F:[a,\,b]$ neka primitivna za $f$ na $[a,\,b]$. Tada $\begin{align}\int_{a}^{b} f(x) \, dx =F(b) - F(a)\end{align}$
+**Teorema** (Njutn-Lajbnicova formula). Neka je $f\,\mathcal{C}\,[a,\,b]$ i neka je $F:[a,\,b]$ neka primitivna za $f$ na $[a,\,b]$. Tada $\begin{align}\int_{a}^{b} f(x) \, dx =F(b) - F(a)\end{align}$ ^08f509
 > 
 > $F$ je primitivna za $f$ na $[a,\,b]\quad\Leftrightarrow$
 > - $\forall x\in(a,\,b)\quad F'(x)=f(x)$
