@@ -4,44 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "096198d25a4e634b",
+        "id": "5f077a9b007bb765",
         "type": "tabs",
         "children": [
           {
-            "id": "921ef60a86fdde54",
+            "id": "cb000a44bf9da824",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Analiza.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Analiza"
-            },
-            "group": "140e55babc41093a"
-          }
-        ]
-      },
-      {
-        "id": "ad03aea3b34509eb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e880aad0aff0ba71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Analiza.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Analiza"
-            },
-            "group": "140e55babc41093a"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -208,13 +182,14 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "e880aad0aff0ba71",
+  "active": "cb000a44bf9da824",
   "lastOpenFiles": [
+    "Home.md",
+    "Matematika/Kombinatorika.md",
     "Matematika/Određeni integral.md",
     "Matematika/Analiza.md",
     "Matematika/Primene određenog integrala.md",
     "Matematika/Matematika.md",
-    "Home.md",
     "Računarstvo/Računarstvo.md",
     "@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
     "Matematika/Nesvojstveni integral.md",
@@ -235,7 +210,6 @@
     "Matematika/Izvod.md",
     "Media/analiza1_2_lp.png",
     "Matematika/Integracija nekih iracionalnih funkcija.md",
-    "Matematika/Kombinatorika.md",
     "Matematika/Analitička geometrija u ravni.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Media/zlatna podela.png",
