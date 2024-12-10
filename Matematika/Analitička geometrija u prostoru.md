@@ -8,7 +8,7 @@
   normalizovana je ako je normalni vektor jedinični:
   $\begin{align}\alpha:\ \frac{a}{\sqrt[]{a^{2}+b^{2}+c^{2}}}\,x+\frac{b}{\sqrt[]{a^{2}+b^{2}+c^{2}}}\,y+\frac{c}{\sqrt[]{a^{2}+b^{2}+c^{2}}}z+\frac{d}{\sqrt[]{a^{2}+b^{2}+c^{2}}}=0\end{align}$ $\quad$ — jedinstvena do na znak, tj. na smer vektora normale.
   $\:$
-- $\forall \mathrm{M}\in \alpha\quad\boxed{\overrightarrow{\rm PM}\circ \overrightarrow{n_{\alpha}}=0}$, gde je $\ \:\mathrm{P}(x_{0},\,y_{0},\,z_{0})\in p$, $\ \:\overrightarrow{n_{p}}\:$ normalni vektor.
+- $\forall \mathrm{M}\in \alpha\quad\boxed{\overrightarrow{\rm AM}\circ \overrightarrow{n_{\alpha}}=0}$, gde je $\ \:\mathrm{A}(x_{0},\,y_{0},\,z_{0})\in \alpha$, $\ \:\overrightarrow{n_{\alpha}}\:$ normalni vektor.
   $(x-x_{0},\,y-y_{0},\,z-z_{0})\circ(a,\,b,\,c)=0$
   $a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0$
   $ax+by+cz\underbrace{-ax_{0}-by_{0}-cz_{0}}_{=\,d}=0$

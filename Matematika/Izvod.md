@@ -49,7 +49,7 @@ Tada $\begin{align}g\,\mathcal{D}\,y_{0},\quad g'(y_{0})=\frac{1}{f'(x_{0})}\end
 $f^{(0)}:=f$
 $f^{(n+1)}:=\big(f^{(n)}\big)',\ \ \forall n\in\mathbb{N}_{0}$
 
-[[analiza1_2_izvodiVisegReda.png|Viši izvodi nekih fja]]
+[[analiza1_2_izvodiVisegReda.png|Izvodi višeg reda nekih fja]]
 
 [[analiza1_2_lajbnicovo.png|Teorema]] (Lajbnicovo pravilo).
 $(\begin{align}f\cdot g)^{(n)}=\sum\limits_{k=0}^{n}\binom{n}{k}f^{(k)}g^{(n-k)}\end{align}$

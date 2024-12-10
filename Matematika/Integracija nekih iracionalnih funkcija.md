@@ -14,7 +14,7 @@ gde je $R$ racionalna funkcija od dva argumenta, rešavamo nekim od sledećih me
 - **Mnogo smena:**
   Dopunjamo do kvadrata binoma:
   $\begin{align}\sqrt[]{ax^{2}+bx+c}=\sqrt[]{\mathrm{sgn}\,a\bigg(\Big(\underbrace{\sqrt[]{|a|}x+\frac{b}{2\sqrt[]{|a|}}}_{=\,t}\Big)^{2}\underbrace{-\frac{b^{2}}{4a}+c}_{=\,\alpha\,\in\,\mathbb{R}}\bigg)}=\sqrt[]{ \mathrm{sgn}\,a\,(t^{2}+\alpha)}\end{align}$
-  još jednom smenom $u = \frac{t}{\sqrt[]{|\alpha|}}$ dobijamo $\sqrt[]{|\alpha|}\,\sqrt[]{1-u^{2}},\ \sqrt[]{|\alpha|}\,\sqrt[]{u^{2}-1}\,$ ili $\sqrt[]{|\alpha|}\,\sqrt[]{1+u^{2}}$, što dalje rešavamo trigonometrijskom smenom iz [[Integracija nekih iracionalnih funkcija#Korisne smene za oslobođenje od korena|odeljka gore]] — dobijamo integral [[Integracija racionalnih funkcija od sinusa i kosinusa|oblika]] $\begin{align}\int R_{1}(\sin s,\,\cos s) \, ds \end{align}$
+  još jednom smenom $u = \frac{t}{\sqrt[]{|\alpha|}}$ dobijamo $\sqrt[]{|\alpha|}\,\sqrt[]{1-u^{2}},\ \sqrt[]{|\alpha|}\,\sqrt[]{u^{2}-1}\,$ ili $\sqrt[]{|\alpha|}\,\sqrt[]{1+u^{2}}$, što dalje rešavamo trigonometrijskom smenom iz [[Integracija nekih iracionalnih funkcija#Smene za oslobođenje od korena|odeljka gore]] — dobijamo integral [[Integracija racionalnih funkcija od sinusa i kosinusa|oblika]] $\begin{align}\int R_{1}(\sin s,\,\cos s) \, ds \end{align}$
 $\:$
 - **I Ojlerova smena**, ako $a>0$
   $\sqrt[]{ax^{2}+bx+c}=\pm\sqrt[]{a}\,x\pm t$
