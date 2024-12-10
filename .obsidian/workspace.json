@@ -11,10 +11,14 @@
             "id": "cb000a44bf9da824",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Računarstvo/Računarstvo.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Računarstvo"
             }
           }
         ]
@@ -182,15 +186,17 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "cb000a44bf9da824",
+  "active": "bdbbe8b6f74eb67e",
   "lastOpenFiles": [
+    "Računarstvo/Računarski sistem.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Programski jezik C.md",
     "Home.md",
     "Matematika/Kombinatorika.md",
     "Matematika/Određeni integral.md",
     "Matematika/Analiza.md",
     "Matematika/Primene određenog integrala.md",
     "Matematika/Matematika.md",
-    "Računarstvo/Računarstvo.md",
     "@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
     "Matematika/Nesvojstveni integral.md",
     "Matematika/Metode integracije (određeni integral).md",
@@ -201,7 +207,7 @@
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "Matematika/Krive drugog reda.md",
-    "Ispravnost programa.md",
+    "Računarstvo/Ispravnost programa.md",
     "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
     "Matematika/Geometrija.md",
     "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
@@ -211,7 +217,6 @@
     "Media/analiza1_2_lp.png",
     "Matematika/Integracija nekih iracionalnih funkcija.md",
     "Matematika/Analitička geometrija u ravni.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Media/zlatna podela.png",
     "Media/teorema. R je neprebrojiv.png",
     "Media/predik4.png",
@@ -221,7 +226,6 @@
     "Media/Fib2.png",
     "Media/bulov proizvod primer.png",
     "Media/analiza1_2_skala.png",
-    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
     "Media/transformacija baze 2 geo.png.~tmp",
     "Untitled.canvas",
     "Foursenser",
