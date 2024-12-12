@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5f077a9b007bb765",
+        "id": "830b37a1bbebfed2",
         "type": "tabs",
         "children": [
           {
-            "id": "cb000a44bf9da824",
+            "id": "7a35590948c677fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Računarstvo/Računarstvo.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Računarstvo"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -186,9 +182,16 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "cb000a44bf9da824",
+  "active": "7a35590948c677fe",
   "lastOpenFiles": [
+    "Računarstvo/Doseg, životni vek i povezanost (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
     "Home.md",
+    "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Analiza.md",
+    "desktop.ini",
     "Matematika/Integracija racionalnih funkcija.md",
     "Matematika/Grafik funkcije.md",
     "Matematika/Geometrija.md",
@@ -208,12 +211,6 @@
     "Matematika/Centar mase i težište.md",
     "Matematika/Celi brojevi.md",
     "Matematika/Bulova algebra.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Broj e.md",
-    "Matematika/Binomni koeficijenti.md",
-    "Matematika/Binomna formula.md",
-    "Matematika/Bilinearna i kvadratna forma.md",
-    "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "Media/analiza1_2_lp.png",
@@ -235,7 +232,6 @@
     "Git/Računarstvo",
     "Git/Media",
     "Git/Matematika",
-    "Git",
-    "Zettelkasten"
+    "Git"
   ]
 }

@@ -144,4 +144,4 @@ $\:$
 > $\begin{align}\exists\min_{x\in[a,\,b]} f(x)=\inf_{x\in[a,\,b]} f(x)=m\ \ \text{i}\ \ \exists\max_{x\in[a,\,b]} f(x)=\sup_{x\in[a,\,b]} f(x)=M\end{align}$
 >
 >Iz prethodnog stava $\begin{align}\exists \mu\in[m,\,M]\quad\int_{a}^{b} f(x) \, dx=\mu(b-a)\end{align}$
-> $f\,\mathcal{C}\,[a,\,b]\quad\overset{\text{teorema o međuvrednosti}}{\Rightarrow}\quad\exists c\in[a,\,b]\ \ :\ \ f(c)=mu$
+> $f\,\mathcal{C}\,[a,\,b]\quad\overset{\text{teorema o međuvrednosti}}{\Rightarrow}\quad\exists c\in[a,\,b]\ \ :\ \ f(c)=\mu$

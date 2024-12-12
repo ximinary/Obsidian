@@ -75,7 +75,7 @@ int main() {
 
 Globalne i statičke lokalne promenljive se inicijalizuju nulom.
 
-### Povezanost identifikatora. ```ststic``` i ```extern```
+### Povezanost identifikatora. ```static``` i ```extern```
 — promenljive sa istim imenom u različitim objektnim modulima.
 
 - BEZ POVEZANOSTI:
@@ -126,7 +126,7 @@ a = 1
 ```
 
 - SA UNUTRAŠNJOM POVEZANOŠĆU
-	- globalna promenljiva/fja sa kvalifikatorom ```ststic``` 
+	- globalna promenljiva/fja sa kvalifikatorom ```static``` 
 	  (neće biti povezana sa promenjivoj/fjoj sa istim imenom u drugom fajlu)
 
 Primer:
