@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "830b37a1bbebfed2",
+        "id": "53df4d71dcbf8b92",
         "type": "tabs",
         "children": [
           {
-            "id": "7a35590948c677fe",
+            "id": "e8fee9823426a1d8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Matematika.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Matematika"
             }
           }
         ]
@@ -182,17 +186,23 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "7a35590948c677fe",
+  "active": "e8fee9823426a1d8",
   "lastOpenFiles": [
+    "Matematika/Matematika.md",
+    "Matematika/Analiza.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Integracija racionalnih funkcija.md",
+    "Matematika/Integracija nekih iracionalnih funkcija.md",
+    "Matematika/Izvod.md",
+    "Media/analiza1_2_osnovniIzvodi.png",
+    "Home.md",
+    "Matematika/Afino preslikavanje u prostoru.md",
     "Računarstvo/Doseg, životni vek i povezanost (C).md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Računarstvo.md",
-    "Home.md",
     "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
     "Matematika/Određeni integral.md",
-    "Matematika/Analiza.md",
     "desktop.ini",
-    "Matematika/Integracija racionalnih funkcija.md",
     "Matematika/Grafik funkcije.md",
     "Matematika/Geometrija.md",
     "Matematika/Funkcija generatrisa.md",
@@ -206,11 +216,6 @@
     "Matematika/Direktna i inverzna slika skupa.md",
     "Matematika/Diofantova jednačina.md",
     "Matematika/Determinanta.md",
-    "Matematika/Deljivost.md",
-    "Matematika/Dekartov proizvod.md",
-    "Matematika/Centar mase i težište.md",
-    "Matematika/Celi brojevi.md",
-    "Matematika/Bulova algebra.md",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "Media/analiza1_2_lp.png",
@@ -222,7 +227,6 @@
     "Media/karakteri konverzije scanf.png",
     "Media/Fib2.png",
     "Media/bulov proizvod primer.png",
-    "Media/analiza1_2_skala.png",
     "Media/transformacija baze 2 geo.png.~tmp",
     "Untitled.canvas",
     "Foursenser",
