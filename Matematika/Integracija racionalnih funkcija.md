@@ -34,9 +34,9 @@ $\begin{align}\Rightarrow\quad I_{k+1}(t) = \frac{t}{2k\,(t^{2}+1)^{k}} + \frac{
 $\:$
 $I_{1}(t) = \mathrm{arctg}\,t+C$
 $\:$
-$\begin{align} I_{2}(t) \xlongequal{k \,= \,1} \frac{t}{2\,(t^{2}+1)^{k}} + \frac{1}{2}\, I_{1}(t)=\frac{t}{2\,(t^{2}+1)^{k}} + \frac{1}{2}\mathrm{arctg}\,t+C\end{align}$
+$\begin{align} I_{2}(t) \xlongequal{k \,= \,1} \frac{t}{2\,(t^{2}+1)} + \frac{1}{2}\, I_{1}(t)=\frac{t}{2\,(t^{2}+1)} + \frac{1}{2}\mathrm{arctg}\,t+C\end{align}$
 $\:$
-$\begin{align} I_{3}(t) \xlongequal{k \,= \,2} \frac{t}{4\,(t^{2}+1)^{k}} + \frac{3}{4}\, I_{2}(t)=\dots\end{align}$
+$\begin{align} I_{3}(t) \xlongequal{k \,= \,2} \frac{t}{4\,(t^{2}+1)^{2}} + \frac{3}{4}\, I_{2}(t)=\dots\end{align}$
 $\:$
 7. $M,\,N,\,b,\,c\in \mathbb{R}\quad b^{2}-4c<0\quad x \in \mathbb{R}$
    $\:$
