@@ -15,7 +15,7 @@ Ekscentritet: $\begin{align}e=\frac{c}{a}\end{align}$
 $\:$
 > Specijalni slučajevi:
 > $a=b$, dobija se krug $e= 0$
-> $a\to+\infty$, dobija se parabola $e=1$
+> $a \gg b$, dobija se parabola $e=1$
 
 $\:$
 **Parametarska jednačina**:
@@ -29,3 +29,9 @@ $\:$
 > Dokaz:
 > $\mathrm{MF}_{1}+\mathrm{MF}_{2}=e\cdot\mathrm{d}(\mathrm{M},\,d_{1})+e\cdot\mathrm{d}(\mathrm{M},\,d_{2})=e\cdot\mathrm{d}(d_{1},\,d_{2})=$
 > $\begin{align}=e\cdot2\frac{a^{2}}{c}=e\cdot2\frac{a}{e}=2a\end{align}$
+
+$\:$
+**Lema**. Tangenta elipse $\begin{align}\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1\end{align}$ u tački $T=(x_{0},\,y_{0})$ je data sa $\begin{align}\boxed{t:\ \frac{xx_{0}}{a^{2}}+\frac{yy_{0}}{b^{2}}=1}\end{align}$.
+
+$\:$
+**Teorema** (Optička osobina elipse). Svetlosni zrak koji izlazi iz jedne žiže elipse odbija se od elipse i prolazi kroz drugu žižu.

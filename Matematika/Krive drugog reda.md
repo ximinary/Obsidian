@@ -2,7 +2,7 @@
 
 ### Krive drugog reda
 **Def**. Kriva drugog reda je skup tačaka u ravni koje zadovoljavaju jednačinu $f(x,\,y) =a_{11}\,x^{2}+2a_{12}\,x\,y+a_{22}\,x^{2}+2a_{13}\,x +2a_{23}\,y + a_{33}=0$
-$f(x,\,y)=\left(\begin{array}{}x\\y\\1\end{array}\right)\left(\begin{array}{}a_{11}&a_{12}&a_{13}\\a_{12}&a_{22}&a_{23}\\a_{13}&a_{23}&a_{33}\end{array}\right)\left(\begin{array}{}x&y&1\end{array}\right)$
+$f(x,\,y)=\left(\begin{array}{}x&y&1\end{array}\right)\left(\begin{array}{}a_{11}&a_{12}&a_{13}\\a_{12}&a_{22}&a_{23}\\a_{13}&a_{23}&a_{33}\end{array}\right)\left(\begin{array}{}x\\y\\1\end{array}\right)$
 
 **Teorema** (o svođenju krive drugog reda na kanonski oblik "kretanjem"). Svaku krivu drugog reda rotacijom i translacijom koordinata moguće je svesti na tačno jedan od oblika:
 
