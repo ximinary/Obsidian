@@ -13,4 +13,6 @@ $\:$
 	- Virtuelna memorija
 - Operativni sistem
 	- Proseci
+	- Sinhronizacija
+	- Zaglavljivanje
 	- 
