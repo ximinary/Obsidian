@@ -100,7 +100,7 @@ $\:$
 Tada $\begin{align}\int_{a}^{b} f(x) \, dx \geqslant0\end{align}$
 > Dokaz:
 > Neka je $(\mathcal{P},\,\xi)$ proizvoljna podela sa istaknutim tačkama intervala $[a,\,b]$.
->Tada, $\begin{align}\sigma(f,\,\mathcal{P},\,\xi)=\sum\limits_{i=1}^{n}(f)(\xi_{i})(x_{i}-x_{i-1})\geqslant0\end{align}$
+>Tada, $\begin{align}\sigma(f,\,\mathcal{P},\,\xi)=\sum\limits_{i=1}^{n}f(\xi_{i})(x_{i}-x_{i-1})\geqslant0\end{align}$
 >
 >Odakle, $\begin{align}\int_{a}^{b} f(x) \, dx=\lim\limits_{ \lambda(\mathcal{P}) \to 0 }\sigma(f,\,\mathcal{P},\,\xi) \geqslant0\end{align}$
 

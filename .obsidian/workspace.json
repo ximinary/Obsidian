@@ -13,35 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Kombinatorika.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Kombinatorika"
-            },
-            "group": "6a521c64edd9c4c4"
-          }
-        ]
-      },
-      {
-        "id": "eef54eb8af87878d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4786be9c2c2c0bfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Kombinatorika.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kombinatorika"
-            },
-            "group": "6a521c64edd9c4c4"
+              "title": "Home"
+            }
           }
         ]
       }
@@ -208,36 +186,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4786be9c2c2c0bfe",
+  "active": "d7bfbadf3120781d",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
+    "Media/analiza1_2_Tejlor.png",
     "Matematika/Analiza.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
+    "Matematika/Nesvojstveni integral.md",
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Računarski sistem.md",
     "Matematika/Geometrija.md",
     "Matematika/Krive drugog reda.md",
+    "Matematika/Kombinatorika.md",
     "Matematika/Parabola.md",
     "Matematika/Hiperbola.md",
     "Matematika/Elipsa.md",
-    "Home.md",
     "Matematika/Krug.md",
     "conflict-files-obsidian-git.md",
-    "Media/analiza1_2_Tejlor.png",
     "Matematika/Neodređeni integral.md",
     "@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
-    "Računarstvo/Računarstvo.md",
     "Računarstvo/Programski jezik C.md",
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Složenost algoritma.md",
-    "Matematika/Kombinatorika.md",
     "Računarstvo/Doseg, životni vek i povezanost (C).md",
-    "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
-    "Matematika/Određeni integral.md",
     "desktop.ini",
     "Matematika/Integracija racionalnih funkcija.md",
     "Matematika/Grafik funkcije.md",
     "Matematika/Funkcija generatrisa.md",
-    "Matematika/Funkcija.md",
-    "Matematika/Formula uključenja-isključenja.md",
-    "Matematika/Fibonačijevi i Lukasovi brojevi. Zlatna podela.md",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "Media/analiza1_2_lp.png",
