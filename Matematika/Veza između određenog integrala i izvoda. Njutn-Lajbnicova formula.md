@@ -17,7 +17,7 @@ $f\,\mathcal{R}\,[a,\,b]$;$\quad$ $\varphi:[a,\,b]\to\mathbb{R}$ def. sa $\begin
 > $\begin{align}|x-x_{0}|<\frac{\varepsilon}{M}=:\delta\end{align}$
 
 $\:$
-Teorema. $f\,\mathcal{C}\,[a,\,b]\quad\Rightarrow\quad \varphi\,\mathcal{C}^{1}\,[a,\,b]$, i važi
+**Teorema**. $f\,\mathcal{C}\,[a,\,b]\quad\Rightarrow\quad \varphi\,\mathcal{C}^{1}\,[a,\,b]$, i važi
 $\forall x\in(a,\,b)\quad\varphi'(x)=f(x)$; $\quad$ $\varphi'_{+}(a)=f(a)$; $\quad$ $\varphi'_{-}(b)=f(b)$ ^634405
 > Dokaz:
 > $x\in[a,\,b]$ proizvoljno

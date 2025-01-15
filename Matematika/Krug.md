@@ -18,3 +18,7 @@ $\:$
 
 Žiža se podudara sa centrom kruga; direktrisa je beskonačno daleka prava.
 Ekscentritet: $e=0$
+
+
+$\:$
+**Lema**. Tangenta kruga $(x-a)^{2}+(y-b)^{2}=r^{2}$ u tački $T=(x_{0},\,y_{0})$ je data sa $\begin{align}\boxed{t:\ (x-a)(x_{0}-a)+(y-b)(y_{0}-b)=r^{2}}\end{align}$.

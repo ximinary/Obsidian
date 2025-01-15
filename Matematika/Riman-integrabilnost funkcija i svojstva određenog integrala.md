@@ -19,12 +19,12 @@ $f\,\mathcal{R}\,[a,\,b]\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exist
 >  
 >  Treba naći $\varepsilon>0$, takav da $\forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad S(f,\,\mathcal{P})-s(f,\,\mathcal{P})\geqslant\varepsilon$.
 >  
->  $\exists c,\,d\in\mathbb{R}\ \ :\ \ \forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad s(f,\,\mathcal{P})\leqslant I_{*}<c<d<I^{*}\leqslant S(f,\,\mathcal{P})$
->   - $S(f,\,\mathcal{P}) > d$
->  - $-s(f,\,\mathcal{P}) > -c$
+>  $\forall\mathcal{P}\in\mathcal{P}[a,\,b]\quad s(f,\,\mathcal{P})\leqslant I_{*}<I^{*}\leqslant S(f,\,\mathcal{P})$
+>   - $S(f,\,\mathcal{P}) \geqslant I^{*}$
+>  - $-s(f,\,\mathcal{P}) \geqslant -I_{*}$
 >
->Odakle, $S(f,\,\mathcal{P})-s(f,\,\mathcal{P}) > d-c > 0$.
->$\varepsilon:=d-c$
+>Odakle, $S(f,\,\mathcal{P})-s(f,\,\mathcal{P}) \geqslant I^{*}-I_{*} > 0$.
+>$\varepsilon:=I^{*}-I_{*}$
 
 $\:$
 **Teorema**. $f:\ [a,\,b]\to \mathbb{R}$ je neprekidna. Tada  $f\,\mathcal{R}\,[a,\,b]$
@@ -80,7 +80,7 @@ $\:$
 **Stav**.  $f,\,g\,\mathcal{R}\,[a,\,b]$. Tada
 1. $(f\cdot g)\,\mathcal{R}\,[a,\,b]$
 2. $|f|\,\mathcal{R}\,[a,\,b]$
-3. $\begin{align}\frac{1}{f}\,\mathcal{R}\,[a,\,b],\quad\text{ako}\ \ \exists c\in[a,\,b]\quad\forall x\in[a,\,b]\quad |f(x)|>c\end{align}$
+3. $\begin{align}\frac{1}{f}\,\mathcal{R}\,[a,\,b],\quad\text{ako}\ \ \exists c>0\quad\forall x\in[a,\,b]\quad |f(x)|>c\end{align}$
 4. $f\,\mathcal{R}\,[c,\,d],\quad\text{za}\ \ [c,\,d]\subset[a,\,b]$
 
 **Stav**. $f:[a,\,b]\to\mathbb{R}$, $\ \:$ $c\in(a,\,b)$. Tada
@@ -114,12 +114,10 @@ $\:$
 
 $\:$
 **Posledica 2**. $f\,\mathcal{R}\,[a,\,b]$. Tada $\begin{align}\left|\int_{a}^{b} f(x) \, dx \right|\leqslant\int_{a}^{b} \big|f(x)\big| \, dx \end{align}$
-> Dokaz: 
-> $\forall x\in [a,\,b] \quad -|f(x)|\overset{1.}\leqslant f(x) \overset{2.}\leqslant|f(x)|$
+> Dokaz:  
+> $\begin{align}\forall x\in [a,\,b] \quad -f(x)\leqslant |f(x)| \quad\Rightarrow\quad-\int_{a}^{b} f(x) \, dx\leqslant \int_{a}^{b} |f(x)| \, dx\end{align}$ 
 > 
-> $\begin{align}1. \quad\Rightarrow\quad-\int_{a}^{b} |f(x)| \, dx \leqslant\int_{a}^{b} f(x) \, dx \quad\Rightarrow\quad-\int_{a}^{b} f(x) \, dx\leqslant \int_{a}^{b} |f(x)| \, dx\end{align}$ 
-> 
-> $\begin{align}2. \quad\Rightarrow\quad\int_{a}^{b} f(x) \, dx \leqslant\int_{a}^{b} |f(x)| \, dx\end{align}$ 
+> $\begin{align}\forall x\in [a,\,b] \quad f(x)\leqslant|f(x)| \quad\Rightarrow\quad\int_{a}^{b} f(x) \, dx \leqslant\int_{a}^{b} |f(x)| \, dx\end{align}$ 
 
 $\:$
 ### Predstavljanje određenog integrala proizvodom
