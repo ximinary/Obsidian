@@ -68,7 +68,7 @@ Odakle,
 
 Važi $I_{*}\leqslant I^{*}$.
 
-**Teorema** (Definicija pomoću Darbuovih suma). Ako $I_{*}=I^{*}=I$ onda je $I=\begin{align}\int_{a}^{b} f(x) \, dx \end{align}$ Rimanov integral fje $f$ na $[a,\,b]$.
+**Teorema** (Definicija pomoću Darbuovih suma). Ako $I_{*}=I^{*}$ onda je taj broj Rimanov integral fje $f$ na $[a,\,b]$, $\quad$ tj. $\begin{align}I_{*}=I^{*}=\int_{a}^{b} f(x) \, dx \end{align}$.
 
 ### [[Riman-integrabilnost funkcija i svojstva određenog integrala]]
 

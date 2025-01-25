@@ -4,7 +4,7 @@ $\:$
 ___
 **Teorema** (o smene promenljive).
 Neka je $f:\ [a,\,b]\to\mathbb{R}$, $\ \:$ $f\,\mathcal{C}\,[a,\,b]$
-i neka je $g:\ [\alpha,\,\beta]\to[a,\,b]$, $\ \:$ $\varphi\,\mathcal{C}^{1}\,[\alpha,\,\beta]$
+i neka je $g:\ [\alpha,\,\beta]\to[a,\,b]$, $\ \:$ $g\,\mathcal{C}^{1}\,[\alpha,\,\beta]$
 Tada, $\begin{align}\int_{g(\alpha)}^{g(\beta)} f(x) \, dx = \int_{\alpha}^{\beta} \Big((f\circ g)\cdot g'\Big)(t) \, dt=\int_{\alpha}^{\beta} f\big(g(t)\big)\cdot g'(t) \, dt\end{align}$
 >Dokaz:
 >Neka je $F:\ [a,\,b]\to\mathbb{R}$ primitivna za $f$ na $[a,\,b]$

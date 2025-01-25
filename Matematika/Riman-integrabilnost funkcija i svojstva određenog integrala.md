@@ -33,14 +33,20 @@ $\:$
 > Dokaz: neka $f\uparrow$ nije konstantna.
 > Tada $\forall x\in[a,\,b]\quad f(a)\leqslant f(x)\leqslant f(b)$. Tj $f$ je ograničena.
 > 
-> Da bismo dokazali integrabilnost pomoću [[Određeni integral#^fdf6e4|teoreme]], za proizvoljno $\varepsilon>0$ treba naći $\mathcal{P}\in\mathcal{P}[a,\,b]$ takvo da $S(f,\,\mathcal{P})-s(f,\,\mathcal{P})<\varepsilon$.
+> Da bismo dokazali integrabilnost pomoću [[Određeni integral#^fdf6e4|teoreme]], za proizvoljno $\varepsilon>0$ treba naći $\mathcal{P}\in\mathcal{P}[a,\,b]$ takvu da $S(f,\,\mathcal{P})-s(f,\,\mathcal{P})<\varepsilon$.
 > 
-> $\begin{align}S(f,\,\mathcal{P})-s(f,\,\mathcal{P})=\sum\limits_{i=1}^{n}(M_{i}-m_{i})(x_{i}-x_{i-1})=\end{align}$
-> >$M_{i}$ i $m_{i}$ postoje zbog ograničenosti.
-> >$f\uparrow\quad\Rightarrow\quad M_{i}=f(x_{i}),\ \ m_{i}=f(x_{i-1})$
+> $\begin{align}S(f,\,\mathcal{P})-s(f,\,\mathcal{P})=\end{align}$
+> > $m_{i}=\min\limits_{x\in[x_{i-1},\,x_{i}]}f(x)\quad M_{i}=\max\limits_{x\in[x_{i-1},\,x_{i}]}f(x),\quad \forall i=\overline{1,n}$
+> > (postoje zbog ograničenosti)
+> 
+> $\begin{align}=\sum\limits_{i=1}^{n}(M_{i}-m_{i})(x_{i}-x_{i-1})=\end{align}$
+> >$\forall i=\overline{1,n}\quad x_{i}-x_{i-1}\leqslant\lambda(\mathcal{P})$
 >
-> $\begin{align}=\sum\limits_{i=1}^{n}\Big(f(x_{i})-f(x_{i-1})\Big)(x_{i}-x_{i-1})\leqslant\sum\limits_{i=1}^{n}\Big(f(x_{i})-f(x_{i-1})\Big)\lambda(\mathcal{P})=\end{align}$
-> $=\Big(f(b)-f(a)\Big)\lambda(\mathcal{P})<\varepsilon$
+> $\begin{align}\leqslant\sum\limits_{i=1}^{n}\Big(M_{i}-m_{i}\Big)\lambda(\mathcal{P})=\end{align}$
+>
+> >$f\uparrow\quad\Rightarrow\quad M_{i}= m_{i+1},\quad \forall i=\overline{1,n-1}$
+> 
+> $=\Big(M_{n}-m_{1}\Big)\lambda(\mathcal{P}) =\Big(f(b)-f(a)\Big)\lambda(\mathcal{P})<\varepsilon$
 > 
 > Konačno, $\begin{align}\exists \mathcal{P}\in\mathcal{P}[a,\,b]\ \ :\ \ \lambda(\mathcal{P})<\frac{\varepsilon}{f(b)-f(a)}\end{align}$
 

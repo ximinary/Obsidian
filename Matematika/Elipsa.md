@@ -35,3 +35,6 @@ $\:$
 
 $\:$
 **Teorema** (Optička osobina elipse). Svetlosni zrak koji izlazi iz jedne žiže elipse odbija se od elipse i prolazi kroz drugu žižu.
+
+$\:$
+**Stav**. Površina elipse $\begin{align}\ \ E:\ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1, \quad 0<a\leqslant b\ \ \end{align}$ je $S(E)=\pi\,a\,b$.

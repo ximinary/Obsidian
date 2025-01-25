@@ -9,7 +9,10 @@ $\Phi=\Big\{ (x,\,y) \ \ \Big|\ \ a\leqslant x\leqslant b\quad g(x)\leqslant y\l
 Tada površina te figure je
 $\begin{align}P(\Phi)=\int_{a}^{b} \Big(f(x)-g(x)\Big) \, dx\end{align}$
 ### Dužina krive
+Neka je $f:\ [a,\,b]\to\mathbb{R}$ neprekidna.
 
+Tada dužina krive $f$ je
+$\begin{align}L(f)=\int_{a}^{b} \sqrt[]{1+\big(f'(x)\big)^{2}} \, dx\end{align}$
 ### Zapremina tela dobijenog rotiranjem krive
 
 ### Površina omotača tela dobijenog rotiranjem krive
