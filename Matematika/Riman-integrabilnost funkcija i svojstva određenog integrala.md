@@ -58,7 +58,7 @@ $\begin{align}\int_{a}^{b} f(x) \, dx = \int_{a}^{b} g(x) \, dx\end{align}$
 
 ### Svojstva određenog integrala
 **Stav**.  $f,\,g\,\mathcal{R}\,[a,\,b]$; $\ \ \alpha,\,\beta\in\mathbb{R}$. Tada $(\alpha\,f+\beta\,g)\,\mathcal{R}\,[a,\,b]$ i važi
-$\begin{align}\int_{a}^{b} (\alpha\,f+\beta\,g)(x) \, dx = \alpha\int_{a}^{b} f(x) \, dx+\beta \int_{a}^{b} g(x) \, dx \end{align}$
+$\begin{align}\int_{a}^{b} (\alpha\,f+\beta\,g)(x) \, dx = \alpha\int_{a}^{b} f(x) \, dx+\beta \int_{a}^{b} g(x) \, dx \end{align}$ ^331d1c
 > Dokaz:
 > 1. Dokazati: $(f+g)\,\mathcal{R}\,[a,\,b]$ i $\begin{align}\int_{a}^{b} (f+g)(x) \, dx = \int_{a}^{b} f(x) \, dx + \int_{a}^{b} g(x) \, dx \end{align}$
 >
@@ -99,7 +99,7 @@ $f\,\mathcal{R}\,[a,\,b]\quad\Leftrightarrow\quad f\,\mathcal{R}\,[a,\,c]\ \ \te
 - za $\begin{align}f\,\mathcal{R}\,[a,\,b]\quad \int_{a}^{b} f(x) \, dx = -\int_{b}^{a} f(x) \, dx \end{align}$
   $\:$
 - za $f\,\mathcal{R}\,\big[\min\{ a,\,b,\,c \},\,\max\{ a,\,b,\,c \}]$
-  $\begin{align} \int_{a}^{b} f(x) \, dx =\int_{a}^{c} f(x) \, dx+\int_{c}^{b} f(x) \, dx \end{align}$
+  $\begin{align} \int_{a}^{b} f(x) \, dx =\int_{a}^{c} f(x) \, dx+\int_{c}^{b} f(x) \, dx \end{align}$ ^58dd87
 
 $\:$
 **Stav**. $f\,\mathcal{R}\,[a,\,b] \ \ \ \text{i}\ \ \ \forall x\in[a,\,b]\quad f(x)\geqslant0$.

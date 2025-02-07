@@ -16,9 +16,9 @@ $\quad$ 2\. $\big(\forall x\in\mathring I\quad f'(x)>0\big)\ \ \Rightarrow \ \ f
 $\quad$ 3\. $\big(\forall x\in\mathring I\quad f'(x)\leqslant0\big)\ \ \Leftrightarrow \ \ f\!\downarrow$
 $\quad$ 3\. $\big(\forall x\in\mathring I\quad f'(x)<0\big)\ \ \Rightarrow \ \ f\!\downarrow\downarrow$ ^9f49d5
 
-[[analiza1_2_lagranž_p3.png|Posledica 3]]. $\exists \lim\limits_{ x \to x_{0}^{+/-} }f'(x) = L\in\overline{\mathbb{R}} \ \ \Rightarrow\ \ f'_{+/-}(x_{0})=L$
+[[analiza1_2_lagranž_p3.png|Posledica 3]]. $\exists \lim\limits_{ x \to x_{0}^{+/-} }f'(x) = L\in\overline{\mathbb{R}} \ \ \Rightarrow\ \ f'_{+/-}(x_{0})=L$ ^c133de
 
 [[analiza1_2_koši.png|Teorema]] (Košijeva o srednjoj vrednosti).
 $f,\,g:[a,\,b]\to\mathbb{R};\ f,\,g\,\mathcal{C}\,[a,\,b];\ f,\,g\,\mathcal{D}\,(a,\,b);$
 $\forall x\in (a,\,b)\ \ \ f'(x)\ne 0.$
-Tada $\begin{align}\exists \xi\in(a,\,b)\ : \ \frac{f'(\xi)}{g'(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}\end{align}$
+Tada $\begin{align}\exists \xi\in(a,\,b)\ : \ \frac{f'(\xi)}{g'(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}\end{align}$ ^517ee9

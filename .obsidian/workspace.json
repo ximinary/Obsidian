@@ -4,23 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "f87fe2dfaffbf69d",
+        "id": "d2dc9aaacef408bb",
         "type": "tabs",
         "children": [
           {
-            "id": "e7d9426c1c39c4bd",
+            "id": "8866019d3d200f47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "backlinks": false,
+                "file": "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
-            }
+              "title": "Kriterijumi konvergencije nesvojstvenih integrala"
+            },
+            "group": "0a8f9ffc141bfb02"
+          }
+        ]
+      },
+      {
+        "id": "211816267c598edc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c307ae31f35cca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Kriterijumi konvergencije nesvojstvenih integrala"
+            },
+            "group": "0a8f9ffc141bfb02"
           }
         ]
       }
@@ -41,7 +62,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -95,7 +117,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -117,10 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Matematika/Nesvojstveni integral.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of Nesvojstveni integral"
             }
           },
           {
@@ -129,12 +156,31 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neodređeni integral.md",
+                "file": "Matematika/Nesvojstveni integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Neodređeni integral"
+              "title": "Outgoing links from Nesvojstveni integral"
+            }
+          },
+          {
+            "id": "fb1cb981488b0a7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Matematika/Nesvojstveni integral.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Nesvojstveni integral"
             }
           },
           {
@@ -152,10 +198,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "webpage-html-export:Export Vault to HTML": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": true,
@@ -164,43 +211,42 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7d9426c1c39c4bd",
+  "active": "5c307ae31f35cca8",
   "lastOpenFiles": [
-    "Matematika/Krive drugog reda.md",
-    "Matematika/Elipsa.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Geometrija.md",
+    "Matematika/Nesvojstveni integral.md",
+    "Matematika/Analiza.md",
     "Matematika/Matematika.md",
     "Home.md",
-    "Matematika/Metode integracije (određeni integral).md",
-    "Matematika/Metode integracije (neodređeni integral).md",
-    "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
-    "Matematika/Primene određenog integrala.md",
-    "Matematika/Analiza.md",
-    "Matematika/Nesvojstveni integral.md",
-    "Računarstvo/Računarstvo.md",
-    "Matematika/Neodređeni integral.md",
-    "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
+    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Matematika/Geometrija.md",
+    "Matematika/Analitička geometrija u prostoru.md",
     "Matematika/Limes funkcije.md",
+    "Matematika/Asimptota.md",
+    "Matematika/Gama funkcija i beta funkcija.md",
+    "Matematika/Grafik funkcije.md",
+    "Matematika/Izvod.md",
+    "Matematika/Neprekidnost.md",
+    "Matematika/Limes niza.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Primene određenog integrala.md",
+    "Matematika/Prekidi.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Krive drugog reda.md",
+    "Matematika/Analitička geometrija u ravni.md",
+    "Matematika/Reper. Koordinate vektora i tačke.md",
+    "Matematika/Centar mase i težište.md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Računarstvo.md",
     "Media/analiza1_1_2.png",
-    "Matematika/Krug.md",
-    "@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
-    "Zettelkasten/- TODEL.md",
-    "Matematika/Integracija nekih iracionalnih funkcija.md",
-    "Matematika/Integracija racionalnih funkcija od sinusa i kosinusa.md",
-    "Matematika/Integracija racionalnih funkcija.md",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
-    "Drugo/DS1 — beleške.md",
-    "Drugo/todo.md",
     "Media/ds1_beleške-02.png",
     "Media/ds1_beleške-01.png",
-    "Matematika/Brojevi.md",
-    "Matematika/Kombinatorika.md",
     "Media/analiza1_2_Tejlor.png",
     "desktop.ini",
     "Media/analiza1_2_lp.png",

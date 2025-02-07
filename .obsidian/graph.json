@@ -11,45 +11,34 @@
       "query": "tag:#home  ",
       "color": {
         "a": 1,
-        "rgb": 12452044
-      }
-    },
-    {
-      "query": "tag:#zettelkasten  ",
-      "color": {
-        "a": 1,
-        "rgb": 39234
+        "rgb": 12124369
       }
     },
     {
       "query": "tag:#math  ",
       "color": {
         "a": 1,
-        "rgb": 4980991
+        "rgb": 852167
       }
     },
     {
       "query": "tag:#cs  ",
       "color": {
         "a": 1,
-        "rgb": 12386304
+        "rgb": 14877186
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -2,
-  "nodeSizeMultiplier": 1.01327659574468,
-  "lineSizeMultiplier": 1.325,
+  "textFadeMultiplier": -0.7,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.475248226950355,
-  "repelStrength": 10.0496453900709,
-  "linkStrength": 0.738510638297872,
-  "linkDistance": 187,
-<<<<<<< HEAD
-  "scale": 0.482004556709659,
-=======
-  "scale": 0.4505080948709967,
->>>>>>> origin/main
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4444444444444436,
   "close": true
 }

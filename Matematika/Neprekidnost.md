@@ -28,7 +28,7 @@ $\Rightarrow\quad\exists c\in (a,\,b)\ :\ f(c)=0$
 
 [[analiza1_1_međuvr.png|Teorema]] (o međuvrednosti). 
 $f:[a,\,b]\to\mathbb{R},\ \ f\,\mathcal{C}\,[a,\,b],\ \ \gamma$ je između $f(a)$ i $f(b)\quad\Rightarrow$
-$\Rightarrow\quad \exists c\in [a,\,b]\ :\ f(c)=\gamma$
+$\Rightarrow\quad \exists c\in [a,\,b]\ :\ f(c)=\gamma$ ^1b740a
 
 > Iz teoreme:
 > - Svaka vrednost između $f(a)$ i $f(b)$ se dostiže

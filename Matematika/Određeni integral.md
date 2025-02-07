@@ -3,9 +3,10 @@
 ### Podela
 
 **Def**. Neka su $a=x_{0}<x_{1}<\dots<x_{n}=b$. Skup $\mathcal{P}=\Big\{ [x_{i-1},\,x_{i}]\ \Big|\ i=\overline{1,n} \Big\}$ je **podela** intervala $[a,\,b]$.
+^fbc37a
 
 - $x_{0},\,x_{1},\,\dots,\,x_{n}$ su **podeove tačke** podele $\mathcal{P}$.
-
+ 
 - $\begin{align}\lambda(\mathcal{P})=\max_{i=\overline{1,\,n}}(x_{i}-x_{i-1})\end{align}\ \:$ je **parametar podele** $\mathcal{P}$.
 
 - $\mathcal{P}[a,\,b]$ — skup svih podela intervala $[a,\,b]$.

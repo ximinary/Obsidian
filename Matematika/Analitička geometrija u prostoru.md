@@ -60,7 +60,7 @@ $q:\ \mathrm{Q},\ \overrightarrow{q}$
   $p \parallel q\quad\Leftrightarrow\quad\begin{cases} \overrightarrow{p}=\lambda\,\overrightarrow{q},\quad \lambda\in \mathbb{R}\\\mathrm{P}\in p\quad\Rightarrow\quad\mathrm{P}\notin q\end{cases}$ 
   $\:$
 - Seku se:
-  $p\text{ i }q \text{ se seku}\quad\Leftrightarrow\quad\exists \mathrm{M}(x_{0},\,y_{0})\ \ : \ \ \mathrm{M}\in p\ \text{ i }\  \mathrm{M}\in q$
+  $p\text{ i }q \text{ se seku}\quad\Leftrightarrow\quad\exists! \mathrm{M}(x_{0},\,y_{0})\ \ : \ \ \mathrm{M}\in p\ \text{ i }\  \mathrm{M}\in q$
   $\:$
 - Mimoilazne:
   $p\text{ i }q \text{ su mimoilazne}\quad\Leftrightarrow\quad\nexists \alpha\ \ : \ \ p\subset\alpha\ \text{ i }\  q\subset\alpha$

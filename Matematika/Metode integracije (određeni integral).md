@@ -23,7 +23,7 @@ $\:$
 
 **Teorema** (o parcijalnoj integraciji).
 Neka su $u,v\,\mathcal{C}^{1}\,[a,\,b]$. Tada
-$\begin{align}\int_{a}^{b} \big(u\, v'\big)(x) \, dx = \big(u\,v\big)(x)\bigg|_{a}^{b}-\int_{a}^{b} \big(u'\,v\big)(x) \, dx\end{align}$
+$\begin{align}\int_{a}^{b} \big(u\, v'\big)(x) \, dx = \big(u\,v\big)(x)\bigg|_{a}^{b}-\int_{a}^{b} \big(u'\,v\big)(x) \, dx\end{align}$ ^2e2625
 >Dokaz:
 >Iz [[Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula#^08f509|Njutn-Lajbnicove formule]]:
 > $\begin{align}\int_{a}^{b} \big(u\,v\big)'(x) \, dx = \big(u\,v\big)(b) - \big(u\,v\big)(a)\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\ \, (1)\end{align}$

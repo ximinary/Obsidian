@@ -12,6 +12,5 @@
   "defaultViewMode": "preview",
   "showLineNumber": false,
   "autoPairMarkdown": false,
-  "smartIndentList": true,
-  "showRibbon": true
+  "smartIndentList": true
 }
