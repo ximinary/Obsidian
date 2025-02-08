@@ -22,6 +22,7 @@ $\:$
 [[analiza1_3_KošijevKriterijum.png|Teorema]] (Košijev kriterijum postojanja limesa funkcije). $x_{0}\in\overline{\mathbb{R}}$.
 $\exists\lim\limits_{ x \to x_{0} }f(x)\in\mathbb{R}\quad\Leftrightarrow$
 $\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\delta>0\quad\forall x,\,y\in\mathring{\mathrm{O}}_{\delta}(x_{0})\quad\left|f(x)-f(y)\right|<\varepsilon$
+(Važi i za levi/desni limes i okolinu) ^56c84c
 
 ### [[Neprekidnost]]
 

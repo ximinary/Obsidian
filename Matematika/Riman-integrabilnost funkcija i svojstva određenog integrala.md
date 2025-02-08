@@ -103,7 +103,7 @@ $f\,\mathcal{R}\,[a,\,b]\quad\Leftrightarrow\quad f\,\mathcal{R}\,[a,\,c]\ \ \te
 
 $\:$
 **Stav**. $f\,\mathcal{R}\,[a,\,b] \ \ \ \text{i}\ \ \ \forall x\in[a,\,b]\quad f(x)\geqslant0$.
-Tada $\begin{align}\int_{a}^{b} f(x) \, dx \geqslant0\end{align}$
+Tada $\begin{align}\int_{a}^{b} f(x) \, dx \geqslant0\end{align}$ ^606956
 > Dokaz:
 > Neka je $(\mathcal{P},\,\xi)$ proizvoljna podela sa istaknutim tačkama intervala $[a,\,b]$.
 >Tada, $\begin{align}\sigma(f,\,\mathcal{P},\,\xi)=\sum\limits_{i=1}^{n}f(\xi_{i})(x_{i}-x_{i-1})\geqslant0\end{align}$
@@ -112,14 +112,14 @@ Tada $\begin{align}\int_{a}^{b} f(x) \, dx \geqslant0\end{align}$
 
 
 $\:$
-**Posledica 1**. $f,\,g\,\mathcal{R}\,[a,\,b] \ \ \ \text{i}\ \ \ \forall x\in[a,\,b]\quad f(x)\leqslant g(x)$. Tada $\begin{align}\int_{a}^{b} f(x) \, dx \leqslant\int_{a}^{b} g(x) \, dx \end{align}$
+**Posledica 1**. $f,\,g\,\mathcal{R}\,[a,\,b] \ \ \ \text{i}\ \ \ \forall x\in[a,\,b]\quad f(x)\leqslant g(x)$. Tada $\begin{align}\int_{a}^{b} f(x) \, dx \leqslant\int_{a}^{b} g(x) \, dx \end{align}$ ^e67347
 > Dokaz: $(g-f)\,\mathcal{R}\,[a,\,b]$ $\ \:$ i $\ \:$ $\forall x\in[a,\,b]\quad g(x)-f(x)\geqslant0$
 > 
 > Tada, $\begin{align}\int_{a}^{b} g(x) \, dx - \int_{a}^{b} f(x) \, dx = \int_{a}^{b} (g-f)(x) \, dx \geqslant 0\end{align}$
 
 
 $\:$
-**Posledica 2**. $f\,\mathcal{R}\,[a,\,b]$. Tada $\begin{align}\left|\int_{a}^{b} f(x) \, dx \right|\leqslant\int_{a}^{b} \big|f(x)\big| \, dx \end{align}$
+**Posledica 2**. $f\,\mathcal{R}\,[a,\,b]$. Tada $\begin{align}\left|\int_{a}^{b} f(x) \, dx \right|\leqslant\int_{a}^{b} \big|f(x)\big| \, dx \end{align}$ ^ec936b
 > Dokaz:  
 > $\begin{align}\forall x\in [a,\,b] \quad -f(x)\leqslant |f(x)| \quad\Rightarrow\quad-\int_{a}^{b} f(x) \, dx\leqslant \int_{a}^{b} |f(x)| \, dx\end{align}$ 
 > 

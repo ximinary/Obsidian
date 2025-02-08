@@ -16,7 +16,7 @@ $\:$
 >Sledeće stavovi su navedeni samo za interval $[a,\,b)$, gde je $b$ singularitet. Analogno postoje i odgovarajuće stavovi za interval $(a,\,b]$, gde je $a$ singularitet.
 
 $\:$
-**Stav**. $f:\ [a,\,b)\to\mathbb{R}$, $\ \:$ $b\in\mathbb{R}$, $\ \:$ $\forall \beta\in [a,\,+\infty)\quad f\,\mathcal{R}\,[a,\,\beta]$. Tada 
+**Stav**. $f:\ [a,\,b)\to\mathbb{R}$, $\ \:$ $b\in\mathbb{R}$, $\ \:$ $\forall \beta\in [a,\,b)\quad f\,\mathcal{R}\,[a,\,\beta]$. Tada 
 ako $\lim\limits_{ \beta \to b^{-} }f(x)\in\mathbb{R}$ onda $\begin{align}\int_{a}^{b} f(x) \, dx\ \ \end{align}$ konvergira.
 $\:$
 **Stav**. $f:\ [a,\,+\infty)\to\mathbb{R}$, $\ \:$ $\forall \beta\in [a,\,+\infty)\quad f\,\mathcal{R}\,[a,\,\beta]$ i postoji $\begin{align}\lim\limits_{ \beta \to +\infty }f(x)=A\in\overline{\mathbb{R}}\end{align}$.
@@ -50,6 +50,18 @@ $\:$
 
 > Napomena: U drugom (a samim tim i trećem) delu definicije $f$ bi mogla da bude definisana u tački $c$, ali $c$ bi ostao singularitet ako je $c$ tačka [[Prekidi|prekida druge vrste]]. Isto važi i za polaznu definiciju nesvojstvenog integrala.
 
+___
+
+**Def**. Integral $\begin{align}\int_{a}^{b} f(x) \, dx\end{align}$ **konvergira apsolutno** ako $\begin{align}\int_{a}^{b} |f(x)| \, dx\end{align}$ konvergira.
+
+**Stav**. Ako integral $\begin{align}\int_{a}^{b} f(x) \, dx\end{align}$ konvergira apsolutno tada on konvergira.
+> Dokaz: tvrđenje sledi iz [[Kriterijumi konvergencije nesvojstvenih integrala#^a8ab77|stava]] uzimajući $g(x):=|f(x)|$
+___
+
+**Stav**.
+1. $\begin{align}\int_{1}^{+\infty}  \frac{dx}{x^{\alpha}} \end{align}$ $\ \:$ konvergira za $\alpha>1$
+$\:$
+2. $\begin{align}\int_{0}^{1}  \frac{dx}{x^{\alpha}} \end{align}$ $\ \:$ konvergira za $\alpha<1$
 $\:$
 ### [[Kriterijumi konvergencije nesvojstvenih integrala]]
 ### [[Gama funkcija i beta funkcija]]

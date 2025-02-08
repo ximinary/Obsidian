@@ -34,4 +34,4 @@ $A'$ je skup svih tačaka nagomilavanja skupa $A.$
 Atherentna tačka je ili tačka nagomilavanja ili granična tačka.
 
 ---
-![[analiza1_0_tačke.png]]
+![[analiza1_0_vrste_tačaka.png]]
