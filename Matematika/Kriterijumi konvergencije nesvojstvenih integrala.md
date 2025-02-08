@@ -1,6 +1,8 @@
 #fax #math #a2 [deo poglavlja [[Nesvojstveni integral|"nesvojstveni integral"]]]
 $\:$
+>Sledeći stavovi/teoreme su navedeni samo za interval $[a,\,b)$, gde je $b$ singularitet. Analogno postoje i odgovarajući stavovi/teoreme za interval $(a,\,b]$, gde je $a\in\mathbb{R}\cup\{-\infty\}$ singularitet.
 
+$\:$
 **Teorema** (Košijev kriterijum).
  $f:\ [a,\,b)\to\mathbb{R}$, $\ \:$ $b\in\mathbb{R}\cup\{+\infty\}$, $\ \:$ $\forall \beta\in [a,\,b)\quad f\,\mathcal{R}\,[a,\,\beta]$. Tada 
 $\begin{align}\int_{a}^{b} f(x) \, dx\ \ \text{konvergira}\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\delta>0\quad\forall c,\,d\in \mathring{\mathrm{O}}_{\delta}^{-}(b)\quad\left|\int_{c}^{d} f(x) \, dx\right| < \varepsilon\end{align}$

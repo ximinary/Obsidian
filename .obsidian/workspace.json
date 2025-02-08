@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Nesvojstveni integral.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Nesvojstveni integral"
             },
             "group": "0a8f9ffc141bfb02"
           },
@@ -48,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Nesvojstveni integral.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Nesvojstveni integral"
             },
             "group": "0a8f9ffc141bfb02"
           }
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Nesvojstveni integral.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of Nesvojstveni integral"
             }
           },
           {
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Nesvojstveni integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for Nesvojstveni integral"
             }
           },
           {
@@ -230,16 +230,32 @@
   },
   "active": "5c307ae31f35cca8",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
-    "Matematika/Analiza.md",
-    "Matematika/Nesvojstveni integral.md",
-    "Matematika/Gama funkcija i beta funkcija.md",
     "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
-    "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
-    "Matematika/Određeni integral.md",
+    "Matematika/Nesvojstveni integral.md",
+    "Matematika/Analiza.md",
+    "Matematika/Matematika.md",
     "Home.md",
-    "Matematika/Primene određenog integrala.md",
-    "Matematika/Limes funkcije.md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Računarstvo/Složenost algoritma.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Računarski sistem.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Računarstvo/Ispravnost programa.md",
+    "Računarstvo/Funkcije (C).md",
+    "Računarstvo/Doseg, životni vek i povezanost (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Matematika/Vrste tačaka u odnosu na neki skup.md",
+    "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
+    "Matematika/Vektorski prostor.md",
+    "Matematika/Vektorski i mešoviti proizvod vektora.md",
+    "Matematika/Vektor.md",
     "Media/analiza1_2_lagranž_p3.png",
     "Media/analiza1_2_lagranž_p2.jpeg",
     "Media/analiza1_2_lagranž_p3.jpeg",
@@ -250,22 +266,6 @@
     "Media/analiza1_2_lagranž_p1.png",
     "Media/analiza1_2_lagranž.jpeg",
     "Media/analiza1_2_koši.png",
-    "Matematika/Teoreme o srednjoj vrednosti.md",
-    "Matematika/Vrste tačaka u odnosu na neki skup.md",
-    "Matematika/Realni brojevi.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Geometrija.md",
-    "Matematika/Analitička geometrija u prostoru.md",
-    "Matematika/Asimptota.md",
-    "Matematika/Grafik funkcije.md",
-    "Matematika/Izvod.md",
-    "Matematika/Neprekidnost.md",
-    "Matematika/Limes niza.md",
-    "Matematika/Prekidi.md",
-    "Matematika/Neodređeni integral.md",
-    "Matematika/Krive drugog reda.md",
-    "Matematika/Analitička geometrija u ravni.md",
-    "Matematika/Reper. Koordinate vektora i tačke.md",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "desktop.ini",

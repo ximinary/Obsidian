@@ -13,7 +13,7 @@ $a$ je singularitet.
 Ako limes postoji i konačan je onda nesvojstveni integral **konvergira**, inače **divergira**.
 $\:$
 
->Sledeće stavovi su navedeni samo za interval $[a,\,b)$, gde je $b$ singularitet. Analogno postoje i odgovarajuće stavovi za interval $(a,\,b]$, gde je $a$ singularitet.
+>Sledeći stavovi su navedeni samo za interval $[a,\,b)$, gde je $b$ singularitet. Analogno postoje i odgovarajući stavovi za interval $(a,\,b]$, gde je $a\in\mathbb{R}\cup\{-\infty\}$ singularitet.
 
 $\:$
 **Stav**. $f:\ [a,\,b)\to\mathbb{R}$, $\ \:$ $b\in\mathbb{R}$, $\ \:$ $\forall \beta\in [a,\,b)\quad f\,\mathcal{R}\,[a,\,\beta]$. Tada 
