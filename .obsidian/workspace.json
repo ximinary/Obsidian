@@ -4,58 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d2dc9aaacef408bb",
+        "id": "60155248fd2c5d2a",
         "type": "tabs",
         "children": [
           {
-            "id": "8866019d3d200f47",
+            "id": "3e43b824e57f4220",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Nesvojstveni integral.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Nesvojstveni integral"
-            },
-            "group": "0a8f9ffc141bfb02"
-          },
-          {
-            "id": "d970acaf8bf78c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Riman-integrabilnost funkcija i svojstva određenog integrala"
+              "title": "Home"
             }
-          }
-        ]
-      },
-      {
-        "id": "211816267c598edc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5c307ae31f35cca8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Nesvojstveni integral.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Nesvojstveni integral"
-            },
-            "group": "0a8f9ffc141bfb02"
           }
         ]
       }
@@ -155,13 +119,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematika/Nesvojstveni integral.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nesvojstveni integral"
+              "title": "Outline of Home"
             }
           },
           {
@@ -184,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Nesvojstveni integral.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nesvojstveni integral"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -228,13 +192,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c307ae31f35cca8",
+  "active": "3e43b824e57f4220",
   "lastOpenFiles": [
-    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Untitled.md",
+    "Media/analiza1_0_vrste_tačaka.png",
+    "@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
+    "Home.md",
     "Matematika/Nesvojstveni integral.md",
+    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
     "Matematika/Analiza.md",
     "Matematika/Matematika.md",
-    "Home.md",
     "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Složenost algoritma.md",
@@ -253,9 +220,6 @@
     "Računarstvo/Dinamička alokacija memorije (C).md",
     "Matematika/Vrste tačaka u odnosu na neki skup.md",
     "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
-    "Matematika/Vektor.md",
     "Media/analiza1_2_lagranž_p3.png",
     "Media/analiza1_2_lagranž_p2.jpeg",
     "Media/analiza1_2_lagranž_p3.jpeg",
@@ -265,7 +229,6 @@
     "Media/analiza1_2_lagranž_p1.jpeg",
     "Media/analiza1_2_lagranž_p1.png",
     "Media/analiza1_2_lagranž.jpeg",
-    "Media/analiza1_2_koši.png",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "desktop.ini",
