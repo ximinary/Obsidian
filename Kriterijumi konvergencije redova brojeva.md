@@ -24,7 +24,7 @@ $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\quad\text{konvergira}\quad\Rightar
 > $\begin{align}\Rightarrow\quad\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\end{align}$
 
 $\:$
-**Teorema** (posledica stava). Neka su $(a_{n})$ i $(b_{n})$ su nizovi, i $\exists N\in\mathbb{N}\quad \forall n\geqslant N\quad \boxed{0\leqslant a_{n}\leqslant b_{n}}$. Tada
+**Teorema** (posledica stava). Neka su $(a_{n})$ i $(b_{n})$ su nizovi, i $\exists N\in\mathbb{N}\quad \forall n\geqslant N\quad \boxed{0\leqslant a_{n}\leqslant b_{n}}$. Tada ^4d14b2
 - $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\ \ \text{konvergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}a_{n}\ \ \text{konvergira}\end{align}$
 - $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\ \ \text{divergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}b_{n}\ \ \text{divergira}\end{align}$
 
@@ -54,4 +54,36 @@ $\:$
 >> Odakle ako $\begin{align}\sum\limits_{k=1}^{n}\frac{a_{n}}{A-\varepsilon_{2}} = \frac{1}{A-\varepsilon_{2}}\sum\limits_{k=1}^{n} a_{n}\end{align}$ konvergira onda i $\begin{align}\sum\limits_{k=1}^{n}b_{n}\end{align}$ konvergira
 
 ___
+
+**Teorema** (Dalamberov kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}>0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\frac{a_{n+1}}{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada
+- Ako $0\leqslant A<1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$
+- Ako $A>1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$
+
+> Dokaz:
+> $\begin{align}\exists \lim\limits_{ n \to \infty }\frac{a_{n+1}}{a_{n}}=A\quad \Leftrightarrow\quad \forall\varepsilon>0\quad \exists N\in\mathbb{N}\quad\forall n\geqslant N\quad &\frac{a_{n+1}}{a_{n}}\in\mathrm{O}_{\varepsilon}(A)\\\text{za }A\in\mathbb{R}\quad&A-\varepsilon<\frac{a_{n+1}}{a_{n}}< A+\varepsilon\\\text{za }A=+\infty\quad&\frac{a_{n+1}}{a_{n}}>\frac{1}{\varepsilon}\end{align}$
+>
+>Prvo tvrđenje.
+> Definišemo $q:=A+\varepsilon$, pri tome uzimamo $\varepsilon$ tako da $0<q<1$, što je moguće jer $0\leqslant A<1$. Tada
+> $\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad a_{n+1}<q\,a_{n}$
+>
+>$\begin{array}{l}\text{za }N&a_{N+1}< q\,a_{N}\\\text{za }N+1&a_{N+2}< q\,a_{N+1}< q^{2}\,a_{N}\\\dots\\\text{za }n-1&a_{n}< q\,a_{n-1}<\dots<q^{n-N}a_{N}\end{array}$
+>
+>Odakle, $\forall n\geqslant N\quad a_{n}\leqslant q^{n-N}a_{N}\quad\quad(1)$
+>
+>Razmotrimo red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ :
+> $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\lim\limits_{ n \to \infty }(q+q^{2}+\dots+q^{n})=\lim\limits_{ n \to \infty }q\frac{1-q^{n}}{1-q}=\frac{q}{1-q}\quad\text{konvergira}\end{align}$
+>> jer važi $\lim\limits_{ n \to \infty }q^{n}=0\quad$ za $0<q<1$
+> 
+> Iz (1) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{konvergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$.
+> $\:$
+>
+> Drugo tvrđenje.
+> Definišemo $q:=\begin{cases}A-\varepsilon&\text{za }1<A<+\infty\\\frac{1}{\varepsilon}&\text{za }A=+\infty\end{cases}$, pri tome uzimamo $\varepsilon$ tako da $q>1$. Tada slično kao u prvom dobijamo
+> $\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad a_{n}\geqslant\,q^{n}\,a_{N}\quad\quad(2)$
+> 
+> Razmotrimo red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ :
+> $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\lim\limits_{ n \to \infty }(q+q^{2}+\dots+q^{n})=\lim\limits_{ n \to \infty }q\frac{q^{n}-1}{q-1}=+\infty\quad\text{divergira}\end{align}$
+>> jer važi $\lim\limits_{ n \to \infty }q^{n}=+\infty\quad$ za $q>1$
+> 
+> Iz (2) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{divergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$.
 

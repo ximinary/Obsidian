@@ -11,7 +11,7 @@ Ako $\exists\lim\limits_{ n \to \infty }s_{n}\in\mathbb{R}$, onda red $\begin{al
 
 $\:$
 **Stav**. Neka je $(a_{n})$ niz. Tada
-$\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\quad\Leftrightarrow\quad\sum\limits_{n=1}^{\infty}a_{k}\quad\text{konvergira za }\ \forall k\in\mathbb{N}\end{align}$
+$\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\quad\Leftrightarrow\quad\sum\limits_{n=k}^{\infty}a_{n}\quad\text{konvergira za }\ \forall k\in\mathbb{N}\end{align}$ ^6bf0d1
 
 **Stav**. Neka je $(a_{n})$ niz. Tada
 $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}\alpha \,a_{n}=\alpha\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira za }\ \forall \alpha\in\mathbb{R}\end{align}$
@@ -49,3 +49,4 @@ $\:$
 **Def**. Red $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\end{align}$ **konvergira uslovno** ako on sam konvergira a red $\begin{align}\sum\limits_{n=1}^{\infty}|a_{n}|\end{align}$ divergira.
 
 ### [[Kriterijumi konvergencije redova brojeva|Kriterijumi konvergencije]]
+### [[Osnovni redovi]] 1/n, 1/n^2, q^n, ...
