@@ -1,6 +1,6 @@
 #fax #math #a1 [deo poglavlja [[Niz brojeva|"niz brojeva"]]]
 $\:$
-**Def**. Niz $(a_{n})$ je Košijev ako $\forall\varepsilon>0\quad N\in\mathbb{N}\quad \forall m,\,n\geqslant N\quad\left|a_{m}-a_{n}\right|<\varepsilon$
+**Def**. Niz $(a_{n})$ je Košijev ako $\forall\varepsilon>0\quad \exists N\in\mathbb{N}\quad \forall m,\,n\geqslant N\quad\left|a_{m}-a_{n}\right|<\varepsilon$
 
 [[analiza1_3_9.png|Stav 1]]. Košijev niz $(a_{n})$ je ograničen
 

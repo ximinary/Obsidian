@@ -2,7 +2,7 @@
 $\:$
 
 $(a_{n})=(a_{0},\,a_{1},\,a_{2},\,\dots,\,a_{k},\,\dots)$ — [[Niz brojeva|niz]]
-$\begin{align}\sum\limits_{i=0}^{\infty}a_{i}\,x^{i}=a_{0}+a_{1}\,x+a_{2}\,x^{2}+\dots+a_{k}\,x^{k}+\dots\end{align}$ — [[Red|red]]
+$\begin{align}\sum\limits_{i=0}^{\infty}a_{i}\,x^{i}=a_{0}+a_{1}\,x+a_{2}\,x^{2}+\dots+a_{k}\,x^{k}+\dots\end{align}$ — [[Red brojeva|red]]
 Ako red konvergira, $\exists$ funkcija generatrisa $A(x)=\begin{align}\sum\limits_{i=0}^{\infty}a_{i}\end{align}$ niza $(a_{n})$
 $(a_{n})\overset{\mathrm{jednoznačna}}{\overset{\mathrm{veza}}\longleftrightarrow} A(x)$
 $\:$ 

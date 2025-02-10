@@ -22,7 +22,7 @@ $\begin{align}\int_{a}^{b} g(x) \, dx\ \ \text{konvergira}\quad\Rightarrow\quad\
 > $\begin{align}\int_{a}^{b} g(x) \, dx\ \ \text{konvergira}\quad\Rightarrow\quad\forall\varepsilon>0\quad\exists\delta_{1}>0\quad\forall c,\,d\in \mathring{\mathrm{O}}_{\delta_{1}}^{-}(b)\quad\left|\int_{c}^{d} g(x) \, dx\right| < \varepsilon\end{align}$
 > 
 > Iz svojstava određenog integrala ([[Riman-integrabilnost funkcija i svojstva određenog integrala#^e67347|1]], [[Riman-integrabilnost funkcija i svojstva određenog integrala#^ec936b|2]]):
-> $\begin{align}\forall x\in\mathring{\mathrm{O}}_{\delta}^{-}(b)\quad\left|\int_{c}^{d} f(x) \, dx\right|\leqslant \int_{c}^{d} |f(x)| \, dx\leqslant\int_{c}^{d} g(x) \, dx <\varepsilon\end{align}$
+> $\begin{align}\left|\int_{c}^{d} f(x) \, dx\right|\leqslant \int_{c}^{d} |f(x)| \, dx\leqslant\int_{c}^{d} g(x) \, dx <\varepsilon\end{align}$
 > 
 > Konačno:
 > $\begin{align}\forall\varepsilon>0\quad\exists\delta_{2}:=\min\{\delta,\,\delta_{1}\}\quad\forall c,\,d\in \mathring{\mathrm{O}}_{\delta_{2}}^{-}(b)\quad\left|\int_{c}^{d} f(x) \, dx\right| < \varepsilon\quad\Rightarrow\end{align}$
@@ -43,7 +43,7 @@ $\:$
 > Dokaz:
 > Prvo tvrđenje.
 >>$\begin{align}\lim\limits_{ x \to b^{-} }\frac{f(x)}{g(x)}=0\quad\Rightarrow\quad\forall\varepsilon>0\quad\exists\delta>0\quad\forall x\in\mathring{\mathrm{O}}_{\delta}^{-}(b)\quad\left|\frac{f(x)}{g(x)}\right|<\varepsilon\end{align}$
->> Uzimamo $\varepsilon = 1$ i jer fje su pozitivne  važi $\exists\delta>0\quad\forall x\in\mathring{\mathrm{O}}_{\delta}^{-}(b)\quad f(x)<g(x)$
+>> Uzimamo $\varepsilon = 1$ i jer su fje pozitivne  važi $\exists\delta>0\quad\forall x\in\mathring{\mathrm{O}}_{\delta}^{-}(b)\quad f(x)<g(x)$
 >> i iz prethodne teoreme slede tvrđenje.
 > 
 > Drogo tvrđenje dobijamo iz prvog zamenom mesta fja $f$ i $g$.

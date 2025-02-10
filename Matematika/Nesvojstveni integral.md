@@ -51,17 +51,23 @@ $\:$
 > Napomena: U drugom (a samim tim i trećem) delu definicije $f$ bi mogla da bude definisana u tački $c$, ali $c$ bi ostao singularitet ako je $c$ tačka [[Prekidi|prekida druge vrste]]. Isto važi i za polaznu definiciju nesvojstvenog integrala.
 
 ___
+**Stav**.
+1. $\begin{align}\int_{1}^{+\infty}  \frac{dx}{x^{\alpha}} \end{align}$ $\ \:$ konvergira za $\alpha>1$
+$\:$
+1. $\begin{align}\int_{0}^{1}  \frac{dx}{x^{\alpha}} \end{align}$ $\ \:$ konvergira za $\alpha<1$
+___
 
+
+
+### Apsolutna i uslovna konvergencija
 **Def**. Integral $\begin{align}\int_{a}^{b} f(x) \, dx\end{align}$ **konvergira apsolutno** ako $\begin{align}\int_{a}^{b} |f(x)| \, dx\end{align}$ konvergira.
 
 **Stav**. Ako integral $\begin{align}\int_{a}^{b} f(x) \, dx\end{align}$ konvergira apsolutno tada on konvergira.
 > Dokaz: tvrđenje sledi iz [[Kriterijumi konvergencije nesvojstvenih integrala#^a8ab77|stava]] uzimajući $g(x):=|f(x)|$
-___
 
-**Stav**.
-1. $\begin{align}\int_{1}^{+\infty}  \frac{dx}{x^{\alpha}} \end{align}$ $\ \:$ konvergira za $\alpha>1$
 $\:$
-2. $\begin{align}\int_{0}^{1}  \frac{dx}{x^{\alpha}} \end{align}$ $\ \:$ konvergira za $\alpha<1$
+**Def**. Integral $\begin{align}\int_{a}^{b} f(x) \, dx\end{align}$ **konvergira uslovno** ako on sam konvergira a integral $\begin{align}\int_{a}^{b} |f(x)| \, dx\end{align}$ divergira.
+
 $\:$
-### [[Kriterijumi konvergencije nesvojstvenih integrala]]
+### [[Kriterijumi konvergencije nesvojstvenih integrala|Kriterijumi konvergencije]]
 ### [[Gama funkcija i beta funkcija]]
