@@ -79,7 +79,7 @@ ___
 >
 > Drugo tvrđenje.
 > Definišemo $q:=\begin{cases}A-\varepsilon&\text{za }1<A<+\infty\\\frac{1}{\varepsilon}&\text{za }A=+\infty\end{cases}$, pri tome uzimamo $\varepsilon$ tako da $q>1$. Tada slično kao u prvom dobijamo
-> $\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad a_{n}\geqslant\,q^{n}\,a_{N}\quad\quad(2)$
+> $\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad a_{n}\geqslant\,q^{n-N}\,a_{N}\quad\quad(2)$
 > 
 > Razmotrimo red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ :
 > $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\lim\limits_{ n \to \infty }(q+q^{2}+\dots+q^{n})=\lim\limits_{ n \to \infty }q\frac{q^{n}-1}{q-1}=+\infty\quad\text{divergira}\end{align}$
@@ -87,3 +87,36 @@ ___
 > 
 > Iz (2) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{divergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$.
 
+$\:$
+**Teorema** (Košijev koreni kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}\geqslant0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\sqrt[n]{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada
+- Ako $0\leqslant A<1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$
+- Ako $A>1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$
+
+> Dokaz je sličan dokazu prethodne teoreme.
+
+$\:$
+**Teorema** (konvergencija reda i nesvojstvenog integrala). 
+Neka je $f:\ [1,\,+\infty)\to[0,\,+\infty)$ neprekidna opadajuća funkcija.
+Tada $\begin{align}\sum\limits_{n=1}^{\infty} f(n)\ \ \text{konvergira}\quad\Leftrightarrow\quad\int_{1}^{+\infty} f(x) \, dx\ \ \text{konvergira}\end{align}$
+> Dokaz:
+> $\begin{align}\forall n\in\mathbb{N}\quad f(n)\leqslant\int_{n}^{n+1} f(x) \, dx \leqslant f(n+1) \end{align}$
+> $\begin{align}f(2)+f(3)+\dots+f(n)\leqslant\int_{1}^{n} f(x) \, dx \leqslant f(1)+f(2)+\dots+f(n-1)\end{align}$
+> $\begin{align}s_{n}-f(1)\leqslant\int_{1}^{n} f(x) \, dx \leqslant s_{n-1}\end{align}$
+> 
+> Odakle, 
+> $\begin{align}\int_{1}^{n} f(x) \, dx \leqslant s_{n-1}\quad\quad\quad\quad\quad\quad\,(1)\end{align}$
+> $\begin{align}s_{n}\leqslant\int_{1}^{n} f(x) \, dx+f(1)\quad\quad\quad\quad(2)\end{align}$
+> 
+> $\boxed{\Rightarrow}$ 
+> Jer $\begin{align}\sum\limits_{n=1}^{\infty}f(n)\ \ \text{konvergira}\end{align}$ i $(s_{n})$ je rastući niz, taj niz je ograničen odozgo.
+ Odakle koristeći $(1)$ fja $\begin{align}\int_{1}^{n} f(x) \, dx \end{align}$ ograničena je odozgo i jer je on rastuća, $\begin{align}\exists\lim\limits_{ x \to +\infty }\int_{1}^{n} f(x) \, dx=\int_{1}^{+\infty} f(x) \, dx\in\mathbb{R} \quad\end{align}$ (tj. integral konvergira)
+ >
+ >$\boxed{\Leftarrow}$ 
+> Jer $\begin{align}\int_{1}^{+\infty} f(x) \, dx\ \ \text{konvergira}\end{align}$ i $\begin{align}\int_{1}^{n} f(x) \, dx \end{align}$ je rastuća fja, ta fja je ograničena odozgo.
+ Odakle koristeći $(2)$  niz $(s_{n})$ ograničen odozgo i jer je on rastući, $\begin{align}\exists\lim\limits_{ n \to +\infty }\sum\limits_{k=1}^{n}f(k)=\sum\limits_{n=1}^{\infty}f(n) \in\mathbb{R} \quad\end{align}$ (tj. red konvergira)
+
+$\:$
+**Stav** (Lajbnicov kriterijum). Neka je $(a_{n})$ strogo opadajući niz takav da $\lim\limits_{ n \to \infty }a_{n}= 0$. Tada $\begin{align}\sum\limits_{n=1}^{\infty} (-1)^{n-1}a_{n}\ \ \text{konvergira}\end{align}$ i važi
+$$0<\sum\limits_{n=1}^{\infty}(-1)^{n-1}a_{n} \leqslant a_{1}$$
+
+>Dokaz: #todo

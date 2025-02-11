@@ -48,5 +48,11 @@ $\:$
 $\:$
 **Def**. Red $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\end{align}$ **konvergira uslovno** ako on sam konvergira a red $\begin{align}\sum\limits_{n=1}^{\infty}|a_{n}|\end{align}$ divergira.
 
+$\:$
+**Teorema**. Neka  $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}=S\end{align}$ konvergira apsolutno. Ako je $p\ : \mathbb{N} \to \mathbb{N}$ proizvoljna bijekcija (tj. permutacija $\mathbb{N}$) onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{p(n)}=S\end{align}$ konvergira apsolutno.
+
+$\:$
+**Teorema** (Rimanova). Neka  $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}=S\end{align}$ konvergira uslovno. Tada $\forall A\in\overline{\mathbb{R}} \quad\exists p\ : \mathbb{N} \to \mathbb{N}$  bijekcija $\begin{align}\ \ :\ \ \sum\limits_{n=1}^{\infty} a_{p(n)}=A\end{align}$ 
+
 ### [[Kriterijumi konvergencije redova brojeva|Kriterijumi konvergencije]]
 ### [[Osnovni redovi]] 1/n, 1/n^2, q^n, ...

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kriterijumi konvergencije redova brojeva.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kriterijumi konvergencije redova brojeva"
+              "title": "Analiza"
             },
             "group": "e8221fefaba975ac"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kriterijumi konvergencije redova brojeva.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kriterijumi konvergencije redova brojeva"
+              "title": "Analiza"
             },
             "group": "e8221fefaba975ac"
           },
@@ -233,12 +233,12 @@
     "Red brojeva.md",
     "Kriterijumi konvergencije redova brojeva.md",
     "Matematika/Analiza.md",
-    "Matematika/Niz brojeva.md",
-    "Matematika/Limes niza.md",
     "Matematika/Matematika.md",
     "Home.md",
-    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
     "Matematika/Nesvojstveni integral.md",
+    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Matematika/Niz brojeva.md",
+    "Matematika/Limes niza.md",
     "Matematika/Košijev niz.md",
     "Matematika/Funkcija generatrisa.md",
     "Matematika/Aritmetička i geometrijska progresija.md",

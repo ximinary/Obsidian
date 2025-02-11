@@ -57,3 +57,8 @@ $\:$
 >> 2. Uzimamo $\varepsilon = \varepsilon_{2} < A$ tada važi 
 >>  $\begin{align}\exists\delta>0\quad\forall x\in\mathring{\mathrm{O}}_{\delta}^{-}(b)\quad g(x)<\frac{f(x)}{A-\varepsilon_{2}}\end{align}$
 >> Odakle ako $\begin{align}\int_{a}^{b} \frac{f(x)}{A-\varepsilon_{2}} \, dx = \frac{1}{A-\varepsilon_{2}}\int_{a}^{b} f(x) \, dx\end{align}$ konvergira onda i $\begin{align}\int_{a}^{b} g(x) \, dx \end{align}$ konvergira
+
+$\:$
+**Teorema** ([[Kriterijumi konvergencije redova brojeva|konvergencija reda]] i nesvojstvenog integrala). 
+Neka je $f:\ [1,\,+\infty)\to[0,\,+\infty)$ neprekidna opadajuća funkcija.
+Tada $\begin{align}\sum\limits_{n=1}^{\infty} f(n)\ \ \text{konvergira}\quad\Leftrightarrow\quad\int_{1}^{+\infty} f(x) \, dx\ \ \text{konvergira}\end{align}$
