@@ -2,7 +2,7 @@
 $\:$
 
 **Teorema** (Košijev kriterijum). Neka je $(a_{n})$ niz. Tada
-$\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\quad\Leftrightarrow\quad\forall\varepsilon>0\quad \exists N\in\mathbb{N}\quad \forall m,\,k\geqslant N\quad\left|s_{m}-s_{k}\right|<\varepsilon\end{align}$
+$\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\quad\Leftrightarrow\quad\forall\varepsilon>0\quad \exists N\in\mathbb{N}\quad \forall m,\,k\geqslant N\quad\left|s_{m}-s_{k}\right|<\varepsilon\end{align}$ ^f4afac
 > Dokaz: tvrđenje direktno sledi iz [[Košijev niz|teoreme: niz konvergira akko je Košijev]].
 
 $\:$
@@ -70,20 +70,16 @@ ___
 >
 >Odakle, $\forall n\geqslant N\quad a_{n}\leqslant q^{n-N}a_{N}\quad\quad(1)$
 >
->Razmotrimo red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ :
-> $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\lim\limits_{ n \to \infty }(q+q^{2}+\dots+q^{n})=\lim\limits_{ n \to \infty }q\frac{1-q^{n}}{1-q}=\frac{q}{1-q}\quad\text{konvergira}\end{align}$
->> jer važi $\lim\limits_{ n \to \infty }q^{n}=0\quad$ za $0<q<1$
+>Red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ [[Konvergencija nekih redova#^20d439|konvergira]] za $0<q<1$
 > 
 > Iz (1) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{konvergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$.
 > $\:$
 >
 > Drugo tvrđenje.
-> Definišemo $q:=\begin{cases}A-\varepsilon&\text{za }1<A<+\infty\\\frac{1}{\varepsilon}&\text{za }A=+\infty\end{cases}$, pri tome uzimamo $\varepsilon$ tako da $q>1$. Tada slično kao u prvom dobijamo
+> Definišemo $q:=\begin{cases}A-\varepsilon&\text{za }1<A<+\infty\\\frac{1}{\varepsilon}&\text{za }A=+\infty\end{cases}$, pri tome uzimamo $\varepsilon$ tako da $q>1$. Tada slično kao u prvom tvrđenju dobijamo
 > $\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad a_{n}\geqslant\,q^{n-N}\,a_{N}\quad\quad(2)$
 > 
-> Razmotrimo red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ :
-> $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\lim\limits_{ n \to \infty }(q+q^{2}+\dots+q^{n})=\lim\limits_{ n \to \infty }q\frac{q^{n}-1}{q-1}=+\infty\quad\text{divergira}\end{align}$
->> jer važi $\lim\limits_{ n \to \infty }q^{n}=+\infty\quad$ za $q>1$
+> Red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ [[Konvergencija nekih redova#^20d439|divergira]] za $q>1$
 > 
 > Iz (2) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{divergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$.
 
@@ -116,7 +112,4 @@ Tada $\begin{align}\sum\limits_{n=1}^{\infty} f(n)\ \ \text{konvergira}\quad\Lef
  Odakle koristeći $(2)$  niz $(s_{n})$ ograničen odozgo i jer je on rastući, $\begin{align}\exists\lim\limits_{ n \to +\infty }\sum\limits_{k=1}^{n}f(k)=\sum\limits_{n=1}^{\infty}f(n) \in\mathbb{R} \quad\end{align}$ (tj. red konvergira)
 
 $\:$
-**Stav** (Lajbnicov kriterijum). Neka je $(a_{n})$ strogo opadajući niz takav da $\lim\limits_{ n \to \infty }a_{n}= 0$. Tada $\begin{align}\sum\limits_{n=1}^{\infty} (-1)^{n-1}a_{n}\ \ \text{konvergira}\end{align}$ i važi
-$$0<\sum\limits_{n=1}^{\infty}(-1)^{n-1}a_{n} \leqslant a_{1}$$
-
->Dokaz: #todo
+**Stav** (Lajbnicov kriterijum). Neka je $(a_{n})$ strogo opadajući niz takav da $\lim\limits_{ n \to \infty }a_{n}= 0$. Tada $\begin{align}S=\sum\limits_{n=1}^{\infty} (-1)^{n-1}a_{n}\ \ \text{konvergira}\end{align}$ i važi $0<S \leqslant a_{1}$. ^94970b

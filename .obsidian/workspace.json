@@ -42,20 +42,6 @@
               "title": "Analiza"
             },
             "group": "e8221fefaba975ac"
-          },
-          {
-            "id": "b5f9af44affd5efc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Kriterijumi konvergencije nesvojstvenih integrala"
-            }
           }
         ]
       }
@@ -230,19 +216,21 @@
   },
   "active": "cc64b044ec302f4a",
   "lastOpenFiles": [
-    "Red brojeva.md",
-    "Kriterijumi konvergencije redova brojeva.md",
-    "Matematika/Analiza.md",
     "Matematika/Matematika.md",
     "Home.md",
+    "Matematika/Tejlorov polinom.md",
+    "Matematika/Analiza.md",
+    "Matematika/Red brojeva.md",
     "Matematika/Nesvojstveni integral.md",
-    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Matematika/Konvergencija nekih redova.md",
     "Matematika/Niz brojeva.md",
-    "Matematika/Limes niza.md",
-    "Matematika/Košijev niz.md",
     "Matematika/Funkcija generatrisa.md",
-    "Matematika/Aritmetička i geometrijska progresija.md",
     "Matematika/Limes funkcije.md",
+    "Matematika/Limes niza.md",
+    "Matematika/Kriterijumi konvergencije redova brojeva.md",
+    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Matematika/Košijev niz.md",
+    "Matematika/Aritmetička i geometrijska progresija.md",
     "Matematika/Kombinatorika.md",
     "Matematika/Neodređeni integral.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
@@ -255,8 +243,6 @@
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Složenost algoritma.md",
     "Računarstvo/Računarstvo.md",
-    "Računarstvo/Računarski sistem.md",
-    "Računarstvo/Programski jezik C.md",
     "Media/analiza1_2_lagranž_p3.png",
     "Media/analiza1_2_lagranž_p2.jpeg",
     "Media/analiza1_2_lagranž_p3.jpeg",

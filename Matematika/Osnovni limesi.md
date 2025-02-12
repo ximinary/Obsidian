@@ -2,7 +2,7 @@
 $\:$
 ### Limesi nizova
 
-[[analiza1_3_3_1.png|Stav]]. $\ \ \begin{align} \lim\limits_{ n \to \infty }q^{n}= \begin{cases} +\infty, \ \ \mathrm{ako}\ q>0\\ 1, \ \ \ \ \ \ \ \ \!\mathrm{ako}\ q=1\\ 0, \ \ \ \ \ \ \ \ \!\mathrm{ako}\ -1<q<1\\ \nexists, \ \ \ \ \ \ \ \ \!\mathrm{ako}\ q\leqslant-1\end{cases} \end{align}$
+[[analiza1_3_3_1.png|Stav]]. $\ \ \begin{align} \lim\limits_{ n \to \infty }q^{n}= \begin{cases} +\infty, \ \ \mathrm{ako}\ q>0\\ 1, \ \ \ \ \ \ \ \ \!\mathrm{ako}\ q=1\\ 0, \ \ \ \ \ \ \ \ \!\mathrm{ako}\ -1<q<1\\ \nexists, \ \ \ \ \ \ \ \ \!\mathrm{ako}\ q\leqslant-1\end{cases} \end{align}$ ^ff0b5b
 
 [[analiza1_3_3_2.png|Stav]]. $\ \ \begin{align}a>0\ \ \Rightarrow\ \ \lim\limits_{ n \to \infty } \sqrt[n]{a}=1\end{align}$
 
