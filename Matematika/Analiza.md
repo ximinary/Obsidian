@@ -1,4 +1,4 @@
-#fax #math #a1 #a2 [deo [[Matematika|matematike]]]
+#fax #math #a1 #a2 #a3 [deo [[Matematika|matematike]]]
 $\:$
 
 ### Funkcije jedne realne promenljive

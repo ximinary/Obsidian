@@ -4,7 +4,7 @@ $\:$
 #### [[Matematika]] #math
 #ds1 #ds2 #laag #geom 
 
-#a1 #a2
+#alg #a1 #a2 #a3
 $\:$
 #### [[Računarstvo]] #cs
 #cs/prog #cs/ar #cs/os

@@ -50,3 +50,5 @@ $\begin{align}\sum\limits_{n=1}^{\infty}\frac{1}{\sqrt[]{n}}=\lim\limits_{ n \to
 >
 >Stoga, $\begin{align}\sum\limits_{n=1}^{\infty} \frac{1}{\sqrt[]{n}}\ \ \end{align}$ divergira
 
+$\:$
+**Stav**. $\begin{align}\sum\limits_{n=1}^{\infty} \frac{1}{n^{\alpha}}\end{align}$ $\quad$ konvergira za $\alpha>1$, divergira za $\alpha\leqslant1$

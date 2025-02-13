@@ -28,7 +28,7 @@ $\:$
 i važi $\begin{align}\int_{a}^{b} \big(\lambda f(x) + \mu g(x)\big) \, dx = \lambda\int_{a}^{b} f(x) \, dx +\mu\int_{a}^{b} g(x) \, dx \end{align}$
 $\:$
 - Za $a<c<b$ ako konvergira $\begin{align}\int_{c}^{b} f(x) \, dx \end{align}$ onda konvergira $\begin{align}\int_{a}^{b} f(x) \, dx \end{align}$
-i važi $\begin{align}\int_{a}^{b} f(x) \, dx = \underbrace{\int_{a}^{c} f(x) \, dx}_{\text{određeni integral}} +\int_{a}^{b} f(x) \, dx \end{align}$
+i važi $\begin{align}\int_{a}^{b} f(x) \, dx = \underbrace{\int_{a}^{c} f(x) \, dx}_{\text{određeni integral}} +\int_{c}^{b} f(x) \, dx \end{align}$
 $\:$
 - Ako važi $f,\,g \,\mathcal{D}\,(a,\,b)$ i ako postoji i konačan je limes  $\begin{align}\lim\limits_{ \beta \to b^{-} }f(x)g(x) \end{align}$ onda 
  $\begin{align}\int_{a}^{b} f'(x)g(x) \, dx \ \ \text{konvergira}\quad \Leftrightarrow\quad \int_{a}^{b} f(x)g'(x) \, dx\ \ \text{konvergira} \end{align}$.

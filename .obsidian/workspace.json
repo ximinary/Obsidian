@@ -42,18 +42,6 @@
               "title": "Analiza"
             },
             "group": "e8221fefaba975ac"
-          },
-          {
-            "id": "02291af200de96fa",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/analiza1_2_Tejlor.png"
-              },
-              "icon": "lucide-image",
-              "title": "analiza1_2_Tejlor"
-            }
           }
         ]
       }
@@ -228,20 +216,20 @@
   },
   "active": "cc64b044ec302f4a",
   "lastOpenFiles": [
-    "Matematika/Niz brojeva.md",
-    "Matematika/Limes niza.md",
+    "Matematika/Nesvojstveni integral.md",
     "Matematika/Analiza.md",
+    "Matematika/Red brojeva.md",
+    "Matematika/Kriterijumi konvergencije redova brojeva.md",
+    "Matematika/Konvergencija nekih redova.md",
+    "Matematika/Niz brojeva.md",
     "Matematika/Matematika.md",
     "Home.md",
-    "Matematika/Kriterijumi konvergencije redova brojeva.md",
-    "Matematika/Red brojeva.md",
+    "Matematika/Limes niza.md",
     "Media/analiza1_2_Tejlor.png",
     "Matematika/Tejlorov polinom.md",
     "Matematika/Grafik funkcije.md",
     "Drugo/@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
     "Matematika/Kombinatorika.md",
-    "Matematika/Nesvojstveni integral.md",
-    "Matematika/Konvergencija nekih redova.md",
     "Matematika/Funkcija generatrisa.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
