@@ -113,3 +113,4 @@ Tada $\begin{align}\sum\limits_{n=1}^{\infty} f(n)\ \ \text{konvergira}\quad\Lef
 
 $\:$
 **Stav** (Lajbnicov kriterijum). Neka je $(a_{n})$ strogo opadajući niz takav da $\lim\limits_{ n \to \infty }a_{n}= 0$. Tada $\begin{align}S=\sum\limits_{n=1}^{\infty} (-1)^{n-1}a_{n}\ \ \text{konvergira}\end{align}$ i važi $0<S \leqslant a_{1}$. ^94970b
+> Dokaz: #todo
