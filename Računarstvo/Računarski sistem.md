@@ -1,4 +1,4 @@
-#fax #cs/prog [deo [[Računarstvo|računarstva]]]
+#fax #cs [deo [[Računarstvo|računarstva]]]
 $\:$
 
 - Zapis podatatka

@@ -1,5 +1,5 @@
 
-#fax #math #a1 [deo poglavlja [[Red brojeva|"red brojeva"]]]
+#fax #math #a2 [deo poglavlja [[Red brojeva|"red brojeva"]]]
 $\:$
 
 **Stav**. $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\begin{cases}\frac{q}{1-q},&\text{za }-1<q<1\\\\\text{divergira},&\text{za ostale } q\end{cases}\end{align}$ ^20d439

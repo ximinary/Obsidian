@@ -1,4 +1,4 @@
-#fax #math #a1 [deo poglavlja [[Red brojeva|"red brojeva"]]]
+#fax #math #a2 [deo poglavlja [[Red brojeva|"red brojeva"]]]
 $\:$
 
 **Teorema** (Košijev kriterijum). Neka je $(a_{n})$ niz. Tada
@@ -9,8 +9,8 @@ $\:$
 **Stav**. Neka su $(a_{n})$ i $(b_{n})$ su nizovi, i $\exists N\in\mathbb{N}\quad \forall n\geqslant N\quad \boxed{|a_{n}|\leqslant b_{n}}$. Tada
 $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\quad\text{konvergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\end{align}$ ^9d13dd
 > Dokaz:
-> Neka je $\forall n\in\mathbb{N}\quad\begin{align}s_{n}=\sum\limits_{k=1}^{n}b_{n}\end{align}$ parcijalna suma za niz $(b_{n})$ 
-> i neka je $\begin{align}\forall n\in\mathbb{N}\quad\sigma_{n}=\sum\limits_{k=1}^{n}a_{n}\end{align}$ parcijalna suma za niz $(a_{n})$.
+> Neka je $\forall n\in\mathbb{N}\quad\begin{align}s_{n}=\sum\limits_{k=1}^{n}b_{n}\end{align}$ parcijalna suma reda $\begin{align}\sum\limits_{n=1}^{\infty} b_{n}\end{align}$ 
+> i neka je $\begin{align}\forall n\in\mathbb{N}\quad\sigma_{n}=\sum\limits_{k=1}^{n}a_{n}\end{align}$ parcijalna suma reda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\end{align}$.
 >
 > Iz Košijevog kriterijuma:
 > $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\quad\text{konvergira}\quad\Rightarrow\quad\forall\varepsilon>0\quad \exists N_{1}\in\mathbb{N}\quad \forall m,\,k\geqslant N_{1}\quad\left|s_{m}-s_{k}\right|<\varepsilon\end{align}$

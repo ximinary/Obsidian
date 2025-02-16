@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Home"
             },
             "group": "e8221fefaba975ac"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Home"
             },
             "group": "e8221fefaba975ac"
           }
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematika/Vrste tačaka u odnosu na neki skup.md",
+                "file": "Matematika/Analiza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Vrste tačaka u odnosu na neki skup"
+              "title": "Outgoing links from Analiza"
             }
           },
           {
@@ -214,35 +214,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc64b044ec302f4a",
+  "active": "b3129deac85983c7",
   "lastOpenFiles": [
-    "Matematika/Nesvojstveni integral.md",
     "Matematika/Analiza.md",
+    "Matematika/Funkcionalni red.md",
+    "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
     "Matematika/Red brojeva.md",
     "Matematika/Kriterijumi konvergencije redova brojeva.md",
+    "Matematika/Funkcionalni niz.md",
     "Matematika/Konvergencija nekih redova.md",
+    "Matematika/Limes niza.md",
     "Matematika/Niz brojeva.md",
+    "Matematika/Košijev niz.md",
+    "Matematika/Funkcija generatrisa.md",
     "Matematika/Matematika.md",
     "Home.md",
-    "Matematika/Limes niza.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Računarski sistem.md",
+    "Računarstvo/Ispravnost programa.md",
+    "Računarstvo/Složenost algoritma.md",
+    "Računarstvo/Programski jezik C.md",
+    "Matematika/Unitarni prostor.md",
+    "Matematika/Nesvojstveni integral.md",
     "Media/analiza1_2_Tejlor.png",
     "Matematika/Tejlorov polinom.md",
     "Matematika/Grafik funkcije.md",
     "Drugo/@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
     "Matematika/Kombinatorika.md",
-    "Matematika/Funkcija generatrisa.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
-    "Matematika/Košijev niz.md",
-    "Matematika/Aritmetička i geometrijska progresija.md",
-    "Matematika/Neodređeni integral.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
-    "Matematika/Vektor.md",
-    "Matematika/Vektorski prostor.md",
-    "Untitled.md",
     "Media/analiza1_0_vrste_tačaka.png",
-    "Računarstvo/Ulaz i izlaz (C).md",
-    "Računarstvo/Standardne biblioteke (C).md",
     "Media/analiza1_2_lagranž_p3.png",
     "Media/analiza1_2_lagranž_p2.jpeg",
     "Media/analiza1_2_lagranž_p3.jpeg",

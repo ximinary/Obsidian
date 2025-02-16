@@ -10,9 +10,11 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 
 ### Funkcije više realnih promenljivih
 
+
 ### Nizovi i redovi
 [[Niz brojeva]]
 [[Red brojeva]]
 
-Funkcionalni niz
-Funkcionalni red
+[[Funkcionalni niz]]
+[[Funkcionalni red]]
+
