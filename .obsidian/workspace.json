@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Analiza"
             },
             "group": "e8221fefaba975ac"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Analiza"
             },
             "group": "e8221fefaba975ac"
           }
@@ -214,35 +214,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3129deac85983c7",
+  "active": "cc64b044ec302f4a",
   "lastOpenFiles": [
-    "Matematika/Analiza.md",
     "Matematika/Funkcionalni red.md",
     "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
     "Matematika/Red brojeva.md",
-    "Matematika/Kriterijumi konvergencije redova brojeva.md",
     "Matematika/Funkcionalni niz.md",
+    "Matematika/Analiza.md",
+    "Matematika/Kriterijumi konvergencije redova brojeva.md",
+    "Matematika/Limes funkcije.md",
+    "Matematika/Nesvojstveni integral.md",
+    "Matematika/Gama funkcija i beta funkcija.md",
+    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Stepeni red.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
     "Matematika/Konvergencija nekih redova.md",
-    "Matematika/Limes niza.md",
     "Matematika/Niz brojeva.md",
-    "Matematika/Košijev niz.md",
-    "Matematika/Funkcija generatrisa.md",
     "Matematika/Matematika.md",
     "Home.md",
-    "Računarstvo/Računarstvo.md",
     "Računarstvo/Računarski sistem.md",
-    "Računarstvo/Ispravnost programa.md",
-    "Računarstvo/Složenost algoritma.md",
-    "Računarstvo/Programski jezik C.md",
-    "Matematika/Unitarni prostor.md",
-    "Matematika/Nesvojstveni integral.md",
-    "Media/analiza1_2_Tejlor.png",
+    "Matematika/Vektorski prostor.md",
     "Matematika/Tejlorov polinom.md",
-    "Matematika/Grafik funkcije.md",
-    "Drugo/@NotConnected Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
-    "Matematika/Kombinatorika.md",
-    "Matematika/Limes funkcije.md",
-    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Matematika/Osnovni limesi.md",
+    "Matematika/Limes niza.md",
+    "Matematika/Košijev niz.md",
+    "Matematika/Funkcija generatrisa.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Ispravnost programa.md",
+    "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",
     "Media/analiza1_2_lagranž_p2.jpeg",

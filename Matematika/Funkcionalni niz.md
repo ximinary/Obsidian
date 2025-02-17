@@ -6,13 +6,10 @@ $\:$
 **Def**. Niz $f_{n}$ konvergira u tački $x_{0}\in A$ ako $\exists\lim\limits_{ n \to \infty }f_{n}(x_{0})\in\mathbb{R}$
 
 $\:$
-**Def.** Neka je $f_{n}\ :A\to\mathbb{R}$ funkcionalni niz i neka za neko $B\subseteq A$ važi $\forall x\in B\quad\exists\lim\limits_{ n \to \infty }f_{n}(x)\in\mathbb{R}$.
-Definišemo fju $f:\ B\to \mathbb{R}\ \:$ sa $\ \:f(x)=\lim\limits_{ n \to \infty }f_{n}(x)$.
-Tada niz $(f_{n})$ **tačka po tačku konvergira** ka funkciji $f$ na skupu $B$.
+**Def.** Neka je $f_{n}\ :A\to\mathbb{R}$ funkcionalni niz i neka $f:\ B\to\mathbb{R}$, gde je $B\subseteq A$.
+Niz $(f_{n})$ **tačka po tačku konvergira** ka funkciji $f$ na skupu $B$ ako važi
+$\forall x\in B\quad\exists\lim\limits_{ n \to \infty }f_{n}(x)=f(x)\quad\bigg(\Leftrightarrow\quad\forall x\in B\quad \forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad|f_{n}(x)-f(x)|<\varepsilon\bigg)$
 Oznaka: $f_{n}\to f$ na skupu $B$ ^05c72e
-
-Detaljnije,
-$f_{n}\to f\ \text{ na }\ B\quad\Leftrightarrow\quad\forall x\in B\quad \forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad|f_{n}(x)-f(x)|<\varepsilon$ ^641544
 
 $\:$
 **Def**. Neka je $f_{n}\ :A\to\mathbb{R}$ funkcionalni niz i neka je $f\,:B\to\mathbb{R}$, gde je $B\subseteq A$.

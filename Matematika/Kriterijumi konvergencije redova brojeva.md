@@ -105,7 +105,7 @@ Tada $\begin{align}\sum\limits_{n=1}^{\infty} f(n)\ \ \text{konvergira}\quad\Lef
 > 
 > $\boxed{\Rightarrow}$ 
 > Jer $\begin{align}\sum\limits_{n=1}^{\infty}f(n)\ \ \text{konvergira}\end{align}$ i $(s_{n})$ je rastući niz, taj niz je ograničen odozgo.
- Odakle koristeći $(1)$ fja $\begin{align}\int_{1}^{n} f(x) \, dx \end{align}$ ograničena je odozgo i jer je on rastuća, $\begin{align}\exists\lim\limits_{ x \to +\infty }\int_{1}^{n} f(x) \, dx=\int_{1}^{+\infty} f(x) \, dx\in\mathbb{R} \quad\end{align}$ (tj. integral konvergira)
+ Odakle koristeći $(1)$ fja $\begin{align}\int_{1}^{n} f(x) \, dx \end{align}$ ograničena je odozgo i jer je ona rastuća, $\begin{align}\exists\lim\limits_{ x \to +\infty }\int_{1}^{n} f(x) \, dx=\int_{1}^{+\infty} f(x) \, dx\in\mathbb{R} \quad\end{align}$ (tj. integral konvergira)
  >
  >$\boxed{\Leftarrow}$ 
 > Jer $\begin{align}\int_{1}^{+\infty} f(x) \, dx\ \ \text{konvergira}\end{align}$ i $\begin{align}\int_{1}^{n} f(x) \, dx \end{align}$ je rastuća fja, ta fja je ograničena odozgo.
