@@ -50,9 +50,9 @@ onda red $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\end{align}$ ravnomern
 > 
 > $\begin{align}\forall x\in B\quad |s_{m}(x)-s_{k}(x)|&=|f_{k+1}(x)+f_{k+2}(x)+\dots+f_{m}(c)|\leqslant|f_{k+1}(x)|+|f_{k+2}(x)|+\dots+|f_{m}(x)|\leqslant\\&\leqslant a_{k+1}+a_{k+2}+\dots+a_{m}= \sigma_{m}-\sigma_{k}<\varepsilon\end{align}$
 > 
-> Konačno:
-> $\begin{align}\forall\varepsilon>0\quad \exists N_{2}:=\max\{N,\,N_{1}\}\quad \forall m,\,k\geqslant N_{2}\quad\forall x\in B\quad\left|s_{m}(x)-s_{k}(x)\right|<\varepsilon\quad\Rightarrow\end{align}$
-> $\begin{align}\Rightarrow\quad\sum\limits_{n=1}^{\infty}f_{n}\ \ \end{align}$ ravnomerno konvergira na $B$
+> Konačno,
+> $\begin{align}\forall\varepsilon>0\quad \exists N_{2}:=\max\{N,\,N_{1}\}\quad \forall m,\,k\geqslant N_{2}\quad\forall x\in B\quad\left|s_{m}(x)-s_{k}(x)\right|<\varepsilon\end{align}$
+> tj. $\begin{align}\ \ \sum\limits_{n=1}^{\infty}f_{n}\ \ \end{align}$ ravnomerno konvergira na $B$
 
 $\:$
 ### [[Svojstva ravnomerno konvergentnih funkcionalnih redova]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Stepeni red.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Stepeni red"
             },
             "group": "e8221fefaba975ac"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Stepeni red.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Stepeni red"
             },
             "group": "e8221fefaba975ac"
           }
@@ -217,16 +217,16 @@
   "active": "cc64b044ec302f4a",
   "lastOpenFiles": [
     "Matematika/Funkcionalni red.md",
-    "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
-    "Matematika/Red brojeva.md",
-    "Matematika/Funkcionalni niz.md",
     "Matematika/Analiza.md",
+    "Stepeni red.md",
+    "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
+    "Matematika/Funkcionalni niz.md",
+    "Matematika/Red brojeva.md",
     "Matematika/Kriterijumi konvergencije redova brojeva.md",
     "Matematika/Limes funkcije.md",
     "Matematika/Nesvojstveni integral.md",
     "Matematika/Gama funkcija i beta funkcija.md",
     "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
-    "Stepeni red.md",
     "Matematika/Određeni integral.md",
     "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
     "Matematika/Konvergencija nekih redova.md",
