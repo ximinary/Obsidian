@@ -1,0 +1,112 @@
+#fax #math #a2 [deo poglavlja [[Funkcionalni red|"funkcionalni red"]]]
+$\:$
+
+**Def**. Neka je $\big(c_{n}\big)_{n\in\mathbb{N}_{0}}$ [[Red brojeva|red brojeva]] i $x_{0}\in\mathbb{R}$. Tada se funkcionalni red $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}(x-x_{0})^{n} \end{align}$ naziva **stepeni red**.
+
+Za $x_{0}=0$ stepeni red ima oblik $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$
+
+Jasno je, $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ ravnomerno/TPT konvergira ka $f(x)$ na $[a,\,b]$ akko  $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}(x-x_{0})^{n} \end{align}$ ravnomerno/TPT konvergira ka $f(x-x_{0})$ na $[a+x_{0},\,b+x_{0}]$.
+
+$\:$
+**Stav**. Ako stepeni red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n} \,x^{n} \end{align}$
+- konvergira za $x=x_{1}$ onda on apsolutno konvergira za svako $x$ takvo da $|x|<|x_{1}|$ ^8fd158
+- divergira za $x=x_{2}$ onda on divergira za svako $x$ takvo da $|x|>|x_{2}|$
+
+> Dokaz:
+>
+> $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,x_{1}^{n}\ \ \text{konvergira}\quad\Rightarrow\quad\lim\limits_{ n \to \infty } c_{n}\,x_{1}^{n}=0\quad\Rightarrow\quad\exists M>0\quad\forall n\in\mathbb{N} \quad |c_{n}\,x_{1}^{n}|<M\quad\end{align}$
+>
+> Važi: 
+> $\begin{align}|c_{n}\,x^{n}|=|c_{n}\,x_{1}^{n}|\cdot\bigg|\frac{x}{x_{1}}\bigg|^{n}\leqslant M\,q^{n},\quad\quad\bigg|\frac{x}{x_{1}}\bigg|=q<1\end{align}$
+> I jer $\begin{align}\sum\limits_{n=0}^{\infty}M\,q^{n}\ \ \end{align}$ [[Konvergencija nekih redova#^20d439|konvergira]] za $0<q<1$ iz [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] sledi prvo tvrđenje.
+> ___
+> $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,x_{2}^{n}\ \ \text{divergira}\end{align}$.
+> Pretpostavimo suprotno, tj. postoji $\widehat{x}$ za koje važi $|\widehat{x}|>|x_{2}|$ i $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,\widehat{x}^{n}\ \ \text{konvergira} \end{align}$. Tada iz prvog tvrđenja za svako $x$ za koje važi $|x|<|\widehat{x}|$ (što važi i za $x= x_{2}$) red $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,x^{n}\ \ \text{konvergira}\end{align}$. Kontradikcija.
+
+$\:$
+**Def**. Neka je $X$ skup vrednosti promenljive $x$ za koje red $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,x^{n}\ \  \end{align}$ konvergira.
+$\ \:$ ako $X$ nije ograničen (tj. $X=\mathbb{R}$) onda $R:=+\infty$
+$\ \:$ inače je $X$ ograničen i $\exists \sup\limits_{x\in X}|x|=:R$
+Tada je $R\in[0,\,+\infty]$ **poluprečnik konvergencije** stepenog reda $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}\end{align}$.
+
+$\:$
+**Stav**. Stepeni red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}\end{align}$ apsolutno konvergira na $(-R,\,R)$ i divergira na $(-\infty,\,-R)\cup(R,\,+\infty)$.
+> Dokaz: tvrđenje sledi iz definicije poluprečnika konvergencije i prethodne teoreme.
+
+$\:$
+**Teorema**. Neka $\big(c_{n}\big)_{n\in\mathbb{N}_{0}}$ niz brojeva takav da važi jedno od tvrđenja:
+- $\begin{align}\lim\limits_{ n \to \infty }\frac{|c_{n+1}|}{|c_{n}|}=A\in[0,\,+\infty]\end{align}$
+- $\lim\limits_{ n \to \infty }\sqrt[n]{|c_{n}|}=A\in[0,\,+\infty]$
+
+Tada je poluprečnik konvergencije reda $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ jednak $\begin{align}R=\frac{1}{A}\in[0,\,+\infty]\end{align}$
+> Dokaz:
+> Razmatramo konvergenciju reda $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}\end{align}$ za $x>0$
+> - $\begin{align}\lim\limits_{ n \to \infty }\frac{|c_{n+1}\,x^{n+1}|}{|c_{n}\,x^{n}|}=A\,x\quad\quad\lim\limits_{ n \to \infty }\frac{|c_{n+1}|\,x^{n+1}}{|c_{n}|\,x^{n}}=A\,x\end{align}$
+>   $\:$
+> iz [[Kriterijumi konvergencije redova brojeva#^cf63a2|Dalamberova kriterijuma]] red apsolutno konvergira za $A\,x<1$ i divergira za $A\,x>1$
+> $\:$
+> - $\begin{align}\lim\limits_{ n \to \infty }\sqrt[n]{|c_{n}\,x^{n}|}=A\,x\quad\quad\lim\limits_{ n \to \infty }\sqrt[n]{|c_{n}|\,x^{n}}=A\,x\end{align}$
+>   $\:$
+> iz [[Kriterijumi konvergencije redova brojeva#^d13f64|Košijevog korenog kriterijuma]] red apsolutno konvergira za $A\,x<1$ i divergira za $A\,x>1$
+> 
+> Odakle imamo, 
+> ako $A=+\infty$, red divergira za $\forall x\in\mathbb{R}\setminus\{0\}$, tj. $\begin{align}R=0=\frac{1}{A}\end{align}$
+> ako $A=0$, red konvergira za $\forall x\in\mathbb{R}$, tj. $\begin{align}R=+\infty=\frac{1}{A}\end{align}$ 
+> ako $A\in(0,\,+\infty)$, red konvergira za $\begin{align}0<x<\frac{1}{A}\end{align}$ i divergira za $\begin{align}x > \frac{1}{A}\end{align}$, tj $\begin{align}R=\frac{1}{A}\end{align}$
+
+$\:$
+### Svojstva stepenih redova
+
+**Stav**. Za $0<r<R$ red $\ \:$ $\begin{align}\sum\limits_{n=1}^{\infty}c_{n}\,x^{n}\ \ \end{align}$ ravnomerno konvergira na $[-r,\,r]$.
+> Dokaz: kako $\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|c_{n}\,x^{n}|\leqslant|c_{n}\,r^{n}|$ i kako red brojeva $\begin{align}\sum\limits_{n=0}^{\infty} |c_{n}\,r^{n}| \end{align}$ konvergira ([[Stepeni red#^8fd158|jer]] $r<R$) iz [[Funkcionalni red#^b72d33|Vajerštrasova kriterijuma]] sledi tvrđenje.
+
+$\:$
+**Posledica**. Funkcija $\begin{align}s(x):=\sum\limits_{n=0}^{\infty} c_{n}\,x^{n} \end{align}$ je neprekidna na $(-R,\,R)$
+> Dokaz: Za proizvoljno $a\in(-R,\,R)$ dokazati $s\,\mathcal{C}\,a$.
+> $\exists r\in R\ \  :\ \ |a|<r<R$. Tada red ravnomerno konvergira na $[-r,\,r]$, iz [[Svojstva ravnomerno konvergentnih funkcionalnih redova#^aa2a53|posledice]] sledi tvrđenje.
+
+$\:$
+**Stav**. Ako je $R < +\infty$ i ako red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,R^{n} \end{align}$ konvergira, onda red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ ravnomerno konvergira na $[0, R]$ i važi $\begin{align}\lim\limits_{ x \to R^{-} }\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}=\sum\limits_{n=0}^{\infty}c_{n}\,R^{n}\end{align}$
+
+**Stav**. Neka je $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ stepeni red sa poluprečnikom $R>0$. Tada za svako $x$ važi
+- $\begin{align}\int_{0}^{x} \bigg(\sum\limits_{n=0}^{\infty}c_{n}\,t^{n}\bigg)  \, dt = \sum\limits_{n=0}^{\infty}\bigg(\int_{0}^{x} c_{n}\,t^{n} \, dt\bigg)=\sum\limits_{n=0}^{\infty}\frac{c_{n}}{n+1}x^{n+1}=\sum\limits_{n=1}^{\infty}\frac{c_{n-1}}{n}x^{n}\quad\quad(1)\end{align}$
+- $\begin{align}\bigg(\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}\bigg)'=\sum\limits_{n=0}^{\infty}(c_{n}\,x^{n})'=\sum\limits_{n=1}^{\infty}n\,c_{n}\,x^{n-1}=\sum\limits_{n=0}^{\infty}(n+1)\,c_{n+1}\,x^{n}\quad\quad\quad\quad\quad\ \ (2)\end{align}$
+
+Štaviše, poluprečnici redova $(1)$ i $(2)$ su jednaki $R$
+> Dokaz: 
+> Tvrđenja slede iz stavova o svojstvima funkcionalnih redova ([[Svojstva ravnomerno konvergentnih funkcionalnih redova#^205ccf|1]], [[Svojstva ravnomerno konvergentnih funkcionalnih redova#^717181|2]]).
+> 
+> Poluprečnici:
+> $(1)$ Pod pretpostavkom da važi $\begin{align}\lim\limits_{ n \to \infty }\sqrt[n]{|c_{n}|}=\frac{1}{R}\end{align}$.
+> Tada $\begin{align}\lim\limits_{ n \to \infty }\sqrt[n]{\frac{|c_{n-1}|}{n}}=\frac{1}{R}\end{align}$
+> 
+> $(2)$ Pod pretpostavkom da važi $\begin{align}\lim\limits_{ n \to \infty }\frac{|c_{n+1}|}{|c_{n}|}=\frac{1}{R}\end{align}$.
+> Tada $\begin{align}\lim\limits_{ n \to \infty }\frac{(n+2)c_{n+2}}{(n+1)c_{n+1}}=\frac{1}{R}\end{align}$
+
+$\:$
+**Stav**. Neka je $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ stepeni red sa poluprečnikom konvergencije $R$ i neka je $s:\ (-R,\,R)\to\mathbb{R}$  definisana sa $\begin{align}s(x)=\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$. Tada $s\,\mathcal{C}^{\infty}\,(-R,\,R)$.
+
+>$\forall n\in\mathbb{N}\quad s^{(n)}(0)=n!\,c_{n}$
+odakle, $\begin{align}s(x)=\sum\limits_{n=0}^{\infty}\frac{s^{(n)}(0)}{n!}x^{n} \end{align}$
+
+$\:$
+### Tejlorov red
+Napomena: [[Tejlorov polinom]]
+
+**Def**. Neka je $f:\ (a,\,b)\to\mathbb{R}$ takva da $f\,\mathcal{C}\,(a,\,b)$ i neka je $x_{0}\in(a,\,b)$. Tada stepeni red $\boxed{\begin{align}\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x_{0})}{n!}(x-x_{0})^{n} \end{align}}$ je **Tejlorov red** funkcije $f$ u tački $x_{0}$. (**Maklorenov red** funkcije $f$ ako $x_{0}=0$).
+
+> Napomena: Tejlorov polinom može da konvergira kao i divergira na nekim delovima $(a,\,b)$. Iako konvergira na nekom intervalu, ne mora da konvergira ka $f$
+
+$\:$
+**Stav**. $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada
+$\begin{align}\forall x\in(-R,\,R)\quad f(x)=\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^{n} \quad\Leftrightarrow\quad\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0\end{align}$, 
+gde je $R_{n}(x,\,0;\,f)$ [[Tejlorov polinom#Ostatak Tejlorovog polinoma|ostatak Tejlorovog (Maklorenovog) polinoma]]
+
+> Dokaz: levi deo implikacije prepišemo kao
+> $\forall x\in(-R,\,R)\quad \lim\limits_{ n \to \infty }P_{n}(x,\,0;\,f)=f(x)$,
+> gde je $P_{n}(x,\,0;\,f)$ [[Tejlorov polinom|Maklorenov polinom]] fje $f$, odnosno parcijalna suma Maklorenovog reda.
+> 
+> Tada implikacija sledi iz jednačine $\forall n\in\mathbb{N}\quad\forall x\in(-R,\,R)\quad f(x)=P_{n}(x,\,0;\,f)+R_{n}(x,\,0;\,f)$
+
+$\:$
+**Stav**.

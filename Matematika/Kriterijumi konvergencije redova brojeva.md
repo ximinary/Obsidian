@@ -55,7 +55,7 @@ $\:$
 
 ___
 
-**Teorema** (Dalamberov kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}>0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\frac{a_{n+1}}{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada
+**Teorema** (Dalamberov kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}>0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\frac{a_{n+1}}{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada ^cf63a2
 - Ako $0\leqslant A<1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$
 - Ako $A>1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$
 
@@ -84,7 +84,7 @@ ___
 > Iz (2) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{divergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$.
 
 $\:$
-**Teorema** (Košijev koreni kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}\geqslant0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\sqrt[n]{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada
+**Teorema** (Košijev koreni kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}\geqslant0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\sqrt[n]{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada ^d13f64
 - Ako $0\leqslant A<1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$
 - Ako $A>1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$
 

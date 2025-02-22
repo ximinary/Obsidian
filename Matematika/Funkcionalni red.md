@@ -11,7 +11,7 @@ Tada pišemo $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}=s\end{align}$ $\ \:\
 
 $\:$
 Detaljnije ([[Funkcionalni niz#^05c72e|?]], [[Red brojeva#^7a6e28|??]]),
-$\begin{align}\sum\limits_{n=1}^{\infty}f_{n}=s\ \text{ na }\ B\quad&\Leftrightarrow\quad s_{n}\to s \ \text{ na } \ B\quad\Leftrightarrow\quad\forall x\in B\quad s(x)\overset{?}=\lim\limits_{ n \to \infty }s_{n}(x)\overset{??}=\overbrace{\sum\limits_{n=1}^{\infty}f_{n}(x)}^{\text{red brojeva}}\\\\&\Leftrightarrow\quad\forall x\in B\quad \forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\left|s_{n}(x)-s(x)\right|<\varepsilon\end{align}$
+$\begin{align}\sum\limits_{n=1}^{\infty}f_{n}=s\ \text{ na }\ B\quad&\Leftrightarrow\quad s_{n}\to s \ \text{ na } \ B\quad\Leftrightarrow\quad\forall x\in B\quad s(x)\overset{?}=\lim\limits_{ n \to \infty }s_{n}(x)\overset{??}=\overbrace{\sum\limits_{n=1}^{\infty}f_{n}(x)}^{\text{red brojeva}}\\\\&\Leftrightarrow\quad\forall x\in B\quad \forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\left|s_{n}(x)-s(x)\right|<\varepsilon\end{align}$ ^05935c
 
 > Napomena: Stoga, funkcija $s:\ A\to\mathbb{R}$ iz prethodne definicije je definisana sa $\begin{align}s(x) =\sum\limits_{n=1}^{\infty} f_{n}(x)\end{align}$
 
@@ -34,7 +34,7 @@ $\:$
 **Teorema** ([[Funkcionalni niz#^a1dec4|Košijev kriterijum ravnomerne konvergencije]] funkcionalnog reda). Red $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\end{align}$ ravnomerno konvergira na skupu $B$ akko $\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall m,\,k\geqslant N\quad\forall x\in B\quad|s_{m}(x)-s_{k}(x)|<\varepsilon$  ^d724ad
 
 $\:$
-**Teorema** (Vajerštrasov kriterijum ravnomerne konvergencije funkcionalnog reda). Neka je $f_{n}:\ A\to\mathbb{R}$ funkcionalni niz. Ako postoji red brojeva $(a_{n})$ za koji važi 
+**Teorema** (Vajerštrasov kriterijum ravnomerne konvergencije funkcionalnog reda). Neka je $f_{n}:\ A\to\mathbb{R}$ funkcionalni niz. Ako postoji red brojeva $(a_{n})$ za koji važi  ^b72d33
 - $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \end{align}$ konvergira 
 - $\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\forall x\in B\quad |f_{n}(x)|\leqslant a_{n}$
 

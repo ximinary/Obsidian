@@ -50,12 +50,12 @@ $\begin{align}\sum\limits_{n=1}^{\infty}\lim\limits_{ x \to a } f_{n}(x)=\lim\li
 
 $\:$
 **Posledica** (neprekidnost funkcionalnog reda). Neka je $f_{n}:\ A\to\mathbb{R}$ niz neprekidnih u tački $a\in A$ funkcija. Tada 
-$\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ ravnomerno konvergira ka }\ s\quad\Rightarrow\quad s\,\mathcal{C}\,a\end{align}$ 
+$\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ ravnomerno konvergira ka }\ s\quad\Rightarrow\quad s\,\mathcal{C}\,a\end{align}$  ^aa2a53
 
 $\:$
 **Teorema** (integracija funkcionalnog reda). Neka je $f_{n}:\ [a,\,b]\to\mathbb{R}$ niz neprekidnih na $[a,\,b]$ funkcija i neka je $x_{0}\in[a,\,b]$. Tada
 $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ravnomerno konvergira na }\ [a,\,b]\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}\bigg(\int_{x_{0}}^{x} f_{n}(t) \, dt\bigg)\ \ \text{ravnomerno konvergira na }\ [a,\,b]\end{align}$
-i važi $\begin{align}\forall x\in[a,\,b]\quad \sum\limits_{n=1}^{\infty}\bigg(\int_{x_{0}}^{x} f_{n}(t) \, dt\bigg)=\int_{x_{0}}^{x} \bigg(\sum\limits_{n=1}^{\infty}f_{n}(t)\bigg) \, dt\end{align}$
+i važi $\begin{align}\forall x\in[a,\,b]\quad \sum\limits_{n=1}^{\infty}\bigg(\int_{x_{0}}^{x} f_{n}(t) \, dt\bigg)=\int_{x_{0}}^{x} \bigg(\sum\limits_{n=1}^{\infty}f_{n}(t)\bigg) \, dt\end{align}$ ^205ccf
 > Dokaz:
 > Neka je $(s_{n})$ niz prefiksnih suma reda $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\end{align}$
 > i neka je $(\sigma_{n})$ niz prefiksnih suma reda $\begin{align}\sum\limits_{n=1}^{\infty}\bigg(\int_{x_{0}}^{x} f_{n}(t) \, dt\bigg)\end{align}$
@@ -71,7 +71,7 @@ i važi $\begin{align}\forall x\in[a,\,b]\quad \sum\limits_{n=1}^{\infty}\bigg(\
 > $\begin{align}\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\forall x\in[a,\,b] \quad\bigg|\sigma_{n}(x)-\int_{x_{0}}^{x} s(t) \, dt\bigg|=\\=\bigg|\int_{x_{0}}^{x}\Big( s_{n}(t)-s(t) \Big)\, dt\bigg|<\bigg|\int_{x_{0}}^{x}\frac{\varepsilon}{b-a}\, dt\bigg|=\varepsilon\frac{|x-x_{0}|}{b-a}<\varepsilon\end{align}$
 
 $\:$
-**Stav** (diferenciranje funkcionalnog reda). Neka je $f_{n}:\ [a,\,b]\to\mathbb{R}$ niz funkcija, takvih da $\forall n\in\mathbb{N}\quad f_{n}\,\mathcal{C}^{1}\,[a,\,b]$. Tada ako važi:
+**Stav** (diferenciranje funkcionalnog reda). Neka je $f_{n}:\ [a,\,b]\to\mathbb{R}$ niz funkcija, takvih da $\forall n\in\mathbb{N}\quad f_{n}\,\mathcal{C}^{1}\,[a,\,b]$. Tada ako važi: ^717181
 - $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{tačka po tačku konvergira na }\ [a,\,b]\end{align}$
 - $\begin{align}\sum\limits_{n=1}^{\infty} f'_{n}(x)\ \ \text{ravnomerno konvergira na }\ [a,\,b]\end{align}$
 
