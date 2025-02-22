@@ -111,6 +111,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "16ee061fc368aa72",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "fcc9e4ad2eb74ac6",
             "type": "leaf",
             "state": {
@@ -123,16 +133,6 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "b3129deac85983c7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           },
           {
@@ -193,8 +193,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,8 +201,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "webpage-html-export:Export Vault to HTML": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
@@ -211,37 +208,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "1d7fe4b0937d7906",
+  "active": "8c294b5ad220f993",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
-    "Matematika/Analiza.md",
-    "Matematika/Funkcionalni red.md",
-    "Matematika/Furijeov red.md",
-    "Matematika/Stepeni red.md",
-    "Home.md",
-    "Matematika/Limes funkcije.md",
-    "Matematika/Tejlorov polinom.md",
-    "Matematika/Iskazna logika.md",
-    "Matematika/Logičke operacije.md",
-    "Matematika/Geometrija.md",
-    "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
-    "Matematika/Funkcionalni niz.md",
-    "Matematika/Red brojeva.md",
-    "Matematika/Kriterijumi konvergencije redova brojeva.md",
-    "Matematika/Nesvojstveni integral.md",
-    "Matematika/Gama funkcija i beta funkcija.md",
-    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
-    "Matematika/Konvergencija nekih redova.md",
-    "Matematika/Niz brojeva.md",
-    "Računarstvo/Računarski sistem.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Osnovni limesi.md",
+    "Matematika/Primene određenog integrala.md",
+    "Matematika/Logička funkcija.md",
+    "Matematika/Linearni operator u unitarnom prostoru.md",
+    "Matematika/Linearni operator.md",
+    "Matematika/Linearni funkcional.md",
+    "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
+    "Matematika/Linearna algebra.md",
     "Matematika/Limes niza.md",
+    "Matematika/Limes funkcije.md",
+    "Matematika/Kvaternion.md",
+    "Matematika/Kvadratna matrica.md",
+    "Matematika/Krug.md",
+    "Matematika/Krive drugog reda.md",
+    "Matematika/Kriterijumi konvergencije redova brojeva.md",
+    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
+    "Matematika/Košijev niz.md",
+    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
+    "Matematika/Konvergencija nekih redova.md",
+    "Matematika/Konveksnost i konkavnost.md",
+    "Matematika/Kongruentnost.md",
+    "Matematika/Kompozicija i particija broja.md",
+    "Matematika/Kompozicija funkcija.md",
+    "Matematika/Kombinatorika.md",
+    "Matematika/Kardinalnost. Prebrojivost.md",
+    "Matematika/Karakteristični i minimalni polinom.md",
+    "Matematika/Karakteristična funkcija.md",
     "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",
