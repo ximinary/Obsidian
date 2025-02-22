@@ -58,3 +58,5 @@ $\:$
 ### [[Svojstva ravnomerno konvergentnih funkcionalnih redova]]
 
 ### [[Stepeni red]]
+
+### [[Furijeov red]]

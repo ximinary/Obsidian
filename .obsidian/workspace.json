@@ -11,11 +11,37 @@
             "id": "cc64b044ec302f4a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            },
+            "group": "a4bee9370b086469"
+          }
+        ]
+      },
+      {
+        "id": "32f4b232bc4bde93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d7fe4b0937d7906",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            },
+            "group": "a4bee9370b086469"
           }
         ]
       }
@@ -188,17 +214,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc64b044ec302f4a",
+  "active": "1d7fe4b0937d7906",
   "lastOpenFiles": [
-    "Matematika/Funkcionalni red.md",
-    "Matematika/Stepeni red.md",
+    "Matematika/Matematika.md",
     "Matematika/Analiza.md",
+    "Matematika/Funkcionalni red.md",
+    "Matematika/Furijeov red.md",
+    "Matematika/Stepeni red.md",
+    "Home.md",
+    "Matematika/Limes funkcije.md",
     "Matematika/Tejlorov polinom.md",
+    "Matematika/Iskazna logika.md",
+    "Matematika/Logičke operacije.md",
+    "Matematika/Geometrija.md",
     "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
     "Matematika/Funkcionalni niz.md",
     "Matematika/Red brojeva.md",
     "Matematika/Kriterijumi konvergencije redova brojeva.md",
-    "Matematika/Limes funkcije.md",
     "Matematika/Nesvojstveni integral.md",
     "Matematika/Gama funkcija i beta funkcija.md",
     "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
@@ -206,16 +238,10 @@
     "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
     "Matematika/Konvergencija nekih redova.md",
     "Matematika/Niz brojeva.md",
-    "Matematika/Matematika.md",
-    "Home.md",
     "Računarstvo/Računarski sistem.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Osnovni limesi.md",
     "Matematika/Limes niza.md",
-    "Matematika/Košijev niz.md",
-    "Matematika/Funkcija generatrisa.md",
-    "Računarstvo/Računarstvo.md",
-    "Računarstvo/Ispravnost programa.md",
     "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",

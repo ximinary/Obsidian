@@ -57,7 +57,7 @@ Teorema (aritmetičke operacije). $a\in D';$ $f:D\!\to\!\mathbb{R},\ \ \lim\limi
 
 [[analiza1_1_4.png|Tvrđenje 4]]. $a\in D';$
  $f:D\!\to\!\mathbb{R},\ \ \lim\limits_{ x \to a }f(x) = L\in \mathbb{R}; \ \:$$g:D\!\to\!\mathbb{R}, \ \  \lim\limits_{ x \to a }g(x) =M \in \mathbb{R};$
- $\exists \delta_{1}>0\quad \forall x\in \mathring{\mathrm{O}}_{\delta_{1}}(a) \quad f(x)\leqslant g(x)$. $\:$ Tada $L\leqslant M$
+ $\exists \delta_{1}>0\quad \forall x\in \mathring{\mathrm{O}}_{\delta_{1}}(a) \quad f(x)\leqslant g(x)$. $\:$ Tada $L\leqslant M$ ^6958fd
 
 [[analiza1_1_teo3lim.png|Teorema]] (o tri limesa / o dva policajaca).
 $a \in D';\ \ \exists \delta_{0}>0\quad \forall x\in \mathrm{O}_{\delta_{0}}(a) \quad f(x)\leqslant g(x)\leqslant h(x);$

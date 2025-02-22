@@ -60,21 +60,14 @@ $\:$
 **Stav**. Za $0<r<R$ red $\ \:$ $\begin{align}\sum\limits_{n=1}^{\infty}c_{n}\,x^{n}\ \ \end{align}$ ravnomerno konvergira na $[-r,\,r]$.
 > Dokaz: kako $\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|c_{n}\,x^{n}|\leqslant|c_{n}\,r^{n}|$ i kako red brojeva $\begin{align}\sum\limits_{n=0}^{\infty} |c_{n}\,r^{n}| \end{align}$ konvergira ([[Stepeni red#^8fd158|jer]] $r<R$) iz [[Funkcionalni red#^b72d33|Vajerštrasova kriterijuma]] sledi tvrđenje.
 
-$\:$
-**Posledica**. Funkcija $\begin{align}s(x):=\sum\limits_{n=0}^{\infty} c_{n}\,x^{n} \end{align}$ je neprekidna na $(-R,\,R)$
-> Dokaz: Za proizvoljno $a\in(-R,\,R)$ dokazati $s\,\mathcal{C}\,a$.
-> $\exists r\in R\ \  :\ \ |a|<r<R$. Tada red ravnomerno konvergira na $[-r,\,r]$, iz [[Svojstva ravnomerno konvergentnih funkcionalnih redova#^aa2a53|posledice]] sledi tvrđenje.
-
-$\:$
-**Stav**. Ako je $R < +\infty$ i ako red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,R^{n} \end{align}$ konvergira, onda red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ ravnomerno konvergira na $[0, R]$ i važi $\begin{align}\lim\limits_{ x \to R^{-} }\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}=\sum\limits_{n=0}^{\infty}c_{n}\,R^{n}\end{align}$
-
-**Stav**. Neka je $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ stepeni red sa poluprečnikom $R>0$. Tada za svako $x$ važi
+**Posledica**. Neka je $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ stepeni red sa poluprečnikom konvergencije $R>0$. Tada za svako $x\in(-R,\,R)$ važi
+- $\begin{align}\bigg(\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \bigg)\,\mathcal{C}\, x\end{align}$
 - $\begin{align}\int_{0}^{x} \bigg(\sum\limits_{n=0}^{\infty}c_{n}\,t^{n}\bigg)  \, dt = \sum\limits_{n=0}^{\infty}\bigg(\int_{0}^{x} c_{n}\,t^{n} \, dt\bigg)=\sum\limits_{n=0}^{\infty}\frac{c_{n}}{n+1}x^{n+1}=\sum\limits_{n=1}^{\infty}\frac{c_{n-1}}{n}x^{n}\quad\quad(1)\end{align}$
 - $\begin{align}\bigg(\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}\bigg)'=\sum\limits_{n=0}^{\infty}(c_{n}\,x^{n})'=\sum\limits_{n=1}^{\infty}n\,c_{n}\,x^{n-1}=\sum\limits_{n=0}^{\infty}(n+1)\,c_{n+1}\,x^{n}\quad\quad\quad\quad\quad\ \ (2)\end{align}$
 
 Štaviše, poluprečnici redova $(1)$ i $(2)$ su jednaki $R$
 > Dokaz: 
-> Tvrđenja slede iz stavova o svojstvima funkcionalnih redova ([[Svojstva ravnomerno konvergentnih funkcionalnih redova#^205ccf|1]], [[Svojstva ravnomerno konvergentnih funkcionalnih redova#^717181|2]]).
+> $\forall x\in(-R,\,R)\quad\exists r\in R\ \  :\ \ |x|<r<R$. Tada polazni red (kao i red $(2)$) ravnomerno konvergira na $[-r,\,r]$. Odakle, pomoću stavova o svojstvima ravnomerno konvergentnih funkcionalnih redova ([[Svojstva ravnomerno konvergentnih funkcionalnih redova#^aa2a53|0]], [[Svojstva ravnomerno konvergentnih funkcionalnih redova#^205ccf|1]], [[Svojstva ravnomerno konvergentnih funkcionalnih redova#^717181|2]]) dobijamo tvrđenja.
 > 
 > Poluprečnici:
 > $(1)$ Pod pretpostavkom da važi $\begin{align}\lim\limits_{ n \to \infty }\sqrt[n]{|c_{n}|}=\frac{1}{R}\end{align}$.
@@ -82,6 +75,10 @@ $\:$
 > 
 > $(2)$ Pod pretpostavkom da važi $\begin{align}\lim\limits_{ n \to \infty }\frac{|c_{n+1}|}{|c_{n}|}=\frac{1}{R}\end{align}$.
 > Tada $\begin{align}\lim\limits_{ n \to \infty }\frac{(n+2)c_{n+2}}{(n+1)c_{n+1}}=\frac{1}{R}\end{align}$
+
+
+$\:$
+**Teorema** (Abelova). Ako je $R < +\infty$ i ako red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,R^{n} \end{align}$ konvergira, onda red $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ ravnomerno konvergira na $[0, R]$ i važi $\begin{align}\lim\limits_{ x \to R^{-} }\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}=\sum\limits_{n=0}^{\infty}c_{n}\,R^{n}\end{align}$
 
 $\:$
 **Stav**. Neka je $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ stepeni red sa poluprečnikom konvergencije $R$ i neka je $s:\ (-R,\,R)\to\mathbb{R}$  definisana sa $\begin{align}s(x)=\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$. Tada $s\,\mathcal{C}^{\infty}\,(-R,\,R)$.
@@ -98,15 +95,26 @@ Napomena: [[Tejlorov polinom]]
 > Napomena: Tejlorov polinom može da konvergira kao i divergira na nekim delovima $(a,\,b)$. Iako konvergira na nekom intervalu, ne mora da konvergira ka $f$
 
 $\:$
-**Stav**. $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada
+**Stav**. Neka je $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada
 $\begin{align}\forall x\in(-R,\,R)\quad f(x)=\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^{n} \quad\Leftrightarrow\quad\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0\end{align}$, 
 gde je $R_{n}(x,\,0;\,f)$ [[Tejlorov polinom#Ostatak Tejlorovog polinoma|ostatak Tejlorovog (Maklorenovog) polinoma]]
 
-> Dokaz: levi deo implikacije prepišemo kao
+> Dokaz: levi deo ekvivalencije prepišemo kao
 > $\forall x\in(-R,\,R)\quad \lim\limits_{ n \to \infty }P_{n}(x,\,0;\,f)=f(x)$,
 > gde je $P_{n}(x,\,0;\,f)$ [[Tejlorov polinom|Maklorenov polinom]] fje $f$, odnosno parcijalna suma Maklorenovog reda.
 > 
-> Tada implikacija sledi iz jednačine $\forall n\in\mathbb{N}\quad\forall x\in(-R,\,R)\quad f(x)=P_{n}(x,\,0;\,f)+R_{n}(x,\,0;\,f)$
+> Tada ekvivalencija sledi iz jednačine $\forall n\in\mathbb{N}\quad\forall x\in(-R,\,R)\quad f(x)=P_{n}(x,\,0;\,f)+R_{n}(x,\,0;\,f)$
 
 $\:$
-**Stav**.
+**Stav**. Neka je $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada ako $\forall r\in(0,\,R)\quad\exists M>0\quad\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|f^{(n)}(x)|\leqslant M$ 
+onda $\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)$
+> Dokaz:
+> [[Tejlorov polinom#^ddcb73|Lagranžev oblik ostatka]] Maklorenovog polinoma:
+> $\begin{align}R_{n}(x,\,0;\,f)=\frac{f^{(n+1)}(\xi)\cdot x^{n+1}}{(n+1)!},\quad\quad\end{align}$ gde je $\xi$ između $0$ i $x$.
+>
+> Tada, za svako $x\in(-R,\,R)$ postoji $r\in(|x|,\,R)$ za takvo $r$ is pretpostavke $\:\exists M>0\:$ tako da $\:\forall n\in\mathbb{N}_{0}\:$ važi $\:|f^{(n)}(\xi)|\leqslant M\:$ (jer $|\xi|<|x|<r$)
+> 
+> Imamo,
+> $\begin{align}\forall x\in(-R,\,R)\quad\forall n\in\mathbb{N}_{0}\quad&\big|R_{n}(x,\,0;\,f)\big|=\Bigg|\frac{f^{(n+1)}(\xi)\cdot x^{n+1}}{(n+1)!}\Bigg|\leqslant\frac{M\,r^{n+1}}{(n+1)!}\\&-\frac{M\,r^{n+1}}{(n+1)!}\leqslant R_{n}(x,\,0;\,f)\leqslant \frac{M\,r^{n+1}}{(n+1)!}\end{align}$
+> 
+> Kako $\begin{align}\lim\limits_{ n \to \infty }\frac{M\,r^{n+1}}{(n+1)!}=0\end{align}$ is [[Limes funkcije#^dd4e68|teoreme o dva policajaca]] važi $\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$.
