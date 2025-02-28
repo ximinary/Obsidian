@@ -6,6 +6,7 @@
       {
         "id": "ac1af3b8d1db0623",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "cc64b044ec302f4a",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Analiza"
             },
             "group": "a4bee9370b086469"
           }
@@ -27,6 +28,7 @@
       {
         "id": "32f4b232bc4bde93",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "1d7fe4b0937d7906",
@@ -34,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Analiza"
             },
             "group": "a4bee9370b086469"
           }
@@ -197,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 242.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,35 +215,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "8c294b5ad220f993",
+  "active": "1d7fe4b0937d7906",
   "lastOpenFiles": [
-    "Matematika/Primene određenog integrala.md",
-    "Matematika/Logička funkcija.md",
+    "Matematika/Funkcionalni red.md",
+    "Matematika/Stepeni red.md",
+    "Matematika/Analiza.md",
+    "Matematika/Red brojeva.md",
+    "Matematika/Kriterijumi konvergencije redova brojeva.md",
+    "Matematika/Furijeov red.md",
+    "Matematika/Limes niza.md",
+    "Media/analiza1_2_Tejlor.png",
+    "Matematika/Tejlorov polinom.md",
+    "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
+    "Matematika/Matematika.md",
+    "Matematika/Geometrija.md",
+    "Matematika/Funkcija.md",
+    "Matematika/Direktna i inverzna slika skupa.md",
+    "Matematika/Brojevi.md",
+    "Matematika/Teorija skupova.md",
+    "Home.md",
+    "Elementarna matematika.md",
+    "Matematika/Vektor.md",
+    "Matematika/Logika.md",
+    "Matematika/Realni brojevi.md",
+    "Matematika/Kvaternion.md",
+    "Računarstvo/Računarstvo.md",
+    "Matematika/Funkcionalni niz.md",
     "Matematika/Linearni operator u unitarnom prostoru.md",
     "Matematika/Linearni operator.md",
     "Matematika/Linearni funkcional.md",
-    "Matematika/Linearna zavisnost i nezavisnost. Skup generatora, baza i dimenzija VP-a.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Limes niza.md",
-    "Matematika/Limes funkcije.md",
-    "Matematika/Kvaternion.md",
-    "Matematika/Kvadratna matrica.md",
-    "Matematika/Krug.md",
-    "Matematika/Krive drugog reda.md",
-    "Matematika/Kriterijumi konvergencije redova brojeva.md",
-    "Matematika/Kriterijumi konvergencije nesvojstvenih integrala.md",
-    "Matematika/Košijev niz.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
-    "Matematika/Konvergencija nekih redova.md",
-    "Matematika/Konveksnost i konkavnost.md",
-    "Matematika/Kongruentnost.md",
-    "Matematika/Kompozicija i particija broja.md",
-    "Matematika/Kompozicija funkcija.md",
-    "Matematika/Kombinatorika.md",
-    "Matematika/Kardinalnost. Prebrojivost.md",
-    "Matematika/Karakteristični i minimalni polinom.md",
-    "Matematika/Karakteristična funkcija.md",
-    "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",
     "Media/analiza1_2_lagranž_p2.jpeg",

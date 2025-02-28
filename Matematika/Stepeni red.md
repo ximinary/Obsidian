@@ -90,9 +90,9 @@ $\:$
 ### Tejlorov red
 Napomena: [[Tejlorov polinom]]
 
-**Def**. Neka je $f:\ (a,\,b)\to\mathbb{R}$ takva da $f\,\mathcal{C}\,(a,\,b)$ i neka je $x_{0}\in(a,\,b)$. Tada stepeni red $\boxed{\begin{align}\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x_{0})}{n!}(x-x_{0})^{n} \end{align}}$ je **Tejlorov red** funkcije $f$ u tački $x_{0}$. (**Maklorenov red** funkcije $f$ ako $x_{0}=0$).
+**Def**. Neka je $f:\ (a,\,b)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(a,\,b)$ i neka je $x_{0}\in(a,\,b)$. Tada stepeni red $\boxed{\begin{align}\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x_{0})}{n!}(x-x_{0})^{n} \end{align}}$ je **Tejlorov red** funkcije $f$ u tački $x_{0}$. (**Maklorenov red** funkcije $f$ ako $x_{0}=0$).
 
-> Napomena: Tejlorov polinom može da konvergira kao i divergira na nekim delovima $(a,\,b)$. Iako konvergira na nekom intervalu, ne mora da konvergira ka $f$
+> Napomena: Tejlorov red može da konvergira kao i divergira na nekim delovima $(a,\,b)$. Iako konvergira na nekom intervalu, ne mora da konvergira ka $f$
 
 $\:$
 **Stav**. Neka je $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada
@@ -107,7 +107,7 @@ gde je $R_{n}(x,\,0;\,f)$ [[Tejlorov polinom#Ostatak Tejlorovog polinoma|ostatak
 
 $\:$
 **Stav**. Neka je $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada ako $\forall r\in(0,\,R)\quad\exists M>0\quad\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|f^{(n)}(x)|\leqslant M$ 
-onda $\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)$
+onda $\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$
 > Dokaz:
 > [[Tejlorov polinom#^ddcb73|Lagranžev oblik ostatka]] Maklorenovog polinoma:
 > $\begin{align}R_{n}(x,\,0;\,f)=\frac{f^{(n+1)}(\xi)\cdot x^{n+1}}{(n+1)!},\quad\quad\end{align}$ gde je $\xi$ između $0$ i $x$.
@@ -117,4 +117,31 @@ onda $\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)$
 > Imamo,
 > $\begin{align}\forall x\in(-R,\,R)\quad\forall n\in\mathbb{N}_{0}\quad&\big|R_{n}(x,\,0;\,f)\big|=\Bigg|\frac{f^{(n+1)}(\xi)\cdot x^{n+1}}{(n+1)!}\Bigg|\leqslant\frac{M\,r^{n+1}}{(n+1)!}\\&-\frac{M\,r^{n+1}}{(n+1)!}\leqslant R_{n}(x,\,0;\,f)\leqslant \frac{M\,r^{n+1}}{(n+1)!}\end{align}$
 > 
-> Kako $\begin{align}\lim\limits_{ n \to \infty }\frac{M\,r^{n+1}}{(n+1)!}=0\end{align}$ is [[Limes funkcije#^dd4e68|teoreme o dva policajaca]] važi $\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$.
+> Kako $\begin{align}\lim\limits_{ n \to \infty }\frac{M\,r^{n+1}}{(n+1)!}=0\end{align}$ iz [[Limes funkcije#^dd4e68|teoreme o dva policajaca]] važi $\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$.
+
+$\:$
+#### Maklorenov red osnovnih funkcija:
+- $\begin{align}e^{x}=\sum\limits_{n=0}^{\infty}\frac{x^{n}}{n!},\quad\quad x\in\mathbb{R}\end{align}$
+- $\begin{align}\ln(1+x)=\sum\limits_{n=1}^{\infty}(-1)^{n-1}\frac{x^{n}}{n},\quad\quad x\in(-1,\,1]\end{align}$
+- $\begin{align}(1+x)^{\alpha}=\sum\limits_{n=0}^{\infty}\binom{\alpha}{n}x^{n},\quad\quad x\in\begin{cases}(-1,\,1),&\alpha\leqslant-1\\(-1,\,1],&-1<\alpha\leqslant0\\ [-1,\,1],&\alpha>0\end{cases}\end{align}$
+- $\begin{align}\sin x =\sum\limits_{n=0}^{\infty}(-1)^{n}\frac{x^{2n+1}}{(2n+1)!},\quad\quad x\in\mathbb{R}\end{align}$
+- $\begin{align}\cos x =\sum\limits_{n=0}^{\infty}(-1)^{n}\frac{x^{2n}}{(2n)!},\quad\quad x\in\mathbb{R}\end{align}$
+
+> Dokaz: Maklorenove redove navedenih fja dobijamo iz [[analiza1_2_Tejlor.png|Maklorenovih polinoma fja]]. Razmotrimo tačka po tačku konvergenciju redova:
+> - $f(x)=e^{x}, \quad\quad x\in(-\infty,\,+\infty)$
+>   $\forall r\in(0,\,+\infty)\quad\forall n \in\mathbb{N}\quad \forall x \in[-r,\,r]\quad|f^{(n)}(x)|=e^{x}\leqslant e^{r}=:M$
+>   iz prethodna dva stava red TPT konvergira ka $f$ na $\mathbb{R}$
+> $\:$
+> - za $\sin x$ i $\cos x$ slično, pri tome $M=1$
+>   $\:$
+> -  $f(x)=(1+x)^{\alpha}, \quad\quad x\in(-\infty,\,+\infty)$
+>   Nađemo poluprečnik konvergencije reda (za $\alpha<0$):
+>   $\begin{align}\frac{1}{R}=\lim\limits_{ n \to \infty }\bigg|\frac{a_{n+1}}{a_{n}}\bigg|=\lim\limits_{ n \to \infty }\Bigg|\frac{\binom{\alpha}{n+1}}{\binom{\alpha}{n}}\Bigg|=\lim\limits_{ n \to \infty }\bigg|\frac{\alpha-n}{n+1}\bigg|=1\quad\Rightarrow\quad R=1\end{align}$
+>   Odakle red konvergira za $x\in(-1,\,1)$
+> $\:$
+> - $f(x)=\ln(1+x)$
+>   $\begin{align}f'(x)=\frac{1}{1+x}\quad\Rightarrow\quad f(x)&=\underbrace{f(0)}_{=0}+\int_{0}^{x} \frac{1}{1+t} \, dt=\int_{0}^{x} \bigg(\sum\limits_{n=0}^{\infty}\underbrace{\binom{-1}{n}}_{=(-1)^{n}}t^{n} \bigg)\, dt\\&=\sum\limits_{n=0}^{\infty}(-1)^{n}\frac{t^{n+1}}{n+1}=\sum\limits_{n=1}^{\infty}(-1)^{n-1}\frac{t^{n}}{n}\end{align}$
+>   sa istim poluprečnikom $R=1$.
+>  za $x=1$ konvergira po Lajbnicovu kriterijumu,
+>  za $x=-1$ imamo $\begin{align}-\sum\limits_{n=0}^{\infty} \frac{1}{n}\end{align}$ divergira
+>  

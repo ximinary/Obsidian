@@ -1,6 +1,9 @@
 #fax #math #laag #geom [deo [[Matematika|matematike]]]
 $\:$
 
+Elementarna geometrija u ravni
+Elementarna geometrija u prostoru
+
 [[Vektor]]:
 - [[Projektovanje vektora i skalarni proizvod vektora|skalarni proizvod]]
 - [[Vektorski i mešoviti proizvod vektora|vektorski i mešoviti proizvod]]
@@ -14,7 +17,7 @@ $\:$
 [[Analitička geometrija u prostoru]]
 
 [[Krive drugog reda]]
-[[Bezijeove krive]]
+Bezijeove krive
 
-[[Poligon]]
-[[Poliedar]]
+Poligon
+Poliedar

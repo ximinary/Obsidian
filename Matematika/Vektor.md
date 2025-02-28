@@ -1,4 +1,4 @@
-#fax #math #laag [deo [[Linearna algebra|linearne algebre]]]
+#fax #math #laag [deo [[Linearna algebra|linearne algebre]] i [[Geometrija|geometrije]]]
 $\:$
 
 **Def**. [[Teorija skupova#^e21aa8|Uređeni parovi]] tačaka prostora $\mathbb{E}\ \ (\mathrm{A},\,\mathrm{B})\ \:$i$\:\ (\mathrm{C},\,\mathrm{D})$ su ekvivalentni ako duži $\mathrm{AD}\ \:$i$\:\ \mathrm{BC}$ imaju zajedničko središte.

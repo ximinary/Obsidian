@@ -20,6 +20,14 @@ $\:$
 **Stav**. $f_{n}\rightrightarrows f$ na skupu $B$, $n\to\infty$ $\quad\Rightarrow\quad$ $f_{n}\to f$ na skupu $B$ ^f64c89
 
 $\:$
+**Stav**. $\forall n\in\mathbb{N}\quad f_{n}\,\mathcal{C}\,B$ $\quad$ i $\quad$ $f_{n}\rightrightarrows f$ na skupu $B$, $n\to\infty$ $\quad\Rightarrow\quad$ $f\,\mathcal{C}\,B$
+$\:$
+> Napomena:
+> Često koristimo kombinaciju prethodna dva stava:
+> $\forall n\in\mathbb{N}\quad f_{n}\,\mathcal{C}\,B$ $\quad$ i $\quad$ $f_{n}\to f$ na skupu $B$, $n\to\infty$ $\quad$ pri čemu $f$ ima prekid
+> $\Rightarrow\quad$ $f_{n}\,\not\rightrightarrows f$ na skupu $B$, $n\to\infty$
+
+$\:$
 **Stav**. $f_{n}\rightrightarrows f$ na skupu $B$, $n\to\infty$ $\quad\Leftrightarrow\quad\lim\limits_{ n \to \infty }\sup\limits_{x\in B}|f_{n}(x)-f(x)|=0$
 
 
