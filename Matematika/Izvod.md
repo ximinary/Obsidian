@@ -9,6 +9,10 @@ $\:$
  ako $\begin{align}\exists \lim\limits_{ x \to x_{0}^{-/+} }\frac{f(x)-f(x_{0})}{x-x_{0}} = \lim\limits_{ h \to 0^{-/+} }\frac{f(x_{0}+h)-f(x_{0})}{h} := f'_{-/+}(x_{0}) \end{align}$,
  on se zove **levi/desni izvod**
 
+Neka je $(a,\,b)\subseteq D_{f}$. $\ \:$ $f\,\mathcal{D}\,(a,\,b)\quad\Leftrightarrow\quad\forall x\in (a,\,b)\quad f\,\mathcal{D}\,x$ 
+
+**Def**. $f$ je **deo po deo diferencijabilna** na $(a,\,b)$ ako postoji $n\in\mathbb{N}$ i brojevi $x_{i},\ \ i\in\overline{0,n}$ takvi da $a=x_{0}<x_{1}<x_{2}<\dots<x_{n}=b$ za koje važi $\forall i=\overline{1,n}\quad f\,\mathcal{D}\,(x_{i-1},\,x_{i})$ ^35db14
+___
 Koristeći [[Limes funkcije#^cabb77|tvrđenje]] dobijamo:
 $\begin{align}\lim\limits_{ x \to x_{0} }\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)\ \ \Leftrightarrow\end{align}$
 $\begin{align}\Leftrightarrow\ \ \frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)+o(1),\ x\to x_{0}\ \ \Leftrightarrow\end{align}$

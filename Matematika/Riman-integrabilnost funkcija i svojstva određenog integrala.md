@@ -27,7 +27,7 @@ $f\,\mathcal{R}\,[a,\,b]\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exist
 >$\varepsilon:=I^{*}-I_{*}$
 
 $\:$
-**Teorema**. $f:\ [a,\,b]\to \mathbb{R}$ je neprekidna. Tada  $f\,\mathcal{R}\,[a,\,b]$
+**Teorema**. $f:\ [a,\,b]\to \mathbb{R}$ je (deo po deo) neprekidna. Tada  $f\,\mathcal{R}\,[a,\,b]$
 
 **Teorema**. $f:\ [a,\,b]\to \mathbb{R}$ je monotona. Tada  $f\,\mathcal{R}\,[a,\,b]$
 > Dokaz: neka $f\uparrow$ nije konstantna.

@@ -8,6 +8,10 @@ $\Leftrightarrow \ \ \begin{cases} \mathrm{uvek\ važi,\quad\quad\quad\ ako}\ a\
 **Def**. $f:\ D_{f}\to\mathbb{R}$ je **neprekidna sleva**/**zdesna** u tački $a\in D_{f} \:$ akko $\forall\varepsilon>0\quad\exists\delta>0\quad\forall x\in D_{f}\cap\mathrm{O}_{\delta}^{-/+}(a)\quad|f(x)-f(a)|<\varepsilon \ \ \Leftrightarrow$
 $\Leftrightarrow \ \ \begin{cases} \mathrm{uvek\ važi,\quad\quad\quad\quad\:\, ako}\ a\notin D_{f}'\\ \lim\limits_{ x \to a^{-/+} } f(x) = f(a),\ \mathrm{\ \ \!ako}\ a\in D_{f}'\end{cases}$
 
+Neka je $A\subseteq D_{f}$. $\ \:$ $f\,\mathcal{C}\,A\quad\Leftrightarrow\quad\forall x\in A\quad f\,\mathcal{C}\,x$ 
+
+**Def**. $f$ je **deo po deo neprekidna** na $(a,\,b)$ ako postoji $n\in\mathbb{N}$ i brojevi $x_{i},\ \ i\in\overline{0,n}$ takvi da $a=x_{0}<x_{1}<x_{2}<\dots<x_{n}=b$ za koje važi $\forall i=\overline{1,n}\quad f\,\mathcal{C}\,(x_{i-1},\,x_{i})$ ^0977f9
+
 ### [[Neprekidnost osnovnih funkcija]]
 
 ### Lokalna svojstva neprekidnosti

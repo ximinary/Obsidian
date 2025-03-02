@@ -13,7 +13,7 @@ Oznaka: $f_{n}\to f$ na skupu $B$ ^05c72e
 
 $\:$
 **Def**. Neka je $f_{n}\ :A\to\mathbb{R}$ funkcionalni niz i neka je $f\,:B\to\mathbb{R}$, gde je $B\subseteq A$.
-Niz $(f_{n})$ **ravnomerno konvergira** ka $f$ na skupu $B$ ako važi $\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\forall x\in B\quad|f_{n}(x)-f(x)|<\varepsilon$
+Niz $(f_{n})$ **ravnomerno** (uniformno) **konvergira** ka $f$ na skupu $B$ ako važi $\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\forall x\in B\quad|f_{n}(x)-f(x)|<\varepsilon$
 Oznaka: $f_{n}\rightrightarrows f$ na skupu $B$, $n\to\infty$ ^6f4432
 
 $\:$

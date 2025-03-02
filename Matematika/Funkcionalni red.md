@@ -10,13 +10,13 @@ $\:$
 Tada pišemo $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}=s\end{align}$ $\ \:\Big(\Leftrightarrow\quad s_{n}\to s\Big)\ \:$ na skupu $B$.
 
 $\:$
-Detaljnije ([[Funkcionalni niz#^05c72e|?]], [[Red brojeva#^7a6e28|??]]),
-$\begin{align}\sum\limits_{n=1}^{\infty}f_{n}=s\ \text{ na }\ B\quad&\Leftrightarrow\quad s_{n}\to s \ \text{ na } \ B\quad\Leftrightarrow\quad\forall x\in B\quad s(x)\overset{?}=\lim\limits_{ n \to \infty }s_{n}(x)\overset{??}=\overbrace{\sum\limits_{n=1}^{\infty}f_{n}(x)}^{\text{red brojeva}}\\\\&\Leftrightarrow\quad\forall x\in B\quad \forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\left|s_{n}(x)-s(x)\right|<\varepsilon\end{align}$ ^05935c
+Detaljnije ([[Funkcionalni niz#^05c72e|*]], [[Red brojeva#^7a6e28|**]]),
+$\begin{align}\sum\limits_{n=1}^{\infty}f_{n}=s\ \text{ na }\ B\quad&\Leftrightarrow\quad s_{n}\to s \ \text{ na } \ B\quad\Leftrightarrow\quad\forall x\in B\quad s(x)\overset{*}=\lim\limits_{ n \to \infty }s_{n}(x)\overset{**}=\overbrace{\sum\limits_{n=1}^{\infty}f_{n}(x)}^{\text{red brojeva}}\\\\&\Leftrightarrow\quad\forall x\in B\quad \forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\left|s_{n}(x)-s(x)\right|<\varepsilon\end{align}$ ^05935c
 
 > Napomena: Stoga, funkcija $s:\ A\to\mathbb{R}$ iz prethodne definicije je definisana sa $\begin{align}s(x) =\sum\limits_{n=1}^{\infty} f_{n}(x)\end{align}$
 
 $\:$
-**[[Red brojeva#^7e0ab5|Stav]]**. $\begin{align}\sum\limits_{n=1}^{\infty} f(x)\end{align}$ tačka po tačku konvergira na $B$ $\quad\Rightarrow\quad$ $\forall x\in B\quad\lim\limits_{ n \to \infty }f_{n}(x)=0$
+**[[Red brojeva#^7e0ab5|Stav]]**. $\begin{align}\sum\limits_{n=1}^{\infty} f(x)\end{align}$ tačka po tačku konvergira na $B$ $\quad\Rightarrow\quad$ $f_{n}\to0$ $\:$ na $\:$ $B$
 
 ___
 **Def**. $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}\end{align}$ **apsolutno tačka po tačku konvergira** na  $B$ ako $\begin{align}\sum\limits_{n=1}^{\infty}|f_{n}|\end{align}$ tačka po tačku konvergira na $B$.
@@ -25,10 +25,13 @@ ___
 ___
 ### Ravnomerna konvergencija
 
-**Def**. Neka je $f_{n}:\ A\to\mathbb{R}$ funkcionalni niz. Tada funkcionalni red $\begin{align}\sum\limits_{n=1}^{\infty}f_{n} \end{align}$ **ravnomerno konvergira** ka $s$ na skupu $B$, ako funkcionalni niz parcijalnih suma $(s_{n})$ [[Funkcionalni niz#^6f4432|ravnomerno konvergira]] ka $s$ na skupu $B$.
+**Def**. Neka je $f_{n}:\ A\to\mathbb{R}$ funkcionalni niz. Tada funkcionalni red $\begin{align}\sum\limits_{n=1}^{\infty}f_{n} \end{align}$ **ravnomerno** (uniformno) **konvergira** ka $s$ na skupu $B$, ako funkcionalni niz parcijalnih suma $(s_{n})$ [[Funkcionalni niz#^6f4432|ravnomerno konvergira]] ka $s$ na skupu $B$.
 
 $\:$
 **[[Funkcionalni niz#^f64c89|Stav]]**. Ako red $\begin{align}\sum\limits_{n=1}^{\infty}f_{n}\end{align}$ ravnomerno konvergira na $B$ tada on tačka po tačku konvergira na $B$.
+
+$\:$
+**Stav**. $\begin{align}\sum\limits_{n=1}^{\infty} f(x)\end{align}$ ravnomerno konvergira na $B$ $\quad\Rightarrow\quad$ $f_{n}\rightrightarrows0$ $\:$ na $\:$ $B,$ $\:$ $n\to\infty$
 
 $\:$
 **Teorema** ([[Funkcionalni niz#^a1dec4|Košijev kriterijum ravnomerne konvergencije]] funkcionalnog reda). Red $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\end{align}$ ravnomerno konvergira na skupu $B$ akko $\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall m,\,k\geqslant N\quad\forall x\in B\quad|s_{m}(x)-s_{k}(x)|<\varepsilon$  ^d724ad
