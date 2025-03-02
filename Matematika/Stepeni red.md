@@ -1,7 +1,7 @@
 #fax #math #a2 [deo poglavlja [[Funkcionalni red|"funkcionalni red"]]]
 $\:$
 
-**Def**. Neka je $\big(c_{n}\big)_{n\in\mathbb{N}_{0}}$ [[Red brojeva|red brojeva]] i $x_{0}\in\mathbb{R}$. Tada se funkcionalni red $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}(x-x_{0})^{n} \end{align}$ naziva **stepeni red**.
+**Def**. Neka je $\big(c_{n}\big)_{n\in\mathbb{N}_{0}}$ [[Niz brojeva|niz brojeva]] i $x_{0}\in\mathbb{R}$. Tada se funkcionalni red $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}(x-x_{0})^{n} \end{align}$ naziva **stepeni red**.
 
 Za $x_{0}=0$ stepeni red ima oblik $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$
 
@@ -18,7 +18,7 @@ $\:$
 >
 > Važi: 
 > $\begin{align}|c_{n}\,x^{n}|=|c_{n}\,x_{1}^{n}|\cdot\bigg|\frac{x}{x_{1}}\bigg|^{n}\leqslant M\,q^{n},\quad\quad\bigg|\frac{x}{x_{1}}\bigg|=q<1\end{align}$
-> I jer $\begin{align}\sum\limits_{n=0}^{\infty}M\,q^{n}\ \ \end{align}$ [[Konvergencija nekih redova#^20d439|konvergira]] za $0<q<1$ iz [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] sledi prvo tvrđenje.
+> I jer $\begin{align}\sum\limits_{n=0}^{\infty}M\,q^{n}\ \ \end{align}$ [[Konvergencija nekih brojevnih redova#^20d439|konvergira]] za $0<q<1$ iz [[Kriterijumi konvergencije brojevnih redova#^4d14b2|teoreme]] sledi prvo tvrđenje.
 > ___
 > $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,x_{2}^{n}\ \ \text{divergira}\end{align}$.
 > Pretpostavimo suprotno, tj. postoji $\widehat{x}$ za koje važi $|\widehat{x}|>|x_{2}|$ i $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,\widehat{x}^{n}\ \ \text{konvergira} \end{align}$. Tada iz prvog tvrđenja za svako $x$ za koje važi $|x|<|\widehat{x}|$ (što važi i za $x= x_{2}$) red $\begin{align}\sum\limits_{n=0}^{\infty} c_{n}\,x^{n}\ \ \text{konvergira}\end{align}$. Kontradikcija.
@@ -43,11 +43,11 @@ Tada je poluprečnik konvergencije reda $\begin{align}\sum\limits_{n=0}^{\infty}
 > Razmatramo konvergenciju reda $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n}\end{align}$ za $x>0$
 > - $\begin{align}\lim\limits_{ n \to \infty }\frac{|c_{n+1}\,x^{n+1}|}{|c_{n}\,x^{n}|}=A\,x\quad\quad\lim\limits_{ n \to \infty }\frac{|c_{n+1}|\,x^{n+1}}{|c_{n}|\,x^{n}}=A\,x\end{align}$
 >   $\:$
-> iz [[Kriterijumi konvergencije redova brojeva#^cf63a2|Dalamberova kriterijuma]] red apsolutno konvergira za $A\,x<1$ i divergira za $A\,x>1$
+> iz [[Kriterijumi konvergencije brojevnih redova#^cf63a2|Dalamberova kriterijuma]] red apsolutno konvergira za $A\,x<1$ i divergira za $A\,x>1$
 > $\:$
 > - $\begin{align}\lim\limits_{ n \to \infty }\sqrt[n]{|c_{n}\,x^{n}|}=A\,x\quad\quad\lim\limits_{ n \to \infty }\sqrt[n]{|c_{n}|\,x^{n}}=A\,x\end{align}$
 >   $\:$
-> iz [[Kriterijumi konvergencije redova brojeva#^d13f64|Košijevog korenog kriterijuma]] red apsolutno konvergira za $A\,x<1$ i divergira za $A\,x>1$
+> iz [[Kriterijumi konvergencije brojevnih redova#^d13f64|Košijevog korenog kriterijuma]] red apsolutno konvergira za $A\,x<1$ i divergira za $A\,x>1$
 > 
 > Odakle imamo, 
 > ako $A=+\infty$, red divergira za $\forall x\in\mathbb{R}\setminus\{0\}$, tj. $\begin{align}R=0=\frac{1}{A}\end{align}$
@@ -58,7 +58,7 @@ $\:$
 ### Svojstva stepenih redova
 
 **Stav**. Za $0<r<R$ red $\ \:$ $\begin{align}\sum\limits_{n=1}^{\infty}c_{n}\,x^{n}\ \ \end{align}$ ravnomerno konvergira na $[-r,\,r]$.
-> Dokaz: kako $\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|c_{n}\,x^{n}|\leqslant|c_{n}\,r^{n}|$ i kako red brojeva $\begin{align}\sum\limits_{n=0}^{\infty} |c_{n}\,r^{n}| \end{align}$ konvergira ([[Stepeni red#^8fd158|jer]] $r<R$) iz [[Funkcionalni red#^b72d33|Vajerštrasova kriterijuma]] sledi tvrđenje.
+> Dokaz: kako $\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|c_{n}\,x^{n}|\leqslant|c_{n}\,r^{n}|$ i kako brojevni red $\begin{align}\sum\limits_{n=0}^{\infty} |c_{n}\,r^{n}| \end{align}$ konvergira ([[Stepeni red#^8fd158|jer]] $r<R$) iz [[Funkcionalni red#^b72d33|Vajerštrasova kriterijuma]] sledi tvrđenje.
 
 **Posledica**. Neka je $\begin{align}\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \end{align}$ stepeni red sa poluprečnikom konvergencije $R>0$. Tada za svako $x\in(-R,\,R)$ važi
 - $\begin{align}\bigg(\sum\limits_{n=0}^{\infty}c_{n}\,x^{n} \bigg)\,\mathcal{C}\, x\end{align}$

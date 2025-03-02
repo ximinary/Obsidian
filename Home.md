@@ -14,4 +14,4 @@ $\:$
 #### [Moj sajt](https://ximinary.github.io/web/)
 ---
 
-Poslednja promena: 22:40 22.02.2025
+Poslednja izmena: 03:54 02.03.2025

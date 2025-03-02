@@ -1,18 +1,18 @@
 #fax #math #a2 [deo [[Analiza|analize]]]
 $\:$
 
-**Def**. Neka $\forall n\in\mathbb{N}\quad f_{n}\,:A\to\mathbb{R}$. Tada je $(f_{n})=(f_{1},\,f_{2},\,\dots,\,f_{n},\dots)$ funkcionalni niz.
+**Def**. Neka $\forall n\in\mathbb{N}\quad f_{n}\,:A\to\mathbb{R}$. Tada je $(f_{n})=(f_{1},\,f_{2},\,\dots,\,f_{n},\dots)$ niz funkcija.
 
 **Def**. Niz $f_{n}$ konvergira u tački $x_{0}\in A$ ako $\exists\lim\limits_{ n \to \infty }f_{n}(x_{0})\in\mathbb{R}$
 
 $\:$
-**Def.** Neka je $f_{n}\ :A\to\mathbb{R}$ funkcionalni niz i neka $f:\ B\to\mathbb{R}$, gde je $B\subseteq A$.
+**Def.** Neka je $f_{n}\ :A\to\mathbb{R}$ niz funkcija i neka $f:\ B\to\mathbb{R}$, gde je $B\subseteq A$.
 Niz $(f_{n})$ **tačka po tačku konvergira** ka funkciji $f$ na skupu $B$ ako važi
 $\forall x\in B\quad\exists\lim\limits_{ n \to \infty }f_{n}(x)=f(x)\quad\bigg(\Leftrightarrow\quad\forall x\in B\quad \forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad|f_{n}(x)-f(x)|<\varepsilon\bigg)$
 Oznaka: $f_{n}\to f$ na skupu $B$ ^05c72e
 
 $\:$
-**Def**. Neka je $f_{n}\ :A\to\mathbb{R}$ funkcionalni niz i neka je $f\,:B\to\mathbb{R}$, gde je $B\subseteq A$.
+**Def**. Neka je $f_{n}\ :A\to\mathbb{R}$ niz funkcija i neka je $f\,:B\to\mathbb{R}$, gde je $B\subseteq A$.
 Niz $(f_{n})$ **ravnomerno** (uniformno) **konvergira** ka $f$ na skupu $B$ ako važi $\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad\forall x\in B\quad|f_{n}(x)-f(x)|<\varepsilon$
 Oznaka: $f_{n}\rightrightarrows f$ na skupu $B$, $n\to\infty$ ^6f4432
 
@@ -32,7 +32,7 @@ $\:$
 
 
 $\:$
-**Stav**. Neka su $f_{n},\,g_{n}:\,A\to \mathbb{R}$ funkcionalni nizovi, $\alpha,\,\beta\in\mathbb{R}$. Tada $f_{n}\rightrightarrows f\ \text{ i }\ g_{n}\rightrightarrows g,\ n\to\infty\quad\Rightarrow\quad\alpha f_{n}+\beta g_{n}\rightrightarrows\alpha f+\beta g,\ n\to\infty$
+**Stav**. Neka su $f_{n},\,g_{n}:\,A\to \mathbb{R}$ nizovi funkcija, $\alpha,\,\beta\in\mathbb{R}$. Tada $f_{n}\rightrightarrows f\ \text{ i }\ g_{n}\rightrightarrows g,\ n\to\infty\quad\Rightarrow\quad\alpha f_{n}+\beta g_{n}\rightrightarrows\alpha f+\beta g,\ n\to\infty$
 na nekom skupu $B\subseteq A$.
 
 > Dokaz:
@@ -47,7 +47,7 @@ na nekom skupu $B\subseteq A$.
 
 $\:$
 **Teorema** (Košijev kriterijum ravnomerne konvergencije funkcionalnog niza). 
-Funkcionalni niz $f_{n}:\ A\to\mathbb{R}$ ravnomerno konvergira na skupu $B$ akko
+Niz funkcija $f_{n}:\ A\to\mathbb{R}$ ravnomerno konvergira na skupu $B$ akko
 $\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall m,\,k\geqslant N\quad\forall x\in B\quad|f_{m}(x)-f_{k}(x)|<\varepsilon$ ^a1dec4
 
 > Dokaz: $\boxed{\Rightarrow}$

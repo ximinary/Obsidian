@@ -1,12 +1,12 @@
-#fax #math #a2 [deo poglavlja [[Red brojeva|"red brojeva"]]]
+#fax #math #a2 [deo poglavlja [[Brojevni red|"brojevni red"]]]
 $\:$
 
-**Teorema** (Košijev kriterijum). Neka je $(a_{n})$ niz. Tada
+**Teorema** (Košijev kriterijum). Neka je $(a_{n})$ niz brojeva. Tada
 $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\quad\Leftrightarrow\quad\forall\varepsilon>0\quad \exists N\in\mathbb{N}\quad \forall m,\,k\geqslant N\quad\left|s_{m}-s_{k}\right|<\varepsilon\end{align}$ ^f4afac
 > Dokaz: tvrđenje direktno sledi iz [[Košijev niz|teoreme: niz konvergira akko je Košijev]].
 
 $\:$
-**Stav**. Neka su $(a_{n})$ i $(b_{n})$ su nizovi, i $\exists N\in\mathbb{N}\quad \forall n\geqslant N\quad \boxed{|a_{n}|\leqslant b_{n}}$. Tada
+**Stav**. Neka su $(a_{n})$ i $(b_{n})$ su nizovi brojeva, i $\exists N\in\mathbb{N}\quad \forall n\geqslant N\quad \boxed{|a_{n}|\leqslant b_{n}}$. Tada
 $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\quad\text{konvergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\end{align}$ ^9d13dd
 > Dokaz:
 > Neka je $\forall n\in\mathbb{N}\quad\begin{align}s_{n}=\sum\limits_{k=1}^{n}b_{n}\end{align}$ parcijalna suma reda $\begin{align}\sum\limits_{n=1}^{\infty} b_{n}\end{align}$ 
@@ -24,12 +24,12 @@ $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\quad\text{konvergira}\quad\Rightar
 > $\begin{align}\Rightarrow\quad\sum\limits_{n=1}^{\infty}a_{n}\quad\text{konvergira}\end{align}$
 
 $\:$
-**Teorema** (posledica stava). Neka su $(a_{n})$ i $(b_{n})$ su nizovi, i $\exists N\in\mathbb{N}\quad \forall n\geqslant N\quad \boxed{0\leqslant a_{n}\leqslant b_{n}}$. Tada ^4d14b2
+**Teorema** (posledica stava). Neka su $(a_{n})$ i $(b_{n})$ su nizovi brojeva, i $\exists N\in\mathbb{N}\quad \forall n\geqslant N\quad \boxed{0\leqslant a_{n}\leqslant b_{n}}$. Tada ^4d14b2
 - $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\ \ \text{konvergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}a_{n}\ \ \text{konvergira}\end{align}$
 - $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\ \ \text{divergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}b_{n}\ \ \text{divergira}\end{align}$
 
 $\:$
-**Teorema**.  Neka su $(a_{n})$ i $(b_{n})$ su nizovi, $\ \:$  $\forall n\in\mathbb{N}\quad a_{n},\,b_{n}>0$ $\ \:$ i $\ \:$ $\begin{align}\exists\lim\limits_{ n \to \infty }\frac{a_{n}}{b_{n}}=A\end{align}$. Tada 
+**Teorema**.  Neka su $(a_{n})$ i $(b_{n})$ su nizovi brojeva, $\ \:$  $\forall n\in\mathbb{N}\quad a_{n},\,b_{n}>0$ $\ \:$ i $\ \:$ $\begin{align}\exists\lim\limits_{ n \to \infty }\frac{a_{n}}{b_{n}}=A\end{align}$. Tada 
 - Ako je $A=0$ onda $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\ \ \text{konvergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}a_{n}\ \ \text{konvergira}\end{align}$
 - Ako je $a = +\infty$ onda $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\ \ \text{konvergira}\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}b_{n}\ \ \text{konvergira}\end{align}$
 - Ako je $0<A<+\infty$ onda su $\begin{align}\sum\limits_{n=1}^{\infty}a_{n}\end{align}$ i $\begin{align}\sum\limits_{n=1}^{\infty}b_{n}\end{align}$ ekvikonvergentni
@@ -55,7 +55,7 @@ $\:$
 
 ___
 
-**Teorema** (Dalamberov kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}>0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\frac{a_{n+1}}{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada ^cf63a2
+**Teorema** (Dalamberov kriterijum). Neka je $(a_{n})$ niz brojeva takav da $\forall n\in\mathbb{N}\quad a_{n}>0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\frac{a_{n+1}}{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada ^cf63a2
 - Ako $0\leqslant A<1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$
 - Ako $A>1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$
 
@@ -70,21 +70,21 @@ ___
 >
 >Odakle, $\forall n\geqslant N\quad a_{n}\leqslant q^{n-N}a_{N}\quad\quad(1)$
 >
->Red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ [[Konvergencija nekih redova#^20d439|konvergira]] za $0<q<1$
+>Red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ [[Konvergencija nekih brojevnih redova#^20d439|konvergira]] za $0<q<1$
 > 
-> Iz (1) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{konvergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$.
+> Iz (1) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{konvergira}\end{align}$ na osnovu [[Kriterijumi konvergencije brojevnih redova#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$, odakle na osnovu [[Brojevni red#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$.
 > $\:$
 >
 > Drugo tvrđenje.
 > Definišemo $q:=\begin{cases}A-\varepsilon&\text{za }1<A<+\infty\\\frac{1}{\varepsilon}&\text{za }A=+\infty\end{cases}$, pri tome uzimamo $\varepsilon$ tako da $q>1$. Tada slično kao u prvom tvrđenju dobijamo
 > $\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad a_{n}\geqslant\,q^{n-N}\,a_{N}\quad\quad(2)$
 > 
-> Red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ [[Konvergencija nekih redova#^20d439|divergira]] za $q>1$
+> Red $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{N}=a_{N}\sum\limits_{n=1}^{\infty}q^{n}\end{align}$ [[Konvergencija nekih brojevnih redova#^20d439|divergira]] za $q>1$
 > 
-> Iz (2) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{divergira}\end{align}$ na osnovu [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$, odakle na osnovu [[Red brojeva#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$.
+> Iz (2) i jer $\begin{align}\sum\limits_{n=N+1}^{\infty} q^{n-N}a_{n}\ \ \text{divergira}\end{align}$ na osnovu [[Kriterijumi konvergencije brojevnih redova#^4d14b2|teoreme]] važi da $\begin{align}\sum\limits_{n=N+1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$, odakle na osnovu [[Brojevni red#^6bf0d1|stava]] $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$.
 
 $\:$
-**Teorema** (Košijev koreni kriterijum). Neka je $(a_{n})$ niz takav da $\forall n\in\mathbb{N}\quad a_{n}\geqslant0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\sqrt[n]{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada ^d13f64
+**Teorema** (Košijev koreni kriterijum). Neka je $(a_{n})$ niz brojeva takav da $\forall n\in\mathbb{N}\quad a_{n}\geqslant0$ $\ \:$ i $\ \:$ $\begin{align}\exists \lim\limits_{ n \to \infty }\sqrt[n]{a_{n}}=A\in[0,\,+\infty]\end{align}$. Tada ^d13f64
 - Ako $0\leqslant A<1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{konvergira}\end{align}$
 - Ako $A>1$ onda $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\ \ \text{divergira}\end{align}$
 
@@ -112,7 +112,7 @@ Tada $\begin{align}\sum\limits_{n=1}^{\infty} f(n)\ \ \text{konvergira}\quad\Lef
  Odakle koristeći $(2)$  niz $(s_{n})$ ograničen odozgo i jer je on rastući, $\begin{align}\exists\lim\limits_{ n \to +\infty }\sum\limits_{k=1}^{n}f(k)=\sum\limits_{n=1}^{\infty}f(n) \in\mathbb{R} \quad\end{align}$ (tj. red konvergira)
 
 $\:$
-**Stav** (Lajbnicov kriterijum). Neka je $(a_{n})$ strogo opadajući niz takav da $\lim\limits_{ n \to \infty }a_{n}= 0$. Tada $\begin{align}S=\sum\limits_{n=1}^{\infty} (-1)^{n-1}a_{n}\ \ \text{konvergira}\end{align}$ i važi $0<S \leqslant a_{1}$. ^94970b
+**Stav** (Lajbnicov kriterijum). Neka je $(a_{n})$ strogo opadajući niz brojeva takav da $\lim\limits_{ n \to \infty }a_{n}= 0$. Tada $\begin{align}S=\sum\limits_{n=1}^{\infty} (-1)^{n-1}a_{n}\ \ \text{konvergira}\end{align}$ i važi $0<S \leqslant a_{1}$. ^94970b
 > Dokaz: Neka je $\begin{align}s_{n}=\sum\limits_{k=1}^{n}(-1)^{n-1}a_{n}\end{align}$ niz parcijalnih suma.
 >
 > Sa jedne strane,

@@ -1,7 +1,7 @@
 #fax #math #a2 [deo poglavlja [[Funkcionalni red|"funkcionalni red"]]]
 $\:$
 
-**Stav**. Neka je $f_{n}:\ A\to\mathbb{R}$ funkcionalni niz i neka je $g:\ B\to\mathbb{R}$ ograničena funkcija ($B\subseteq A$). Tada
+**Stav**. Neka je $f_{n}:\ A\to\mathbb{R}$ niz funkcija i neka je $g:\ B\to\mathbb{R}$ ograničena funkcija ($B\subseteq A$). Tada
 $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ravnomerno konvergira na }\ B\quad\Rightarrow\quad\sum\limits_{n=1}^{\infty}g(x)f_{n}(x)\ \ \text{ravnomerno konvergira na }\ B\end{align}$
 > Dokaz:
 > Neka je $(s_{n})$ niz parcijalnih suma reda $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\end{align}$
@@ -16,11 +16,11 @@ $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ravnomerno konvergira
 >iz [[Funkcionalni red#^d724ad|Košijevog kriterijuma]] $\begin{align}\sum\limits_{n=1}^{\infty}g(x)f_{n}(x)\ \ \text{ravnomerno konvergira na }\ B\end{align}$
 
 $\:$
-**Stav** (limes funkcionalnog reda). Neka je $f_{n}:\ A\to\mathbb{R}$ funkcionalni niz i neka je $a\in A$ [[Vrste tačaka u odnosu na neki skup#^3de7f2|tačka nagomilavanja]] skupa $A$. Tada ako važi:
+**Stav** (limes funkcionalnog reda). Neka je $f_{n}:\ A\to\mathbb{R}$ niz funkcija i neka je $a\in A$ [[Vrste tačaka u odnosu na neki skup#^3de7f2|tačka nagomilavanja]] skupa $A$. Tada ako važi:
 - $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ravnomerno konvergira na }\ A\end{align}$
 - $\forall n\in\mathbb{N}\quad\exists\lim\limits_{ x \to a }f_{n}(x)\in\mathbb{R}$
 
-onda red brojeva $\begin{align}\sum\limits_{n=1}^{\infty}\lim\limits_{ x \to a } f_{n}(x)\ \ \text{ konvergira}\ \ \end{align}$ i važi
+onda brojevni red $\begin{align}\sum\limits_{n=1}^{\infty}\lim\limits_{ x \to a } f_{n}(x)\ \ \text{ konvergira}\ \ \end{align}$ i važi
 $\begin{align}\sum\limits_{n=1}^{\infty}\lim\limits_{ x \to a } f_{n}(x)=\lim\limits_{ x \to a }\underbrace{\sum\limits_{n=1}^{\infty}f_{n}(x)}_{\text{funkcionalni red}}\end{align}$
 
 > Dokaz: Neka je $b_{n}=\lim\limits_{ x \to a }f_{n}(x), \quad\forall n\in\mathbb{N}$
@@ -32,7 +32,7 @@ $\begin{align}\sum\limits_{n=1}^{\infty}\lim\limits_{ x \to a } f_{n}(x)=\lim\li
 > Iz ravnomerne konvergencije reda $\begin{align}\sum\limits_{n=1}^{\infty}f_{n}(x)\end{align}$ ([[Funkcionalni red#^d724ad|Košijev kriterijum]]) imamo
 > $\begin{align}\forall \varepsilon>0\quad\exists N\in\mathbb{N}\quad\forall m,\,k\geqslant N\quad\forall x\in A\quad |s_{m}(x)-s_{k}(x)|\leqslant\frac{\varepsilon}{2}\quad\quad\bigg|\lim\limits_{ x \to a }\end{align}$
 > $\begin{align}\Rightarrow\quad\forall\varepsilon>0\quad\exists N\in\mathbb{N}\quad\exists m,\,k\geqslant N\quad|\sigma_{m}-\sigma_{k}|\leqslant\frac{\varepsilon}{2}<\varepsilon\end{align}$
-> Iz [[Kriterijumi konvergencije redova brojeva#^f4afac|Košijevog kriterijuma]] red $\begin{align}\sum\limits_{n=1}^{\infty} \lim\limits_{ x \to a }f_{n}(x)\ \ \text{konvergira}\end{align}$
+> Iz [[Kriterijumi konvergencije brojevnih redova#^f4afac|Košijevog kriterijuma]] red $\begin{align}\sum\limits_{n=1}^{\infty} \lim\limits_{ x \to a }f_{n}(x)\ \ \text{konvergira}\end{align}$
 > 
 > Neka $\begin{align}\sum\limits_{n=1}^{\infty} \lim\limits_{ x \to a }f_{n}(x)=\sigma\in\mathbb{R}\quad\Big(\Leftrightarrow\quad\forall\varepsilon>0\quad\exists N_{1}\in\mathbb{N}\quad\forall n\geqslant N_{1}\quad|\sigma_{n}-\sigma|<\frac{\varepsilon}{3}\Big)\end{align}$
 > i neka $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)=s(x)\quad\Big(\Leftrightarrow\quad\forall x\in A\quad\forall\varepsilon>0\quad\exists N_{2}\in\mathbb{N}\quad\forall n\geqslant N_{2}\quad|s_{n}(x)-s(x)|<\frac{\varepsilon}{3}\Big)\end{align}$ 

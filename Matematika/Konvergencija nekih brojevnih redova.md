@@ -1,5 +1,5 @@
 
-#fax #math #a2 [deo poglavlja [[Red brojeva|"red brojeva"]]]
+#fax #math #a2 [deo poglavlja [[Brojevni red|"brojevni red"]]]
 $\:$
 
 **Stav**. $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\begin{cases}\frac{q}{1-q},&\text{za }-1<q<1\\\\\text{divergira},&\text{za ostale } q\end{cases}\end{align}$ ^20d439
@@ -15,7 +15,7 @@ $\:$
 $\:$
 **Stav**. $\begin{align}\sum\limits_{n=1}^{\infty}\frac{1}{n}\quad\text{divergira} \end{align}$.
 > Dokaz:
-> Pokazati da divergira koristeći [[Kriterijumi konvergencije redova brojeva#^f4afac|Košijev kriterijum]],
+> Pokazati da divergira koristeći [[Kriterijumi konvergencije brojevnih redova#^f4afac|Košijev kriterijum]],
 > tj. treba naći $\varepsilon>0$ tako da $\forall N\in\mathbb{N}\quad\exists m,\,k\geqslant N\quad|s_{m}-s_{k}|\geqslant\varepsilon$
 >
 > uzmemo $k = N+1$ i $m=2N$, tada
@@ -26,7 +26,7 @@ $\:$
 **Stav**. $\begin{align}\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}\quad\text{konvergira}\end{align}$.
 > Dokaz:
 > $\begin{align}a_{n}=\frac{1}{n}\end{align}$ je strogo opadajući niz i važi $\lim\limits_{ n \to \infty }a_{n}=0$. 
-> Dakle, na osnovu [[Kriterijumi konvergencije redova brojeva#^94970b|Lajbnicovog kriterijuma]] $\begin{align}\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}\ \ \end{align}$ konvergira.
+> Dakle, na osnovu [[Kriterijumi konvergencije brojevnih redova#^94970b|Lajbnicovog kriterijuma]] $\begin{align}\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}\ \ \end{align}$ konvergira.
 
 $\:$
 **Stav**. $\begin{align}\sum\limits_{n=1}^{\infty}\frac{1}{n^{2}}\quad\text{konvergira} \end{align}$.
@@ -37,7 +37,7 @@ $\:$
 > Odakle $\begin{align}\sum\limits_{n=2}^{\infty} \frac{1}{n(n-1)}=\lim\limits_{ n \to \infty }\sigma_{n}=1\end{align}$ 
 > tj. red $\begin{align}\sum\limits_{n=2}^{\infty} \frac{1}{n(n-1)}\ \ \end{align}$ konvergira. $\quad\quad(2)$
 > 
-> Na osnovu $(1)$, $(2)$ i [[Kriterijumi konvergencije redova brojeva#^4d14b2|teoreme]] red $\begin{align}\sum\limits_{n=1}^{\infty} \frac{1}{n^{2}}\ \ \end{align}$ konvergira  
+> Na osnovu $(1)$, $(2)$ i [[Kriterijumi konvergencije brojevnih redova#^4d14b2|teoreme]] red $\begin{align}\sum\limits_{n=1}^{\infty} \frac{1}{n^{2}}\ \ \end{align}$ konvergira  
 
 $\:$
 **Stav**. $\begin{align}\sum\limits_{n=1}^{\infty}\frac{1}{\sqrt[]{n}}\quad\text{divergira} \end{align}$.

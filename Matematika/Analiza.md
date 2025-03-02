@@ -13,8 +13,8 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 
 ### Nizovi i redovi
 [[Niz brojeva]]
-[[Red brojeva]]
+[[Brojevni red]]
 
-[[Funkcionalni niz]]
+[[Niz funkcija]]
 [[Funkcionalni red]]
 
