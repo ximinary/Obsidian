@@ -16,7 +16,7 @@ Dodatna svojstva:
 
 $\:$
 
-**Def**. Unitarni prostor nad poljem $\mathbb{R}$ (SP3 bez konjugovanja) zove se **euklidski prostor**.
+**Def**. [[Vektorski prostor]] $V$ nad poljem $\mathbb{R}$ je **Euklidski** (**pred-Hilbertov**) ako je definisana funkcija $\langle \,\cdot\,,\,\cdot\,\rangle:\ V\times V\to\mathbb{R}$ za koju važe SP1-SP5 (SP3 bez konjugovanja) ^e3a11f
 
 ### Primeri unitarnih prostora
 - $\mathbb{C}\,(\mathbb{R})$
@@ -28,22 +28,26 @@ $\:$
   $\langle p,\ q\rangle:=p(0)q(0) + p'(0)q'(0) + p(1)q(1) + p'(1)q'(1)$ — skalarni proizvod.
 - $V=\Big\{ (\alpha_{1},\,\alpha_{2},\,\dots,\,\alpha_{n},\,\dots)\ \Big|\ \alpha_{i}\in\mathbb{R},\ \  \forall i \in \mathbb{N}; \ \ \sum\limits_{i=1}^{\infty}|\alpha_{i}|^{2} <\infty \Big\}\subseteq\mathbb{R}^{\mathbb{N}}$
   Za $\big(\alpha_{i}\big)_{i\in\mathbb{N}}\, ,\ \big(\beta_{i}\big)_{i\in\mathbb{N}} \in V\ \:$ važi $\ \:\sum\limits_{i=1}^{\infty}\alpha_{i}\,\beta_{i}<\infty$, tada
-  $\Big\langle\big(\alpha_{i}\big)_{i\in\mathbb{N}}\, ,\ \big(\beta_{i}\big)_{i\in\mathbb{N}}\Big\rangle:=\sum\limits_{i=1}^{\infty}\alpha_{i}\,\beta_{i}$ — skalarni proizvod.
+  $\Big\langle\big(\alpha_{i}\big)_{i\in\mathbb{N}}\, ,\ \big(\beta_{i}\big)_{i\in\mathbb{N}}\Big\rangle:=\sum\limits_{i=1}^{\infty}\alpha_{i}\,\beta_{i}$ — skalarni proizvod. ^2cac59
 ### Norma i ugao
 
-**Def**. **Norma** je funkcija $||\ \ ||:\ V\to\mathbb{R}^{+}_{0}$ def. sa $||v||= \langle v,\ v\rangle$
-
+**Def**. **Norma** je funkcija $||\ \ ||:\ V\to\mathbb{R}^{+}_{0}$ def. sa $||v||= \sqrt[]{\langle v,\ v\rangle}$
+___
 **Teorema** (Koši-Švarcova nejednakost).
 $v,\,w\in V$, $V$ je unitarni prostor. Tada
-$\big|\langle u,\ w\rangle\big|\leqslant||v||\cdot||w||$
+$\big|\langle u,\ w\rangle\big|\leqslant||v||\cdot||w||$ ^ebd748
 
 Odakle: $\begin{align}-1\leqslant\frac{\langle v,\ w\rangle}{||v||\cdot||w||}\leqslant1\end{align}$
 
 **Def**. Kosinus **ugla** između $v,\,w\in V$: $\ \:$ $\begin{align}\cos\widehat{(v,\,w)}=\frac{\langle v,\ w\rangle}{||v||\cdot||w||}\end{align}$
+___
+**Teorema** (nejednakost Minkovskog).
+$v,\,w\in V$, $V$ je unitarni prostor. Tada
+$||v+w||\leqslant||v||+||w||$ ^78b44d
 
 ### Ortogonalnost
 **Def**. $V$ je unitaran prostor. $v,\,w\in V$ su **ortogonalni** (normalni) ako $\langle v,\ w\rangle=0$.
-Oznaka: $v\perp w$
+Oznaka: $v\perp w$ ^539c48
 
 $\forall v\in V\quad v\perp \mathbf{0}$,
 $\mathbf{0}$ je jedinstven element $V$ za koji to važi.
@@ -51,16 +55,16 @@ $\mathbf{0}$ je jedinstven element $V$ za koji to važi.
 **Def**. $W_{1},\,W_{2}\subseteq V$, $V$ je unitarni prostor. Tada $W_{1}$ je ortogonalan (normalan) na $W_{2}$ ako $\forall v\in W_{1}\quad \forall w\in W_{2}\quad \langle v,\ w\rangle=0$
 Oznaka: $W_{1}\perp W_{2}$
 
-**Def**. Skup $W=\{ v_{1},\,v_{2},\,\dots,\,v_{k} \}\not\ni \mathbf{0}$ je ortogonalan ako $\langle v_{i},\ v_{j}\rangle=0,\ \ \forall i\ne j=\overline{1,k}$.
+**Def**. Skup $W=\{ v_{1},\,v_{2},\,\dots,\,v_{k} \}\not\ni \mathbf{0}$ je ortogonalan ako $\langle v_{i},\ v_{j}\rangle=0,\ \ \forall i\ne j=\overline{1,k}$. ^03b838
 
 Stav. Ortogonalan skup je linearno nezavisan.
 
 ### Ortonormirana baza
 **Def**. Baza $e=(e_{1},\,e_{2},\,\dots,\,e_{n})$ unitarnog prostora $V$ je ortonormirana ako $\langle e_{i},\ e_{j}\rangle=\delta_{ij},\quad \forall i,\,j=\overline{1,n}$
 tj važe:
-- $\{ e_{1},\,e_{2},\,\dots,\,e_{n} \}$ je ortogonalan skup.
+- $\{ e_{1},\,e_{2},\,\dots,\,e_{n} \}$ je [[Unitarni prostor. Euklidski prostor#^539c48|ortogonalan skup]].
 - $||e_{i}||=1,\quad\forall i=\overline{1,n}$
-$\:$
+$\:$ ^887e6d
 
 **Gram-Šmitov postupak ortogonalizacije**:
 
@@ -121,7 +125,7 @@ $\:$
 
 - Parservalova jednakost
  $\mathcal{E}_{k}$ je baza od $V$ $\quad\Leftrightarrow$
-$\Leftrightarrow\quad\forall v,\,w\in V\quad\langle v,\ w\rangle=\sum\limits_{i=1}^{n}\langle v,\ e_{i}\rangle\langle e_{i},\ w\rangle$
+$\Leftrightarrow\quad\forall v,\,w\in V\quad\langle v,\ w\rangle=\sum\limits_{i=1}^{k}\langle v,\ e_{i}\rangle\langle e_{i},\ w\rangle$
 
 ### [[Gramova matrica]]
 ### Ortogonalni komplement
@@ -152,3 +156,4 @@ $\:$
 - $A$ je bijekcija
 
 ### [[Linearni operator u unitarnom prostoru]]
+### [[Beskonačnodimenzioni Euklidski prostor. Niz i red vektora|Beskonačnodimenzioni Euklidski prostor]]

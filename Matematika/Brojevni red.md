@@ -56,3 +56,9 @@ $\:$
 
 ### [[Kriterijumi konvergencije brojevnih redova|Kriterijumi konvergencije]]
 ### [[Konvergencija nekih brojevnih redova]] 
+### Brojevni red kao skalarni proizvod na Euklidskom prostoru nizova brojeva
+Neka je $V$ Eukludski prostor svih nizova brojeva takvih da važi $\begin{align}\sum\limits_{n=1}^{\infty} a_{n}^{2}\ \:\end{align}$ konvergira za $\forall (a_{n})\in V$. Tada je  $\Big\langle(a_{n}),\ (b_{n})\Big\rangle=\begin{align}\sum\limits_{n=1}^{\infty} a_{n}\,b_{n}\end{align}$ $\ \:$ [[Unitarni prostor. Euklidski prostor|skalarni proizvod]] u $V$.
+
+Odakle za $a_{n},\,b_{n}\in V$ važe:
+- $\begin{align}\Bigg|\sum\limits_{n=1}^{\infty}a_{n}\,b_{n}\Bigg|\leqslant\sqrt[]{\sum\limits_{n=1}^{\infty}a_{n}^{2}}\cdot\sqrt[]{\sum\limits_{n=1}^{\infty}b_{n}^{2}}\end{align}$ $\quad$ ([[Unitarni prostor. Euklidski prostor#^ebd748|*]])
+- $\begin{align}\sqrt[]{\sum\limits_{n=1}^{\infty}(a_{n}+b_{n})}\leqslant\sqrt[]{\sum\limits_{n=1}^{\infty}a_{n}^{2}}+\sqrt[]{\sum\limits_{n=1}^{\infty}b_{n}^{2}}\end{align}$ $\quad$ ([[Unitarni prostor. Euklidski prostor#^78b44d|*]])

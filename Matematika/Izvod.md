@@ -61,7 +61,7 @@ $(\begin{align}f\cdot g)^{(n)}=\sum\limits_{k=0}^{n}\binom{n}{k}f^{(k)}g^{(n-k)}
 **Def**. $f$ je $n$ puta diferencijabilna u $x_{0}$ ako $\exists f^{(n)}\:\:*$
 **Def**. $f\,\mathcal{C}^{n}\,x_{0}\ \ \Leftrightarrow\ \ f^{(n)}\,\mathcal{C}\,x_{0}\:\:*$
 **Def**. $f\,\mathcal{D}^{n}\,x_{0}\ \ \Leftrightarrow\ \ f^{(n)}\,\mathcal{D}\,x_{0}\:\:*$
-$*$ — odakle $\exists f'(x_{0}),\ \exists f''(x_{0}),\ \dots,\ \exists f^{(n)}(x_{0})$
+$*$ — odakle $\exists f'(x_{0}),\ \exists f''(x_{0}),\ \dots,\ \exists f^{(n)}(x_{0})$ ^72f43e
 
 [[analiza1_2_7.png|Tvrđenje]]. Za $n \in \mathbb{N}$
 - $f$ je parna i $(2n+1)$ puta diferencijabilna u $0\ \ \Rightarrow$

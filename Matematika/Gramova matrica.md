@@ -1,4 +1,4 @@
-#fax #math #laag [deo poglavlja [[Unitarni prostor|"unitarni prostor"]]]
+#fax #math #laag [deo poglavlja [[Unitarni prostor. Euklidski prostor|"unitarni prostor"]]]
 $\:$
 
 $V$ je unitarni prostor, $\{ v_{1},\,v_{2},\,\dots,\,v_{n} \}\subseteq V$

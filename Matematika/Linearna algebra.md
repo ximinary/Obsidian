@@ -8,5 +8,5 @@ $\:$
 [[Linearni operator]]
 [[Sistem linearnih jednačina]]
 [[Karakteristični i minimalni polinom]]
-[[Unitarni prostor]]
+[[Unitarni prostor. Euklidski prostor]]
 [[Bilinearna i kvadratna forma]]

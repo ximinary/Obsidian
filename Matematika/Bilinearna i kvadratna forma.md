@@ -26,8 +26,8 @@ $\:$
 
 
 ### Primeri bilinearnih formi 
-- [[Unitarni prostor|Skalarni proizvod]] u VP nad poljem $\mathbb{C}$ je hermitska bilinearna forma.
-[[Unitarni prostor|Skalarni proizvod]] u VP nad poljem $\mathbb{R}$ je simetrična bilinearna forma.
+- [[Unitarni prostor. Euklidski prostor|Skalarni proizvod]] u VP nad poljem $\mathbb{C}$ je hermitska bilinearna forma.
+[[Unitarni prostor. Euklidski prostor|Skalarni proizvod]] u VP nad poljem $\mathbb{R}$ je simetrična bilinearna forma.
 - $V$ je VP nad $\mathbb{C}$
   - ako su $f$ i $g$ [[Linearni funkcional|linearni funkcionali]] tada je $\mathrm{A}(x,\ y):=f(x)\,g(y)$ bilinearna forma.
   - ako je $f$ [[Linearni funkcional|linearni funkcionali]], a $g$ je antilinearni funkcional $\big(\ \text{tj. } \ \ g(\lambda\,x)=\overline{\lambda}\,g(x)\quad\forall x\in V\quad\forall\lambda\in\mathbb{C} \ \big)$ tada je $\mathrm{A}(x,\ y):=f(x)\,g(y)$ hermitska bilinearna forma.
@@ -43,7 +43,7 @@ Teorema. Neka je $e$ baza VP-a $V.$
 - $\mathcal{A}$ je matrica hermitske bilinearne forme $\mathrm{A}$ u bazi $e$ ako važi:
   $\boxed{\forall v,\ w\in V\quad \mathrm{A}(v,\ w)=\Big(\kappa_{e}(w)\Big)^{*}\cdot\mathcal{A}\cdot\kappa_{e}(v)}$
 
-Teorema. Neka je $\mathrm{A}$ hermitska bilinearna forma na [[Unitarni prostor|unitarnom prostoru]] $V$. $\mathcal{A}$ je matrica $\mathrm{A}$ u bazi $e$, $\mathcal{B}$ je matrica $\mathrm{A}$ u bazi $f$. Tada važi 
+Teorema. Neka je $\mathrm{A}$ hermitska bilinearna forma na [[Unitarni prostor. Euklidski prostor|unitarnom prostoru]] $V$. $\mathcal{A}$ je matrica $\mathrm{A}$ u bazi $e$, $\mathcal{B}$ je matrica $\mathrm{A}$ u bazi $f$. Tada važi 
 $\boxed{\mathcal{B}=\big(T_{ef}\big)^{*}\cdot\mathcal{A}\cdot T_{ef}}$, gde je $T_{ef}$ matrica prelaska sa $e$ u $f$.
 
 Tada su $\mathcal{A}$ i $\mathcal{B}$ [[Kvadratna matrica#Kongruentnost kompleksnih matrica|kongruentne]].
@@ -79,6 +79,6 @@ $\:$
 Primedba: Skalarni proizvod je hermitska bilinearna forma, kojoj odgovara strogo pozitivna hermitska kvadratna forma. 
 $\langle v,\ w\rangle_{\rm A}:=\mathrm{A}(v,\ w)=\Big(\kappa_{e}(w)\Big)^{*}\cdot\mathcal{A}\cdot\kappa_{e}(v)$
 
-### Hermitska bilinearna forma u [[Unitarni prostor|unitarnom prostoru]]
+### Hermitska bilinearna forma u [[Unitarni prostor. Euklidski prostor|unitarnom prostoru]]
 
 Teorema. $V$ je unitaran prostor. $\mathrm{A}$ je hermitska bilinearna forma $\ \:$ $\Leftrightarrow$ $\ \:$ $\exists!A: \ V\to V$ — [[Linearni operator u unitarnom prostoru#Klase operatora u unitarnom prostoru|hermitski operator]] takav da $\boxed{\mathrm{A}(v,\ w)= \langle A(v),\ w\rangle, \quad \forall v,\,w\in V}$

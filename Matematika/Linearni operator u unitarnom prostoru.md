@@ -1,4 +1,4 @@
-#fax #math #laag [deo poglavlja [[Linearni operator|"linearni operator"]] i [[Unitarni prostor|"unitarni prostor"]]]
+#fax #math #laag [deo poglavlja [[Linearni operator|"linearni operator"]] i [[Unitarni prostor. Euklidski prostor|"unitarni prostor"]]]
 
 ### [[Linearni funkcional]] u unitarnom prostoru
 $V$ je unitarni prostor.
@@ -23,7 +23,7 @@ tj. $A^{*}$ je takav da važi: $\:$ $\boxed{\forall v,\,w\in V\quad\Big\langle A
 
 Stav. $V$ je unitarni konačnodimenzioni prostor. Tada $A\in\mathrm{Hom}\,V\quad\Rightarrow\quad A^*\!\in\mathrm{Hom}\,V$
 
-Stav. $V$ je konačnodimenzioni unitarni prostor, $e$ je [[Unitarni prostor#Ortonormirana baza|ortonormirana baza]] od $V$, $A\in \mathrm{Hom}\,V$. Tada ako je $\mathcal{A}$ matrica operatora $A$ u bazi $e$ onda je $\mathcal{A}^{*}$ \[[[Matrica#Hermitsko konjugovanje|?]]\] matrica operatora $A^{*}$.
+Stav. $V$ je konačnodimenzioni unitarni prostor, $e$ je [[Unitarni prostor. Euklidski prostor#Ortonormirana baza|ortonormirana baza]] od $V$, $A\in \mathrm{Hom}\,V$. Tada ako je $\mathcal{A}$ matrica operatora $A$ u bazi $e$ onda je $\mathcal{A}^{*}$ \[[[Matrica#Hermitsko konjugovanje|?]]\] matrica operatora $A^{*}$.
 
 **Teorema**. $V$ je konačnodimenzioni unitarni prostor, $A\in \mathrm{Hom}\,V$. Tada $V=\mathrm{Ker}\,A\oplus\mathrm{Im}\,A^{*}=\mathrm{Ker}\,A^{*}\oplus\mathrm{Im}\,A$
 ### Klase operatora u unitarnom prostoru

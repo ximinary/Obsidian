@@ -62,4 +62,4 @@ $\:$
 
 ### [[Stepeni red]]
 
-### [[Furijeov red]]
+### [[Furijeov red u prostoru C₀|Furijeov red]]

@@ -34,7 +34,7 @@ Translacija i rotacija su kretanja.
 
 **Teorema**. Sledeća tvrđenja su ekvivalentna za $f: \mathbb{E}^{n}\to\mathbb{E}^{n}$
 - $f$ je izometrija (čuva dužine)
-- $f$ [[Unitarni prostor#Izomorfnost unitarnih prostora|čuva skalarni proizvod]]
+- $f$ [[Unitarni prostor. Euklidski prostor#Izomorfnost unitarnih prostora|čuva skalarni proizvod]]
 - $f$ preslikava ortonormiranu bazu u ortonormiranu bazu.
 
 ### [[Afino preslikavanje u ravni]]
