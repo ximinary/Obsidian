@@ -1,4 +1,4 @@
-#fax #math #ds1 [deo  [[Matematika|matematike]]]
+#fax #math [deo  [[Matematika|matematike]]]
 $\:$
 
 ### Stepen

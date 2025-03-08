@@ -1,5 +1,4 @@
-#fax #math #a1 [deo [[Brojevi|poglavlja "brojevi"]]]
-$\:$
+#fax #math #a1 [deo [[Analiza|analize]] i [[Brojevi|poglavlja "brojevi"]]]
 
 ### Aksiome realnih brojeva
 $\forall x,\,y,\,z \in \mathbb{R}$
@@ -49,6 +48,9 @@ $\:$
 **Def**. **Segment** u $\mathbb{R}$ je ograničen zatvoren interval.
 
 [[analiza1_0_Katorova.png|Teorema]]. $A_{n}=[a_{n},\,b_{n}],\ \ a_{n},\,b_{n}\in\mathbb{R}, \ \ \forall n \in \mathbb{N}\ \ \ A_{n+1}\subseteq A_{n}$ Tada $\bigcap\limits_{n=1}^{\infty} [a_{n},\,b_{n}]\ne \varnothing$
+
+### Metrika na $\mathbb{R}$
+$\mathrm{d}:\ \mathbb{R}\times\mathbb{R}\to\mathbb{R}$ $\ \:$ def sa $\ \:$ $\mathrm{d}(x,\,y)=|x-y|$ $\ \:$ je [[Metrika|metrika]] na $\mathbb{R}$ jer važe MP1-MP4.
 
 ### [[Okolina tačke]]
 

@@ -4,7 +4,7 @@ $\:$
 Oznake za sledeće teoreme:
 $f\,\mathcal{R}\,[a,\,b]$;$\quad$ $\varphi:[a,\,b]\to\mathbb{R}$ def. sa $\begin{align}\varphi(x)=\int_{a}^{x} f(t) \, dt \end{align}$
 
-**Teorema**. $\varphi\,\mathcal{C}\,[a,\,b]$.
+**Teorema**. $\varphi\,\mathcal{C}\,[a,\,b]$. ^4ce901
 > Dokaz: Neka je $\ \:$ $\begin{align}M=\sup_{x\in[a,\,b]}|f(x)|>0\end{align}$
 > $x_{0}\in[a,\,b]$ — proizvoljno. Treba dokazati $f\,\mathcal{C}\,x_{0}$, tj.
 > $\forall \varepsilon>0\quad\exists\delta>0\quad\forall x\in[a,\,b]\cap (x_{0}-\delta,\,x_{0}+\delta)\quad|\varphi(x)-\varphi(x_{0})|<\varepsilon$

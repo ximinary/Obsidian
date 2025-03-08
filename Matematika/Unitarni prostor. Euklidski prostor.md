@@ -125,7 +125,7 @@ $\:$
 
 - Parservalova jednakost
  $\mathcal{E}_{k}$ je baza od $V$ $\quad\Leftrightarrow$
-$\Leftrightarrow\quad\forall v,\,w\in V\quad\langle v,\ w\rangle=\sum\limits_{i=1}^{k}\langle v,\ e_{i}\rangle\langle e_{i},\ w\rangle$
+$\Leftrightarrow\quad\forall v,\,w\in V\quad\langle v,\ w\rangle=\sum\limits_{i=1}^{k}\langle v,\ e_{i}\rangle\langle e_{i},\ w\rangle$ ^59968e
 
 ### [[Gramova matrica]]
 ### Ortogonalni komplement

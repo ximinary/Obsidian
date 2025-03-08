@@ -51,7 +51,7 @@ $\:$
 > Konačno, $\begin{align}\exists \mathcal{P}\in\mathcal{P}[a,\,b]\ \ :\ \ \lambda(\mathcal{P})<\frac{\varepsilon}{f(b)-f(a)}\end{align}$
 
 $\:$
-**Teorema**. $f:\ [a,\,b]\to \mathbb{R}$ je ograničena i ima konačan skup tačaka prekida. Tada  $f\,\mathcal{R}\,[a,\,b]$
+**Teorema**. $f:\ [a,\,b]\to \mathbb{R}$ je ograničena i ima konačan skup tačaka prekida. Tada  $f\,\mathcal{R}\,[a,\,b]$ ^1dfeaf
 
 **Teorema**. $f,\,g:\ [a,\,b]\to \mathbb{R}$ su $\mathcal{R}$-integrabilni i razlikuju se na konačnom skupu tačaka. Tada
 $\begin{align}\int_{a}^{b} f(x) \, dx = \int_{a}^{b} g(x) \, dx\end{align}$

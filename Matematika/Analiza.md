@@ -1,6 +1,10 @@
 #fax #math #a1 #a2 #a3 [deo [[Matematika|matematike]]]
 $\:$
 
+[[Metrika]]
+[[Realni brojevi|Realan broj]]
+[[Skup n-torki realnih brojeva]]
+
 ### Funkcije jedne realne promenljive
 [[Limes funkcije]] i [[Neprekidnost|neprekidnost]]
 [[Izvod|Izvod i diferencijabilnost]]
@@ -19,4 +23,5 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 [[Funkcionalni red]]
 
 [[Beskonačnodimenzioni Euklidski prostor. Niz i red vektora|Niz i red vektora]]
+Niz n-torki realnih brojeva
 
