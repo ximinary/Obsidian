@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Matematika/Brojevni red.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Brojevni red"
             },
             "group": "c0519b3bcfe4d283"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Matematika/Brojevni red.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Brojevni red"
             },
             "group": "c0519b3bcfe4d283"
           }
@@ -98,8 +98,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -218,9 +217,17 @@
   },
   "active": "12e5aa27e3e37aa5",
   "lastOpenFiles": [
-    "Matematika/Matematika.md",
     "Matematika/Analiza.md",
-    "Beskonačnodimenzioni Euklidski prostor. Niz i red vektora.md",
+    "Matematika/Matematika.md",
+    "Home.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Matematika/Skup n-torki realnih brojeva.md",
+    "Matematika/Metrika.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Beskonačnodimenzioni Euklidski prostor. Niz i red vektora.md",
     "Matematika/Funkcionalni red.md",
     "Matematika/Prostor C₀.md",
     "Matematika/Furijeov red u prostoru C₀.md",
@@ -230,20 +237,12 @@
     "Matematika/Elementarna matematika.md",
     "Matematika/Geometrija.md",
     "Matematika/Krive drugog reda.md",
-    "Home.md",
     "Matematika/Realni brojevi.md",
-    "Skup n-torki realnih brojeva.md",
     "Matematika/Neprekidnost.md",
     "Matematika/Niz funkcija.md",
-    "Metrika.md",
     "Matematika/Vektorski prostor.md",
     "Matematika/Brojevni red.md",
     "Matematika/Niz brojeva.md",
-    "Matematika/Karakteristični i minimalni polinom.md",
-    "Matematika/Limes funkcije.md",
-    "Matematika/Limes niza.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Primene određenog integrala.md",
     "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",
