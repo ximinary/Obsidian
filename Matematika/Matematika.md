@@ -12,7 +12,6 @@ $\:$
 Algebra
 [[Linearna algebra]]
 
-
 [[Kombinatorika]]
 Teorija grafova
 

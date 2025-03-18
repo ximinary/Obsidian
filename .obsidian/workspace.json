@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Matematika.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Matematika"
             },
             "group": "ea719b6115c76395"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Matematika.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Matematika"
             },
             "group": "ea719b6115c76395"
           }
@@ -96,7 +96,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -215,7 +216,10 @@
   },
   "active": "7dbf86a19125958f",
   "lastOpenFiles": [
+    "Matematika/Elementarna matematika.md",
     "Matematika/Matematika.md",
+    "Home.md",
+    "Matematika/Kombinatorika.md",
     "Matematika/Analiza.md",
     "Matematika/Funkcija sa domenom u Rn.md",
     "Matematika/Određeni integral.md",
@@ -237,15 +241,12 @@
     "Matematika/Ekstremum. Nužni i dovoljni uslov ekstremuma.md",
     "Matematika/Grafik funkcije.md",
     "Matematika/Funkcija.md",
-    "Home.md",
     "Media/analiza1_1_neprKompozicije.png",
     "Media/analiza1_1_2.png",
     "Media/analiza1_1_4.png",
     "Media/analiza1_1_1.png",
     "Matematika/Beskonačnodimenzioni Euklidski prostor. Niz i red vektora.md",
     "Matematika/Prostor C₀.md",
-    "Matematika/Furijeov red u prostoru C₀.md",
-    "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
     "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",
