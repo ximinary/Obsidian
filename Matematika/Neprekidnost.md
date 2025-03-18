@@ -39,8 +39,8 @@ $\Rightarrow\quad \exists c\in [a,\,b]\ :\ f(c)=\gamma$ ^1b740a
 > - Neprekidna slika intervala je interval
 
 [[analiza1_1_vajer.png|Teorema]] (Vajerštrasova). $f:[a,\,b]\to\mathbb{R},\ \ f\,\mathcal{C}\,[a,\,b]$. Tada
-1. $f$ je [[Relacija poretka#Donje i gornje ograničenje. Infinum i supremum|ograničena]].
-2. $\exists \max\limits_{[a,\,b]}f,\ \min\limits_{[a,\,b]}f$
+1. $f$ je [[Relacija poretka#Donje i gornje ograničenje. Infinum i supremum|ograničena]]
+2. $\exists \max\limits_{x\in[a,\,b]}f(x),\ \min\limits_{x\in[a,\,b]}f(x)$
 
 ### [[Prekidi]]
 

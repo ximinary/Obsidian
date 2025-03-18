@@ -2,7 +2,7 @@
 $\:$
 
 [[Okolina tačke]]
-[[Vrste tačaka u odnosu na neki skup#^3de7f2|Tačaka nagomilavanja skupa]]
+[[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3de7f2|Tačaka nagomilavanja skupa]]
 
 
 **Def**. **Limes funkcije** $f:\ D_{f}\to\mathbb{R}$ u tački $a\in  D_{f}'\:$ je jednak $L\in \overline{\mathbb{R}}\ \:$  $\Big( \lim\limits_{ x \to a }f(x) = L \Big)$ akko $\forall\varepsilon>0 \quad \exists \delta>0 \quad \forall x\in D_{f}\cap\mathring{\mathrm{O}}_{\delta}(a) \quad f(x)\in \mathrm{O}_{\varepsilon}(L)$
@@ -30,15 +30,15 @@ $\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\delta>0\quad\forall x,\,y\
 
 $f$ je ograničena na skupu $A$ (tj [[Direktna i inverzna slika skupa|slika skupa]] $A$ je [[Relacija poretka#Donje i gornje ograničenje. Infinum i supremum|ograničena]]) akko $\exists c>0 \quad \forall x\in A \quad |f(x)|<c$ 
 
-[[analiza1_1_1.png|Tvrđenje 1]]. $f:\ D_{f}\to \mathbb{R}$; $a\in D_{f}$; $\lim\limits_{ x \to a }f(x) \in \mathbb{R}$ 
+[[analiza1_1_1.png|Tvrđenje 1]]. $f:\ D_{f}\to \mathbb{R}$; $a\in D'_{f}$; $\lim\limits_{ x \to a }f(x) \in \mathbb{R}$ 
 Tada $\exists c>0,\, \delta>0\quad\forall x\in \mathring{\mathrm{O}}_{\delta}(a)\quad|f(x)|\leqslant c$ 
 (tj $f$ je ograničena u nekoj okolini tačke $a$)
 Oznaka: $f(x) = O(1),\ \ \ x\!\to\! a$  ^9993ac
 
-[[analiza1_1_2.png|Tvrđenje 2]]. $f:\ D_{f}\to \mathbb{R}$; $a\in D_{f}$; $\:$ $\lim\limits_{ x \to a }f(x) = L > c\ \  (<c)\ \ \Rightarrow$ $\Rightarrow\ \ \exists\delta>0\quad\forall x\in D_{f}\cap \mathring{\mathrm{O}}_{\delta}(a)\quad f(x) >c\  (<c)$  ^abfa5c
+[[analiza1_1_2.png|Tvrđenje 2]]. $f:\ D_{f}\to \mathbb{R}$; $a\in D'_{f}$; $\:$ $\lim\limits_{ x \to a }f(x) = L > c\ \  (<c)\ \ \Rightarrow$ $\Rightarrow\ \ \exists\delta>0\quad\forall x\in D_{f}\cap \mathring{\mathrm{O}}_{\delta}(a)\quad f(x) >c\  (<c)$  ^abfa5c
 
 **Def**. $\alpha:D_{\alpha}\to \mathbb{R}$; $a\in D_{\alpha}$
-$\alpha(x)$ je **beskonačno mala funkcija** (b.m.f.) u okolini tačke $a$  
+$\alpha(x)$ je **beskonačno mala funkcija** (b.m.f.) u okolini tačke $a$  ako $\lim\limits_{ x \to a }\alpha(x)=0$ 
 Oznaka: $\alpha(x)=o(1),\ \ \ x\!\to\!a$
 
 Tvrđenje 3. $a\in \overline{\mathbb{R}}$

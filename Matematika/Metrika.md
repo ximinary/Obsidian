@@ -8,3 +8,6 @@ $\:$
 - MP4) $\ \ \mathrm{d}(x,\,y)=0\quad\Leftrightarrow\quad x=y$
 
 Tada $\mathrm{d}$ je **metrika** (rastojanje) na $X$, a par $(X,\,\mathrm{d})$ je **metrički prostor**.
+
+### [[Okolina tačke#Okolina u proizvoljnom Metrika metričkom prostoru|Okolina tačke]]
+### [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost]]

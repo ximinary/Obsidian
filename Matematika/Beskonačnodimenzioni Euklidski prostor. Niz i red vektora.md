@@ -5,7 +5,7 @@
 **Def**. Neka je $V$ [[Unitarni prostor. Euklidski prostor|Euklidski prostor]] i neka  $\forall n\in\mathbb{N}\quad u_{n}\in V$. Tada je $(u_{n})=(u_{1},\,u_{2},\,\dots,\,u_{n},\dots)$ niz vektora Euklidskog prostora $V$.
 
 $\:$
-**Def**. Neka je $(u_{n})$ niz vektora [[Unitarni prostor. Euklidski prostor|Euklidskog prostora]] $V$. Niz $(u_{n})$ konvergira ka vektoru $u\in V$  $\Big(\lim\limits_{ n \to \infty } u_{n}=u\Big)$ ako za [[Niz brojeva|niz realnih brojeva]] $||u_{n} −u||$ važi $\lim\limits_{ n \to \infty }||u_{n}-u||=0$ 
+**Def**. Neka je $(u_{n})$ niz vektora [[Unitarni prostor. Euklidski prostor|Euklidskog prostora]] $V$. Niz $(u_{n})$ konvergira ka vektoru $u\in V$ $\:$  $\Big(\lim\limits_{ n \to \infty } u_{n}=u\Big)$ ako za [[Niz brojeva|niz realnih brojeva]] $||u_{n} −u||$ važi $\lim\limits_{ n \to \infty }||u_{n}-u||=0$ 
 tj. $\forall\varepsilon>0 \quad\exists N\in\mathbb{N}\quad\forall n\geqslant N\quad||u_{n}-u||<\varepsilon$ ^890b7c
 
 $\:$

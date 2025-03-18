@@ -31,7 +31,7 @@ $\:$
   $\Big\langle\big(\alpha_{i}\big)_{i\in\mathbb{N}}\, ,\ \big(\beta_{i}\big)_{i\in\mathbb{N}}\Big\rangle:=\sum\limits_{i=1}^{\infty}\alpha_{i}\,\beta_{i}$ — skalarni proizvod. ^2cac59
 ### Norma i ugao
 
-**Def**. **Norma** je funkcija $||\ \ ||:\ V\to\mathbb{R}^{+}_{0}$ def. sa $||v||= \sqrt[]{\langle v,\ v\rangle}$
+**Def**. **Norma** je funkcija $||\ \ ||:\ V\to\mathbb{R}^{+}_{0}$ def. sa $||v||= \sqrt[]{\langle v,\ v\rangle}$ ^ae8620
 ___
 **Teorema** (Koši-Švarcova nejednakost).
 $v,\,w\in V$, $V$ je unitarni prostor. Tada

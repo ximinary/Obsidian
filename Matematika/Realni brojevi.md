@@ -49,9 +49,8 @@ $\:$
 
 [[analiza1_0_Katorova.png|Teorema]]. $A_{n}=[a_{n},\,b_{n}],\ \ a_{n},\,b_{n}\in\mathbb{R}, \ \ \forall n \in \mathbb{N}\ \ \ A_{n+1}\subseteq A_{n}$ Tada $\bigcap\limits_{n=1}^{\infty} [a_{n},\,b_{n}]\ne \varnothing$
 
-### Metrika na $\mathbb{R}$
+### [[Metrika]] na $\mathbb{R}$
 $\mathrm{d}:\ \mathbb{R}\times\mathbb{R}\to\mathbb{R}$ $\ \:$ def sa $\ \:$ $\mathrm{d}(x,\,y)=|x-y|$ $\ \:$ je [[Metrika|metrika]] na $\mathbb{R}$ jer važe MP1-MP4.
 
-### [[Okolina tačke]]
-
-### [[Vrste tačaka u odnosu na neki skup]]
+### [[Okolina tačke|Okolina tačke]]
+### [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost]]

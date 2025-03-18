@@ -16,7 +16,7 @@ $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ravnomerno konvergira
 >iz [[Funkcionalni red#^d724ad|Košijevog kriterijuma]] $\begin{align}\sum\limits_{n=1}^{\infty}g(x)f_{n}(x)\ \ \text{ravnomerno konvergira na }\ B\end{align}$
 
 $\:$
-**Stav** (limes funkcionalnog reda). Neka je $f_{n}:\ A\to\mathbb{R}$ niz funkcija i neka je $a\in A$ [[Vrste tačaka u odnosu na neki skup#^3de7f2|tačka nagomilavanja]] skupa $A$. Tada ako važi:
+**Stav** (limes funkcionalnog reda). Neka je $f_{n}:\ A\to\mathbb{R}$ niz funkcija i neka je $a\in A$ [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3de7f2|tačka nagomilavanja]] skupa $A$. Tada ako važi:
 - $\begin{align}\sum\limits_{n=1}^{\infty} f_{n}(x)\ \ \text{ravnomerno konvergira na }\ A\end{align}$
 - $\forall n\in\mathbb{N}\quad\exists\lim\limits_{ x \to a }f_{n}(x)\in\mathbb{R}$
 
