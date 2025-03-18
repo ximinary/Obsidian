@@ -5,6 +5,16 @@ $\:$
 [[Realni brojevi|Realan broj]]
 [[Skup n-torki realnih brojeva]]
 
+### Nizovi i redovi
+[[Niz brojeva]]
+[[Brojevni red]]
+
+[[Niz funkcija]]
+[[Funkcionalni red]]
+
+[[Beskonačnodimenzioni Euklidski prostor. Niz i red vektora|Niz i red vektora]]
+[[Niz n-torki realnih brojeva]]
+
 ### Funkcije jedne realne promenljive
 [[Limes funkcije]] i [[Neprekidnost|neprekidnost]]
 [[Izvod|Izvod i diferencijabilnost]]
@@ -16,13 +26,5 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 [[Funkcija sa domenom u Rn]]
 [[Preslikavanje sa vrednostima u Rk]]
 
-### Nizovi i redovi
-[[Niz brojeva]]
-[[Brojevni red]]
 
-[[Niz funkcija]]
-[[Funkcionalni red]]
-
-[[Beskonačnodimenzioni Euklidski prostor. Niz i red vektora|Niz i red vektora]]
-[[Niz n-torki realnih brojeva]]
 

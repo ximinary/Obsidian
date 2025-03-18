@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Home"
             },
             "group": "ea719b6115c76395"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
+              "title": "Home"
             },
             "group": "ea719b6115c76395"
           }
@@ -215,12 +215,13 @@
   },
   "active": "7dbf86a19125958f",
   "lastOpenFiles": [
-    "Matematika/Funkcija sa domenom u Rn.md",
+    "Matematika/Matematika.md",
     "Matematika/Analiza.md",
+    "Matematika/Funkcija sa domenom u Rn.md",
+    "Matematika/Određeni integral.md",
     "Matematika/Skup n-torki realnih brojeva.md",
     "Matematika/Preslikavanje sa vrednostima u Rk.md",
     "Parcijalni izvod i izvod u pravcu.md",
-    "Matematika/Matematika.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Linearni operator.md",
     "Matematika/Niz n-torki realnih brojeva.md",
@@ -245,7 +246,6 @@
     "Matematika/Prostor C₀.md",
     "Matematika/Furijeov red u prostoru C₀.md",
     "Matematika/Svojstva ravnomerno konvergentnih funkcionalnih redova.md",
-    "Matematika/Brojevi.md",
     "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",
