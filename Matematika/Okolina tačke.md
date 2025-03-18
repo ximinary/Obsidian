@@ -26,7 +26,7 @@
 
 ### Okolina u proizvoljnom [[Metrika|metričkom]] prostoru
 **Def**. Neka je $(X,\,\mathrm{d})$ metrički prostor i neka su $\:$ $\varepsilon > 0,\ \ a\in X$. Tada je 
-- $\mathrm{O}_{\varepsilon}(a) = \big\{x\in X\ \ \big|\ \ \mathrm{d}(x,\,x_{0})<r\big\}$ $\ \:$ — $\ \:$ $\varepsilon$-okolina tačke $a$
+- $\mathrm{O}_{\varepsilon}(a) = \big\{x\in X\ \ \big|\ \ \mathrm{d}(a,\,x)<\varepsilon\big\}$ $\ \:$ — $\ \:$ $\varepsilon$-okolina tačke $a$
 - $\mathring{\mathrm{O}}_{\varepsilon}(a) = \mathrm{O}_{\varepsilon}(a)\setminus\{ a \}$ $\ \:$ — $\ \:$ šuplja $\varepsilon$-okolina tačke $a$
 
 $\:$

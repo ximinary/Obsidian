@@ -13,7 +13,7 @@ uz koji je $\mathbb{R}^{n}$ [[Unitarni prostor. Euklidski prostor|Euklidski pros
 [[Unitarni prostor. Euklidski prostor#^ae8620|Norma]]: $\ \:$ $\big|\big|(x_{1},\,x_{2},\,\dots,\,x_{n})\big|\big|=\sqrt[]{x_{1}^{2}+x_{2}^{2}+\dots+x_{n}^{2}}$
 
 ### [[Metrika|Metrika]] u $\mathbb{R}^{n}$
-**Stav**. Funkcija $\mathrm{d}:\ \mathbb{R}^{n}\to\mathbb{R}$ $\ \:$ def. sa $\ \:$ $\begin{align}\mathrm{d}(x,\,y)=||x-y||\end{align}$
+**Stav**. Funkcija $\mathrm{d}:\ \mathbb{R}^{n}\times\mathbb{R}^{n}\to\mathbb{R}$ $\ \:$ def. sa $\ \:$ $\begin{align}\mathrm{d}(\mathbf{x},\,\mathbf{y})=||\mathbf{x}-\mathbf{y}||\end{align}$
 je metrika u $\mathbb{R}^{n}$
 
 <!-- $\:$

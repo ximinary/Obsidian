@@ -3,7 +3,7 @@ $\:$
 
  **Def**. $f: D_{f}\to \mathbb{R},\ x_{0}\in \mathrm{int}\,D_{f}$
  ako $\begin{align}\exists \lim\limits_{ x \to x_{0} }\frac{f(x)-f(x_{0})}{x-x_{0}} = \lim\limits_{ h \to 0 }\frac{f(x_{0}+h)-f(x_{0})}{h} := f'(x_{0}) \end{align}$,
- on se zove **izvod** fje $f$ u $x_{0}$, tada je $f$ **diferencijabilna** u $x_0$ (oznaka: $f\,\mathcal{D}\,x_{0}$)
+ on se zove **izvod** fje $f$ u $x_{0}$, tada je $f$ **diferencijabilna** u $x_0$ (oznaka: $f\,\mathcal{D}\,x_{0}$) ^0328e7
 
  **Def**. $f: D_{f}\to \mathbb{R},\ x_{0}\in \mathrm{int}\,D_{f}$
  ako $\begin{align}\exists \lim\limits_{ x \to x_{0}^{-/+} }\frac{f(x)-f(x_{0})}{x-x_{0}} = \lim\limits_{ h \to 0^{-/+} }\frac{f(x_{0}+h)-f(x_{0})}{h} := f'_{-/+}(x_{0}) \end{align}$,
@@ -17,6 +17,8 @@ Koristeći [[Limes funkcije#^cabb77|tvrđenje]] dobijamo:
 $\begin{align}\lim\limits_{ x \to x_{0} }\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)\ \ \Leftrightarrow\end{align}$
 $\begin{align}\Leftrightarrow\ \ \frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)+o(1),\ x\to x_{0}\ \ \Leftrightarrow\end{align}$
 $\begin{align}\Leftrightarrow\ \ f(x)=f(x_{0})+f'(x)(x-x_{0})+o(x-x_{0}),\ x\to x_{0}\end{align}$
+
+ili $f(x_{0}+h)=f(x_{0})+f'(x)h + o(h),\ h\to0$ ^85d2e1
 
 Tangenta ka grafiku fje u tački $x_{0}$:
 $y=f(x_{0})+f'(x_{0})(x-x_{0})$

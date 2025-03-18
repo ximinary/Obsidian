@@ -3,7 +3,7 @@ $\:$
 
 [[Metrika]]
 [[Realni brojevi|Realan broj]]
-[[Skup n-torki realnih brojeva]] ^okoline
+[[Skup n-torki realnih brojeva]]
 
 ### Funkcije jedne realne promenljive
 [[Limes funkcije]] i [[Neprekidnost|neprekidnost]]
@@ -13,10 +13,7 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 [[Grafik funkcije]]
 
 ### Funkcije više realnih promenljivih
-[[Limes i neprekidnost funkcije sa domenom u Rn]]
-[[Parcijalni izvod i izvod u pravcu]]
-[[Diferencijabilnost funkcije sa domenom u Rn]]
-
+[[Funkcija sa domenom u Rn]]
 [[Preslikavanje sa vrednostima u Rk]]
 
 ### Nizovi i redovi
