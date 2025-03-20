@@ -62,7 +62,7 @@ $\:$
 **Posledica**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
 Ako je $f$ diferencijabilna u $\mathbf{x}^{0}$ onda $df(\mathbf{x}^{0})=\Big(\begin{array}{}f'_{x_{1}}(\mathbf{x}^{0})&f'_{x_{2}}(\mathbf{x}^{0})&\cdots&f'_{x_{n}}(\mathbf{x}^{0})\end{array}\Big)$
 tj. važi $\begin{align}df(\mathbf{x}^{0})\left(\begin{array}{}h_{1}\\h_{2}\\\dots\\h_{n}\end{array}\right)=h_{1}\,f'_{x_{1}}(\mathbf{x}^{0})+h_{2}\,f'_{x_{2}}(\mathbf{x}^{0})+\dots+h_{n}\,f'_{x_{n}}(\mathbf{x}^{0})=\sum\limits_{i=1}^{n}h_{i}\,f'_{x_{i}}(\mathbf{x}^{0})\end{align}$
-> Dokaz: iz prethodnog stava $\forall i=\overline{1,n}\quad df(\mathbf{x}^{0})\,\mathbf{e}_{i}=f'_{\mathbf{e_{i}}}(\mathbf{x}^{0})=f'_{x_{i}}(\mathbf{x}^{0})$
+> Dokaz: iz prethodnog stava $\forall i=\overline{1,n}\quad df(\mathbf{x}^{0})\,\mathbf{e}_{i}=f'_{\mathbf{e}_{i}}(\mathbf{x}^{0})=f'_{x_{i}}(\mathbf{x}^{0})$
 
 **Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
 Vektor  $\nabla\!f(\mathbf{x}^{0})=\Big(f'_{x_{1}}(\mathbf{x}^{0}),\ \ f'_{x_{2}}(\mathbf{x}^{0}),\ \ \cdots,\ \ f'_{x_{n}}(\mathbf{x}^{0})\Big)$ zove se **gradijent** fje $f$ u tački $\mathbf{x}^{0}$.

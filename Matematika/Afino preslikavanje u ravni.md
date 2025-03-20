@@ -55,7 +55,7 @@ $\:$
 Svojstva:
 1. $\det R_{\varphi}=1$
 2. $R_{\varphi}\cdot R_{\theta}=R_{\theta}\cdot R_{\varphi}=R_{\varphi+\theta}$
-3. $R_{-\varphi}=R^{-1}=R^{\mathrm{T}}$
+3. $R_{-\varphi}=R_{\varphi}^{-1}=R_{-\varphi}^{\mathrm{T}}$
 4. $R_{0}=E$
 
 $SO(2)=\big\{ R_{\varphi}\ \big|\ \varphi\in[0,\,2\pi)\big\}$ je grupa (svih rotacija).
@@ -107,8 +107,8 @@ $\:$
 
 Specijalni slučajevi:
 - $\mathcal{H}_{1,\,1}=E$
-- $\mathcal{H}_{1,\,-1}=\mathcal{S}_{0}$
-- $\mathcal{H}_{-1,\,1}=\mathcal{S}_{\pi}$
+- $\mathcal{H}_{1,\,-1}=\mathcal{S}_{\mathrm{O}x}$
+- $\mathcal{H}_{-1,\,1}=\mathcal{S}_{\mathrm{O}y}$
 - $\mathcal{H}_{-1,\,-1}=\mathcal{R}_{\pi}$
 
 Ako $\lambda_{1}=\lambda_{2}=\lambda$, pišemo $\mathcal{H}_{\lambda} \ \ \Big(\mathcal{H}_{Q,\,\lambda}\Big)$ i kažemo da takvo preslikavanje **homotetija**.

@@ -6,7 +6,7 @@ $f(x,\,y)=\left(\begin{array}{}x&y&1\end{array}\right)\left(\begin{array}{}a_{11
 
 **Teorema** (o svođenju krive drugog reda na kanonski oblik "kretanjem"). Svaku krivu drugog reda rotacijom i translacijom koordinata moguće je svesti na tačno jedan od oblika:
 
-$\begin{align}&(\mathrm{E})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1,\quad a\geqslant b\\\\&(\mathrm{H})\ \ \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1\\\\&(\mathrm{P})\ \ y^{2}=2\,p\,x,\quad p\geqslant 0\\\\&(\mathrm{D}_{1})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=0\quad\quad\quad&&(\mathrm{D}_{4})\ \ \frac{x^{2}}{a^{2}}=1\\\\&(\mathrm{D}_{2})\ \ \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=0&&(\mathrm{D}_{5})\ \ \frac{x^{2}}{a^{2}}=-1\\\\&(\mathrm{D}_{3})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=-1&&(\mathrm{D}_{6})\ \ x^{2}=0\end{align}$
+$\begin{align}&(\mathrm{E})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1,\quad a\geqslant b\\\\&(\mathrm{H})\ \ \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1\\\\&(\mathrm{P})\ \ y^{2}=2\,p\,x,\quad p> 0\\\\&(\mathrm{D}_{1})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=0\quad\quad\quad&&(\mathrm{D}_{4})\ \ \frac{x^{2}}{a^{2}}=1\\\\&(\mathrm{D}_{2})\ \ \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=0&&(\mathrm{D}_{5})\ \ \frac{x^{2}}{a^{2}}=-1\\\\&(\mathrm{D}_{3})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=-1&&(\mathrm{D}_{6})\ \ x^{2}=0\end{align}$
 ### Konus i konusni preseci
 
 **Def**. Neka prave $s$ i $i$ se seku u tački $\mathrm{T}$. Površ dobijena rotacijom $i$ oko prave $s$ se zove **kružni konus**. 

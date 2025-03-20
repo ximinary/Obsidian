@@ -6,6 +6,7 @@
       {
         "id": "d9d46b62e5d1703c",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "12e5aa27e3e37aa5",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Bezijeove krive.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Bezijeove krive"
             },
             "group": "ea719b6115c76395"
           }
@@ -27,6 +28,7 @@
       {
         "id": "8752c5d08c0be307",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "7dbf86a19125958f",
@@ -34,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Bezijeove krive.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Bezijeove krive"
             },
             "group": "ea719b6115c76395"
           }
@@ -96,8 +98,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -216,39 +217,39 @@
   },
   "active": "7dbf86a19125958f",
   "lastOpenFiles": [
-    "Matematika/Elementarna matematika.md",
+    "Matematika/Krive drugog reda.md",
+    "Matematika/Parabola.md",
+    "Matematika/Hiperbola.md",
+    "Matematika/Geometrija.md",
+    "Bezijeove krive.md",
+    "Matematika/Elipsa.md",
+    "Matematika/Krug.md",
+    "Matematika/Analitička geometrija u prostoru.md",
+    "Matematika/Analitička geometrija u ravni.md",
+    "Matematika/Afino preslikavanje.md",
+    "Matematika/Afino preslikavanje u prostoru.md",
+    "Matematika/Afino preslikavanje u ravni.md",
+    "Matematika/Reper. Koordinate vektora i tačke.md",
+    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
+    "Matematika/Centar mase i težište.md",
     "Matematika/Matematika.md",
-    "Home.md",
-    "Matematika/Kombinatorika.md",
+    "Matematika/Elementarna matematika.md",
     "Matematika/Analiza.md",
     "Matematika/Funkcija sa domenom u Rn.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Skup n-torki realnih brojeva.md",
     "Matematika/Preslikavanje sa vrednostima u Rk.md",
-    "Parcijalni izvod i izvod u pravcu.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Linearni operator.md",
-    "Matematika/Niz n-torki realnih brojeva.md",
-    "Matematika/Realni brojevi.md",
     "Matematika/Metrika.md",
-    "Matematika/Okolina tačke.md",
     "Matematika/Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost.md",
-    "Matematika/Asimptotske klase. Asimptotska relacija ekvivalencije.md",
-    "Matematika/Limes funkcije.md",
-    "Matematika/Neprekidnost.md",
+    "Media/analiza1_0_vrste_tačaka.png",
+    "Home.md",
+    "Matematika/Linearna algebra.md",
+    "Matematika/Bilinearna i kvadratna forma.md",
+    "Računarstvo/Ulaz i izlaz (C).md",
     "Media/analiza1_1_12_2.png",
-    "Matematika/Izvod.md",
-    "Matematika/Ekstremum. Nužni i dovoljni uslov ekstremuma.md",
-    "Matematika/Grafik funkcije.md",
-    "Matematika/Funkcija.md",
     "Media/analiza1_1_neprKompozicije.png",
     "Media/analiza1_1_2.png",
     "Media/analiza1_1_4.png",
     "Media/analiza1_1_1.png",
-    "Matematika/Beskonačnodimenzioni Euklidski prostor. Niz i red vektora.md",
-    "Matematika/Prostor C₀.md",
     "Media/analiza1_2_Tejlor.png",
-    "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_2_lagranž_p3.png",
     "Media/analiza1_2_lagranž_p2.jpeg",
     "Media/analiza1_2_lagranž_p3.jpeg",

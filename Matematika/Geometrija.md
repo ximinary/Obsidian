@@ -17,7 +17,7 @@ Elementarna geometrija u prostoru
 [[Analitička geometrija u prostoru]]
 
 [[Krive drugog reda]]
-Bezijeove krive
+[[Bezijeove krive]]
 
 Poligon
 Poliedar

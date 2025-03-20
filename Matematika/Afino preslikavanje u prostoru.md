@@ -2,7 +2,7 @@
 $\:$
 
 Afino preslikavanje $f$ u $\mathbb{E}^{3}$ sa reperom $\mathrm{O}e$ je dato formulom
-$\begin{align}\left(\begin{array}{}x'_{1}\\x'_{2}\\x'_{3}\end{array}\right)=\left(\begin{array}{}\alpha_{11}&\alpha_{12}&\alpha_{13}\\\alpha_{21}&\alpha_{22}&\alpha_{23}\\\alpha_{31}&\alpha_{32}&\alpha_{33}\end{array}\right)\left(\begin{array}{}x_{1}\\x_{2}\\x_{3}\end{array}\right)+\left(\begin{array}{}b_{1}\\b_{2}\\b_{3}\end{array}\right)\end{align}\quad$ za $\det( a_{ij})\ne0$,  $\quad\quad$ (2)
+$\begin{align}\left(\begin{array}{}x'_{1}\\x'_{2}\\x'_{3}\end{array}\right)=\left(\begin{array}{}\alpha_{11}&\alpha_{12}&\alpha_{13}\\\alpha_{21}&\alpha_{22}&\alpha_{23}\\\alpha_{31}&\alpha_{32}&\alpha_{33}\end{array}\right)\left(\begin{array}{}x_{1}\\x_{2}\\x_{3}\end{array}\right)+\left(\begin{array}{}b_{1}\\b_{2}\\b_{3}\end{array}\right)\end{align}\quad$ za $\det( a_{ij})\ne0$,  $\quad\quad$
 
 gde su $\quad$  $\begin{align}\big[\mathrm{M}\big]_{\mathrm{O}e}=\left(\begin{array}{}x_{1}\\x_{2}\\x_{3}\end{array}\right)\quad\big[f(\mathrm{M})\big]_{\mathrm{O}e}=\left(\begin{array}{}x'_{1}\\x'_{2}\\x'_{3}\end{array}\right)\end{align}$
 $\begin{align}\big[\overline{f}(e_{1})\big]_{e}=\left(\begin{array}{}\alpha_{11}\\\alpha_{21}\\\alpha_{31}\end{array}\right)\quad\big[\overline{f}(e_{2})\big]_{e}=\left(\begin{array}{}\alpha_{12}\\\alpha_{22}\\\alpha_{32}\end{array}\right)\quad\quad\big[\overline{f}(e_{3})\big]_{e}=\left(\begin{array}{}\alpha_{13}\\\alpha_{23}\\\alpha_{33}\end{array}\right)\end{align}$

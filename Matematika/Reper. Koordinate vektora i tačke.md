@@ -10,7 +10,7 @@ Koordinate vektora $v$  [[Vektorski prostor|vektorskog prostora]] $\mathbb{V}^{n
 **Def**. Koordinate tačke $\mathrm{X}\in\mathbb{E}$ u reperu $\mathrm{O}e$ su:
 $[\mathrm{X}]_{\mathrm{O}e}:=[\overrightarrow{\rm OX}]_{e}$
 
-Stav. $\mathrm{M},\,\mathrm{N}\in\mathbb{E}$, $\mathrm{O}e$ je reper. Tada $[\overrightarrow{\rm MN}]_{e}=[\mathrm{N}]_{\mathrm{O}e}-[\mathrm{M}]_{\mathrm{O}e}$
+**Stav**. $\mathrm{M},\,\mathrm{N}\in\mathbb{E}$, $\mathrm{O}e$ je reper. Tada $[\overrightarrow{\rm MN}]_{e}=[\mathrm{N}]_{\mathrm{O}e}-[\mathrm{M}]_{\mathrm{O}e}$
 
 ### Transformacija koordinata vektora
 Napomena: [[Koordinatizacija. Zavisnost koordinata vektora o bazi#Prelazak sa jedne baze na drugu|prelazak sa jedne baze na drugu]]
@@ -60,7 +60,7 @@ $R_{\varphi}=\left(\begin{array}{}\cos\varphi&-\sin\varphi\\\sin\varphi&\cos\var
 
 1. $\det R_{\varphi}=1$
 2. $R_{\varphi}\cdot R_{\theta}=R_{\varphi+\theta}$
-3. $R_{-\varphi}=R^{-1}=R^{\mathrm{T}}$
+3. $R_{-\varphi}=R_{\varphi}^{-1}=R_{\varphi}^{\mathrm{T}}$
 4. $R_{0}=E$
 
 Grupa rotacija:
