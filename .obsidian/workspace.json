@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bezijeove krive.md",
+                "file": "Matematika/Geometrija.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bezijeove krive"
+              "title": "Geometrija"
             },
             "group": "ea719b6115c76395"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bezijeove krive.md",
+                "file": "Matematika/Geometrija.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bezijeove krive"
+              "title": "Geometrija"
             },
             "group": "ea719b6115c76395"
           }
@@ -217,11 +217,11 @@
   },
   "active": "7dbf86a19125958f",
   "lastOpenFiles": [
+    "Matematika/Bezijeove krive.md",
     "Matematika/Krive drugog reda.md",
     "Matematika/Parabola.md",
     "Matematika/Hiperbola.md",
     "Matematika/Geometrija.md",
-    "Bezijeove krive.md",
     "Matematika/Elipsa.md",
     "Matematika/Krug.md",
     "Matematika/Analitička geometrija u prostoru.md",
