@@ -20,7 +20,7 @@ $\begin{align}\Leftrightarrow\ \ f(x)=f(x_{0})+f'(x)(x-x_{0})+o(x-x_{0}),\ x\to 
 
 ili $f(x_{0}+h)=f(x_{0})+f'(x)h + o(h),\ h\to0$ ^85d2e1
 
-Tangenta ka grafiku fje u tački $x_{0}$:
+**Tangenta** ka grafiku fje u tački $x_{0}$:
 $y=f(x_{0})+f'(x_{0})(x-x_{0})$
 
 ### [[analiza1_2_osnovniIzvodi.png|Izvodi osnovnih funkcija]]

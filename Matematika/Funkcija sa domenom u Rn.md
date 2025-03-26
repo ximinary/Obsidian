@@ -45,7 +45,7 @@ $f$ je **diferencijabilna** u $\mathbf{x}^{0}$ ako postoji linearno preslikavanj
 $\begin{align}f(\mathbf{x}^{0}+\mathbf{h})=f(\mathbf{x}^{0})+L\,\mathbf{h}+o\big(||\mathbf{h}||\big),\quad \mathbf{h}\to\mathbf{0}\quad\ &&&&&&&&&(1)\end{align}$
 > $\begin{align}\Leftrightarrow \quad\lim\limits_{ \mathbf{h} \to \mathbf{0} } \frac{f(\mathbf{x}^{0}+\mathbf{h})-f(\mathbf{x}^{0})-L\,\mathbf{h}}{||\mathbf{h}||}=0&&&&&&&&&&(2)\end{align}$
 
-Preslikavanje $L$ se zove **diferencijal** fje $f$ u tački $\mathbf{x}^{0}$ i označava se sa $df(\mathbf{x}^{0})$
+Preslikavanje $L$ se zove **diferencijal** (izvod) fje $f$ u tački $\mathbf{x}^{0}$ i označava se sa $df(\mathbf{x}^{0})$
 
 $\:$
 **Stav**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
@@ -61,7 +61,7 @@ $\begin{align}f'_{\mathbf{v}}(\mathbf{x}^{0})=\lim\limits_{ \lambda \to \infty }
 $\:$
 **Posledica**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
 Ako je $f$ diferencijabilna u $\mathbf{x}^{0}$ onda $df(\mathbf{x}^{0})=\Big(\begin{array}{}f'_{x_{1}}(\mathbf{x}^{0})&f'_{x_{2}}(\mathbf{x}^{0})&\cdots&f'_{x_{n}}(\mathbf{x}^{0})\end{array}\Big)$
-tj. važi $\begin{align}df(\mathbf{x}^{0})\left(\begin{array}{}h_{1}\\h_{2}\\\dots\\h_{n}\end{array}\right)=h_{1}\,f'_{x_{1}}(\mathbf{x}^{0})+h_{2}\,f'_{x_{2}}(\mathbf{x}^{0})+\dots+h_{n}\,f'_{x_{n}}(\mathbf{x}^{0})=\sum\limits_{i=1}^{n}h_{i}\,f'_{x_{i}}(\mathbf{x}^{0})\end{align}$
+tj. važi $\begin{align}df(\mathbf{x}^{0})\left(\begin{array}{}h_{1}\\h_{2}\\\dots\\h_{n}\end{array}\right)=h_{1}\,f'_{x_{1}}(\mathbf{x}^{0})+h_{2}\,f'_{x_{2}}(\mathbf{x}^{0})+\dots+h_{n}\,f'_{x_{n}}(\mathbf{x}^{0})=\sum\limits_{i=1}^{n}h_{i}\,f'_{x_{i}}(\mathbf{x}^{0})\end{align}$ ^d2bcd7
 > Dokaz: iz prethodnog stava $\forall i=\overline{1,n}\quad df(\mathbf{x}^{0})\,\mathbf{e}_{i}=f'_{\mathbf{e}_{i}}(\mathbf{x}^{0})=f'_{x_{i}}(\mathbf{x}^{0})$
 
 **Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
@@ -70,3 +70,30 @@ Vektor  $\nabla\!f(\mathbf{x}^{0})=\Big(f'_{x_{1}}(\mathbf{x}^{0}),\ \ f'_{x_{2}
 $\:$
 > Napomena: Tražimo diferencijal $L=df(\mathbf{x}^{0})$ tako što prvo nalazimo sve parcijalne izvode (ako neki parcijalni izvod ne postoji ne postoji i diferencijal).
 > Zatim konstruišemo matricu iz posledice, pa ako postoji limes $(2)$ onda $L$ jeste diferencijal.
+
+$\:$
+**Stav**. $f$ je diferencijabilna u $\mathrm{x}^{0}$ $\quad$ $\Rightarrow$ $\quad$ $f$ je neprekidna u $\mathrm{x}^{0}$.
+> Dokaz: iz diferencijabilnosti $f$ u $\mathbf{x}^{0}$ sledi da postoji preslikavanje $L:\,\mathbb{R}^{n}\to\mathbb{R}$ takvo da $\begin{align}f(\mathbf{x}^{0}+\mathbf{h})=f(\mathbf{x}^{0})+L\,\mathbf{h}+o\big(||\mathbf{h}||\big),\quad \mathbf{h}\to\mathbf{0}\end{align}$
+> ili drugačije $f(\mathbf{x})=f(\mathbf{x}^{0})+L(\mathbf{x}-\mathbf{x}^{0})+o\big(||\mathbf{x}-\mathbf{x}^{0}||\big),\quad \mathbf{x}\to\mathbf{x}^{0}$
+> odakle $\lim\limits_{ \mathbf{x} \to \mathbf{x}^{0} } f(\mathbf{x})=f(\mathbf{x}^{0})$ $\quad$ tj. $f\,\mathcal{C}\,\mathbf{x}^{0}$
+
+$\:$
+**Teorema** (dovoljni uslov diferencijabilnosti). Ako $f$ ima sve parcijalne izvode na $\mathrm{O}(\mathbf{x}^{0})$, i svaki od njih je neprekidan u $\mathbf{x}^{0}$ onda je $f$ diferencijabilna u $\mathbf{x}^{0 }$
+> Dokaz: Pokazati da  $\begin{align}\lim\limits_{ \mathbf{x} \to \mathbf{x}^{0} }\frac{f(\mathbf{x})-f(\mathbf{x}^{0})-L(\mathbf{x}-\mathbf{x}^{0})}{||\mathbf{x}-\mathbf{x}^{0}||}=0\end{align}$
+>
+> Razmotrimo brojilac u limesu — oduzimamo i dodajemo iste članove:
+> $\underbrace{f\left(\begin{array}{}x_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)-f\left(\begin{array}{}x^{0}_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)}_{=f'_{x_{1}}\left(\begin{array}{}\xi_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)(x_{1}-x^{0}_{1})}+\underbrace{f\left(\begin{array}{}x^{0}_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)-f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)}_{=f'_{x_{2}}\left(\begin{array}{}x^{0}_{1}\\\xi_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)(x_{2}-x^{0}_{2})}+\underbrace{f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)-}_{\dots}\dots \underbrace{-f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n-1}\\x_{n}\end{array}\right)}_{\dots}+\underbrace{f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n-1}\\x_{n}\end{array}\right)-f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n-1}\\x^{0}_{n}\end{array}\right)}_{=f'_{x_{n}}\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n}\\\xi_{n}\end{array}\right)(x_{n}-x^{0}_{n})}-L(\mathbf{x}-\mathbf{x}^{0})=$
+> > Što dobijamo iz [[Teoreme o srednjoj vrednosti#^e52da5|Lagranževe teoreme]] za fje jedne promenljive,
+> > pri čemu $\forall i=\overline{1,n}\quad\xi_{i}$ je između $x_{i}$ i $x^{0}_{i}$ 
+> >
+> > Iz [[Funkcija sa domenom u Rn#^d2bcd7|posledice]] imamo $\begin{align}L(\mathbf{x}-\mathbf{x}^{0})=\sum\limits_{i=1}^{n}f'_{x_{i}}(\mathbf{x}^{0})(x_{i}-x^{0}_{i})\end{align}$
+> 
+> $\begin{align}=\sum\limits_{i=1}^{n}\underbrace{\left(f'_{x_{i}}\left(\begin{array}{}x^{0}_{1}\\\dots\\x^{0}_{i-1}\\\xi_{i}\\x_{i+1}\\\dots\\x_{n}\end{array}\right)-f'_{x_{i}} \left(\begin{array}{}x^{0}_{1}\\\dots\\x^{0}_{i-1}\\x^{0}_{i}\\x^{0}_{i+1}\\\dots\\x^{0}_{n}\end{array}\right)\right)}_{=\,\varphi_{i}(\mathbf{x})}(x_{i}-x^{0}_{i})\end{align}$
+>
+> Odakle jer su parcijalni izvodi neprekidni važi $\varphi_{i}(\mathbf{x})\to0,\quad\mathbf{x}\to\mathbf{x}^{0},\quad\forall i=\overline{1,n}$
+> Odakle,
+>  $\begin{align}\lim\limits_{ \mathbf{x} \to \mathbf{x}^{0} }\frac{f(\mathbf{x})-f(\mathbf{x}^{0})-L(\mathbf{x}-\mathbf{x}^{0})}{||\mathbf{x}-\mathbf{x}^{0}||}=\lim\limits_{ \mathbf{x} \to \mathbf{x}^{0} }\frac{\sum\limits_{i=1}^{n}\varphi_{i}(\mathbf{x})(x_{i}-x^{0}_{i})}{||\mathbf{x}-\mathbf{x}^{0}||}=\lim\limits_{ \mathbf{x} \to \mathbf{x}^{0} }\sum\limits_{i=1}^{n}\varphi_{i}(\mathbf{x})\frac{(x_{i}-x^{0}_{i})}{||\mathbf{x}-\mathbf{x}^{0}||}\end{align}$
+>  
+>  $\begin{align}\left|\sum\limits_{i=1}^{n}\varphi_{i}(\mathbf{x})\frac{(x_{i}-x^{0}_{i})}{||\mathbf{x}-\mathbf{x}^{0}||}\right|\leqslant\sum\limits_{i=1}^{n}\left|\varphi_{i}(\mathbf{x})\frac{(x_{i}-x^{0}_{i})}{||\mathbf{x}-\mathbf{x}^{0}||}\right|\leqslant\sum\limits_{i=1}^{n}\left|\varphi_{i}(\mathbf{x})\right|\to0,\quad\mathbf{x}\to\mathbf{x}^{0}\end{align}$
+>
+> Time iz teoreme o tri limesa dobijamo da je limes jednak $0$.

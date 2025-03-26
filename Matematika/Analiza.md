@@ -24,7 +24,8 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 
 ### Funkcije više realnih promenljivih
 [[Funkcija sa domenom u Rn]]
-[[Preslikavanje sa vrednostima u Rk]]
+[[Preslikavanje sa vrednostima u Rm]]
+[[Tangenta i tangentna površ]]
 
 
 
