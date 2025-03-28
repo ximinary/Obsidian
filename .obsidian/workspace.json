@@ -6,7 +6,7 @@
       {
         "id": "d9d46b62e5d1703c",
         "type": "tabs",
-        "dimension": 43.54838709677419,
+        "dimension": 49.89429175475687,
         "children": [
           {
             "id": "12e5aa27e3e37aa5",
@@ -14,21 +14,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tangenta i tangentna površ.md",
+                "file": "Algebarska struktura.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tangenta i tangentna površ"
+              "title": "Algebarska struktura"
             },
             "group": "ea719b6115c76395"
           }
         ]
       },
       {
-        "id": "8752c5d08c0be307",
+        "id": "9bc0693739e410be",
         "type": "tabs",
-        "dimension": 56.451612903225815,
+        "dimension": 50.10570824524313,
         "children": [
           {
             "id": "7dbf86a19125958f",
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tangenta i tangentna površ.md",
+                "file": "Algebarska struktura.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tangenta i tangentna površ"
+              "title": "Algebarska struktura"
             },
             "group": "ea719b6115c76395"
           }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 200
   },
   "right": {
     "id": "3e9f2609d8056b37",
@@ -215,35 +215,36 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "7dbf86a19125958f",
+  "active": "12e5aa27e3e37aa5",
   "lastOpenFiles": [
+    "Algebra.md",
+    "Grupa.md",
+    "Home.md",
+    "Drugo/@toremove Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
+    "Algebarska struktura.md",
+    "Matematika/Matematika.md",
+    "Matematika/Geometrija.md",
+    "Matematika/Vektor.md",
+    "Matematika/Teorija skupova.md",
+    "Matematika/Algebra nad poljem.md",
     "Matematika/Analiza.md",
-    "Tangenta i tangentna površ.md",
     "Matematika/Preslikavanje sa vrednostima u Rm.md",
+    "Matematika/Funkcija sa domenom u Rn.md",
+    "Matematika/Tejlorov polinom.md",
+    "Media/analiza1_2_peanovOblikOst.png",
+    "Matematika/Tangenta i tangentna površ.md",
+    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
     "Matematika/Izvod.md",
     "Matematika/Konveksnost i konkavnost.md",
     "Media/analiza1_2_3.png",
-    "Matematika/Matematika.md",
-    "Matematika/Funkcija sa domenom u Rn.md",
     "Matematika/Ekstremum. Nužni i dovoljni uslov ekstremuma.md",
     "Matematika/Teoreme o srednjoj vrednosti.md",
-    "Home.md",
-    "Matematika/Geometrija.md",
     "Matematika/Bezijeove krive.md",
     "Matematika/Krive drugog reda.md",
     "Matematika/Parabola.md",
     "Matematika/Hiperbola.md",
     "Matematika/Elipsa.md",
     "Matematika/Krug.md",
-    "Matematika/Analitička geometrija u prostoru.md",
-    "Matematika/Analitička geometrija u ravni.md",
-    "Matematika/Afino preslikavanje.md",
-    "Matematika/Afino preslikavanje u prostoru.md",
-    "Matematika/Afino preslikavanje u ravni.md",
-    "Matematika/Reper. Koordinate vektora i tačke.md",
-    "Matematika/Koordinatizacija. Zavisnost koordinata vektora o bazi.md",
-    "Matematika/Centar mase i težište.md",
-    "Matematika/Elementarna matematika.md",
     "Media/analiza1_0_vrste_tačaka.png",
     "Media/analiza1_1_12_2.png",
     "Media/analiza1_1_neprKompozicije.png",
@@ -252,7 +253,6 @@
     "Media/analiza1_1_1.png",
     "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_2_lagranž_p3.png",
-    "Media/analiza1_2_lagranž_p2.jpeg",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "desktop.ini",

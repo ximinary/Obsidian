@@ -29,7 +29,7 @@ gde je $\mathbf{o}(||h||)$ vektor fja $A=(\alpha_{1},\,\alpha_{2},\,\dots,\,\alp
 > $\begin{align}\Leftrightarrow\quad\forall j=\overline{1,m}\quad f_{j}(\mathbf{x}^{0}+\mathbf{h})=f_{j}(\mathbf{x}^{0})+L_{j}\,\mathbf{h}+o\big(||\mathbf{h}||\big),\quad \mathbf{h}\to\mathbf{0}&&(2)\end{align}$
 > gde je $L_{j}:\ \mathbb{R}^{n}\to\mathbb{R}$ linearno preslikavanje ($j$-ta vrsta matrice $L$).
 
-Preslikavanje $L$ se zove **diferencijal** (izvod) fje $F$ u tački $\mathbf{x}^{0}$ i označava se sa $dF(\mathbf{x}^{0})$. Pri tome matricu tog preslikavanja zovemo **Jakobijevom matricom**, a determinantu te matrice $J_{F}(\mathbf{x}^{0})=\det dF(\mathbf{x}^{0})$ **jakobijanom**.
+Preslikavanje $L$ se zove **diferencijal** (izvod) fje $F$ u tački $\mathbf{x}^{0}$ i označava se sa $dF(\mathbf{x}^{0})$ ili $F'(\mathbf{x}^{0})$. Pri tome matricu tog preslikavanja zovemo **Jakobijevom matricom**, a determinantu te matrice $J_{F}(\mathbf{x}^{0})=\det dF(\mathbf{x}^{0})$ **jakobijanom**.
 
 Iz [[Funkcija sa domenom u Rn#^d2bcd7|posledice]] i $(2)$ dobijamo da
 $\begin{align}dF(\mathbf{x}^{0})=\left(\begin{array}{}\frac{\partial f_{1}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{1}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{1}}{\partial x_{n}}(\mathbf{x}^{0})\\\frac{\partial f_{2}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{2}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{2}}{\partial x_{n}}(\mathbf{x}^{0})\\\cdots&\cdots&\cdots&\cdots\\\frac{\partial f_{m}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{m}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{m}}{\partial x_{n}}(\mathbf{x}^{0})\end{array}\right)\end{align}$

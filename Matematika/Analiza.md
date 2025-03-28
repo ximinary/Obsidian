@@ -22,7 +22,7 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 
 [[Grafik funkcije]]
 
-### Funkcije više realnih promenljivih
+### Funkcije više realnih promenljivih sa više vrednosti
 [[Funkcija sa domenom u Rn]]
 [[Preslikavanje sa vrednostima u Rm]]
 [[Tangenta i tangentna površ]]

@@ -9,8 +9,8 @@ $\:$
 [[Brojevi]]
 
 [[Geometrija]]
-Algebra
 [[Linearna algebra]]
+[[Algebra]]
 
 [[Kombinatorika]]
 Teorija grafova

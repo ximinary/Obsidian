@@ -1,3 +1,6 @@
+#notlinked
+$\:$
+
 Neka je $f:(c,\,d)\to[0,\,+\infty)$ neprekidna funkcija. $[a,\,b]\subset(c,\,d)$.
 $\Phi = \big\{ (x,\,y)\in\mathbb{R}^{2}\ \big|\ a\leqslant x\leqslant b,\ \ 0\leqslant y \leqslant f(x) \big\}$ — figura ograničena sa $f(x)$ i $\mathrm{O}x$ na intervalu $[a,\,b]$.
 $P(\Phi)$ — površina figure.

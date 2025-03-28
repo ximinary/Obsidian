@@ -37,6 +37,20 @@ $\:$
 > tj. $\begin{align}\frac{\partial f}{\partial x_{i}}(\mathbf{x}^{0})=\frac{\partial f}{\partial \mathbf{e}_{i}}(\mathbf{x}^{0})\end{align}$
 
 $\:$
+**Def**. Parcijalni izvod drugog reda:
+$\begin{align}f''_{x_{i}x_{j}}=\frac{\partial^{2} f}{\partial x_{i}\,\partial x_{j}}:=\big(f'_{x_{i}}\big)'_{x_{j}}=\frac{\partial }{x_{j}}\bigg(\frac{\partial f}{x_{i}}\bigg)\end{align}$ 
+Analogno se definišu parcijalni izvodi višeg (3, 4, ...) reda.
+Pri tome $\begin{align}f^{(0)}=\partial^{0}f=f\end{align}$
+
+$\:$
+**Stav**. Ako na $\mathrm{O}(\mathbf{x}^{0})$ postoje parcijalni izvodi $f''_{x_{i}x_{j}}$ i $f''_{x_{j}x_{i}}$, koje su neprekidne u $\mathbf{x}^{0}$ onda $f''_{x_{i}x_{j}}(\mathbf{x}^{0})=f''_{x_{j}x_{i}}(\mathbf{x}^{0})$
+
+$\:$
+**Def**. Hesijan (ili matrica drugog izvoda) fje $f$ u $\mathbf{x}^{0}$ je
+$Hf(\mathbf{x}^{0})=d^{2}f(\mathbf{x}^{0})=\left(\begin{array}{}f''_{x_{1}x_{1}}(\mathbf{x}^{0})&f''_{x_{1}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{1}x_{n}}(\mathbf{x}^{0})\\f''_{x_{2}x_{1}}(\mathbf{x}^{0})&f''_{x_{2}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{2}x_{n}}(\mathbf{x}^{0})\\\dots&\dots&\dots&\dots\\f''_{x_{n}x_{1}}(\mathbf{x}^{0})&f''_{x_{n}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{n}x_{n}}(\mathbf{x}^{0})\end{array}\right)$
+___
+[[Tejlorov polinom#Tejlorov polinom funkcije više promenljivih|Tejlorov polinom funkcije više promenljivih]]
+
 ### Diferencijabilnost
 > Napomena: diferencijabilnost fje jedne promenljive: [[Izvod#^0328e7|*]], [[Izvod#^85d2e1|*]]
 
@@ -45,7 +59,7 @@ $f$ je **diferencijabilna** u $\mathbf{x}^{0}$ ako postoji linearno preslikavanj
 $\begin{align}f(\mathbf{x}^{0}+\mathbf{h})=f(\mathbf{x}^{0})+L\,\mathbf{h}+o\big(||\mathbf{h}||\big),\quad \mathbf{h}\to\mathbf{0}\quad\ &&&&&&&&&(1)\end{align}$
 > $\begin{align}\Leftrightarrow \quad\lim\limits_{ \mathbf{h} \to \mathbf{0} } \frac{f(\mathbf{x}^{0}+\mathbf{h})-f(\mathbf{x}^{0})-L\,\mathbf{h}}{||\mathbf{h}||}=0&&&&&&&&&&(2)\end{align}$
 
-Preslikavanje $L$ se zove **diferencijal** (izvod) fje $f$ u tački $\mathbf{x}^{0}$ i označava se sa $df(\mathbf{x}^{0})$
+Preslikavanje $L$ se zove **diferencijal** (izvod) fje $f$ u tački $\mathbf{x}^{0}$ i označava se sa $df(\mathbf{x}^{0})$ ili $f'(\mathbf{x}^{0})$
 
 $\:$
 **Stav**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
