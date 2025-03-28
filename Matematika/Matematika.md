@@ -10,7 +10,7 @@ $\:$
 
 [[Geometrija]]
 [[Linearna algebra]]
-[[Algebra]]
+[[Algebra]] #not_linked
 
 [[Kombinatorika]]
 Teorija grafova

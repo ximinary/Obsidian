@@ -12,7 +12,7 @@ $\qquad (x, y) \mapsto x \land y$
 $\lor: \quad B \times B\to B\quad$ — binarna operacija - bulovska disjunkcija. 
 $\qquad (x, y) \mapsto x \lor y$
 
-Tada algebarska struktura $(B, \: \lor, \: \land, \: ', \: \mathbb{0}, \: \mathbb{1})$ zove se **bulovom algebrom** ako $\forall x,\,y,\,z \in B$ važi:
+Tada [[Algebarska struktura|algebarska struktura]] $(B, \: \lor, \: \land, \: ', \: \mathbb{0}, \: \mathbb{1})$ zove se **bulovom algebrom** ako $\forall x,\,y,\,z \in B$ važi:
 1. $x \lor y = y \lor x \qquad$ — komutativnost
 $x \land y = y \land x \qquad$ 
 2. $x \lor (y \land z) = (x \lor y) \land (x \lor z) \qquad$ — distrivutivnost

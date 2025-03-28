@@ -1,7 +1,7 @@
 #fax #math #ds1 #a1 [deo [[Matematika|matematike]]]
 $\:$ 
 
-#todo
+#to_do
 
 [[Prirodni brojevi]] $\mathbb{N}$
 [[Celi brojevi]] $\mathbb{Z}$

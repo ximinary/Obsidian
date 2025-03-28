@@ -1,4 +1,4 @@
-#notlinked
+#not_linked
 $\:$
 
 Neka je $f:(c,\,d)\to[0,\,+\infty)$ neprekidna funkcija. $[a,\,b]\subset(c,\,d)$.

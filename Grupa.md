@@ -1,4 +1,4 @@
-#notlinked
+#not_linked
 $\:$
 
 **Def**. **Grupa** je [[Algebarska struktura|algebarska struktura]] $(G,\,\cdot)$, gde je $G$ neprazan skup a za binarnu operaciju $\cdot$ na $G$ važi:
