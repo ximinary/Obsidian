@@ -30,11 +30,9 @@ $\log_{a}b\,c=\log_{a}b+\log_{a}c$
 
 $\begin{align}\log_{a^{m}}b^{n}=\frac{n}{m}\log_{a}b\end{align}$
 
-$\begin{align}\log_{a}b=\frac{\log_{c}b}{\log_{c}a}\end{align}$
+$\begin{align}\log_{a}b=\frac{\log_{c}b}{\log_{c}a}\end{align}$  $\quad\quad$ specijalno,$\ \:$ $\begin{align}\log_{a} b=\frac{1}{\log_{b}a}\end{align}$
 
-$a^{\log_{b}c}=c^{\log_{b}a}$
-
-$a^{\log_{a}b}=b$
+$a^{\log_{b}c}=c^{\log_{b}a}$ $\ \ \ \quad\quad$ specijalno,$\ \:$ $a^{\log_{a}c}=c$
 
 $\:$
 $\begin{align}\log_{a}b\geqslant0\quad\Leftrightarrow\quad \frac{b-1}{a-1}\geqslant0,\quad a,\,b>0\end{align}$

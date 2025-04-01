@@ -10,7 +10,7 @@ $\:$
 > za $q\ne1$
 > $\begin{align}\sum\limits_{n=1}^{\infty} q^{n}=\lim\limits_{ n \to \infty }\sum\limits_{k=1}^{n}q^{k}=\lim\limits_{ n \to \infty }\big(q+q^{2}+\dots+q^{n}\big)=\lim\limits_{ n \to \infty }q\frac{1-q^{n}}{1-q}=(*)\end{align}$
 > 
-> Koristimo [[Osnovni limesi#^ff0b5b|limes]], tada $(*)=\begin{cases}+\infty,&q>1\\\frac{q}{1-q},&-1<q<1\\\not\exists,&q<-1\end{cases}$
+> Koristimo [[Osnovni limesi#^ff0b5b|limes]], tada $(*)=\begin{cases}+\infty,&q>1\\\frac{q}{1-q},&-1<q<1\\\not\exists,&q\leqslant-1\end{cases}$
 
 $\:$
 **Stav**. $\begin{align}\sum\limits_{n=1}^{\infty}\frac{1}{n}\quad\text{divergira} \end{align}$.
