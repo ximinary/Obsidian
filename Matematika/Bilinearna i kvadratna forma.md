@@ -72,13 +72,33 @@ $\:$
 $\begin{align}\forall v,\, w\in V\quad\mathrm{A}(v,\ w)=\frac{\Big(\mathbf{q}(v+w)-\mathbf{q}(v-w)\Big)+i\,\Big(\mathbf{q}(v+i\,w)-\mathbf{q}(v-i\,w)\Big)}{4}\end{align}$
 
 $\:$
-**Def**. $V$ je VP nad $\mathbb{C}$. Hermitska kvadratna forma $\mathbf{q}$ je
-- pozitivna ako važi $\forall v\in V\quad q(v)\geqslant0$
-- strogo pozitivna ako važi $\forall v\ne\mathbf{0}\quad q(v)>0$, $\ \:$ $\mathbf{q}(\mathbf{0})=0$
+> Primedba:
+> - Svakoj simetričnoj kvadratnoj matrici $\mathcal{A}=(\alpha_{ij})\in\mathbb{M}_{n}(\mathbb{R})$ možemo pridružiti kvadratnu formu $\mathbf{q}_{\mathcal{A}}:\ \mathbb{R}^{n}\to\mathbb{R}$ $\ \:$ def. sa $\ \:$ $\begin{align}\mathbf{q}_{\mathcal{A}}(v)=v^{\mathrm{T}}\cdot\mathcal{A}\cdot v=\sum\limits_{i,\,j=1}^{n}v_{i}\,\alpha_{ij}\,v_{j}\end{align}$
+> - Svakoj kvadratnoj matrici $\mathcal{A}=(\alpha_{ij})\in\mathbb{M}_{n}(\mathbb{C})$ za koju važi $\mathcal{A}^{*}=\mathcal{A}$ možemo pridružiti hermitsku kvadratnu formu $\mathbf{q}_{\mathcal{A}}:\ \mathbb{C}^{n}\to\mathbb{R}$ $\ \:$ def. sa $\ \:$ $\begin{align}\mathbf{q}_{\mathcal{A}}(v)=v^{*}\cdot\mathcal{A}\cdot v=\sum\limits_{i,\,j=1}^{n}\overline{v_{i}}\,\alpha_{ij}\,v_{j}\end{align}$
+> 
+> Važi i obratno: svakoj kvadratnoj formi $\mathbf{q}:\ \mathbb{R}^{n}(\mathbb{C}^{n})\to\mathbb{R}$ možemo pridružiti simetričnu matricu (odnosno matricu za koju važi $\mathcal{A}^{*}=\mathcal{A}$), za koju važe navedene jednačine.
 
-Primedba: Skalarni proizvod je hermitska bilinearna forma, kojoj odgovara strogo pozitivna hermitska kvadratna forma. 
+^ef95f8
+
+$\:$
+**Def**. $V$ je VP nad $\mathbb{C} (\mathbb{R})$. Hermitska kvadratna forma $\mathbf{q}$ je
+- **pozitivna** ako važi $\forall v\in V\quad \mathbf{q}(v)\geqslant0$
+- **strogo pozitivna** ako važi $\forall v\ne\mathbf{0}\quad \mathbf{q}(v)>0$, $\ \:$ $\mathbf{q}(\mathbf{0})=0$ ^3b0bdd
+- **negativna** ako važi $\forall v\in V\quad \mathbf{q}(v)\leqslant0$
+- **strogo negativna** ako važi $\forall v\ne\mathbf{0}\quad \mathbf{q}(v)<0$, $\ \:$ $\mathbf{q}(\mathbf{0})=0$ ^8d6aad
+- **promenljivog znaka** ako $\exists u,\,v\in V\ \ :\ \ \mathbf{q}(u)>0\ \ \text{ i }\ \ \mathbf{q}(v)<0$ ^0e3137
+
+$\:$
+**Stav**. Neka je $\mathcal{A}=(\alpha_{ij})\in\mathbb{M}_{n}(\mathbb{R})$ simetrična matrica i neka su $A_{1}=a_{11},\ \ A_{2}=\left|\begin{array}{}a_{11}&a_{12}\\a_{21}&a_{22}\end{array}\right|,\ \ A_{3}=\left|\begin{array}{}a_{11}&a_{12}&a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33}\end{array}\right|,\ \ \dots,\ \ A_{n}=\det \mathcal{A}$
+glavni minori matrice $\mathcal{A}$. Tada,
+$\quad$ 1\. $\:$ $\mathbf{q}_{\mathcal{A}}$ je strogo pozitivna akko $\forall i=\overline{1,n}\quad A_{i}>0$
+$\quad$ 2\. $\:$ $\mathbf{q}_{\mathcal{A}}$ je strogo negativna akko $\begin{cases}\forall i=\{1,\,3,\,5,\,\dots\}\quad A_{i}<0\\\forall i=\{2,\,4,\,6,\,\dots\}\quad A_{i}>0\end{cases}$ ^fd4794
+
+$\:$
+> Primedba: Skalarni proizvod je hermitska bilinearna forma, kojoj odgovara strogo pozitivna hermitska kvadratna forma. 
 $\langle v,\ w\rangle_{\rm A}:=\mathrm{A}(v,\ w)=\Big(\kappa_{e}(w)\Big)^{*}\cdot\mathcal{A}\cdot\kappa_{e}(v)$
 
+$\:$
 ### Hermitska bilinearna forma u [[Unitarni prostor. Euklidski prostor|unitarnom prostoru]]
 
 Teorema. $V$ je unitaran prostor. $\mathrm{A}$ je hermitska bilinearna forma $\ \:$ $\Leftrightarrow$ $\ \:$ $\exists!A: \ V\to V$ — [[Linearni operator u unitarnom prostoru#Klase operatora u unitarnom prostoru|hermitski operator]] takav da $\boxed{\mathrm{A}(v,\ w)= \langle A(v),\ w\rangle, \quad \forall v,\,w\in V}$

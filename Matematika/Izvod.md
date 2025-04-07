@@ -45,7 +45,7 @@ Tada $\begin{align}g\,\mathcal{D}\,y_{0},\quad g'(y_{0})=\frac{1}{f'(x_{0})}\end
 
 [[analiza1_2_4prim.png|Izvodi nekih inverznih funkcija]]
 
-### [[Ekstremum. Nužni i dovoljni uslov ekstremuma]]
+### [[Ekstremum#Funkcija jedne promenljive|Ekstremum]]
 
 ### [[Teoreme o srednjoj vrednosti]]
 

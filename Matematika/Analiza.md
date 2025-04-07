@@ -26,6 +26,5 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 [[Funkcija sa domenom u Rn]]
 [[Preslikavanje sa vrednostima u Rm]]
 [[Tangenta i tangentna površ]]
-
-
+Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]]
 

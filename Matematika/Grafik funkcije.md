@@ -54,7 +54,7 @@ Svaku graničnu tačku $a$ razmatramo odvojeno:
    Ako $\begin{align}\exists\lim\limits_{ h \to 0^{-} }\frac{f(a+h)-f(a)}{h}=L\in\mathbb{R}\end{align},$
    $\begin{align}\exists\lim\limits_{ h \to 0^{+} }\frac{f(a+h)-f(a)}{h}=D\in\mathbb{R} \quad \mathrm{i}\quad L=D\end{align}$, onda je $f$ diferencijabilna u $a$ inače nije diferencijabilna u $a$.
 
-### 6) [[Teoreme o srednjoj vrednosti#^9f49d5|Intervale monotonosti]] i [[Ekstremum. Nužni i dovoljni uslov ekstremuma|ekstremumi]]
+### 6) [[Teoreme o srednjoj vrednosti#^9f49d5|Intervale monotonosti]] i [[Ekstremum|ekstremumi]]
 
 $f$ raste na  intervalu $A$, ako $\forall x\in A\quad f'(x)>0$
 $f$ opada na  intervalu $A$, ako $\forall x\in A\quad f'(x)<0$

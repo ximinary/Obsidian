@@ -42,7 +42,7 @@ Tada opšte rešenje $a_{n}$ je zbir članova, svakom od kojih odgovara jedna nu
 > opšte rešenje je $a_{n}=c_{1}\,x_{1}^{n}+c_{2}\,x_{2}^{n}+\dots+c_{k}x_{k}^{n}$
 > 
 > Ako $x_{1}=x_{2}=x_{3}$
-> opšte rešenje je $a_{n}=c_{1}\,x_{1}^{n}+c_{2}\,n\,x_{1}^{n}+c_{3}\,n^{2}\,x_{1}^{n}+c_{4}\,x_{4}^{n}\dots+c_{k}x_{k}^{n}$
+> opšte rešenje je $a_{n}=c_{1}\,x_{1}^{n}+c_{2}\,n\,x_{1}^{n}+c_{3}\,n^{2}\,x_{1}^{n}+c_{4}\,x_{4}^{n}+\dots+c_{k}x_{k}^{n}$
 
 2\) Tražimo partikularno rešenje u zavisnosti od $k$ prvih članova niza (tj određujemo $c_{1},\,c_{2},\,\dots,\,c_{k}$) tako što ubacujemo redom $a_{1},\,a_{2},\,\dots,\,a_{k}$ u opšte rešenje i rešavamo dobijen sistem.
 

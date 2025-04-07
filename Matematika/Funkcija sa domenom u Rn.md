@@ -22,7 +22,7 @@ Slično kao za neprekidnu funkciju jedne promenljive za neprekidnu funkciju viš
 
 **Stav**. Neka su $u(x,\,y)$ $\,$ i $\,$ $v(x,\,y)$ neprekidne u $(x_{0},\,y_{0})$ i važi $u(x_{0},\,y_{0})=u_{0}$ $\,$ i $\,$ $v(x_{0},\,y_{0})=v_{0}$. Ako je $f(s,\,t)$ neprekidna u $(u_{0},\,v_{0})$ onda je $g(x,\,y):=f\big(u(x,\,y),\ v(x,\,y)\big)$ neprekidna u $(x_{0},\,y_{0})$
 
-**Teorema** (Vajerštrasova). $K\subseteq\mathbb{R}^{n}$ je [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3969f8|kompaktan]]. $f:K\to\mathbb{R},\ \ f\,\mathcal{C}\,K$. Tada
+**Teorema** (Vajerštrasova). $K\subseteq\mathbb{R}^{n}$ je [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3969f8|kompaktan]]. $f:K\to\mathbb{R},\ \ f\,\mathcal{C}\,K$. Tada ^8e141b
 1. $f$ je ograničena
 2. $\exists \max\limits_{\mathbf{x}\in K}f(\mathbf{x}),\ \min\limits_{\mathbf{x}\in K}f(\mathbf{x})$
 ### Parcijalni izvod i izvod u pravcu
@@ -47,9 +47,9 @@ $\:$
 
 $\:$
 **Def**. Hesijan (ili matrica drugog izvoda) fje $f$ u $\mathbf{x}^{0}$ je
-$Hf(\mathbf{x}^{0})=d^{2}f(\mathbf{x}^{0})=\left(\begin{array}{}f''_{x_{1}x_{1}}(\mathbf{x}^{0})&f''_{x_{1}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{1}x_{n}}(\mathbf{x}^{0})\\f''_{x_{2}x_{1}}(\mathbf{x}^{0})&f''_{x_{2}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{2}x_{n}}(\mathbf{x}^{0})\\\dots&\dots&\dots&\dots\\f''_{x_{n}x_{1}}(\mathbf{x}^{0})&f''_{x_{n}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{n}x_{n}}(\mathbf{x}^{0})\end{array}\right)$
-___
-[[Tejlorov polinom#Tejlorov polinom funkcije više promenljivih|Tejlorov polinom funkcije više promenljivih]]
+$Hf(\mathbf{x}^{0})=d^{2}f(\mathbf{x}^{0})=\left(\begin{array}{}f''_{x_{1}x_{1}}(\mathbf{x}^{0})&f''_{x_{1}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{1}x_{n}}(\mathbf{x}^{0})\\f''_{x_{2}x_{1}}(\mathbf{x}^{0})&f''_{x_{2}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{2}x_{n}}(\mathbf{x}^{0})\\\dots&\dots&\dots&\dots\\f''_{x_{n}x_{1}}(\mathbf{x}^{0})&f''_{x_{n}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{n}x_{n}}(\mathbf{x}^{0})\end{array}\right)$ ^39ff87
+
+### [[Tejlorov polinom#Tejlorov polinom funkcije više promenljivih|Tejlorov polinom]]
 
 ### Diferencijabilnost
 > Napomena: diferencijabilnost fje jedne promenljive: [[Izvod#^0328e7|*]], [[Izvod#^85d2e1|*]]
@@ -111,3 +111,6 @@ $\:$
 >  $\begin{align}\left|\sum\limits_{i=1}^{n}\varphi_{i}(\mathbf{x})\frac{(x_{i}-x^{0}_{i})}{||\mathbf{x}-\mathbf{x}^{0}||}\right|\leqslant\sum\limits_{i=1}^{n}\left|\varphi_{i}(\mathbf{x})\frac{(x_{i}-x^{0}_{i})}{||\mathbf{x}-\mathbf{x}^{0}||}\right|\leqslant\sum\limits_{i=1}^{n}\left|\varphi_{i}(\mathbf{x})\right|\to0,\quad\mathbf{x}\to\mathbf{x}^{0}\end{align}$
 >
 > Time iz teoreme o tri limesa dobijamo da je limes jednak $0$.
+
+$\:$
+### [[Ekstremum#Funkcija više promenljivih|Ekstremum ]]. [[Ekstremum#Uslovni ekstremum|Uslovni ekstremum]]

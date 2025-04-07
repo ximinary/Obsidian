@@ -39,7 +39,7 @@ Ako je $F$ linearno preslikavanje onda $dF(\mathbf{x}^{0})=F$
 
 $\:$
 **Stav** (diferenciranje složene fje). Neka su $A\subseteq\mathbb{R}^{n}$, $\:$ $B\subseteq\mathbb{R}^{m}$ $\:$ otvoreni skupovi i neka su $F:\ A\to B$, $\ \:$ $G:\ B\to\mathbb{R}^{k}$. $\:$ $\mathbf{x}^{0}\in A$, $\:$ $\mathbf{y}^{0}=F(\mathbf{x}^{0})\in B$. Tada
-ako je $F$ diferencijabilna u $\mathbf{x}^{0}$ i $G$ je diferencijabilna u $\mathbf{y}^{0}$ onda je $G\circ F$ diferencijabilna u $\mathbf{x}^{0}$ i važi: $\boxed{d(F\circ G)(\mathbf{x}^{0})=dG(\mathbf{y}^{0})\circ dF(\mathbf{x}^{0})}$
+ako je $F$ diferencijabilna u $\mathbf{x}^{0}$ i $G$ je diferencijabilna u $\mathbf{y}^{0}$ onda je $G\circ F$ diferencijabilna u $\mathbf{x}^{0}$ i važi: $\boxed{d(F\circ G)(\mathbf{x}^{0})=dG(\mathbf{y}^{0})\circ dF(\mathbf{x}^{0})}$ ^4816ca
 > Dokaz:
 > $F\,\mathcal{D}\,\mathbf{x}^{0}\quad\Leftrightarrow\quad F(\mathbf{x}^{0}+\mathbf{h})=F(\mathbf{x}^{0})+dF(\mathbf{x}^{0})\,\mathbf{h}+\mathbf{o}\big(||\mathbf{h}||\big),\quad \mathbf{h}\to \mathbf{0}$
 > $G\,\mathcal{D}\,\mathbf{y}^{0}\quad\Leftrightarrow\quad G(\mathbf{y}^{0}+\mathbf{k})=G(\mathbf{y}^{0})+dG(\mathbf{y}^{0})\,\mathbf{k}+\mathbf{o}\big(||\mathbf{k}||\big),\quad \mathbf{k}\to \mathbf{0}$
