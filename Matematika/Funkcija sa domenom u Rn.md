@@ -113,4 +113,4 @@ $\:$
 > Time iz teoreme o tri limesa dobijamo da je limes jednak $0$.
 
 $\:$
-### [[Ekstremum#Funkcija više promenljivih|Ekstremum ]]. [[Ekstremum#Uslovni ekstremum|Uslovni ekstremum]]
+### [[Ekstremum#Ekstremum funkcije više promenljivih|Ekstremum ]]. [[Ekstremum#Uslovni ekstremum|Uslovni ekstremum]]
