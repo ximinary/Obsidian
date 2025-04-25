@@ -81,7 +81,7 @@ $\:$
 ^ef95f8
 
 $\:$
-**Def**. $V$ je VP nad $\mathbb{C} (\mathbb{R})$. Hermitska kvadratna forma $\mathbf{q}$ je
+**Def**. $V$ je VP nad $\mathbb{C} (\mathbb{R})$. (Hermitska) kvadratna forma $\mathbf{q}$ je
 - **pozitivna** ako važi $\forall v\in V\quad \mathbf{q}(v)\geqslant0$
 - **strogo pozitivna** ako važi $\forall v\ne\mathbf{0}\quad \mathbf{q}(v)>0$, $\ \:$ $\mathbf{q}(\mathbf{0})=0$ ^3b0bdd
 - **negativna** ako važi $\forall v\in V\quad \mathbf{q}(v)\leqslant0$

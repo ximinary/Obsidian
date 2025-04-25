@@ -1,4 +1,4 @@
-#not_linked
+#note/not_linked nazad: [[Algebra]]
 $\:$
 
 **Def**. Neka je $A$ neprazan skup i $n\in\mathbb{N}_{0}$. **Algebarska operacija** $f$ dužine $n$ na skupu $A$ (ili $n$-arna operacija skupa $A$) je funkcija $f:\ A^{n}\to A$.
@@ -21,7 +21,7 @@ $\:$
 **Def**. **Algebarska struktura** je uređena $(n+1)$-torka
 $\mathbb{A}=(A,\,f_{1},\,f_{2},\,\dots,\,f_{n})$, pri čemu
 - $A\ne\varnothing$ se zove **nosač** strukture $\mathbb{A}$.
-- $\forall i=\overline{1,\,n\!-\!1}\quad\#(f_{i})=\#(f_{i+1})$,
+- $\forall i=\overline{1,\,n\!-\!1}\quad\#(f_{i})\geqslant\#(f_{i+1})$,
 tj. operacije su raspoređene opadajuće po dužine. 
 - $\sigma(\mathbb{A})=\big(\#(f_{1}),\,\#(f_{2}),\,\dots,\,\#(f_{n})\big)$ $\quad$ — **signatura** strukture $\mathbb{A}$
 

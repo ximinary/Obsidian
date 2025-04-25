@@ -15,16 +15,16 @@ $\:$
 [[Beskonačnodimenzioni Euklidski prostor. Niz i red vektora|Niz i red vektora]]
 [[Niz n-torki realnih brojeva]]
 
-### Funkcije jedne realne promenljive
+### Funkcije $\mathbb{R}\to\mathbb{R}$
 [[Limes funkcije]] i [[Neprekidnost|neprekidnost]]
 [[Izvod|Izvod i diferencijabilnost]]
 Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]], [[Nesvojstveni integral|nesvojstveni]]
 
 [[Grafik funkcije]]
 
-### Funkcije više realnih promenljivih sa više vrednosti
-[[Funkcija sa domenom u Rn]]
-[[Preslikavanje sa vrednostima u Rm]]
+### Funkcije $\mathbb{R}^{n}\to\mathbb{R}^{m}$
+[[Funkcija sa domenom u Rn]] #note/reorganize
+[[Preslikavanje sa vrednostima u Rm]] #note/reorganize
 [[Tangenta i tangentna površ]]
-Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]]
+Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]] #note/to_do
 

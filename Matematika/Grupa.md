@@ -1,4 +1,4 @@
-#not_linked
+#note/not_linked nazad: [[Algebarska struktura]]
 $\:$
 
 **Def**. **Grupa** je [[Algebarska struktura|algebarska struktura]] $(G,\,\cdot)$, gde je $G$ neprazan skup a za binarnu operaciju $\cdot$ na $G$ važi:
@@ -38,9 +38,9 @@ Tada $(x_{1}\cdots x_{r})\cdot(x_{r+1}\cdots x_{n})=(x_{1}\cdots x_{n})$
 
 **Stav**. Neka je $(G,\,\cdot)$ Abelova grupa. Tada ako $\{1,\,2,\,\dots,\,n\}=\{i_{1},\,i_{2},\,\dots,\,i_{n}\}$ onda $(x_{i_{1}}\cdots x_{i_{n}})=(x_{1}\cdots x_{n})$
 
-**Stav**. Neka je $(G,\,\cdot)$ grupa. Tada $\big(x^{-1}\big)^{-1}$
+**Stav**. Neka je $(G,\,\cdot)$ grupa. Tada $\big(x^{-1}\big)^{-1}=x$
 
-**Stav**. Neka je $(G,\,\cdot)$ grupa. Tada $(x_{1}\cdots x_{n})^{-1}=x_{n}^{-1}\cdots x_{1}^{-1}$
+**Stav**. Neka je $(G,\,\cdot)$ grupa. Tada $(x_{1}\cdots x_{n})^{-1}=(x_{n}^{-1}\cdots x_{1}^{-1})$
 
 **Stav**. Neka je $(G,\,\cdot)$ grupa. Tada 
 - jednačina $a\cdot x=b$ ima jedinstveno rešenje $x=a^{-1}\cdot b$
@@ -55,3 +55,38 @@ $\:$
 **Stav**. Neka je $(G,\,\cdot)$ grupa, $\:$ $x\in G$, $\:$ $n,\,m\in\mathbb{Z}$. $\:$ Tada
 - $x^{n}\cdot x^{m}=x^{n+m}$
 - $\big(x^{n}\big)^{m}=x^{nm}$
+
+### Ciklična grupa
+**Def**. Grupa $G$ je **ciklična** ako važi $G=\{x^{m}\ |\ m\in\mathbb{Z}\}$.
+Element $x$ je **generator ciklične grupe** $G$.
+Oznaka ciklične grupe generisane elementom  $G=\langle x\rangle$
+
+### Diedarska grupa
+Razmatramo simetrije pravilnog $n$-ugaonika:
+$\varepsilon$ — neutral, identičko preslikavanje.
+$\rho$  — rotacija za ugao $\begin{align}\frac{2\pi}{n}\end{align}$ u smeru suprotnom od kazaljke;
+tada su $\rho,\,\rho^{2},\,\dots,\,\rho^{n-1}$ sve rotacije i $\rho^{n}=\varepsilon$.
+$\sigma$ — neka osna refleksija;
+tada su $\sigma,\,\sigma\rho,\,\sigma\rho^{2},\,\dots,\,\sigma\rho^{n-1}$ sve refleksije i $\sigma^{2}=\varepsilon$.
+
+Skup $\{\varepsilon,\,\rho,\,\rho^{2},\,\dots,\,\rho^{n-1},\,\sigma,\,\sigma\rho,\,\sigma\rho^{2},\,\dots,\,\sigma\rho^{n-1}\}$ od $2n$ elemenata u odnosu na operaciju [[Kompozicija funkcija|kompozicije preslikavanja]] predstavlja **diedarsku grupu** $\mathbb{D}_{n}$ 
+
+### Podgrupa
+**Def**. Neka su $(G,\,\cdot)$ i $(H,\,*)$ dve grupe. $(H,\,\cdot)$ je **podgrupa** od $(G,\,*)$ ako 
+$H\subseteq G$ $\quad$ i $\quad$ $\forall x,\,y\in H\quad x*y=x\cdot y$
+Oznaka $H\leqslant G$.
+Operacija $*$ je **restrikcija** operacije $\cdot$ na $H$.
+
+**Stav**.
+- Neutral u $G$ je jednak neutralu u $H$
+- Ako je $x\in H$ onda inverz od $x$ u $G$ je jednak inverzu od $x$ u $H$
+
+$\:$
+**Stav**. Neprazan podskup $H$ grupe $G$ je podgrupa grupe $G$ u odnosu na restrikciju operacije iz $G$ akko $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$
+> Dokaz:
+> $\boxed{\Rightarrow}$ $\quad$ $y\in H\quad\Rightarrow\quad y^{-1}\in H$, $\quad$ pa i $x\cdot y^{-1}\in H$
+> $\boxed{\Leftarrow}$ $\quad$ Neka $H\ne\varnothing$ $\ \:$ i $\ \:$ $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$
+$\:$
+**Stav**. Neka su $H$ i $K$ podgrupe grupe $G$, tada
+- $H\cap K$ je podgrupa grupe $G$
+- $H\cup K$ je podgrupa grupe $G$ akko $H\subseteq K$ ili $K\subseteq H$

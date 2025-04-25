@@ -38,7 +38,7 @@ $\:$
 
 $\:$
 **Def**. Parcijalni izvod drugog reda:
-$\begin{align}f''_{x_{i}x_{j}}=\frac{\partial^{2} f}{\partial x_{i}\,\partial x_{j}}:=\big(f'_{x_{i}}\big)'_{x_{j}}=\frac{\partial }{x_{j}}\bigg(\frac{\partial f}{x_{i}}\bigg)\end{align}$ 
+$\begin{align}f''_{x_{i}x_{j}}=\frac{\partial^{2} f}{\partial x_{j}\,\partial x_{i}}:=\big(f'_{x_{i}}\big)'_{x_{j}}=\frac{\partial }{\partial x_{j}}\bigg(\frac{\partial f}{\partial x_{i}}\bigg)\end{align}$ 
 Analogno se definišu parcijalni izvodi višeg (3, 4, ...) reda.
 Pri tome $\begin{align}f^{(0)}=\partial^{0}f=f\end{align}$
 

@@ -14,7 +14,7 @@ $\:$
 - $a\in X$ je **granična** (rubna)  tačka skupa $A$ ako
   $\forall \mathrm{O}(a)\quad \begin{cases}\mathrm{O}(a)\cap A\ne\varnothing\\\mathrm{O}(a)\cap (X\setminus A)\ne\varnothing\end{cases}$
   $\partial\, A$ je skup svih graničnih tačaka (**rub**) skupa $A.$
-  $\:$
+  $\:$ ^1ecb22
 
 
 $\mathrm{int\ }A,\ \mathrm{ext\ }A,\ \partial\, A$ su disjunktni i njihova unija daje $X$.

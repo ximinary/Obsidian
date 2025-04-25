@@ -82,6 +82,8 @@ $\begin{align}\int_{a}^{b} (\alpha\,f+\beta\,g)(x) \, dx = \alpha\int_{a}^{b} f(
 >
 >$\begin{align}\Rightarrow\quad\exists\int_{a}^{b} (\alpha\,f)(x) \, dx=\alpha\int_{a}^{b} f(x) \, dx\end{align}$ 
 
+^cfc6a3
+
 $\:$
 **Stav**.  $f,\,g\,\mathcal{R}\,[a,\,b]$. Tada
 1. $(f\cdot g)\,\mathcal{R}\,[a,\,b]$
