@@ -4,15 +4,14 @@ $\:$
 [[Elementarna matematika]]
 
 [[Logika]]
-[[Teorija skupova]]
-[Relacije](Relacija) i [funkcije](Funkcija)
+[[Skup]]
+[[Relacija]] i [[funkcija]]
+[[Algebarska struktura]]
 [[Brojevi]]
+Graf
 
 [[Geometrija]]
 [[Linearna algebra]]
-[[Algebra]] #note/not_linked
-
 [[Kombinatorika]]
-Teorija grafova
 
 [[Analiza]]

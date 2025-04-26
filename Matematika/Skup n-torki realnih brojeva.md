@@ -1,7 +1,7 @@
 #fax #math #a3 [deo [[Analiza|analize]]]
 $\:$
 
-**Def**. Skup svih $n$-[[Teorija skupova#^e21aa8|torki]] realnih brojeva je skup $\mathbb{R}^{n}=\Big\{(x_{1},\,x_{2},\,\dots,\,x_{n})\ \ \Big|\ \ x_{i}\in\mathbb{R},\ \ i=\overline{1,n}\Big\}$
+**Def**. Skup svih $n$-[[Skup#^e21aa8|torki]] realnih brojeva je skup $\mathbb{R}^{n}=\Big\{(x_{1},\,x_{2},\,\dots,\,x_{n})\ \ \Big|\ \ x_{i}\in\mathbb{R},\ \ i=\overline{1,n}\Big\}$
 
 Sabiranje: $\ \:$ $(x_{1},\,x_{2},\,\dots,\,x_{n})+(y_{1},\,y_{2},\,\dots,\,y_{n})=(x_{1}+y_{1},\,x_{2}+y_{2},\,\dots,\,x_{n}+y_{n})$
 Množenje skalarom $\lambda\in\mathbb{R}$: $\ \:$ $\lambda\,(x_{1},\,x_{2},\,\dots,\,x_{n})=(\lambda\,x_{1},\,\lambda\,x_{2},\,\dots,\,\lambda\,x_{n})$

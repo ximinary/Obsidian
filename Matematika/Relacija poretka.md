@@ -4,7 +4,7 @@ $\:$
 **Def**. [Binarna relacija](Relacija#Binarna%20relacija) je relacija **strogog** (parcijalnog) **poretka** ako je (AR), (S) i (T). Oznaka: $\prec$.
 **Def**. [Binarna relacija](Relacija#Binarna%20relacija) je relacija **nestrogog** (parcijalnog) **poretka** ako je (R), (S) i (T).  Oznaka: $\preceq$.
 
-**Def**. Ako je u [[Teorija skupova|skupu]] uvedena relacija parcijalnog poretka, tada je taj skup **uređen** ili se zove **poset**.
+**Def**. Ako je u [[Skup|skupu]] uvedena relacija parcijalnog poretka, tada je taj skup **uređen** ili se zove **poset**.
 
 **Def**. $a,\ b \in A \:$ su uporedivi ako važi $a\preceq b\:$ ili $\:b\preceq a$
 
@@ -30,7 +30,7 @@ Haseov dijagram:
 Svaka linija predstavlja relaciju između dva elementa tako da (donji element) $\!\preceq\!$ (gornji element). Ali relacije kao na primer $\{a\} \subseteq \{a,\ b,\ c\}$ se ne označavaju jer "prolaze" kroz drugi element $\{a\} \subseteq \{a,\ b\} \subseteq \{a,\ b,\ c\}$
 
 ### Najmanji, najveći, minimalni, maksimalni
-**Def**. Neka je $\preceq$ relacija nestrogog parcijalnog poretka u [[Teorija skupova|skupu]] $A$, $B \subseteq A$. Tada:
+**Def**. Neka je $\preceq$ relacija nestrogog parcijalnog poretka u [[Skup|skupu]] $A$, $B \subseteq A$. Tada:
 - $a\in B$ je **najmanji** element u $B$ ako $\forall x \in B \ \ \ a \preceq x$
 - $a\in B$ je **najveći** element u $B$ ako $\forall x \in B \ \ \ x \preceq a$
 - $a\in B$ je **minimalni** element u $B$ ako $\forall x \in B \ \ \ x \preceq a \ \ \Rightarrow \ \ a=x$
@@ -65,7 +65,7 @@ najveći ne postoji
 Napomena: U totalno uređenom skupu pojmove najmanji i minimalni, najveći i maksimalni se poklapaju.
 
 ### Donje i gornje ograničenje. Infinum i supremum
-**Def**. Neka je $\preceq$ relacija nestrogog parcijalnog poretka u [[Teorija skupova|skupu]] $A$, $B \subseteq A$. Tada:
+**Def**. Neka je $\preceq$ relacija nestrogog parcijalnog poretka u [[Skup|skupu]] $A$, $B \subseteq A$. Tada:
 - $a \in A$ je **donje ograničenje** (minoranta) skupa $B$ ako $\ \forall x \in B \ \ \ a \preceq x$
 - $B$ je **ograničen odozdo** ako takvo $a$ postoji
 - Skup donjih ograničenja je $B^{\succeq} = \{a \in A\ | \ a\ \textrm{je donje ograničenje skupa }B\}$

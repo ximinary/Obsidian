@@ -1,5 +1,6 @@
-#note/not_linked nazad: [[Algebarska struktura]]
-$\:$
+#fax #math #alg [deo [[Algebarska struktura|poglavlja "algebarska struktura"]]]
+$\:$ 
+
 
 **Def**. **Grupa** je [[Algebarska struktura|algebarska struktura]] $(G,\,\cdot)$, gde je $G$ neprazan skup a za binarnu operaciju $\cdot$ na $G$ važi:
 - $\forall x,\,y,\,z\in G\quad(x\cdot y)\cdot z=x\cdot(y\cdot z)$
@@ -59,7 +60,7 @@ $\:$
 ### Ciklična grupa
 **Def**. Grupa $G$ je **ciklična** ako važi $G=\{x^{m}\ |\ m\in\mathbb{Z}\}$.
 Element $x$ je **generator ciklične grupe** $G$.
-Oznaka ciklične grupe generisane elementom  $G=\langle x\rangle$
+Oznaka ciklične grupe generisane elementom $x$: $G=\langle x\rangle$
 
 ### Diedarska grupa
 Razmatramo simetrije pravilnog $n$-ugaonika:
@@ -86,7 +87,51 @@ $\:$
 > Dokaz:
 > $\boxed{\Rightarrow}$ $\quad$ $y\in H\quad\Rightarrow\quad y^{-1}\in H$, $\quad$ pa i $x\cdot y^{-1}\in H$
 > $\boxed{\Leftarrow}$ $\quad$ Neka $H\ne\varnothing$ $\ \:$ i $\ \:$ $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$
+> Jasno je da je asocijativnost sačuvana u svakom podskupu grupe.
+> $h\in H\quad\Rightarrow\quad e=h\cdot h^{-1}\in H$ — neutral
+> $h,\,e\in H\quad\Rightarrow\quad h^{-1}=e\cdot h^{-1}\in H$ — inverz
+> $x,\,y \in H$, odakle $y^{-1}\in H$ $\quad\Rightarrow\quad x\cdot y=x\cdot\big(y^{-1}\big)^{-1}\in H$ — zatvorenost operacije
+
 $\:$
 **Stav**. Neka su $H$ i $K$ podgrupe grupe $G$, tada
 - $H\cap K$ je podgrupa grupe $G$
 - $H\cup K$ je podgrupa grupe $G$ akko $H\subseteq K$ ili $K\subseteq H$
+
+> Dokaz:
+> - prvo tvrđenje
+> 
+> $e\in G$ je neutral $\quad \Rightarrow\quad e\in H,\ e\in K\quad\Rightarrow\quad e \in H\cap K$
+> Neka su $x,\,y\in H\cap K$;
+> iz prethodnog stava $x\cdot y^{-1}\in H,\ x\cdot y^{-1}\in K$, pa $x\cdot y^{-1}\in H\cap K$;
+> ponovo na osnovu prethodnog stava $H\cap K$ je podgrupa od $G$.
+> 
+> - drugo tvrđenje
+> 
+> $\boxed{\Leftarrow}$
+> $H\subseteq K\quad\Rightarrow\quad H\cup K =K$ jeste podgrupa od $G$;
+> $K\subseteq H\quad\Rightarrow\quad H\cup K =H$ jeste podgrupa od $G$.
+> $\boxed{\Rightarrow}$ $H,\,K,\,H\cup K$ su podgrupe od $G$
+> pps: $H\not\subseteq K$ i $K\not\subseteq H$, 
+> tj. $\exists k\in K\quad k\not\in H$ $\quad$ i $\quad$ $\exists h\in H\quad h\not\in K$ $\quad$
+> 
+> $k,\,h\in K\cup H\quad\Rightarrow\quad k\cdot h\in K\cup H$
+> tada važi $k\cdot h\in K$ ili $k\cdot h\in H$
+> $\left.\begin{array}{l}k\cdot h \in K\\k^{-1}\in K\end{array}\ \ \right|\Rightarrow k^{-1}\cdot k\cdot h=h \in K\quad$ kontradikcija
+> 
+> $\left.\begin{array}{l}k\cdot h \in H\\h^{-1}\in H\end{array}\ \ \right|\Rightarrow k\cdot h\cdot h^{-1}=k \in H\quad$ kontradikcija
+
+$\:$
+**Def**. Najmanja podgrupa koja sadrži podskup $X$ grupe $G$ (odnosno presek svih podgrupa grupe $G$ koje sadrže $X$) zove se **podgrupa generisana skupom** $X$.
+Oznaka: $\langle X\rangle$
+$X$ je **skup generatora** te podgrupe.
+
+$X^{-1}=\{x^{-1}\ |\ x\in X\}$ je skup svih inverza elemenata iz $X$.
+**Stav**. $\langle X\rangle =\{(a_{1}\cdots a_{n})\ |\ n\in \mathbb{N}_{0},\,a_{i}\in X\cup X^{-1}\}$
+(ako je $n=0$, imamo neutral $e$)
+
+### Red grupe i elementa
+**Def**. Ako je $G$ konačna grupa, onda broj njenih elemenata zovemo **red grupe** i označavamo sa $|G|$. Ako je grupa beskonačna, kažemo da je ona **beskonačnog reda**.
+
+**Def**. Neka je $a$ element neke grupe. Ako postoji $n\geqslant1$ za koji važi $a^{n}=e$, onda je **red elementa** $a$ jednak $\omega(a)=\min\{m\geqslant1\ |\ a^{m}=e\}$, inače je $a$ **beskonačnog reda**.
+
+**Stav**. Red bilo kojeg elementa grupe je jednak redu podgrupe generisane tim elementom.

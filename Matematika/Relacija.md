@@ -2,7 +2,7 @@
 $\:$
 
 **Def**. Neka su $A$ i $B$ skupovi.
-**Relacija** $\rho$ sa skupa $A$ u skup $B$ je bilo koji podskup [dekartovog proizvoda](Dekartov%20proizvod) $A \times B$. $\quad\rho \subseteq A \times B$
+**Relacija** $\rho$ sa skupa $A$ u skup $B$ je bilo koji podskup [[Skup#Dekartov proizvod|dekartovog proizvoda]] $A \times B$. $\quad\rho \subseteq A \times B$
 Piše se $\: (x, \  y) \in \rho \:\:$ ili $\:\: x \ \rho \ y \:\:$ za $\:\: x \in A \:\:$ i $\:\: y \in B$
 Relacija između tri i više skupova se definiše slično.
 

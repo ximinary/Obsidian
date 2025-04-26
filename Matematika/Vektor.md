@@ -1,7 +1,7 @@
 #fax #math #laag [deo [[Linearna algebra|linearne algebre]] i [[Geometrija|geometrije]]]
 $\:$
 
-**Def**. [[Teorija skupova#^e21aa8|Uređeni parovi]] tačaka prostora $\mathbb{E}\ \ (\mathrm{A},\,\mathrm{B})\ \:$i$\:\ (\mathrm{C},\,\mathrm{D})$ su ekvivalentni ako duži $\mathrm{AD}\ \:$i$\:\ \mathrm{BC}$ imaju zajedničko središte.
+**Def**. [[Skup#^e21aa8|Uređeni parovi]] tačaka prostora $\mathbb{E}\ \ (\mathrm{A},\,\mathrm{B})\ \:$i$\:\ (\mathrm{C},\,\mathrm{D})$ su ekvivalentni ako duži $\mathrm{AD}\ \:$i$\:\ \mathrm{BC}$ imaju zajedničko središte.
 $(\mathrm{A},\,\mathrm{B})\sim(\mathrm{C},\,\mathrm{D})$
 - Relacija je zapravo [[relacija ekvivalencije]] jer je (R), (S) i (T) 
 

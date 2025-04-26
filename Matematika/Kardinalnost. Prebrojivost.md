@@ -1,7 +1,7 @@
-#fax #math #ds1 [deo [[Teorija skupova|teoriji skupova]]]
+#fax #math #ds1 [deo [[Skup|poglavlja "skup"]]]
 $\:$
 
-$\lvert A \rvert$ — kardinalnost [skupa](Teorija%20skupova) $A$.
+$\lvert A \rvert$ — kardinalnost [skupa](Skup.md) $A$.
 
 $\lvert A \rvert \in \mathbb{N}\quad \Leftrightarrow \quad A$ je konačan skup,
 inače je beskonačan

@@ -1,5 +1,5 @@
-#note/not_linked nazad: [[Algebra]]
-$\:$
+#fax #math #alg [deo [[Matematika|matematike]]]
+$\:$ 
 
 **Def**. Neka je $A$ neprazan skup i $n\in\mathbb{N}_{0}$. **Algebarska operacija** $f$ dužine $n$ na skupu $A$ (ili $n$-arna operacija skupa $A$) je funkcija $f:\ A^{n}\to A$.
 
