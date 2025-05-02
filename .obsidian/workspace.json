@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Analiza"
             },
             "group": "c6f552b231e2de4c"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Analiza"
             },
             "group": "c6f552b231e2de4c"
           }
@@ -217,32 +217,32 @@
   },
   "active": "12e78ca11c0c8092",
   "lastOpenFiles": [
-    "Matematika/Algebarska struktura.md",
-    "Matematika/Grupa.md",
+    "Matematika/Trostruki integral.md",
+    "Matematika/Analiza.md",
+    "Matematika/Dvostruki integral.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Metode integracije (određeni integral).md",
+    "Matematika/Metode integracije (neodređeni integral).md",
     "Matematika/Matematika.md",
+    "Home.md",
+    "Drugo/DS1 — beleške.md",
+    "Drugo/@toremove Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
+    "Matematika/Skup n-torki realnih brojeva.md",
+    "Matematika/Kongruentnost.md",
+    "Matematika/Relacija ekvivalencije.md",
+    "Matematika/Relacija.md",
     "Matematika/Brojevi.md",
+    "Matematika/Prirodni brojevi.md",
+    "Matematika/Prost broj.md",
+    "Matematika/Celi brojevi.md",
+    "Matematika/Euklidov algoritam.md",
+    "Matematika/Euklidsko deljenje.md",
+    "Matematika/Grupa.md",
+    "Matematika/Algebarska struktura.md",
+    "Matematika/Grupa permutacija.md",
     "Matematika/Kvaternion.md",
     "Matematika/Realni brojevi.md",
-    "Matematika/Celi brojevi.md",
-    "Matematika/Prirodni brojevi.md",
     "Matematika/Skup.md",
-    "Matematika/Dekartov proizvod.md",
-    "Matematika/Relacija.md",
-    "Matematika/Kardinalnost. Prebrojivost.md",
-    "Matematika/Svojstva skupova.md",
-    "Matematika/Operacije nad skupovima.md",
-    "Home.md",
-    "Matematika/Algebra.md",
-    "Matematika/Riman-integrabilnost funkcija i svojstva određenog integrala.md",
-    "Matematika/Analiza.md",
-    "Matematika/Trostruki integral.md",
-    "Matematika/Dvostruki integral.md",
-    "Matematika/Karakteristična funkcija.md",
-    "Matematika/Funkcija.md",
-    "Matematika/Kompozicija funkcija.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Logika.md",
-    "Matematika/Iskazna logika.md",
     "Untitled.canvas",
     "Untitled",
     "Media/analiza1_1_2.png",

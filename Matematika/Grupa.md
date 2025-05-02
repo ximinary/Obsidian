@@ -135,3 +135,36 @@ $X^{-1}=\{x^{-1}\ |\ x\in X\}$ je skup svih inverza elemenata iz $X$.
 **Def**. Neka je $a$ element neke grupe. Ako postoji $n\geqslant1$ za koji važi $a^{n}=e$, onda je **red elementa** $a$ jednak $\omega(a)=\min\{m\geqslant1\ |\ a^{m}=e\}$, inače je $a$ **beskonačnog reda**.
 
 **Stav**. Red bilo kojeg elementa grupe je jednak redu podgrupe generisane tim elementom.
+> Dokaz: Neka je podgrupa $\langle a\rangle$ generisana elementom $a$.
+> 
+> Ako je $a$ beskonačnog reda, važi $\forall n\geqslant 1\quad a^{n}\ne e$
+> Da li neke za neke $l> m$ može važiti $a^{l}=a^{m}$?
+> Pomnožimo jednačinu sa $a^{-m}$, imamo $a^{l-m}=e$, pri tome $l - m \geqslant 1$. Kontradikcija, važi da su sve $a^{n}$ različite za različite $n$, stoga $\langle a\rangle$ ima beskonačno mnogo elemenata.
+> 
+> Ako je $a$ reda $n\geqslant 1$, tj. $\ \:$ $a^{n}=e$ $\ \:$ i $\ \:$ $\forall m=\overline{1,\,n\!-\!1}\quad a^{n}\ne e$
+> Stoga, $\forall m\in\mathbb{Z}\quad \exists r=\overline{1,\,n\!-\!1}\quad a^{m}=a^{n\cdot k+r}=(a^{n})^{k}\cdot a^{r}=e^{k}\cdot a^{r}=a^{r}$
+> Imamo, $\langle a\rangle=\{e,\,a,\,a^{2},\,\dots,\,a^{n-1}\}$
+> Da li taj skup sadrži ponavljajuće elemente? Pretpostavimo da za neke $0\leqslant m < l< n$ važi $a^{l}=a^{m}$, tj. $a^{l-m}=e$, 
+> $l-m< n$, kontradikcija jer je $n$ najmanji broj za koji važi $a^{n}=e$.
+> Dakle, skup ne sadrži ponavljajuće elemente i samim tim je red $\langle a\rangle$ jednak $n$.
+
+$\:$
+**Stav**. Neka je $a$ reda $n$. Tada
+$\forall m\in\mathbb{Z}\quad\big(a^{m}=e\quad\Leftrightarrow\quad n\,|\,m\big)$
+
+$\:$
+**Stav**. Neka je $m\in\mathbb{Z}\setminus \{0\}$.
+Ako je $a$ beskonačnog reda, onda je i $a^{m}$ beskonačnog reda;
+ako je $a$ reda $n$, onda je $a^{m}$ reda $\begin{align}\frac{n}{\mathrm{NZD}(m,\,n)}\end{align}$.
+> Dokaz:
+> $a$ je beskonačnog reda, tj. $\forall n\in\mathbb{Z}\quad a^{n}\ne e$
+> Odakle $\forall n\in\mathbb{Z}\quad a^{m\cdot n}\ne e$, tj. $a^{m}$ je beskonačnog reda.
+>
+>$a$ je reda $n$. Neka je $d=\mathrm{NZD}(m,\,n)$, tada
+>$m = m_{1}\cdot d$ $\ \:$ i $\ \:$ $n=n_{1}\cdot d$, $\ \:$ pri tome $\mathrm{NZD}(m_{1},\,n_{1})=1$
+> Pokazati da je $a^{m}$ reda $n_{1}$.
+> $\big(a^{m}\big)^{n_{1}}=a^{m_{1}\cdot d\cdot n_{1}}=a^{n\cdot m_{1}}=e^{m_{1}}=e$, da li je $n_{1}$ najmanji ($\geqslant1$)-broj za koji to važi?
+> pps: neka je $1\leqslant k< n_{1}\ \ :\ \ \big(a^{m}\big)^{k}=e$  — najmanji broj zakoji to važi.
+> tada $\exists r\in\overline{0,\,k\!-\!1}\ \:\ \ n_{1}=p\cdot k+r$
+> $e=\big(a^{m}\big)^{n_{1}}=\big(a^{m}\big)^{p\cdot k+r}=a^{r}$
+> $\big(a^{m}\big)^{r}=e$ i $r<k$, kontradikcija. $n_{1}$ jeste najmanji.

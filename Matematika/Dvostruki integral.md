@@ -54,6 +54,8 @@ i važi $\boxed{\begin{align}\iint_{\Pi}f(x,\,y)\,dxdy=\int_{a}^{b} \bigg(\int_{
 > $\begin{align}\widetilde{\sigma}(f,\,\mathcal{P},\,\xi,\,D)=\sum\limits_{i,\,j}\delta_{ij}(x_{i}-x_{i-1})(y_{j}-y_{j-1})\,f(\xi_{ij})\end{align}$.
 > $\begin{align}I= \iint_{D} f(x,\,y) \, dxdy\quad\Leftrightarrow\end{align}$ $\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{(\mathcal{P},\,\xi )\ \text{— podela sa istaknutim tačkama}}{\text{ pravougaonika }\Pi\text{ takva da } \mathcal{P}(\lambda)<\delta}\quad \Big|I-\widetilde\sigma(f,\,\mathcal{P},\,\xi,\,D)\Big|<\varepsilon\end{align}$
 
+^188805
+
 $\:$
 **[[Riman-integrabilnost funkcija i svojstva određenog integrala#^cfc6a3|Stav]]**.  $f,\,g\,\mathcal{R}\,D$; $\ \ \alpha,\,\beta\in\mathbb{R}$. Tada $(\alpha\,f+\beta\,g)\,\mathcal{R}\,D$ i važi
 $\begin{align}\iint_{D}(\alpha\,f+\beta\,g)(x,\,y) \, dxdy = \alpha\iint_{D} f(x,\,y) \, dxdy+\beta \iint_{D} g(x,\,y) \, dxdy \end{align}$
@@ -84,3 +86,37 @@ $\boxed{\begin{align}\iint_{D}f(x,\,y)\,dxdy=\int_{c}^{d} \bigg(\int_{\gamma(y)}
 > 
 > $\begin{align}\iint_{D}f(x,\,y)\,dxdy=\iint_{\Pi}\chi_{D}(x,\,y)f(x,\,y)\,dxdy=\int_{a}^{b} \bigg(\int_{c}^{d} \chi_{D}(x,\,y) f(x,\,y) \, dy\bigg) \, dx\end{align}$
 > Jer $\chi_{D}(x,\,y)=0$ za $c\leqslant y\leqslant\alpha(x)$ i za $\beta(x)\leqslant y\leqslant d$ (pri fiksiranom $x$) važi $\begin{align}\int_{c}^{d} \chi_{D}(x,\,y) f(x,\,y) \, dy=\int_{\alpha(x)}^{\beta(x)} f(x,\,y) \, dx\end{align}$
+
+
+$\:$
+### Smena promenljivih
+**Teorema** (opšta smena). Neka smena $F$ slika merljiv skup $D$ u merljiv skup $F[D]$, $F$ ima sve parcijalne izvode na $\overline{D}$, $F^{-1}$ ima sve parcijalne izvode na $\overline{F[D]}$ i $f\,\mathcal{C}\,F[D]$. Tada
+$\begin{align}\iint_{F[D]} f(x,\,y) \, dxdy = \iint_{D} (f\circ F)(u,\,v)\,|J_{F}(u,\,v)| \, dudv\end{align}$
+
+$\:$
+**Teorema** (polarna smena). Neka polarna smena $F:\ (r,\,\theta)\mapsto(r\cos \theta,\, r \sin \theta), \quad r\geqslant0,\ 0\leqslant\theta<2\pi$
+slika merljiv skup $D$ u merljiv skup $F[D]$, $f\,\mathcal{C}\,F[D]$. Tada
+$\begin{align}\iint_{F[D]} f(x,\,y) \, dxdy = \iint_{D} f(r\cos \theta,\,r\sin \theta)\,r \, drd\theta\end{align}$
+> Dokaz:
+> >Definišemo podelu merljivog skupa $D$ na manje merljive skupove koji se seku po svojim granicama. $\mathcal{P}=\Big\{D_{i}\subseteq D\ \Big|\ i=\overline{1,n};\quad \forall i\ne j\quad D_{i}\cap D_{j}\subseteq\partial(D_{i}\cap D_{j})\Big\}$
+> Parametar takve podele: $\lambda(\mathcal{P})=\max\limits_{i=\overline{1,n}}\Big(\sup\limits_{x,\,y\in D_{i}}||x-y||\Big)$
+> 
+> Neka je $\mathrm{S}=\Big\{(r,\,\theta)\ \Big|\ \tilde{r}\leqslant r\leqslant \tilde{\tilde{r}},\ \ \tilde{\theta}\leqslant\theta\leqslant\tilde{\tilde{\theta}}\Big\}\supseteq D$, presek isečka i kružnog prstena u koji upada $D$.
+> $\mathcal{P}=\Big\{\mathrm{S}_{ij}\ \Big|\ i=\overline{1,n},\ j=\overline{1,m}\Big\}$ — podela $\mathrm{S}$, pri čemu 
+> $\mathrm{S}_{ij}=\Big\{(r,\,\theta)\ \Big|\ r_{i}\leqslant r\leqslant r_{i+1},\ \ \theta_{j}\leqslant\theta\leqslant\theta_{j+1}\Big\}$
+> Površina $\mathrm{S}_{ij}$ je jednaka $\begin{align}\frac{r_{i+1}^{2}(\theta_{j+1}-\theta_{j})}{2}-\frac{r_{i}^{2}(\theta_{j+1}-\theta_{j})}{2}=\bigg(r_{i}-\frac{\Delta r_{i}}{2}\bigg)\Delta r_{i}\Delta\theta_{j}\end{align}$
+> uz oznake $\Delta r_{i}=r_{i+1}-r_{i}$ $\ \:$ i $\ \:$ $\Delta \theta_{j}=\theta_{j+1}-\theta_{j}$
+> 
+> Biramo istaknute tačke: $\begin{align}\xi_{ij}=\bigg(r_{i}+\frac{\Delta r_{i}}{2},\ \hat{\theta}_{j}\bigg),\quad \theta_{j}<\hat{\theta}_{j}<\theta_{j+1}\end{align}$
+> 
+> $\delta_{ij}=\begin{cases}0, &\mathrm{S}_{ij}\cap D=\varnothing\\1,&\text{inače}\end{cases}$
+> 
+> $\begin{align}\widetilde\sigma(f,\,\mathcal{P},\,\xi,\,D)=\sum\limits_{i,\ j} f\bigg(r_{i}+\frac{\Delta r_{i}}{2},\ \hat{\theta}_{j}\bigg)\cdot\bigg(r_{i}-\frac{\Delta r_{i}}{2}\bigg)\Delta r_{i}\Delta\theta_{j}\cdot\delta_{ij}\end{align}$
+> 
+> $\begin{align}f\bigg(r_{i}+\frac{\Delta r_{i}}{2},\ \hat{\theta}_{j}\bigg)\cdot\bigg(r_{i}-\frac{\Delta r_{i}}{2}\bigg)\to f(r_{i},\,\hat{\theta}_{j})\cdot r_{i},\quad \text{ kad }\ \lambda(\mathcal{P})\to 0\end{align}$
+> 
+> Iz [[Dvostruki integral#^188805|napomene]] je jasno da $\begin{align}I=\iint_{D} f(r\sin \theta,\,r\cos \theta)\, r\, drd\theta \end{align}$
+> 
+> Sa druge strane u normalnim koordinatama imamo $\begin{align}I=\iint_{F[D]} f(x,\,y) \, dxdy \end{align}$
+^10b6ee
+

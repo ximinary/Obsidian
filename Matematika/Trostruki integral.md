@@ -67,3 +67,37 @@ $\begin{align}\iiint_{D\cup E} f(x,\,y,\,z) \, dxdydz = \iiint_{D} f(x,\,y,\,z) 
 **Teorema** (Fubinijeva na oblasti). Neka je $f:\ K\to\mathbb{R}$ neprekidna i neka je $D=\Big\{(x,\,y,\,z)\in\mathbb{R}^{2}\ \Big| \ a\leqslant x\leqslant b,\ \alpha(x)\leqslant y\leqslant \beta(x),\ \varphi(x,\,y)\leqslant z\leqslant\psi(x,\,y)\Big\}\subseteq K$. Tada važi
 $\boxed{\begin{align}\iiint_{D}f(x,\,y,\,z)\,dxdydz=\int_{a}^{b} \bigg(\int_{\alpha(x)}^{\beta(x)} \bigg(\int_{\varphi(x,\,y)}^{\psi(x,\,y)} f(x,\,y,\,z) \, dz\bigg) \, dy\bigg) \, dx \end{align}}$
 (analogno važi i za druge oblasti sa drugačijem redosledom zavisnosti $x$, $y$, $z$)
+
+### Smena promenljivih
+**Teorema** (opšta smena). Neka smena $F$ slika merljiv skup $D$ u merljiv skup $F[D]$, $F$ ima sve parcijalne izvode na $\overline{D}$, $F^{-1}$ ima sve parcijalne izvode na $\overline{F[D]}$ i $f\,\mathcal{C}\,F[D]$. Tada
+$\begin{align}\iiint_{F[D]} f(x,\,y,\,z) \, dxdydz = \iiint_{D} (f\circ F)(u,\,v,\,w)\,|J_{F}(u,\,v,\,w)| \, dudvdw\end{align}$
+
+$\:$
+**Teorema** (cilindrička smena). Neka cilindrička smena $F:\ (r,\,\theta,\,z)\mapsto (r\cos \theta,\,r\sin \theta,\,z), \quad r\geqslant0,\ 0\leqslant\theta<2\pi$
+slika merljiv skup $D$ u merljiv skup $F[D]$, $f\,\mathcal{C}\,F[D]$. Tada
+$\begin{align}\iiint_{F[D]} f(x,\,y,\,z) \, dxdydz = \iiint_{D} f(r\cos \theta,\,r\sin \theta,\,z)\,r \, drd\theta dz\end{align}$
+> Dokaz: sledi iz [[Dvostruki integral#^10b6ee|polarne smene]] u $\mathbb{R}^{2}$
+
+$\:$
+**Teorema** (sferna smena). Neka sferna smena $F:\ (r,\,\theta,\,\varphi)\mapsto (r\cos \theta\sin\varphi,\,r\sin \theta\sin\varphi,\,r\cos\varphi), \quad r\geqslant0,\ 0\leqslant\theta<2\pi,\,-\frac{\pi}{2}\leqslant\varphi\leqslant\frac{\pi}{2}$
+slika merljiv skup $D$ u merljiv skup $F[D]$, $f\,\mathcal{C}\,F[D]$. Tada
+$\begin{align}\iiint_{F[D]} f(x,\,y,\,z) \, dxdydz = \iiint_{D} f(r\cos \theta\sin\varphi,\,r\sin \theta\sin\varphi,\,r\cos\varphi)\,r^{2}\sin\varphi \, drd\theta d\varphi\end{align}$
+> Dokaz:
+> >Definišemo podelu merljivog skupa $D$ na manje merljive skupove koji se seku po svojim granicama. $\mathcal{P}=\Big\{D_{i}\subseteq D\ \Big|\ i=\overline{1,n};\quad \forall i\ne j\quad D_{i}\cap D_{j}\subseteq\partial(D_{i}\cap D_{j})\Big\}$
+> Parametar takve podele: $\lambda(\mathcal{P})=\max\limits_{i=\overline{1,n}}\Big(\sup\limits_{x,\,y\in D_{i}}||x-y||\Big)$
+> 
+> Neka je $\mathrm{S}=\Big\{(r,\,\theta,\,\varphi)\ \Big|\ \tilde{r}\leqslant r\leqslant \tilde{\tilde{r}},\ \ \tilde{\theta}\leqslant\theta\leqslant\tilde{\tilde{\theta}},\ \ \tilde{\varphi}\leqslant\varphi\leqslant\tilde{\tilde{\varphi}}\Big\}\supseteq D$
+> $\mathcal{P}=\Big\{\mathrm{S}_{ijk}\ \Big|\ i=\overline{1,n},\ j=\overline{1,m},\ k =\overline{1,l}\Big\}$ — podela $\mathrm{S}$, pri čemu 
+> $\mathrm{S}_{ijk}=\Big\{(r,\,\theta)\ \Big|\ r_{i}\leqslant r\leqslant r_{i+1},\ \ \theta_{j}\leqslant\theta\leqslant\theta_{j+1},\ \ \varphi_{k}\leqslant\varphi\leqslant\varphi_{k+1}\Big\}$
+> Zapremina $\mathrm{S}_{ijk}$ je jednaka $\begin{align}\frac{(r_{i+1}^{3}-r_{i}^{3})(\theta_{j+1}-\theta_{j})(\cos\varphi_{k}-\cos\varphi_{k+1})}{3}=\frac{1}{3}3\hat{r}_{i}^{2}\Delta r_{i}\Delta\theta_{j}(-\sin \hat{\varphi}_{k})(-\Delta\varphi_{k})=\hat{r}_{i}^{2}\sin \hat{\varphi}_{k}\Delta r_{i}\Delta\theta_{j}\Delta\varphi_{k}\end{align}$
+> uz primenu [[Teoreme o srednjoj vrednosti#^e52da5|Lagranževe teoreme]] na fje $x^{3}$ ($\exists \hat{r}_{i}\in(r_{i},\,r_{i+1})$) i $\cos x$ ($\exists\hat{\varphi}_{k}\in(\varphi_{k},\,\varphi_{k+1})$) i uz oznake $\Delta r_{i}=r_{i+1}-r_{i}$, $\ \:$ $\Delta \theta_{j}=\theta_{j+1}-\theta_{j}$, $\ \:$ $\Delta \varphi_{k}=\varphi_{k+1}-\varphi_{k}$
+> 
+> Biramo istaknute tačke: $\begin{align}\xi_{ijk}=(\hat{r}_{i},\ \hat{\theta}_{j},\,\hat{\varphi}_{k}),\quad \theta_{j}<\hat{\theta}_{j}<\theta_{j+1}\end{align}$
+> 
+> $\delta_{ijk}=\begin{cases}0, &\mathrm{S}_{ijk}\cap D=\varnothing\\1,&\text{inače}\end{cases}$
+> 
+> $\begin{align}\widetilde\sigma(f,\,\mathcal{P},\,\xi,\,D)=\sum\limits_{i,\ j} f(\hat{r}_{i},\ \hat{\theta}_{j},\,\hat{\varphi}_{k})\cdot\hat{r}_{i}^{2}\sin \hat{\varphi}_{k}\Delta r_{i}\Delta\theta_{j}\Delta\varphi_{k}\cdot\delta_{ijk}\end{align}$
+> 
+> Imamo, $\begin{align}I=\iiint_{D} f(r\sin \theta\sin\varphi,\,r\cos \theta\sin\varphi,\,r\cos\varphi)\, r^{2}\sin\varphi\, drd\theta d\varphi \end{align}$
+> 
+> Sa druge strane u normalnim koordinatama imamo $\begin{align}I=\iiint_{F[D]} f(x,\,y,\,z) \, dxdydz \end{align}$
