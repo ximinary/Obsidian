@@ -57,10 +57,6 @@ $\:$
 - $x^{n}\cdot x^{m}=x^{n+m}$
 - $\big(x^{n}\big)^{m}=x^{nm}$
 
-### Ciklična grupa
-**Def**. Grupa $G$ je **ciklična** ako važi $G=\{x^{m}\ |\ m\in\mathbb{Z}\}$.
-Element $x$ je **generator ciklične grupe** $G$.
-Oznaka ciklične grupe generisane elementom $x$: $G=\langle x\rangle$
 
 ### Diedarska grupa
 Razmatramo simetrije pravilnog $n$-ugaonika:
@@ -71,6 +67,11 @@ $\sigma$ — neka osna refleksija;
 tada su $\sigma,\,\sigma\rho,\,\sigma\rho^{2},\,\dots,\,\sigma\rho^{n-1}$ sve refleksije i $\sigma^{2}=\varepsilon$.
 
 Skup $\{\varepsilon,\,\rho,\,\rho^{2},\,\dots,\,\rho^{n-1},\,\sigma,\,\sigma\rho,\,\sigma\rho^{2},\,\dots,\,\sigma\rho^{n-1}\}$ od $2n$ elemenata u odnosu na operaciju [[Kompozicija funkcija|kompozicije preslikavanja]] predstavlja **diedarsku grupu** $\mathbb{D}_{n}$ 
+
+### Ciklična grupa
+**Def**. Grupa $G$ je **ciklična** ako važi $G=\{x^{m}\ |\ m\in\mathbb{Z}\}$.
+Element $x$ je **generator ciklične grupe** $G$.
+Oznaka ciklične grupe generisane elementom $x$: $G=\langle x\rangle$
 
 ### Podgrupa
 **Def**. Neka su $(G,\,\cdot)$ i $(H,\,*)$ dve grupe. $(H,\,\cdot)$ je **podgrupa** od $(G,\,*)$ ako 
@@ -155,7 +156,7 @@ $\forall m\in\mathbb{Z}\quad\big(a^{m}=e\quad\Leftrightarrow\quad n\,|\,m\big)$
 $\:$
 **Stav**. Neka je $m\in\mathbb{Z}\setminus \{0\}$.
 Ako je $a$ beskonačnog reda, onda je i $a^{m}$ beskonačnog reda;
-ako je $a$ reda $n$, onda je $a^{m}$ reda $\begin{align}\frac{n}{\mathrm{NZD}(m,\,n)}\end{align}$.
+ako je $a$ reda $n$, onda je $a^{m}$ reda $\begin{align}\frac{n}{\mathrm{NZD}(m,\,n)}\end{align}$. ^1698b9
 > Dokaz:
 > $a$ je beskonačnog reda, tj. $\forall n\in\mathbb{Z}\quad a^{n}\ne e$
 > Odakle $\forall n\in\mathbb{Z}\quad a^{m\cdot n}\ne e$, tj. $a^{m}$ je beskonačnog reda.
@@ -164,7 +165,81 @@ ako je $a$ reda $n$, onda je $a^{m}$ reda $\begin{align}\frac{n}{\mathrm{NZD}(m,
 >$m = m_{1}\cdot d$ $\ \:$ i $\ \:$ $n=n_{1}\cdot d$, $\ \:$ pri tome $\mathrm{NZD}(m_{1},\,n_{1})=1$
 > Pokazati da je $a^{m}$ reda $n_{1}$.
 > $\big(a^{m}\big)^{n_{1}}=a^{m_{1}\cdot d\cdot n_{1}}=a^{n\cdot m_{1}}=e^{m_{1}}=e$, da li je $n_{1}$ najmanji ($\geqslant1$)-broj za koji to važi?
-> pps: neka je $1\leqslant k< n_{1}\ \ :\ \ \big(a^{m}\big)^{k}=e$  — najmanji broj zakoji to važi.
+> pps: neka je $1\leqslant k< n_{1}\ \ :\ \ \big(a^{m}\big)^{k}=e$  — najmanji broj za koji to važi.
 > tada $\exists r\in\overline{0,\,k\!-\!1}\ \:\ \ n_{1}=p\cdot k+r$
 > $e=\big(a^{m}\big)^{n_{1}}=\big(a^{m}\big)^{p\cdot k+r}=a^{r}$
 > $\big(a^{m}\big)^{r}=e$ i $r<k$, kontradikcija. $n_{1}$ jeste najmanji.
+
+$\:$
+**Teorema**. 
+1. Svaka podgrupa ciklične grupe i sama je ciklična.
+2. $G$ je ciklična grupa reda $n$. Tada
+  $k\,|\,n\quad\Rightarrow\quad\exists!H\leqslant G\ \ \:\ \ |H|=k$
+
+> Dokaz: 
+> 1. Neka je $G= \langle a \rangle$ i $H\leqslant G$.
+> $H=\{e\}$ jeste ciklična, razmatramo proizvoljnu $H\ne\{e\}$.
+> Neka je $s=\min\{t>0\ |\ a^{t}\in H\}$. Pokazati da $H= \langle a^{s}\rangle$.
+> $a^{s}\in H\quad\Rightarrow\quad\Big(\forall k\in\mathbb{Z}\quad \big(a^{s}\big)^{k}\in H\Big)\quad\Rightarrow\quad\langle a^{s} \rangle\subseteq H$
+> pps $H\not\subseteq \langle a^{s} \rangle$, $\ \:$tj. $\exists x\in H\ \ :\ \ x\not\in \langle a^{s} \rangle$
+> $x\in H\quad\Rightarrow\quad x\in G\quad\Rightarrow\quad\Big(\exists m\in\mathbb{Z}\ \ :\ \ x=a^{m}\Big)$
+> $\exists r=\overline{0,\,s-1}\quad m = p\cdot s+r$
+> Tada $a^{r}=a^{m-ps}=x\cdot(a^{s})^{-p}\in H$, $\ \:$ jer $x,\,a^{s}\in H$
+> Jer je $s$ najmanji pozitivan broj za koji $a^{s}\in H$, a $0\leqslant r<s$, sledi da $r =0$, tj. $m=p\cdot s$
+> $x=a^{m}=a^{p\cdot s}=\big(a^{s}\big)^{p}\in \langle a^{s} \rangle$. Kontradikcija
+> $H=\langle a^{s} \rangle$
+> $\:$
+> 2. Neka je $G=\langle a \rangle$ reda $n$ i $k\,|\,n$.
+> iz [[Grupa#^1698b9|stava]] $\langle a^{n/k} \rangle$ je reda $\begin{align}\frac{n}{\mathrm{NZD}(n,\,n/k)}=\frac{n}{n/k}=k\end{align}$
+> $H:=\langle a^{n/k} \rangle$, pretpostavimo da postoji i druga podgrupa $\widetilde{H}$ reda $k$ odlična od $H$.
+> iz 1. $\widetilde{H}$ je ciklična, tj. $\widetilde{H}=\langle a^{l} \rangle$.
+> $a^{lk}=\big(a^{l}\big)^{k}=e$ (jer je $\widetilde{H}$ reda $k$)
+> a $G$ je reda $n$ ($a^{n}=e$), imamo da $n\,|\,lk$
+> iz $k\,|\,n$ dobijamo da $\begin{align}\frac{n}{k}\,\bigg|\,l\end{align}$, $\ \:$ tj $\begin{align}l=p\cdot\frac{n}{k}\end{align}$, za neko $p\in\mathbb{Z}$.
+> $a^{l}=\big(a^{n/k}\big)^{p}\in H$, odakle $\widetilde{H}\subseteq H$ i kako $|H|=|\widetilde{H}|$ važi da $H=\widetilde{H}$.
+> Kontradikcija.
+> $H=\langle a^{n/k} \rangle$ je jedinstvena podgrupa reda $k$.
+
+$\:$
+### Izomorfizam grupa
+**Def**. Neka su $(G,\,\cdot)$ i $(H,\,*)$ grupe. $G$ i $H$ su **izomorfni** ako postoji bijekcija $f:\ G\to H$ takva da $\forall x,\,y\in G\quad f(x\cdot y)=f(x)*f(y)$. $f$ je **izomorfizam grupa** $G$ i $H$.
+Oznaka: $G\cong H$
+
+**Stav**. Ako je $f:\ G\to H$ izomorfizam grupa, onda je i $f^{-1}$ izomorfizam grupa.
+> Dokaz: Jer je $f$ bijekcija, $f^{-1}:\ H\to G$ jeste bijekcija.
+> Pokazati da $\forall u,\,v\in H\quad f^{-1}(u*v)=f^{-1}(u)\cdot f^{-1}(v)$
+> 
+> Jer je $f$ surjekcija $\exists x,\,y\in G\ \ :\ \ f(x)=u\ \ \text{i}\ \ f(y)=v$
+> $f^{-1}(u*v)=f^{-1}\big(f(x)*f(y)\big)\xlongequal{f\ \text{ je izomorfizam}}f^{-1}\big(f(x\cdot y)\big)=x\cdot y=f^{-1}(u)\cdot f^{-1}(v)$
+
+$\:$
+**Stav**. Neka je $e$ neutral u $G$, $\varepsilon$ neutral u $H$, i $f:\ G\to H$ izomorfizam. Tada
+- $f(e)=\varepsilon$
+- $\forall x\in G\quad f(x^{-1})=f(x)^{-1}$
+- $\forall x\in G\quad$ ako je $x$ beskonačnog reda, onda je i $f(x)$ beskonačnog reda; 
+  $\ \quad\quad\quad\quad$ ako je $x$ konačnog reda, onda $\omega\big(x\big)=\omega\big(f(x)\big)$
+
+> Dokaz:
+> - $f(e)=f(e\cdot e)=f(e)*f(e)\quad\Rightarrow\quad\varepsilon=f(e)$
+> - $\varepsilon=f(e)=f(x\cdot x^{-1})=f(x)*f(x^{-1})\quad\Rightarrow\quad f(x^{-1})=f(x)^{-1}$
+>  - pps: $x$ je beskonačnog reda, a $f(x)$ konačnog, tj. $\exists n\in\mathbb{N}\ \ :\ \ f(x)^{n}=\varepsilon$. 
+>    imamo $\varepsilon=f(x)^{n}=f(x)*\cdot\!\cdot\!\cdot*f(x)=f(x\cdot \cdot\!\cdot\!\cdot \cdot x)=f(x^{n})\quad\Rightarrow\quad x^{n}=e$ 
+>    ($x$ je reda $n$). Kontradikcija
+>    
+>    Neka je $x$ reda $n$, pokazati da je $f(x)$ reda $n$.
+>    $e=x^{n}\quad\Rightarrow\quad \varepsilon=f(x^{n})=f(x)^{n}$, tj. je $f(x)$ konačnog reda.
+>    Pretpostavimo da $n$ nije najmanji broj takav da $f(x)^{n}=\varepsilon$, a $m$ jeste ($f(x)$ je reda $m$). Tada $\exists r=\overline{0,m\!-\!1} \quad n=p\cdot m +r$.
+>    $f(x)^{r}=f(x)^{n-p\cdot m}=f(x)^{n}*\big(f(x)^{m}\big)^{-p}=\varepsilon$, jer je $m$ najmanji takav pozitivan broj, $r=0$, tj. $m\,|\,n$.
+>    $\varepsilon=f(x)^{m}=f(x^{m})\quad\Rightarrow\quad e=x^{m}$, odakle  $n\,|\,m$, jer je $x$ reda $n$.
+>    konačno imamo $n=m$.   
+
+$\:$
+**Teorema**. Svaka ciklična grupa je izomorfna ili grupi $\mathbb{Z}$ ili grupi $\mathbb{Z}_{n},\quad n\in\mathbb{N}$.
+> Dokaz:
+> Neka je $G$ beskonačna ciklična grupa, tada $\exists a\in G\ \ :\ \ G= \langle a \rangle$. Definišemo $f:\ \mathbb{Z}\to G$ $\ \:$ sa $\ \:$ $f(m)=a^{m}$, koja jeste bijekcija. Važi i $f(m+k)=f(m)\cdot f(k)$, jer $a^{m+k}=a^{m}\cdot a^{k}$. Stoga je $f$ izomorfizam i $G\cong \mathbb{Z}.$
+> 
+> Neka je $G$ reda $n$, $G=\{e,\,a,\,\dots,\,a^{n-1} \}$. Slično prethodnom definišemo $f:\ \mathbb{Z}_{n}\to G$ $\ \:$ sa $\ \:$ $f(m)=a^{m}$, koja je bijekcija. Pokazati $f(m+_{n}k)=f(m)\cdot f(k)$.
+> $m+k=(m+_{n}k)+p\cdot n\quad\Rightarrow\quad f(m+_{n}k)=f(m+k-p\cdot n)=a^{m}\cdot a^{k}\cdot \big(\underbrace{a^{n}}_{=\, e}\big)^{-p}=f(m)\cdot f(k)$ Stoga je $f$ izomorfizam i $G\cong \mathbb{Z}_{n}.$
+
+$\:$
+### [[Grupa permutacija]]
