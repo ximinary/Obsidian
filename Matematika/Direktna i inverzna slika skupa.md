@@ -2,9 +2,9 @@
 $\:$
 
 Neka je $f:\ \ X \to Y$ [funkcija](Funkcija)
-**Def**. $A \subseteq X$. **Direktna slika** skupa $A$ je skup $f[A]=\{ f(x)\ | \ x\in A\}$
+**Def**. $A \subseteq X$. (Direktna) **slika** skupa $A$ je skup $f[A]=\{ f(x)\ | \ x\in A\}$
 **Def**. $B \subseteq Y$. **Inverzna slika** skupa $B$ je skup $f^{-1}[B]=\{ x \in X\ | \ f(x)\in B\}$
-*($f^{-1}[B]$ je samo oznaka $f$ ne mora da ima [inverz](Inverzna%20funkcija))*
+*($f^{-1}[B]$ je samo oznaka $f$ ne mora da ima [inverz](Inverzna%20funkcija))* ^93355e
 
 $y \in f[A] \ \ \Leftrightarrow \ \ \exists x\in A \ : \ f(x) =y$
 $x \in f^{-1}[B] \ \ \Leftrightarrow \ \ f(x)\in B$

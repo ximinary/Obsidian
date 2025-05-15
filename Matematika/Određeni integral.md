@@ -1,6 +1,6 @@
 #fax #math #a2 [deo [[Analiza|analize]]]
 
-### Podela
+### Podela intervala
 
 **Def**. Neka su $a=x_{0}<x_{1}<\dots<x_{n}=b$. Skup $\mathcal{P}=\Big\{ [x_{i-1},\,x_{i}]\ \Big|\ i=\overline{1,n} \Big\}$ je **podela** intervala $[a,\,b]$.
 ^fbc37a
@@ -25,11 +25,11 @@ $\xi=(\xi_{1},\,\xi_{2},\,\dots,\,\xi_{n})$ istaknute tačke podele $\mathcal{P}
 **Def**. $(\mathcal{P},\,\xi)$ — **podela sa istaknutim tačkama** intervala $[a,\,b]$
 ### Definicija određenog integrala pomoću integralnih suma
 
-**Def**. Neka je $f:\ [a,\,b]\to\mathbb{R}\ \:$ i $\ \:(\mathcal{P},\,\xi)$ podela sa istaknutim tačkama intervala $[a,\,b]$. Zbir $\begin{align}\sigma(f,\,\mathcal{P},\,\xi)=\sum\limits_{i=1}^{n}(x_{i}-x_{i-1})\,f(\xi_{i})\end{align}$ je **integralna suma**.
+**Def**. Neka je $f:\ [a,\,b]\to\mathbb{R}\ \:$ i $\ \:(\mathcal{P},\,\xi)$ podela sa istaknutim tačkama intervala $[a,\,b]$. Zbir $\begin{align}\sigma(f,\,\mathcal{P},\,\xi)=\sum\limits_{i=1}^{n}(x_{i}-x_{i-1})\,f(\xi_{i})\end{align}$ je **integralna suma**. ^70daf8
 
 ---
 **Def**. Neka je $f:\ [a,\,b]\to\mathbb{R}$. $\ \:$ $I\in\mathbb{R}$ je limes integralnih suma $\sigma(f,\,\mathcal{P},\,\xi)$ kad $\lambda(\mathcal{P})\to0$ ako
-$\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{(\mathcal{P},\,\xi)\ \text{— podela sa istaknutim tačkama}}{\text{ intervala }[a,\,b]\text{ takva da } \mathcal{P}(\lambda)<\delta}\quad \Big|I-\sigma(f,\,\mathcal{P},\,\xi)\Big|<\varepsilon\end{align}$
+$\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{(\mathcal{P},\,\xi)\ \text{— podela sa istaknutim tačkama}}{\text{ intervala }[a,\,b]\text{ takva da } \lambda(\mathcal{P})<\delta}\quad \Big|I-\sigma(f,\,\mathcal{P},\,\xi)\Big|<\varepsilon\end{align}$
 $\:$
 Tada je $\begin{align}I=\int_{a}^{b} f(x) \, dx \end{align}$ $\:$ **Rimanov** (**određeni**) **integral** fje $f$ na $[a,\,b]$.
 

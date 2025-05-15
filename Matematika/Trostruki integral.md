@@ -22,7 +22,7 @@ $\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{\mathca
 
 $\:$
 **Def**. Neka je $f:\ K\to\mathbb{R}$. $\ \:$ $I\in\mathbb{R}$ je limes integralnih suma $\sigma(f,\,\mathcal{P},\,\xi)$ kad $\lambda(\mathcal{P})\to0$ ako
-$\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{(\mathcal{P},\,\xi )\ \text{— podela sa istaknutim tačkama}}{\text{ kvadra }K\text{ takva da } \mathcal{P}(\lambda)<\delta}\quad \Big|I-\sigma(f,\,\mathcal{P},\,\xi)\Big|<\varepsilon\end{align}$
+$\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{(\mathcal{P},\,\xi )\ \text{— podela sa istaknutim tačkama}}{\text{ kvadra }K\text{ takva da } \lambda(\mathcal{P})<\delta}\quad \Big|I-\sigma(f,\,\mathcal{P},\,\xi)\Big|<\varepsilon\end{align}$
 $\:$
 Tada je $\begin{align}I=\iiint_{K} f(x,\,y,\,z) \, dxdydz \end{align}$ $\:$ **trostruki integral** fje $f$ na $K$.
 

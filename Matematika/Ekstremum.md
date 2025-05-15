@@ -98,24 +98,24 @@ $\exists\lambda_{1},\,\dots,\,\lambda_{m}\in\mathbb{R}\ \ :\ \ \nabla\!f(\mathbf
 > Dokaz: razmotrimo dva osnovna slučaja, koje je moguće generalizovati.
 > - Slučaj $n = 3,\ \  m = 1\:$ — površ u prostoru.
 > 
-> Neka je površ $S$ data jednačinom $\varphi(x,\,y,\,z)=0$; linearna nezavisnost skupa $\Big\{\nabla\varphi(x,\,y,\,z)\Big\}$ za $\forall(x,\,y,\,z)\in S$ daje da $\nabla\varphi(x,\,y,\,z)\ne (0,\,0,\,0)$, tj $S$ je [[Tangenta i tangentna površ#^5afd44|regularna površ]].
-> Neka je $(x_{0},\,y_{0},\,z_{0})$ tačka lokalnog ekstremuma fje $f\big|_{S}$ i neka je $\mathbf{r}:\ (t_{0}-\varepsilon,\,t_{0}+\varepsilon)\to\mathbb{R}^{3}$ [[Tangenta i tangentna površ#^f25bf0|regularna kriva]] na površi $S$ takva da $\mathbf{r}(t_{0})=(x_{0},\,y_{0},\,z_{0})$.
+> Neka je površ $S$ data jednačinom $\varphi(x,\,y,\,z)=0$; linearna nezavisnost skupa $\Big\{\nabla\varphi(x,\,y,\,z)\Big\}$ za $\forall(x,\,y,\,z)\in S$ daje da $\nabla\varphi(x,\,y,\,z)\ne (0,\,0,\,0)$, tj $S$ je [[Regularna kriva i tangenta. Regularna površ i tangentna površ#^5afd44|regularna površ]].
+> Neka je $(x_{0},\,y_{0},\,z_{0})$ tačka lokalnog ekstremuma fje $f\big|_{S}$ i neka je $\mathbf{r}:\ (t_{0}-\varepsilon,\,t_{0}+\varepsilon)\to\mathbb{R}^{3}$ [[Regularna kriva i tangenta. Regularna površ i tangentna površ#^f25bf0|regularna kriva]] na površi $S$ takva da $\mathbf{r}(t_{0})=(x_{0},\,y_{0},\,z_{0})$.
 > Zbog toga što $\mathbf{r}$ leži u $S$ i $(x_{0},\,y_{0},\,z_{0})$ je ekstremum $f$ na $S$, dobijamo da je $t_{0}$ ekstremum fje $f\circ\mathbf{r}$, odakle $(f\circ\mathbf{r})'(t_{0})=0$. 
 > 
 > Iz [[Preslikavanje sa vrednostima u Rm#^4816ca|stava]], $0=(f\circ \mathbf{r})'(t_{0})=df\big(\mathbf{r}(t_{0})\big)\, d\mathbf{r}(t_{0})=\nabla\!f(x_{0},\,y_{0},\,z_{0})\cdot \mathbf{r}'(t_{0})$
 > tj. $\nabla\!f(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})$
-> Iz [[Tangenta i tangentna površ#^635980|stava]] $\nabla\varphi(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})$
+> Iz [[Regularna kriva i tangenta. Regularna površ i tangentna površ#^635980|stava]] $\nabla\varphi(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})$
 > 
 > Odakle, $\exists \lambda\in\mathbb{R}\ \ :\ \ \nabla\!f(x_{0},\,y_{0},\,z_{0})=\lambda \nabla\varphi(x_{0},\,y_{0},\,z_{0})$
 >
 > - Slučaj $n = 3,\ \  m = 2\:$ — kriva u prostoru.
 >
->Neka je kriva $S$ data sa $\begin{cases}\varphi_{1}(x,\,y,\,z)=0\\\varphi_{2}(x,\,y,\,z)=0\end{cases}$ $\:$ tj. kao presek dve površi; skup $\Big\{\nabla\varphi_{1}(x,\,y,\,z),\ \nabla\varphi_{2}(x,\,y,\,z)\Big\}$ je linearno nezavisan za $\forall(x,\,y,\,z)\in S$ odakle vidimo da je $S$ presek dve regularne površi, tj. jeste [[Tangenta i tangentna površ#^f25bf0|regularna kriva]], koju parametrizujemo sa $\mathbf{r}(t)$.
+>Neka je kriva $S$ data sa $\begin{cases}\varphi_{1}(x,\,y,\,z)=0\\\varphi_{2}(x,\,y,\,z)=0\end{cases}$ $\:$ tj. kao presek dve površi; skup $\Big\{\nabla\varphi_{1}(x,\,y,\,z),\ \nabla\varphi_{2}(x,\,y,\,z)\Big\}$ je linearno nezavisan za $\forall(x,\,y,\,z)\in S$ odakle vidimo da je $S$ presek dve regularne površi, tj. jeste [[Regularna kriva i tangenta. Regularna površ i tangentna površ#^f25bf0|regularna kriva]], koju parametrizujemo sa $\mathbf{r}(t)$.
 > Neka je $(x_{0},\,y_{0},\,z_{0})$ tačka lokalnog ekstremuma fje $f\big|_{S}$ i neka važi $\mathbf{r}(t_{0})=(x_{0},\,y_{0},\,z_{0})$. Tada je $t_{0}$ ekstremum fje $f\circ\mathbf{r}$, odakle $(f\circ\mathbf{r})'(t_{0})=0$. 
 > 
 > Iz [[Preslikavanje sa vrednostima u Rm#^4816ca|stava]], $0=(f\circ \mathbf{r})'(t_{0})=df\big(\mathbf{r}(t_{0})\big)\, d\mathbf{r}(t_{0})=\nabla\!f(x_{0},\,y_{0},\,z_{0})\cdot \mathbf{r}'(t_{0})$
 > tj. $\nabla\!f(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})$ 
-> Iz [[Tangenta i tangentna površ#^635980|stava]] $\begin{align}\nabla\varphi_{1}(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})\\\nabla\varphi_{2}(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})\end{align}$
+> Iz [[Regularna kriva i tangenta. Regularna površ i tangentna površ#^635980|stava]] $\begin{align}\nabla\varphi_{1}(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})\\\nabla\varphi_{2}(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})\end{align}$
 > Odakle, $\nabla\!f(x_{0},\,y_{0},\,z_{0}),\ \nabla\varphi_{1}(x_{0},\,y_{0},\,z_{0}),\ \nabla\varphi_{2}(x_{0},\,y_{0},\,z_{0})$ su linearno zavisni, tj. $\exists \lambda_{1},\,\lambda_{2}\in\mathbb{R}\ \ :\ \ \nabla\!f(x_{0},\,y_{0},\,z_{0})=\lambda_{1}\nabla\varphi_{1}(x_{0},\,y_{0},\,z_{0})+\lambda_{2}\nabla\varphi_{2}(x_{0},\,y_{0},\,z_{0})$
 
 $\:$

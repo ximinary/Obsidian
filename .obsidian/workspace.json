@@ -6,7 +6,6 @@
       {
         "id": "0e0315b8b136850a",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "43a814d6ed7d2e19",
@@ -14,21 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Grupa.md",
+                "file": "Krivolinijski integral.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Grupa"
+              "title": "Krivolinijski integral"
             },
             "group": "c6f552b231e2de4c"
           }
         ]
       },
       {
-        "id": "dfd387739f089599",
+        "id": "1272a3fcb47ddc4d",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "12e78ca11c0c8092",
@@ -36,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Grupa.md",
+                "file": "Krivolinijski integral.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Grupa"
+              "title": "Krivolinijski integral"
             },
             "group": "c6f552b231e2de4c"
           }
@@ -77,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cs/ar",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,20 +215,25 @@
   },
   "active": "12e78ca11c0c8092",
   "lastOpenFiles": [
-    "Matematika/Grupa permutacija.md",
-    "Matematika/Grupa.md",
-    "Untitled.md",
-    "Matematika/Algebarska struktura.md",
+    "Matematika/Analiza.md",
+    "Matematika/Određeni integral.md",
+    "Matematika/Trostruki integral.md",
+    "Matematika/Dvostruki integral.md",
+    "Krivolinijski integral.md",
+    "Površinski integral.md",
+    "Matematika/Preslikavanje sa vrednostima u Rm.md",
+    "Matematika/Regularna kriva i tangenta. Regularna površ i tangentna površ.md",
     "Matematika/Matematika.md",
     "Home.md",
     "Matematika/Primene određenog integrala.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Analiza.md",
-    "Matematika/Elementarna matematika.md",
-    "Matematika/Dvostruki integral.md",
-    "Matematika/Trostruki integral.md",
-    "Matematika/Gama funkcija i beta funkcija.md",
     "Matematika/Nesvojstveni integral.md",
+    "Matematika/Direktna i inverzna slika skupa.md",
+    "Matematika/Grupa.md",
+    "Matematika/Grupa permutacija.md",
+    "Matematika/Algebarska struktura.md",
+    "Untitled.md",
+    "Matematika/Elementarna matematika.md",
+    "Matematika/Gama funkcija i beta funkcija.md",
     "Matematika/Metode integracije (određeni integral).md",
     "Matematika/Metode integracije (neodređeni integral).md",
     "Drugo/DS1 — beleške.md",
@@ -238,11 +241,6 @@
     "Matematika/Skup n-torki realnih brojeva.md",
     "Matematika/Kongruentnost.md",
     "Matematika/Relacija ekvivalencije.md",
-    "Matematika/Relacija.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Prirodni brojevi.md",
-    "Matematika/Prost broj.md",
-    "Matematika/Celi brojevi.md",
     "Untitled.canvas",
     "Untitled",
     "Media/analiza1_1_2.png",

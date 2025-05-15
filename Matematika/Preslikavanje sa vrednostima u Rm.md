@@ -4,6 +4,8 @@ $\:$
 **Def**. Neka je $A\subseteq\mathbb{R}^{n}$. Preslikavanje $F:\ A\to\mathbb{R}^{m}$ za koje važi $F(x)=\big(f_{1}(x),\,f_{2}(x),\,\dots,\,f_{m}(x)\big)$ zove se **vektorska funkcija**.
 $\forall i=\overline{1,m}\quad f_{i}:\ A\to\mathbb{R}$ su **koordinatne funkcije**.
 
+- Ako $n=m$, vektorsku funkciju nazivamo **vektorskim poljem**.
+
 ### Limes i neprekidnost
 **Def**. Neka je $D_{f}\subseteq\mathbb{R}^{n}$. **Limes funkcije** $F:\ D_{f}\to\mathbb{R}^{m}$ u tački $a\in  D'_{f}\:$ je jednak $L\in \mathbb{R}^{m}\ \:$  $\Big( \lim\limits_{ x \to a }F(x) = L \Big)$ akko $\forall\varepsilon>0 \quad \exists \delta>0 \quad \forall x\in D_{f}\cap\mathring{\mathrm{O}}_{\delta}(a) \quad F(x)\in \mathrm{O}_{\varepsilon}(L)$
 

@@ -14,7 +14,7 @@ $\:$
 
 $\sigma\in S_{n},$ tada označavamo $\sigma=\left(\begin{array}{} 1&2&\dots&n\\\sigma(1)&\sigma(2)&\dots&\sigma(n)\end{array}\right)$
 
-**Def**. Permutacija, u kojoj $a_{1}\mapsto a_{2}\mapsto\dots\mapsto a_{k-1}\mapsto a_{k}\mapsto a_{1}$, gde su svi $a_{i}$ različiti, a svi ostali $a_{i}, \ i>k$ se slikaju sami u sebe, zovemo **ciklus** dužine $k$, a skup $\{a_{1},\,a_{2},\,\dots,\,a_{k}\}$ je **nosač** tog ciklusa.
+**Def**. Permutacija, u kojoj $a_{1}\mapsto a_{2}\mapsto\dots\mapsto a_{k-1}\mapsto a_{k}\mapsto a_{1}$, gde su svi $a_{i}$ različiti, a svi ostali $a_{i}, \ i>k$ se slikaju sami u sebe, zovemo **ciklus** dužine (odnosno [[Grupa#Red grupe i elementa|reda]]) $k$, a skup $\{a_{1},\,a_{2},\,\dots,\,a_{k}\}$ je **nosač** tog ciklusa.
 Oznaka: $(a_{1}\,a_{2}\,\cdots\,a_{k})$
 
 **Def**. Ciklus dužine dva zove se **transpozicija**.
@@ -29,7 +29,7 @@ $(a_{1}\ a_{2}\ \cdots\ a_{k})(a_{k}\ a_{k+1}\ \cdots\ a_{m})=(a_{1}\ a_{2}\ \cd
 **Stav**. Svaka permutacija iz $\mathbb{S}_{n}$ može se predstaviti kao kombinacija transpozicija.
 
 Primeri: 
-- $(123)(34)=(1234)$
+- $(12)(23)=(123)\quad\quad(23)(12)=(132)$
 - Permutaciju $\sigma=\left(\begin{array}{}1&2&3&4&5&6&7&8&9\\2&3&1&5&4&7&8&9&7\end{array}\right)$ predstavimo kao
 — kombinaciju disjunktnih ciklusa: $\sigma =(123)(45)(6789)$ 
 — kombinaciju transpozicija: $\sigma =(12)(23)(45)(67)(78)(89)$ 
