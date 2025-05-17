@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Krivolinijski integral.md",
+                "file": "Površinski integral.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Krivolinijski integral"
+              "title": "Površinski integral"
             },
             "group": "c6f552b231e2de4c"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Krivolinijski integral.md",
+                "file": "Površinski integral.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Krivolinijski integral"
+              "title": "Površinski integral"
             },
             "group": "c6f552b231e2de4c"
           }
@@ -216,14 +216,20 @@
   "active": "12e78ca11c0c8092",
   "lastOpenFiles": [
     "Matematika/Analiza.md",
+    "Krivolinijski integral.md",
+    "Media/grinova formula slika2.png",
+    "Media/grinova formula slika1.png",
+    "Matematika/Matematika.md",
+    "Matematika/Geometrija.md",
+    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
+    "Matematika/Afino preslikavanje.md",
+    "Matematika/Unitarni prostor. Euklidski prostor.md",
+    "Površinski integral.md",
+    "Matematika/Dvostruki integral.md",
     "Matematika/Određeni integral.md",
     "Matematika/Trostruki integral.md",
-    "Matematika/Dvostruki integral.md",
-    "Krivolinijski integral.md",
-    "Površinski integral.md",
     "Matematika/Preslikavanje sa vrednostima u Rm.md",
     "Matematika/Regularna kriva i tangenta. Regularna površ i tangentna površ.md",
-    "Matematika/Matematika.md",
     "Home.md",
     "Matematika/Primene određenog integrala.md",
     "Matematika/Nesvojstveni integral.md",
@@ -236,11 +242,6 @@
     "Matematika/Gama funkcija i beta funkcija.md",
     "Matematika/Metode integracije (određeni integral).md",
     "Matematika/Metode integracije (neodređeni integral).md",
-    "Drugo/DS1 — beleške.md",
-    "Drugo/@toremove Veza površine figure između f(x) i Ox i  primitivne funkcije F(x).md",
-    "Matematika/Skup n-torki realnih brojeva.md",
-    "Matematika/Kongruentnost.md",
-    "Matematika/Relacija ekvivalencije.md",
     "Untitled.canvas",
     "Untitled",
     "Media/analiza1_1_2.png",
@@ -251,8 +252,6 @@
     "Media/analiza1_2_ferma.png",
     "Media/analiza1_2_peanovOblikOst.png",
     "Media/analiza1_2_3.png",
-    "Media/analiza1_0_vrste_tačaka.png",
-    "Media/analiza1_1_12_2.png",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "desktop.ini",
