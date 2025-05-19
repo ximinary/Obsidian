@@ -93,11 +93,13 @@ $\:$
  **Stav**. $\alpha,\,\beta\in\mathbb{R}$. Tada važi
 $\begin{align}\int_{\mathcal{C}}(\alpha\,\mathbf{f}+\beta\,\mathbf{g})(\mathbf{x}) \cdot d\mathbf{r} = \alpha\int_{\mathcal{C}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r}+\beta \int_{\mathcal{C}} \mathbf{g}(\mathbf{x}) \cdot d\mathbf{r} \end{align}$
 
-**Stav**. Krive $\mathcal{C}$ i $\mathcal{D}$ imaju samo jednu zajedničku tačku koja je kraj i jedne i druge krive. Tada $\begin{align}\int_{\mathcal{C}\cup \mathcal{D}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r} = \int_{\mathcal{C}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r} + \int_{\mathcal{D}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r}\end{align}$
+**Stav**. Krive $\mathcal{C}$ i $\mathcal{D}$ imaju samo jednu zajedničku tačku koja je kraj krive $\mathcal{C}$ i početak krive $\mathcal{D}$. Tada $\begin{align}\int_{\mathcal{C}\cup \mathcal{D}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r} = \int_{\mathcal{C}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r} + \int_{\mathcal{D}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r}\end{align}$
 ___
 Krivu $\mathcal{C}$ možemo orijentisati na dva načina: ako je $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{n}$ jedna parametrizacija krive $\mathcal{C}$, onda je parametrizacija $\mathbf{r}^{-}:\ [a,\,b]\to\mathbb{R}^{n}$ def. sa $\mathbf{r}^{-1}(t)=\mathbf{r}(a+b-t)$ suprotne orijentacije od $\mathbf{r}$.
 
 **Stav**. $\begin{align}\int_{\mathcal{C}} \mathbf{f}(\mathbf{x})\cdot d\mathbf{r}^{-} =-\int_{\mathcal{C}} \mathbf{f}(\mathbf{x})\cdot d\mathbf{r}\end{align}$
+
+Krivu orijentisanu suprotno od krive $\mathcal{C}$ označavamo sa $\mathcal{C}^{-}$, tj. $\begin{align}\int_{\mathcal{C}} \mathbf{f}(\mathbf{x})\cdot d\mathbf{r}^{-} =\int_{\mathcal{C}^{-}} \mathbf{f}(\mathbf{x})\cdot d\mathbf{r}\end{align}$
 
 ### Grinova formula
  **Teorema** (Grinova formula). Neka je $D\subseteq\mathbb{R}^{2}$ [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3969f8|kompaktan]] i takav da mu je granica $\mathcal{C}=\partial D$ deo po deo glatka kriva. Neka je $\mathbf{f}=(P,\,Q):\ D\to\mathbb{R}^{2}$ vektorsko polje, takvo da su $P,\,Q,\,P'_{y},\,Q'_{x}$ neprekidni na $\mathcal{C}$. I neka je $\mathcal{C}$ orijentisana tako da $D$ ostaje sa leve strane. Tada
@@ -179,6 +181,9 @@ $\:$
 >  $\begin{align}=\lim\limits_{ h \to 0 }\frac{h\,\mathbf{f}(\mathbf{y}+\xi\,\mathbf{e}_{i})\cdot\mathbf{e}_{i}}{h}=\lim\limits_{ h \to 0 }\Big(\,\mathbf{f}(\mathbf{y}+\xi\,\mathbf{e}_{i})\cdot\mathbf{e}_{i}\Big)=\mathbf{f}(\mathbf{y})\cdot\mathbf{e}_{i}\end{align}$ 
 > 
 > Stoga, $\mathbf{f}=\nabla f$
+
+$\:$
+> Napomena: Ako važi jedan od uslova $2.$ i $3.$ u prethodnoj teoreme, za dati gradijent možemo naći polaznu funkciju do na koeficijent.
 
 $\:$
 > Napomena: posledica prethodne teoreme i Grinove formule.

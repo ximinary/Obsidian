@@ -1,5 +1,4 @@
 #fax #math #a1 [deo [[Analiza|analize]]]
-$\:$
 
 # Ispitivanje toka i skiciranje grafika funkcije $f(x)$
 

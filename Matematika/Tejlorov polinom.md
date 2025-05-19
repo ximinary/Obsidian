@@ -36,7 +36,7 @@ za neko $\xi$ između $x$ i $x_{0}$ ^ddcb73
 
 $\begin{align}=f(\mathbf{x}_{0})+\sum\limits_{i=1}^{k}\frac{1}{i!}\Bigg(\frac{\partial f}{\partial x_{1}}(\mathbf{x}^{0})(x_{1}-x_{1}^{0})+\frac{\partial f}{\partial x_{2}}(\mathbf{x}^{0})(x_{2}-x_{2}^{0})+\dots+\frac{\partial f}{\partial x_{n}}(\mathbf{x}^{0})(x_{n}-x_{n}^{0})\Bigg)^{i}=\end{align}$
 
-$\begin{align}=\boxed{\sum\limits_{i=0}^{k}\frac{1}{i!}\Big(\nabla\!f(\mathbf{x}^{0})\cdot(\mathbf{x}-\mathbf{x}^{0})\Big)^{i}}\end{align}$
+$\begin{align}=\boxed{\sum\limits_{i=0}^{k}\frac{\Big((\mathbf{x}-\mathbf{x}^{0})\cdot\nabla\Big)^{i}f(\mathbf{x}^{0})}{i!}}\end{align}$
 $\:$
 **Def**. Ostatak Tejlorovog polinoma funkcije $f$ u $\mathrm{O}(\mathbf{x}_{0})$ stepena $k$ je $\begin{align}R_{k}(\mathbf{x},\,\mathbf{x}_{0};\,f):=f(\mathbf{x})-P_{k}(\mathbf{x},\,\mathbf{x}_{0};\,f)\end{align}$
 
