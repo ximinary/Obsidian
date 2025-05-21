@@ -101,7 +101,7 @@ Krivu $\mathcal{C}$ možemo orijentisati na dva načina: ako je $\mathbf{r}:\ [a
 
 Krivu orijentisanu suprotno od krive $\mathcal{C}$ označavamo sa $\mathcal{C}^{-}$, tj. $\begin{align}\int_{\mathcal{C}} \mathbf{f}(\mathbf{x})\cdot d\mathbf{r}^{-} =\int_{\mathcal{C}^{-}} \mathbf{f}(\mathbf{x})\cdot d\mathbf{r}\end{align}$
 
-### Grinova formula
+___
  **Teorema** (Grinova formula). Neka je $D\subseteq\mathbb{R}^{2}$ [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3969f8|kompaktan]] i takav da mu je granica $\mathcal{C}=\partial D$ deo po deo glatka kriva. Neka je $\mathbf{f}=(P,\,Q):\ D\to\mathbb{R}^{2}$ vektorsko polje, takvo da su $P,\,Q,\,P'_{y},\,Q'_{x}$ neprekidni na $\mathcal{C}$. I neka je $\mathcal{C}$ orijentisana tako da $D$ ostaje sa leve strane. Tada
  $\begin{align}\oint_{\mathcal{C}} \mathbf{f}(x,\,y) \cdot d\mathbf{r}=\iint_{D} (Q'_{x}-P'_{y}) \, dxdy\end{align}$
  > Dokaz: 
@@ -186,6 +186,5 @@ $\:$
 > Napomena: Ako važi jedan od uslova $2.$ i $3.$ u prethodnoj teoreme, za dati gradijent možemo naći polaznu funkciju do na koeficijent.
 
 $\:$
-> Napomena: posledica prethodne teoreme i Grinove formule.
-> Neka je $\mathbf{f}=(P,\,Q):\ D\to\mathbb{R}^{2}$ neprekidno vektorsko polje. 
-> Tada $\mathbf{f}$ je konzervativno akko $P'_{y}=Q'_{x}$
+**Posledica** (prethodne teoreme i Grinove formule). Neka je $\mathbf{f}=(P,\,Q):\ D\to\mathbb{R}^{2}$ neprekidno vektorsko polje, takvo da su $P'_{y}$ i $Q'_{x}$ neprekidni.
+Tada $\mathbf{f}$ je konzervativno akko $P'_{y}=Q'_{x}$

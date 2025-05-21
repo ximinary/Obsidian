@@ -1,4 +1,4 @@
-#fax #math #alg #laag [deo poglavlja [[Grupa|"grupa"]] i [[Determinanta|"determinanta"]]]
+#fax #math #alg #laag [deo [[Grupa|poglavlja "grupa"]]]
 $\:$
 
 **Def**. $S_{X}$ je skup svih [[Izbor elemenata#(5) Permutacije|permutacija]] skupa $X$, tj. skup svih bijekcija $\sigma:\ X\to X$.
@@ -59,3 +59,16 @@ Skup svih parnih permutacija u $\mathbb{S}_{n}$ je grupa $\mathbb{A}_{n}$
 > 
 > Neka je $\tau$ proizvoljna transpozicija, definišemo funkciju $\Phi:\ \mathbb{A}_{n}\to \mathbb{S}_{n}\!\setminus\!\mathbb{A}_{n}$ $\ \:$ sa $\ \:$ $\Phi(\pi)=\tau\pi$, koja jeste bijekcija, tada $|\mathbb{A}_{n}|=|\mathbb{S}_{n}|-|\mathbb{S}_{n}\!\setminus\!\mathbb{A}_{n}|=|\mathbb{S}_{n}|-|\mathbb{A}_{n}|$
 > Imamo da $\begin{align}|\mathbb{A}_{n}|=\frac{|\mathbb{S}_{n}|}{2}=\frac{n!}{2}\end{align}$
+
+$\:$
+### Svojstva $\mathbb{S}_{n}$ i $\mathbb{A}_{n}$
+**Stav**. Grupa $\mathbb{S}_{n}$ je generisana:
+1. transpozicijama $(1\,2),\ (1\,3),\ \dots,\ (1\,n)$
+2. transpozicijama $(1\,2),\ (2\,3),\ \dots,\ (n-1\,n)$
+3. permutacijama $(1\,2)$ i $(1\,2\,3\,\cdots\,n)$
+   
+> Dokaz:
+> 1. 
+
+$\:$
+**Stav**. Za $n\geqslant3$ grupa $\mathbb{A}_{n}$ je generisana ciklusima dužine 3. 
