@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Grupa permutacija.md",
+                "file": "Matematika/Grupa.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Grupa permutacija"
+              "title": "Grupa"
             },
             "group": "c6f552b231e2de4c"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Grupa permutacija.md",
+                "file": "Matematika/Grupa.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Grupa permutacija"
+              "title": "Grupa"
             },
             "group": "c6f552b231e2de4c"
           }
@@ -215,20 +215,25 @@
   },
   "active": "12e78ca11c0c8092",
   "lastOpenFiles": [
-    "Matematika/Determinanta.md",
     "Matematika/Grupa permutacija.md",
     "Matematika/Grupa.md",
     "Matematika/Algebarska struktura.md",
+    "Matematika/Matematika.md",
+    "Matematika/Analiza.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Elementarna matematika.md",
+    "Matematika/Geometrija.md",
+    "Matematika/Afino preslikavanje.md",
     "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Matematika/Determinanta.md",
     "Matematika/Krivolinijski integral.md",
     "Matematika/Furijeov red u prostoru C₀.md",
     "Matematika/Prostor C₀.md",
     "Matematika/Beskonačnodimenzioni Euklidski prostor. Niz i red vektora.md",
-    "Matematika/Analiza.md",
     "Matematika/Površinski integral.md",
     "Matematika/Grafik funkcije.md",
     "Matematika/Brojevni red.md",
-    "Matematika/Neodređeni integral.md",
     "Matematika/Izvod.md",
     "Matematika/Tejlorov polinom.md",
     "Matematika/Ekstremum.md",
@@ -237,12 +242,7 @@
     "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
     "Media/grinova formula slika2.png",
     "Media/grinova formula slika1.png",
-    "Matematika/Matematika.md",
-    "Matematika/Geometrija.md",
     "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
-    "Matematika/Afino preslikavanje.md",
-    "Matematika/Unitarni prostor. Euklidski prostor.md",
-    "Matematika/Dvostruki integral.md",
     "Untitled.canvas",
     "Untitled",
     "Media/analiza1_1_2.png",

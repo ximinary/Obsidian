@@ -14,8 +14,10 @@ $\:$
 
 $\sigma\in S_{n},$ tada označavamo $\sigma=\left(\begin{array}{} 1&2&\dots&n\\\sigma(1)&\sigma(2)&\dots&\sigma(n)\end{array}\right)$
 
-**Def**. Permutacija, u kojoj $a_{1}\mapsto a_{2}\mapsto\dots\mapsto a_{k-1}\mapsto a_{k}\mapsto a_{1}$, gde su svi $a_{i}$ različiti, a svi ostali $a_{i}, \ i>k$ se slikaju sami u sebe, zovemo **ciklus** dužine (odnosno [[Grupa#Red grupe i elementa|reda]]) $k$, a skup $\{a_{1},\,a_{2},\,\dots,\,a_{k}\}$ je **nosač** tog ciklusa.
+**Def**. Permutacija, u kojoj $a_{1}\mapsto a_{2}\mapsto\dots\mapsto a_{k-1}\mapsto a_{k}\mapsto a_{1}$, gde su svi $a_{i}$ različiti, a svi ostali $a_{i}, \ i>k$ se slikaju sami u sebe, zovemo **ciklus** dužine $k$, a skup $\{a_{1},\,a_{2},\,\dots,\,a_{k}\}$ je **nosač** tog ciklusa.
 Oznaka: $(a_{1}\,a_{2}\,\cdots\,a_{k})$
+
+**Stav**. [[Grupa#Red grupe i elementa|Red]] ciklusa dužine $k$ je $k$.
 
 **Def**. Ciklus dužine dva zove se **transpozicija**.
 
@@ -26,7 +28,7 @@ $(a_{1}\ a_{2}\ \cdots\ a_{k})(a_{k}\ a_{k+1}\ \cdots\ a_{m})=(a_{1}\ a_{2}\ \cd
 
 **Teorema**. Svaka permutacija iz $\mathbb{S}_{n}$ može se predstaviti na jedinstven način (do na redosled) kao kombinacija disjunktnih ciklusa.
 
-**Stav**. Svaka permutacija iz $\mathbb{S}_{n}$ može se predstaviti kao kombinacija transpozicija.
+**Stav**. Svaka permutacija iz $\mathbb{S}_{n}$ može se predstaviti kao kombinacija transpozicija. ^76ab79
 
 Primeri: 
 - $(12)(23)=(123)\quad\quad(23)(12)=(132)$
@@ -46,6 +48,8 @@ $\sigma$ je parna permutacija ako je $I(\sigma)$ paran broj,
 $\sigma$ je neparna permutacija ako je $I(\sigma)$ neparan broj.
 
 **Stav**. Ako je permutacija predstavljena kombinacijom parnog/neparnog broja transpozicija, onda je ona parna/neparna.
+
+> Ciklus dužine $k$ je parna/neparna permutacija ako je $k$ neparan/paran broj.
 
 $\:$
 Skup svih parnih permutacija u $\mathbb{S}_{n}$ je grupa $\mathbb{A}_{n}$
@@ -68,7 +72,40 @@ $\:$
 3. permutacijama $(1\,2)$ i $(1\,2\,3\,\cdots\,n)$
    
 > Dokaz:
-> 1. 
+> 1. Pokažemo da $(a\, b)=(1\,a)(1\,b)(1\,a)$
+>    $1\mapsto a\mapsto a \mapsto 1$
+>    $a\mapsto 1\mapsto b \mapsto b$
+>    $b\mapsto b\mapsto 1 \mapsto a$
+>    Tako možemo dobiti svaku transpoziciju, a iz [[Grupa permutacija#^76ab79|stava]] svaku permutaciju je moguće predstaviti kao kombinaciju transpozicija.
+>   2. Treba pokazati da je moguće izraziti svaku od transpozicija iz $1.$ kao kombinaciju transpozicija iz $2.$ 
+>    Indukcijom:
+>    baza: $(1\ 2)$ već je izražena. 
+>    hipoteza: neka je izražena $(1\ k)$.
+>    korak: pokazati da možemo izraziti i $(1\ k\!+\!1)$.
+>    $(1\ k\!+\!1)=(1\ k)(k\ \ k\!+\!1)(1\ k)$
+>    $\quad$ $\ \ \ 1\ \ \ \mapsto\ \ \ k\ \ \ \mapsto k\!+\!1\, \mapsto k\!+\!1$
+>    $\quad$ $\ \ \  k\ \ \ \mapsto \ \ \ 1\ \ \ \mapsto \ \ \ 1\ \ \ \,  \mapsto \ \ \ k$
+>    $\quad$ $k\!+\!1\mapsto k\!+\!1\,\mapsto \ \ \ k\ \ \  \mapsto \ \ \ 1$
+>    Svaku permutaciju možemo izraziti kao kombinaciju transpozicija iz $1.$, a svaku od njih možemo izraziti transpozicijama iz $2.$
+>    3. Treba pokazati da je moguće izraziti svaku od transpozicija iz $2.$ kao kombinaciju $(1\ 2)$ i $(1\ 2\ 3\ \cdots\ n)$.
+>    Indukcijom:
+>    baza: $(1\ 2)$ već je izražena. 
+>    hipoteza: neka je izražena $(k\!-\!1\ \ k)$.
+>    korak: pokazati da možemo izraziti i $(k\ k\!+\!1)$.
+>    $(k\ k\!+\!1)=(1\ 2\ 3\ \cdots\ n)(k\!-\!1\ k)(1\ 2\ 3\ \cdots\ n)^{n-1}$
+>    $\quad$ $\cdots$
+>    $\quad$ $k\!-\!1 \mapsto k\!-\!2\mapsto k\!-\!2\, \mapsto k\!-\!1$
+>    $\quad$ $\ \ \  k\ \ \, \mapsto k\!-\!1 \mapsto \ \ \ k\ \ \  \mapsto k\!+\!1$
+>    $\quad$ $k\!+\!1\mapsto\ \ \ k\ \ \,\mapsto k\!-\!1\,  \mapsto \ \ \ k$
+>    $\quad$ $\cdots$
+>    Izražavanje permutacije: kombinacija proizvoljnih transpozicija -> $1.$ -> $2.$ -> $3.$ 
 
 $\:$
-**Stav**. Za $n\geqslant3$ grupa $\mathbb{A}_{n}$ je generisana ciklusima dužine 3. 
+**Stav**. Za $n\geqslant3$ grupa $\mathbb{A}_{n}$ je generisana ciklusima dužine 3.
+> Dokaz: $\mathbb{A}_{3}=\{\mathrm{id,\ (123), (132)}\}$ jeste generisan ciklusima dužine 3.
+> Iz dela $1.$ prethodnog stava svaki element $\mathbb{S}_{n}$ možemo dobiti kombinacijom navedenih transpozicija.
+> Jer $\mathbb{A}_{n}\leqslant\mathbb{S}_{n}$, svaki element $\mathbb{A}_{n}$ možemo razviti na paran broj transpozicija oblika $(1\ a)$.
+> Primenom $(1\ a)(1\ b)=(a\ 1\ b)$ na svaki uzastopni par, dobijamo tvrđenje. 
+
+$\:$
+**[[Grupa#^5f96ab|Posledica]]**. Ako su $\sigma$ i $\tau$ disjunktni ciklusi iz $\mathbb{S}_{n}$, onda $\omega(\sigma\,\tau)=\mathrm{NZS}\Big(\omega(\sigma),\ \omega(\tau)\Big)$

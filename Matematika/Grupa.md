@@ -84,7 +84,7 @@ Operacija $*$ je **restrikcija** operacije $\cdot$ na $H$.
 - Ako je $x\in H$ onda inverz od $x$ u $G$ je jednak inverzu od $x$ u $H$
 
 $\:$
-**Stav**. Neprazan podskup $H$ grupe $G$ je podgrupa grupe $G$ u odnosu na restrikciju operacije iz $G$ akko $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$
+**Stav**. Neprazan podskup $H$ grupe $G$ je podgrupa grupe $G$ u odnosu na restrikciju operacije iz $G$ akko $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$ ^2ea486
 > Dokaz:
 > $\boxed{\Rightarrow}$ $\quad$ $y\in H\quad\Rightarrow\quad y^{-1}\in H$, $\quad$ pa i $x\cdot y^{-1}\in H$
 > $\boxed{\Leftarrow}$ $\quad$ Neka $H\ne\varnothing$ $\ \:$ i $\ \:$ $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$
@@ -201,6 +201,29 @@ $\:$
 > $H=\langle a^{n/k} \rangle$ je jedinstvena podgrupa reda $k$.
 
 $\:$
+**Teorema**. Neka je $G$ grupa i $a,\,b\in G$ su konačnog reda. Tada ako 
+$ab=ba$ $\ \:$ i $\ \:$ $\langle a \rangle\cap\langle b \rangle=\{e\}$, $\ \:$ onda $\omega(a\,b)=\mathrm{NZS}\Big(\omega(a),\ \omega(b)\Big)$ ^5f96ab
+> Dokaz:
+> Neka $\omega(a)=m$, $\omega(b)=n$, $\omega(a\,b)=s$, $\mathrm{NZS}(m,n)=t=m\,t_{1}=n\,t_{2}$
+> $(a\,b)^{t}=a^{t}b^{t}=a^{mt_{1}}b^{nt_{2}}=e^{t_{1}}e^{t_{2}}=e\quad\Rightarrow\quad s\,|\,t$
+> $e=(a\,b)^{s}=a^{s}b^{s}\quad\Rightarrow\quad a^{s}=b^{-s}$, $\:$ $a^{s}\in \langle a \rangle$, $\:$ $b^{-s}\in\langle b \rangle$
+> Jer $\langle a \rangle\cap\langle b \rangle=\{e\}$ dobijamo $a^{s}=e=b^{s}$ 
+> $\Rightarrow\quad m\,|\,s\ \text{ i } \ n\,|\,s\quad\Rightarrow\quad t\,|\,s$
+> Konačno, $n=m$
+
+$\:$
+**Teorema**. Neka je $G$ grupa i $a,\,b\in G$ takvi da $a\,b=b\,a$
+- Ako je $a$ konačnog reda a $b$ beskonačnog, onda je $a\,b=b\,a$ beskonačnog reda.
+- Ako su  i $a$ i $b$ beskonačnog reda i $\langle a \rangle\cap\langle b \rangle=\{e\}$, onda je $a\,b=b\,a$ beskonačnog reda.
+
+> Dokaz:
+> - Neka $\omega(a)=n$. PPS $ab$ je konačnog reda $m$.
+>   $e=e^{n}=(ab)^{mn}=a^{mn}b^{mn}=e^{m}b^{mn}=b^{mn}$, $b$ je konačnog reda. Kontradikcija. $ab$ je beskonačnog reda.
+>  - PPS $ab$ je konačnog reda $m$.
+>    $e=(ab)^{m}=a^{m}b^{m}\quad\Rightarrow\quad a^{m}=e=b^{m}$
+>    $a$ i $b$ su konačnog reda. Kontradikcija. $ab$ je beskonačnog reda.
+
+$\:$
 ### Izomorfizam grupa
 **Def**. Neka su $(G,\,\cdot)$ i $(H,\,*)$ grupe. $G$ i $H$ su **izomorfni** ako postoji bijekcija $f:\ G\to H$ takva da $\forall x,\,y\in G\quad f(x\cdot y)=f(x)*f(y)$. $f$ je **izomorfizam grupa** $G$ i $H$.
 Oznaka: $G\cong H$
@@ -243,3 +266,20 @@ $\:$
 
 $\:$
 ### [[Grupa permutacija]]
+> Napomena: $\mathbb{D}_{3}\cong \mathbb{S}_{3}$
+
+$\:$
+**Teorema** (Kejlijeva). Svaka grupa $G$ izomorfna je nekoj podgrupi grupe $\mathbb{S}_{G}$
+> Dokaz:
+> Neka je $g\in G$. Definišemo fju $L_{g}:\,G\to G$ sa $L_{g}(x)=g\cdot x$ 
+> $(L_{g}\circ L_{h})(x)=L_{g}(h\cdot x)=g\cdot h\cdot x=(g\cdot h)\cdot x=L_{g\cdot h}(x)$
+> $\forall x\in G\quad L_{e}(x)=x$, tj. $L_{e}=\mathrm{id}_{G}$
+> Dakle, $(L_{g})^{-1}=L_{g^{-1}}$
+> Važi $L_{g}\circ (L_{h})^{-1}=L_{g\cdot h^{-1}}$
+> [[Grupa#^2ea486|Stoga]], $G'=\{L_{g}\ |\ g\in G\}\leqslant \mathbb{S}_{G}$
+> Definišemo fju $f:\ G\to G'$ sa $f(g)=L_{g}$, koja jeste bijekcija i važi 
+> $f(g\cdot h)=L_{g\cdot h}=L_{g}\circ L_{h}=f(g)\circ f(h)$
+> Tj. je $f$ izomorfizam grupa $G$ i $G'\leqslant\mathbb{S}_{n}.$
+
+$\:$
+**Posledica**. Svaka konačna grupa $G$ reda $n$ izomorfna je nekoj podgrupi grupe $\mathbb{S}_{n}$
