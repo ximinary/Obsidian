@@ -19,5 +19,7 @@ Elementarna geometrija u prostoru
 [[Krive drugog reda]]
 [[Bezijeove krive]]
 
+[[Površi drugog reda]]
+
 Poligon
 Poliedar

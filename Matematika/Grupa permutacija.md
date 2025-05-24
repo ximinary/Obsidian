@@ -109,3 +109,7 @@ $\:$
 
 $\:$
 **[[Grupa#^5f96ab|Posledica]]**. Ako su $\sigma$ i $\tau$ disjunktni ciklusi iz $\mathbb{S}_{n}$, onda $\omega(\sigma\,\tau)=\mathrm{NZS}\Big(\omega(\sigma),\ \omega(\tau)\Big)$
+> Napomena: Ako su  $\sigma_{1},\,\sigma_{2},\,\dots,\,\sigma_{k}$ disjunktni ciklusi iz $\mathbb{S}_{n}$, onda $\omega(\sigma_{1}\,\sigma_{2}\,\cdots\,\sigma_{k})=\mathrm{NZS}\Big(\omega(\sigma_{1}),\ \omega(\sigma_{2}),\ \dots,\ \omega(\sigma_{k})\Big)$
+
+$\:$
+> Napomena: Grupa $G$ i neka podgrupa grupe $\mathbb{S}_{G}$ su [[Grupa#Grupa permutacija|izomorfni]].

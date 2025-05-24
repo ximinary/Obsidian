@@ -1,17 +1,18 @@
 #fax #math #a3 [deo [[Analiza|analize]]]
 
-### Podela krive
+### Podela [[Kriva i površ#Kriva u $ mathbb{R} {n}$|krive]]
 Neka je $\mathcal{C}$ kriva parametrizovana sa $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{n}$ $\ \:$ i $\ \:$ neka je $(\mathcal{P},\,\xi)$ [[Određeni integral#Podela intervala|podela]] sa istaknutim tačkama intervala $[a,\,b]$, u kojoj su $t_{i},\ \ i=\overline{0,\,n}$ podeone tačke.
 
 
-Tada je $\mathbf{P}=\Big\{\{\mathbf{r}(t)\ |\ t_{i-1}<t<t_{i}\}\ \Big|\ i =\overline{1,\,n}\Big\}$ **podela krive** $\mathcal{C}$.
+Tada je $\mathbf{P}=\Big\{\mathbf{r}\big[[t_{i-1},\,t_{i}]\big]\ \Big|\ i =\overline{1,\,n}\Big\}$ **podela krive** $\mathcal{C}$.
 
 Pri tome tačke $\mathbf{x}_{i}:=\mathbf{r}(t_{i}),\ \ i=\overline{0,n}$ su podeone tačke te podele i $\lambda(\mathbf{P})=\lambda(\mathcal{P})$
 
-$\boldsymbol{\xi}_{i}:=\mathbf{r}(\xi_{i}),\ \ \forall i=\overline{0,n}$, $\quad$ gde su $\xi_{i}$ istaknute tačke podele $\mathcal{P}$.
+$\boldsymbol{\xi}_{i}:=\mathbf{r}(\xi_{i}),\ \ \forall i=\overline{1,n}$, $\quad$ gde su $\xi_{i}$ istaknute tačke podele $\mathcal{P}$.
 
 $(\mathbf{P},\,\boldsymbol{\xi})$ je **podela sa istaknutim tačkama krive** $\mathcal{C}$
 
+Aproksimiramo dužinu dela krive $\mathbf{r}\big[[t_{i-1},\,t_{i}]\big]$ sa $||\mathbf{r}(t_{i})-\mathbf{r}(t_{i-1})||=||\mathbf{x}_{i}-\mathbf{x}_{i-1}||$
 
 ### Krivolinijski integral skalar-funkcije
 **Def**. Neka je $f:\ \mathcal{C}\to\mathbb{R}\ \:$ i $\ \:(\mathbf{P},\,\boldsymbol{\xi})$ podela sa istaknutim tačkama krive $\mathcal{C}$. Zbir $\begin{align}\sigma(f,\,\mathbf{P},\,\boldsymbol{\xi})=\sum\limits_{i=1}^{n}||\mathbf{x}_{i}-\mathbf{x}_{i-1}||\,f(\boldsymbol{\xi}_{i})\end{align}$ je **integralna suma**.
@@ -21,7 +22,7 @@ $\:$
 $\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{(\mathbf{P},\,\boldsymbol{\xi} )\ \text{— podela sa istaknutim tačkama}}{\text{ krive }\mathcal{C}\text{ takva da } \lambda(\mathbf{P})<\delta}\quad \Big|I-\sigma(f,\,\mathbf{P},\,\boldsymbol{\xi})\Big|<\varepsilon\end{align}$
 $\:$
 Tada je $\begin{align}I=\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| \end{align}$ $\:$ **krivolinijski integral** (prve vrste) fje $f$ duž $\mathcal{C}$.
-Ako je $\mathcal{C}$ [[Regularna kriva i tangenta. Regularna površ i tangentna površ#^66ef03|zatvorena]] pišemo $\begin{align}I=\oint_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| \end{align}$.
+Ako je $\mathcal{C}$ [[Kriva i površ#^66ef03|zatvorena]] pišemo $\begin{align}I=\oint_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| \end{align}$.
 
 $\:$
 **Teorema**. Ako je $f$ deo po deo neprekidna i $\mathbf{r}$ je regularna parametrizacija krive $\mathcal{C}$, onda $\begin{align}\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| =\int_{a}^{b} (f\circ \mathbf{r})(t)\,||r'(t)||\, dt \end{align}$ 
@@ -34,8 +35,7 @@ $\:$
 > $\begin{align}=\int_{a}^{b} (f\circ \mathbf{r})(t)\,||r'(t)||\, dt \end{align}$ 
 
 $\:$
-**Def**. Ako je $\mathbf{x}=\mathbf{r}(t)$, onda je $\ \:$ $||d\mathbf{r}||=||\mathbf{r}'(t)||\,dt$ $\ \:$ **element dužine**,
-ponekad se označava sa $ds:=||d\mathbf{r}||$.
+**Def**. $||d\mathbf{r}||=||\mathbf{r}'(t)||\,dt$ je **element dužine**.
 
 > Napomena:
 > Ako razmatramo krivu $\mathcal{C}$ u $\mathbb{R}^{3}$ parametrizovanu sa $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{3}$ def. sa $\mathbf{r}(t)=\Big(x(t),\ y(t),\ z(t)\Big)$, imamo
@@ -45,7 +45,7 @@ ponekad se označava sa $ds:=||d\mathbf{r}||$.
 ___
 Napomena: [[Riman-integrabilnost funkcija i svojstva određenog integrala#Svojstva određenog integrala|svojstva određenog integrala]]
 
-**[[Riman-integrabilnost funkcija i svojstva određenog integrala#^cfc6a3|Stav]]**.  $f$ je deo po deo neprekidna; $\ \ \alpha,\,\beta\in\mathbb{R}$. Tada važi
+**[[Riman-integrabilnost funkcija i svojstva određenog integrala#^cfc6a3|Stav]]**.  $f$ i $g$ su deo po deo neprekidni; $\ \ \alpha,\,\beta\in\mathbb{R}$. Tada važi
 $\begin{align}\int_{\mathcal{C}}(\alpha\,f+\beta\,g)(\mathbf{x}) \, ||d\mathbf{r}|| = \alpha\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}||+\beta \int_{\mathcal{C}} g(\mathbf{x}) \, ||d\mathbf{r}|| \end{align}$
 
 **Stav**.  $f$ i $g$ su deo po deo neprekidni; $\ \ \forall \mathbf{x}\in \mathcal{C}\quad f(\mathbf{x})\leqslant g(\mathbf{x})$. Tada $\begin{align}\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}||\leqslant \int_{\mathcal{C}} g(\mathbf{x}) \, ||d\mathbf{r}|| \end{align}$
@@ -68,7 +68,7 @@ $\:$
 $\begin{align}\forall\varepsilon>0\quad\exists\delta>0\quad\forall\binom{(\mathbf{P},\,\boldsymbol{\xi} )\ \text{— podela sa istaknutim tačkama}}{\text{ krive }\mathcal{C}\text{ takva da } \lambda(\mathbf{P})<\delta}\quad \Big|I-\sigma(\mathbf{f},\,\mathbf{P},\,\boldsymbol{\xi})\Big|<\varepsilon\end{align}$
 $\:$
 Tada je $\begin{align}I=\int_{\mathcal{C}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r} \end{align}$ $\:$ **krivolinijski integral** (druge vrste) fje $\mathbf{f}$ duž $\mathcal{C}$.
-Ako je $\mathcal{C}$ [[Regularna kriva i tangenta. Regularna površ i tangentna površ#^66ef03|zatvorena]] pišemo $\begin{align}I=\oint_{\mathcal{C}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r} \end{align}$.
+Ako je $\mathcal{C}$ [[Kriva i površ#^66ef03|zatvorena]] pišemo $\begin{align}I=\oint_{\mathcal{C}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{r} \end{align}$.
 
 $\:$
 **Teorema**. Neka je $\mathcal{C}$ kriva parametrizovana sa $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{n}$ $\ \:$ i $\ \:$ neka je $\mathbf{f}:\ \mathcal{C}\to \mathbb{R}^{n}$ vektorsko polje. Označimo sa $\begin{align}\mathbf{T}:=\frac{\mathbf{r}'}{||\mathbf{r}'||}\end{align}$ jedinični tangentni vektor na $\mathcal{C}$

@@ -25,6 +25,6 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 ### Funkcije $\mathbb{R}^{n}\to\mathbb{R}^{m}$
 [[Funkcija sa domenom u Rn]] #note/reorganize
 [[Preslikavanje sa vrednostima u Rm]] #note/reorganize
-[[Regularna kriva i tangenta. Regularna površ i tangentna površ]]
-Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]] #note/to_do
+[[Kriva i površ]]
+Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]] 
 
