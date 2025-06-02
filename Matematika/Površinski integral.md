@@ -23,7 +23,7 @@ $\:$
 Tada je $\begin{align}I=\iint_{\mathcal{S}} f(\mathbf{x}) \, ||d\mathbf{S}|| \end{align}$ $\:$ **površinski integral** (prve vrste) fje $f$ po površi $\mathcal{S}$.
 
 $\:$
-**Teorema**. Ako je $\mathbf{r}:\ D\to\mathbb{R}$, onda $\begin{align}\iint_{\mathcal{S}} f(\mathbf{x}) \, ||d\mathbf{S}|| = \iint_{D} (f\circ\mathbf{r})(u,\,v)) \, ||\mathbf{r}'_{u}(u,\,v)\times \mathbf{r}'_{v}(u,\,v)||\,du\,dv\end{align}$
+**Teorema**. Ako je $\mathbf{r}:\ D\to\mathbb{R}$, onda $\begin{align}\iint_{\mathcal{S}} f(\mathbf{x}) \, ||d\mathbf{S}|| = \iint_{D} (f\circ\mathbf{r})(u,\,v) \, ||\mathbf{r}'_{u}(u,\,v)\times \mathbf{r}'_{v}(u,\,v)||\,du\,dv\end{align}$
 > Dokaz:
 > $\begin{align}\sigma(\widetilde{f},\,\mathbf{P},\,\boldsymbol{\xi})=\sum\limits_{i,\,j}||(\mathbf{x}_{ij}-\mathbf{x}_{i-1j})\times(\mathbf{x}_{ij}-\mathbf{x}_{ij-1})||\,\widetilde{f}(\boldsymbol{\xi}_{ij})=\end{align}$
 > $\begin{align}=\sum\limits_{i,\,j}(u_{i}-u_{i-1})(v_{j}-v_{j-1})\Bigg|\Bigg|\frac{\mathbf{r}(u_{i},\,v_{j})-\mathbf{r}(u_{i-1},\,v_{j})}{u_{i}-u_{i-1}}\times\frac{\mathbf{r}(u_{i},\,v_{j})-\mathbf{r}(u_{i},\,v_{j-1})}{v_{j}-v_{j-1}}\Bigg|\Bigg|\,(\widetilde{f}\circ \mathbf{r})(\xi_{ij})=\end{align}$

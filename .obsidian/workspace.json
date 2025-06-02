@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e0315b8b136850a",
+        "id": "1272a3fcb47ddc4d",
         "type": "tabs",
-        "dimension": 39.08839779005525,
         "children": [
           {
-            "id": "43a814d6ed7d2e19",
+            "id": "12e78ca11c0c8092",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,17 +20,16 @@
               "icon": "lucide-file",
               "title": "Analiza"
             },
-            "group": "c6f552b231e2de4c"
+            "group": "86f00197b6c45d16"
           }
         ]
       },
       {
-        "id": "1272a3fcb47ddc4d",
+        "id": "94a9f166a97241eb",
         "type": "tabs",
-        "dimension": 60.911602209944746,
         "children": [
           {
-            "id": "12e78ca11c0c8092",
+            "id": "fe9661c05c4f628f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,7 +41,7 @@
               "icon": "lucide-file",
               "title": "Analiza"
             },
-            "group": "c6f552b231e2de4c"
+            "group": "86f00197b6c45d16"
           }
         ]
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gradijentn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +96,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Matematika/Krivolinijski integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Analiza"
+              "title": "Backlinks for Krivolinijski integral"
             }
           },
           {
@@ -215,34 +214,34 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "12e78ca11c0c8092",
+  "active": "fe9661c05c4f628f",
   "lastOpenFiles": [
-    "Matematika/Površinski integral.md",
+    "Matematika/Krivolinijski integral.md",
     "Matematika/Analiza.md",
-    "Površi drugog reda.md",
+    "Matematika/Funkcija sa domenom u Rn.md",
+    "Matematika/Tejlorov polinom.md",
+    "Matematika/Površinski integral.md",
     "Matematika/Matematika.md",
+    "Matematika/Algebarska struktura.md",
+    "Matematika/Grupa.md",
+    "Home.md",
+    "Matematika/Neodređeni integral.md",
+    "Matematika/Integracija nekih iracionalnih funkcija.md",
+    "Površi drugog reda.md",
     "Matematika/Geometrija.md",
     "Matematika/Krive drugog reda.md",
     "Matematika/Kriva i površ.md",
-    "Matematika/Krivolinijski integral.md",
     "Matematika/Dvostruki integral.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Matematika/Određeni integral.md",
     "Matematika/Ekstremum.md",
-    "Matematika/Algebarska struktura.md",
-    "Matematika/Grupa.md",
     "Matematika/Iskazna logika.md",
     "Matematika/Logika.md",
-    "Home.md",
     "Matematika/Grupa permutacija.md",
-    "Matematika/Neodređeni integral.md",
     "Matematika/Elementarna matematika.md",
     "Matematika/Afino preslikavanje.md",
     "Računarstvo/Računarstvo.md",
     "Matematika/Determinanta.md",
-    "Matematika/Furijeov red u prostoru C₀.md",
-    "Matematika/Prostor C₀.md",
-    "Matematika/Beskonačnodimenzioni Euklidski prostor. Niz i red vektora.md",
     "Media/grinova formula slika2.png",
     "Media/grinova formula slika1.png",
     "Untitled.canvas",

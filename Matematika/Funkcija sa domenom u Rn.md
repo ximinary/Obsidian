@@ -78,8 +78,11 @@ Ako je $f$ diferencijabilna u $\mathbf{x}^{0}$ onda $df(\mathbf{x}^{0})=\Big(\be
 tj. važi $\begin{align}df(\mathbf{x}^{0})\left(\begin{array}{}h_{1}\\h_{2}\\\dots\\h_{n}\end{array}\right)=h_{1}\,f'_{x_{1}}(\mathbf{x}^{0})+h_{2}\,f'_{x_{2}}(\mathbf{x}^{0})+\dots+h_{n}\,f'_{x_{n}}(\mathbf{x}^{0})=\sum\limits_{i=1}^{n}h_{i}\,f'_{x_{i}}(\mathbf{x}^{0})\end{align}$ ^d2bcd7
 > Dokaz: iz prethodnog stava $\forall i=\overline{1,n}\quad df(\mathbf{x}^{0})\,\mathbf{e}_{i}=f'_{\mathbf{e}_{i}}(\mathbf{x}^{0})=f'_{x_{i}}(\mathbf{x}^{0})$
 
+$\:$
 **Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
 Vektor  $\nabla\!f(\mathbf{x}^{0})=\Big(f'_{x_{1}}(\mathbf{x}^{0}),\ \ f'_{x_{2}}(\mathbf{x}^{0}),\ \ \cdots,\ \ f'_{x_{n}}(\mathbf{x}^{0})\Big)$ zove se **gradijent** fje $f$ u tački $\mathbf{x}^{0}$.
+
+$\nabla$ zove se **operator nabla**. $\begin{align}\nabla=\bigg(\frac{\partial}{\partial x_{1}},\ \frac{\partial}{\partial x_{2}},\ \dots,\ \frac{\partial}{\partial x_{n}}\bigg)\end{align}$, gde je $n$ dimenzija domena funkcije na koju se primenjuje. 
 
 $\:$
 > Napomena: Tražimo diferencijal $L=df(\mathbf{x}^{0})$ tako što prvo nalazimo sve parcijalne izvode (ako neki parcijalni izvod ne postoji ne postoji i diferencijal).
