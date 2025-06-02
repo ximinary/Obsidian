@@ -17,7 +17,7 @@ Ako nemoguće rešiti (ne)jednačine preskočiti.
 
 Može biti ni parna ni neparna, može biti periodična i parna, i td.
 
-### 4) [[Neprekidnost]]
+### 4) [[Neprekidnost funkcije jedne promenljive|Neprekidnost]]
 
 Sve osnovne funkcije su neprekidne, kao i njihov zbir, proizvod i kompozicija.
 
@@ -32,7 +32,7 @@ Ako $L=f(a)=D$ (ili samo $f(a)=D$, ako $L$ nema smisla ili samo $L=f(a)$, ako $D
 Ako  $L\ne f(a)$ ili $f(a)\ne D$ onda $f$ nije neprekidna u $a$
 
 
-### 5) [[Izvod|Diferencijabilnost]]
+### 5) [[Izvod funkcije jedne promenljive|Diferencijabilnost]]
 
 Funkcija $f$ može biti diferencijabilna u $a$ samo ako je neprekidna u $a$.
 
@@ -53,7 +53,7 @@ Svaku graničnu tačku $a$ razmatramo odvojeno:
    Ako $\begin{align}\exists\lim\limits_{ h \to 0^{-} }\frac{f(a+h)-f(a)}{h}=L\in\mathbb{R}\end{align},$
    $\begin{align}\exists\lim\limits_{ h \to 0^{+} }\frac{f(a+h)-f(a)}{h}=D\in\mathbb{R} \quad \mathrm{i}\quad L=D\end{align}$, onda je $f$ diferencijabilna u $a$ inače nije diferencijabilna u $a$.
 
-### 6) [[Teoreme o srednjoj vrednosti#^9f49d5|Intervale monotonosti]] i [[Ekstremum|ekstremumi]]
+### 6) [[Teoreme o srednjoj vrednosti#^9f49d5|Intervale monotonosti]] i [[Ekstremum funkcije jedne promenljive|ekstremumi]]
 
 $f$ raste na  intervalu $A$, ako $\forall x\in A\quad f'(x)>0$
 $f$ opada na  intervalu $A$, ako $\forall x\in A\quad f'(x)<0$

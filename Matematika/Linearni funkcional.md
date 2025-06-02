@@ -22,7 +22,7 @@ $\mathcal{B}=(a_{0},\,a_{1},\,a_{2},\,\dots,\,a_{n-1})$ je baza $V$. $\ \:$ $g(a
   **Projektor** na $j$-tu komponentu ($j = \overline{1,n}$):
   $\pi_{j}:\ \mathbb{F}^{n}\to\mathbb{F}\ \:$ def. sa $\pi_{j}(x)=x_{j}\ \:$ je linearni funkcional.
 - [[Kvadratna matrica#Trag matrice|Trag matrice]]
-- $[a,\,b]\subseteq\mathbb{R}, \ \ \mathcal{C}\,[a,\,b]$ je skup svih [[Neprekidnost|neprekidnih]] realnih funkcija na $[a,\,b]$. 
+- $[a,\,b]\subseteq\mathbb{R}, \ \ \mathcal{C}\,[a,\,b]$ je skup svih [[Neprekidnost funkcije jedne promenljive|neprekidnih]] realnih funkcija na $[a,\,b]$. 
   Tada je $\mathcal{C}_{[a,\,b]}=\big(\mathcal{C}\,[a,\,b],\ \mathbb{R},\ +,\ \cdot\big)$ VP.
   $\:$
   $\forall x_{0}\in[a,\,b]\quad \varphi_{x_{0}}:\ \mathcal{C}_{[a,\,b]}\to \mathbb{R}\ \:$ def. sa $\varphi_{x_{0}}(f)=f(x_{0})$.

@@ -1,4 +1,4 @@
-#fax #math #a1 [deo poglavlja [[Limes funkcije|"limes funkcije"]]]  
+#fax #math #a1 [deo poglavlja [[Limes funkcije jedne promenljive|"limes funkcije"]]]  
 $\:$
 
 ### Vertikalna asimptota
@@ -26,7 +26,7 @@ $\Rightarrow\ \ n=\lim\limits_{ x \to \pm\infty}\big(f(x)-k\,x+o(1)\big)=\lim\li
 
 Ako $\nexists\lim\limits_{ x \to \pm\infty}\big(f(x)-k\,x\big)$ onda $\nexists$ asimptota.
 
-#### Tražimo $k$ i $n$ pomoću [[Tejlorov polinom|Tejlorovog polinoma]]
+#### Tražimo $k$ i $n$ pomoću [[Tejlorov polinom funkcije jedne promenljive|Tejlorovog polinoma]]
 
 Dobijamo: $\begin{align}f(x)=k\,x+n+\frac{m}{x},\quad x\to\pm\infty\end{align}$
 Odakle osim formule asimptote imamo i informaciju o prolazu fje iznad/ispod asimptote:

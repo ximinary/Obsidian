@@ -1,4 +1,4 @@
-#fax #math #a1 [deo poglavlja [[Izvod|"izvod"]]]
+#fax #math #a1 [deo poglavlja [[Izvod funkcije jedne promenljive|"izvod"]]]
 $\:$
 
 [[analiza1_2_lp.png|Teorema]] (Lopitalovo pravilo $\frac00$). 

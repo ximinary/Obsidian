@@ -2,7 +2,7 @@
 $\:$
 [[Metode integracije (određeni integral)|Metode integracije za određeni integral]]
 ___
-Napomena: [[Izvod#^fd0bb3|izvod složene funkcije]], [[Izvod#^49dd91|izvod inverzne funkcije]]
+Napomena: [[Izvod funkcije jedne promenljive#^fd0bb3|izvod složene funkcije]], [[Izvod funkcije jedne promenljive#^49dd91|izvod inverzne funkcije]]
 
 Važi: $d \big(g(x)\big)=g'(x)\,dx$
 

@@ -1,4 +1,4 @@
-#fax #math #a1 [deo poglavlja [[Izvod|"izvod"]]]
+#fax #math #a1 [deo poglavlja [[Izvod funkcije jedne promenljive|"izvod"]]]
 $\:$
 
 [[analiza1_2_rol.png|Teorema]] (Rolova). $f:[a,\,b]\to \mathbb{R},\ f\,\mathcal{C}\,[a,\,b],\ f\,\mathcal{D}\,(a,\,b),\ f(a)=f(b).$

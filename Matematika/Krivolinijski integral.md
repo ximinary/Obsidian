@@ -148,7 +148,7 @@ ___
 **Teorema** (Uopštenje Njutn-Lajbnicove formule). Neka je $\mathbf{f}:\ D\to\mathbb{R}^{n}$ konzervativno neprekidno vektorsko polje ($\mathbf{f}=\nabla f$) i neka je $\mathcal{C}$ proizvoljna deo po deo glatka kriva koja spaja tačke $\mathbf{x},\,\mathbf{y}\in D$. Tada
 $\begin{align}\int_{\mathcal{C}} \mathbf{f} \cdot d\mathbf{r} = f(\mathbf{y})-f(\mathbf{x})\end{align}$
 > Dokaz: Neka je $\mathcal{C}$ parametrizovana sa $\mathbf{r}=(x_{1},\,x_{1},\,\dots,\,x_{n}):\ [a,\,b]\to\mathbb{R}^{n}$
-> $\begin{align}\int_{\mathcal{C}} \mathbf{f} \cdot d\mathbf{r} = \int_{\mathcal{C}} \nabla f \cdot d\mathbf{r}= \int_{a}^{b} \sum\limits_{i=1}^{n} (f'_{x_{i}}\circ\mathbf{r})(t)\,x'_{i}(t)\,dt\end{align}$ $=$ \[[[Preslikavanje sa vrednostima u Rm#^4816ca|*]]] $=$
+> $\begin{align}\int_{\mathcal{C}} \mathbf{f} \cdot d\mathbf{r} = \int_{\mathcal{C}} \nabla f \cdot d\mathbf{r}= \int_{a}^{b} \sum\limits_{i=1}^{n} (f'_{x_{i}}\circ\mathbf{r})(t)\,x'_{i}(t)\,dt\end{align}$ $=$ \[[[Diferencijabilnost funkcije više promenljivih#^4816ca|*]]] $=$
 > $\begin{align}=\int_{a}^{b} (f\circ\mathbf{r})'(t) \, dt=(f\circ\mathbf{r})(b)-(f\circ \mathbf{r})(a)=f(\mathbf{y})-f(\mathbf{x})\end{align}$
 
 $\:$

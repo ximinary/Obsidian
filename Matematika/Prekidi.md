@@ -1,7 +1,7 @@
-#fax #math #a1 [deo poglavlja [[Neprekidnost|"neprekidnost"]]]
+#fax #math #a1 [deo poglavlja [[Neprekidnost funkcije jedne promenljive|"neprekidnost"]]]
 $\:$
 
-**Def**. $x_{0}\in D_{f}$ je **tačka prekida** ako $f$ nije [[Neprekidnost|neprekidna]] u $x_{0}$
+**Def**. $x_{0}\in D_{f}$ je **tačka prekida** ako $f$ nije [[Neprekidnost funkcije jedne promenljive|neprekidna]] u $x_{0}$
 
 **Def**. $x_0$ je tačka prekida. Tada
 1. $x_{0}$ je prekid **prve vrste**, ako $\exists\lim\limits_{ x \to x_{0}^{-} }f(x) \in \mathbb{R}$ i $\exists\lim\limits_{ x \to x_{0}^{+} }f(x)\in \mathbb{R}$

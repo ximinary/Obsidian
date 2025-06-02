@@ -1,4 +1,4 @@
-#fax #math #a1 [deo poglavlja [[Limes funkcije|"limes funkcije"]] i [[Limes niza|"limes niza"]]]
+#fax #math #a1 [deo poglavlja [[Limes funkcije jedne promenljive|"limes funkcije"]] i [[Limes niza|"limes niza"]]]
 $\:$
 ### Limesi nizova
 

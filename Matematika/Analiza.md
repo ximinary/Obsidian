@@ -16,15 +16,16 @@ $\:$
 [[Niz n-torki realnih brojeva]]
 
 ### Funkcije $\mathbb{R}\to\mathbb{R}$
-[[Limes funkcije]] i [[Neprekidnost|neprekidnost]]
-[[Izvod|Izvod i diferencijabilnost]]
+[[Limes funkcije jedne promenljive|Limes]] i [[Neprekidnost funkcije jedne promenljive|neprekidnost]]
+[[Izvod funkcije jedne promenljive|Izvod i diferencijabilnost]]
 Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]], [[Nesvojstveni integral|nesvojstveni]]
-
-[[Grafik funkcije]]
+[[Grafik funkcije (jedne promenljive)|Grafik]]
 
 ### Funkcije $\mathbb{R}^{n}\to\mathbb{R}^{m}$
-[[Funkcija sa domenom u Rn]] #note/reorganize
-[[Preslikavanje sa vrednostima u Rm]] #note/reorganize
+[[Vektorska funkcija]]
+[[Limes i neprekidnost funkcije više promenljivih|Limes i neprekidnost]]
+[[Parcijalni izvod]]
+[[Diferencijabilnost funkcije više promenljivih|Diferencijabilnost]]
+
 [[Kriva i površ]]
 Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]] 
-

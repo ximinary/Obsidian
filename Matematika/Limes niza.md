@@ -13,19 +13,19 @@ Tada $\exists\lim\limits_{ x \to +\infty }f(x)=L\quad\Rightarrow\quad\exists\lim
 
 ### Svojstva limesa niza
 - [[analiza1_3_limNizSv1.png|1)]] Konvergentan niz je ograničen
-- [[Limes funkcije#^2c8b48|2)]] $\lim\limits_{ n \to \infty }a_{n}=a\in\mathbb{R},\ \lim\limits_{ n \to \infty }b_{n}=b\in\mathbb{R}$. Tada:
+- [[Limes funkcije jedne promenljive#^2c8b48|2)]] $\lim\limits_{ n \to \infty }a_{n}=a\in\mathbb{R},\ \lim\limits_{ n \to \infty }b_{n}=b\in\mathbb{R}$. Tada:
    - $\exists\lim\limits_{ n \to \infty }(a_{n}+b_{n})=a+b$
     - $\exists\lim\limits_{ n \to \infty }a_{n}\, b_{n}=a\, b$
     - $\begin{align}\exists\lim\limits_{ n \to \infty }\frac{a_{n}}{b_{n}}=\frac{a}{b}\end{align}$
 - [[analiza1_3_limNizSv5.png|3)]] $\lim\limits_{ n \to \infty }a_{n}=a\underset{(<)}{>}c\quad\Rightarrow\quad\exists N\in\mathbb{N}\ \ \ \forall n\geqslant N\ \ \ a_{n}\underset{(<)}{>}c$
 - [[analiza1_3_limNizSv6.png|4)]] $\lim\limits_{ n \to \infty }a_{n}=a,\ \lim\limits_{ n \to \infty }b_{n}=b,\ \  \exists N_{1}\in\mathbb{N}\ \ \ \forall n\geqslant N_{1}\ \ \ a_{n}\leqslant b_{n}$
   Tada $a\leqslant b$.
-- [[Limes funkcije#^dd4e68|5)]] $\exists N\in\mathbb{N}\quad \forall n>N\quad a_{n}\leqslant b_{n}\leqslant c_{n},$
+- [[Limes funkcije jedne promenljive#^dd4e68|5)]] $\exists N\in\mathbb{N}\quad \forall n>N\quad a_{n}\leqslant b_{n}\leqslant c_{n},$
    $\lim\limits_{ n \to \infty }a_{n}=\lim\limits_{ n \to \infty }c_{n}=a$. Tada $\exists \lim\limits_{ n \to \infty }b_{n}=a$.
 - [[analiza1_3_limNizSv8.png|6)]] $\lim\limits_{ n \to \infty }\left|a_{n}\right|=0\quad \Leftrightarrow\quad\lim\limits_{ n \to \infty }a_{n}=0$
 - 7\) ![[analiza1_3_limNizSv3.png]]
 
-[[Limes funkcije#Neodređeni oblici|Neodređeni oblici]]
+[[Limes funkcije jedne promenljive#Neodređeni oblici|Neodređeni oblici]]
 
 ### [[Osnovni limesi#Limesi nizova|Osnovni limesi]]
 
@@ -40,7 +40,7 @@ Tada $\exists\lim\limits_{ x \to +\infty }f(x)=L\quad\Rightarrow\quad\exists\lim
 ---
 
 ### Rešavanje limesa niza
-- Rešavanjem [[Limes funkcije#Rešavanje limesa funkcije|limesa funkcije]] i korišćenjem [[Limes niza#^ec8129|stava]].
+- Rešavanjem [[Limes funkcije jedne promenljive#Rešavanje limesa funkcije|limesa funkcije]] i korišćenjem [[Limes niza#^ec8129|stava]].
   $\:$
 - Skala. Za $\alpha>0,\ a>1\:\:$važi
   $\ln n \ll n^{\alpha} \ll a^{n}\ll n! \ll n^{n} \ll (n!)^{2},\quad n\to\infty$

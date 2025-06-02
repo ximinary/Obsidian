@@ -4,27 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1272a3fcb47ddc4d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "12e78ca11c0c8092",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematika/Analiza.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Analiza"
-            },
-            "group": "86f00197b6c45d16"
-          }
-        ]
-      },
-      {
         "id": "94a9f166a97241eb",
         "type": "tabs",
         "children": [
@@ -40,8 +19,7 @@
               },
               "icon": "lucide-file",
               "title": "Analiza"
-            },
-            "group": "86f00197b6c45d16"
+            }
           }
         ]
       }
@@ -75,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gradijentn",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Krivolinijski integral.md",
+                "file": "Matematika/Analiza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Krivolinijski integral"
+              "title": "Backlinks for Analiza"
             }
           },
           {
@@ -216,32 +193,33 @@
   },
   "active": "fe9661c05c4f628f",
   "lastOpenFiles": [
-    "Matematika/Krivolinijski integral.md",
-    "Matematika/Analiza.md",
-    "Matematika/Funkcija sa domenom u Rn.md",
-    "Matematika/Tejlorov polinom.md",
-    "Matematika/Površinski integral.md",
     "Matematika/Matematika.md",
-    "Matematika/Algebarska struktura.md",
-    "Matematika/Grupa.md",
+    "Matematika/Analiza.md",
     "Home.md",
-    "Matematika/Neodređeni integral.md",
-    "Matematika/Integracija nekih iracionalnih funkcija.md",
-    "Površi drugog reda.md",
-    "Matematika/Geometrija.md",
+    "Matematika/Elipsa.md",
     "Matematika/Krive drugog reda.md",
-    "Matematika/Kriva i površ.md",
-    "Matematika/Dvostruki integral.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Ekstremum.md",
-    "Matematika/Iskazna logika.md",
-    "Matematika/Logika.md",
-    "Matematika/Grupa permutacija.md",
-    "Matematika/Elementarna matematika.md",
-    "Matematika/Afino preslikavanje.md",
-    "Računarstvo/Računarstvo.md",
-    "Matematika/Determinanta.md",
+    "Matematika/Geometrija.md",
+    "Površi drugog reda.md",
+    "Matematika/Izvod funkcije jedne promenljive.md",
+    "Matematika/Tejlorov polinom funkcije jedne promenljive.md",
+    "Matematika/Tejlorov polinom funkcije više promenljivih.md",
+    "Matematika/Ekstremum funkcije više promenljivih.md",
+    "Matematika/Ekstremum funkcije jedne promenljive.md",
+    "Matematika/Diferencijabilnost funkcije više promenljivih.md",
+    "Matematika/Limes i neprekidnost funkcije više promenljivih.md",
+    "Matematika/Parcijalni izvod.md",
+    "Matematika/Algebarska struktura.md",
+    "Preslikavanje sa vrednostima u Rm.md",
+    "Matematika/Krivolinijski integral.md",
+    "Matematika/Stepeni red.md",
+    "Matematika/Limes funkcije jedne promenljive.md",
+    "Matematika/Asimptota.md",
+    "Matematika/Vektorska funkcija.md",
+    "Matematika/Neprekidnost funkcije jedne promenljive.md",
+    "Matematika/Grafik funkcije (jedne promenljive).md",
+    "Matematika/Konveksnost i konkavnost.md",
+    "Media/analiza1_2_osnovniIzvodi.png",
+    "Matematika/Nesvojstveni integral.md",
     "Media/grinova formula slika2.png",
     "Media/grinova formula slika1.png",
     "Untitled.canvas",
@@ -253,7 +231,6 @@
     "Media/afina preslikavanja 1 geo.png",
     "Media/analiza1_2_ferma.png",
     "Media/analiza1_2_peanovOblikOst.png",
-    "Media/analiza1_2_3.png",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "desktop.ini",

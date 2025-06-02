@@ -24,7 +24,7 @@ $\exists\lim\limits_{ x \to x_{0} }f(x)\in\mathbb{R}\quad\Leftrightarrow$
 $\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\delta>0\quad\forall x,\,y\in\mathring{\mathrm{O}}_{\delta}(x_{0})\quad\left|f(x)-f(y)\right|<\varepsilon$
 (Važi i za levi/desni limes i okolinu) ^56c84c
 
-### [[Neprekidnost]]
+### [[Neprekidnost funkcije jedne promenljive|Neprekidnost]]
 
 ### Svojstva limesa funkcije
 
@@ -66,7 +66,7 @@ $\lim\limits_{ x \to a }f(x) = \lim\limits_{ x \to a }g(x) = L\in \mathbb{R}$. $
 Teorema. $a\in D',\ \  f:D\!\to\!\mathbb{R},\ \ g:D\!\to\!\mathbb{R}, \ \ L\in \mathbb{R}$
 ![[analiza1_1_8.png]]
 
-[[analiza1_1_NeprIlimKomut.png|Teorema]] ([[Neprekidnost|neprekidna fja]] i limes komutiraju). $a\in \overline{\mathbb{R}}$
+[[analiza1_1_NeprIlimKomut.png|Teorema]] ([[Neprekidnost funkcije jedne promenljive|neprekidna fja]] i limes komutiraju). $a\in \overline{\mathbb{R}}$
 $\varphi$ je neprekidna u $L\in\mathbb{R}\:$ i $\:\lim\limits_{ x \to a }f(x)=L$
 Tada: $\lim\limits_{ x \to a }\varphi\big(f(x)\big) = \varphi \Big(\lim_{ x \to a }f(x)\Big) = \varphi(L)$
 
@@ -113,4 +113,4 @@ $\ln x \ll x^{\alpha}\ll a^{x},\ \ x\to+\infty$
 (tj. $\ln x=o(x^{\alpha}),\ \ x\to +\infty\quad \mathrm{i}\quad x^{\alpha}=o(a^{x}),\ \ x\to +\infty$)
 
 [[Lopitalova pravila]]
-[[Tejlorov polinom]]
+[[Tejlorov polinom funkcije jedne promenljive|Tejlorov polinom]]

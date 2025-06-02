@@ -1,6 +1,6 @@
 #fax #math #a1 [deo [[Analiza|analize]]]
 
-[[Limes funkcije]]
+[[Limes funkcije jedne promenljive|Limes funkcije]]
 
 **Def**. $f:\ D_{f}\to\mathbb{R}$ je **neprekidna** u tački $a\in D_{f}\ \  (f\,\mathcal{C}\,a)$ akko $\forall\varepsilon>0\quad\exists\delta>0\quad\forall x\in D_{f}\cap\mathrm{O}_{\delta}(a)\quad|f(x)-f(a)|<\varepsilon \ \ \Leftrightarrow$
 $\Leftrightarrow \ \ \begin{cases} \mathrm{uvek\ važi,\quad\quad\quad\ ako}\ a\notin D_{f}'\\ \lim\limits_{ x \to a } f(x) = f(a),\ \mathrm{\ \ \!ako}\ a\in D_{f}'\end{cases}$
@@ -15,14 +15,14 @@ Neka je $A\subseteq D_{f}$. $\ \:$ $f\,\mathcal{C}\,A\quad\Leftrightarrow\quad\f
 ### [[Neprekidnost osnovnih funkcija]]
 
 ### Lokalna svojstva neprekidnosti
-- [[Limes funkcije#^9993ac|1)]]  $f$ je neprekidna u $a\in D_{f} \ \ \Rightarrow$
+- [[Limes funkcije jedne promenljive#^9993ac|1)]]  $f$ je neprekidna u $a\in D_{f} \ \ \Rightarrow$
 $\Rightarrow\ \ \exists c>0,\, \delta>0\quad\forall x\in {\mathrm{O}}_{\delta}(a)\quad|f(x)|\leqslant c$
-- [[Limes funkcije#^abfa5c|2)]] $f$ je neprekidna u $a\in D_{f}; f(a)>c\ \ (<c) \ \ \Rightarrow$
+- [[Limes funkcije jedne promenljive#^abfa5c|2)]] $f$ je neprekidna u $a\in D_{f}; f(a)>c\ \ (<c) \ \ \Rightarrow$
 $\Rightarrow\ \ \exists\delta>0\quad\forall x\in D_{f}\cap {\mathrm{O}}_{\delta}(a)\quad f(x) >c\  (<c)$
-- [[Limes funkcije#^2c8b48|3)]] $f$ i $g$ su neprekidni u $a\in D_{f} \ \ \Rightarrow$
-	$|\quad$ [[Limes funkcije#^a79518|1.]] $f+g$ je neprekidna u $a$
-	$|\quad$ [[Limes funkcije#^53cf78|2.]] $f\cdot g$ je neprekidna u $a$
-	$|\quad$ [[Limes funkcije#^44b570|3.]] $\frac{f}{g}$ je neprekidna u $a$, ako $g(a)\ne0$
+- [[Limes funkcije jedne promenljive#^2c8b48|3)]] $f$ i $g$ su neprekidni u $a\in D_{f} \ \ \Rightarrow$
+	$|\quad$ [[Limes funkcije jedne promenljive#^a79518|1.]] $f+g$ je neprekidna u $a$
+	$|\quad$ [[Limes funkcije jedne promenljive#^53cf78|2.]] $f\cdot g$ je neprekidna u $a$
+	$|\quad$ [[Limes funkcije jedne promenljive#^44b570|3.]] $\frac{f}{g}$ je neprekidna u $a$, ako $g(a)\ne0$
 - [[analiza1_1_neprKompozicije.png|4)]] $f$ je neprekidna u $y_{0}=g(x_{0}),\ g$ je neprekidna u $x_{0} \ \ \Rightarrow$
 $\Rightarrow\ \ f\!\circ\!g$ je neprekidna u $x_{0}$
 

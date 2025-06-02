@@ -88,7 +88,7 @@ odakle, $\begin{align}s(x)=\sum\limits_{n=0}^{\infty}\frac{s^{(n)}(0)}{n!}x^{n} 
 
 $\:$
 ### Tejlorov red
-Napomena: [[Tejlorov polinom]]
+Napomena: [[Tejlorov polinom funkcije jedne promenljive|Tejlorov polinom]]
 
 **Def**. Neka je $f:\ (a,\,b)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(a,\,b)$ i neka je $x_{0}\in(a,\,b)$. Tada stepeni red $\boxed{\begin{align}\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x_{0})}{n!}(x-x_{0})^{n} \end{align}}$ je **Tejlorov red** funkcije $f$ u tački $x_{0}$. (**Maklorenov red** funkcije $f$ ako $x_{0}=0$).
 
@@ -97,11 +97,11 @@ Napomena: [[Tejlorov polinom]]
 $\:$
 **Stav**. Neka je $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada
 $\begin{align}\forall x\in(-R,\,R)\quad f(x)=\sum\limits_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^{n} \quad\Leftrightarrow\quad\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0\end{align}$, 
-gde je $R_{n}(x,\,0;\,f)$ [[Tejlorov polinom#Ostatak Tejlorovog polinoma|ostatak Tejlorovog (Maklorenovog) polinoma]]
+gde je $R_{n}(x,\,0;\,f)$ [[Tejlorov polinom funkcije jedne promenljive#Ostatak Tejlorovog polinoma|ostatak Tejlorovog (Maklorenovog) polinoma]]
 
 > Dokaz: levi deo ekvivalencije prepišemo kao
 > $\forall x\in(-R,\,R)\quad \lim\limits_{ n \to \infty }P_{n}(x,\,0;\,f)=f(x)$,
-> gde je $P_{n}(x,\,0;\,f)$ [[Tejlorov polinom|Maklorenov polinom]] fje $f$, odnosno parcijalna suma Maklorenovog reda.
+> gde je $P_{n}(x,\,0;\,f)$ [[Tejlorov polinom funkcije jedne promenljive|Maklorenov polinom]] fje $f$, odnosno parcijalna suma Maklorenovog reda.
 > 
 > Tada ekvivalencija sledi iz jednačine $\forall n\in\mathbb{N}\quad\forall x\in(-R,\,R)\quad f(x)=P_{n}(x,\,0;\,f)+R_{n}(x,\,0;\,f)$
 
@@ -109,7 +109,7 @@ $\:$
 **Stav**. Neka je $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada ako $\forall r\in(0,\,R)\quad\exists M>0\quad\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|f^{(n)}(x)|\leqslant M$ 
 onda $\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$
 > Dokaz:
-> [[Tejlorov polinom#^ddcb73|Lagranžev oblik ostatka]] Maklorenovog polinoma:
+> [[Tejlorov polinom funkcije jedne promenljive#^ddcb73|Lagranžev oblik ostatka]] Maklorenovog polinoma:
 > $\begin{align}R_{n}(x,\,0;\,f)=\frac{f^{(n+1)}(\xi)\cdot x^{n+1}}{(n+1)!},\quad\quad\end{align}$ gde je $\xi$ između $0$ i $x$.
 >
 > Tada, za svako $x\in(-R,\,R)$ postoji $r\in(|x|,\,R)$ za takvo $r$ is pretpostavke $\:\exists M>0\:$ tako da $\:\forall n\in\mathbb{N}_{0}\:$ važi $\:|f^{(n)}(\xi)|\leqslant M\:$ (jer $|\xi|<|x|<r$)
@@ -117,7 +117,7 @@ onda $\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$
 > Imamo,
 > $\begin{align}\forall x\in(-R,\,R)\quad\forall n\in\mathbb{N}_{0}\quad&\big|R_{n}(x,\,0;\,f)\big|=\Bigg|\frac{f^{(n+1)}(\xi)\cdot x^{n+1}}{(n+1)!}\Bigg|\leqslant\frac{M\,r^{n+1}}{(n+1)!}\\&-\frac{M\,r^{n+1}}{(n+1)!}\leqslant R_{n}(x,\,0;\,f)\leqslant \frac{M\,r^{n+1}}{(n+1)!}\end{align}$
 > 
-> Kako $\begin{align}\lim\limits_{ n \to \infty }\frac{M\,r^{n+1}}{(n+1)!}=0\end{align}$ iz [[Limes funkcije#^dd4e68|teoreme o dva policajaca]] važi $\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$.
+> Kako $\begin{align}\lim\limits_{ n \to \infty }\frac{M\,r^{n+1}}{(n+1)!}=0\end{align}$ iz [[Limes funkcije jedne promenljive#^dd4e68|teoreme o dva policajaca]] važi $\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$.
 
 $\:$
 #### Maklorenov red osnovnih funkcija:

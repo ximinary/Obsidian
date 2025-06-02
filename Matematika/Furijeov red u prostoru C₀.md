@@ -32,7 +32,7 @@ definisane sa $g(x):=\begin{cases}f (x), &x \in [0, \pi]\\f(-x), &x\in[-\pi,\,0)
 
 ### Konvergencija i svojstva Furijeovog reda
 **Teorema** (dovoljni uslov konvergencije Furijeovog reda). 
-Neka je $f:\ [-\pi,\,\pi]\to\mathbb{R}$ $\ \:$ deo po deo [[Izvod#^72f43e|glatka]] $\Big($tj. $\mathcal{C}^{1}\Big)$ funkcija i neka su $\big(a_{n}\big)_{n\in\mathbb{N}_{0}}$ i $\big(b_{n}\big)_{n\in\mathbb{N}}$  Furijeovi\* koeficijenti funkcije $f$. Tada
+Neka je $f:\ [-\pi,\,\pi]\to\mathbb{R}$ $\ \:$ deo po deo [[Izvod funkcije jedne promenljive#^72f43e|glatka]] $\Big($tj. $\mathcal{C}^{1}\Big)$ funkcija i neka su $\big(a_{n}\big)_{n\in\mathbb{N}_{0}}$ i $\big(b_{n}\big)_{n\in\mathbb{N}}$  Furijeovi\* koeficijenti funkcije $f$. Tada
 - $\begin{align}\forall x\in(-\pi,\,\pi)\quad\frac{a_{0}}{2}+\sum\limits_{n=1}^{\infty}\big(a_{n}\cos nx+b_{n}\sin nx\big)=\frac{f(x^{+})+f(x^{-})}{2}\end{align}$
 - $\begin{align}\forall x\in\{-\pi,\,\pi\}\quad\frac{a_{0}}{2}+\sum\limits_{n=1}^{\infty}\big(a_{n}\cos nx+b_{n}\sin nx\big)=\frac{f(-\pi^{+})+f(\pi^{-})}{2}\end{align}$
 

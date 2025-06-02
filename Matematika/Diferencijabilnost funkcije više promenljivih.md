@@ -1,58 +1,10 @@
 #fax #math #a3 [deo [[Analiza|analize]]]
 $\:$
 
-[[Okolina tačke#Okolina u proizvoljnom Metrika metričkom prostoru|Okolina tačke]]
-[[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3de7f2|Tačaka nagomilavanja skupa]]
-
-### Limes
-**Def**. Neka je $D_{f}\subseteq\mathbb{R}^{n}$. **Limes funkcije** $f:\ D_{f}\to\mathbb{R}$ u tački $\mathbf{a}\in  D'_{f}\:$ je jednak $L\in \overline{\mathbb{R}}\ \:$  $\Big( \lim\limits_{ \mathbf{x} \to \mathbf{a} }f(\mathbf{x}) = L \Big)$ akko $\forall\varepsilon>0 \quad \exists \delta>0 \quad \forall \mathbf{x}\in D_{f}\cap\mathring{\mathrm{O}}_{\delta}(\mathbf{a}) \quad f(\mathbf{x})\in \mathrm{O}_{\varepsilon}(L)$
-
-Slično limesu funkcije jedne promenljive za limes funkcije više promenljivih važe [[Limes funkcije#Svojstva limesa funkcije|svojstva]]: tvrđenja 1-4, aritmetičke operacije i teorema o tri limesa.
+> Napomena: diferencijabilnost fje jedne promenljive: [[Izvod funkcije jedne promenljive#^0328e7|*]], [[Izvod funkcije jedne promenljive#^85d2e1|*]]
 
 $\:$
-Teorema (Hajneova definicija limesa funkcije).
-Neka su $D_{f}\subseteq\mathbb{R}^{n},\ \ \ f:\ D_{f}\to\mathbb{R},\ \ \ \mathbf{a}\in  D_{f}',\ \ \  L\in \overline{\mathbb{R}}$
-$\lim\limits_{ \mathbf{x} \to \mathbf{a} }f(\mathbf{x})=L\quad\Leftrightarrow\quad\forall\text{niz }\underset{(\mathbf{a}_{n}\,\ne\,\mathbf{a})}{\mathbf{a}_{n}\to \mathbf{a}}\ \ \text{ važi }\ \lim\limits_{ n \to \infty }f(\mathbf{a}_{n})=L$
-
-### Neprekidnost
-**Def**. Neka je $D_{f}\subseteq\mathbb{R}^{n}$.  $f:\ D_{f}\to\mathbb{R}$ je **neprekidna** u tački $\mathbf{a}\in D_{f}\ \  (f\,\mathcal{C}\,\mathbf{a})$ akko $\forall\varepsilon>0\quad\exists\delta>0\quad\forall \mathbf{x}\in D_{f}\cap\mathrm{O}_{\delta}(\mathbf{a})\quad|f(\mathbf{x})-f(\mathbf{a})|<\varepsilon \ \ \Leftrightarrow$
-$\Leftrightarrow \ \ \begin{cases} \mathrm{uvek\ važi,\quad\quad\quad\ \ \! ako}\ \mathbf{a}\notin D_{f}'\\ \lim\limits_{ \mathbf{x} \to \mathbf{a} } f(\mathbf{x}) = f(\mathbf{a}),\ \mathrm{\ \ \!ako}\ \mathbf{a}\in D_{f}'\end{cases}$
-
-Slično kao za neprekidnu funkciju jedne promenljive za neprekidnu funkciju više promenljivih važe [[Neprekidnost#Lokalna svojstva neprekidnosti|svojstva]] 1-4 $\Big($u 4) $f$ je funkcija jedne promenljive$\Big)$.
-
-**Stav**. Neka su $u(x,\,y)$ $\,$ i $\,$ $v(x,\,y)$ neprekidne u $(x_{0},\,y_{0})$ i važi $u(x_{0},\,y_{0})=u_{0}$ $\,$ i $\,$ $v(x_{0},\,y_{0})=v_{0}$. Ako je $f(s,\,t)$ neprekidna u $(u_{0},\,v_{0})$ onda je $g(x,\,y):=f\big(u(x,\,y),\ v(x,\,y)\big)$ neprekidna u $(x_{0},\,y_{0})$
-
-**Teorema** (Vajerštrasova). $K\subseteq\mathbb{R}^{n}$ je [[Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost#^3969f8|kompaktan]]. $f:K\to\mathbb{R},\ \ f\,\mathcal{C}\,K$. Tada ^8e141b
-1. $f$ je ograničena
-2. $\exists \max\limits_{\mathbf{x}\in K}f(\mathbf{x}),\ \min\limits_{\mathbf{x}\in K}f(\mathbf{x})$
-### Parcijalni izvod i izvod u pravcu
-**Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}=(x^{0}_{1},\,x^{0}_{2},\,\dots,\,x^{0}_{n})\in\mathrm{int}\,D_{f}$. Tada ako $\begin{align}\exists  \lim\limits_{ h \to 0 }\frac{f(x^{0}_{1},\,\dots,\,x^{0}_{i}+h,\,\dots,\,x^{0}_{n})-f(x^{0}_{1},\,\dots,\,x^{0}_{i},\,\dots,\,x^{0}_{n})}{h} := f'_{x_{i}}(\mathbf{x}^{0})=\frac{\partial f}{\partial x_{i}}(\mathbf{x}^{0}) \end{align}$,
- on se zove **parcijalni izvod** fje $f$ po $x_{i}$ u tački $\mathbf{x}^{0}$
-
-$\:$
-**Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$ $\:$ i $\:$ $\mathbf{v}\in\mathbb{R}^{n}$ takav da $||\mathbf{v}||=1$. Tada ako $\begin{align}\exists  \lim\limits_{ h \to 0 }\frac{f(\mathbf{x}^{0}+h\,\mathbf{v})-f(\mathbf{x}^{0})}{h} := f'_{\mathbf{v}}(\mathbf{x}^{0})=\frac{\partial f}{\partial \mathbf{v}}(\mathbf{x}^{0})\end{align}$,
- on se zove **izvod u pravcu** vektora $\mathbf{v}$ fje $f$ u tački $\mathbf{x}^{0}$
-
-> Napomena: parcijalni izvod po $x_{i}$ je izvod u pravcu vektora $\mathbf{e}_{i}=(0,\,0,\,\dots,\,0,\,\overset{i}{1},\,0,\,\dots,\,0,\,0)$ 
-> tj. $\begin{align}\frac{\partial f}{\partial x_{i}}(\mathbf{x}^{0})=\frac{\partial f}{\partial \mathbf{e}_{i}}(\mathbf{x}^{0})\end{align}$
-
-$\:$
-**Def**. Parcijalni izvod drugog reda:
-$\begin{align}f''_{x_{i}x_{j}}=\frac{\partial^{2} f}{\partial x_{j}\,\partial x_{i}}:=\big(f'_{x_{i}}\big)'_{x_{j}}=\frac{\partial }{\partial x_{j}}\bigg(\frac{\partial f}{\partial x_{i}}\bigg)\end{align}$ 
-Analogno se definišu parcijalni izvodi višeg (3, 4, ...) reda.
-Pri tome $\begin{align}f^{(0)}=\partial^{0}f=f\end{align}$
-
-$\:$
-**Stav**. Ako na $\mathrm{O}(\mathbf{x}^{0})$ postoje parcijalni izvodi $f''_{x_{i}x_{j}}$ i $f''_{x_{j}x_{i}}$, koje su neprekidne u $\mathbf{x}^{0}$ onda $f''_{x_{i}x_{j}}(\mathbf{x}^{0})=f''_{x_{j}x_{i}}(\mathbf{x}^{0})$
-
-$\:$
-**Def**. Hesijan (ili matrica drugog izvoda) fje $f$ u $\mathbf{x}^{0}$ je
-$Hf(\mathbf{x}^{0})=d^{2}f(\mathbf{x}^{0})=\left(\begin{array}{}f''_{x_{1}x_{1}}(\mathbf{x}^{0})&f''_{x_{1}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{1}x_{n}}(\mathbf{x}^{0})\\f''_{x_{2}x_{1}}(\mathbf{x}^{0})&f''_{x_{2}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{2}x_{n}}(\mathbf{x}^{0})\\\dots&\dots&\dots&\dots\\f''_{x_{n}x_{1}}(\mathbf{x}^{0})&f''_{x_{n}x_{2}}(\mathbf{x}^{0})&\dots&f''_{x_{n}x_{n}}(\mathbf{x}^{0})\end{array}\right)$ ^39ff87
-
-### [[Tejlorov polinom#Tejlorov polinom funkcije više promenljivih|Tejlorov polinom]]
-
-### Diferencijabilnost
-> Napomena: diferencijabilnost fje jedne promenljive: [[Izvod#^0328e7|*]], [[Izvod#^85d2e1|*]]
+### Diferencijabilnost funkcije $\mathbb{R}^{n}\to\mathbb{R}$
 
 **Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
 $f$ je **diferencijabilna** u $\mathbf{x}^{0}$ ako postoji linearno preslikavanje $L:\,\mathbb{R}^{n}\to\mathbb{R}$ takvo da
@@ -79,10 +31,7 @@ tj. važi $\begin{align}df(\mathbf{x}^{0})\left(\begin{array}{}h_{1}\\h_{2}\\\do
 > Dokaz: iz prethodnog stava $\forall i=\overline{1,n}\quad df(\mathbf{x}^{0})\,\mathbf{e}_{i}=f'_{\mathbf{e}_{i}}(\mathbf{x}^{0})=f'_{x_{i}}(\mathbf{x}^{0})$
 
 $\:$
-**Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
-Vektor  $\nabla\!f(\mathbf{x}^{0})=\Big(f'_{x_{1}}(\mathbf{x}^{0}),\ \ f'_{x_{2}}(\mathbf{x}^{0}),\ \ \cdots,\ \ f'_{x_{n}}(\mathbf{x}^{0})\Big)$ zove se **gradijent** fje $f$ u tački $\mathbf{x}^{0}$.
-
-$\nabla$ zove se **operator nabla**. $\begin{align}\nabla=\bigg(\frac{\partial}{\partial x_{1}},\ \frac{\partial}{\partial x_{2}},\ \dots,\ \frac{\partial}{\partial x_{n}}\bigg)\end{align}$, gde je $n$ dimenzija domena funkcije na koju se primenjuje. 
+> Napomena: $df(\mathbf{x}^{0})=\Big(\nabla f(\mathbf{x}^{0})\Big)^{\mathrm{T}}$ $\quad$ (veza sa [[Parcijalni izvod#Operator nabla|gradijentom]])
 
 $\:$
 > Napomena: Tražimo diferencijal $L=df(\mathbf{x}^{0})$ tako što prvo nalazimo sve parcijalne izvode (ako neki parcijalni izvod ne postoji ne postoji i diferencijal).
@@ -103,7 +52,7 @@ $\:$
 > > Što dobijamo iz [[Teoreme o srednjoj vrednosti#^e52da5|Lagranževe teoreme]] za fje jedne promenljive,
 > > pri čemu $\forall i=\overline{1,n}\quad\xi_{i}$ je između $x_{i}$ i $x^{0}_{i}$ 
 > >
-> > Iz [[Funkcija sa domenom u Rn#^d2bcd7|posledice]] imamo $\begin{align}L(\mathbf{x}-\mathbf{x}^{0})=\sum\limits_{i=1}^{n}f'_{x_{i}}(\mathbf{x}^{0})(x_{i}-x^{0}_{i})\end{align}$
+> > Iz [[Diferencijabilnost funkcije više promenljivih#^d2bcd7|posledice]] imamo $\begin{align}L(\mathbf{x}-\mathbf{x}^{0})=\sum\limits_{i=1}^{n}f'_{x_{i}}(\mathbf{x}^{0})(x_{i}-x^{0}_{i})\end{align}$
 > 
 > $\begin{align}=\sum\limits_{i=1}^{n}\underbrace{\left(f'_{x_{i}}\left(\begin{array}{}x^{0}_{1}\\\dots\\x^{0}_{i-1}\\\xi_{i}\\x_{i+1}\\\dots\\x_{n}\end{array}\right)-f'_{x_{i}} \left(\begin{array}{}x^{0}_{1}\\\dots\\x^{0}_{i-1}\\x^{0}_{i}\\x^{0}_{i+1}\\\dots\\x^{0}_{n}\end{array}\right)\right)}_{=\,\varphi_{i}(\mathbf{x})}(x_{i}-x^{0}_{i})\end{align}$
 >
@@ -116,4 +65,42 @@ $\:$
 > Time iz teoreme o tri limesa dobijamo da je limes jednak $0$.
 
 $\:$
-### [[Ekstremum#Ekstremum funkcije više promenljivih|Ekstremum ]]. [[Ekstremum#Uslovni ekstremum|Uslovni ekstremum]]
+### [[Ekstremum funkcije više promenljivih|Ekstremum]]
+
+### Diferencijabilnost funkcije $\mathbb{R}^{n}\to\mathbb{R}^{m}$
+
+
+**Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $F:\ D_{f}\to\mathbb{R}^{m}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
+$f$ je **diferencijabilna** u $\mathbf{x}^{0}$ ako postoji linearno preslikavanje $L:\,\mathbb{R}^{n}\to\mathbb{R}^{m}$ takvo da
+$\begin{align}F(\mathbf{x}^{0}+\mathbf{h})=F(\mathbf{x}^{0})+L\,\mathbf{h}+\mathbf{o}\big(||\mathbf{h}||\big),\quad \mathbf{h}\to\mathbf{0}\quad\ \ \, &&&&&&&&&&&(1)\end{align}$
+gde je $\mathbf{o}(||h||)$ vektor fja $A=(\alpha_{1},\,\alpha_{2},\,\dots,\,\alpha_{m})$, takva da $\forall j=\overline{1,m}\quad \alpha(||\mathbf{h}||)\to0,\quad \mathbf{h}\to0$ 
+> $\begin{align}\Leftrightarrow\quad\forall j=\overline{1,m}\quad f_{j}(\mathbf{x}^{0}+\mathbf{h})=f_{j}(\mathbf{x}^{0})+L_{j}\,\mathbf{h}+o\big(||\mathbf{h}||\big),\quad \mathbf{h}\to\mathbf{0}&&(2)\end{align}$
+> gde je $L_{j}:\ \mathbb{R}^{n}\to\mathbb{R}$ linearno preslikavanje ($j$-ta vrsta matrice $L$).
+
+Preslikavanje $L$ se zove **diferencijal** (izvod) fje $F$ u tački $\mathbf{x}^{0}$ i označava se sa $dF(\mathbf{x}^{0})$ ili $F'(\mathbf{x}^{0})$. Pri tome matricu tog preslikavanja zovemo **Jakobijevom matricom**, a determinantu te matrice $J_{F}(\mathbf{x}^{0})=\det dF(\mathbf{x}^{0})$ **jakobijanom**.
+
+Iz [[Diferencijabilnost funkcije više promenljivih#^d2bcd7|posledice]] i $(2)$ dobijamo da
+$\begin{align}dF(\mathbf{x}^{0})=\left(\begin{array}{}\frac{\partial f_{1}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{1}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{1}}{\partial x_{n}}(\mathbf{x}^{0})\\\frac{\partial f_{2}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{2}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{2}}{\partial x_{n}}(\mathbf{x}^{0})\\\cdots&\cdots&\cdots&\cdots\\\frac{\partial f_{m}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{m}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{m}}{\partial x_{n}}(\mathbf{x}^{0})\end{array}\right)\end{align}$
+
+**Primedba**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $F:\ D_{f}\to\mathbb{R}^{m}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
+Ako je $F$ linearno preslikavanje onda $dF(\mathbf{x}^{0})=F$
+
+$\:$
+**Stav** (diferenciranje složene fje). Neka su $A\subseteq\mathbb{R}^{n}$, $\:$ $B\subseteq\mathbb{R}^{m}$ $\:$ otvoreni skupovi i neka su $F:\ A\to B$, $\ \:$ $G:\ B\to\mathbb{R}^{k}$. $\:$ $\mathbf{x}^{0}\in A$, $\:$ $\mathbf{y}^{0}=F(\mathbf{x}^{0})\in B$. Tada
+ako je $F$ diferencijabilna u $\mathbf{x}^{0}$ i $G$ je diferencijabilna u $\mathbf{y}^{0}$ onda je $G\circ F$ diferencijabilna u $\mathbf{x}^{0}$ i važi: $\boxed{d(F\circ G)(\mathbf{x}^{0})=dG(\mathbf{y}^{0})\circ dF(\mathbf{x}^{0})}$ ^4816ca
+> Dokaz:
+> $F\,\mathcal{D}\,\mathbf{x}^{0}\quad\Leftrightarrow\quad F(\mathbf{x}^{0}+\mathbf{h})=F(\mathbf{x}^{0})+dF(\mathbf{x}^{0})\,\mathbf{h}+\mathbf{o}\big(||\mathbf{h}||\big),\quad \mathbf{h}\to \mathbf{0}$
+> $G\,\mathcal{D}\,\mathbf{y}^{0}\quad\Leftrightarrow\quad G(\mathbf{y}^{0}+\mathbf{k})=G(\mathbf{y}^{0})+dG(\mathbf{y}^{0})\,\mathbf{k}+\mathbf{o}\big(||\mathbf{k}||\big),\quad \mathbf{k}\to \mathbf{0}$
+>
+> $\mathbf{k}:= F(\mathbf{x}^{0}+\mathbf{h})-F(\mathbf{x}^{0})=F(\mathbf{x}^{0}+\mathbf{h})-\mathbf{y}^{0}\to0,\quad \mathbf{h}\to\mathbf{0}$ $\ \:$ (jer je $F$ neprekidna)
+> 
+> Odakle, $G\big(F(\mathbf{x}^{0}+\mathbf{h})\big)=G\big(F(\mathbf{x}^{0})\big)+dG\big(F(\mathbf{x}^{0})\big)\big(F(\mathbf{x}^{0}+\mathbf{h})-F(\mathbf{x}^{0})\big)+\mathbf{o}\big(||F(\mathbf{x}^{0}+\mathbf{h})-F(\mathbf{x}^{0})||\big),\quad\mathbf{h}\to\mathbf{0}$
+$G\big(F(\mathbf{x}^{0}+\mathbf{h})\big)=G\big(F(\mathbf{x}^{0})\big)+dG\big(F(\mathbf{x}^{0})\big)\big(dF(\mathbf{x}^{0})\,\mathbf{h}+\mathbf{o}(||\mathbf{h||})\big)+\mathbf{o}\big(dF(\mathbf{x}^{0})\,\mathbf{h}+\mathbf{o}(||\mathbf{h||})\big),\quad\mathbf{h}\to\mathbf{0}$
+$G\big(F(\mathbf{x}^{0}+\mathbf{h})\big)=G\big(F(\mathbf{x}^{0})\big)+dG\big(\mathbf{y}^{0}\big)dF(\mathbf{x}^{0})\,\mathbf{h}+\mathbf{o}\big(||\mathbf{h||}\big),\quad\mathbf{h}\to\mathbf{0}$
+
+$\:$
+**Stav** (diferenciranje inverzne fje). Neka su $A\subseteq\mathbb{R}^{n}$, $\:$ $F:\ A\to \mathbb{R}^{m}$, $\:$ $\mathbf{x}^{0}\in A$, $\:$ $\mathbf{y}^{0}=F(\mathbf{x}^{0})$. I neka je $F^{-1}:\ \mathrm{O}(\mathbf{y}^{0})\to A$ inverzna od $F$ na $\mathrm{O}(\mathbf{y}^{0})$. Tada ako su $F$ i $G$ diferencijabilni onda važi $\boxed{dF^{-1}\big(\mathbf{y}^{0}\big)=dF(\mathbf{x}^{0})^{-1}}$
+> Dokaz: Iz prethodne teoreme:
+> uzimamo $G:=F^{-1}$ i imamo $d(F^{-1}\circ F)(\mathbf{x}^{0})=dF^{-1}(\mathbf{y}^{0})dF(\mathbf{x}^{0})$
+> Zbog toga što je $F^{-1}\circ F=\mathrm{id}_{\mathbf{x}}$ koristeći primedbu dobijamo da $d(F^{-1}\circ F)(\mathbf{x}^{0})=\mathrm{id}_{\mathbf{x}}$.
+> Dakle, $dF^{-1}(\mathbf{y}^{0})dF(\mathbf{x}^{0})=\mathrm{id}_{\mathbf{x}}$

@@ -63,7 +63,7 @@ Tada je površina omotača tela dobijenog rotiranjem krive $f$ oko ose $\mathrm{
 > 
 > Površina omotača tela:
 > $\begin{align}S = \lim\limits_{ \lambda(\mathcal{P}) \to 0 }\sum\limits_{i=1}^{n}S_{i}= \lim\limits_{ \lambda(\mathcal{P}) \to 0 }\sum\limits_{i=1}^{n} \pi\big(f(x_{i-1})+f(x_{i})\big)\cdot(x_{i} - x_{i-1})\sqrt[]{1+\big(f'(\xi_{i})\big)^{2}}= \end{align}$
-> > Zbog neprekidnosti $f$ iz [[Neprekidnost#^1b740a|teoreme o međuvrednosti]]:
+> > Zbog neprekidnosti $f$ iz [[Neprekidnost funkcije jedne promenljive#^1b740a|teoreme o međuvrednosti]]:
 > > $\forall i=\overline{1,n}\quad \exists\eta_{i}\in[x_{i-1},\,x_{i}] \ \ :\ \ 2f(\eta_{i})=f(x_{i-1})+f(x_{i})$
 > 
 > $\begin{align}=\lim\limits_{ \lambda(\mathcal{P}) \to 0 }\sum\limits_{i=1}^{n}\pi\cdot2f(\eta_{i})\cdot(x_{i} - x_{i-1})\sqrt[]{1+\big(f'(\xi_{i})\big)^{2}}=\end{align}$

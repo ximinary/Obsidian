@@ -1,35 +1,9 @@
-#fax #math #a1 #a3 [deo poglavlja [[Izvod|"izvod"]] i [[Funkcija sa domenom u Rn|"funkcija sa domenom u Rn"]]]
+#fax #math #a3 [deo [[Diferencijabilnost funkcije više promenljivih|poglavlja "diferencijabilnost"]]]
+$\:$
 
-
-### Ekstremum funkcije jedne promenljive
-**Def**. $x_{0}\in \mathrm{int}\, D_{f}$, $f$ ima u $x_{0}\ \  \{\dots|\}$ ako $\exists\mathrm{O}(x_{0})\ \ \forall x\in \mathrm{O}(x_{0})\cap D_{f}\ \ \{|\dots\}$:
-
-$\begin{align}\mathrm{lokalni}\\ \mathrm{ekstrmum}\end{align}\left\{\begin{array}{c | c}
-\mathrm{lokalni\ maksimum} & f(x)\leqslant f(x_0) \\
-\mathrm{strogi\ lokalni\ maksimum} & f(x)< f(x_0) \\
-\mathrm{lokalni\ minimum} & f(x)\geqslant f(x_0) \\
-\mathrm{strogi\ lokalni\ minimum} & f(x)> f(x_0) \\
-\end{array}\right\}$
+> Napomena: [[Ekstremum funkcije jedne promenljive|Ekstremum funkcije jedne promenljive]]
 
 $\:$
-[[analiza1_2_ferma.png|Teorema]] (Fermaova; nužni uslov lokalnog ekstremuma).
-$x_{0}\in \mathrm{int}\,D_{f},\ f\,\mathcal{D}\,x_{0},\ f$ ima lokalni ekstremum u $x_{0}$.
-Tada $f'(x_{0})=0$
-
-$\:$
-**Def**. Tačka $x_{0}$ za koju važi $f'(x_{0})=0$ zove se **kritična** tačka.
-> Skup tačaka ekstremuma je podskup skupa kritičnih tačaka
-
-$\:$
-[[analiza1_2_dovoljniUslovEkstremuma.png|Teorema]] (dovoljni uslov lokalnog ekstremuma).
-$f\,\mathcal{C}^{k}\,\mathrm{O}(x_{0}),\ \ f'(x_{0})=f''(x_{0})=\dots=f^{(k-1)}(x_{0})=0, \ \ f^{(n)}(x_{0})\ne 0$
-1\) $\ \ k$ je paran broj$\ \ \Rightarrow\ \ x_{0}$ je ekstremum
-$\quad\:$ ako $f^{(n)}(x_{0})>0$, $\ \ x_{0}$ je minimum
-$\quad\:$ ako $f^{(n)}(x_{0})<0$, $\ \ x_{0}$ je maksimum
-2\) $\ \ k$ je neparan broj$\ \ \Rightarrow\ \ x_{0}$ nije ekstremum (ali jeste [[Konveksnost i konkavnost|prevojna tačka]])
-
-$\:$
-### Ekstremum funkcije više promenljivih
 **Def**. $D_{f}\subseteq\mathbb{R}^{n}$, $f:\ D_{f}\to\mathbb{R}$, $\mathbf{x}^{0}\in \mathrm{int}\, D_{f}$,
 $f$ ima u $\mathbf{x}^{0}\ \  \{\dots|\}$ ako $\exists\mathrm{O}(\mathbf{x}^{0})\ \ \forall \mathbf{x}\in \mathrm{O}(\mathbf{x}^{0})\cap D_{f}\ \ \{|\dots\}$:
 
@@ -54,17 +28,17 @@ $\:$
 **Def**. Tačka $\mathbf{x}^{0}$ za koju važi $\nabla\!f(\mathbf{x}^{0})=\mathbf{0}$ zove se **kritična** tačka.
 
 $\:$
-**Teorema** (dovoljni uslov lokalnog ekstremuma). Neka $f$ ima sve parcijalne izvode do reda 3 u nekoj $\mathrm{O}(\mathbf{x}^{0})$ i neka $\nabla\!f(\mathbf{x}^{0})=\mathbf{0}$. Neka je $\mathbf{q}$ [[Bilinearna i kvadratna forma#Kvadratne forme|kvadratna forma]], koja je [[Bilinearna i kvadratna forma#^ef95f8|pridružena]] [[Funkcija sa domenom u Rn#^39ff87|matrici drugog izvoda]] u $\mathbf{x}^{0}$. Tada
+**Teorema** (dovoljni uslov lokalnog ekstremuma). Neka $f$ ima sve parcijalne izvode do reda 3 u nekoj $\mathrm{O}(\mathbf{x}^{0})$ i neka $\nabla\!f(\mathbf{x}^{0})=\mathbf{0}$. Neka je $\mathbf{q}$ [[Bilinearna i kvadratna forma#Kvadratne forme|kvadratna forma]], koja je [[Bilinearna i kvadratna forma#^ef95f8|pridružena]] [[Parcijalni izvod#^39ff87|matrici drugog izvoda]] u $\mathbf{x}^{0}$. Tada
 - ako je $\mathbf{q}$ [[Bilinearna i kvadratna forma#^3b0bdd|strogo pozitivna]] onda je $\mathbf{x}^{0}$ lokalni minimum;
 - ako je $\mathbf{q}$ [[Bilinearna i kvadratna forma#^8d6aad|strogo negativna]] onda je $\mathbf{x}^{0}$ lokalni maksimum;
 - ako je $\mathbf{q}$ [[Bilinearna i kvadratna forma#^0e3137|promenljivog znaka]] onda $\mathbf{x}^{0}$ nije lokalni ekstremum.
 
-> Dokaz: Razvijamo $f$ u [[Tejlorov polinom#Tejlorov polinom funkcije više promenljivih|Tejlorov polinom]] drugog stepena u okolini $\mathbf{x}^{0}$:
+> Dokaz: Razvijamo $f$ u [[Tejlorov polinom funkcije više promenljivih|Tejlorov polinom]] drugog stepena u okolini $\mathbf{x}^{0}$:
 > $\begin{align}f(\mathbf{x}^{0}+\mathbf{h})=f(\mathbf{x}^{0})+\underbrace{\sum\limits_{i=1}^{n}f'_{x_{i}}(\mathbf{x}^{0})\,h_{i}}_{=0,\ \ \text{jer }\nabla\!f(\mathbf{x}^{0})=\mathbf{0}}+\frac{1}{2}\sum\limits_{i,\,j=1}^{n}f''_{x_{ij}}(\mathbf{x}^{0})\,h_{i}\,h_{j}+o(||\mathbf{h}||^{2})\end{align}$
 > Odakle,
 > $\begin{align}f(\mathbf{x}^{0}+\mathbf{h})-f(\mathbf{x}^{0})&=\frac{1}{2}\sum\limits_{i,\,j=1}^{n}f''_{x_{ij}}(\mathbf{x}^{0})\,h_{i}\,h_{j}+o(||\mathbf{h}||^{2})=\\&=||\mathbf{h}||^{2}\bigg(\frac{1}{2}\sum\limits_{i,\,j=1}^{n}f''_{x_{i}x_{j}}(\mathbf{x}^{0})\,\frac{h_{i}}{||\mathbf{h}||}\,\frac{h_{j}}{||\mathbf{h}||}+o(1)\bigg)=\\&=||\mathbf{h}||^{2}\bigg(\frac{1}{2}\mathbf{q}\Big(\frac{\mathbf{h}}{||\mathbf{h}||}\Big)+o(1)\bigg)\end{align}$
 > > $\mathbb{S}^{n-1}=\{\mathbf{x}\in\mathbb{R}^{n}\ \ |\ \ ||\mathbf{x}||=1\}$ — skup svih jediničnih vektora
-> > Zbog toga što je $\mathbf{q}$ neprekidna, a $\mathbb{S}^{n-1}$ je kompaktan, [[Funkcija sa domenom u Rn#^8e141b|dobijamo]] da $\exists \min\limits_{\mathbf{x}\in\mathbb{S}^{n-1}}\mathbf{q}(\mathbf{x})=:m$ i $\exists \max\limits_{\mathbf{x}\in\mathbb{S}^{n-1}}\mathbf{q}(\mathbf{x})=:M$ 
+> > Zbog toga što je $\mathbf{q}$ neprekidna, a $\mathbb{S}^{n-1}$ je kompaktan, [[Limes i neprekidnost funkcije više promenljivih#^8e141b|dobijamo]] da $\exists \min\limits_{\mathbf{x}\in\mathbb{S}^{n-1}}\mathbf{q}(\mathbf{x})=:m$ i $\exists \max\limits_{\mathbf{x}\in\mathbb{S}^{n-1}}\mathbf{q}(\mathbf{x})=:M$ 
 > 
 > - Pretpostavljamo da je $\mathbf{q}$ strogo pozitivna, tada $m>0$ i imamo
 > $\begin{align}f(\mathbf{x}^{0}+\mathbf{h})-f(\mathbf{x}^{0})&=||\mathbf{h}||^{2}\bigg(\frac{1}{2}\mathbf{q}\Big(\frac{\mathbf{h}}{||\mathbf{h}||}\Big)+o(1)\bigg)\geqslant||\mathbf{h}||^{2}\bigg(\frac{1}{2}m+o(1)\bigg)\to0^{+},\quad\mathbf{h}\to0\end{align}$
@@ -102,7 +76,7 @@ $\exists\lambda_{1},\,\dots,\,\lambda_{m}\in\mathbb{R}\ \ :\ \ \nabla\!f(\mathbf
 > Neka je $(x_{0},\,y_{0},\,z_{0})$ tačka lokalnog ekstremuma fje $f\big|_{S}$ i neka je $\mathbf{r}:\ (t_{0}-\varepsilon,\,t_{0}+\varepsilon)\to\mathbb{R}^{3}$ [[Kriva i površ#^f25bf0|regularna kriva]] na površi $S$ takva da $\mathbf{r}(t_{0})=(x_{0},\,y_{0},\,z_{0})$.
 > Zbog toga što $\mathbf{r}$ leži u $S$ i $(x_{0},\,y_{0},\,z_{0})$ je ekstremum $f$ na $S$, dobijamo da je $t_{0}$ ekstremum fje $f\circ\mathbf{r}$, odakle $(f\circ\mathbf{r})'(t_{0})=0$. 
 > 
-> Iz [[Preslikavanje sa vrednostima u Rm#^4816ca|stava]], $0=(f\circ \mathbf{r})'(t_{0})=df\big(\mathbf{r}(t_{0})\big)\, d\mathbf{r}(t_{0})=\nabla\!f(x_{0},\,y_{0},\,z_{0})\cdot \mathbf{r}'(t_{0})$
+> Iz [[Diferencijabilnost funkcije više promenljivih#^4816ca|stava]], $0=(f\circ \mathbf{r})'(t_{0})=df\big(\mathbf{r}(t_{0})\big)\, d\mathbf{r}(t_{0})=\nabla\!f(x_{0},\,y_{0},\,z_{0})\cdot \mathbf{r}'(t_{0})$
 > tj. $\nabla\!f(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})$
 > Iz [[Kriva i površ#^635980|stava]] $\nabla\varphi(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})$
 > 
@@ -113,7 +87,7 @@ $\exists\lambda_{1},\,\dots,\,\lambda_{m}\in\mathbb{R}\ \ :\ \ \nabla\!f(\mathbf
 >Neka je kriva $S$ data sa $\begin{cases}\varphi_{1}(x,\,y,\,z)=0\\\varphi_{2}(x,\,y,\,z)=0\end{cases}$ $\:$ tj. kao presek dve površi; skup $\Big\{\nabla\varphi_{1}(x,\,y,\,z),\ \nabla\varphi_{2}(x,\,y,\,z)\Big\}$ je linearno nezavisan za $\forall(x,\,y,\,z)\in S$ odakle vidimo da je $S$ presek dve regularne površi, tj. jeste [[Kriva i površ#^f25bf0|regularna kriva]], koju parametrizujemo sa $\mathbf{r}(t)$.
 > Neka je $(x_{0},\,y_{0},\,z_{0})$ tačka lokalnog ekstremuma fje $f\big|_{S}$ i neka važi $\mathbf{r}(t_{0})=(x_{0},\,y_{0},\,z_{0})$. Tada je $t_{0}$ ekstremum fje $f\circ\mathbf{r}$, odakle $(f\circ\mathbf{r})'(t_{0})=0$. 
 > 
-> Iz [[Preslikavanje sa vrednostima u Rm#^4816ca|stava]], $0=(f\circ \mathbf{r})'(t_{0})=df\big(\mathbf{r}(t_{0})\big)\, d\mathbf{r}(t_{0})=\nabla\!f(x_{0},\,y_{0},\,z_{0})\cdot \mathbf{r}'(t_{0})$
+> Iz [[Diferencijabilnost funkcije više promenljivih#^4816ca|stava]], $0=(f\circ \mathbf{r})'(t_{0})=df\big(\mathbf{r}(t_{0})\big)\, d\mathbf{r}(t_{0})=\nabla\!f(x_{0},\,y_{0},\,z_{0})\cdot \mathbf{r}'(t_{0})$
 > tj. $\nabla\!f(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})$ 
 > Iz [[Kriva i površ#^635980|stava]] $\begin{align}\nabla\varphi_{1}(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})\\\nabla\varphi_{2}(x_{0},\,y_{0},\,z_{0})\perp \mathbf{r}'(t_{0})\end{align}$
 > Odakle, $\nabla\!f(x_{0},\,y_{0},\,z_{0}),\ \nabla\varphi_{1}(x_{0},\,y_{0},\,z_{0}),\ \nabla\varphi_{2}(x_{0},\,y_{0},\,z_{0})$ su linearno zavisni, tj. $\exists \lambda_{1},\,\lambda_{2}\in\mathbb{R}\ \ :\ \ \nabla\!f(x_{0},\,y_{0},\,z_{0})=\lambda_{1}\nabla\varphi_{1}(x_{0},\,y_{0},\,z_{0})+\lambda_{2}\nabla\varphi_{2}(x_{0},\,y_{0},\,z_{0})$
@@ -125,5 +99,3 @@ $\:$
 > Uslove $\begin{cases}\nabla\!f(\mathbf{x})=\lambda_{1}\nabla\varphi_{1}(\mathbf{x})+\lambda_{2}\nabla\varphi_{2}(\mathbf{x})+\dots+\lambda_{m}\nabla\varphi_{m}(\mathbf{x})\\\varphi_{1}(\mathbf{x})=0\\\varphi_{2}(\mathbf{x})=0\\\dots\\\varphi_{m}(\mathbf{x})=0\\\end{cases}$
 > možemo zameniti uslovom $dF(\mathbf{x},\,\lambda_{1},\,\lambda_{2},\,\dots,\,\lambda_{m})=0$, gde je 
 > $F:\ \mathbb{R}^{n+m}\to\mathbb{R}$ $\ \:$ def. sa $\ \:$  $F(\mathbf{x},\,\lambda_{1},\,\lambda_{2},\,\dots,\,\lambda_{m})=f(\mathbf{x})-\Big[\lambda_{1}\varphi_{1}(\mathbf{x})+\lambda_{2}\varphi_{2}(\mathbf{x})+\dots+\lambda_{m}\varphi_{m}(\mathbf{x})\Big]$
-> 
-> 

@@ -10,7 +10,7 @@ $\begin{align}\int_{a}^{b} f(x) \, dx\ \ \text{konvergira}\quad\Leftrightarrow\q
 > $\begin{align}\int_{a}^{b} f(x) \, dx=\lim\limits_{ \beta \to b^{-} }\underbrace{\int_{a}^{\beta} f(x) \, dx}_{\varphi(\beta)}\end{align}$
 > Integral konvergira akko  $\lim\limits_{ \beta \to b^{-} }\varphi (\beta)\in\mathbb{R}$
 > 
-> Iz [[Limes funkcije#^56c84c|Košijevog kriterijuma za postojanje limesa funkcije]]:
+> Iz [[Limes funkcije jedne promenljive#^56c84c|Košijevog kriterijuma za postojanje limesa funkcije]]:
 > $\begin{align}\lim\limits_{ \beta \to b^{-} }\varphi(\beta)\in\mathbb{R}\quad\Leftrightarrow\quad\forall\varepsilon>0\quad\exists\delta>0\quad\forall c,\,d\in \mathring{\mathrm{O}}_{\delta}^{-}(b)\quad&\left|\varphi(c)-\varphi(d)\right| < \varepsilon\\&\left|\int_{a}^{c} f(x) \, dx-\int_{a}^{d} f(x) \, dx\right| < \varepsilon\\&\left|\int_{c}^{d} f(x) \, dx\right| < \varepsilon\end{align}$
 
 $\:$

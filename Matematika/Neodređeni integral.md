@@ -3,7 +3,7 @@
 
 ### Primitivna funkcija
 
-Napomena: [[Izvod|izvod]]
+Napomena: [[Izvod funkcije jedne promenljive|izvod]]
 
 **Def**. Funkcija $F:\ (a,\,b)\to\mathbb{R}$ je **primitivna funkcija za funkciju $f$ na intervalu** $(a,\,b)$ ako $F \,\mathcal{D}\,(a,\,b)\ \,$ i $\ \, \forall x\in (a,\,b)\quad F'(x)=f(x)$.
 

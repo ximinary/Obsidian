@@ -1,4 +1,4 @@
-#fax #math #a1 [deo poglavlja [[Limes funkcije|"limes funkcije"]]]  
+#fax #math #a1 [deo poglavlja [[Limes funkcije jedne promenljive|"limes funkcije"]]]  
 $\:$
 
 **Def**. Neka su $f,\,g:D\to\mathbb{R}$ funkcije, $a\in \mathrm{int}\, D$ 

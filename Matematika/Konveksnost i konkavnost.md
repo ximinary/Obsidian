@@ -1,4 +1,4 @@
-#fax #math #a1 [deo poglavlja [[Izvod|"izvod"]]]
+#fax #math #a1 [deo poglavlja [[Izvod funkcije jedne promenljive|"izvod"]]]
 $\:$
 
 $\forall z\in[x,\,y]\quad z=x+\underset{=:\lambda\,\in[0,\,1]}{\boxed{\frac{z-x}{y-x}}}\,(y-x) =x+\lambda\,(y-x)=(1-\lambda)\,x+\lambda\,y$

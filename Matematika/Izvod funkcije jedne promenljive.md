@@ -13,7 +13,7 @@ Neka je $(a,\,b)\subseteq D_{f}$. $\ \:$ $f\,\mathcal{D}\,(a,\,b)\quad\Leftright
 
 **Def**. $f$ je **deo po deo diferencijabilna** na $(a,\,b)$ ako postoji $n\in\mathbb{N}$ i brojevi $x_{i},\ \ i\in\overline{0,n}$ takvi da $a=x_{0}<x_{1}<x_{2}<\dots<x_{n}=b$ za koje važi $\forall i=\overline{1,n}\quad f\,\mathcal{D}\,(x_{i-1},\,x_{i})$ ^35db14
 ___
-Koristeći [[Limes funkcije#^cabb77|tvrđenje]] dobijamo:
+Koristeći [[Limes funkcije jedne promenljive#^cabb77|tvrđenje]] dobijamo:
 $\begin{align}\lim\limits_{ x \to x_{0} }\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)\ \ \Leftrightarrow\end{align}$
 $\begin{align}\Leftrightarrow\ \ \frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)+o(1),\ x\to x_{0}\ \ \Leftrightarrow\end{align}$
 $\begin{align}\Leftrightarrow\ \ f(x)=f(x_{0})+f'(x)(x-x_{0})+o(x-x_{0}),\ x\to x_{0}\end{align}$
@@ -45,7 +45,7 @@ Tada $\begin{align}g\,\mathcal{D}\,y_{0},\quad g'(y_{0})=\frac{1}{f'(x_{0})}\end
 
 [[analiza1_2_4prim.png|Izvodi nekih inverznih funkcija]]
 
-### [[Ekstremum#Ekstremum funkcije jedne promenljive|Ekstremum]]
+### [[Ekstremum funkcije jedne promenljive|Ekstremum]]
 
 ### [[Teoreme o srednjoj vrednosti]]
 
@@ -71,6 +71,6 @@ $\Rightarrow\ \ f^{(2n+1)}(0)=0$
 - $f$ je neparna i $2n$ puta diferencijabilna u $0\ \ \Rightarrow$
 $\Rightarrow\ \ f^{(2n)}(0)=0$
 
-### [[Tejlorov polinom]]
+### [[Tejlorov polinom funkcije jedne promenljive|Tejlorov polinom]]
 
 ### [[Konveksnost i konkavnost]]
