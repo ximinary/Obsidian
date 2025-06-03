@@ -14,7 +14,7 @@ $(\mathbf{P},\,\boldsymbol{\xi})$ je **podela sa istaknutim tačkama** *prošire
 Aproksimiramo površinu dela površi $\mathbf{r}[\Pi_{ij}]$ sa površinom koju određuju vektori $\overrightarrow{\mathbf{x}_{i-1j}\mathbf{x}_{ij}}$ i $\overrightarrow{\mathbf{x}_{ij-1}\mathbf{x}_{ij}}$ tj. sa $||(\mathbf{x}_{ij}-\mathbf{x}_{i-1j})\times(\mathbf{x}_{ij}-\mathbf{x}_{ij-1})||$
 
 ### Površinski integral skalar-funkcije
-**Def**. Neka je $f:\ \mathcal{S}\to\mathbb{R}$,  a $\widetilde{f}$ je *proširenje* fje $f$ na $\mathbf{r}(\Pi)\supseteq \mathcal{S}$, pri tome $\widetilde{f}(\mathbf{x})=0$ za svako $\mathbf{x}\in\mathbf{r}(\Pi)\setminus\mathcal{S}$ $\ \:$ i neka je $\ \:(\mathbf{P},\,\boldsymbol{\xi})$ podela sa istaknutim tačkama *proširenja* površi $\mathcal{S}$. Zbir $\begin{align}\sigma(\widetilde{f},\,\mathbf{P},\,\boldsymbol{\xi})=\sum\limits_{i,\,j}||(\mathbf{x}_{ij}-\mathbf{x}_{i-1j})\times(\mathbf{x}_{ij}-\mathbf{x}_{ij-1})||\,\widetilde{f}(\boldsymbol{\xi}_{ij})\end{align}$ je **integralna suma**. ($P$ je površina)
+**Def**. Neka je $f:\ \mathcal{S}\to\mathbb{R}$,  a $\widetilde{f}$ je *proširenje* fje $f$ na $\mathbf{r}(\Pi)\supseteq \mathcal{S}$, pri tome $\widetilde{f}(\mathbf{x})=0$ za svako $\mathbf{x}\in\mathbf{r}(\Pi)\setminus\mathcal{S}$ $\ \:$ i neka je $\ \:(\mathbf{P},\,\boldsymbol{\xi})$ podela sa istaknutim tačkama *proširenja* površi $\mathcal{S}$. Zbir $\begin{align}\sigma(\widetilde{f},\,\mathbf{P},\,\boldsymbol{\xi})=\sum\limits_{i,\,j}||(\mathbf{x}_{ij}-\mathbf{x}_{i-1j})\times(\mathbf{x}_{ij}-\mathbf{x}_{ij-1})||\,\widetilde{f}(\boldsymbol{\xi}_{ij})\end{align}$ je **integralna suma**. 
 
 $\:$
 **Def**. Neka je $f:\ \mathcal{S}\to\mathbb{R}$. $\ \:$ $I\in\mathbb{R}$ je limes integralnih suma $\sigma(\widetilde{f},\,\mathbf{P},\,\boldsymbol{\xi})$ kad $\lambda(\mathbf{P})\to0$ ako
@@ -56,7 +56,7 @@ $\begin{align}\iint_{\mathcal{S}\cup \mathcal{T}} f(\mathbf{x}) \, ||d\mathbf{S}
 - $\begin{align}\exists\mathbf{x}_{0}\in\mathcal{S}\quad \iint_{\mathcal{S}} f(\mathbf{x}) \, ||d\mathbf{S}||= f(\mathbf{x}_{0})\cdot \mathrm{P}(\mathcal{S}) \end{align}$
 
 ### Površinski integral vektorskog polja
-**Def**. Neka je $\mathcal{S}$ površ parametrizovana sa $\mathbf{r}:\ D\to\mathbb{R}^{3}$, $\ \:$ ($D\subseteq\mathbb{R}^{2}$) $\ \:$ i neka je $(\mathbf{P},\,\boldsymbol{\xi})$ podela sa istaknutim tačkama *proširenja* te površi. Neka je $\ \:$ $\mathbf{f}:\ \mathcal{S}\to\mathbb{R}^{3}\ \:$ vektorsko polje, a $\tilde{\mathbf{f}}:\ \Pi\to\mathbb{R}^{3}$ je proširenje $\mathbf{f}$ na $\Pi\supseteq D$, takvo da $\mathbf{f}(u,\,v)=\mathbf{0}$ za svako $(u,\,v)\in\Pi\setminus D$. 
+**Def**. Neka je $\mathcal{S}$ površ parametrizovana sa $\mathbf{r}:\ D\to\mathbb{R}^{3}$, $\ \:$ ($D\subseteq\mathbb{R}^{2}$) $\ \:$ i neka je $(\mathbf{P},\,\boldsymbol{\xi})$ podela sa istaknutim tačkama *proširenja* te površi. Neka je $\ \:$ $\mathbf{f}:\ \mathcal{S}\to\mathbb{R}^{3}\ \:$ vektorsko polje, a $\tilde{\mathbf{f}}$ je *proširenje* $\mathbf{f}$ na $\mathbf{r}(\Pi)\supseteq \mathcal{S}$, takvo da $\mathbf{f}(\mathbf{x})=\mathbf{0}$ za svako $\mathbf{x}\in\mathbf{r}(\Pi)\setminus \mathcal{S}$. 
 Zbir $\begin{align}\sigma(\tilde{\mathbf{f}},\,\mathbf{P},\,\boldsymbol{\xi})=\sum\limits_{i,\,j}(\mathbf{x}_{ij}-\mathbf{x}_{i-1j})\times(\mathbf{x}_{ij}-\mathbf{x}_{ij-1})\cdot\mathbf{f}(\boldsymbol{\xi}_{i})\end{align}$ je **integralna suma** ($\cdot$ je skalarni proizvod).
 
 $\:$
