@@ -1,4 +1,4 @@
-#fax #math #a1 [deo [[Metrika|poglavlja "metrika"]]]
+#fax #math #a1 #a3 [deo [[Metrika|poglavlja "metrika"]]]
 
 
 ### Okoline u $\mathbb{R}$

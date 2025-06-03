@@ -83,7 +83,7 @@ Iz [[Diferencijabilnost funkcije više promenljivih#^d2bcd7|posledice]] i $(2)$ 
 $\begin{align}dF(\mathbf{x}^{0})=\left(\begin{array}{}\frac{\partial f_{1}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{1}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{1}}{\partial x_{n}}(\mathbf{x}^{0})\\\frac{\partial f_{2}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{2}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{2}}{\partial x_{n}}(\mathbf{x}^{0})\\\cdots&\cdots&\cdots&\cdots\\\frac{\partial f_{m}}{\partial x_{1}}(\mathbf{x}^{0})&\frac{\partial f_{m}}{\partial x_{2}}(\mathbf{x}^{0})&\cdots&\frac{\partial f_{m}}{\partial x_{n}}(\mathbf{x}^{0})\end{array}\right)\end{align}$
 
 **Primedba**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $F:\ D_{f}\to\mathbb{R}^{m}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
-Ako je $F$ linearno preslikavanje onda $dF(\mathbf{x}^{0})=F$
+Ako je $F$ linearno preslikavanje onda $dF(\mathbf{x}^{0})=F(\mathbf{x}^{0})$
 
 $\:$
 **Stav** (diferenciranje složene fje). Neka su $A\subseteq\mathbb{R}^{n}$, $\:$ $B\subseteq\mathbb{R}^{m}$ $\:$ otvoreni skupovi i neka su $F:\ A\to B$, $\ \:$ $G:\ B\to\mathbb{R}^{k}$. $\:$ $\mathbf{x}^{0}\in A$, $\:$ $\mathbf{y}^{0}=F(\mathbf{x}^{0})\in B$. Tada

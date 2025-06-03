@@ -13,13 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Home.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            },
+            "group": "2b69a3865fbef557"
+          }
+        ]
+      },
+      {
+        "id": "8d4054d48622f154",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1fdf6e0334d2228",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Analiza"
-            }
+              "title": "Home"
+            },
+            "group": "2b69a3865fbef557"
           }
         ]
       }
@@ -148,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematika/Analiza.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +180,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Analiza"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -191,35 +213,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fe9661c05c4f628f",
+  "active": "d1fdf6e0334d2228",
   "lastOpenFiles": [
     "Matematika/Matematika.md",
     "Matematika/Analiza.md",
+    "Matematika/Metrika.md",
+    "Matematika/Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost.md",
+    "Matematika/Okolina tačke.md",
+    "Površi drugog reda.md",
+    "Matematika/Parcijalni izvod.md",
+    "Matematika/Integralna veza skupa i njegove granice.md",
+    "Matematika/Tejlorov polinom funkcije više promenljivih.md",
+    "Matematika/Krivolinijski integral.md",
+    "Matematika/Površinski integral.md",
+    "Matematika/Kriva i površ.md",
+    "Matematika/Vektorska funkcija.md",
+    "Matematika/Konzervativno vektorsko polje.md",
+    "Matematika/Diferencijabilnost funkcije više promenljivih.md",
+    "Matematika/Limes i neprekidnost funkcije više promenljivih.md",
     "Home.md",
     "Matematika/Elipsa.md",
     "Matematika/Krive drugog reda.md",
     "Matematika/Geometrija.md",
-    "Površi drugog reda.md",
     "Matematika/Izvod funkcije jedne promenljive.md",
     "Matematika/Tejlorov polinom funkcije jedne promenljive.md",
-    "Matematika/Tejlorov polinom funkcije više promenljivih.md",
     "Matematika/Ekstremum funkcije više promenljivih.md",
     "Matematika/Ekstremum funkcije jedne promenljive.md",
-    "Matematika/Diferencijabilnost funkcije više promenljivih.md",
-    "Matematika/Limes i neprekidnost funkcije više promenljivih.md",
-    "Matematika/Parcijalni izvod.md",
     "Matematika/Algebarska struktura.md",
     "Preslikavanje sa vrednostima u Rm.md",
-    "Matematika/Krivolinijski integral.md",
-    "Matematika/Stepeni red.md",
-    "Matematika/Limes funkcije jedne promenljive.md",
-    "Matematika/Asimptota.md",
-    "Matematika/Vektorska funkcija.md",
-    "Matematika/Neprekidnost funkcije jedne promenljive.md",
-    "Matematika/Grafik funkcije (jedne promenljive).md",
-    "Matematika/Konveksnost i konkavnost.md",
     "Media/analiza1_2_osnovniIzvodi.png",
-    "Matematika/Nesvojstveni integral.md",
     "Media/grinova formula slika2.png",
     "Media/grinova formula slika1.png",
     "Untitled.canvas",

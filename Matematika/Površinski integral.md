@@ -97,3 +97,7 @@ Površ $\mathcal{S}$ možemo orijentisati na dva načina: ako je vektor normale 
 
 
 > Napomena: Ako je površ data sa $\varphi(x,\,y,\,z)=0$, onda je $\begin{align}\mathbf{n}=\pm\frac{\nabla\varphi}{||\nabla\varphi||}\end{align}$. Tad $\begin{align}\iint_{\mathcal{S}} \mathbf{f}(\mathbf{x}) \cdot d\mathbf{S} = \pm\iint_{\mathcal{S}} \mathbf{f}(\mathbf{x})\cdot \frac{\nabla\varphi}{||\nabla\varphi||} \, ||d\mathbf{S}||\end{align}$
+
+
+$\:$
+### [[Integralna veza skupa i njegove granice#Stoksova formula|Stoksova formula]]. [[Integralna veza skupa i njegove granice#Gausova formula|Gausova formula]]

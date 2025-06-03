@@ -26,7 +26,22 @@ $Hf(\mathbf{x}^{0})=d^{2}f(\mathbf{x}^{0})=\left(\begin{array}{}f''_{x_{1}x_{1}}
 ### Operator nabla
 **Def**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
 Vektor  $\nabla\!f(\mathbf{x}^{0})=\Big(f'_{x_{1}}(\mathbf{x}^{0}),\ \ f'_{x_{2}}(\mathbf{x}^{0}),\ \ \cdots,\ \ f'_{x_{n}}(\mathbf{x}^{0})\Big)$ zove se **gradijent** fje $f$ u tački $\mathbf{x}^{0}$.
+Oznaka: $\mathrm{grad}\,\mathbf{f}=\nabla\mathbf{f}$
+
 
 $\nabla$ zove se **operator nabla**. $\begin{align}\nabla=\bigg(\frac{\partial}{\partial x_{1}},\ \frac{\partial}{\partial x_{2}},\ \dots,\ \frac{\partial}{\partial x_{n}}\bigg)\end{align}$, gde je $n$ dimenzija domena funkcije na koju se primenjuje. 
 
+**Def**. Ako operator $\nabla$ deluje na vektorsko polje $\mathbf{f}=(P,\,Q,\,R)$ po pravilu $\nabla \cdot \mathbf{f}=P'_{x}+Q'_{y}+R'_{z}$. Tada rezultat se zove **divergencija** polja $\mathbf{f}$.
+Oznaka: $\mathrm{div}\,\mathbf{f}=\nabla\cdot \mathbf{f}$
+
+**Def**. Ako operator $\nabla$ deluje na vektorsko polje $\mathbf{f}=(P,\,Q,\,R)$ po pravilu $\nabla \times \mathbf{f}=\left|\begin{array}{}\mathbf{i}&\mathbf{j}&\mathbf{k}\\ \frac{\partial}{\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\P&Q&R\end{array}\right|=(R'_{y}-Q'_{z},\,P'_{z}-R'_{x},\,Q'_{x}-R'_{y})$. Tada rezultat se zove **rotor** polja $\mathbf{f}$.
+Oznaka: $\mathrm{rot}\,\mathbf{f}=\nabla\times \mathbf{f}$
+
+$\:$
+> Napomena:
+> - [[Konzervativno vektorsko polje|Integriranje gradijenta]]
+> - [[Integralna veza skupa i njegove granice#Gausova formula|Integriranje divergencije polja]]
+> - [[Integralna veza skupa i njegove granice#Stoksova formula|Integriranje rotora polja]]
+
+$\:$
 ### [[Tejlorov polinom funkcije više promenljivih|Tejlorov polinom]]

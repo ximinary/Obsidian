@@ -5,3 +5,5 @@ $\:$
 $\forall i=\overline{1,m}\quad f_{i}:\ A\to\mathbb{R}$ su **koordinatne funkcije**.
 
 Ako $n=m$, vektorsku funkciju nazivamo **vektorskim poljem**.
+
+> Napomena: [[Konzervativno vektorsko polje]]

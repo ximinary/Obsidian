@@ -23,9 +23,9 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 
 ### Funkcije $\mathbb{R}^{n}\to\mathbb{R}^{m}$
 [[Vektorska funkcija]]
+[[Kriva i površ]]
+
 [[Limes i neprekidnost funkcije više promenljivih|Limes i neprekidnost]]
 [[Parcijalni izvod]]
 [[Diferencijabilnost funkcije više promenljivih|Diferencijabilnost]]
-
-[[Kriva i površ]]
-Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]] 
+Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]]
