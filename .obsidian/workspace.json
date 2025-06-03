@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Home"
             },
             "group": "859de3c385da7180"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Home"
             },
             "group": "859de3c385da7180"
           }
@@ -213,13 +213,13 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "7100408409c2aa4d",
+  "active": "bdbbe8b6f74eb67e",
   "lastOpenFiles": [
-    "Matematika/Analiza.md",
-    "Matematika/Površinski integral.md",
-    "Matematika/Krivolinijski integral.md",
     "Matematika/Matematika.md",
     "Home.md",
+    "Matematika/Analiza.md",
+    "Matematika/Krivolinijski integral.md",
+    "Matematika/Površinski integral.md",
     "Računarstvo/Računarstvo.md",
     "Matematika/Brojevi.md",
     "Matematika/Kvaternion.md",
