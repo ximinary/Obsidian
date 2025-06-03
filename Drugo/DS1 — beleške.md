@@ -1,5 +1,5 @@
-![[ds1_beleške-01.png]]
-![[ds1_beleške-02.png]]
+![[ds1_beleske-01.png]]
+![[ds1_beleske-02.png]]
 # 1 Teorija skupova
 
 ![[raselov paradoks.png]]
@@ -79,7 +79,7 @@ Stav $\{a,\ b\} = \{c, \ d\}\quad$ akko $\quad \begin{cases} a = c\\ b = d \end{
 **Def.** Uređena $n$-torka se zada slično rekurentno.
 
 Stav. $(a, \ b) = (c, \ d)\quad$ akko $\quad \begin{cases} a = c\\ b = d \end{cases}$
-![[stav. jednakost uređenih parova.png]]
+![[stav. jednakost uredenih parova.png]]
 Stav. $(a_1,\: a_2,\:..., \: a_n) = (b_1,\: b_2,\:..., \: b_n)\quad$ akko $\quad \begin{cases} a_1 = b_1\\ a_1 = b_2 \\ ... \\ a_n = b_n\end{cases}$
 
 
@@ -503,7 +503,7 @@ Osobine: $\forall x,\,y,\,z \in \mathbb{N}$
 6. $x\cdot y = y\cdot x$
 7. $x \cdot y = 0 \quad \Rightarrow \quad x = 0 \ \ \mathrm{ili}\ \ y = 0$
 
-![[prirodni br osbine množenja.png]]
+![[prirodni br osbine mnozenja.png]]
 
 # 5 Teorija brojeva
 ## 5.1 Deljivost i Euklidsko deljenje
@@ -686,7 +686,7 @@ $\exists u,\,v\in \mathbb{Z}\ \ :\ \ a\,u + b\,v = d$
 >$\begin{aligned} x= u\,c' + b'\,t\quad\quad\quad x = \frac{c\,u+b\,t}{d}\\ y=v\,c' - a'\, t\quad\quad\quad y = \frac{c\,v-a\,t}{d}\end{aligned}\quad\quad\quad\forall t\in \mathbb{Z},$
 >gde su $u$, $v$ brojevi iz posledice Euklidovog algoritma za $a$ i $b$ $\:$ (tj važi $a\,u+b\,v=d$)
 
-![[diofantova jednačina primer.png]]
+![[diofantova jednacina primer.png]]
 
 ## 5.5 Kongruencije
 
@@ -827,7 +827,7 @@ inače je beskonačan
 **Teorema**. Skup $X$ je beskonačan ako postoji pravi podskup $Y$ $\ (Y \subset X)$, takav da su $X$ i $Y$ u bijekciji.
 
 Teorema. Skup prirodnih brojeva je beskonačan.
-![[teorema. N je beskonačan.png]]
+![[teorema. N je beskonacan.png]]
 
 **Def**.
 - Skup je **prebrojiv** ako je u bijekciji sa $\mathbb{N}$.

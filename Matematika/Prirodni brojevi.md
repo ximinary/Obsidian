@@ -45,7 +45,7 @@ $\dots$
 - $x \cdot 0 = 0$
 - $x\cdot y\,' = x\cdot y + x$
 
-[[prirodni br osbine množenja.png|Osobine]]: $\forall x,\,y,\,z \in \mathbb{N}$
+[[prirodni br osbine mnozenja.png|Osobine]]: $\forall x,\,y,\,z \in \mathbb{N}$
 1. $x \cdot (y + z) = x\cdot y + x\cdot z$
 2. $x \cdot (y \cdot z) =(x \cdot y) \cdot z$
 3. $(x + y) \cdot z = x\cdot z + y\cdot z$

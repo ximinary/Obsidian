@@ -8,7 +8,7 @@ inače je beskonačan
 
 **Teorema**. Skup $X$ je beskonačan ako postoji pravi podskup $Y$ $\ (Y \subset X)$, takav da su $X$ i $Y$ u bijekciji.
 
-[[teorema. N je beskonačan.png|Teorema]]. Skup prirodnih brojeva je beskonačan.
+[[teorema. N je beskonacan.png|Teorema]]. Skup prirodnih brojeva je beskonačan.
 
 **Def**.
 - Skup je **prebrojiv** ako je u bijekciji sa [$\mathbb{N}$](Prirodni%20brojevi.md).

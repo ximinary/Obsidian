@@ -30,7 +30,7 @@ $\Rightarrow\ \ f\!\circ\!g$ je neprekidna u $x_{0}$
 [[analiza1_1_kbt.png|Teorema]] (Koši-Bolcanova). $f:[a,\,b]\to\mathbb{R},\ \ f\,\mathcal{C}\,[a,\,b],\ \ f(a)\!\cdot\!f(b)<0\quad\Rightarrow$
 $\Rightarrow\quad\exists c\in (a,\,b)\ :\ f(c)=0$
 
-[[analiza1_1_međuvr.png|Teorema]] (o međuvrednosti). 
+[[analiza1_1_medjuvr.png|Teorema]] (o međuvrednosti). 
 $f:[a,\,b]\to\mathbb{R},\ \ f\,\mathcal{C}\,[a,\,b],\ \ \gamma$ je između $f(a)$ i $f(b)\quad\Rightarrow$
 $\Rightarrow\quad \exists c\in [a,\,b]\ :\ f(c)=\gamma$ ^1b740a
 

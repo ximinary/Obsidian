@@ -47,4 +47,4 @@ $\exists u,\,v\in \mathbb{Z}\ \ :\ \ a\,u + b\,v = d$
 >$\begin{aligned} x= u\,c' + b'\,t\quad\quad\quad x = \frac{c\,u+b\,t}{d}\\ y=v\,c' - a'\, t\quad\quad\quad y = \frac{c\,v-a\,t}{d}\end{aligned}\quad\quad\quad\forall t\in \mathbb{Z},$
 >gde su $u$, $v$ brojevi iz [[Euklidov algoritam#^e5f1a9|posledice Euklidovog algoritma]] za $a$ i $b$ $\:$ (tj važi $a\,u+b\,v=d$)
 
-[[diofantova jednačina primer.png|Primer]]
+[[diofantova jednacina primer.png|Primer]]

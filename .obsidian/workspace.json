@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "94a9f166a97241eb",
+        "id": "8d4054d48622f154",
         "type": "tabs",
         "children": [
           {
-            "id": "fe9661c05c4f628f",
+            "id": "d1fdf6e0334d2228",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,16 +20,16 @@
               "icon": "lucide-file",
               "title": "Home"
             },
-            "group": "2b69a3865fbef557"
+            "group": "859de3c385da7180"
           }
         ]
       },
       {
-        "id": "8d4054d48622f154",
+        "id": "649b593f3c7e043e",
         "type": "tabs",
         "children": [
           {
-            "id": "d1fdf6e0334d2228",
+            "id": "7100408409c2aa4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,7 +41,7 @@
               "icon": "lucide-file",
               "title": "Home"
             },
-            "group": "2b69a3865fbef557"
+            "group": "859de3c385da7180"
           }
         ]
       }
@@ -213,14 +213,31 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "d1fdf6e0334d2228",
+  "active": "7100408409c2aa4d",
   "lastOpenFiles": [
     "Matematika/Matematika.md",
+    "Matematika/Algebarska struktura.md",
+    "Matematika/Grupa.md",
+    "Matematika/Geometrija.md",
+    "Matematika/Površi drugog reda.md",
+    "Home.md",
+    "Media/stav. relacija poretka u bulovim algebrama.png",
+    "Media/stav. jednakost uredenih parova.png",
+    "Media/stav. jednakost skupova.png",
+    "Media/skupovi primer 2.png",
+    "Media/skupovi primer 1.png",
+    "Media/stek.png",
+    "Media/tautologija primer 2.png",
+    "Media/tautologija primer 3.png",
+    "Media/teorema. N je beskonacan.png",
+    "Media/teorema. R je neprebrojiv.png",
     "Matematika/Analiza.md",
+    "Matematika/Hiperbola.md",
+    "Matematika/Krive drugog reda.md",
+    "Matematika/Grupa permutacija.md",
     "Matematika/Metrika.md",
     "Matematika/Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost.md",
     "Matematika/Okolina tačke.md",
-    "Površi drugog reda.md",
     "Matematika/Parcijalni izvod.md",
     "Matematika/Integralna veza skupa i njegove granice.md",
     "Matematika/Tejlorov polinom funkcije više promenljivih.md",
@@ -231,28 +248,11 @@
     "Matematika/Konzervativno vektorsko polje.md",
     "Matematika/Diferencijabilnost funkcije više promenljivih.md",
     "Matematika/Limes i neprekidnost funkcije više promenljivih.md",
-    "Home.md",
     "Matematika/Elipsa.md",
-    "Matematika/Krive drugog reda.md",
-    "Matematika/Geometrija.md",
     "Matematika/Izvod funkcije jedne promenljive.md",
     "Matematika/Tejlorov polinom funkcije jedne promenljive.md",
-    "Matematika/Ekstremum funkcije više promenljivih.md",
-    "Matematika/Ekstremum funkcije jedne promenljive.md",
-    "Matematika/Algebarska struktura.md",
-    "Preslikavanje sa vrednostima u Rm.md",
-    "Media/analiza1_2_osnovniIzvodi.png",
-    "Media/grinova formula slika2.png",
-    "Media/grinova formula slika1.png",
     "Untitled.canvas",
     "Untitled",
-    "Media/analiza1_1_2.png",
-    "Media/analiza1_1_10.png",
-    "Media/analiza1_1_3_3.png",
-    "Media/analiza1_0_Katorova.png",
-    "Media/afina preslikavanja 1 geo.png",
-    "Media/analiza1_2_ferma.png",
-    "Media/analiza1_2_peanovOblikOst.png",
     "Drugo/Promenljive.canvas",
     "Drugo/Realokacija.canvas",
     "desktop.ini",

@@ -76,7 +76,7 @@ $\:$
 **Def.** Uređena trojka $\:(a,\ b,\ c)\:$ je $\:(a,\ (b,\ c))$
 **Def.** Uređena $n$-torka se zada slično rekurentno. ^e21aa8
 
-[Stav](stav.%20jednakost%20ure%C4%91enih%20parova.png). $(a, \ b) = (c, \ d)\quad$ akko $\quad \begin{cases} a = c\\ b = d \end{cases}$
+[Stav](stav.%20jednakost%20uredenih%20parova.png). $(a, \ b) = (c, \ d)\quad$ akko $\quad \begin{cases} a = c\\ b = d \end{cases}$
 
 Stav. $(a_1,\: a_2,\:..., \: a_n) = (b_1,\: b_2,\:..., \: b_n)\quad$ akko $\quad \begin{cases} a_1 = b_1\\ a_1 = b_2 \\ ... \\ a_n = b_n\end{cases}$
 

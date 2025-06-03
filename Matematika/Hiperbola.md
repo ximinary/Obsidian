@@ -18,9 +18,13 @@ Ekscentritet: $\begin{align}e=\frac{c}{a}\end{align}$
 $\:$
 
 **Parametarske jednačine**:
-Negativni deo: $\quad\quad\quad\quad\!$ Pozitivni deo:
-$\begin{align}\mathrm{M}= \binom{-a\cosh\varphi}{b\sinh\varphi}\quad\quad\quad\mathrm{M}= \binom{a\cosh\varphi}{b\sinh\varphi}\end{align}$
+Negativni deo: $\quad\quad\quad\quad\:$ Pozitivni deo:
 
+$\begin{align}\mathrm{M}_{-}= \binom{-a\cosh\varphi}{b\sinh\varphi}\quad\quad\quad\mathrm{M}_{+}= \binom{a\cosh\varphi}{b\sinh\varphi},\quad\quad\quad \varphi\in\mathbb{R}\end{align}$
+
+$\ \ \ \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad$ ili
+
+$\begin{align}\mathrm{M}_{-}= \binom{-a\frac{1}{\cos\theta}}{b\,\mathrm{tg}\,\theta}\quad\quad\quad\quad\mathrm{M}_{+}= \binom{a\frac{1}{\cos \theta}}{b\,\mathrm{tg}\,\theta},\quad\quad\quad\quad \theta\in\left( -\frac{\pi}{2},\,\frac{\pi}{2} \right)\end{align}$
 $\:$
 
 
