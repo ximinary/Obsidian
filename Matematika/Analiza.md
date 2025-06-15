@@ -29,3 +29,5 @@ Integral: [[Neodređeni integral|neodređeni]], [[Određeni integral|određeni]]
 [[Parcijalni izvod]]
 [[Diferencijabilnost funkcije više promenljivih|Diferencijabilnost]]
 Integral: [[Dvostruki integral|dvostruki]], [[Trostruki integral|trostruki]], [[Krivolinijski integral|krivolinijski]], [[Površinski integral|površinski]]
+
+### [[Diferencijalna jednačina]]

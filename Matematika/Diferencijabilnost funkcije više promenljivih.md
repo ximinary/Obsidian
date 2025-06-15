@@ -16,7 +16,7 @@ Preslikavanje $L$ se zove **diferencijal** (izvod) fje $f$ u tački $\mathbf{x}^
 $\:$
 **Stav**. Neka su $D_{f}\subseteq\mathbb{R}^{n}$, $\ \:$  $f:\ D_{f}\to\mathbb{R}$, $\ \:$ $\mathbf{x}^{0}\in\mathrm{int}\,D_{f}$.
 Ako je $f$ diferencijabilna u $\mathbf{x}^{0}$ onda $\forall\big(\mathbf{v}\in\mathbb{R}^{n}\ \ :\ \ ||\mathbf{v}||=1\big)\quad\exists f'_{\mathbf{v}}(\mathbf{x}^{0})=df(\mathbf{x}^{0})\,\mathbf{v}$
-> Dokaz: Neka je $L=df_{\mathbf{v}}(\mathbf{x}^{0})$.
+> Dokaz: Neka je $L=df(\mathbf{x}^{0})$.
 > 
 > Iz $(1)$: $\quad$ $\begin{align}f(\mathbf{x}^{0}+\mathbf{h})=f(\mathbf{x}^{0})+L\,\mathbf{h}+o\big(||\mathbf{h}||\big),\quad \mathbf{h}\to\mathbf{0}\end{align}$
 jer je $\mathbf{h}$ proizvoljno, suzimo ga do $\mathbf{h}=\lambda\,\mathbf{v}$, pri tome važi
@@ -87,7 +87,7 @@ Ako je $F$ linearno preslikavanje onda $dF(\mathbf{x}^{0})=F(\mathbf{x}^{0})$
 
 $\:$
 **Stav** (diferenciranje složene fje). Neka su $A\subseteq\mathbb{R}^{n}$, $\:$ $B\subseteq\mathbb{R}^{m}$ $\:$ otvoreni skupovi i neka su $F:\ A\to B$, $\ \:$ $G:\ B\to\mathbb{R}^{k}$. $\:$ $\mathbf{x}^{0}\in A$, $\:$ $\mathbf{y}^{0}=F(\mathbf{x}^{0})\in B$. Tada
-ako je $F$ diferencijabilna u $\mathbf{x}^{0}$ i $G$ je diferencijabilna u $\mathbf{y}^{0}$ onda je $G\circ F$ diferencijabilna u $\mathbf{x}^{0}$ i važi: $\boxed{d(F\circ G)(\mathbf{x}^{0})=dG(\mathbf{y}^{0})\circ dF(\mathbf{x}^{0})}$ ^4816ca
+ako je $F$ diferencijabilna u $\mathbf{x}^{0}$ i $G$ je diferencijabilna u $\mathbf{y}^{0}$ onda je $G\circ F$ diferencijabilna u $\mathbf{x}^{0}$ i važi: $\boxed{d(G\circ F)(\mathbf{x}^{0})=dG(\mathbf{y}^{0})\circ dF(\mathbf{x}^{0})}$ ^4816ca
 > Dokaz:
 > $F\,\mathcal{D}\,\mathbf{x}^{0}\quad\Leftrightarrow\quad F(\mathbf{x}^{0}+\mathbf{h})=F(\mathbf{x}^{0})+dF(\mathbf{x}^{0})\,\mathbf{h}+\mathbf{o}\big(||\mathbf{h}||\big),\quad \mathbf{h}\to \mathbf{0}$
 > $G\,\mathcal{D}\,\mathbf{y}^{0}\quad\Leftrightarrow\quad G(\mathbf{y}^{0}+\mathbf{k})=G(\mathbf{y}^{0})+dG(\mathbf{y}^{0})\,\mathbf{k}+\mathbf{o}\big(||\mathbf{k}||\big),\quad \mathbf{k}\to \mathbf{0}$
