@@ -61,6 +61,8 @@ ___
 Osnovna trigonometrijska smena:
 $\begin{align}u = \mathrm{tg}\frac{x}{2},\quad x\ne \pi +2\pi k,\quad k\in\mathbb{Z}\end{align}$
 $\begin{align}\sin x=\frac{2u}{1+u^{2}}\quad\quad\quad\quad\quad\cos x=\frac{1-u^{2}}{1+u^{2}}\end{align}$
+
+Povratak: $\begin{align}\mathrm{tg}\,\frac{x}{2}=\frac{\sin x}{1+\cos x}=\frac{1-\cos x}{\sin x}\end{align}$
 ___
 $A\sin x+B\cos x=\sqrt[]{A^{2}+B^{2}}\,\sin(x+\varphi),$
 gde $\quad$ $\begin{align}\sin\varphi=\frac{B}{\sqrt[]{A^{2}+B^{2}}}\quad \cos\varphi=\frac{A}{\sqrt[]{A^{2}+B^{2}}}\end{align}$
