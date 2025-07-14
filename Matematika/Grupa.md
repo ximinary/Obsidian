@@ -86,7 +86,7 @@ Operacija $*$ je **restrikcija** operacije $\cdot$ na $H$.
 $\:$
 **Stav**. Neprazan podskup $H$ grupe $G$ je podgrupa grupe $G$ u odnosu na restrikciju operacije iz $G$ akko $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$ ^2ea486
 > Dokaz:
-> $\boxed{\Rightarrow}$ $\quad$ $y\in H\quad\Rightarrow\quad y^{-1}\in H$, $\quad$ pa i $x\cdot y^{-1}\in H$
+> $\boxed{\Rightarrow}$ $\quad$ $x,\,y\in H\quad\Rightarrow\quad y^{-1}\in H$, $\quad$ pa i $x\cdot y^{-1}\in H$
 > $\boxed{\Leftarrow}$ $\quad$ Neka $H\ne\varnothing$ $\ \:$ i $\ \:$ $\forall x,\,y \in H\quad x\cdot y^{-1}\in H$
 > Jasno je da je asocijativnost sačuvana u svakom podskupu grupe.
 > $h\in H\quad\Rightarrow\quad e=h\cdot h^{-1}\in H$ — neutral
@@ -127,6 +127,7 @@ Oznaka: $\langle X\rangle$
 $X$ je **skup generatora** te podgrupe.
 
 $X^{-1}=\{x^{-1}\ |\ x\in X\}$ je skup svih inverza elemenata iz $X$.
+
 **Stav**. $\langle X\rangle =\{(a_{1}\cdots a_{n})\ |\ n\in \mathbb{N}_{0},\,a_{i}\in X\cup X^{-1}\}$
 (ako je $n=0$, imamo neutral $e$)
 
@@ -142,7 +143,7 @@ $X^{-1}=\{x^{-1}\ |\ x\in X\}$ je skup svih inverza elemenata iz $X$.
 > Da li neke za neke $l> m$ može važiti $a^{l}=a^{m}$?
 > Pomnožimo jednačinu sa $a^{-m}$, imamo $a^{l-m}=e$, pri tome $l - m \geqslant 1$. Kontradikcija, važi da su sve $a^{n}$ različite za različite $n$, stoga $\langle a\rangle$ ima beskonačno mnogo elemenata.
 > 
-> Ako je $a$ reda $n\geqslant 1$, tj. $\ \:$ $a^{n}=e$ $\ \:$ i $\ \:$ $\forall m=\overline{1,\,n\!-\!1}\quad a^{n}\ne e$
+> Ako je $a$ reda $n\geqslant 1$, tj. $\ \:$ $a^{n}=e$ $\ \:$ i $\ \:$ $\forall m=\overline{1,\,n\!-\!1}\quad a^{m}\ne e$
 > Stoga, $\forall m\in\mathbb{Z}\quad \exists r=\overline{1,\,n\!-\!1}\quad a^{m}=a^{n\cdot k+r}=(a^{n})^{k}\cdot a^{r}=e^{k}\cdot a^{r}=a^{r}$
 > Imamo, $\langle a\rangle=\{e,\,a,\,a^{2},\,\dots,\,a^{n-1}\}$
 > Da li taj skup sadrži ponavljajuće elemente? Pretpostavimo da za neke $0\leqslant m < l< n$ važi $a^{l}=a^{m}$, tj. $a^{l-m}=e$, 
@@ -175,6 +176,7 @@ $\:$
 1. Svaka podgrupa ciklične grupe i sama je ciklična.
 2. $G$ je ciklična grupa reda $n$. Tada
   $k\,|\,n\quad\Rightarrow\quad\exists!H\leqslant G\ \ \:\ \ |H|=k$
+
 
 > Dokaz: 
 > 1. Neka je $G= \langle a \rangle$ i $H\leqslant G$.
@@ -209,7 +211,7 @@ $ab=ba$ $\ \:$ i $\ \:$ $\langle a \rangle\cap\langle b \rangle=\{e\}$, $\ \:$ o
 > $e=(a\,b)^{s}=a^{s}b^{s}\quad\Rightarrow\quad a^{s}=b^{-s}$, $\:$ $a^{s}\in \langle a \rangle$, $\:$ $b^{-s}\in\langle b \rangle$
 > Jer $\langle a \rangle\cap\langle b \rangle=\{e\}$ dobijamo $a^{s}=e=b^{s}$ 
 > $\Rightarrow\quad m\,|\,s\ \text{ i } \ n\,|\,s\quad\Rightarrow\quad t\,|\,s$
-> Konačno, $n=m$
+> Konačno, $t=s$
 
 $\:$
 **Teorema**. Neka je $G$ grupa i $a,\,b\in G$ takvi da $a\,b=b\,a$
@@ -292,7 +294,7 @@ $\:$
 $(P,\,*)$ jeste grupa:
 - asocijativnost sledi direktno
 - neutral $e=(e_{1},\,e_{2},\,\dots,\,e_{n})$
-- inverz $(e_{1},\,e_{2},\,\dots,\,e_{n})^{-1}=(e_{1}^{-1},\,e_{2}^{-1},\,\dots,\,e_{n}^{-1})$
+- inverz $(g_{1},\,g_{2},\,\dots,\,g_{n})^{-1}=(g_{1}^{-1},\,g_{2}^{-1},\,\dots,\,g_{n}^{-1})$
 
 **Stav**. Grupa $\mathbb{Z}_{m}\times\mathbb{Z}_{n}$ je ciklična akko $\mathrm{NZD}(m,\,n)=1$.
 > Dokaz: 
@@ -339,3 +341,53 @@ Tada $G\cong H\times K$.
 
 
 > Primer: $\mathbb{D}_{6}\cong\mathbb{D}_{3}\times\mathbb{Z}_{2}$
+
+$\:$
+### Veza između reda grupe i reda njenih podgrupa/elemenata
+**Def**. Ako je $H\leqslant G$ $\ \:$ i $\ \:$ $x\in G$
+- Skup $xH=\{x\cdot h\ \big|\ h\in H\}$ se zove levi koset podgrupe $H$ u grupi $G$
+- Skup $Hx=\{h\cdot x\ \big|\ h\in H\}$ se zove desni koset podgrupe $H$ u grupi $G$
+
+Skup svih levih koseta grupe $H$ u $G$ se označava sa $G/H$
+Skup svih desnih koseta grupe $H$ u $G$ se označava sa $H\!\setminus\!G$
+
+> Napomena: u opštem slučaju važi $xH\ne Hx$ kao i $G/H\ne H\!\setminus\!G$;
+> u opštem slučaju $\exists$ bijekcija $xH\mapsto Hx^{-1}$, stoga $\big|G/H\big|=\big|H\!\setminus\!G\big|$.
+
+$\:$
+**Stav**.
+1. $xH=yH\quad\Leftrightarrow\quad x^{-1}y\in H$
+2. $xH\ne yH\quad\Rightarrow\quad xH\cap yH=\varnothing$
+
+> Dokaz:
+> 1. $\boxed{\Rightarrow}$ Neka $xH=yH$. Tada, jer je $e\in H$, važi $y\in xH$, tj. $\exists h\in H\ \ :\ \ xh=y$, odakle $h=x^{-1}y$
+> $\:$
+> $\boxed{\Leftarrow}$ Neka je $x^{-1}y\in H$. 
+> Pretpostavimo da je $z\in xH$, odakle $\exists h\ \ :\ \ z=xh=x(x^{-1}y)(x^{-1}y)^{-1}h=y\underbrace{\big((x^{-1}y)h\big)}_{\in H}\in yH$
+> tj. $xH\subseteq yH$. Analogno se dokazuje i $xH\supseteq yH$, odakle $xH=yH$.
+> $\:$
+> 2. pps: važi $xH\ne yH\quad$ i $\quad xH\cap yH\ne\varnothing$, tj. $\exists z\in xH\cap yH$
+>    $\exists h,\,h'\ \ :\ \ z=xh=yh'$ 
+> odakle $x^{-1} y=\underbrace{h(h')^{-1}}_{\in H}\quad\overset{1.}{\Rightarrow}\quad xH=yH$. Kontradikcija.
+
+$\:$
+**Stav**. $G$ je grupa, $H\leqslant G$. Tada je $G$ disjunktna unija različitih levih koseta podgrupe $H$.
+
+**Teorema** (Lagranžova) $G$ je konačna grupa, $H\leqslant G$. Tada 
+$\big|G\big|=\big|H\big|\cdot[G:H]$ $\quad$ (odakle red grupe $H$ deli red grupe $G$)
+
+> Dokaz:
+> Iz prethodnog stava $\begin{align}G=\bigsqcup_{i =1}^{k}x_{i}H\end{align}$, gde su $x_{i}$ svi različiti, a $k =[G:H]$.
+> i jer $\big|xH\big|=\big|H\big|$ za bilo koje $x\in G$, 
+> važi da $\big|G\big|=\big|H\big|\cdot[G:H]$
+
+$\:$
+**Posledica**. Red svakog elementa konačne grupe deli red te grupe.
+**Posledica**. Svaka grupa prostog reda je ciklična.
+**Posledica**. Ako je $G$ konačna grupa, onda $\forall x\in G\quad x^{|G|}=e$
+
+<!--**Def**. $G$ je grupa, $H\leqslant G$.
+- Ako je skup $G/H$ beskonačan, onda je podgrupa $H$ **beskonačnog indeksa** u $G$.
+- Ako je skup $G/H$ konačan, onda je **indeks** podgrupe $H$ u $G$ jednak veličine tog skupa. Oznaka $[G:H]\,:=\,\big|G/H\big|$
+-->
+

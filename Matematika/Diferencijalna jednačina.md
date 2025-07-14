@@ -12,13 +12,18 @@ $\:$
 
 Rešiti (naći opšte rešenje) diferencijalnu jednačinu znači odrediti sve funkcije $f$ koje je zadovoljavaju.
 
+
 ### DJ prvog reda (neki slučajevi)
-$F(x,\,y,\,y')=0$
+Naći sva rešenja jedačine $F(x,\,y,\,y')=0$
+
+Ako za dati $x_{0},\,y_{0}\in\mathbb{R}$ tražimo neko rešenje $y$ koje zadovoljava i jednačinu $F(x,\,y,\,y')=0$ i uslov $y_{0}=y(x_{0})$, onda se takav problem zove **Košijev problem**.
 
 #### Razdvajanje promenljivih
 $y'=f(x)\,g(y)$
 
 $\begin{align}\frac{d y}{dx}=f(x)\,g(y)\quad\Rightarrow\quad\frac{dy}{g(y)}=f(x)\,dx\quad\Rightarrow\quad\int\frac{dy}{g(y)}= \int f(x) \, dx\end{align}$
+
+uz proveru da li jeste ili nije $g(y)=0$ rešenje 
 #### Linearna DJ prvog reda (LDJ1)
 $y'+P(x)y=Q(x)$
 - množimo jednačinu sa $u(x)$ takvim da levi deo jednačine bude oblika $y'u+yu'$,
@@ -30,7 +35,7 @@ $y'+P(x)y=Q(x)$
 
 #### Bernulijeva DJ
 $y'+P(x)y=Q(x)y^{\alpha}$ (ima smisla razlikovati za $\alpha\ne0,\,1$)
-($y\equiv0$ je uvek rešenje)
+($y\equiv0$ je uvek rešenje za $\alpha>0$)
 
 Množimo sa $y^{-\alpha}$: $\quad$ $y'y^{-\alpha}+P(x)y^{1-\alpha}=Q(x)$
 Smena $z=y^{1-\alpha}$, tada $z'=(1-\alpha)y^{-\alpha}y'$

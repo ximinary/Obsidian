@@ -66,6 +66,15 @@ Skup svih parnih permutacija u $\mathbb{S}_{n}$ je grupa $\mathbb{A}_{n}$
 
 $\:$
 ### Svojstva $\mathbb{S}_{n}$ i $\mathbb{A}_{n}$
+**Lema**. $(a_{1},\,a_{2},\,\dots,\,a_{k}),\ \pi\in\mathbb{S}_{n}$. Tada $\pi(a_{1},\,a_{2},\,\dots,\,a_{k})\pi^{-1}=\Big(\pi(a_{1}),\,\pi(a_{2}),\,\dots,\,\pi(a_{k})\Big)$
+> Dokaz:
+> Jasno je da jednakost važi primenom fja na svaki $x\ \ :\ \ \pi^{-1}(x)\not\in\{a_{1},\,a_{2},\,\dots,\,a_{k}\}$.
+> Razmatramo primenu fja na $x\ \ :\ \ \pi^{-1}(x)\in\{a_{1},\,a_{2},\,\dots,\,a_{k}\}$:
+> $\quad$ Neka je $\:\pi^{-1}(x)=a_{i}\quad i\!=\!\overline{1,k}\:$ i neka $\:a_{k+1}:=a_{1}\:$ 
+> $\quad$ Sa leve strane: $\quad$ $\Big(\pi(a_{1},\,a_{2},\,\dots,\,a_{k})\pi^{-1}\Big)(x)=\Big(\pi(a_{1},\,a_{2},\,\dots,\,a_{k})\Big)(a_{i})=\pi(a_{i+1})$
+> $\quad$ Sa desne strane: $\quad$ $\Big(\pi(a_{1}),\,\pi(a_{2}),\,\dots,\,\pi(a_{k})\Big)(x)=\Big(\pi(a_{1}),\,\pi(a_{2}),\,\dots,\,\pi(a_{k})\Big)\Big(\pi(a_{i})\Big)=\pi(a_{i+1})$
+
+$\:$
 **Stav**. Grupa $\mathbb{S}_{n}$ je generisana:
 1. transpozicijama $(1\,2),\ (1\,3),\ \dots,\ (1\,n)$
 2. transpozicijama $(1\,2),\ (2\,3),\ \dots,\ (n-1\,n)$
@@ -76,7 +85,7 @@ $\:$
 >    $1\mapsto a\mapsto a \mapsto 1$
 >    $a\mapsto 1\mapsto b \mapsto b$
 >    $b\mapsto b\mapsto 1 \mapsto a$
->    Tako možemo dobiti svaku transpoziciju, a iz [[Grupa permutacija#^76ab79|stava]] svaku permutaciju je moguće predstaviti kao kombinaciju transpozicija.
+>    Tako možemo predstaviti svaku transpoziciju, a iz [[Grupa permutacija#^76ab79|stava]] svaku permutaciju je moguće predstaviti kao kombinaciju transpozicija.
 >   2. Treba pokazati da je moguće izraziti svaku od transpozicija iz $1.$ kao kombinaciju transpozicija iz $2.$ 
 >    Indukcijom:
 >    baza: $(1\ 2)$ već je izražena. 

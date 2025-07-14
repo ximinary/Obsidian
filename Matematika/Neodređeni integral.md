@@ -15,7 +15,7 @@ Napomena: [[Izvod funkcije jedne promenljive|izvod]]
 **Teorema**. Neka je $f:\ (a,\,b)\to \mathbb{R}$; neka su $F_{1},\,F_{2}:\ (a,\,b)\to \mathbb{R}$ primitivne za $f$ na $(a,\,b)$. Tada $\exists C\in \mathbb{R}\ \ :\ \ \forall x\in(a,\,b)\quad F_{1}(x)-F_{2}(x)=C$.
 
 >Dokaz: Neka je $G:\ (a,\,b)\to\mathbb{R}$ def. sa $G(x):=F_{1}(x)-F_{2}(x)$, tada $\forall x\in(a,\,b)\quad G'(x)=\big(F_{1}(x)-F_{2}(x)\big)'=f(x)-f(x)=0$
->Iz [[Teoreme o srednjoj vrednosti#^510c8c|posledice]] [[Teoreme o srednjoj vrednosti#^e52da5|Lagranževe teoreme]]: $G\equiv \mathrm{const}$
+>Iz [[Teoreme o srednjoj vrednosti#^510c8c|posledice]] [[Teoreme o srednjoj vrednosti#^e52da5|Lagranžove teoreme]]: $G\equiv \mathrm{const}$
 
 $\:$
 

@@ -109,7 +109,7 @@ $\:$
 **Stav**. Neka je $f:\ (-R,\,R)\to\mathbb{R}$ takva da $f\,\mathcal{C}^{\infty}\,(-R,\,R)$. Tada ako $\forall r\in(0,\,R)\quad\exists M>0\quad\forall n\in\mathbb{N}_{0}\quad\forall x\in[-r,\,r]\quad|f^{(n)}(x)|\leqslant M$ 
 onda $\forall x\in(-R,\,R)\quad\lim\limits_{ n \to \infty }R_{n}(x,\,0;\,f)=0$
 > Dokaz:
-> [[Tejlorov polinom funkcije jedne promenljive#^ddcb73|Lagranžev oblik ostatka]] Maklorenovog polinoma:
+> [[Tejlorov polinom funkcije jedne promenljive#^ddcb73|Lagranžov oblik ostatka]] Maklorenovog polinoma:
 > $\begin{align}R_{n}(x,\,0;\,f)=\frac{f^{(n+1)}(\xi)\cdot x^{n+1}}{(n+1)!},\quad\quad\end{align}$ gde je $\xi$ između $0$ i $x$.
 >
 > Tada, za svako $x\in(-R,\,R)$ postoji $r\in(|x|,\,R)$ za takvo $r$ is pretpostavke $\:\exists M>0\:$ tako da $\:\forall n\in\mathbb{N}_{0}\:$ važi $\:|f^{(n)}(\xi)|\leqslant M\:$ (jer $|\xi|<|x|<r$)

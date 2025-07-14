@@ -49,7 +49,7 @@ $\:$
 >
 > Razmotrimo brojilac u limesu — oduzimamo i dodajemo iste članove:
 > $\underbrace{f\left(\begin{array}{}x_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)-f\left(\begin{array}{}x^{0}_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)}_{=f'_{x_{1}}\left(\begin{array}{}\xi_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)(x_{1}-x^{0}_{1})}+\underbrace{f\left(\begin{array}{}x^{0}_{1}\\x_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)-f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)}_{=f'_{x_{2}}\left(\begin{array}{}x^{0}_{1}\\\xi_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)(x_{2}-x^{0}_{2})}+\underbrace{f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\x_{3}\\\dots\\x_{n}\end{array}\right)-}_{\dots}\dots \underbrace{-f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n-1}\\x_{n}\end{array}\right)}_{\dots}+\underbrace{f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n-1}\\x_{n}\end{array}\right)-f\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n-1}\\x^{0}_{n}\end{array}\right)}_{=f'_{x_{n}}\left(\begin{array}{}x^{0}_{1}\\x^{0}_{2}\\\dots\\x^{0}_{n}\\\xi_{n}\end{array}\right)(x_{n}-x^{0}_{n})}-L(\mathbf{x}-\mathbf{x}^{0})=$
-> > Što dobijamo iz [[Teoreme o srednjoj vrednosti#^e52da5|Lagranževe teoreme]] za fje jedne promenljive,
+> > Što dobijamo iz [[Teoreme o srednjoj vrednosti#^e52da5|Lagranžove teoreme]] za fje jedne promenljive,
 > > pri čemu $\forall i=\overline{1,n}\quad\xi_{i}$ je između $x_{i}$ i $x^{0}_{i}$ 
 > >
 > > Iz [[Diferencijabilnost funkcije više promenljivih#^d2bcd7|posledice]] imamo $\begin{align}L(\mathbf{x}-\mathbf{x}^{0})=\sum\limits_{i=1}^{n}f'_{x_{i}}(\mathbf{x}^{0})(x_{i}-x^{0}_{i})\end{align}$

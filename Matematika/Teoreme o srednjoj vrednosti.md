@@ -4,7 +4,7 @@ $\:$
 [[analiza1_2_rol.png|Teorema]] (Rolova). $f:[a,\,b]\to \mathbb{R},\ f\,\mathcal{C}\,[a,\,b],\ f\,\mathcal{D}\,(a,\,b),\ f(a)=f(b).$
 Tada $\exists \xi\in(a,\,b)\ : \ f'(\xi)=0$
 
-[[analiza1_2_lagranz.png|Teorema]] (Lagranževa). $f:[a,\,b]\to \mathbb{R},\ f\,\mathcal{C}\,[a,\,b],\ f\,\mathcal{D}\,(a,\,b).$
+[[analiza1_2_lagranz.png|Teorema]] (Lagranžova). $f:[a,\,b]\to \mathbb{R},\ f\,\mathcal{C}\,[a,\,b],\ f\,\mathcal{D}\,(a,\,b).$
 Tada $\begin{align}\exists \xi\in(a,\,b)\ : \ f'(\xi)=\frac{f(b)-f(a)}{b-a}\end{align}$ ^e52da5
 
 [[analiza1_2_lagranz_p1.png|Posledica 1]]. $f\,\mathcal{C}\,[a,\,b],\ f\,\mathcal{D}\,(a,\,b),\ f'(x)\equiv0.$

@@ -17,7 +17,7 @@ Tada je dužina krive $f$ jednaka $\begin{align}L=\int_{a}^{b} \sqrt[]{1+\big(f'
 > $L_{i}=\sqrt[]{\Big(x_{i} - x_{i-1}\Big)^{2}+\Big(f(x_{i}) - f(x_{i-1})\Big)^{2}} =$
 > $\begin{align}=(x_{i} - x_{i-1})\sqrt[]{1+\bigg(\frac{f(x_{i}) - f(x_{i-1})}{x_{i} - x_{i-1}}\bigg)^{2}},\quad\quad\forall i = \overline{1,n}\end{align}$
 > 
-> Iz [[Teoreme o srednjoj vrednosti#^e52da5|Lagranževe teoreme]]:
+> Iz [[Teoreme o srednjoj vrednosti#^e52da5|Lagranžove teoreme]]:
 > $\begin{align}\forall i = \overline{1,n}\quad\exists\xi_{i}\in(x_{i-1},\,x_{i})\ \ :\ \ f'(\xi_{i})=\frac{f(x_{i}) - f(x_{i-1})}{x_{i} - x_{i-1}}\end{align}$
 > Uzimamo $\xi=(\xi_{1},\,\xi_{2},\,\dots,\,\xi_{n})$ kao podeone tačke podele.
 > 

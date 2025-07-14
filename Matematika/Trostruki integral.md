@@ -90,7 +90,7 @@ $\begin{align}\iiint_{F[D]} f(x,\,y,\,z) \, dxdydz = \iiint_{D} f(r\cos \theta\s
 > $\mathcal{P}=\Big\{\mathrm{S}_{ijk}\ \Big|\ i=\overline{1,n},\ j=\overline{1,m},\ k =\overline{1,l}\Big\}$ — podela $\mathrm{S}$, pri čemu 
 > $\mathrm{S}_{ijk}=\Big\{(r,\,\theta)\ \Big|\ r_{i}\leqslant r\leqslant r_{i+1},\ \ \theta_{j}\leqslant\theta\leqslant\theta_{j+1},\ \ \varphi_{k}\leqslant\varphi\leqslant\varphi_{k+1}\Big\}$
 > Zapremina $\mathrm{S}_{ijk}$ je jednaka $\begin{align}\frac{(r_{i+1}^{3}-r_{i}^{3})(\theta_{j+1}-\theta_{j})(\cos\varphi_{k}-\cos\varphi_{k+1})}{3}=\frac{1}{3}3\hat{r}_{i}^{2}\Delta r_{i}\Delta\theta_{j}(-\sin \hat{\varphi}_{k})(-\Delta\varphi_{k})=\hat{r}_{i}^{2}\sin \hat{\varphi}_{k}\Delta r_{i}\Delta\theta_{j}\Delta\varphi_{k}\end{align}$
-> uz primenu [[Teoreme o srednjoj vrednosti#^e52da5|Lagranževe teoreme]] na fje $x^{3}$ ($\exists \hat{r}_{i}\in(r_{i},\,r_{i+1})$) i $\cos x$ ($\exists\hat{\varphi}_{k}\in(\varphi_{k},\,\varphi_{k+1})$) i uz oznake $\Delta r_{i}=r_{i+1}-r_{i}$, $\ \:$ $\Delta \theta_{j}=\theta_{j+1}-\theta_{j}$, $\ \:$ $\Delta \varphi_{k}=\varphi_{k+1}-\varphi_{k}$
+> uz primenu [[Teoreme o srednjoj vrednosti#^e52da5|Lagranžove teoreme]] na fje $x^{3}$ ($\exists \hat{r}_{i}\in(r_{i},\,r_{i+1})$) i $\cos x$ ($\exists\hat{\varphi}_{k}\in(\varphi_{k},\,\varphi_{k+1})$) i uz oznake $\Delta r_{i}=r_{i+1}-r_{i}$, $\ \:$ $\Delta \theta_{j}=\theta_{j+1}-\theta_{j}$, $\ \:$ $\Delta \varphi_{k}=\varphi_{k+1}-\varphi_{k}$
 > 
 > Biramo istaknute tačke: $\begin{align}\xi_{ijk}=(\hat{r}_{i},\ \hat{\theta}_{j},\,\hat{\varphi}_{k}),\quad \theta_{j}<\hat{\theta}_{j}<\theta_{j+1}\end{align}$
 > 

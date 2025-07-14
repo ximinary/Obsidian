@@ -68,7 +68,7 @@ $\:$
 $\:$
 **Teorema**. Neka je skup $S$ zadat pomoću sistema jednačina $\begin{cases}\varphi_{1}(\mathbf{x})=0\\\varphi_{2}(\mathbf{x})=0\\\dots\\\varphi_{m}(\mathbf{x})=0\end{cases}$, pri tome fja $\varphi_{i}$ je diferencijabilna za $\forall i=\overline{1,n}$ i skup vektora $\Big\{\nabla\varphi_{i}(\mathbf{x})\ \Big|\ i=\overline{1,n}\Big\}$ je linearno nezavisan za $\forall\mathbf{x}\in S$. Neka je $f$ diferencijabilna na nekom otvorenom skupu $I$ takvom da $S\subseteq I$ i neka je $\mathbf{x}^{0}$ lokalni ekstremum fje $f\big|_{S}$. Tada
 $\exists\lambda_{1},\,\dots,\,\lambda_{m}\in\mathbb{R}\ \ :\ \ \nabla\!f(\mathbf{x}^{0})=\lambda_{1}\,\nabla\varphi_{1}(\mathbf{x}^{0})+\dots+\lambda_{m}\,\nabla\varphi_{m}(\mathbf{x}^{0})$
-(Brojeve $\lambda_{1},\,\dots,\,\lambda_{m}$ se nazivaju **Lagranževi množioci**)
+(Brojeve $\lambda_{1},\,\dots,\,\lambda_{m}$ se nazivaju **Lagranžovi množioci**)
 > Dokaz: razmotrimo dva osnovna slučaja, koje je moguće generalizovati.
 > - Slučaj $n = 3,\ \  m = 1\:$ — površ u prostoru.
 > 

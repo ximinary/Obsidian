@@ -18,7 +18,7 @@ $\:$
 > Dokaz: 
 > Neka je $\mathbf{h}=\mathbf{x}-\mathbf{x}^{0}$ i neka je $\varphi:\ [0,\,1]\to\mathbb{R}$ takva da $\varphi(t)=f(\underbrace{\mathbf{x}^{0}+\mathbf{h}\,t}_{g(t)})$
 > 
-> Nađemo Tejlorov polinom stepena $k$ funkcije $\varphi$ u $t=0$ i njegov Lagranžev ostatak:
+> Nađemo Tejlorov polinom stepena $k$ funkcije $\varphi$ u $t=0$ i njegov Lagranžov ostatak:
 > $\begin{align}\varphi(t)=\varphi(0)+\varphi'(0)\,t+\frac{\varphi''(0)}{2!}\,t^{2}+\dots+\frac{\varphi^{(k)}(0)}{k!}\,t^{k}+\frac{\varphi^{(k+1)}(\xi)}{(k+1)!}t^{k+1}\end{align}$, 
 > za neko $\xi$ između $0$ i $t$.
 > 
