@@ -96,8 +96,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 229.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,8 +215,16 @@
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
-    "Matematika/Algebarska struktura.md",
+    "Matematika/Normalne podgrupe.md",
+    "Matematika/Grupa.md",
+    "Matematika/Grupa permutacija.md",
+    "Matematika/Kvaternion.md",
+    "Matematika/Brojevi.md",
     "Matematika/Matematika.md",
+    "Matematika/Algebarska struktura.md",
+    "Matematika/Celi brojevi.md",
+    "Matematika/Kongruentnost.md",
+    "Matematika/Euklidov algoritam.md",
     "Matematika/Analiza.md",
     "Matematika/Izvod funkcije jedne promenljive.md",
     "Matematika/Tejlorov polinom funkcije jedne promenljive.md",
@@ -231,19 +238,11 @@
     "Matematika/Tejlorov polinom funkcije više promenljivih.md",
     "Matematika/Ekstremum funkcije više promenljivih.md",
     "Matematika/Teoreme o srednjoj vrednosti.md",
-    "Matematika/Grupa.md",
-    "Matematika/Grupa permutacija.md",
     "Matematika/Diferencijalna jednačina.md",
     "Home.md",
     "Matematika/Linearna algebra.md",
     "Matematika/Linearni operator.md",
     "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
-    "Matematika/Diofantova jednačina.md",
-    "Matematika/Celi brojevi.md",
-    "Matematika/Euklidov algoritam.md",
-    "Matematika/Grafik funkcije (jedne promenljive).md",
-    "Matematika/Niz brojeva.md",
-    "Matematika/Elementarna matematika.md",
     "Media/stav. relacija poretka u bulovim algebrama.png",
     "Media/stav. jednakost uredenih parova.png",
     "Media/stav. jednakost skupova.png",

@@ -93,12 +93,24 @@ Ako je $\overline x$ je jedno rešenje sistema onda su sva rešenja oblika $x = 
 ### Ojlerova teorema
 **Def**. Neka je $n>1$ prirodan broj, tada skup $\Phi(n)=\{ k\in \mathbb{N}\ | \ 1\leqslant k< n \ \ \mathrm{i}\ \ \mathrm{NZD}(k,\,n)=1\}$ je **Ojlerov skup**.
 $\varphi (n) = |\Phi(n)|$ je **Ojlerova funkcija**.
+
+**Stav**. $\big(\Phi(n),\,\cdot_{n}\big)$ je Abelova grupa.
+> - Zatvorenost operacije:  $\mathrm{NZD}(a,\,n)=1$ i $\mathrm{NZD}(b,\,n)=1$ 
+>   $\Rightarrow\quad \mathrm{NZD}(a\cdot_{n}b,\,n)$ $\ \:$ ([[Euklidov algoritam#^4496b1|*]])
+> - Asocijativnost i komutativnost su očigledni
+> - Neutral je $1$, $\ \:$ $\mathrm{NZD}(1,\,n)=1$ 
+> - Inverz: za $x\in\Phi(n)\quad\exists p,\,q\in\mathbb{Z}\ \ :\ \ px+qn=1$ $\ \:$ ([[Euklidov algoritam#^e5f1a9|*]])
+> odakle $px+qn\equiv_{n}1$, $\ \:$ $px\equiv_{n} 1$, $\ \:$ $\overline{p}:=p \ \mathrm{mod}\ n$ — inverz od $x$
+> $\mathrm{NZD}(p,\,n)=1\quad\Rightarrow\quad\overline{p}\in\Phi(n)$
+
+
 >Primer:
 >$\Phi(3) = \{ 1,\,2 \}\quad\quad\quad\ \ \varphi(3)=2$
 >$\Phi(4) = \{ 1,\,3 \}\quad\quad\quad\ \ \varphi(4)=2$
 >$\Phi(5) = \{ 1,\,2\,3\,4 \}\quad\quad\,\varphi(5)=4$
 >$\Phi(6) = \{ 1,\,5 \}\quad\quad\quad\ \ \varphi(6)=2$
 
+$\:$
 Teorema. $m,\,n>1,\ \ \mathrm{NZD}(m,\,n)=1\ \ \Rightarrow\ \ \varphi(m\,n)=\varphi(m)\,\varphi(n)$
 
 
@@ -109,8 +121,12 @@ Tada $\varphi(n)=\varphi(p_{1}^{\alpha_{1}})\,\varphi(p_{2}^{\alpha_{2}})\,\dots
 $= (p_{1}^{\alpha_{1}}-p_{1}^{\alpha_{1}-1})\,(p_{2}^{\alpha_{2}}-p_{2}^{\alpha_{2}-1})\,\dots\,(p_{k}^{\alpha_{k}}-p_{k}^{\alpha_{k}-1})=$
 $\begin{align}=n\,\bigg(1-\frac{1}{p_{1}}\bigg)\,\bigg(1-\frac{1}{p_{2}}\bigg)\,\dots\,\bigg(1-\frac{1}{p_{k}}\bigg)\end{align}$
 
+$\:$
 [[ojlevova teorema.png|Teorema]] (Ojlerova). $n > 1\:$ i $\:a$ su prirodni brojevi i $\mathrm{NZD}(a,\,n)=1$.
 Tada $a^{\varphi(n)}\equiv_{n}1$
+> Dokaz:
+> $a\equiv_{n}\overline{a}\in\Phi(n)$ $\ \:$ ([[Euklidov algoritam#^4496b1|*]])
+> Na osnovu [[Grupa#^026da4|posledice]] $\overline{a}^{\varphi(n)}\equiv_{n}1$
 
 Posledica (mala Fermaova teorema). $a\in \mathbb{N}$,$\ p$ je prost, $p\nmid a$. 
 Tada $a^{p-1}\equiv_{p}1$

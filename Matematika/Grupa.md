@@ -344,6 +344,7 @@ Tada $G\cong H\times K$.
 
 $\:$
 ### Veza između reda grupe i reda njenih podgrupa/elemenata
+
 **Def**. Ako je $H\leqslant G$ $\ \:$ i $\ \:$ $x\in G$
 - Skup $xH=\{x\cdot h\ \big|\ h\in H\}$ se zove levi koset podgrupe $H$ u grupi $G$
 - Skup $Hx=\{h\cdot x\ \big|\ h\in H\}$ se zove desni koset podgrupe $H$ u grupi $G$
@@ -371,6 +372,11 @@ $\:$
 > odakle $x^{-1} y=\underbrace{h(h')^{-1}}_{\in H}\quad\overset{1.}{\Rightarrow}\quad xH=yH$. Kontradikcija.
 
 $\:$
+**Def**. $G$ je grupa, $H\leqslant G$.
+- Ako je skup $G/H$ beskonačan, onda je podgrupa $H$ **beskonačnog indeksa** u $G$.
+- Ako je skup $G/H$ konačan, onda je **indeks** podgrupe $H$ u $G$ jednak veličine tog skupa. Oznaka $[G:H]\,:=\,\big|G/H\big|$
+
+
 **Stav**. $G$ je grupa, $H\leqslant G$. Tada je $G$ disjunktna unija različitih levih koseta podgrupe $H$.
 
 **Teorema** (Lagranžova) $G$ je konačna grupa, $H\leqslant G$. Tada 
@@ -383,11 +389,22 @@ $\big|G\big|=\big|H\big|\cdot[G:H]$ $\quad$ (odakle red grupe $H$ deli red grupe
 
 $\:$
 **Posledica**. Red svakog elementa konačne grupe deli red te grupe.
-**Posledica**. Svaka grupa prostog reda je ciklična.
+
+**Posledica**. Svaka grupa prostog reda $p$ je ciklična (tj. izomorfna $\mathbb{Z}_{p}$).
+
 **Posledica**. Ako je $G$ konačna grupa, onda $\forall x\in G\quad x^{|G|}=e$
+^026da4
+> [[Kongruentnost#Ojlerova teorema|Ojlerova teorema]]
 
-<!--**Def**. $G$ je grupa, $H\leqslant G$.
-- Ako je skup $G/H$ beskonačan, onda je podgrupa $H$ **beskonačnog indeksa** u $G$.
-- Ako je skup $G/H$ konačan, onda je **indeks** podgrupe $H$ u $G$ jednak veličine tog skupa. Oznaka $[G:H]\,:=\,\big|G/H\big|$
--->
+$\:$
+**Teorema** (Košijeva).$G$ je konačna grupa, $p$ je prost broj, koji deli $\big|G\big|$. Tada $\exists x\in G\quad \omega(x)=p\quad\quad\Big(\exists H\leqslant G\quad\big|H\big|=p\Big)$
 
+**Stav**.
+- Svaka grupa reda 4 izomorfna je ili grupi $\mathbb{Z}_{4}$ ili grupi $\mathbb{Z}_{2}\times \mathbb{Z}_{2}$
+-  Svaka grupa reda 6 izomorfna je ili grupi $\mathbb{Z}_{6}$ ili grupi $\mathbb{D}_{3}$
+-  Svaka grupa reda 8 izomorfna je jednoj od grupa: 
+  $\mathbb{Z}_{8}$, $\ \:$ $\mathbb{Z}_{2}\times\mathbb{Z}_{4}$, $\ \:$ $\mathbb{Z}_{2}\times\mathbb{Z}_{2}\times\mathbb{Z}_{2}$, $\ \:$ $\mathbb{D}_{4}$,  $\ \:$ $Q_{8}$
+-  Svaka grupa reda 9 izomorfna je ili grupi $\mathbb{Z}_{9}$ ili grupi $\mathbb{Z}_{3}\times\mathbb{Z}_{3}$
+-  Svaka grupa reda 10 izomorfna je ili grupi $\mathbb{Z}_{10}$ ili grupi $\mathbb{D}_{5}$
+
+### [[Normalne podgrupe]]
