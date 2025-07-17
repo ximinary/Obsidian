@@ -131,105 +131,14 @@ $X^{-1}=\{x^{-1}\ |\ x\in X\}$ je skup svih inverza elemenata iz $X$.
 **Stav**. $\langle X\rangle =\{(a_{1}\cdots a_{n})\ |\ n\in \mathbb{N}_{0},\,a_{i}\in X\cup X^{-1}\}$
 (ako je $n=0$, imamo neutral $e$)
 
-### Red grupe i elementa
-**Def**. Ako je $G$ konačna grupa, onda broj njenih elemenata zovemo **red grupe** i označavamo sa $|G|$. Ako je grupa beskonačna, kažemo da je ona **beskonačnog reda**.
+### [[Red grupe i elementa. Indeks podgrupe]]
 
-**Def**. Neka je $a$ element neke grupe. Ako postoji $n\geqslant1$ za koji važi $a^{n}=e$, onda je **red elementa** $a$ jednak $\omega(a)=\min\{m\geqslant1\ |\ a^{m}=e\}$, inače je $a$ **beskonačnog reda**.
-
-**Stav**. Red bilo kojeg elementa grupe je jednak redu podgrupe generisane tim elementom.
-> Dokaz: Neka je podgrupa $\langle a\rangle$ generisana elementom $a$.
-> 
-> Ako je $a$ beskonačnog reda, važi $\forall n\geqslant 1\quad a^{n}\ne e$
-> Da li neke za neke $l> m$ može važiti $a^{l}=a^{m}$?
-> Pomnožimo jednačinu sa $a^{-m}$, imamo $a^{l-m}=e$, pri tome $l - m \geqslant 1$. Kontradikcija, važi da su sve $a^{n}$ različite za različite $n$, stoga $\langle a\rangle$ ima beskonačno mnogo elemenata.
-> 
-> Ako je $a$ reda $n\geqslant 1$, tj. $\ \:$ $a^{n}=e$ $\ \:$ i $\ \:$ $\forall m=\overline{1,\,n\!-\!1}\quad a^{m}\ne e$
-> Stoga, $\forall m\in\mathbb{Z}\quad \exists r=\overline{1,\,n\!-\!1}\quad a^{m}=a^{n\cdot k+r}=(a^{n})^{k}\cdot a^{r}=e^{k}\cdot a^{r}=a^{r}$
-> Imamo, $\langle a\rangle=\{e,\,a,\,a^{2},\,\dots,\,a^{n-1}\}$
-> Da li taj skup sadrži ponavljajuće elemente? Pretpostavimo da za neke $0\leqslant m < l< n$ važi $a^{l}=a^{m}$, tj. $a^{l-m}=e$, 
-> $l-m< n$, kontradikcija jer je $n$ najmanji broj za koji važi $a^{n}=e$.
-> Dakle, skup ne sadrži ponavljajuće elemente i samim tim je red $\langle a\rangle$ jednak $n$.
-
-$\:$
-**Stav**. Neka je $a$ reda $n$. Tada
-$\forall m\in\mathbb{Z}\quad\big(a^{m}=e\quad\Leftrightarrow\quad n\,|\,m\big)$
-
-$\:$
-**Stav**. Neka je $m\in\mathbb{Z}\setminus \{0\}$.
-Ako je $a$ beskonačnog reda, onda je i $a^{m}$ beskonačnog reda;
-ako je $a$ reda $n$, onda je $a^{m}$ reda $\begin{align}\frac{n}{\mathrm{NZD}(m,\,n)}\end{align}$. ^1698b9
-> Dokaz:
-> $a$ je beskonačnog reda, tj. $\forall n\in\mathbb{Z}\quad a^{n}\ne e$
-> Odakle $\forall n\in\mathbb{Z}\quad a^{m\cdot n}\ne e$, tj. $a^{m}$ je beskonačnog reda.
->
->$a$ je reda $n$. Neka je $d=\mathrm{NZD}(m,\,n)$, tada
->$m = m_{1}\cdot d$ $\ \:$ i $\ \:$ $n=n_{1}\cdot d$, $\ \:$ pri tome $\mathrm{NZD}(m_{1},\,n_{1})=1$
-> Pokazati da je $a^{m}$ reda $n_{1}$.
-> $\big(a^{m}\big)^{n_{1}}=a^{m_{1}\cdot d\cdot n_{1}}=a^{n\cdot m_{1}}=e^{m_{1}}=e$, da li je $n_{1}$ najmanji ($\geqslant1$)-broj za koji to važi?
-> pps: neka je $1\leqslant k< n_{1}\ \ :\ \ \big(a^{m}\big)^{k}=e$  — najmanji broj za koji to važi.
-> tada $\exists r\in\overline{0,\,k\!-\!1}\ \:\ \ n_{1}=p\cdot k+r$
-> $e=\big(a^{m}\big)^{n_{1}}=\big(a^{m}\big)^{p\cdot k+r}=a^{r}$
-> $\big(a^{m}\big)^{r}=e$ i $r<k$, kontradikcija. $n_{1}$ jeste najmanji.
-
-$\:$
-**Teorema**. 
-1. Svaka podgrupa ciklične grupe i sama je ciklična.
-2. $G$ je ciklična grupa reda $n$. Tada
-  $k\,|\,n\quad\Rightarrow\quad\exists!H\leqslant G\ \ \:\ \ |H|=k$
-
-
-> Dokaz: 
-> 1. Neka je $G= \langle a \rangle$ i $H\leqslant G$.
-> $H=\{e\}$ jeste ciklična, razmatramo proizvoljnu $H\ne\{e\}$.
-> Neka je $s=\min\{t>0\ |\ a^{t}\in H\}$. Pokazati da $H= \langle a^{s}\rangle$.
-> $a^{s}\in H\quad\Rightarrow\quad\Big(\forall k\in\mathbb{Z}\quad \big(a^{s}\big)^{k}\in H\Big)\quad\Rightarrow\quad\langle a^{s} \rangle\subseteq H$
-> pps $H\not\subseteq \langle a^{s} \rangle$, $\ \:$tj. $\exists x\in H\ \ :\ \ x\not\in \langle a^{s} \rangle$
-> $x\in H\quad\Rightarrow\quad x\in G\quad\Rightarrow\quad\Big(\exists m\in\mathbb{Z}\ \ :\ \ x=a^{m}\Big)$
-> $\exists r=\overline{0,\,s-1}\quad m = p\cdot s+r$
-> Tada $a^{r}=a^{m-ps}=x\cdot(a^{s})^{-p}\in H$, $\ \:$ jer $x,\,a^{s}\in H$
-> Jer je $s$ najmanji pozitivan broj za koji $a^{s}\in H$, a $0\leqslant r<s$, sledi da $r =0$, tj. $m=p\cdot s$
-> $x=a^{m}=a^{p\cdot s}=\big(a^{s}\big)^{p}\in \langle a^{s} \rangle$. Kontradikcija
-> $H=\langle a^{s} \rangle$
-> $\:$
-> 2. Neka je $G=\langle a \rangle$ reda $n$ i $k\,|\,n$.
-> iz [[Grupa#^1698b9|stava]] $\langle a^{n/k} \rangle$ je reda $\begin{align}\frac{n}{\mathrm{NZD}(n,\,n/k)}=\frac{n}{n/k}=k\end{align}$
-> $H:=\langle a^{n/k} \rangle$, pretpostavimo da postoji i druga podgrupa $\widetilde{H}$ reda $k$ odlična od $H$.
-> iz 1. $\widetilde{H}$ je ciklična, tj. $\widetilde{H}=\langle a^{l} \rangle$.
-> $a^{lk}=\big(a^{l}\big)^{k}=e$ (jer je $\widetilde{H}$ reda $k$)
-> a $G$ je reda $n$ ($a^{n}=e$), imamo da $n\,|\,lk$
-> iz $k\,|\,n$ dobijamo da $\begin{align}\frac{n}{k}\,\bigg|\,l\end{align}$, $\ \:$ tj $\begin{align}l=p\cdot\frac{n}{k}\end{align}$, za neko $p\in\mathbb{Z}$.
-> $a^{l}=\big(a^{n/k}\big)^{p}\in H$, odakle $\widetilde{H}\subseteq H$ i kako $|H|=|\widetilde{H}|$ važi da $H=\widetilde{H}$.
-> Kontradikcija.
-> $H=\langle a^{n/k} \rangle$ je jedinstvena podgrupa reda $k$.
-
-$\:$
-**Teorema**. Neka je $G$ grupa i $a,\,b\in G$ su konačnog reda. Tada ako 
-$ab=ba$ $\ \:$ i $\ \:$ $\langle a \rangle\cap\langle b \rangle=\{e\}$, $\ \:$ onda $\omega(a\,b)=\mathrm{NZS}\Big(\omega(a),\ \omega(b)\Big)$ ^5f96ab
-> Dokaz:
-> Neka $\omega(a)=m$, $\omega(b)=n$, $\omega(a\,b)=s$, $\mathrm{NZS}(m,n)=t=m\,t_{1}=n\,t_{2}$
-> $(a\,b)^{t}=a^{t}b^{t}=a^{mt_{1}}b^{nt_{2}}=e^{t_{1}}e^{t_{2}}=e\quad\Rightarrow\quad s\,|\,t$
-> $e=(a\,b)^{s}=a^{s}b^{s}\quad\Rightarrow\quad a^{s}=b^{-s}$, $\:$ $a^{s}\in \langle a \rangle$, $\:$ $b^{-s}\in\langle b \rangle$
-> Jer $\langle a \rangle\cap\langle b \rangle=\{e\}$ dobijamo $a^{s}=e=b^{s}$ 
-> $\Rightarrow\quad m\,|\,s\ \text{ i } \ n\,|\,s\quad\Rightarrow\quad t\,|\,s$
-> Konačno, $t=s$
-
-$\:$
-**Teorema**. Neka je $G$ grupa i $a,\,b\in G$ takvi da $a\,b=b\,a$
-- Ako je $a$ konačnog reda a $b$ beskonačnog, onda je $a\,b=b\,a$ beskonačnog reda.
-- Ako su  i $a$ i $b$ beskonačnog reda i $\langle a \rangle\cap\langle b \rangle=\{e\}$, onda je $a\,b=b\,a$ beskonačnog reda.
-
-> Dokaz:
-> - Neka $\omega(a)=n$. PPS $ab$ je konačnog reda $m$.
->   $e=e^{n}=(ab)^{mn}=a^{mn}b^{mn}=e^{m}b^{mn}=b^{mn}$, $b$ je konačnog reda. Kontradikcija. $ab$ je beskonačnog reda.
->  - PPS $ab$ je konačnog reda $m$.
->    $e=(ab)^{m}=a^{m}b^{m}\quad\Rightarrow\quad a^{m}=e=b^{m}$
->    $a$ i $b$ su konačnog reda. Kontradikcija. $ab$ je beskonačnog reda.
-
-$\:$
 ### Izomorfizam grupa
 **Def**. Neka su $(G,\,\cdot)$ i $(H,\,*)$ grupe. $G$ i $H$ su **izomorfni** ako postoji bijekcija $f:\ G\to H$ takva da $\forall x,\,y\in G\quad f(x\cdot y)=f(x)*f(y)$. $f$ je **izomorfizam grupa** $G$ i $H$.
 Oznaka: $G\cong H$
+> Napomena: izomorfizam je specijalan slučaj [[Homomorfizam grupa|homomorfizma]].
 
+$\:$
 **Stav**. Ako je $f:\ G\to H$ izomorfizam grupa, onda je i $f^{-1}$ izomorfizam grupa.
 > Dokaz: Jer je $f$ bijekcija, $f^{-1}:\ H\to G$ jeste bijekcija.
 > Pokazati da $\forall u,\,v\in H\quad f^{-1}(u*v)=f^{-1}(u)\cdot f^{-1}(v)$
@@ -239,8 +148,8 @@ Oznaka: $G\cong H$
 
 $\:$
 **Stav**. Neka je $e$ neutral u $G$, $\varepsilon$ neutral u $H$, i $f:\ G\to H$ izomorfizam. Tada
-- $f(e)=\varepsilon$
-- $\forall x\in G\quad f(x^{-1})=f(x)^{-1}$
+- $f(e)=\varepsilon$ ^60085a
+- $\forall x\in G\quad f(x^{-1})=f(x)^{-1}$ ^9b7621
 - $\forall x\in G\quad$ ako je $x$ beskonačnog reda, onda je i $f(x)$ beskonačnog reda; 
   $\ \quad\quad\quad\quad$ ako je $x$ konačnog reda, onda $\omega\big(x\big)=\omega\big(f(x)\big)$
 
@@ -286,125 +195,6 @@ $\:$
 $\:$
 **Posledica**. Svaka konačna grupa $G$ reda $n$ izomorfna je nekoj podgrupi grupe $\mathbb{S}_{n}$
 
-### Direktan proizvod grupa
-**Def**. Neka su $(G_{1},\,*_{1}),\ (G_{2},\,*_{2}),\ \dots,\ (G_{n},\,*_{n})$ grupe. Direktan proizvod $(P,\,*)$ ovih grupa je:
-- $P=G_{1}\times G_{2}\times \dots\times G_{n}$
-- $(g_{1},\,g_{2},\,\dots,\,g_{n})*(g'_{1},\,g'_{2},\,\dots,\,g'_{n})=(g_{1}*_{1}g'_{1},\,g_{2}*_{2}g'_{2},\,\dots,\,g_{n}*_{n}g'_{n})$
-
-$(P,\,*)$ jeste grupa:
-- asocijativnost sledi direktno
-- neutral $e=(e_{1},\,e_{2},\,\dots,\,e_{n})$
-- inverz $(g_{1},\,g_{2},\,\dots,\,g_{n})^{-1}=(g_{1}^{-1},\,g_{2}^{-1},\,\dots,\,g_{n}^{-1})$
-
-**Stav**. Grupa $\mathbb{Z}_{m}\times\mathbb{Z}_{n}$ je ciklična akko $\mathrm{NZD}(m,\,n)=1$.
-> Dokaz: 
-> $\boxed{\Rightarrow}$ Neka je $\mathrm{NZD}(m,\,n)=d>1$. Neka je $\begin{align}r=\frac{mn}{d}<mn\end{align}$.
-> 
-> Neka je $(s,\,t)\in\mathbb{Z}_{m}\times\mathbb{Z}_{n}$ proizvoljni.
-> $\begin{align}\underbrace{s+_{m}s+_{m}\dots+_{m} s}_{r}=s\cdot_{m}r=(s\cdot_{m}m)\cdot_{m}\frac{n}{d}=0\end{align}$
-> $\begin{align}\underbrace{t+_{n}t+_{n}\dots+_{n} t}_{r}=t\cdot_{m}r=(t\cdot_{n}n)\cdot_{n}\frac{m}{d}=0\end{align}$
-> Odakle, $\underbrace{(s,\,t)+(s,\,t)+\dots+(s,\,t)}_{r}=(0,\,0)$
-> Svaka grupa generisana sa $\Big\langle (s,\,t) \Big\rangle$ ima $\leqslant r$ elemenata, a $\mathbb{Z}_{m}\times\mathbb{Z}_{n}$ ima $mn>r$, stoga $\mathbb{Z}_{m}\times\mathbb{Z}_{n}$ nije ciklična.
-> 
-> $\boxed{\Leftarrow}$ Neka je $\mathrm{NZD}(m,\,n)=1$. Neka je $\omega\Big((1,\,1)\Big)=r$.
-> Pokazati da $\mathbb{Z}_{m}\times\mathbb{Z}_{n}=\Big\langle (1,\,1) \Big\rangle$, tj da je $r=mn$
-> $\underbrace{(1,\,1)+\dots+(1,\,1)}_{r}=(0,\,0)\quad\Rightarrow\quad\begin{align}&\underbrace{1+_{m}\dots+_{m}1}_{r}=0\quad\Rightarrow\quad m\,|\,r\\&\underbrace{1+_{n}\dots+_{n}1}_{r}=0\quad\Rightarrow\quad n\,|\,r\end{align}$
-> Jer je $\mathrm{NZD}(m,\,n)=1$, dobijamo $mn\,|\,r$.
-> Dakle, $mn=r$, jer $r\leqslant mn$ (red elementa grupe manje ili jednak redu grupe).
-
-$\:$
-> Napomena: $G\cong G'\ \ \land\ \ H\cong H'\quad\Rightarrow\quad G\times H\cong G'\times H'$
-
-> Napomena: Ako su $m_{1},\,m_{2},\,\dots,\,m_{n}$ par po par uzajamno prosti. Tada  
-> - $\mathbb{Z}_{m_{1}m_{2}\dots m_{n}}\cong \mathbb{Z}_{m_{1}}\times\mathbb{Z}_{m_{2}}\times\dots\mathbb{Z}_{m_{n}}$
-> - $\mathbb{C}_{m_{1}m_{2}\dots m_{n}}\cong \mathbb{C}_{m_{1}}\times\mathbb{C}_{m_{2}}\times\dots\mathbb{C}_{m_{n}}$
-
-$\:$
-**Stav**. Neka je $G$ grupa. $H,\,K\leqslant G$ takvi da
-$\ \:$ — $\ \:$ $G=H\cdot K$
-$\ \:$ — $\ \:$ $\forall h\in H\quad\forall k\in K\quad h\cdot k=k\cdot h$
-$\ \:$ — $\ \:$ $K\cap H=\{e\}$
-Tada $G\cong H\times K$.
-
-> Dokaz: $H\cdot K=\{h\cdot k \ \ |\ \ h\in H,\ k\in K\}$
-> Definišemo $f:\ H\times K\to G$ sa $f(h,\,k)=h\cdot k$
-> 
-> $f$ je "na" jer $G= H\cdot K$
-> 
-> pp da $f(h,\,k)=f(h',\,k')$, $\ \:$ tj. $\ \:$ $h\cdot k=h'\cdot k'$, 
-> dalje, $(h')^{-1}\cdot h = k'\cdot k^{-1}$, stoga jer je levi deo jednačine iz $H$, a desni iz $K$ na osnovu $K\cap H=\{e\}$ važi 
-> $\begin{align}(h')^{-1}\cdot h=e\quad\Rightarrow\quad h =h'\\k'\cdot k^{-1}=e\quad\Rightarrow\quad k =k'\end{align}\quad\quad\Rightarrow\quad$ $f$ je "1-1".
-> 
-> $\begin{align}f\Big((h,\,k)*(h',\,k')\Big)&=f\Big((h\cdot h',\ k\cdot k')\Big)=h\cdot h'\cdot k\cdot k'\xlongequal{\text{drugi uslov}} h\cdot k\cdot h'\cdot k'=\\&=f(h,\,k)\cdot f(h',\,k')\end{align}$
->
-> Konačno, $f$ je izomorfizam grupa $H\times K$ i $G$.
-
-
-> Primer: $\mathbb{D}_{6}\cong\mathbb{D}_{3}\times\mathbb{Z}_{2}$
-
-$\:$
-### Veza između reda grupe i reda njenih podgrupa/elemenata
-
-**Def**. Ako je $H\leqslant G$ $\ \:$ i $\ \:$ $x\in G$
-- Skup $xH=\{x\cdot h\ \big|\ h\in H\}$ se zove levi koset podgrupe $H$ u grupi $G$
-- Skup $Hx=\{h\cdot x\ \big|\ h\in H\}$ se zove desni koset podgrupe $H$ u grupi $G$
-
-Skup svih levih koseta grupe $H$ u $G$ se označava sa $G/H$
-Skup svih desnih koseta grupe $H$ u $G$ se označava sa $H\!\setminus\!G$
-
-> Napomena: u opštem slučaju važi $xH\ne Hx$ kao i $G/H\ne H\!\setminus\!G$;
-> u opštem slučaju $\exists$ bijekcija $xH\mapsto Hx^{-1}$, stoga $\big|G/H\big|=\big|H\!\setminus\!G\big|$.
-
-$\:$
-**Stav**.
-1. $xH=yH\quad\Leftrightarrow\quad x^{-1}y\in H$
-2. $xH\ne yH\quad\Rightarrow\quad xH\cap yH=\varnothing$
-
-> Dokaz:
-> 1. $\boxed{\Rightarrow}$ Neka $xH=yH$. Tada, jer je $e\in H$, važi $y\in xH$, tj. $\exists h\in H\ \ :\ \ xh=y$, odakle $h=x^{-1}y$
-> $\:$
-> $\boxed{\Leftarrow}$ Neka je $x^{-1}y\in H$. 
-> Pretpostavimo da je $z\in xH$, odakle $\exists h\ \ :\ \ z=xh=x(x^{-1}y)(x^{-1}y)^{-1}h=y\underbrace{\big((x^{-1}y)h\big)}_{\in H}\in yH$
-> tj. $xH\subseteq yH$. Analogno se dokazuje i $xH\supseteq yH$, odakle $xH=yH$.
-> $\:$
-> 2. pps: važi $xH\ne yH\quad$ i $\quad xH\cap yH\ne\varnothing$, tj. $\exists z\in xH\cap yH$
->    $\exists h,\,h'\ \ :\ \ z=xh=yh'$ 
-> odakle $x^{-1} y=\underbrace{h(h')^{-1}}_{\in H}\quad\overset{1.}{\Rightarrow}\quad xH=yH$. Kontradikcija.
-
-$\:$
-**Def**. $G$ je grupa, $H\leqslant G$.
-- Ako je skup $G/H$ beskonačan, onda je podgrupa $H$ **beskonačnog indeksa** u $G$.
-- Ako je skup $G/H$ konačan, onda je **indeks** podgrupe $H$ u $G$ jednak veličine tog skupa. Oznaka $[G:H]\,:=\,\big|G/H\big|$
-
-
-**Stav**. $G$ je grupa, $H\leqslant G$. Tada je $G$ disjunktna unija različitih levih koseta podgrupe $H$.
-
-**Teorema** (Lagranžova) $G$ je konačna grupa, $H\leqslant G$. Tada 
-$\big|G\big|=\big|H\big|\cdot[G:H]$ $\quad$ (odakle red grupe $H$ deli red grupe $G$)
-
-> Dokaz:
-> Iz prethodnog stava $\begin{align}G=\bigsqcup_{i =1}^{k}x_{i}H\end{align}$, gde su $x_{i}$ svi različiti, a $k =[G:H]$.
-> i jer $\big|xH\big|=\big|H\big|$ za bilo koje $x\in G$, 
-> važi da $\big|G\big|=\big|H\big|\cdot[G:H]$
-
-$\:$
-**Posledica**. Red svakog elementa konačne grupe deli red te grupe.
-
-**Posledica**. Svaka grupa prostog reda $p$ je ciklična (tj. izomorfna $\mathbb{Z}_{p}$).
-
-**Posledica**. Ako je $G$ konačna grupa, onda $\forall x\in G\quad x^{|G|}=e$
-^026da4
-> [[Kongruentnost#Ojlerova teorema|Ojlerova teorema]]
-
-$\:$
-**Teorema** (Košijeva).$G$ je konačna grupa, $p$ je prost broj, koji deli $\big|G\big|$. Tada $\exists x\in G\quad \omega(x)=p\quad\quad\Big(\exists H\leqslant G\quad\big|H\big|=p\Big)$
-
-**Stav**.
-- Svaka grupa reda 4 izomorfna je ili grupi $\mathbb{Z}_{4}$ ili grupi $\mathbb{Z}_{2}\times \mathbb{Z}_{2}$
--  Svaka grupa reda 6 izomorfna je ili grupi $\mathbb{Z}_{6}$ ili grupi $\mathbb{D}_{3}$
--  Svaka grupa reda 8 izomorfna je jednoj od grupa: 
-  $\mathbb{Z}_{8}$, $\ \:$ $\mathbb{Z}_{2}\times\mathbb{Z}_{4}$, $\ \:$ $\mathbb{Z}_{2}\times\mathbb{Z}_{2}\times\mathbb{Z}_{2}$, $\ \:$ $\mathbb{D}_{4}$,  $\ \:$ $Q_{8}$
--  Svaka grupa reda 9 izomorfna je ili grupi $\mathbb{Z}_{9}$ ili grupi $\mathbb{Z}_{3}\times\mathbb{Z}_{3}$
--  Svaka grupa reda 10 izomorfna je ili grupi $\mathbb{Z}_{10}$ ili grupi $\mathbb{D}_{5}$
-
+### [[Direktan proizvod grupa]]
 ### [[Normalne podgrupe]]
+### [[Homomorfizam grupa]]

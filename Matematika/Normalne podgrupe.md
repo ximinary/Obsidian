@@ -13,8 +13,8 @@ Oznaka: $H\triangleleft G$
 
 $\:$
 **Stav**.  $H\leqslant G$. Uslovi su ekvivalentni: ^b96173
-1. $H\triangleleft G$
-2. $\forall g\in G\quad gHg^{-1}\subseteq H$
+1. $H\triangleleft G$ ^39f461
+2. $\forall g\in G\quad gHg^{-1}\subseteq H$ ^c2938d
 3. $\forall g\in G\quad gH=Hg$
 
 > Dokaz: 
