@@ -198,3 +198,4 @@ $\:$
 ### [[Direktan proizvod grupa]]
 ### [[Normalne podgrupe]]
 ### [[Homomorfizam grupa]]
+### [[Dejstvo grupe]]

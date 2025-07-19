@@ -4,7 +4,7 @@ $\:$
 **Def**. $G$ je grupa, $x,\,y\in G$. Element $y$ je **konjugovan** elementu $x$, ako $\exists g\in G\ \ :\ \ y = gxg^{-1}$
 
 **Stav**. Konjugacija je relacija ekvivalencije.
-**Klasa** (ekvivalencije) **konjugacije**: $K_{x}=\{gxg^{-1}\ \big|\ g\in G\}$
+**Klasa** (ekvivalencije) **konjugacije**: $K_{x}=\{gxg^{-1}\ \big|\ g\in G\}$ ^49fdd9
 
 **Def**. $G$ je klasa, $H\leqslant G$. $H$ je normalna ako je $H$ unija nekih klasa konjugacije.
 Oznaka: $H\triangleleft G$
@@ -39,7 +39,7 @@ $\:$
 
 $\:$
 **Def**. $G$ je grupa. Centar grupe $G$ je
-$Z(G):=\{g\in G\ \big|\ \forall x\in G\quad xg=gx\}$
+$Z(G):=\{g\in G\ \big|\ \forall x\in G\quad xg=gx\}$ ^f77f40
 
 **Stav**. $Z(G)\triangleleft G$.
 > Dokaz: Prvo dokažemo $Z(G)\leqslant G$

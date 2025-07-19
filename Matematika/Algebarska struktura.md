@@ -27,3 +27,4 @@ tj. operacije su raspoređene opadajuće po dužine.
 
 
 ### [[Grupa]]
+### [[Komutativan prsten sa jedinicom]]

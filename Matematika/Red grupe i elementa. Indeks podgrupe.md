@@ -109,7 +109,7 @@ Skup svih desnih koseta grupe $H$ u $G$ se označava sa $H\!\setminus\!G$
 
 $\:$
 **Stav**.
-1. $xH=yH\quad\Leftrightarrow\quad x^{-1}y\in H$
+1. $xH=yH\quad\Leftrightarrow\quad x^{-1}y\in H$ ^a82139
 2. $xH\ne yH\quad\Rightarrow\quad xH\cap yH=\varnothing$
 
 > Dokaz:
@@ -132,7 +132,7 @@ $\:$
 **Stav**. $G$ je grupa, $H\leqslant G$. Tada je $G$ disjunktna unija različitih levih koseta podgrupe $H$.
 
 **Teorema** (Lagranžova). $G$ je konačna grupa, $H\leqslant G$. Tada 
-$\big|G\big|=\big|H\big|\cdot[G:H]$ $\quad$ (odakle red podgrupe $H$ deli red grupe $G$)
+$\big|G\big|=\big|H\big|\cdot[G:H]$ $\quad$ (odakle red podgrupe $H$ deli red grupe $G$) ^cd291f
 
 > Dokaz:
 > Iz prethodnog stava $\begin{align}G=\bigsqcup_{i =1}^{k}x_{i}H\end{align}$, gde su $x_{i}\in G$ svi različiti, a $k =[G:H]$.
@@ -149,8 +149,38 @@ $\:$
 > [[Kongruentnost#Ojlerova teorema|Ojlerova teorema]]
 
 $\:$
-**Teorema** (Košijeva). $G$ je konačna grupa, $p$ je prost broj, koji deli $\big|G\big|$. Tada $\exists x\in G\quad \omega(x)=p\quad\quad\Big(\exists H\leqslant G\quad\big|H\big|=p\Big)$
+**Teorema** (Košijeva). $G$ je konačna grupa, $p$ je prost broj, koji deli $\big|G\big|$. Tada $\exists x\in G\quad \omega(x)=p\quad\quad\Big(\exists H\leqslant G\quad\big|H\big|=p\Big)$ ^ebbac3
+> Dokaz: Neka je $H=\langle a \rangle$ neka ciklična grupa reda $p$.
+> I neka je $X=\{(x_{1},\,x_{2},\,\dots,\,x_{p})\in G^{p}\ |\ x_{1}x_{2}\cdots x_{p}=e\}$. Tada
+> $|X|=|G|^{p-1}$, jer $x_{1},\,x_{2},\,\dots,\,x_{p-1}$ mogu biti bilo koji, a $x_{p}=(x_{1}x_{2}\cdots x_{p-1})^{-1}$.
+> Stoga $p\ \big|\,|X|$.
+> 
+> Zadajemo [[Dejstvo grupe|dejstvo]] $H$ na $X$ sa $a\cdot(x_{1},\,x_{2},\,x_{3},\,\dots,\,x_{p})=(x_{2},\,x_{3},\,\dots,\,x_{p},\,x_{1})$
+> (iz definicije pojma dejstva je jasno da je za cikličnu grupu dovoljno zadati dejstvo generatora);
+> Da li je $(x_{2},\,x_{3},\,\dots,\,x_{p},\,x_{1})\in X$?
+> $(x_{1},\,x_{2},\,x_{3},\,\dots,\,x_{p})\in X\quad\Rightarrow\quad x_{p}=(x_{1}x_{2}\cdots x_{p-1})^{-1}\quad\Rightarrow$
+> $x_{2}x_{3}\cdots x_{p-1}x_{p}x_{1}=x_{2}x_{3}\cdots x_{p-1} (x_{1}x_{2}\cdots x_{p-1})^{-1}x_{1}=x_{2}x_{3}\cdots x_{p-1} (x_{p-1}^{-1}\cdots x_{3}^{-1}x_{2}^{-1}x_{1}^{-1} )x_{1}=e$
+> Stoga je dejstvo dobro definisano.
+> 
+> Iz [[Dejstvo grupe#^72d803|posledice]] znamo $\forall x\in H\quad |\Omega(x)|\ \big|\ |G|\!=\!p\quad\Rightarrow\quad\left[\begin{array}{}|\Omega(x)|=1\\|\Omega(x)|=p\end{array}\right.$
+> 
+> Zapravo orbita nekog elementa $(x_{1},\,x_{2},\,\dots,\,x_{p})\in X$ je sve ciklične permutacije $p$-torke: $\Omega\big((x_{1},\,x_{2},\,\dots,\,x_{p})\big)=\{(x_{1},\,x_{2},\,\dots,\,x_{p}),\ (x_{2},\,x_{3},\,\dots,\,x_{p},\,x_{1}),\ \dots,\ (x_{p},\,x_{1},\,x_{2},\,\dots,\,x_{p-1})\}$
+> $\Omega\big((e,\,e,\,\dots,\,e)\big)=\{(e,\,e,\,\dots,\,e)\}$
+> 
+> Imamo da je $X$ disjunktna unija <u>različitih</u> orbita.
+> $X=\Omega_{1}\sqcup\Omega_{2}\sqcup\dots\sqcup\Omega_{k}$
+> Ako je $\Omega_{1}=\{(e,\,e,\,\dots,\,e)\}$ jedina jednočlana orbita imamo:
+> $p\ |\ \big(1+p(k-1)\big)$ $\quad$ (više je dokazano $p\ \big|\,|X|$),
+> što nije tačno; dakle, postoji jednočlana orbita različita od $\Omega_{1}$;
+> neka je ta orbita $\{(x_{1},\,x_{2},\,\dots,\,x_{p})\}$, tada
+> $a\cdot(x_{1},\,x_{2},\,\dots,\,x_{p})=(x_{1},\,x_{2},\,\dots,\,x_{p})$, 
+> odakle $x_{1}=x_{2}=\dots=x_{p}$ označimo sa $g:=x_{1}$;
+> $g\ne e,\quad g\cdot g\cdots g=g^{p}=e$ (jer je $g\in X$)
+> $g$ je traženi element reda $p$.
 
+^d9c566
+
+$\:$
 **Stav**.
 - Svaka grupa reda 4 izomorfna je ili grupi $\mathbb{Z}_{4}$ ili grupi $\mathbb{Z}_{2}\times \mathbb{Z}_{2}$
 -  Svaka grupa reda 6 izomorfna je ili grupi $\mathbb{Z}_{6}$ ili grupi $\mathbb{D}_{3}$
