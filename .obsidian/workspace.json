@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Home"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Home"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -217,34 +217,34 @@
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
-    "Matematika/Algebarska struktura.md",
-    "Matematika/Grupa.md",
-    "Matematika/Konačno generisana Abelova grupa.md",
-    "Matematika/Dejstvo grupe.md",
-    "Matematika/Normalne podgrupe.md",
     "Matematika/Matematika.md",
-    "Matematika/Geometrija.md",
-    "Matematika/Grupa permutacija.md",
-    "Matematika/Red grupe i elementa. Indeks podgrupe.md",
     "Home.md",
-    "Matematika/Analiza.md",
-    "Matematika/Kombinatorika.md",
-    "Matematika/Homomorfizam grupa.md",
-    "Matematika/Komutativan prsten sa jedinicom.md",
-    "Matematika/Linearna algebra.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Kvaternion.md",
-    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
-    "Matematika/Linearni operator.md",
-    "Matematika/Direktan proizvod grupa.md",
-    "Matematika/Kongruentnost.md",
-    "Matematika/Celi brojevi.md",
-    "Matematika/Euklidov algoritam.md",
-    "Matematika/Izvod funkcije jedne promenljive.md",
-    "Matematika/Tejlorov polinom funkcije jedne promenljive.md",
+    "Računarstvo/Ulaz i izlaz (C).md",
+    "Računarstvo/Standardne biblioteke (C).md",
+    "Računarstvo/Složenost algoritma.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Računarski sistem.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Organizacija izvornog koda (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Računarstvo/Ispravnost programa.md",
+    "Računarstvo/Funkcije (C).md",
+    "Računarstvo/Doseg, životni vek i povezanost (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Matematika/Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost.md",
+    "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
+    "Matematika/Vektorski prostor.md",
+    "Matematika/Vektorski i mešoviti proizvod vektora.md",
+    "Matematika/Vektorska funkcija.md",
+    "Matematika/Vektor.md",
+    "Matematika/Valuacija (iskazna logika).md",
+    "Matematika/Unitarni prostor. Euklidski prostor.md",
     "Media/analiza1_2_lagranzovOblikOst.png",
     "Media/analiza1_2_peanovOblikOst.png",
-    "Matematika/Neodređeni integral.md",
     "Media/stav. relacija poretka u bulovim algebrama.png",
     "Media/stav. jednakost uredenih parova.png",
     "Media/stav. jednakost skupova.png",
