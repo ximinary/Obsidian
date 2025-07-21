@@ -71,4 +71,5 @@ Ova grupa $(G/H,\ \cdot)$ zove se **količnička grupa** grupe $G$ po normalnoj 
 > Asocijativnost: $\big((aH)\cdot(bH)\big)\cdot(cH)=\big((ab)H\big)\cdot(cH)=(abc)H=(aH)\cdot\big((bc)H\big)=(aH)\cdot\big((bH)\cdot(cH)\big)$
 > Neutral: $H=eH$ je neutral, naime $(aH)\cdot H=H\cdot(aH)=aH$
 > Inverz: inverz elementa $aH$ je element $a^{-1}H$, naime $(aH)\cdot(a^{-1}H)=(a^{-1}H)\cdot(aH)=eH=H$
-> 
+
+

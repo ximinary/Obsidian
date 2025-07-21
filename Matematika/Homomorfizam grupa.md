@@ -52,7 +52,7 @@ $\:$
 $\:$
 **Teorema**. Neka je $f:\ G\to H$ homomorfizam grupa. Tada $f$ indukuje izomorfizam $\ \:$ $\tilde{f}:\ G/\mathrm{Ker}\,f\to\mathrm{Im}\,f$ $\ \:$ definisan sa $\ \:$ $\tilde{f}(x\mathrm{Ker}\,f):=f(x)$ $\ \:$ i važi $\ \:$ $G/\mathrm{Ker}\,f \cong \mathrm{Im}\, f$.
 > Dokaz: Prvo pokažemo da je $\tilde{f}$ dobro definisana.
-> Neka su $x\mathrm{Ker}\,f=y\mathrm{Ker}\,f$. Iz [[Red grupe i elementa. Indeks podgrupe#^a82139|stava]], $xy^{-1}\in\mathrm{Ker}\,f$, tj. $f(x^{-1}y)=e_{H}$
+> Neka su $x\mathrm{Ker}\,f=y\mathrm{Ker}\,f$. Iz [[Red grupe i elementa. Indeks podgrupe#^a82139|stava]], $x^{-1}y\in\mathrm{Ker}\,f$, tj. $f(x^{-1}y)=e_{H}$
 > $e_{H}=f(x^{-1}y)=f(x)^{-1}*f(y)\quad\Rightarrow\quad f(x)=f(y)\quad\Rightarrow\quad \tilde{f}(x\mathrm{Ker}\,f)=\tilde{f}(y\mathrm{Ker}\,f)$
 > 
 > $\tilde{f}$ je homomorfizam:

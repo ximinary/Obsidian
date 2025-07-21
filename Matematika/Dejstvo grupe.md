@@ -15,7 +15,11 @@ $\:$
 **Def**. Neka grupa $G$ dejstvuje na $X\ne\varnothing$.
 - **Orbita elementa** $x\in X$ je $\Omega(x):=\{g\cdot x\ \big|\ g\in G\}$
 - **Stabilizator elementa** $x\in X$ je $\Sigma_{x}:=\{g\in G\ \big|\ g\cdot x=x\}$
+ - **Skup svih fiksnih tačaka elementa** $g\in G$ je $X^{g}:=\{x\in X\ \big|\ g\cdot x=x\}$.
 
+Važi $\ \:$ $x\in X^{g}\quad\Leftrightarrow\quad g\in \Sigma_{x}$
+
+$\:$
 > Primer 1: Neka je $X=\mathbb{R}^{2}$, $G=\mathbb{Z}_{2}$. Tada je sa 
 > $0\cdot(x_{1},\,x_{2})=(x_{1},\,x_{2}),\quad 1\cdot(x_{1},\,x_{2})=(-x_{1},\,-x_{2})$ 
 > zadato dejstvo $G$ na $X$.
@@ -84,9 +88,8 @@ $\:$
 > Napomena: [[Red grupe i elementa. Indeks podgrupe#^d9c566|Dokaz]] [[Red grupe i elementa. Indeks podgrupe#^ebbac3|Košijeve teoreme]]
 
 $\:$
-**Def**. $G$ dejstvuje na $X$. $g\in G$. **Skup svih fiksnih tačaka elementa** $g$ je $X^{g}:=\{x\in X\ \big|\ g\cdot x=x\}$.
-
-Važi $\ \:$ $x\in X^{g}\quad\Leftrightarrow\quad g\in \Sigma_{x}$
+**Stav**. $G$ dejstvuje na $X$. $\ \:$ $x$ i $y$ su iz iste orbite. Tada 
+$\exists g\in G\ \ :\ \ \Sigma_{y}=g\Sigma_{x}g^{-1}$
 
 **Stav**. $G$ dejstvuje na $X$. $\ \:$ $g,\,h\in G$ su konjugovani. Tada postoji bijekcija između $X^{g}$ i $X^{h}$.
 

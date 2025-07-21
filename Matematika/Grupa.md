@@ -1,5 +1,5 @@
 #fax #math #alg [deo [[Algebarska struktura|poglavlja "algebarska struktura"]]]
-$\:$ 
+$\:$  ^21d3b8
 
 
 **Def**. **Grupa** je [[Algebarska struktura|algebarska struktura]] $(G,\,\cdot)$, gde je $G$ neprazan skup a za binarnu operaciju $\cdot$ na $G$ važi:
@@ -17,7 +17,7 @@ $e$ je **neutral** grupe
 $\overline{x}$ je **inverz** za $x$. Inverz se često označava sa $x^{-1}.$
 **Stav**. Za svaki element grupe postoji jedinstven inverz.
 
-**Def**. **Abelova** (komutativna) **grupa** je grupa $(G,\,\cdot)$ za koju važi: 
+**Def**. **Abelova** (komutativna) **grupa** je grupa $(G,\,\cdot)$ za koju važi:  ^9d2aa9
 - $\forall x,\,y\in G\quad x\cdot y=y\cdot x$
 
 Proizvod $\prod\limits_{i=1}^{n}x_{i},\quad x_{i}\in G$ se definiše rekurentnom formulom:
@@ -124,7 +124,7 @@ $\:$
 $\:$
 **Def**. Najmanja podgrupa koja sadrži podskup $X$ grupe $G$ (odnosno presek svih podgrupa grupe $G$ koje sadrže $X$) zove se **podgrupa generisana skupom** $X$.
 Oznaka: $\langle X\rangle$
-$X$ je **skup generatora** te podgrupe.
+$X$ je **skup generatora** te podgrupe. ^eb2fd0
 
 $X^{-1}=\{x^{-1}\ |\ x\in X\}$ je skup svih inverza elemenata iz $X$.
 
@@ -199,3 +199,4 @@ $\:$
 ### [[Normalne podgrupe]]
 ### [[Homomorfizam grupa]]
 ### [[Dejstvo grupe]]
+### [[Konačno generisana Abelova grupa]]
