@@ -6,7 +6,6 @@
       {
         "id": "649b593f3c7e043e",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "7100408409c2aa4d",
@@ -14,21 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Komutativan prsten sa jedinicom.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Komutativan prsten sa jedinicom"
             },
             "group": "28cef15ef08b4fc7"
           }
         ]
       },
       {
-        "id": "4d9da0bca4bcbd53",
+        "id": "6cce6647b2a34611",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "0d0f8d6f36d43efe",
@@ -36,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Matematika/Komutativan prsten sa jedinicom.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Komutativan prsten sa jedinicom"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -217,6 +215,9 @@
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
+    "Matematika/Algebarska struktura.md",
+    "Matematika/Grupa.md",
+    "Matematika/Konačno generisana Abelova grupa.md",
     "Matematika/Matematika.md",
     "Home.md",
     "Računarstvo/Ulaz i izlaz (C).md",
@@ -240,9 +241,6 @@
     "Matematika/Vektorski prostor.md",
     "Matematika/Vektorski i mešoviti proizvod vektora.md",
     "Matematika/Vektorska funkcija.md",
-    "Matematika/Vektor.md",
-    "Matematika/Valuacija (iskazna logika).md",
-    "Matematika/Unitarni prostor. Euklidski prostor.md",
     "Media/analiza1_2_lagranzovOblikOst.png",
     "Media/analiza1_2_peanovOblikOst.png",
     "Media/stav. relacija poretka u bulovim algebrama.png",

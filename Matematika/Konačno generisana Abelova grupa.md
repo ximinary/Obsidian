@@ -7,7 +7,7 @@ $\:$
 - $\forall x\in G\quad\exists \overline{x}\in G\quad \overline{x}+x=x+\overline{x}=0$
 - $\forall x,\,y\in G\quad x+y=y+x$
 
-Konačno generisana grupa je grupa koja je generisana konačnim [[Grupa#^eb2fd0|skupom generatora]]. Generatori su obično dati pomoću <u>skupa jednačina</u>.
+Konačno generisana grupa je grupa koja je generisana konačnim [[Grupa#^eb2fd0|skupom generatora]]. Generatori su obično dati pomoću <u>sistema jednačina</u>.
 
 ### Suma i direktna suma
 **Def**. Neka je $A$ Abelova grupa, $B,\,C\leqslant A$. Tada je **suma podgrupa** $B+C=\{b+c\ |\ b\in B,\ c\in C\}$ najmanja podgrupa od $A$ koja sadrži kao podgrupu i $B$ i $C$.
@@ -42,7 +42,45 @@ $B_{1}\oplus B_{2}\oplus\dots\oplus B_{k}\cong B_{1}\times B_{2}\times\dots\time
 > "1-1": jasno je da je to predstavljanje jednoznačno iz definicije direktne sume. 
 
 $\:$
+### Normalna forma
 **Teorema**. Neka je $A$ konačno generisana Abelova grupa. Tada postoje pozitivni brojevi $d_{1},\,\dots,\,d_{k}\in \mathbb{Z}$ i $s\in \mathbb{N}_{0}$ takvi da 
 $\forall i=\overline{1,k\!-\!1}\quad d_{i}\,\big|\,d_{i+1}$ $\ \:$ i $\ \:$ $\boxed{A\cong \mathbb{Z}_{d_{1}}\times\mathbb{Z}_{d_{2}}\times\dots\times\mathbb{Z}_{d_{k}}\times\mathbb{Z}^{s}}$.
 
-### Generatori i relacije
+Brojevi $d_{1},\,d_{2},\,\dots,\,d_{k}$ zovu se **invarijantni delitelji**, a prikaz u zaokruženom obliku **normalna forma** 
+### Generatori zadati sistemom jednačina/matricom
+Neka je Abelova grupa $A$ zadata generatorima $x_{1},\,x_{2},\,\dots,\,x_{n}$ za koje važe
+$\begin{align}a_{11}x_{1}+a_{12}x_{2}+\dots+a_{1n}x_{n}&=0\\a_{21}x_{1}+a_{22}x_{2}+\dots+a_{2n}x_{n}&=0\\&\dots\\a_{m1}x_{1}+a_{m2}x_{2}+\dots+a_{mn}x_{n}&=0\end{align}$
+
+$A=(a_{ij})\in \mathbb{M}_{mn}(\mathbb{Z}),\quad \mathbf{x}=\left(\begin{array}{}x_{1}\\x_{2}\\\dots\\x_{n}\end{array}\right)$
+Tada kraće: $A\mathbf{x}=\mathbf{0}$
+
+Elementarne transformacije:
+- množenje vrste/kolone sa $-1$
+- dodavanje neke vrste/kolone pomnožene skalarom drugoj vrsti/koloni.
+- promena mesta vrsta/kolona
+
+**Teorema**. $A\in \mathbb{M}_{mn}(\mathbb{Z})$. Tada postoje invertibilne matrice $P\in \mathbb{M}_{m}(\mathbb{Z})$ i $Q\in\mathbb{M}_{n}(\mathbb{Z})$ tako da $PAQ=A^{0}$, gde je
+$A^{0}=\left(\begin{array}{c|c} \begin{array}{}d_{1}&0&\cdots&0\\0&d_{2}&\dots&0\\\dots&\dots&\dots&\dots\\0&0&\dots&d_{k}\\\end{array}&\mathbf{0}\\\hline \mathbf{0}&\mathbf{0}\end{array}\right)$ $\quad$ i $\ \:$ $\forall i=\overline{1,k\!-\!1}\quad d_{i}\,\big|\,d_{i+1}$
+
+$\:$
+> Množenje elementarnim matricama sleva odgovara transformacijama nad vrstama (koje ne menjaju generatore).
+> Množenje elementarnim matricama zdesna odgovara transformacijama nad kolonama (koje menjaju generatore).
+
+Neka je sistem predstavljen sa $A\mathbf{x}=\mathbf{0}$.
+Tada ako $PAQ=A^{0}$, množimo gornju jednačinu sa $P$ sleva:
+$PA\mathbf{x}=\mathbf{0}$
+$PA(QQ^{-1})\mathbf{x}=\mathbf{0}$
+$A^{0}(Q^{-1}\mathbf{x})=\mathbf{0}$
+$\mathbf{y}:=Q^{-1}\mathbf{x}$ $\ \:$ — $\ \:$ novi generatori; novi sistem generatora: $A^{0}\mathbf{y}=\mathbf{0}$
+
+Matrično:
+$\left(\begin{array}{c|c}A&\mathbf{0}\\\hline I&\begin{array}{}x_{1}\\\dots\\x_{n}\end{array}\end{array}\right)\xrightarrow{\text{transformacije vrsta}}\left(\begin{array}{c|c}PA&\mathbf{0}\\\hline I&\begin{array}{}x_{1}\\\dots\\x_{n}\end{array}\end{array}\right)\xrightarrow{\text{transformacije kolona}} \left(\begin{array}{c|c}PAQ&\mathbf{0}\\\hline Q&\begin{array}{}x_{1}\\\dots\\x_{n}\end{array}\end{array}\right)\xrightarrow{\text{transformacije vrsta}}\left(\begin{array}{c|c}PAQ&\mathbf{0}\\\hline I&\begin{array}{}y_{1}\\\dots\\y_{n}\end{array}\end{array}\right)$
+
+
+> U donjem desnom uglu dobijamo nove generatore.
+> U gornjem levom uglu dobijamo $A^{0}=PAQ$ relacije među novim generatorima.
+
+> Čitamo $A^{0}=\left(\begin{array}{c|c} \begin{array}{}d_{1}&0&\cdots&0\\0&d_{2}&\dots&0\\\dots&\dots&\dots&\dots\\0&0&\dots&d_{k}\\\end{array}&\mathbf{0}\\\hline \mathbf{0}&\mathbf{0}\end{array}\right)$:
+> $A\cong \mathbb{Z}_{d_{1}}\times\mathbb{Z}_{d_{2}}\times\dots\times\mathbb{Z}_{d_{k}}\times\mathbb{Z}^{n-k}$
+> 
+> > Nekoliko prvih $d_{i}$ mogu biti jednake $1$, tada oni odgovaraju grupi $\{0\}$, koju ne pišemo u navedenom proizvodu.
