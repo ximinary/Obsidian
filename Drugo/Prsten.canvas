@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"bf15268931e6c9a5","type":"text","text":"Komutativni prsteni sa jedinicom","x":-144,"y":-110,"width":419,"height":383},
+		{"id":"2e4cc39e01337d62","type":"text","text":"Domeni","x":-113,"y":-37,"width":356,"height":270},
+		{"id":"15ec38afd0cc9e49","type":"text","text":"Polja","x":-81,"y":41,"width":293,"height":144},
+		{"id":"a5be1534ae6e970b","type":"text","text":"","x":-609,"y":519,"width":419,"height":302},
+		{"id":"af1a70439dc9cb4c","type":"text","text":"Pravi delitelji nule","x":-609,"y":519,"width":209,"height":255},
+		{"id":"e5d3130dc3505d38","type":"text","text":"Regularni elementi","x":-399,"y":519,"width":210,"height":255},
+		{"id":"e555815931a339d4","type":"text","text":"Invertibilni elementi","x":-370,"y":609,"width":154,"height":105},
+		{"id":"d7997563f0c1a251","type":"text","text":"","x":-144,"y":519,"width":419,"height":302},
+		{"id":"d6ac20091c9e553a","type":"text","text":"0","x":-609,"y":774,"width":419,"height":50},
+		{"id":"d65c7b7e1f01c1db","type":"text","text":"Regularni elementi","x":-143,"y":519,"width":418,"height":255},
+		{"id":"bd20addcc3504a14","type":"text","text":"Invertibilni elementi","x":-103,"y":609,"width":346,"height":105},
+		{"id":"cd25974d2dbcea76","type":"text","text":"","x":319,"y":519,"width":419,"height":302},
+		{"id":"3ed2a576d714fced","type":"text","text":"0","x":-143,"y":774,"width":419,"height":50},
+		{"id":"37ac3a7deee4c8f6","type":"text","text":"0","x":319,"y":774,"width":419,"height":50},
+		{"id":"f6ce40d8b723e16e","type":"text","text":"Invertibilni elementi","x":319,"y":519,"width":419,"height":255}
+	],
+	"edges":[]
+}

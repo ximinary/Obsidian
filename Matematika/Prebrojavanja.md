@@ -12,7 +12,7 @@ $\:$
 
 ### Dirihleov princip
 Rasporediti $k$ objekata u $n$ kutija:
-- $k>n\ \ \Rightarrow\ \ \exists$ bar jedna kutija sa barem $2$ objekata
+- $k>n\ \ \Rightarrow\ \ \exists$ bar jedna kutija sa barem $2$ objekata ^3dcb3c
 
 Uopštenje:
 - $k>c\,n\ \ \Rightarrow\ \ \exists$ bar jedna kutija sa barem $(c+1)$ objekata

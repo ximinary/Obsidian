@@ -3,9 +3,9 @@ $\:$  ^21d3b8
 
 
 **Def**. **Grupa** je [[Algebarska struktura|algebarska struktura]] $(G,\,\cdot)$, gde je $G$ neprazan skup a za binarnu operaciju $\cdot$ na $G$ važi:
-- $\forall x,\,y,\,z\in G\quad(x\cdot y)\cdot z=x\cdot(y\cdot z)$
-- $\forall e\in G\quad \forall x\in G\quad e\cdot x=x\cdot e=x$
-- $\forall x\in G\quad\exists \overline{x}\in G\quad \overline{x}\cdot x=x\cdot\overline{x}=e$
+- $\forall x,\,y,\,z\in G\quad(x\cdot y)\cdot z=x\cdot(y\cdot z)$ $\ \:$ (asocijativnost)
+- $\forall e\in G\quad \forall x\in G\quad e\cdot x=x\cdot e=x$ $\ \ \:$ (neutral)
+- $\forall x\in G\quad\exists \overline{x}\in G\quad \overline{x}\cdot x=x\cdot\overline{x}=e$ $\ \:$ (inverz)
 
 $e$ je **neutral** grupe
 **Stav**. Postoji jedinstven neutral.
@@ -18,7 +18,7 @@ $\overline{x}$ je **inverz** za $x$. Inverz se često označava sa $x^{-1}.$
 **Stav**. Za svaki element grupe postoji jedinstven inverz.
 
 **Def**. **Abelova** (komutativna) **grupa** je grupa $(G,\,\cdot)$ za koju važi:  ^9d2aa9
-- $\forall x,\,y\in G\quad x\cdot y=y\cdot x$
+- $\forall x,\,y\in G\quad x\cdot y=y\cdot x$  $\ \ \quad\quad\quad\quad\quad$ (komutativnost)
 
 Proizvod $\prod\limits_{i=1}^{n}x_{i},\quad x_{i}\in G$ se definiše rekurentnom formulom:
 $\begin{cases}\prod\limits_{i=1}^{n}x_{i}=e,&n=0\\\prod\limits_{i=1}^{n}x_{i}=\prod\limits_{i=1}^{n-1}x_{i}\cdot x_{n},&n>0\end{cases}$

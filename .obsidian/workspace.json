@@ -6,6 +6,7 @@
       {
         "id": "649b593f3c7e043e",
         "type": "tabs",
+        "dimension": 49.79253112033195,
         "children": [
           {
             "id": "7100408409c2aa4d",
@@ -13,20 +14,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Komutativan prsten sa jedinicom.md",
+                "file": "Invertibilni elementi u prstenu. Polje i domen.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Komutativan prsten sa jedinicom"
+              "title": "Invertibilni elementi u prstenu. Polje i domen"
             },
             "group": "28cef15ef08b4fc7"
           }
         ]
       },
       {
-        "id": "6cce6647b2a34611",
+        "id": "ba2ddded024f4fc4",
         "type": "tabs",
+        "dimension": 50.20746887966805,
         "children": [
           {
             "id": "0d0f8d6f36d43efe",
@@ -34,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Komutativan prsten sa jedinicom.md",
+                "file": "Invertibilni elementi u prstenu. Polje i domen.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Komutativan prsten sa jedinicom"
+              "title": "Invertibilni elementi u prstenu. Polje i domen"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -215,11 +217,19 @@
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
+    "Matematika/Komutativan prsten sa jedinicom.md",
+    "Invertibilni elementi u prstenu. Polje i domen.md",
+    "Media/regularan-i-pravi-delitelj.png",
     "Matematika/Algebarska struktura.md",
-    "Matematika/Grupa.md",
-    "Matematika/Konačno generisana Abelova grupa.md",
     "Matematika/Matematika.md",
     "Home.md",
+    "Drugo/Prsten.canvas",
+    "Drugo/Realokacija.canvas",
+    "Pasted image 20250723010743.png",
+    "Media/prsten-domen-polje.png",
+    "Drugo/Untitled.md",
+    "Matematika/Grupa.md",
+    "Matematika/Konačno generisana Abelova grupa.md",
     "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Složenost algoritma.md",
@@ -238,9 +248,6 @@
     "Računarstvo/Dinamička alokacija memorije (C).md",
     "Matematika/Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost.md",
     "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Vektorski i mešoviti proizvod vektora.md",
-    "Matematika/Vektorska funkcija.md",
     "Media/analiza1_2_lagranzovOblikOst.png",
     "Media/analiza1_2_peanovOblikOst.png",
     "Media/stav. relacija poretka u bulovim algebrama.png",
@@ -248,13 +255,9 @@
     "Media/stav. jednakost skupova.png",
     "Media/skupovi primer 2.png",
     "Media/skupovi primer 1.png",
-    "Media/stek.png",
-    "Media/tautologija primer 2.png",
-    "Media/tautologija primer 3.png",
     "Untitled.canvas",
     "Untitled",
     "Drugo/Promenljive.canvas",
-    "Drugo/Realokacija.canvas",
     "desktop.ini",
     "Media/transformacija baze 2 geo.png.~tmp",
     "Foursenser",
