@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Invertibilni elementi u prstenu. Polje i domen.md",
+                "file": "Matematika/Algebarska struktura.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Invertibilni elementi u prstenu. Polje i domen"
+              "title": "Algebarska struktura"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Invertibilni elementi u prstenu. Polje i domen.md",
+                "file": "Matematika/Algebarska struktura.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Invertibilni elementi u prstenu. Polje i domen"
+              "title": "Algebarska struktura"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -218,7 +218,7 @@
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
     "Matematika/Komutativan prsten sa jedinicom.md",
-    "Invertibilni elementi u prstenu. Polje i domen.md",
+    "Matematika/Invertibilni elementi u prstenu. Polje i domen.md",
     "Media/regularan-i-pravi-delitelj.png",
     "Matematika/Algebarska struktura.md",
     "Matematika/Matematika.md",
