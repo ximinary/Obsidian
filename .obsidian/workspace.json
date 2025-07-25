@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Algebarska struktura.md",
+                "file": "Direktan proizvod prstena.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebarska struktura"
+              "title": "Direktan proizvod prstena"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Algebarska struktura.md",
+                "file": "Direktan proizvod prstena.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebarska struktura"
+              "title": "Direktan proizvod prstena"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#math",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,10 +217,16 @@
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
+    "Matematika/Direktan proizvod grupa.md",
+    "Direktan proizvod prstena.md",
+    "Matematika/Algebarska struktura.md",
     "Matematika/Komutativan prsten sa jedinicom.md",
+    "Matematika/Homomorfizam komutativnih prstena sa jedinicom.md",
+    "Matematika/Grupa.md",
+    "Matematika/Homomorfizam grupa.md",
+    "Matematika/Potprsten i ideal.md",
     "Matematika/Invertibilni elementi u prstenu. Polje i domen.md",
     "Media/regularan-i-pravi-delitelj.png",
-    "Matematika/Algebarska struktura.md",
     "Matematika/Matematika.md",
     "Home.md",
     "Drugo/Prsten.canvas",
@@ -228,7 +234,6 @@
     "Pasted image 20250723010743.png",
     "Media/prsten-domen-polje.png",
     "Drugo/Untitled.md",
-    "Matematika/Grupa.md",
     "Matematika/Konačno generisana Abelova grupa.md",
     "Računarstvo/Ulaz i izlaz (C).md",
     "Računarstvo/Standardne biblioteke (C).md",
@@ -243,11 +248,6 @@
     "Računarstvo/Naredbe i kontrola toka (C).md",
     "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Računarstvo/Ispravnost programa.md",
-    "Računarstvo/Funkcije (C).md",
-    "Računarstvo/Doseg, životni vek i povezanost (C).md",
-    "Računarstvo/Dinamička alokacija memorije (C).md",
-    "Matematika/Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost.md",
-    "Matematika/Veza između određenog integrala i izvoda. Njutn-Lajbnicova formula.md",
     "Media/analiza1_2_lagranzovOblikOst.png",
     "Media/analiza1_2_peanovOblikOst.png",
     "Media/stav. relacija poretka u bulovim algebrama.png",

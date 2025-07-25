@@ -1,7 +1,7 @@
 #fax #math #alg  [deo [[Grupa|poglavlja "grupa"]]]
 $\:$
 
-**Def**. Neka su $(G_{1},\,*_{1}),\ (G_{2},\,*_{2}),\ \dots,\ (G_{n},\,*_{n})$ grupe. Direktan proizvod $(P,\,*)$ ovih grupa je:
+**Def**. Neka su $(G_{1},\,*_{1}),\ (G_{2},\,*_{2}),\ \dots,\ (G_{n},\,*_{n})$ grupe. Direktan proizvod $(P,\,*)$ ovih grupa je dat sa:
 - $P=G_{1}\times G_{2}\times \dots\times G_{n}$
 - $(g_{1},\,g_{2},\,\dots,\,g_{n})*(g'_{1},\,g'_{2},\,\dots,\,g'_{n})=(g_{1}*_{1}g'_{1},\,g_{2}*_{2}g'_{2},\,\dots,\,g_{n}*_{n}g'_{n})$
 

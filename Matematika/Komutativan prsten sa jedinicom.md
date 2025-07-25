@@ -1,7 +1,7 @@
 #fax #math #alg [deo [[Algebarska struktura|poglavlja "algebarska struktura"]]]
 $\:$ 
 
-**Def**. [[Algebarska struktura|Algebarska struktura]] $(A,\,+,\,\cdot)$ je **komutativan prsten sa jedinicom** (KP1) akko važe
+**Def**. [[Algebarska struktura|Algebarska struktura]] $(A,\,+,\,\cdot)$ je **komutativan prsten sa jedinicom** akko važe
 - $(A,\,+)$ je [[Konačno generisana Abelova grupa|Abelova]] [[Grupa|grupa]] 
 - $\forall x,\,y,\,z\in A\quad x\cdot(y+z)=x\cdot y+ x\cdot z$  $\ \ \:$ (distributivnost)
 - $\forall x,\,y,\,z\in A\quad (x\cdot y)\cdot z=x\cdot(y\cdot z)$  $\quad\quad\:$ (asocijativnost $\cdot$)
@@ -26,3 +26,6 @@ $\:$
 - $(-x)\cdot(-y)=x\cdot y$
   
 ### [[Invertibilni elementi u prstenu. Polje i domen]]
+### [[Potprsten i ideal]]
+### [[Homomorfizam komutativnih prstena sa jedinicom]]
+### [[Direktan proizvod prstena]]

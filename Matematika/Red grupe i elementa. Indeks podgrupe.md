@@ -41,7 +41,7 @@ ako je $a$ reda $n$, onda je $a^{m}$ reda $\begin{align}\frac{n}{\mathrm{NZD}(m,
 
 $\:$
 **Teorema**. 
-1. Svaka podgrupa ciklične grupe i sama je ciklična.
+1. Svaka podgrupa ciklične grupe i sama je ciklična. ^077b13
 2. $G$ je ciklična grupa reda $n$. Tada
   $k\,|\,n\quad\Rightarrow\quad\exists!H\leqslant G\ \ \:\ \ |H|=k$
 
