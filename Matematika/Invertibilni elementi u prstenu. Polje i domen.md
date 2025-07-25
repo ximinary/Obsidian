@@ -3,7 +3,7 @@ $\:$
 
 
 **Def**. Neka je $A$ komutativan prsten sa jedinicom. **Skup svih invertibilnih elemenata** u $A$ u odnosu na $\cdot$ je $U(A)=\{x\in A\ \big|\ \exists y\in A\quad a\cdot b = 1\}$ 
-$\big(U(A),\,\cdot\big)$ je **grupa invertibilnih elemenata** prstena $A$.
+$\big(U(A),\,\cdot\big)$ je **grupa invertibilnih elemenata** prstena $A$. ^d07f3d
 
 > Napomena: $0$ nema inverz: $x\cdot0=0\ne1$, ako $A\ne\{0\}$
 

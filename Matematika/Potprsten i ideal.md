@@ -67,6 +67,9 @@ $\:$
 ### Kongruencija po idealu
 **Def**. $I\triangleleft A$. Na $A$ definišemo relaciju kongruencije po idealu $I$ sa $a\equiv_{I} b\quad\Leftrightarrow\quad a-b\in I$
 
+> Napomena: umesto $\:$ $a\equiv_{m\mathbb{Z}}b$ $\:$ pišemo $\:$ $a\equiv_{m} b$ $\:$ u prstenu celih brojeva.
+
+$\:$
 **Stav**. Upravo definisana relacija je [[Relacija ekvivalencije|relacija ekvivalencije]].
 > Dokaz:
 > Refleksivnost. Kako $0\in I\quad\Rightarrow\quad a-a\in I\quad\Rightarrow\quad a\equiv_{I} a$
@@ -85,3 +88,4 @@ Skup klasa ekvivalencije $A/I=\{a+I\ \big|\ a\in A\}$.
 $(A/I,\,+,\,\cdot)$ je komutativni prsten sa jedinicom, koji zovemo **količnički prsten** prstena $A$ po idealu $I$. Operacije:
 - $(a+I)+(b+I)=(a+b)+I$
 - $(a+I)\cdot(b+I)=(a\cdot b)+I$
+

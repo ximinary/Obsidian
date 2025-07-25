@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Direktan proizvod prstena.md",
+                "file": "Matematika/Algebarska struktura.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Direktan proizvod prstena"
+              "title": "Algebarska struktura"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Direktan proizvod prstena.md",
+                "file": "Matematika/Algebarska struktura.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Direktan proizvod prstena"
+              "title": "Algebarska struktura"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -215,17 +215,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bdbbe8b6f74eb67e",
+  "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
-    "Matematika/Direktan proizvod grupa.md",
-    "Matematika/Direktan proizvod prstena.md",
-    "Matematika/Algebarska struktura.md",
     "Matematika/Komutativan prsten sa jedinicom.md",
+    "Matematika/Direktan proizvod prstena.md",
+    "Matematika/Invertibilni elementi u prstenu. Polje i domen.md",
     "Matematika/Homomorfizam komutativnih prstena sa jedinicom.md",
+    "Matematika/Potprsten i ideal.md",
+    "Matematika/Direktan proizvod grupa.md",
+    "Matematika/Algebarska struktura.md",
     "Matematika/Grupa.md",
     "Matematika/Homomorfizam grupa.md",
-    "Matematika/Potprsten i ideal.md",
-    "Matematika/Invertibilni elementi u prstenu. Polje i domen.md",
     "Media/regularan-i-pravi-delitelj.png",
     "Matematika/Matematika.md",
     "Home.md",

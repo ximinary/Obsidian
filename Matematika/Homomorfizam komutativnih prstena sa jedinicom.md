@@ -35,12 +35,13 @@ $\:$
 $\:$
 > Napomena: [[Potprsten i ideal#^15271e|Stav]] se dokazuje pomoću homomorfizma.
 
-___
 $\:$
+### Izomorfizam
+**Def**. Homomorfizam komutativnih prstena sa jedinicom je **izomorfizam**, ako je bijekcija. Oznaka: $A\cong B$.
 > Napomena: [[Potprsten i ideal#Kongruencija po idealu|kongruencije]]
 
 $\:$
-**Teorema** (o izomorfizmu). Neka je $f:\ A\to B$ homomorfizam komutativnih prstena sa jedinicom. Tada $f$ indukuje izomorfizam $\ \:$ $\tilde{f}:\ A/\mathrm{Ker}\,f\to\mathrm{Im}\,f$ $\ \:$ definisan sa $\ \:$ $\tilde{f}(a+\mathrm{Ker}\,f):=f(a)$ $\ \:$ i važi $\ \:$ $A/\mathrm{Ker}\,f \cong \mathrm{Im}\, f$.
+**Teorema** (o izomorfizmu). Neka je $f:\ A\to B$ homomorfizam komutativnih prstena sa jedinicom. Tada $f$ indukuje izomorfizam $\ \:$ $\tilde{f}:\ A/\mathrm{Ker}\,f\to\mathrm{Im}\,f$ $\ \:$ definisan sa $\ \:$ $\tilde{f}(a+\mathrm{Ker}\,f):=f(a)$ $\ \:$ i važi $\ \:$ $A/\mathrm{Ker}\,f \cong \mathrm{Im}\, f$. ^023ba8
 > Dokaz: Prvo pokažemo da je $\tilde{f}$ dobro definisana $(\Rightarrow)$, kao i da je "1-1" $(\Leftarrow)$:
 > $a+\mathrm{Ker}\,f=b+\mathrm{Ker}\,f\quad\Leftrightarrow\quad a-b\in \mathrm{Ker}\,f\quad\Leftrightarrow\quad f(a-b)=0$
 > $\Leftrightarrow\quad f(a)=f(b)\quad\Leftrightarrow\quad\tilde{f}(a+\mathrm{Ker}\,f)=\tilde{f}(b+\mathrm{Ker}\, f)$
@@ -48,3 +49,31 @@ $\:$
 > Da li $\tilde{1}$ slika $1_{A/\mathrm{Ker}\, f}$ u $1_{B}$?
 > $\tilde{f}(1_{A}+\mathrm{Ker}\,f)=f(1_{A})=1_{B}$.
 > Zaključujemo da je $\tilde{f}$ izomorfizam.
+
+$\:$
+**Stav**. $\mathbb{Z}_{m}\cong \mathbb{Z}/m\mathbb{Z}$ ^f4e2f8
+> Dokaz:
+> $\rho_{n}:\ \mathbb{Z}\to \mathbb{Z}_{n}$ def. sa $\rho_{n}(x)=x\,\mathrm{mod}\,n$ je homomorfizam.
+> $\mathrm{Ker}\,\rho_{n}=m\mathbb{Z}$
+> Iz teoreme o izomorfizmu dobije se tvrđenje.
+
+
+$\:$
+**Stav**. Nek su $A\cong B$ komutativni prsteni sa jedinicom. Tada $\big(U(A),\,\cdot\big)\cong\big(U(B),\,\cdot\big)$ ^8cba06
+> Dokaz: ([[Invertibilni elementi u prstenu. Polje i domen#^d07f3d|*]])
+> Neka je $f$ izomorfizam prstena.
+> 
+> Homomorfizam prstena slika invertibilni element u invertibilni?
+> Neka je $a\in U(A)$, tada $\exists a'\in U(A)\ \ \:\ \ a\cdot a'=1_{A}$
+> $f(a)\cdot f(a')=f(a\cdot a')=f(1_{A})=1_{B}\quad\Rightarrow\quad f(a)\in U(B)$ 
+> Prema tome, $f[U(A)]\subseteq U(B)$
+> Stoga, restrikcija $f\big|_{U(A)}:\ U(A)\to U(B)$ jeste homomorfizam grupa $\big(U(A),\,\cdot\big)$ i $\big(U(B),\,\cdot\big)$.
+>
+> "1-1": svojstvo se čuva na restrikciji.
+>
+> "na": kako je $f$ izomorfizam prstena, $\forall b\in U(b)\quad\exists a\in A\quad f(a)=b$,
+> a koko je $b$ invertibilni $\exists b'\in U(B)\quad b'\cdot b=1_{B}$
+> i za $b'\quad\exists \overline{a}\in A\quad f(\overline{a})=b'$
+> imamo $1_{B}=b'\cdot b =f(\overline{a})\cdot f(a)=f(\overline{a}\cdot a)\quad\xRightarrow{{f} \text{ je "1-1"}}\quad \overline{a}\cdot a=1_{A}\quad\Rightarrow\quad a\in U(A)$.
+
+
