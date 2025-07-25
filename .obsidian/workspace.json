@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Direktan proizvod prstena.md",
+                "file": "Matematika/Direktan proizvod prstena.md",
                 "mode": "source",
                 "source": true
               },
@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Direktan proizvod prstena.md",
+                "file": "Matematika/Direktan proizvod prstena.md",
                 "mode": "preview",
                 "source": true
               },
@@ -215,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d0f8d6f36d43efe",
+  "active": "bdbbe8b6f74eb67e",
   "lastOpenFiles": [
     "Matematika/Direktan proizvod grupa.md",
-    "Direktan proizvod prstena.md",
+    "Matematika/Direktan proizvod prstena.md",
     "Matematika/Algebarska struktura.md",
     "Matematika/Komutativan prsten sa jedinicom.md",
     "Matematika/Homomorfizam komutativnih prstena sa jedinicom.md",
