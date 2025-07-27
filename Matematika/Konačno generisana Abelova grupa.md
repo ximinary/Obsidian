@@ -42,11 +42,25 @@ $B_{1}\oplus B_{2}\oplus\dots\oplus B_{k}\cong B_{1}\times B_{2}\times\dots\time
 > "1-1": jasno je da je to predstavljanje jednoznačno iz definicije direktne sume. 
 
 $\:$
-### Normalna forma
+### Normalna forma. Uslov cikličnosti
 **Teorema**. Neka je $A$ konačno generisana Abelova grupa. Tada postoje pozitivni brojevi $d_{1},\,\dots,\,d_{k}\in \mathbb{Z}$ i $s\in \mathbb{N}_{0}$ takvi da 
 $\forall i=\overline{1,k\!-\!1}\quad d_{i}\,\big|\,d_{i+1}$ $\ \:$ i $\ \:$ $\boxed{A\cong \mathbb{Z}_{d_{1}}\times\mathbb{Z}_{d_{2}}\times\dots\times\mathbb{Z}_{d_{k}}\times\mathbb{Z}^{s}}$.
 
-Brojevi $d_{1},\,d_{2},\,\dots,\,d_{k}$ zovu se **invarijantni delitelji**, a prikaz u zaokruženom obliku **normalna forma** 
+Brojevi $d_{1},\,d_{2},\,\dots,\,d_{k}$ zovu se **invarijantni delitelji**, a prikaz u zaokruženom obliku **normalna forma**.
+
+$\:$
+**Stav**. Neka je $A$ Abelova grupa reda $m$ i neka za svako $d$, koje deli $m$, postoji najviše $d$ elemenata $a\in A$ takvih da  $d\cdot a=0$. Tada je $A$ ciklična. ^0889d3
+> Dokaz: Iz prethodne teoreme i jer je $A$ konačna:
+> postoje $k\in \mathbb{Z}$ $\:$ i $\:$ $d_{1},\,\dots,\,d_{k}\in \mathbb{N}$ takvi da $A\cong \mathbb{Z}_{d_{1}}\times\mathbb{Z}_{d_{2}}\times\dots\times\mathbb{Z}_{d_{k}}$, 
+> gde $\forall i=\overline{2,k}\quad d_{i-1}\,\big|\,d_{i}$ $\:$ i $\:$ $m=d_{1}\cdot d_{2}\cdots d_{k}$
+> 
+> $\forall i=\overline{2,k}\quad d_{i-1}\,\big|\,d_{i}\quad\Rightarrow\quad\forall i=\overline{2,k}\quad\exists p_{i}\in \mathbb{Z}\quad d_{i}=d_{i-1}\cdot p_{i}$
+> Tada $d_{k}=d_{k-1}\cdot p_{k}=d_{k-2}\cdot p_{k-1}\cdot p_{k}=\dots=d_{1}\cdot p_{2}\cdot p_{3}\cdots p_{k-1}\cdot p_{k}$
+> Odakle, $\forall x=(x_{1},\,x_{2},\,\dots,\,x_{k})\in \mathbb{Z}_{d_{1}}\times\mathbb{Z}_{d_{2}}\times\dots\times\mathbb{Z}_{d_{k}}\quad d_{k}\cdot x=0$
+> Iz pretpostavke jer $d_{n}\,\big|\,m$ postoje najviše $d_{n}$ elemenata takvih da $d_{k}\cdot x=0$ 
+> tj. $m\leqslant d_{k}$, stoga zaključujemo da $k =1$, a $m=d_{1}$, tj. $A\cong \mathbb{Z}_{d_{k}}$ jeste ciklična.
+
+$\:$
 ### Generatori zadati sistemom jednačina/matricom
 Neka je Abelova grupa $A$ zadata generatorima $x_{1},\,x_{2},\,\dots,\,x_{n}$ za koje važe
 $\begin{align}a_{11}x_{1}+a_{12}x_{2}+\dots+a_{1n}x_{n}&=0\\a_{21}x_{1}+a_{22}x_{2}+\dots+a_{2n}x_{n}&=0\\&\dots\\a_{m1}x_{1}+a_{m2}x_{2}+\dots+a_{mn}x_{n}&=0\end{align}$

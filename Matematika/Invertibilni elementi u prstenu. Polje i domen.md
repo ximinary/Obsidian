@@ -16,9 +16,9 @@ $\big(U(A),\,\cdot\big)$ je **grupa invertibilnih elemenata** prstena $A$. ^d07f
 > inverz: iz definicije skupa
 
 $\:$
-**Def**. **Polje** je komutativan prsten sa jedinicom $A$ u kojem $U(A)=A\setminus\{0\}$
+**Def**. **Polje** je komutativan prsten sa jedinicom $A$ u kojem $U(A)=A\setminus\{0\}$ ^b98e89
 
-**Stav**. $(\mathbb{Z}_{n},\,+_{n},\,\cdot_{n})$ je polje akko $n$ je prost broj.
+**Stav**. $(\mathbb{Z}_{n},\,+_{n},\,\cdot_{n})$ je polje akko $n$ je prost broj. ^9c82dc
 > Dokaz: $U(\mathbb{Z}_{n})=\Phi(n)$
 > Jer $x\in \mathbb{Z}_{n}$ ima inverz po $\cdot$ akko $x$ delji $n$.
 

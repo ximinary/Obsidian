@@ -129,7 +129,7 @@ Tada $a^{\varphi(n)}\equiv_{n}1$
 > Na osnovu [[Red grupe i elementa. Indeks podgrupe#^026da4|posledice]] $\overline{a}^{\varphi(n)}\equiv_{n}1$
 
 Posledica (mala Fermaova teorema). $a\in \mathbb{N}$,$\ p$ je prost, $p\nmid a$. 
-Tada $a^{p-1}\equiv_{p}1$
+Tada $a^{p-1}\equiv_{p}1$ ^8d358b
 
 [[kongr primer 4.png|Primer]]
 
