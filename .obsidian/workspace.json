@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Algebarska struktura.md",
+                "file": "Matematika/Komutativan prsten sa jedinicom.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebarska struktura"
+              "title": "Komutativan prsten sa jedinicom"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Algebarska struktura.md",
+                "file": "Matematika/Komutativan prsten sa jedinicom.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebarska struktura"
+              "title": "Komutativan prsten sa jedinicom"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -217,21 +217,21 @@
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
-    "Matematika/Komutativan prsten sa jedinicom.md",
-    "Matematika/Primitivni koren.md",
     "Matematika/Algebarska struktura.md",
-    "Matematika/Kongruentnost.md",
-    "Matematika/Konačno generisana Abelova grupa.md",
+    "Matematika/Komutativan prsten sa jedinicom.md",
+    "Matematika/Matematika.md",
     "Matematika/Direktan proizvod prstena.md",
-    "Matematika/Grupa.md",
+    "Matematika/Potprsten i ideal.md",
+    "Matematika/Primitivni koren.md",
     "Matematika/Homomorfizam komutativnih prstena sa jedinicom.md",
     "Matematika/Invertibilni elementi u prstenu. Polje i domen.md",
-    "Matematika/Potprsten i ideal.md",
+    "Matematika/Grupa.md",
+    "Matematika/Konačno generisana Abelova grupa.md",
+    "Home.md",
+    "Matematika/Kongruentnost.md",
     "Matematika/Direktan proizvod grupa.md",
     "Matematika/Homomorfizam grupa.md",
     "Media/regularan-i-pravi-delitelj.png",
-    "Matematika/Matematika.md",
-    "Home.md",
     "Drugo/Prsten.canvas",
     "Drugo/Realokacija.canvas",
     "Pasted image 20250723010743.png",

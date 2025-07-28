@@ -40,7 +40,7 @@ $\:$
 
 $\:$
 **Teorema**. Neka su $m_{1},\,m_{2},\,\dots,\,m_{n}\in \mathbb{N}$ par po par uzajamno prosti brojevi. Tada
-- $\mathbb{Z}_{m_{1}}\cdots\mathbb{Z}_{m_{n}}\cong \mathbb{Z}_{m_{1}}\times\dots\times\mathbb{Z}_{m_{n}}$
+- $\mathbb{Z}_{m_{1}\cdots m_{n}}\cong \mathbb{Z}_{m_{1}}\times\dots\times\mathbb{Z}_{m_{n}}$
 - $\varphi(m_{1}\cdots m_{n})=\varphi(m_{1})\cdots\varphi(m_{n})$ $\quad$ ($\varphi$ je Ojlerova fja)
  
 > Dokaz: prvo tvrđenje sledi iz [[Direktan proizvod prstena#^0f9bac|stava]] i [[Homomorfizam komutativnih prstena sa jedinicom#^f4e2f8|stava]];

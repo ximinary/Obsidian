@@ -40,7 +40,7 @@ ___
 $\:$
 **Def**. Neka su $I$ i $J$ ideali komutativnog prstena sa jedinicom $A$. Tada
 $I+J:= \{x+y\ \big|\ x\in I,\,y\in J\}$
-$I\,\cdot\, J\,:=\left\{x_{1}y_{1}+\dots+x_{n}y_{n}\quad  \Bigg|\quad \begin{array}{l}\forall i=\overline{1,n}\quad x_{i}\in I,\\\forall j=\overline{1,n}\quad y_{j}\in J,\end{array}\quad\forall n\in\mathbb{N}\right\}$
+$I\,\cdot\, J\,:=\left\{x_{1}y_{1}+\dots+x_{n}y_{n}\quad  \Bigg|\quad n\in\mathbb{N},\quad \begin{array}{l}\forall i=\overline{1,n}\quad x_{i}\in I\\\forall j=\overline{1,n}\quad y_{j}\in J\end{array}\right\}$
 
 
 
