@@ -132,7 +132,7 @@ int unget(int c, FILE* fp);  // "vraća" karakter c u datoteku (ne menja datotek
 
 ##### Provera grešaka i kraja datoteke
 ```c
-int feof(FILE* fp);   // vraća ne-nulu ako je došlo do kraja datoteke 
+int feof(FILE* fp);   // vraća nenulu ako je došlo do kraja datoteke 
 ```
 
 ```c
