@@ -26,7 +26,7 @@ $\:$
 **Posledica** (prethodnog stava i [[Red grupe i elementa. Indeks podgrupe#^077b13|teoreme]]). Svaki ideal u $\mathbb{Z}$ je oblika $⟨m⟩,\ \ m\in\mathbb{N}_{0}$
 
 $\:$
-**Def**. Neka je $A$ komutativan prsten sa jedinicom i $a\in A$. Tada je $⟨a⟩:=\{r\cdot a\ \big|\ r\in A\}$ **glavni ideal** generisan elementom $a$.
+**Def**. Neka je $A$ komutativan prsten sa jedinicom i $a\in A$. Tada je $⟨a⟩:=\{r\cdot a\ \big|\ r\in A\}$ **glavni ideal** generisan elementom $a$. ^938480
 
 **Stav**. Neka je $n\geqslant 2$ prirodan broj. Tada svaki ideal u $\mathbb{Z}_{n}$ je glavni. ^15271e
 > Dokaz: Neka je $\rho_{n}:\ \mathbb{Z}\to\mathbb{Z}_{n}$ def sa $\rho_{n}(x)=x\, \mathrm{mod}\, n$.
@@ -56,7 +56,7 @@ $I\,\cdot\, J\,:=\left\{x_{1}y_{1}+\dots+x_{n}y_{n}\quad  \Bigg|\quad n\in\mathb
 
 ___
 $\:$
-**Stav**. Neka je $K$ polje i $I\triangleleft K$. Tada ili $I=\{0\}$ ili $I=K$.
+**Stav**. Neka je $K$ polje i $I\triangleleft K$. Tada ili $I=\{0\}$ ili $I=K$. ^680460
 > Dokaz: Neka je $K$ polje i $I\triangleleft K\ \ :\ \ I\ne\{0\}$.
 > $K$ je polje tj. $\forall x\in K\setminus\{0\}\quad \exists x'\in K\quad x\cdot x'=x'\cdot x=1$
 > Kako $I\ne\{0\}$, $\ \:$ $\exists x\in I,\quad x\ne 0$, a za njega $\ \:$ $\exists x'\in K\quad x'\cdot x=1$

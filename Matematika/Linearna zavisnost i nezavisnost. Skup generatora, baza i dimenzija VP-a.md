@@ -14,7 +14,7 @@ Ako je $B$ skup generatora $V$, tada važi
    $\Rightarrow\quad B''$ je skup generatora $V$
 ### Linearna zavisnost i nezavisnost
 **Def**. Neka je $B=\{{a_{1},\,a_{2},\,\dots,\,a_{n}\}}\subseteq V$. $B$ je **linearno nezavisan** ako jednačina  $\alpha_{1}\,a_{1}+\alpha_{2}\,a_{2}+\dots+\alpha_{n}\,a_{n}= 0,\quad \alpha_{i}\in\mathbb{F}\ \ \forall i=\overline{1,n}$
-ima jedinstveno rešenje $\alpha_{1}=\alpha_{2}=\dots=\alpha_{n}=0$
+ima jedinstveno rešenje $\alpha_{1}=\alpha_{2}=\dots=\alpha_{n}=0$ ^004a66
 
 $B$ je **linearno zavisan** inače.
 

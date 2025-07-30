@@ -9,7 +9,7 @@ $\:$
 **Def**. Neka je $f:\ A\to B$ homomorfizam komutativnih prstena sa jedinicom. Tada je **jezgro homomorfizma** $\ \:$ $\mathrm{Ker}\,f=\{x\in A\ \big|\ f(x)=0_{B}\}$.
 
 **Stav**. Neka je $f:\ A\to B$ homomorfizam komutativnih prstena sa jedinicom. Tada ([[Direktna i inverzna slika skupa|*]])
-- $(\mathrm{Ker}\,f) \triangleleft A$
+- $(\mathrm{Ker}\,f) \triangleleft A$ ^131642
 -  $J\triangleleft B\quad\Rightarrow\quad f^{-1}[J]\triangleleft A$ ^7dc661
 -  $I\triangleleft A\ \ \text{ i }\ \ f \text{ je "na"}\quad\Rightarrow\quad f[J]\triangleleft B$ ^2b3501
 
@@ -30,7 +30,7 @@ $\:$
 >   $x\in I,\ a\in A\quad\Rightarrow\quad f(a\cdot x)=f(a)\cdot'f(x)=b\cdot' u\in f[I]$
 
 $\:$
-**Stav**. Neka je $f:\ A\to B$ homomorfizam komutativnih prstena sa jedinicom. Tada $\mathrm{Ker}\,f=\{0_{A}\}\quad\Leftrightarrow\quad f$ je "1-1".
+**Stav**. Neka je $f:\ A\to B$ homomorfizam komutativnih prstena sa jedinicom. Tada $\mathrm{Ker}\,f=\{0_{A}\}\quad\Leftrightarrow\quad f$ je "1-1". ^2420ae
 
 $\:$
 > Napomena: [[Potprsten i ideal#^15271e|Stav]] se dokazuje pomoću homomorfizma.

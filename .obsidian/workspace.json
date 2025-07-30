@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Raširenja polja.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Raširenja polja"
+              "title": "Analiza"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Raširenja polja.md",
+                "file": "Matematika/Analiza.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Raširenja polja"
+              "title": "Analiza"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -215,16 +215,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7100408409c2aa4d",
+  "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
-    "Računarstvo/Ulaz i izlaz (C).md",
+    "Matematika/Matematika.md",
+    "Matematika/Geometrija.md",
+    "Home.md",
     "Matematika/Raširenja polja.md",
+    "Računarstvo/Ulaz i izlaz (C).md",
     "Matematika/Komutativan prsten sa jedinicom.md",
     "Matematika/Invertibilni elementi u prstenu. Polje i domen.md",
     "Matematika/Potprsten i ideal.md",
     "Matematika/Algebarska struktura.md",
-    "Matematika/Matematika.md",
-    "Home.md",
     "Matematika/Grupa.md",
     "Matematika/Primitivni koren.md",
     "Matematika/Direktan proizvod prstena.md",
@@ -247,7 +248,6 @@
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
     "Računarstvo/Pokazivači (C).md",
     "Računarstvo/Organizacija memorije (C).md",
-    "Računarstvo/Organizacija izvornog koda (C).md",
     "Media/analiza1_2_lagranzovOblikOst.png",
     "Media/analiza1_2_peanovOblikOst.png",
     "Media/stav. relacija poretka u bulovim algebrama.png",
