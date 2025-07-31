@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Home"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Home"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -217,8 +217,11 @@
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
-    "Home.md",
     "Matematika/Matematika.md",
+    "Home.md",
+    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Složenost algoritma.md",
+    "Računarstvo/Ispravnost programa.md",
     "Matematika/Brojevi.md",
     "Matematika/Celi brojevi.md",
     "Matematika/Grupa.md",
@@ -245,9 +248,6 @@
     "Media/prsten-domen-polje.png",
     "Drugo/Untitled.md",
     "Računarstvo/Standardne biblioteke (C).md",
-    "Računarstvo/Složenost algoritma.md",
-    "Računarstvo/Računarstvo.md",
-    "Računarstvo/Računarski sistem.md",
     "Media/analiza1_2_lagranzovOblikOst.png",
     "Media/analiza1_2_peanovOblikOst.png",
     "Media/stav. relacija poretka u bulovim algebrama.png",

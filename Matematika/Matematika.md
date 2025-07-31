@@ -8,7 +8,7 @@ $\:$
 [[Relacija]] i [[funkcija]]
 [[Algebarska struktura]]
 [[Brojevi]]
-Graf
+
 
 [[Geometrija]]
 [[Linearna algebra]]
