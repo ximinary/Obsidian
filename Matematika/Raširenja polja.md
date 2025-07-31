@@ -100,4 +100,6 @@ $F[\alpha]:=\big\{p(\alpha)\ \big|\ p(X)\in F[X]\big\}$
 $\:$
 **Def**. Raširenje $E$ polja $F$ je **algebarsko** ako je svaki element iz $E$ algebarski nad $F$.
 
-**Stav**. Svako konačno raširenje je algebarsko.
+**Stav**. Svako konačno raširenje (konačnodimenzioni VP) je algebarsko.
+
+**Stav**. Svako konačno raširenje $E$ polja $\mathbb{Q}$ je oblika $\mathbb{Q}(\alpha)=\{x+\alpha\cdot y\ \big|\ x,\,y\in \mathbb{Q}\},\ \ \alpha\in E$.
