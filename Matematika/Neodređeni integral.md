@@ -79,7 +79,7 @@ $\ \ \ \, \quad$ $\begin{align}\int 1 \, dx =x+ C,\quad C\in\mathbb{R}\end{align
    $\begin{align}\int \sin x \, dx =-\cos x + C,\quad C\in\mathbb{R}\end{align}$
    $\:$
 7. $x\in\mathbb{R}$
-   $\begin{align}\int \cos x \, dx =\cos x + C,\quad C\in\mathbb{R}\end{align}$
+   $\begin{align}\int \cos x \, dx =\sin x + C,\quad C\in\mathbb{R}\end{align}$
  $\:$
 8. $\begin{align}x\in\mathbb{R}\setminus\Big\{ \frac{\pi}{2}+\pi k \ \Big|\ k\in\mathbb{Z} \Big\}=\bigcup_{k\,\in\,\mathbb{Z}}\Big(\frac{\pi}{2}+\pi k,\ \frac{3\pi}{2}+\pi k\Big)\end{align}$
    $\begin{align}\int \frac{1}{\cos^{2} x} \, dx =\mathrm{tg}\,x + C_{k},\quad C_{k}\in\mathbb{R},\ x\in\Big(\frac{\pi}{2}+\pi k,\ \frac{3\pi}{2}+\pi k\Big), \quad \forall k \in \mathbb{Z}\end{align}$

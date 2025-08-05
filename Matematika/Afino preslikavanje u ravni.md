@@ -111,7 +111,7 @@ Specijalni slučajevi:
 - $\mathcal{H}_{-1,\,1}=\mathcal{S}_{\mathrm{O}y}$
 - $\mathcal{H}_{-1,\,-1}=\mathcal{R}_{\pi}$
 
-Ako $\lambda_{1}=\lambda_{2}=\lambda$, pišemo $\mathcal{H}_{\lambda} \ \ \Big(\mathcal{H}_{Q,\,\lambda}\Big)$ i kažemo da takvo preslikavanje **homotetija**.
+Ako $\lambda_{1}=\lambda_{2}=\lambda$, pišemo $\mathcal{H}_{\lambda} \ \ \Big(\mathcal{H}_{Q,\,\lambda}\Big)$ i kažemo da je takvo preslikavanje **homotetija**.
 
 ### Smicanje u $\mathbb{E}^{2}$
 
