@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Matematika/Geometrija.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Geometrija"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Matematika.md",
+                "file": "Matematika/Geometrija.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matematika"
+              "title": "Geometrija"
             },
             "group": "28cef15ef08b4fc7"
           }
@@ -212,37 +212,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "webpage-html-export:Export as HTML": false
     }
   },
   "active": "0d0f8d6f36d43efe",
   "lastOpenFiles": [
-    "Matematika/Analiza.md",
-    "Matematika/Određeni integral.md",
-    "Matematika/Integracija nekih iracionalnih funkcija.md",
-    "Matematika/Neodređeni integral.md",
-    "Matematika/Integracija racionalnih funkcija od sinusa i kosinusa.md",
-    "Matematika/Integracija racionalnih funkcija.md",
-    "Matematika/Metode integracije (neodređeni integral).md",
-    "Matematika/Matematika.md",
-    "Matematika/Geometrija.md",
-    "Matematika/Kvaternion.md",
-    "Matematika/Analitička geometrija u prostoru.md",
-    "Matematika/Afino preslikavanje.md",
-    "Matematika/Afino preslikavanje u ravni.md",
-    "Matematika/Afino preslikavanje u prostoru.md",
-    "Home.md",
-    "Matematika/Krive drugog reda.md",
-    "Matematika/Analitička geometrija u ravni.md",
-    "Matematika/Reper. Koordinate vektora i tačke.md",
-    "Matematika/Centar mase i težište.md",
-    "Računarstvo/Računarstvo.md",
+    "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Složenost algoritma.md",
+    "Računarstvo/Programski jezik C.md",
+    "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
     "Računarstvo/Ispravnost programa.md",
-    "Matematika/Brojevi.md",
-    "Matematika/Celi brojevi.md",
-    "Matematika/Grupa.md",
-    "Matematika/Homomorfizam grupa.md",
+    "Računarstvo/Funkcije (C).md",
+    "Računarstvo/Doseg, životni vek i povezanost (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Matematika/Vektorski i mešoviti proizvod vektora.md",
+    "Matematika/Valuacija (iskazna logika).md",
+    "Matematika/Tautologija.md",
+    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
+    "Matematika/Sistem linearnih jednačina.md",
+    "Matematika/Relacija ekvivalencije.md",
+    "Matematika/Redukcija linearnog operatora.md",
+    "Matematika/Rang matrice. Elementarne transformacije.md",
+    "Matematika/Prost broj.md",
+    "Matematika/Projektovanje vektora i skalarni proizvod vektora.md",
+    "Matematika/Predikatska logika.md",
+    "Matematika/Potprostor. Operacije nad potprostorima.md",
+    "Matematika/Podnizovi.md",
+    "Matematika/Particija skupa.md",
     "Media/regularan-i-pravi-delitelj.png",
     "Drugo/Prsten.canvas",
     "Drugo/Realokacija.canvas",

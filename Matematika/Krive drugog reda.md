@@ -2,13 +2,13 @@
 
 ### Krive drugog reda
 **Def**. Kriva drugog reda je skup tačaka u ravni koje zadovoljavaju jednačinu $f(x,\,y) =a_{11}\,x^{2}+2a_{12}\,x\,y+a_{22}\,x^{2}+2a_{13}\,x +2a_{23}\,y + a_{33}=0$
-$f(x,\,y)=\left(\begin{array}{}x&y&1\end{array}\right)\left(\begin{array}{}a_{11}&a_{12}&a_{13}\\a_{12}&a_{22}&a_{23}\\a_{13}&a_{23}&a_{33}\end{array}\right)\left(\begin{array}{}x\\y\\1\end{array}\right)$
+$f(x,\,y)=\left(\begin{array}{}x&y&1\end{array}\right)\!\left(\begin{array}{}a_{11}&a_{12}&a_{13}\\a_{12}&a_{22}&a_{23}\\a_{13}&a_{23}&a_{33}\end{array}\right)\!\!\left(\begin{array}{}x\\y\\1\end{array}\right)$
 
 **Teorema** (o svođenju krive drugog reda na kanonski oblik "kretanjem"). Svaku krivu drugog reda rotacijom i translacijom koordinata moguće je svesti na tačno jedan od oblika:
 
 $\begin{align}&(\mathrm{E})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1,\quad a\geqslant b\\\\&(\mathrm{H})\ \ \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1\\\\&(\mathrm{P})\ \ y^{2}=2\,p\,x,\quad p> 0\\\\&(\mathrm{D}_{1})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=0\quad\quad\quad&&(\mathrm{D}_{4})\ \ \frac{x^{2}}{a^{2}}=1\\\\&(\mathrm{D}_{2})\ \ \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=0&&(\mathrm{D}_{5})\ \ \frac{x^{2}}{a^{2}}=-1\\\\&(\mathrm{D}_{3})\ \ \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=-1&&(\mathrm{D}_{6})\ \ x^{2}=0\end{align}$
-### Konus i konusni preseci
 
+### Konusni preseci
 **Def**. Neka prave $s$ i $i$ se seku u tački $\mathrm{T}$. Površ dobijena rotacijom $i$ oko prave $s$ se zove **kružni konus**. 
 $\mathrm{T}$ je **teme** konusa, $i$ je **izvodnica** konusa, a $s$ je **osa** konusa.
 
