@@ -42,7 +42,7 @@ $A'$ je skup svih tačaka nagomilavanja skupa $A.$
 > za ostale prostore radi jednostavnosti uzimamo $\overline{X}=X$
 
 ---
-![[analiza1_0_vrste_tačaka.png]]
+![[analiza1_0_vrste_tacaka.png]]
 
 ### Ograničenost i kompaktnost
 **Def**. Skup $A\subseteq X$ je **ograničen** ako $\exists\varepsilon>0\ \ :\ \ A\subseteq\mathrm{O}_{\varepsilon}(0)$

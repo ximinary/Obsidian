@@ -12,7 +12,7 @@ $\:$
 Slično limesu funkcije jedne promenljive za limes funkcije više promenljivih važe [[Limes funkcije jedne promenljive#Svojstva limesa funkcije|svojstva]]: tvrđenja 1-4, aritmetičke operacije i teorema o tri limesa.
 
 $\:$
-Teorema (Hajneova definicija limesa funkcije).
+**Teorema** (Hajneova definicija limesa funkcije).
 Neka su $D_{f}\subseteq\mathbb{R}^{n},\ \ \ f:\ D_{f}\to\mathbb{R},\ \ \ \mathbf{a}\in  D_{f}',\ \ \  L\in \overline{\mathbb{R}}$
 $\lim\limits_{ \mathbf{x} \to \mathbf{a} }f(\mathbf{x})=L\quad\Leftrightarrow\quad\forall\text{niz }\underset{(\mathbf{a}_{n}\,\ne\,\mathbf{a})}{\mathbf{a}_{n}\to \mathbf{a}}\ \ \text{ važi }\ \lim\limits_{ n \to \infty }f(\mathbf{a}_{n})=L$
 

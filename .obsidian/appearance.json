@@ -1,4 +1,5 @@
 {
   "accentColor": "#b2009e",
-  "showRibbon": true
+  "showRibbon": true,
+  "baseFontSize": 17
 }
