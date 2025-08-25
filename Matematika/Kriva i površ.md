@@ -6,11 +6,11 @@
 $\mathbf{r}(t)=\big(x_{1}(t),\,x_{2}(t),\,\dots,\,x_{n}(t)\big)$.
 Kriva je **regularna** ako  $\forall t\in I\quad\mathbf{r}'(t)=\big(x_{1}'(t),\,x_{2}'(t),\,\dots,\,x_{n}'(t)\big)\ne \mathbf{0}$. ^f25bf0
 
-**Def**. $\tau$ je **tangenta** na (regularnu) krivu parametrizovanu sa $\mathbf{r}$ u tački $\mathbf{a}=\mathbf{r}(t_{0})$, ako prolazi kroz $\mathbf{a}$ i vektor pravca joj  je $\mathbf{r}'(t_{0})=\big(x'(t),\,y'(t),\,z'(t)\big)$
+**Def**. $\tau$ je **tangenta** na (regularnu) krivu parametrizovanu sa $\mathbf{r}$ u tački $\mathbf{a}=\mathbf{r}(t_{0})$, ako prolazi kroz $\mathbf{a}$ i vektor pravca joj  je $\mathbf{r}'(t_{0})=\big(x_{1}'(t_{0}),\,x_{2}'(t_{0}),\,\dots,\,x_{n}'(t_{0})\big)\ne \mathbf{0}$
 
-Kriva parametrizovana sa $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{3}$ je **zatvorena** ako $\mathbf{r}(a)=\mathbf{r}(b)$. ^66ef03
+Kriva parametrizovana sa $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{n}$ je **zatvorena** ako $\mathbf{r}(a)=\mathbf{r}(b)$. ^66ef03
 
-Kriva parametrizovana sa $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{3}$ je **prosta** ako $\forall x,\,y\in(a,\,b)\quad\mathbf{r}(x)\ne\mathbf{r}(y)$. 
+Kriva parametrizovana sa $\mathbf{r}:\ [a,\,b]\to\mathbb{R}^{n}$ je **prosta** ako $\forall x,\,y\in(a,\,b)\quad\mathbf{r}(x)\ne\mathbf{r}(y)$. 
 
 > Napomena: [[Krive drugog reda]]
 
