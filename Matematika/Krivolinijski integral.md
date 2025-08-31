@@ -25,14 +25,14 @@ Tada je $\begin{align}I=\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| \end
 Ako je $\mathcal{C}$ [[Kriva i površ#^66ef03|zatvorena]] pišemo $\begin{align}I=\oint_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| \end{align}$.
 
 $\:$
-**Teorema**. Ako je $f$ deo po deo neprekidna i $\mathbf{r}$ je regularna parametrizacija krive $\mathcal{C}$, onda $\begin{align}\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| =\int_{a}^{b} (f\circ \mathbf{r})(t)\,||r'(t)||\, dt \end{align}$ 
+**Teorema**. Ako je $f$ deo po deo neprekidna i $\mathbf{r}$ je regularna parametrizacija krive $\mathcal{C}$, onda $\begin{align}\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| =\int_{a}^{b} (f\circ \mathbf{r})(t)\,||\mathbf{r}'(t)||\, dt \end{align}$ 
 > Dokaz:
 > $\begin{align}\sigma(f,\,\mathbf{P},\,\boldsymbol{\xi})=\sum\limits_{i=1}^{n}||\mathbf{x}_{i}-\mathbf{x}_{i-1}||\,f(\boldsymbol{\xi}_{i})=\sum\limits_{i=1}^{n}||\mathbf{r}(t_{i})-\mathbf{r}(t_{i-1})||\,f(\mathbf{r}(\xi_{i}))=\end{align}$
 > $\begin{align}=\sum\limits_{i=1}^{n}(t_{i}-t_{i-1})\Bigg|\Bigg|\frac{\mathbf{r}(t_{i})-\mathbf{r}(t_{i-1})}{t_{i}-t_{i-1}}\Bigg|\Bigg|\,(f\circ \mathbf{r})(\xi_{i})=\end{align}$ $\Big[\,$[[Teoreme o srednjoj vrednosti#^e52da5|Lagranž]], $\mu_{i}\in(t_{i-1},\,t_{i})\,\Big]=$
 > $\begin{align}=\sum\limits_{i=1}^{n}(t_{i}-t_{i-1})||\mathbf{r}'(\mu_{i})||\,(f\circ \mathbf{r})(\xi_{i})\end{align}$
 > 
 > $\begin{align}\int_{\mathcal{C}} f(\mathbf{x}) \, ||d\mathbf{r}|| =\lim\limits_{ \lambda(\mathbf{P}) \to 0 }\sigma(f,\,\mathbf{P},\,\boldsymbol{\xi})=\lim\limits_{ \lambda(\mathcal{P}) \to 0 }\sum\limits_{i=1}^{n}(t_{i}-t_{i-1})||\mathbf{r}'(\mu_{i})||\,(f\circ \mathbf{r})(\xi_{i})=\end{align}$
-> $\begin{align}=\int_{a}^{b} (f\circ \mathbf{r})(t)\,||r'(t)||\, dt \end{align}$ 
+> $\begin{align}=\int_{a}^{b} (f\circ \mathbf{r})(t)\,||\mathbf{r}'(t)||\, dt \end{align}$ 
 
 $\:$
 **Def**. $||d\mathbf{r}||=||\mathbf{r}'(t)||\,dt$ je **element dužine**.

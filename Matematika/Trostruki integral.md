@@ -79,7 +79,7 @@ $\begin{align}\iiint_{F[D]} f(x,\,y,\,z) \, dxdydz = \iiint_{D} f(r\cos \theta,\
 > Dokaz: sledi iz [[Dvostruki integral#^10b6ee|polarne smene]] u $\mathbb{R}^{2}$
 
 $\:$
-**Teorema** (sferna smena). Neka sferna smena $F:\ (r,\,\theta,\,\varphi)\mapsto (r\cos \theta\sin\varphi,\,r\sin \theta\sin\varphi,\,r\cos\varphi), \quad r\geqslant0,\ 0\leqslant\theta<2\pi,\,-\frac{\pi}{2}\leqslant\varphi\leqslant\frac{\pi}{2}$
+**Teorema** (sferna smena). Neka sferna smena $F:\ (r,\,\theta,\,\varphi)\mapsto (r\cos \theta\sin\varphi,\,r\sin \theta\sin\varphi,\,r\cos\varphi), \quad r\geqslant0,\ 0\leqslant\theta<2\pi,\,0\leqslant\varphi\leqslant\pi$
 slika merljiv skup $D$ u merljiv skup $F[D]$, $f\,\mathcal{C}\,F[D]$. Tada
 $\begin{align}\iiint_{F[D]} f(x,\,y,\,z) \, dxdydz = \iiint_{D} f(r\cos \theta\sin\varphi,\,r\sin \theta\sin\varphi,\,r\cos\varphi)\,r^{2}\sin\varphi \, drd\theta d\varphi\end{align}$
 > Dokaz:
