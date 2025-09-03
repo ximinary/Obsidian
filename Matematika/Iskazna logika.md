@@ -31,6 +31,9 @@ $For$ - skup svih formula
 
 Tipični zadaci: [[Tautologija]], [[Ostrva (iskazna logika)]]
 
+____
+$\:$
+#uoar
 ### [[Logička funkcija]]
 ### [[Normalne forme]]
 ### [[Minimalizacija logičkih izraza]]

@@ -1,4 +1,4 @@
-#fax #cs/prog [deo [[Računarstvo|računarstva]]]
+#fax #cs/prog [ [[Home]] ]
 $\:$
 
 Efikasnost algoritma:
