@@ -33,7 +33,7 @@ Tipični zadaci: [[Tautologija]], [[Ostrva (iskazna logika)]]
 
 ____
 $\:$
-#uoar
+#cs/uoar
 ### [[Logička funkcija]]
 ### [[Normalne forme]]
 ### [[Minimalizacija logičkih izraza]]

@@ -1,4 +1,4 @@
-#fax #math #ds1 [deo [[Iskazna logika|iskazne logike]]]
+#fax #math #cs/uoar [deo [[Iskazna logika|iskazne logike]]]
 $\:$
 
 **Def**. Logička funkcija reda $n$ je [[funkcija]] $f:\ \{ 0,\,1 \}^{n}\to\{0,\,1\}.$

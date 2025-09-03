@@ -7,6 +7,7 @@ $\:$
 #### Računarstvo #cs
 - [[Složenost algoritma]]
 - [[Programski jezik C]]
+- #cs/uoar 
 $\:$
 
 ---

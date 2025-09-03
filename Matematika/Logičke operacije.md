@@ -1,4 +1,4 @@
-#fax #math #ds1 #cs/ar [deo [[Iskazna logika|iskazne logike]]]
+#fax #math #ds1 #cs/uoar [deo [[Iskazna logika|iskazne logike]]]
 $\:$
 
 1. **Negacija** iskaza $p$ je
