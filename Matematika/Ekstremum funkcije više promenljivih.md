@@ -66,7 +66,7 @@ $\:$
 **Def**. Neka je $f$ definisana na $S\subset\mathbb{R}^{n}$, a $S$ je zadat pomoću sistema jednačina $\begin{cases}\varphi_{1}(x_{1},\,\dots,\,x_{n})=0\\\varphi_{2}(x_{1},\,\dots,\,x_{n})=0\\\dots\\\varphi_{m}(x_{1},\,\dots,\,x_{n})=0\end{cases}$. Funkcija $f$ ima **uslovni** lokalni ekstremum na skupu $S$ u tački $\mathbf{x}^{0}$ ako $f\big|_{S}$ ima lokalni ekstremum u $\mathbf{x}^{0}$.
 
 $\:$
-**Teorema**. Neka je skup $S$ zadat pomoću sistema jednačina $\begin{cases}\varphi_{1}(\mathbf{x})=0\\\varphi_{2}(\mathbf{x})=0\\\dots\\\varphi_{m}(\mathbf{x})=0\end{cases}$, pri tome fja $\varphi_{i}$ je diferencijabilna za $\forall i=\overline{1,n}$ i skup vektora $\Big\{\nabla\varphi_{i}(\mathbf{x})\ \Big|\ i=\overline{1,n}\Big\}$ je linearno nezavisan za $\forall\mathbf{x}\in S$. Neka je $f$ diferencijabilna na nekom otvorenom skupu $I$ takvom da $S\subseteq I$ i neka je $\mathbf{x}^{0}$ lokalni ekstremum fje $f\big|_{S}$. Tada
+**Teorema** (nužni uslov uslovnog lokalnog ekstremuma). Neka je skup $S$ zadat pomoću sistema jednačina $\begin{cases}\varphi_{1}(\mathbf{x})=0\\\varphi_{2}(\mathbf{x})=0\\\dots\\\varphi_{m}(\mathbf{x})=0\end{cases}$, pri tome fja $\varphi_{i}$ je diferencijabilna za $\forall i=\overline{1,n}$ i skup vektora $\Big\{\nabla\varphi_{i}(\mathbf{x})\ \Big|\ i=\overline{1,n}\Big\}$ je linearno nezavisan za $\forall\mathbf{x}\in S$. Neka je $f$ diferencijabilna na nekom otvorenom skupu $I$ takvom da $S\subseteq I$ i neka je $\mathbf{x}^{0}$ lokalni ekstremum fje $f\big|_{S}$. Tada
 $\exists\lambda_{1},\,\dots,\,\lambda_{m}\in\mathbb{R}\ \ :\ \ \nabla\!f(\mathbf{x}^{0})=\lambda_{1}\,\nabla\varphi_{1}(\mathbf{x}^{0})+\dots+\lambda_{m}\,\nabla\varphi_{m}(\mathbf{x}^{0})$
 (Brojeve $\lambda_{1},\,\dots,\,\lambda_{m}$ se nazivaju **Lagranžovi množioci**)
 > Dokaz: razmotrimo dva osnovna slučaja, koje je moguće generalizovati.
@@ -99,3 +99,13 @@ $\:$
 > Uslove $\begin{cases}\nabla\!f(\mathbf{x})=\lambda_{1}\nabla\varphi_{1}(\mathbf{x})+\lambda_{2}\nabla\varphi_{2}(\mathbf{x})+\dots+\lambda_{m}\nabla\varphi_{m}(\mathbf{x})\\\varphi_{1}(\mathbf{x})=0\\\varphi_{2}(\mathbf{x})=0\\\dots\\\varphi_{m}(\mathbf{x})=0\\\end{cases}$
 > možemo zameniti uslovom $dF(\mathbf{x},\,\lambda_{1},\,\lambda_{2},\,\dots,\,\lambda_{m})=0$, gde je 
 > $F:\ \mathbb{R}^{n+m}\to\mathbb{R}$ $\ \:$ def. sa $\ \:$  $F(\mathbf{x},\,\lambda_{1},\,\lambda_{2},\,\dots,\,\lambda_{m})=f(\mathbf{x})-\Big[\lambda_{1}\varphi_{1}(\mathbf{x})+\lambda_{2}\varphi_{2}(\mathbf{x})+\dots+\lambda_{m}\varphi_{m}(\mathbf{x})\Big]$
+
+
+$\:$
+**Teorema** (dovoljni uslov uslovnog lokalnog ekstremuma). 
+Neka $\mathbf{x}^{0}\in S$ zadovoljava nužni uslov i neka je  $\mathbf{q}(x_{1},\,x_{2},\,\dots,\,x_{n})$ [[Bilinearna i kvadratna forma#Kvadratne forme|kvadratna forma]], koja je [[Bilinearna i kvadratna forma#^ef95f8|pridružena]] [[Parcijalni izvod#^39ff87|matrici drugog izvoda]] fje $f$ u $\mathbf{x}^{0}$. 
+Pomoću sistema jednačina $\ \:$ $d\varphi_{i}(\mathbf{x}^{0})(x_{1},\,x_{2},\,\dots,\,x_{n})=0,\quad i=\overline{1,m}$ $\ \:$ izražavamo $x_{m+1},\,x_{m+2},\,\dots,\,x_{n}$ preko $x_{1},\,x_{2},\,\dots,\,x_{m}$ i dobijamo kvadratnu formu $\widetilde{\mathbf{q}}(x_{m+1},\,x_{m+1},\,\dots,\,x_{n})$. Tada
+
+- ako je $\widetilde{\mathbf{q}}$ [[Bilinearna i kvadratna forma#^3b0bdd|strogo pozitivna]] onda je $\mathbf{x}^{0}$ uslovni lokalni minimum;
+- ako je $\widetilde{\mathbf{q}}$ [[Bilinearna i kvadratna forma#^8d6aad|strogo negativna]] onda je $\mathbf{x}^{0}$ uslovni lokalni maksimum;
+- ako je $\widetilde{\mathbf{q}}$ [[Bilinearna i kvadratna forma#^0e3137|promenljivog znaka]] onda $\mathbf{x}^{0}$ nije uslovni lokalni ekstremum.
