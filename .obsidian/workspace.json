@@ -14,34 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "Home.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            },
-            "group": "c3eeac6c42d02ff8"
-          }
-        ]
-      },
-      {
-        "id": "5af39d3970e1447e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "80fde5f8318e4a6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Home"
-            },
-            "group": "c3eeac6c42d02ff8"
+            }
           }
         ]
       }
@@ -216,32 +194,33 @@
   },
   "active": "7d3cb9cc1d60009f",
   "lastOpenFiles": [
-    "Matematika/Ekstremum funkcije više promenljivih.md",
-    "Matematika/Diferencijabilnost funkcije više promenljivih.md",
-    "Matematika/Analiza.md",
-    "Matematika/Izvod funkcije jedne promenljive.md",
-    "Matematika/Matematika.md",
-    "Matematika/Linearna algebra.md",
-    "Home.md",
     "Materijali po predmetima.md",
-    "Matematika/Površinski integral.md",
-    "Matematika/Diferencijalna jednačina.md",
-    "Matematika/Krivolinijski integral.md",
-    "Matematika/Konzervativno vektorsko polje.md",
-    "Matematika/Trostruki integral.md",
-    "Matematika/Dvostruki integral.md",
-    "Matematika/Algebra nad poljem.md",
-    "Matematika/Vektorski prostor.md",
-    "Matematika/Parcijalni izvod.md",
-    "Matematika/Tejlorov polinom funkcije više promenljivih.md",
-    "Matematika/Limes i neprekidnost funkcije više promenljivih.md",
-    "Matematika/Kriva i površ.md",
+    "Home.md",
+    "Matematika/Matematika.md",
+    "Matematika/Elementarna matematika.md",
+    "Matematika/Analiza.md",
+    "Matematika/Limes funkcije jedne promenljive.md",
+    "Media/analiza1_3_Hajne.png",
+    "Matematika/Realni brojevi.md",
     "Matematika/Metrika.md",
-    "Matematika/Furijeov red u prostoru C₀.md",
-    "Matematika/Prostor C₀.md",
-    "Matematika/Beskonačnodimenzioni Euklidski prostor. Niz i red vektora.md",
+    "Matematika/Vrste tačaka u odnosu na neki skup. Ograničenost i kompaktnost.md",
+    "Matematika/Okolina tačke.md",
     "Računarstvo/Standardne biblioteke (C).md",
     "Računarstvo/Predstavljanje podataka i operacije nad njima (C).md",
+    "Računarstvo/Pokazivači (C).md",
+    "Računarstvo/Organizacija memorije (C).md",
+    "Računarstvo/Naredbe i kontrola toka (C).md",
+    "Računarstvo/Makroi i uslovno prevođenje (C).md",
+    "Računarstvo/Funkcije (C).md",
+    "Računarstvo/Doseg, životni vek i povezanost (C).md",
+    "Računarstvo/Dinamička alokacija memorije (C).md",
+    "Matematika/Vektorski i mešoviti proizvod vektora.md",
+    "Matematika/Valuacija (iskazna logika).md",
+    "Matematika/Tautologija.md",
+    "Matematika/Slika i jezgro, rang i defekt linearnog operatora. Regularni operator.md",
+    "Matematika/Sistem linearnih jednačina.md",
+    "Matematika/Relacija ekvivalencije.md",
+    "Matematika/Redukcija linearnog operatora.md",
     "Media/analiza1_3_3_3.png",
     "Media/analiza1_2_Tejlor.png",
     "Media/analiza1_2_izvodiVisegReda.png",
@@ -253,7 +232,6 @@
     "Media/analiza1_2_lagranzovOblikOst.png",
     "Media/analiza1_2_peanovOblikOst.png",
     "Media/stav. relacija poretka u bulovim algebrama.png",
-    "Media/stav. jednakost uredenih parova.png",
     "Untitled.canvas",
     "Untitled",
     "Drugo/Promenljive.canvas",

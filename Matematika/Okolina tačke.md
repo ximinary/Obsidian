@@ -12,7 +12,7 @@
 	- $\mathring{\mathrm{O}}_{\varepsilon}(a) = (a-\varepsilon,\,a+\varepsilon)\setminus\{ a \}$
 	- $\mathring{\mathrm{O}}_{\varepsilon}(+\infty) = (\frac{1}{\varepsilon},\, +\infty)$
 	- $\mathring{\mathrm{O}}_{\varepsilon}(-\infty) = (-\infty,\, -\frac{1}{\varepsilon})$
-- leva $\varepsilon$-poluokolina tačke $a$*:
+- leva $\varepsilon$-poluokolina* tačke $a$:
 	- $\mathrm{O}_{\varepsilon}^{-}(a)=(a-\varepsilon,\,a]$
 - leva šuplja $\varepsilon$-poluokolina** tačke $a$:
 	- $\mathring{\mathrm{O}}_{\varepsilon}^{-}(a)=(a-\varepsilon,\,a)$
